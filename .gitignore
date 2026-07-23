@@ -1,0 +1,28 @@
+# videos are 23GB total, never commit them
+videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# annotation output is user-generated locally, sent back out-of-band
+# (email/drive), not meant to accumulate in this repo automatically
+annotations/raw/
+annotations/*.jsonl
+!annotations/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node (in case any analysis tooling ends up using it)
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

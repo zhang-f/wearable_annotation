@@ -1,0 +1,620 @@
+<title>EgoProactive pilot annotator</title>
+<style>
+  body { font-family: -apple-system, sans-serif; margin: 0; padding: 16px; background: #1e1e1e; color: #ddd; }
+  h1 { font-size: 16px; margin: 0 0 12px; color: #fff; }
+  .row { display: flex; gap: 16px; align-items: flex-start; }
+  .col { flex: 1; }
+  select, input[type=text] { background: #2a2a2a; color: #ddd; border: 1px solid #444; padding: 6px; border-radius: 4px; width: 100%; box-sizing: border-box; }
+  .panel { background: #2a2a2a; border-radius: 6px; padding: 12px; margin-bottom: 12px; }
+  .task-ctx { font-size: 13px; line-height: 1.5; }
+  .task-ctx b { color: #7fc7ff; }
+  video { width: 100%; max-height: 60vh; background: #000; border-radius: 4px; }
+  .gran-btns { display: flex; gap: 8px; margin: 8px 0; }
+  .gran-btns button { flex: 1; padding: 10px; border-radius: 4px; border: 1px solid #444; background: #333; color: #ddd; cursor: pointer; font-size: 13px; }
+  .gran-btns button.active { background: #2e6da4; border-color: #2e6da4; color: #fff; font-weight: bold; }
+  .hint { font-size: 12px; color: #999; margin-top: 4px; min-height: 16px; }
+  .timeline { position: relative; height: 28px; background: #111; border-radius: 4px; margin: 8px 0; cursor: pointer; user-select: none; }
+  .timeline .fill { position: absolute; top: 0; bottom: 0; left: 0; background: #2e6da4; opacity: 0.35; pointer-events: none; }
+  .timeline .playhead { position: absolute; top: -3px; bottom: -3px; width: 2px; background: #fff; pointer-events: none; box-shadow: 0 0 4px #fff; }
+  .timeline .mark { position: absolute; top: 0; bottom: 0; width: 3px; background: #ff5555; cursor: pointer; z-index: 2; }
+  .timeline .mark:hover { background: #ffaa00; width: 5px; }
+  .timeline.dragging { cursor: grabbing; }
+  .controls { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+  .controls button { padding: 6px 10px; border-radius: 4px; border: 1px solid #444; background: #333; color: #ddd; cursor: pointer; }
+  .speed-btn { padding: 6px 8px; border-radius: 4px; border: 1px solid #444; background: #333; color: #ddd; cursor: pointer; font-size: 12px; }
+  .speed-btn.active { background: #2e6da4; border-color: #2e6da4; color: #fff; font-weight: bold; }
+  .time-display { font-family: monospace; font-size: 16px; color: #7fc7ff; min-width: 90px; }
+  .marks-list { max-height: 260px; overflow-y: auto; font-size: 13px; }
+  .marks-list .m { display: flex; align-items: center; gap: 4px; padding: 4px 6px; border-bottom: 1px solid #333; }
+  .marks-list .m .t { font-family: monospace; color: #7fc7ff; width: 48px; flex-shrink: 0; }
+  .marks-list .m input { background: #1e1e1e; color: #ddd; border: 1px solid #444; border-radius: 3px; padding: 3px 5px; font-size: 12px; width: 45%; }
+  .marks-list .m input.en-input { color: #9fd; }
+  .marks-list .m button { background: none; border: none; color: #ff7777; cursor: pointer; font-size: 13px; flex-shrink: 0; }
+  .complete-row { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+  .status { font-size: 12px; color: #7fdc7f; min-height: 16px; }
+  .progress-panel { font-size: 12px; color: #aaa; }
+  label { font-size: 13px; color: #bbb; display: block; margin-bottom: 4px; }
+</style>
+
+<h1>EgoProactive pilot annotator — three-granularity interrupt marking
+  <span style="font-size:12px; font-weight:normal; color:#999; margin-left:12px;">
+    annotator: <b id="annotator-id-display" style="color:#7fc7ff;"></b>
+    <a href="#" id="change-annotator-link" style="color:#7fc7ff; margin-left:6px;">(change)</a>
+  </span>
+</h1>
+
+<div class="row">
+  <div class="col" style="flex: 2;">
+    <div class="panel">
+      <label for="video-input">Video (type to filter, or pick from list)</label>
+      <div style="display:flex; gap:6px;">
+        <input id="video-input" list="video-list" placeholder="click and type to search video_id / task, or press Load" style="flex:1;" />
+        <button id="btn-load" style="white-space:nowrap;">Load</button>
+        <button id="btn-prev" style="white-space:nowrap;">&larr; Prev</button>
+        <button id="btn-next" style="white-space:nowrap;">Next &rarr;</button>
+      </div>
+      <datalist id="video-list"></datalist>
+    </div>
+
+    <div class="panel task-ctx" id="task-ctx">Pick a video to begin.</div>
+
+    <div class="panel">
+      <video id="player"></video>
+      <div class="timeline" id="timeline"></div>
+      <div class="controls">
+        <button id="btn-playpause">Play/Pause (p)</button>
+        <button id="btn-back1">-1s</button>
+        <button id="btn-frame-back">-1 frame</button>
+        <button id="btn-frame-fwd">+1 frame</button>
+        <button id="btn-fwd1">+1s</button>
+        <span class="time-display" id="time-display">0.0s</span>
+        <span id="speed-btns" style="display:flex; gap:4px; margin-left:12px;"></span>
+        <button id="btn-mark" style="margin-left: auto; background:#2e6da4; border-color:#2e6da4; color:#fff;">Mark point (space/enter)</button>
+      </div>
+      <div class="hint">Click-and-drag anywhere on the bar below to scrub freely. Keys: space/enter = mark point at current time. p = play/pause. left/right arrow = 1 frame step (paused) or 1s seek. shift+left/right = 1s seek always. [ / ] = slower/faster playback.</div>
+      <div class="panel" id="desc-input-row" style="display:none; margin-top:8px; background:#234;">
+        <label>Description for point at <b id="desc-input-t"></b>s (Chinese, optional — Enter to save, Esc to skip)</label>
+        <input id="desc-input" type="text" placeholder="用中文随手写这段在干什么，回车保存并自动翻译，Esc跳过" />
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="panel">
+      <label>Granularity</label>
+      <div class="gran-btns">
+        <button data-g="free" id="g-free">free</button>
+        <button data-g="coarse" id="g-coarse">coarse</button>
+        <button data-g="fine" id="g-fine">fine</button>
+      </div>
+      <div class="hint" id="gran-hint"></div>
+      <div class="complete-row">
+        <input type="checkbox" id="chk-complete" />
+        <label for="chk-complete" style="margin:0;">mark this video+granularity as complete</label>
+      </div>
+      <div class="status" id="status"></div>
+    </div>
+
+    <div class="panel">
+      <label>Marks for current video + granularity</label>
+      <div class="marks-list" id="marks-list"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <label>Progress overview — click any row to load that video (touched videos only; use search above to bring in a new one)</label>
+  <div id="progress-summary" style="margin-bottom:8px;"></div>
+  <div style="max-height: 320px; overflow-y: auto;">
+    <table id="progress-table" style="width:100%; border-collapse: collapse; font-size: 13px;">
+      <thead>
+        <tr style="text-align:left; color:#7fc7ff; border-bottom: 1px solid #444;">
+          <th style="padding:4px;">video_id</th>
+          <th style="padding:4px;">task</th>
+          <th style="padding:4px;">free</th>
+          <th style="padding:4px;">coarse</th>
+          <th style="padding:4px;">fine</th>
+        </tr>
+      </thead>
+      <tbody id="progress-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+// Annotator ID: prompted once, stored in this browser's localStorage, sent
+// with every API call. Loop until a non-empty value is given -- everything
+// downstream (marks, output filename) is scoped by this, so it can't be
+// skipped or left blank.
+function getOrPromptAnnotatorId() {
+  let id = localStorage.getItem("egoproactive_annotator_id");
+  while (!id || !id.trim()) {
+    id = prompt("Enter your annotator ID (used to tag your results and name your output file, e.g. your name or initials). This is asked once and remembered in this browser.");
+  }
+  id = id.trim();
+  localStorage.setItem("egoproactive_annotator_id", id);
+  return id;
+}
+let ANNOTATOR_ID = getOrPromptAnnotatorId();
+document.getElementById("annotator-id-display").textContent = ANNOTATOR_ID;
+document.getElementById("change-annotator-link").addEventListener("click", (e) => {
+  e.preventDefault();
+  localStorage.removeItem("egoproactive_annotator_id");
+  ANNOTATOR_ID = getOrPromptAnnotatorId();
+  document.getElementById("annotator-id-display").textContent = ANNOTATOR_ID;
+  if (currentVideoId) loadVideo(currentVideoId);
+  loadProgress();
+});
+
+const GRAN_HINTS = {
+  free:   "Mark at whatever pace feels natural to you.",
+  coarse: "Only mark when a MAJOR step / big action finishes (main step transitions).",
+  fine:   "Mark every time an identifiable SUB-action finishes, even small ones.",
+};
+
+let videos = [];
+let videoById = {};
+let currentVideoId = null;
+let currentGran = "coarse";
+let state = { free: null, coarse: null, fine: null };
+let fps = 15;
+
+// Chinese text is shown in the UI so you can see/edit what you typed and
+// re-trigger translation, but it is NEVER sent to storage -- only
+// description_en is persisted. This cache is client-side/in-memory only,
+// keyed by "videoId|granularity|t", and is empty again after a page
+// reload (expected: nothing to restore since nothing was saved).
+let clientZh = {};
+function zhKey(videoId, gran, t) { return `${videoId}|${gran}|${t}`; }
+
+const player = document.getElementById("player");
+const timeline = document.getElementById("timeline");
+const timeDisplay = document.getElementById("time-display");
+const marksList = document.getElementById("marks-list");
+const statusEl = document.getElementById("status");
+const taskCtx = document.getElementById("task-ctx");
+const chkComplete = document.getElementById("chk-complete");
+
+async function loadVideos() {
+  const r = await fetch("/api/videos");
+  const j = await r.json();
+  videos = j.videos;
+  videoById = Object.fromEntries(videos.map(v => [v.video_id, v]));
+  const dl = document.getElementById("video-list");
+  dl.innerHTML = videos.map(v => `<option value="${v.video_id}">${v.task || ""}</option>`).join("");
+}
+
+async function loadProgress() {
+  const r = await fetch("/api/progress?annotator_id=" + encodeURIComponent(ANNOTATOR_ID));
+  const j = await r.json();
+  const touched = Object.keys(j.progress).sort();
+  let doneFree = 0, doneCoarse = 0, doneFine = 0;
+  for (const vid of touched) {
+    const p = j.progress[vid];
+    if (p.free && p.free.completed) doneFree++;
+    if (p.coarse && p.coarse.completed) doneCoarse++;
+    if (p.fine && p.fine.completed) doneFine++;
+  }
+  document.getElementById("progress-summary").innerHTML =
+    `<b>${touched.length}</b> videos touched. Completed: free=${doneFree}/${touched.length}, ` +
+    `coarse=${doneCoarse}/${touched.length}, fine=${doneFine}/${touched.length}`;
+
+  const cell = (p, g) => {
+    const d = p[g];
+    if (!d) return `<span style="color:#666;">-</span>`;
+    const mark = d.completed ? "✅" : "⬜";
+    return `${mark} ${d.n_marks}`;
+  };
+
+  const tbody = document.getElementById("progress-tbody");
+  tbody.innerHTML = touched.map(vid => {
+    const p = j.progress[vid];
+    const meta = videoById[vid];
+    const task = meta ? meta.task : "";
+    const isCurrent = vid === currentVideoId;
+    return `<tr data-vid="${vid}" style="cursor:pointer; border-bottom:1px solid #333; ${isCurrent ? "background:#2e4d6d;" : ""}">` +
+      `<td style="padding:4px;">${vid}</td>` +
+      `<td style="padding:4px; color:#aaa;">${task}</td>` +
+      `<td style="padding:4px;">${cell(p, "free")}</td>` +
+      `<td style="padding:4px;">${cell(p, "coarse")}</td>` +
+      `<td style="padding:4px;">${cell(p, "fine")}</td>` +
+      `</tr>`;
+  }).join("");
+
+  for (const tr of tbody.querySelectorAll("tr")) {
+    tr.addEventListener("click", () => {
+      const vid = tr.dataset.vid;
+      document.getElementById("video-input").value = vid;
+      loadVideo(vid);
+    });
+  }
+}
+
+function setGranularity(g) {
+  currentGran = g;
+  for (const gg of ["free", "coarse", "fine"]) {
+    document.getElementById("g-" + gg).classList.toggle("active", gg === g);
+  }
+  document.getElementById("gran-hint").textContent = GRAN_HINTS[g];
+  refreshUnitUI();
+}
+
+function refreshUnitUI() {
+  const unit = state[currentGran];
+  if (!unit) return;
+  chkComplete.checked = !!unit.completed;
+  renderMarks();
+  renderTimeline();
+}
+
+function renderMarks() {
+  const unit = state[currentGran];
+  marksList.innerHTML = "";
+  if (!unit || !unit.points.length) {
+    marksList.innerHTML = "<div style='color:#666'>no marks yet</div>";
+    return;
+  }
+  for (const p of unit.points) {
+    const row = document.createElement("div");
+    row.className = "m";
+
+    const tSpan = document.createElement("span");
+    tSpan.className = "t";
+    tSpan.textContent = p.t.toFixed(1) + "s";
+    row.appendChild(tSpan);
+
+    const zhInput = document.createElement("input");
+    zhInput.className = "zh-input";
+    zhInput.placeholder = "中文（不落盘，仅用于翻译）";
+    zhInput.value = clientZh[zhKey(currentVideoId, currentGran, p.t)] || "";
+    zhInput.title = "Chinese is never saved to disk -- editing this and confirming re-runs translation and re-saves description_en only.";
+    zhInput.addEventListener("change", () => {
+      const zh = zhInput.value.trim();
+      clientZh[zhKey(currentVideoId, currentGran, p.t)] = zh;
+      if (zh) translateAndSavePoint(p.t, zh);
+    });
+    row.appendChild(zhInput);
+
+    const enInput = document.createElement("input");
+    enInput.className = "en-input";
+    enInput.placeholder = "English description";
+    enInput.value = p.description_en || "";
+    enInput.addEventListener("change", () => updatePoint(p.t, "description_en", enInput.value));
+    row.appendChild(enInput);
+
+    const delBtn = document.createElement("button");
+    delBtn.textContent = "delete";
+    delBtn.addEventListener("click", () => unmark(p.t));
+    row.appendChild(delBtn);
+
+    marksList.appendChild(row);
+  }
+}
+
+async function updatePoint(t, field, value) {
+  if (!currentVideoId) return;
+  const body = { annotator_id: ANNOTATOR_ID, video_id: currentVideoId, granularity: currentGran, t: t };
+  body[field] = value;
+  const r = await fetch("/api/update_point", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  const j = await r.json();
+  state[currentGran] = j.unit;
+  renderTimeline();
+  statusEl.textContent = `updated ${field} @ ${t.toFixed(1)}s — saved.`;
+}
+
+const fillEl = document.createElement("div");
+fillEl.className = "fill";
+const playheadEl = document.createElement("div");
+playheadEl.className = "playhead";
+
+function renderTimeline() {
+  const unit = state[currentGran];
+  timeline.innerHTML = "";
+  timeline.appendChild(fillEl);
+  timeline.appendChild(playheadEl);
+  updatePlayhead();
+  if (!unit || !player.duration) return;
+  for (const p of unit.points) {
+    const pct = (p.t / player.duration) * 100;
+    const el = document.createElement("div");
+    el.className = "mark";
+    el.style.left = pct + "%";
+    const label = p.description_en ? ` — ${p.description_en}` : "";
+    el.title = p.t.toFixed(1) + "s" + label + " (click to delete)";
+    el.onclick = (e) => { e.stopPropagation(); unmark(p.t); };
+    timeline.appendChild(el);
+  }
+}
+
+function updatePlayhead() {
+  if (!player.duration) return;
+  const pct = (player.currentTime / player.duration) * 100;
+  fillEl.style.width = pct + "%";
+  playheadEl.style.left = pct + "%";
+}
+
+// Free scrubbing: click-to-seek AND press-and-drag-to-seek continuously,
+// including drags that move outside the timeline element's bounds.
+let scrubbing = false;
+
+function seekFromClientX(clientX) {
+  if (!player.duration) return;
+  const rect = timeline.getBoundingClientRect();
+  let pct = (clientX - rect.left) / rect.width;
+  pct = Math.min(1, Math.max(0, pct));
+  player.currentTime = pct * player.duration;
+  updatePlayhead();
+}
+
+timeline.addEventListener("mousedown", (e) => {
+  if (e.target.classList.contains("mark")) return; // let the mark's own click (delete) handle it
+  scrubbing = true;
+  timeline.classList.add("dragging");
+  seekFromClientX(e.clientX);
+});
+
+window.addEventListener("mousemove", (e) => {
+  if (!scrubbing) return;
+  seekFromClientX(e.clientX);
+});
+
+window.addEventListener("mouseup", () => {
+  if (!scrubbing) return;
+  scrubbing = false;
+  timeline.classList.remove("dragging");
+});
+
+// touch support (drag on mobile/tablet)
+timeline.addEventListener("touchstart", (e) => {
+  scrubbing = true;
+  seekFromClientX(e.touches[0].clientX);
+}, { passive: true });
+window.addEventListener("touchmove", (e) => {
+  if (!scrubbing) return;
+  seekFromClientX(e.touches[0].clientX);
+}, { passive: true });
+window.addEventListener("touchend", () => { scrubbing = false; });
+
+async function loadVideo(videoId) {
+  currentVideoId = videoId;
+  const meta = videoById[videoId];
+  if (!meta) { taskCtx.innerHTML = "Unknown video id."; return; }
+  taskCtx.innerHTML =
+    `<b>video_id:</b> ${meta.video_id}<br>` +
+    `<b>domain:</b> ${meta.domain || "-"}<br>` +
+    `<b>task:</b> ${meta.task || "-"}<br>` +
+    `<b>query:</b> "${meta.query || "-"}"<br>` +
+    `<b>duration:</b> ${meta.duration_in_sec != null ? meta.duration_in_sec.toFixed(1) + "s" : "-"}`;
+
+  player.src = "/video/" + encodeURIComponent(videoId);
+  player.load();
+
+  const r = await fetch("/api/state?video_id=" + encodeURIComponent(videoId) + "&annotator_id=" + encodeURIComponent(ANNOTATOR_ID));
+  const j = await r.json();
+  state = j.state;
+  refreshUnitUI();
+  statusEl.textContent = "";
+  loadProgress(); // refresh the table's current-row highlight
+}
+
+// Resolve whatever the user typed/selected into a real video_id: exact
+// video_id match first, else exact task match, else first case-insensitive
+// substring match against video_id or task. Forgiving on purpose -- the
+// datalist's native `change` event alone was unreliable across browsers.
+function resolveVideoInput(val) {
+  val = (val || "").trim();
+  if (!val) return null;
+  if (videoById[val]) return val;
+  const exactTask = videos.find(v => v.task === val);
+  if (exactTask) return exactTask.video_id;
+  const lower = val.toLowerCase();
+  const partial = videos.find(v =>
+    v.video_id.toLowerCase().includes(lower) || (v.task || "").toLowerCase().includes(lower)
+  );
+  return partial ? partial.video_id : null;
+}
+
+function loadFromInput() {
+  const input = document.getElementById("video-input");
+  const vid = resolveVideoInput(input.value);
+  if (vid) {
+    input.value = vid;
+    loadVideo(vid);
+  } else {
+    statusEl.textContent = "no matching video for '" + input.value + "'";
+  }
+}
+
+document.getElementById("btn-load").addEventListener("click", loadFromInput);
+document.getElementById("video-input").addEventListener("keydown", (e) => {
+  if (e.key === "Enter") { e.preventDefault(); loadFromInput(); }
+});
+
+document.getElementById("btn-prev").addEventListener("click", () => {
+  if (!videos.length) return;
+  const idx = videos.findIndex(v => v.video_id === currentVideoId);
+  const nextIdx = idx <= 0 ? videos.length - 1 : idx - 1;
+  document.getElementById("video-input").value = videos[nextIdx].video_id;
+  loadVideo(videos[nextIdx].video_id);
+});
+document.getElementById("btn-next").addEventListener("click", () => {
+  if (!videos.length) return;
+  const idx = videos.findIndex(v => v.video_id === currentVideoId);
+  const nextIdx = idx < 0 || idx >= videos.length - 1 ? 0 : idx + 1;
+  document.getElementById("video-input").value = videos[nextIdx].video_id;
+  loadVideo(videos[nextIdx].video_id);
+});
+
+for (const g of ["free", "coarse", "fine"]) {
+  document.getElementById("g-" + g).addEventListener("click", () => setGranularity(g));
+}
+
+player.addEventListener("loadedmetadata", () => renderTimeline());
+player.addEventListener("timeupdate", () => {
+  timeDisplay.textContent = player.currentTime.toFixed(1) + "s";
+  if (!scrubbing) updatePlayhead();
+});
+player.addEventListener("seeking", updatePlayhead);
+
+function frameStep(dir) {
+  player.currentTime = Math.max(0, player.currentTime + dir * (1 / fps));
+}
+
+document.getElementById("btn-playpause").onclick = () => player.paused ? player.play() : player.pause();
+document.getElementById("btn-back1").onclick = () => { player.currentTime = Math.max(0, player.currentTime - 1); };
+document.getElementById("btn-fwd1").onclick = () => { player.currentTime = player.currentTime + 1; };
+document.getElementById("btn-frame-back").onclick = () => frameStep(-1);
+document.getElementById("btn-frame-fwd").onclick = () => frameStep(1);
+document.getElementById("btn-mark").onclick = () => mark();
+
+const SPEEDS = [0.5, 1, 1.5, 2, 3, 4];
+const speedBtnsEl = document.getElementById("speed-btns");
+speedBtnsEl.innerHTML = SPEEDS.map(s => `<button class="speed-btn" data-speed="${s}">${s}x</button>`).join("");
+function setSpeed(s) {
+  player.playbackRate = s;
+  for (const btn of speedBtnsEl.querySelectorAll(".speed-btn")) {
+    btn.classList.toggle("active", parseFloat(btn.dataset.speed) === s);
+  }
+}
+for (const btn of speedBtnsEl.querySelectorAll(".speed-btn")) {
+  btn.addEventListener("click", () => setSpeed(parseFloat(btn.dataset.speed)));
+}
+setSpeed(1);
+player.addEventListener("loadedmetadata", () => setSpeed(player.playbackRate || 1));
+
+chkComplete.addEventListener("change", async () => {
+  if (!currentVideoId) return;
+  const r = await fetch("/api/complete", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ annotator_id: ANNOTATOR_ID, video_id: currentVideoId, granularity: currentGran, completed: chkComplete.checked }),
+  });
+  const j = await r.json();
+  state[currentGran] = j.unit;
+  statusEl.textContent = "saved.";
+  loadProgress();
+});
+
+const descInputRow = document.getElementById("desc-input-row");
+const descInputT = document.getElementById("desc-input-t");
+const descInput = document.getElementById("desc-input");
+let pendingDescT = null;
+
+function showDescInput(t) {
+  pendingDescT = t;
+  descInputT.textContent = t.toFixed(1);
+  descInput.value = "";
+  descInputRow.style.display = "block";
+  descInput.focus();
+}
+
+function hideDescInput() {
+  descInputRow.style.display = "none";
+  pendingDescT = null;
+  descInput.blur();
+}
+
+async function translateAndSavePoint(t, zhText) {
+  if (!currentVideoId) return;
+  clientZh[zhKey(currentVideoId, currentGran, t)] = zhText;
+  statusEl.textContent = `translating "${zhText}"...`;
+  const r = await fetch("/api/translate_point", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ annotator_id: ANNOTATOR_ID, video_id: currentVideoId, granularity: currentGran, t: t, raw_zh: zhText }),
+  });
+  const j = await r.json();
+  if (j.error) {
+    statusEl.textContent = "translate failed: " + j.error;
+    return;
+  }
+  state[currentGran] = j.unit;
+  renderMarks();
+  renderTimeline();
+  statusEl.textContent = `${t.toFixed(1)}s -> "${j.description_en}" — saved.`;
+}
+
+descInput.addEventListener("keydown", (e) => {
+  // IME-composition-guarded: Chinese input via pinyin etc. fires an Enter
+  // to confirm the current candidate mid-composition, which must NOT be
+  // treated as "submit the whole field" -- only act on the trailing,
+  // non-composing Enter.
+  if (e.key === "Enter" && !e.isComposing) {
+    e.preventDefault();
+    const zhText = descInput.value.trim();
+    if (pendingDescT !== null && zhText) {
+      translateAndSavePoint(pendingDescT, zhText);
+    }
+    hideDescInput();
+  } else if (e.key === "Escape") {
+    e.preventDefault();
+    hideDescInput();
+  }
+});
+
+async function mark() {
+  if (!currentVideoId) return;
+  const t = player.currentTime;
+  const r = await fetch("/api/mark", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ annotator_id: ANNOTATOR_ID, video_id: currentVideoId, granularity: currentGran, timestamp: t }),
+  });
+  const j = await r.json();
+  state[currentGran] = j.unit;
+  refreshUnitUI();
+  statusEl.textContent = `marked ${t.toFixed(1)}s — saved.`;
+  const markedPoint = j.unit.points.find(p => Math.abs(p.t - t) < 0.05);
+  showDescInput(markedPoint ? markedPoint.t : Math.round(t * 10) / 10);
+}
+
+async function unmark(t) {
+  if (!currentVideoId) return;
+  const r = await fetch("/api/unmark", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ annotator_id: ANNOTATOR_ID, video_id: currentVideoId, granularity: currentGran, timestamp: t }),
+  });
+  const j = await r.json();
+  state[currentGran] = j.unit;
+  refreshUnitUI();
+  statusEl.textContent = `removed ${t.toFixed(1)}s — saved.`;
+}
+
+window.addEventListener("keydown", (e) => {
+  const tag = document.activeElement.tagName;
+  if (tag === "INPUT" || tag === "TEXTAREA") return; // don't hijack typing in the video search box
+  if (e.code === "Space" || e.code === "Enter") {
+    e.preventDefault();
+    mark();
+  } else if (e.key === "p") {
+    e.preventDefault();
+    player.paused ? player.play() : player.pause();
+  } else if (e.code === "ArrowLeft") {
+    e.preventDefault();
+    if (e.shiftKey) player.currentTime = Math.max(0, player.currentTime - 1);
+    else if (player.paused) frameStep(-1);
+    else player.currentTime = Math.max(0, player.currentTime - 1);
+  } else if (e.code === "ArrowRight") {
+    e.preventDefault();
+    if (e.shiftKey) player.currentTime = player.currentTime + 1;
+    else if (player.paused) frameStep(1);
+    else player.currentTime = player.currentTime + 1;
+  } else if (e.key === "[") {
+    e.preventDefault();
+    const idx = SPEEDS.indexOf(player.playbackRate);
+    setSpeed(SPEEDS[Math.max(0, (idx === -1 ? SPEEDS.indexOf(1) : idx) - 1)]);
+  } else if (e.key === "]") {
+    e.preventDefault();
+    const idx = SPEEDS.indexOf(player.playbackRate);
+    setSpeed(SPEEDS[Math.min(SPEEDS.length - 1, (idx === -1 ? SPEEDS.indexOf(1) : idx) + 1)]);
+  }
+}, true);
+
+setGranularity("coarse");
+loadVideos().then(loadProgress);
+</script>
