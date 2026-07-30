@@ -1,0 +1,7 @@
+# VLM module dependencies. Everything else used here (argparse, json, os,
+# re, subprocess, sys, tempfile, pathlib, base64, http.server, mimetypes,
+# socketserver, shutil) is Python stdlib.
+#
+# vllm is intentionally NOT listed here -- install/version-pin it
+# separately for your GPU/CUDA setup (see README.md's VLM module section).
+openai>=1.0

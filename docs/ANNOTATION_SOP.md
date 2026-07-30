@@ -13,25 +13,23 @@ warn about a mistake, or offer timely guidance for what's next. You are
 not writing what the assistant *should say*, just marking *when* it
 should say something.
 
-## Three granularities, marked in this order
+## Two granularities, marked in this order
 
-Each video gets marked **three separate times**, once per granularity.
+Each video gets marked **twice**, once per granularity.
 Do them **in this order**, and ideally **with some time between passes**
 (a different day, or at least a break) — the point is to judge each pass
 fresh, not let your coarse-pass judgment quietly shape your fine-pass
 judgment (or vice versa).
 
-1. **`free`** — mark at whatever pace feels natural to you. No rule,
-   just your own instinct for "an assistant should say something here."
-2. **`coarse`** — mark only when a **major step** or **big action**
+1. **`coarse`** — mark only when a **major step** or **big action**
    finishes (main step transitions — e.g. "the dip is now mixed," not
    "one more stir"). This should be sparse — a handful of points per
    video, not dozens.
-3. **`fine`** — mark every time an **identifiable sub-action** finishes,
+2. **`fine`** — mark every time an **identifiable sub-action** finishes,
    even small ones (e.g. "picked up the spoon," "added the salt," "wiped
    the counter"). This should be noticeably denser than `coarse`.
 
-Use the granularity switch in the tool (free / coarse / fine buttons) —
+Use the granularity switch in the tool (coarse / fine buttons) —
 each is stored and tracked separately, and the tool remembers which
 video+granularity combinations you've marked "complete" so you can see
 what's left.

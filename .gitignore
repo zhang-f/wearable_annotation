@@ -26,3 +26,14 @@ Thumbs.db
 *.swp
 .vscode/
 .idea/
+
+# vlm/ module: frame-extraction working dirs, run logs, and generated
+# review pages are all local build artifacts, not source -- the small
+# example jsonls under vlm/examples/ are intentionally NOT covered by
+# this and stay tracked.
+vlm/workdir*/
+vlm/**/frames_s1/
+vlm/**/frames_s2/
+*.log
+vlm/**/review.html
+vlm/**/*.mp4
