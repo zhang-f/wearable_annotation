@@ -37,6 +37,16 @@ stats = {"n": len(data), "downloaded": sum(1 for d in data if d["dl"]),
          "vids_in_dup_tasks": sum(c for c in taskcount.values() if c>1),
          "max_vids_per_task": max(taskcount.values())}
 DATA = json.dumps(data, ensure_ascii=False); STATS = json.dumps(stats, ensure_ascii=False)
+# Opt-in: if screening_decisions.json sits next to this script, seed the *generated*
+# page with those marks (the committed screening.html stays blank; this only shows up
+# when you regenerate). A visitor's own browser edits always take precedence.
+DEFAULTS = {}
+_dfile = os.path.join(ROOT, "screening_decisions.json")
+if os.path.isfile(_dfile):
+    for _x in json.load(open(_dfile)):
+        if _x.get("decision") in ("keep", "unsure", "drop"):
+            DEFAULTS[_x["video_path"]] = _x["decision"]
+DEFAULTS_JSON = json.dumps(DEFAULTS, ensure_ascii=False)
 domopts = "".join(f'<option value="{d}">{d} ({c})</option>' for d,c in stats["domains"].items())
 
 TEMPLATE = r'''<!doctype html><html lang=en><head><meta charset=utf-8>
@@ -92,8 +102,9 @@ tr.keep{background:var(--keepbg)}tr.unsure{background:var(--unsurebg)}tr.drop{ba
 <th>#</th><th>play</th><th>video_path</th><th>domain</th><th>dur(s)</th><th title="existing video_intervals count">#iv</th><th>task (full)</th><th>query</th><th>decision</th>
 </tr></thead><tbody id=tb></tbody></table><p class=hint id=empty style=display:none>No rows match the current filter.</p></main>
 <script>
-const DATA=__DATA__, STATS=__STATS__, LS="egoproactive_screening_v1";
+const DATA=__DATA__, STATS=__STATS__, DEFAULTS=__DEFAULTS__, LS="egoproactive_screening_v1";
 let store=JSON.parse(localStorage.getItem(LS)||"{}");
+if(Object.keys(store).length===0) store=Object.assign({},DEFAULTS);
 const $=s=>document.querySelector(s);
 $("#summary").innerHTML=`<b>${STATS.n}</b> videos &nbsp;|&nbsp; duration min/median/max = `+
  `<code>${STATS.dur_min}</code>/<code>${STATS.dur_med}</code>/<code>${STATS.dur_max}</code>s · `+
@@ -126,8 +137,9 @@ $("#reset").onclick=()=>{order=DATA.map((_,i)=>i);durAsc=true;$("#sortdur").text
 $("#export").onclick=()=>{const out=DATA.map(d=>({video_path:d.vp,decision:store[d.vp]||"unmarked"}));
  const blob=new Blob([JSON.stringify(out,null,1)],{type:"application/json"});const a=document.createElement("a");
  a.href=URL.createObjectURL(blob);a.download="screening_decisions.json";a.click();URL.revokeObjectURL(a.href);};
+if(Object.keys(DEFAULTS).length){document.querySelector(".note").insertAdjacentHTML("afterend",`<div class=note style="border-style:solid;border-color:var(--accent)">\u2713 Seeded from screening_decisions.json \u2014 <b>${Object.keys(DEFAULTS).length}</b> videos pre-marked. Your browser edits save on top.</div>`);}
 counts();render();
 </script></body></html>'''
-html = TEMPLATE.replace("__DATA__", DATA).replace("__STATS__", STATS).replace("__DOMOPTS__", domopts)
+html = TEMPLATE.replace("__DATA__", DATA).replace("__STATS__", STATS).replace("__DEFAULTS__", DEFAULTS_JSON).replace("__DOMOPTS__", domopts)
 open(os.path.join(ROOT, "screening.html"), "w").write(html)
 print("wrote screening.html", round(len(html)/1024), "KB |", stats["n"], "rows |", stats["downloaded"], "downloaded on this machine")

@@ -36,3 +36,16 @@ works except the ▶ play links (those need the videos + the server).
 ```
 cd screening && python3 make_screening.py     # -> screening/screening.html
 ```
+
+## Seeing the owner's first-pass marks (optional)
+The committed `screening.html` is intentionally **blank**. The repo also includes
+`screening_decisions.json` — the owner's full keep/unsure/drop pass over all 700.
+To view those marks *inside the page*, **regenerate it** (the generator seeds them
+when that file is present next to it):
+```
+cd screening && python3 make_screening.py
+```
+Opening the regenerated `screening.html` now shows the owner's marks (with a
+"Seeded from screening_decisions.json" banner). Your own edits still save in your
+browser on top. The page committed to the repo stays blank — the marks appear only
+in your locally-regenerated copy.
