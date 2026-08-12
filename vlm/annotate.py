@@ -145,6 +145,8 @@ def extract_frames(
     t_start: float = 0.0,
     t_end: float | None = None,
     max_frames: int = 0,
+    fontsize: int = 28,
+    long_edge: int | None = None,
 ) -> list[tuple[float, str]]:
     """Extract frames from [t_start, t_end] at `fps`, one ffmpeg call per
     frame (precise seek + single-frame extract), burning a static
@@ -172,9 +174,16 @@ def extract_frames(
     for idx, t in enumerate(timestamps):
         out_path = os.path.join(out_dir, f"frame_{idx:05d}_t{t:.1f}.png")
         label = f"t={t:.1f}s"
+        # optional downscale (longest edge -> long_edge) applied BEFORE drawtext, so
+        # the timestamp is burned at the final resolution and stays crisp/legible.
+        scale_part = (
+            f"scale={long_edge}:{long_edge}:force_original_aspect_ratio=decrease,"
+            if long_edge else ""
+        )
         vf = (
-            f"drawtext=fontfile={FONT_FILE}:text='{label}':x=10:y=10:"
-            "fontsize=28:fontcolor=yellow:box=1:boxcolor=black@0.5:boxborderw=4"
+            scale_part
+            + f"drawtext=fontfile={FONT_FILE}:text='{label}':x=10:y=10:"
+            f"fontsize={fontsize}:fontcolor=yellow:box=1:boxcolor=black@0.5:boxborderw={max(4, fontsize // 6)}"
         )
         cmd = [
             "ffmpeg", "-hide_banner", "-loglevel", "error",

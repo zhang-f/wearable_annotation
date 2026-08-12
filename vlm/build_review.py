@@ -34,14 +34,30 @@ def main():
         "--out-dir", default=DEFAULT_EXAMPLES_DIR,
         help="Where to write review.html and the co-located video copy (default: vlm/examples/)",
     )
+    parser.add_argument(
+        "--out-name", default="review.html",
+        help="Filename for the generated page inside --out-dir (default: review.html).",
+    )
+    parser.add_argument("--bundle", default=None,
+        help="v3 review bundle JSON (coarse + pass0 + flags + 3 fine versions raw/R/M). "
+             "When given, --coarse/--fine are ignored.")
     args = parser.parse_args()
 
-    coarse = load_segments(args.coarse)
-    fine = load_segments(args.fine)
-
-    assert coarse["video_path"] == fine["video_path"], "coarse/fine video_path mismatch"
-    video_path = coarse["video_path"]
-    duration = coarse["duration_in_sec"]
+    if args.bundle:
+        b = json.load(open(args.bundle))
+        video_path = b["video_path"]; duration = b["duration_in_sec"]
+        coarse = {"video_path": video_path, "duration_in_sec": duration, "task": b.get("task", ""),
+                  "segments": b["coarse_segments"], "video_assessment": b.get("coarse_assessment", {}),
+                  "pass0": b.get("pass0", {}), "flags": b.get("flags", [])}
+        fine = {"video_path": video_path, "segments": b["fine_versions"]["R"], "video_assessment": b.get("fine_assessment", {})}
+        fine_versions = b["fine_versions"]
+    else:
+        coarse = load_segments(args.coarse)
+        fine = load_segments(args.fine)
+        fine_versions = {"raw": fine["segments"], "R": fine["segments"], "M": fine["segments"]}
+        assert coarse["video_path"] == fine["video_path"], "coarse/fine video_path mismatch"
+        video_path = coarse["video_path"]
+        duration = coarse["duration_in_sec"]
 
     os.makedirs(args.out_dir, exist_ok=True)
 
@@ -66,10 +82,23 @@ def main():
     html = html.replace("__VIDEO_PATH_JSON__", json.dumps(video_path))  # for the JS string literal
     html = html.replace("__DURATION__", json.dumps(duration))
     html = html.replace("__COARSE_SEGMENTS__", json.dumps(coarse["segments"], ensure_ascii=False))
-    html = html.replace("__FINE_SEGMENTS__", json.dumps(fine["segments"], ensure_ascii=False))
+    CANON = ["raw", "R", "M", "F", "FR", "raw_v3", "R_v3", "M_v3", "F_v3", "FR_v3",
+             "raw_v4", "R_v4", "M_v4", "F_v4", "FR_v4"]
+    order = [v for v in CANON if isinstance(fine_versions.get(v), list) and fine_versions.get(v)]
+    for v in fine_versions:  # append any non-canonical versions
+        if v not in order and isinstance(fine_versions[v], list) and fine_versions[v]:
+            order.append(v)
+    html = html.replace("__FINE_VERSIONS__", json.dumps(fine_versions, ensure_ascii=False))
+    html = html.replace("__FINE_ORDER__", json.dumps(order))
     html = html.replace("__TASK__", json.dumps(coarse.get("task", "")))
+    # v2: per-granularity self-assessment shown at the top (empty dict if a v1 file lacks it)
+    html = html.replace("__COARSE_ASSESSMENT__", json.dumps(coarse.get("video_assessment", {}), ensure_ascii=False))
+    html = html.replace("__FINE_ASSESSMENT__", json.dumps(fine.get("video_assessment", {}), ensure_ascii=False))
+    # v3: Pass 0 global understanding + pipeline flags shown at the top
+    html = html.replace("__PASS0__", json.dumps(coarse.get("pass0", {}), ensure_ascii=False))
+    html = html.replace("__FLAGS__", json.dumps(coarse.get("flags", []), ensure_ascii=False))
 
-    out_path = os.path.join(args.out_dir, "review.html")
+    out_path = os.path.join(args.out_dir, args.out_name)
     with open(out_path, "w") as f:
         f.write(html)
     print(f"Wrote {out_path}")
@@ -117,6 +146,32 @@ TEMPLATE = r"""<!doctype html>
   .row .ctrls button.on-incorrect { background: #a33; border-color: #a33; color: #fff; }
   .row .ctrls input { flex: 1; background: #1e1e1e; color: #ddd; border: 1px solid #444; border-radius: 3px; padding: 4px 6px; font-size: 12px; }
   .status { font-size: 12px; color: #7fdc7f; min-height: 16px; margin-top: 8px; }
+  /* v2 additions (display only; interactions unchanged) */
+  .assess { display: flex; gap: 16px; margin: 12px 0 4px; font-size: 12px; }
+  .assess .box { flex: 1; border: 1px solid #333; border-radius: 4px; padding: 8px 10px; background: #232323; }
+  .assess .box h3 { margin: 0 0 4px; font-size: 12px; color: #7fc7ff; }
+  .assess .score { font-weight: bold; color: #fff; }
+  .assess ul { margin: 2px 0 4px 16px; padding: 0; }
+  .assess .none { color: #7fdc7f; }
+  .row .conf { font-family: monospace; font-size: 11px; color: #999; margin-left: 6px; }
+  .row .merged { font-size: 10px; color: #d9b06a; background: #2a2618; border: 1px solid #5a4a28; border-radius: 3px; padding: 0 4px; margin-left: 6px; }
+  .row .idle-badge { font-size: 10px; color: #9aa7c7; background: #23283a; border: 1px solid #3a4a6a; border-radius: 3px; padding: 0 4px; margin-left: 6px; }
+  /* v3 refine: fine version toggle (raw / R / M) */
+  .fine-toggle { margin-left: 8px; display: inline-flex; vertical-align: middle; }
+  .fine-toggle button { font-size: 12px; padding: 2px 10px; border: 1px solid #444; background: #2a2a2a; color: #bbb; cursor: pointer; }
+  .fine-toggle button:first-child { border-radius: 4px 0 0 4px; }
+  .fine-toggle button:last-child { border-radius: 0 4px 4px 0; border-left: none; }
+  .fine-toggle button:not(:first-child):not(:last-child) { border-left: none; }
+  .fine-toggle button.active { background: #2e6da4; color: #fff; border-color: #2e6da4; }
+  .fine-count { font-size: 12px; color: #999; font-weight: normal; margin-left: 4px; }
+  /* v3: Pass 0 global understanding + flags */
+  .pass0 { margin: 12px 0 4px; font-size: 12px; border: 1px solid #333; border-radius: 4px; padding: 8px 10px; background: #202a20; }
+  .pass0 h3 { margin: 0 0 4px; font-size: 12px; color: #9fdc9f; }
+  .pass0 .phases { margin: 4px 0 0 16px; padding: 0; color: #ccc; }
+  .pass0 .phases li { margin: 1px 0; }
+  .pass0 .phases .rng { color: #7fc7ff; font-family: monospace; }
+  .flags { margin: 8px 0; }
+  .flags .flag { border-left: 3px solid #c99a3c; background: #2a2618; padding: 4px 8px; margin: 3px 0; border-radius: 2px; color: #e8d9b0; font-size: 12px; }
 </style>
 </head>
 <body>
@@ -131,6 +186,9 @@ TEMPLATE = r"""<!doctype html>
 
 <video id="player" src="__VIDEO_PATH_RAW__" controls></video>
 
+<div id="pass0"></div>
+<div id="flags"></div>
+
 <div class="tl-wrap">
   <div class="tl-label">coarse timeline (click a block to jump to its boundary)</div>
   <div class="timeline" id="tl-coarse"></div>
@@ -144,7 +202,9 @@ TEMPLATE = r"""<!doctype html>
     <div class="seg-list" id="list-coarse"></div>
   </div>
   <div class="col">
-    <h2>Fine segments</h2>
+    <h2>Fine segments <span id="fine-count" class="fine-count"></span>
+      <span class="fine-toggle" id="fine-toggle"></span>
+    </h2>
     <div class="seg-list" id="list-fine"></div>
   </div>
 </div>
@@ -154,25 +214,32 @@ TEMPLATE = r"""<!doctype html>
 <script>
 const VIDEO_PATH = __VIDEO_PATH_JSON__;
 const DURATION = __DURATION__;
+const FINE = __FINE_VERSIONS__;
+const FINE_ORDER = __FINE_ORDER__;
+let fineVersion = "R";  // default shown version
 const DATA = {
   coarse: __COARSE_SEGMENTS__,
-  fine: __FINE_SEGMENTS__,
+  fine: FINE[fineVersion],
 };
+const ASSESSMENT = { coarse: __COARSE_ASSESSMENT__, fine: __FINE_ASSESSMENT__ };
+const PASS0 = __PASS0__;
+const FLAGS = __FLAGS__;
 
-// Derive start_time for each segment: previous segment's end_time, 0 for the first.
-for (const gran of ["coarse", "fine"]) {
+// Derive start_time for each segment (previous segment's end_time; 0 for the first).
+function deriveStarts(segs) {
   let prevEnd = 0;
-  for (const seg of DATA[gran]) {
-    seg.start_time = prevEnd;
-    prevEnd = seg.end_time;
-  }
+  for (const seg of segs) { seg.start_time = prevEnd; prevEnd = seg.end_time; }
 }
+deriveStarts(DATA.coarse);
+for (const v of ["raw", "R", "M"]) deriveStarts(FINE[v]);
 
-// Correction state, keyed by granularity -> index -> {status, note}
+// Correction state. coarse -> idx; fine is kept PER VERSION so switching raw/R/M
+// preserves each version's ticks/notes independently (export tags the shown version).
 const corrections = { coarse: {}, fine: {} };
-for (const gran of ["coarse", "fine"]) {
-  DATA[gran].forEach((_, i) => { corrections[gran][i] = { status: null, note: "" }; });
-}
+for (const v of FINE_ORDER) corrections.fine[v] = {};
+function corrMap(gran) { return gran === "fine" ? corrections.fine[fineVersion] : corrections.coarse; }
+function ensureCorr(gran, i) { const m = corrMap(gran); if (!m[i]) m[i] = { status: null, note: "" }; return m[i]; }
+DATA.coarse.forEach((_, i) => { corrections.coarse[i] = { status: null, note: "" }; });
 
 const player = document.getElementById("player");
 const statusEl = document.getElementById("status");
@@ -206,6 +273,29 @@ function renderList(gran) {
     const times = document.createElement("div");
     times.className = "times";
     times.textContent = `${fmt(seg.start_time)}s – ${fmt(seg.end_time)}s`;
+    if (seg.boundary_confidence != null) {
+      const conf = document.createElement("span");
+      conf.className = "conf";
+      conf.textContent = `conf ${seg.boundary_confidence.toFixed(2)}`;
+      times.appendChild(conf);
+    }
+    if (seg.type === "idle") {
+      const idle = document.createElement("span");
+      idle.className = "idle-badge";
+      idle.textContent = "idle";
+      idle.title = "no-activity segment (natural silent sample, not garbage)";
+      times.appendChild(idle);
+    }
+    const mi = seg.merge_info;
+    if (mi && mi.merged_from > 1) {
+      const mg = document.createElement("span");
+      mg.className = "merged";
+      const rule = mi.rule ? ` (${mi.rule})` : "";
+      mg.textContent = `merged ${mi.merged_from}${rule}`;
+      mg.title = "merged from " + mi.merged_from + " raw Pass-B segments" + (mi.rule ? " via " + mi.rule + " rule" : "")
+                 + (mi.source_indices ? "; raw idx " + mi.source_indices.join(",") : "");
+      times.appendChild(mg);
+    }
     body.appendChild(times);
 
     const summary = document.createElement("div");
@@ -221,7 +311,7 @@ function renderList(gran) {
     btnOk.title = "correct";
     btnOk.addEventListener("click", (e) => {
       e.stopPropagation();
-      const c = corrections[gran][i];
+      const c = ensureCorr(gran, i);
       c.status = c.status === "correct" ? null : "correct";
       renderList(gran); // cheap full re-render; lists are short (<100 rows)
     });
@@ -232,21 +322,22 @@ function renderList(gran) {
     btnBad.title = "incorrect";
     btnBad.addEventListener("click", (e) => {
       e.stopPropagation();
-      const c = corrections[gran][i];
+      const c = ensureCorr(gran, i);
       c.status = c.status === "incorrect" ? null : "incorrect";
       renderList(gran);
     });
     ctrls.appendChild(btnBad);
 
-    if (corrections[gran][i].status === "correct") btnOk.classList.add("on-correct");
-    if (corrections[gran][i].status === "incorrect") btnBad.classList.add("on-incorrect");
+    const cur = ensureCorr(gran, i);
+    if (cur.status === "correct") btnOk.classList.add("on-correct");
+    if (cur.status === "incorrect") btnBad.classList.add("on-incorrect");
 
     const note = document.createElement("input");
     note.type = "text";
     note.placeholder = "note (optional)";
-    note.value = corrections[gran][i].note;
+    note.value = cur.note;
     note.addEventListener("click", (e) => e.stopPropagation());
-    note.addEventListener("input", () => { corrections[gran][i].note = note.value; });
+    note.addEventListener("input", () => { ensureCorr(gran, i).note = note.value; });
     ctrls.appendChild(note);
 
     body.appendChild(ctrls);
@@ -327,17 +418,17 @@ player.addEventListener("seeking", updateHighlight);
 // --- export ------------------------------------------------------------
 
 document.getElementById("export-btn").addEventListener("click", () => {
-  const out = { video_path: VIDEO_PATH, duration_in_sec: DURATION, granularities: {} };
-  for (const gran of ["coarse", "fine"]) {
-    out.granularities[gran] = DATA[gran].map((seg, i) => ({
-      index: i,
-      summary: seg.summary,
-      start_time: seg.start_time,
-      end_time: seg.end_time,
-      status: corrections[gran][i].status,
-      note: corrections[gran][i].note,
-    }));
-  }
+  const out = { video_path: VIDEO_PATH, duration_in_sec: DURATION, fine_version_shown: fineVersion, granularities: {} };
+  const emit = (gran, segs, cmap) => segs.map((seg, i) => ({
+    index: i, summary: seg.summary, start_time: seg.start_time, end_time: seg.end_time,
+    merge_info: seg.merge_info || null,
+    status: (cmap[i] || {}).status || null, note: (cmap[i] || {}).note || "",
+  }));
+  out.granularities.coarse = emit("coarse", DATA.coarse, corrections.coarse);
+  // the shown fine version under "fine", plus each version's ticks/notes so nothing is lost
+  out.granularities.fine = emit("fine", FINE[fineVersion], corrections.fine[fineVersion]);
+  out.fine_all_versions = {};
+  for (const v of FINE_ORDER) out.fine_all_versions[v] = emit("fine", FINE[v], corrections.fine[v]);
   const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
@@ -347,15 +438,77 @@ document.getElementById("export-btn").addEventListener("click", () => {
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
-  statusEl.textContent = "corrections.json downloaded.";
+  statusEl.textContent = `corrections.json downloaded (fine version shown: ${fineVersion}).`;
 });
+
+// --- video assessment (top, display only) --------------------------------
+
+function escapeHtml(s) { const d = document.createElement("div"); d.textContent = String(s); return d.innerHTML; }
+function renderAssessment() {
+  const el = document.getElementById("assess");
+  el.innerHTML = ["coarse", "fine"].map((g) => {
+    const a = ASSESSMENT[g] || {};
+    const issues = (a.issues && a.issues.length)
+      ? "<ul>" + a.issues.map((x) => "<li>" + escapeHtml(x) + "</li>").join("") + "</ul>"
+      : "<span class='none'>none</span>";
+    const lcr = (a.low_confidence_regions && a.low_confidence_regions.length)
+      ? a.low_confidence_regions.map((r) => "[" + r[0] + "–" + r[1] + "s]").join(" ")
+      : "<span class='none'>none</span>";
+    const sc = (a.segmentability != null) ? a.segmentability : "–";
+    return `<div class="box"><h3>${g} &middot; segmentability <span class="score">${sc}/5</span></h3>`
+      + `<div>issues: ${issues}</div><div>low-confidence regions: ${lcr}</div></div>`;
+  }).join("");
+}
+
+// --- Pass 0 global understanding + flags (top, display only) -------------
+
+function renderPass0() {
+  const el = document.getElementById("pass0");
+  if (!PASS0 || !PASS0.task_understanding) { el.className = ""; el.innerHTML = ""; return; }
+  const phases = (PASS0.phases || []).map((p) => {
+    const r = (p.approx_range && p.approx_range.length === 2)
+      ? `<span class="rng">[${p.approx_range[0]}–${p.approx_range[1]}s]</span> ` : "";
+    return "<li>" + r + escapeHtml(p.description || "") + "</li>";
+  }).join("");
+  el.className = "pass0";
+  el.innerHTML = `<h3>Global understanding (Pass 0)</h3><div>${escapeHtml(PASS0.task_understanding)}</div>`
+    + (phases ? `<ul class="phases">${phases}</ul>` : "");
+}
+
+function renderFlags() {
+  const el = document.getElementById("flags");
+  if (!FLAGS || !FLAGS.length) { el.className = ""; el.innerHTML = ""; return; }
+  el.className = "flags";
+  el.innerHTML = FLAGS.map((f) => `<div class="flag">⚑ ${escapeHtml(f)}</div>`).join("");
+}
+
+// --- fine version toggle (raw / R / M) -----------------------------------
+
+function switchFine(v) {
+  fineVersion = v;
+  DATA.fine = FINE[v];
+  deriveStarts(DATA.fine);
+  document.querySelectorAll("#fine-toggle button").forEach((b) => b.classList.toggle("active", b.dataset.v === v));
+  document.getElementById("fine-count").textContent = `${DATA.fine.length} segs · showing ${v}`;
+  renderList("fine");
+  renderTimeline("fine");
+  updateHighlight();
+}
+// build the toggle buttons from whichever versions are present
+document.getElementById("fine-toggle").innerHTML =
+  FINE_ORDER.map((v) => `<button data-v="${v}">${v}</button>`).join("");
+document.querySelectorAll("#fine-toggle button").forEach((b) => {
+  b.addEventListener("click", () => switchFine(b.dataset.v));
+});
+if (!FINE_ORDER.includes(fineVersion)) fineVersion = FINE_ORDER[0] || "R";
 
 // --- init ------------------------------------------------------------
 
+renderPass0();
+renderFlags();
 renderList("coarse");
-renderList("fine");
 renderTimeline("coarse");
-renderTimeline("fine");
+switchFine(fineVersion);  // renders fine list + timeline + count + active toggle
 updateHighlight();
 </script>
 </body>
