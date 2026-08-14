@@ -196,6 +196,54 @@ against the output archives unless marked `[需查证]`.
   `build_review` were reverted to pure M-v4 before the freeze; v5 kept only for reference.
   Directional correctness is an **open item** (to be re-tried on a larger model — see §5).
 
+### 2.11 M-v4.1 — hand-transfer (hand-switch) capture
+- **Trigger:** post-freeze review found a real miss — §2.6's hand-downgrade fix correctly
+  suppressed hand-identity as a boundary trigger (killing hallucination), but as a side
+  effect it also suppressed **genuine** hand-to-hand object transfers, which were silently
+  absorbed into whichever action segment happened to span them.
+- **Fix:** Pass A gets a narrow carve-out — a hand-transfer is captured ONLY on visible
+  handoff evidence at the transition moment (object crossing from one hand's grip into the
+  other's, or one hand releasing exactly as the other takes over), never on positional
+  drift, emitting `"<verb> <object> (hand switch)"`. Pass B v4 treats a `(hand switch)`-
+  marked narration entry as an always-boundary and carries the marker into the segment
+  summary. Pass M (`refine_fine.refine_M`) is told never to merge a `(hand switch)`-marked
+  segment as an auxiliary micro-motion.
+- **Code:** `## FINE PASS A PROMPT` / `## FINE PASS B V4 PROMPT` / `## FINE REFINE M PROMPT`
+  in `prompt_template_v3.md` (patch marker at file top, dated 2026-08-12).
+- **Verification (bidirectional regression, 3 videos, before=pure M-v4 vs after=M-v4.1):**
+  - `cd72f9f2a62b3317`: real transfer at 6.0–7.4s (`"hand transfers bulb to left hand (hand
+    switch)"`) now cut out and Pass-M-protected; before, absorbed into one 6.0–24.0s segment.
+  - `459e3ad53e531fca` (the hand-hallucination-sensitive video from §2.6): before/after both
+    clean at 0–3.6s — no false hand-switch, no left/right hallucination reappeared.
+  - `fced96b0f5b0dbf1`: 0 hand-switch activations either way; before/after fine counts do
+    diverge (133 vs 123), but entirely from Pass A/B/M run-to-run variance on an unrelated,
+    ambiguous coarse segment (127–158s, "cleaning up") — not caused by this patch (see new
+    limitation in §5).
+- **Result:** adopted. Real hand-transfers now segmented; no hallucination regression on the
+  known-sensitive case.
+
+### 2.12 M-v4.2 — no-person / unattended-machine idle rule
+- **Trigger:** `fced96b0f5b0dbf1`'s microwave span (61.5–111.0s) produced ~48 near-identical
+  Pass A entries (`"Hand continues pressing microwave buttons"`, one per second) while the
+  microwave ran unattended and no hand was in frame — a fake-repetition artifact distinct
+  from §2.2's degeneration pattern (phrasing barely varies, so it evades `UNIQUE_RATIO`,
+  and timestamps are all genuine so it never triggers the retry path).
+- **Fix:** Pass A prompt: *"If no person or hands are visible in the frames, output NO
+  entries for that span — machines operating on their own (microwave running, kettle
+  boiling) are not hand actions; such spans are idle."*
+- **Code:** `## FINE PASS A PROMPT` in `prompt_template_v3.md` (patch marker dated
+  2026-08-14).
+- **Verification:** microwave span rerun — 48 fake entries → 7 real entries (puts pizza in /
+  closes door / presses buttons / steps back / reaches for mitt / puts on mitt / opens
+  door); hand-switch regression re-checked on `cd72f9f2a62b3317`, unaffected (identical
+  6.0–7.4s hand-switch segment).
+- **Result — adopted with a caveat, not iterated further:** the spam is eliminated (the
+  actual harm). The ~36s unattended stretch (66.3–102.7s) is **not** typed `idle`, though —
+  Pass B v4's mid-narration-gap idle rule (model-judgment only, no deterministic safety net)
+  didn't fire; it became a single `"hand steps back from microwave"` action segment spanning
+  the whole gap instead. Recorded as a known limitation (§5) rather than re-tuned, per the
+  explicit decision not to repeatedly adjust the prompt chasing a second fix in one pass.
+
 ---
 
 ## 3. Current code map (`vlm/`)
@@ -205,7 +253,7 @@ against the output archives unless marked `[需查证]`.
 | `annotate.py` | v1 base helpers: paths, font, frame extraction primitives, `_find_font_file` | imported by `annotate_v2`; **historical (v1)**, kept for its shared constants |
 | `annotate_v2.py` | v2 two-stage annotator + low-level primitives reused by M-v4: `_extract` (L213, fast frame extraction), `_call`/`_call_text`, `parse_*`, `merge_windows`, `_window_starts`, `validate` (L338), `_SAMPLING`, budget/resolution constants | imported by `annotate_v3` (M-v4 reuses these primitives); the **two-stage flow itself is historical** |
 | `annotate_v3.py` | **M-v4 core.** Four-layer orchestration primitives: `pass0`, `coarse_pass1`, `fine_from_coarse`, `stage2_v3`, `_passA`, `build_*`, `merge_fine`, `phase_flags`, `_coerce_conf`, config constants (validation itself is `annotate_v2.validate`, called here) | **M-v4 active** |
-| `prompt_template_v3.md` | all M-v4 prompts (Pass 0, Coarse Pass 1, Pass A, Pass B, **Pass B v4**, Refine M, Stage 2) + windowed note | **M-v4 active** |
+| `prompt_template_v3.md` | all M-v4 prompts (Pass 0, Coarse Pass 1, Pass A, Pass B, **Pass B v4**, Refine M, Stage 2) + windowed note; carries the M-v4.1/M-v4.2 patches (§2.11, §2.12) | **M-v4.2 active** |
 | `rerun_passB_v4.py` | **M-v4 active.** Pass B v4 (`passB_v4`, idle-explicit, `[t_k,t_{k+1})`), idle-threshold enforcement (`_finalize`), deterministic fallback, and the idle-preserving refinement wrapper (`refine_preserving_idle`) | **M-v4 active**; also the v4 batch driver (`main`) |
 | `refine_fine.py` | the four fine post-processors `refine_R/M/F/FR`, `classify_F`+`F_WORDS`, `_call_M` (coverage-repair), `divergence` | **`refine_M` is M-v4 active**; R/F/FR retained for comparison/archive |
 | `rerun_hand_v3.py` | driver that re-ran Pass A→onward with the hand-downgrade prompt (`rerun_one`) | historical driver; the prompt change it introduced is **active** |
@@ -261,8 +309,23 @@ exact vLLM launch flags are not stored in this repo]`.
   confirm once final_annotate.py exists]`.
 - **8B summary language quality.** Segment summaries are serviceable but occasionally
   awkward/generic; a larger model would improve wording (and possibly directional accuracy).
-- **Idle detection is heuristic.** Mid-video idle relies on a >4s narration gap being a true
-  pause vs a sustained action; the model's judgment here is not independently validated.
+- **Idle detection is heuristic, and confirmed unreliable for unattended-machine spans.**
+  Mid-video idle relies on a >4s narration gap being a true pause vs a sustained action; the
+  model's judgment here is not independently validated. Concretely (§2.12): M-v4.2's
+  no-person rule stops Pass A from spamming fake hand actions during a >30s unattended
+  machine-running stretch, but Pass B v4's mid-gap idle insertion (model-judgment only, no
+  deterministic safety net unlike the leading-idle case) did not fire on it — the whole gap
+  was absorbed into the end_time of the preceding action segment instead. Downstream
+  consumers should not assume every genuinely idle stretch carries `type:"idle"`.
+- **Pass A/B/M are not reproducible run-to-run on ambiguous/cluttered footage**, even at
+  temperature 0. Two independent full reruns of the same video/prompt (`fced96b0f5b0dbf1`,
+  §2.11 verification) produced 45 vs 15 fine segments with largely uncorrelated content —
+  including objects named in only one run — on its vaguest coarse segment ("cleaning up and
+  finalizing the setup", 127–158s); the rest of the video also shifted by dozens of segments
+  in the opposite direction. §2.9's stability result covers only the M-merge step in
+  isolation on fixed input, not the full Pass A→B→M chain run fresh. Not caused by the
+  M-v4.1/M-v4.2 patches (reproduced with zero hand-switch/idle-rule activation on that
+  video) — a pre-existing property of the frozen chain, newly documented here.
 - **Archived `*_v4` results are pre-Stage-2.** The stability test and the `fine_refined_M_v4/`
   archives are the M merge *before* Stage 2; the production runner adds Stage 2 and records
   the pre-Stage-2 boundary as `end_time_stage1`.

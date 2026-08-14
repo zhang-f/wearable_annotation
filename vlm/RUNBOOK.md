@@ -7,6 +7,13 @@ these steps yourself per §3 (see METHODS.md for the why/what of each layer).
 
 Every step calls an entry point in an existing repo file; no step requires manual editing.
 
+**Version note (2026-08-14): the chain in production is M-v4.2**, two small prompt-only
+patches on top of the frozen M-v4 described below — no entry points, signatures, or file
+layout changed, only `prompt_template_v3.md`'s text. See METHODS.md §2.11 (hand-transfer
+capture) and §2.12 (no-person/unattended-machine spans emit no Pass A entries). §2.12's
+caveat matters operationally: a long unattended-machine stretch is de-spammed but may not
+be typed `type:"idle"` in the output — don't assume `idle` typing is exhaustive (METHODS §5).
+
 ---
 
 ## 0. Environment prerequisites

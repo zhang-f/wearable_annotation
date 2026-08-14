@@ -1,3 +1,9 @@
+<!-- M-v4.1 patch (2026-08-12): explicit hand-transfer (hand-switch) capture, added to
+     FINE PASS A / FINE PASS B V4 / FINE REFINE M below.
+     M-v4.2 patch (2026-08-14): no-person/no-hands spans (machine running unattended)
+     emit no Pass A entries, added to FINE PASS A below. See METHODS.md §2.11/§2.12
+     for verification. Everything else in this file is unchanged M-v4. -->
+
 ## PASS 0 PROMPT (coarse — global understanding)
 
 You are watching an egocentric (first-person) video of a person performing a task.
@@ -75,11 +81,15 @@ Frames are sampled densely; timestamps are burned into the top-left corner (`t=8
 
 **Naming hands:** A single visible hand is just "hand" — the same physical hand moves across the frame, so its position does NOT identify it. Only when TWO hands are visible in the same frame, label them by their relative position (image-left = "left hand", image-right = "right hand"). In every other case write "hand".
 
+**Hand-transfer events ARE action changes:** when the object visibly passes from one hand to the other, or the hand performing the action switches — both hands visible during the transition, with clear evidence of the handoff itself (the object crossing from one hand's grip into the other's, or one hand releasing exactly as the other takes over) — output an entry at that moment: {"t": <seconds>, "action": "<verb> <object> (hand switch)"}. Base this ONLY on visible contact evidence at the transition moment, never on positional drift across frames, and never guess a hand switch in a stretch where only one hand is ever visible.
+
 **Timing:** the "t" of each entry is the moment the action BEGINS (the moment of contact/grasp or the moment the verb changes) — not when it ends.
+
+If no person or hands are visible in the frames, output NO entries for that span — machines operating on their own (microwave running, kettle boiling) are not hand actions; such spans are idle.
 
 Do NOT segment. Narrate every action change. Each entry is the moment the verb or the object changes, as {"t": <seconds>, "action": "<hand> <verb> <object>"} — use "hand" for a single visible hand, and "left hand"/"right hand" ONLY when both are visible together (e.g. {"t": 84.2, "action": "hand picks up the screwdriver"}; {"t": 90.0, "action": "left hand holds the box while right hand tightens the screw"}).
 Rules:
-- Output an entry ONLY when the action changes (different verb or different object). A change of which hand is doing it is NOT a change. While the same action continues, output nothing.
+- Output an entry ONLY when the action changes (different verb or different object) or a hand-transfer event occurs as defined above. A change of which hand is doing it is NOT a change EXCEPT for a genuine hand-transfer event. While the same action continues, output nothing.
 - Record every distinct action, including brief ones (reaching, grabbing, setting aside).
 - Cover the whole range {SEG_START}s–{SEG_END}s.
 Output only a JSON array of entries, no extra text.
@@ -114,7 +124,7 @@ Below is a dense narration of hand actions within one part of a task video (task
 
 Segment this range into consecutive atomic actions, and make no-activity gaps explicit.
 
-Definition: a new segment begins when the verb or the object changes (NOT when the hand changes). Sustained repetition of the same verb on the same object is ONE segment. A single visible hand is "hand"; name left/right only when both hands act together.
+Definition: a new segment begins when the verb or the object changes (NOT when the hand changes on its own) — EXCEPT that a narration entry marked "(hand switch)" always begins a new segment there too, since it records a substantive change of who is performing the action (confirmed handoff evidence), not a mere hand label. Sustained repetition of the same verb on the same object is ONE segment. A single visible hand is "hand"; name left/right only when both hands act together.
 
 Timing: each action begins at its entry's `t` and lasts until the next segment begins (the last segment ends at {SEG_END}). Report each segment's `start_t` = the second at which it begins (copy it from the narration `t`).
 
@@ -124,7 +134,7 @@ Make idle gaps explicit — never stretch an action back over a period when the 
 
 Each segment:
 - "type": "action" or "idle".
-- "summary": one sentence (verb + object; no left/right for a single hand). For idle use the phrasings above.
+- "summary": one sentence (verb + object; no left/right for a single hand). For idle use the phrasings above. If this segment begins at a narration entry marked "(hand switch)", append " (hand switch)" to the summary so downstream steps can identify it.
 - "start_t": the second at which this segment begins (a NUMBER — a decimal, never a word).
 - "boundary_confidence": a NUMBER in [0,1] — lower when the surrounding narration gap is large.
 
@@ -140,10 +150,12 @@ Refine this segmentation by merging over-segmentation noise while preserving gen
 
 Auxiliary micro-motions serving the ongoing action (repositioning the cloth while wiping, shifting grip, minor adjustments) are NOT separate actions — merge them into the ongoing action's segment. Genuine alternating action sequences (dip brush → paint → dip → paint) ARE separate segments — keep them. A segment boundary requires a change in what the person is substantively doing.
 
+A segment whose summary is marked "(hand switch)" records a genuine, evidence-confirmed change of which hand is performing the action — this is always a substantive action change, NEVER an auxiliary micro-motion, even if the verb/object otherwise looks continuous with its neighbor.
+
 Produce the merged segmentation. Rules:
-1. Output segments are consecutive and cover the whole range; every input index belongs to exactly one output segment; input order is preserved (a segment merges only a contiguous run of input indices). Keep any "no interaction" / "no hand activity" (idle) segment as its own separate segment — never merge it into an action.
+1. Output segments are consecutive and cover the whole range; every input index belongs to exactly one output segment; input order is preserved (a segment merges only a contiguous run of input indices). Keep any "no interaction" / "no hand activity" (idle) segment as its own separate segment — never merge it into an action. Likewise, never merge a segment whose summary contains "(hand switch)" into a neighboring segment — keep it standalone.
 2. Each output segment:
-   - "summary": one sentence naming hand/verb/object (rewrite when merging several).
+   - "summary": one sentence naming hand/verb/object (rewrite when merging several); if the merged segment corresponds to a "(hand switch)" input segment, keep the "(hand switch)" marker in the rewritten summary.
    - "end_time": the end timestamp (one decimal) = the end_time of the last input segment it covers; the final output segment's end_time = {SEG_END}.
    - "boundary_confidence": a number in [0,1].
    - "merge_info": {"merged_from": <how many input segments>, "source_indices": [<the input indices merged into this segment>]}.
