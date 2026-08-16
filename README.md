@@ -108,7 +108,10 @@ is meant to (a) bootstrap examples for few-shot prompting, and (b)
 eventually scale annotation beyond what's practical by hand. It does
 **not** replace `tool/` or the human SOP — VLM output is a draft, reviewed
 and corrected by a human (via `vlm/build_review.py`'s generated
-`review.html`) before it's trusted for anything.
+`review.html`) before it's trusted for anything. For the full 500-video
+batch specifically, human review happens through a dedicated
+multi-reviewer tool — see
+[`vlm/review_workbench/README.md`](vlm/review_workbench/README.md).
 
 ### Granularity (same two tiers as `docs/ANNOTATION_SOP.md`, not three)
 

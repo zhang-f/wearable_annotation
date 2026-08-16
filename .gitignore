@@ -52,3 +52,12 @@ vlm/keep_list.txt
 vlm/selected.jsonl
 vlm/bootstrap_coarse.jsonl
 vlm/bootstrap_fine.jsonl
+
+# review_workbench: reviewer corrections/claim-state are work product, not
+# code -- regenerate assignment.json via init_assignment.py, corrections/
+# accumulates from actual review sessions. See vlm/corrections/README.md.
+vlm/corrections/*.jsonl
+vlm/corrections/.*.lock
+!vlm/corrections/.gitkeep
+vlm/review_workbench/assignment.json
+vlm/review_workbench/assignment.json.lock

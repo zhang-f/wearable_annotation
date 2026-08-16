@@ -1,0 +1,645 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Workbench</title>
+<style>
+  body { font-family: -apple-system, sans-serif; margin: 0; padding: 14px; background: #1e1e1e; color: #ddd; }
+  .top-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  h1 { font-size: 15px; margin: 0; color: #fff; }
+  .sub { font-size: 12px; color: #999; }
+  a.back { color: #7fc7ff; text-decoration: none; font-size: 12px; }
+  video { width: 100%; max-height: 42vh; background: #000; border-radius: 4px; display: block; }
+  .tl-wrap { margin: 10px 0; }
+  .tl-label { font-size: 11px; color: #999; margin-bottom: 2px; }
+  .timeline { position: relative; height: 26px; border-radius: 3px; overflow: hidden; cursor: pointer; margin-bottom: 6px; background: #111; }
+  .timeline .seg { position: absolute; top: 0; bottom: 0; box-sizing: border-box; border-right: 1px solid #000; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #111; overflow: hidden; white-space: nowrap; }
+  .timeline .seg.c0 { background: #7fb2e5; } .timeline .seg.c1 { background: #5f92c5; }
+  .timeline .seg.selected { outline: 2px solid #fff; outline-offset: -2px; }
+  .timeline .seg.flagged { outline: 2px solid #ff9a9a; outline-offset: -2px; }
+  .timeline .playhead { position: absolute; top: -2px; bottom: -2px; width: 2px; background: #fff; z-index: 5; pointer-events: none; }
+  .cols { display: flex; gap: 12px; margin-top: 8px; }
+  .col { flex: 1; min-width: 0; }
+  .col h2 { font-size: 13px; color: #7fc7ff; margin: 0 0 4px; display: flex; justify-content: space-between; align-items: center; }
+  .filters { font-size: 11px; }
+  .filters label { margin-right: 6px; }
+  .seg-list { max-height: 58vh; overflow-y: auto; border: 1px solid #333; border-radius: 4px; }
+  .row { display: flex; gap: 6px; align-items: flex-start; padding: 5px 6px; border-bottom: 1px solid #2a2a2a; cursor: pointer; font-size: 12px; }
+  .row:hover { background: #262626; }
+  .row.current { background: #24344a; }
+  .row.selected { outline: 2px solid #2e6da4; outline-offset: -2px; }
+  .row.fine-indent { padding-left: 18px; }
+  .row .idx { color: #666; font-family: monospace; width: 20px; flex-shrink: 0; }
+  .row .body { flex: 1; min-width: 0; }
+  .row .times { font-family: monospace; font-size: 10px; color: #7fc7ff; }
+  .row .summary { font-size: 12px; margin: 1px 0; }
+  .row .summary input { width: 100%; background: #111; color: #fff; border: 1px solid #2e6da4; border-radius: 2px; font-size: 12px; padding: 2px 4px; }
+  .row-actions { display: flex; gap: 3px; margin-top: 3px; flex-wrap: wrap; }
+  .row-actions button { font-size: 10px; padding: 2px 6px; border-radius: 3px; border: 1px solid #444; background: #2a2a2a; color: #ccc; cursor: pointer; line-height: 1.4; }
+  .row-actions button:hover { background: #3a3a3a; border-color: #666; }
+  .row-actions button:disabled { opacity: 0.35; cursor: default; }
+  .row-actions button:disabled:hover { background: #2a2a2a; border-color: #444; }
+  .row-actions button.danger:hover { background: #5a1f1f; border-color: #a33; color: #ff9a9a; }
+  .row-actions button.primary:hover { background: #1e3a5a; border-color: #2e6da4; color: #7fc7ff; }
+  .toolbtn { font-size: 12px; padding: 3px 10px; margin-right: 8px; background: #2a2a2a; color: #ccc; border: 1px solid #444; border-radius: 4px; cursor: pointer; }
+  .toolbtn:hover { background: #333; }
+  .badge { font-size: 9px; padding: 0 4px; border-radius: 3px; margin-left: 4px; }
+  .b-conf { color: #999; font-family: monospace; }
+  .b-idle { color: #9aa7c7; background: #23283a; border: 1px solid #3a4a6a; }
+  .b-autofixed { color: #d9b06a; background: #2a2618; border: 1px solid #5a4a28; }
+  .b-error { color: #ff9a9a; background: #5a1f1f; }
+  .b-warn { color: #d9b06a; background: #4a3a1a; }
+  .b-info { color: #9aa7c7; background: #23283a; }
+  .b-edited { color: #8fd88f; background: #1a3a1a; }
+  .status-line { font-size: 12px; color: #7fdc7f; min-height: 16px; margin-top: 6px; }
+  .status-line.err { color: #ff9a9a; }
+  #help-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); display: none; align-items: center; justify-content: center; z-index: 200; }
+  #help-overlay .card { background: #232323; border: 1px solid #444; border-radius: 8px; padding: 20px 28px; font-size: 13px; max-width: 560px; }
+  #help-overlay table { border-collapse: collapse; } #help-overlay td { padding: 3px 10px; }
+  #help-overlay kbd { background: #333; border: 1px solid #555; border-radius: 3px; padding: 1px 6px; font-family: monospace; }
+  #skim-banner { display: none; background: #3a2a1a; color: #f0c060; padding: 4px 10px; border-radius: 4px; font-size: 12px; margin-bottom: 6px; }
+  .flags-top { margin: 6px 0; }
+  .flags-top .flag { border-left: 3px solid #c99a3c; background: #2a2618; padding: 3px 8px; margin: 2px 0; border-radius: 2px; color: #e8d9b0; font-size: 11px; }
+  .pill { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; margin-left: 8px; }
+  .pill-in_progress { background: #23283a; color: #9aa7c7; } .pill-done { background: #1a3a1a; color: #8fd88f; }
+  #add-here-bar { margin: 8px 0; }
+  #add-here-btn { background: #2e6da4; color: #fff; border: none; border-radius: 4px; padding: 6px 14px; font-size: 13px; cursor: pointer; }
+  #add-here-btn:hover { background: #3a7fc0; }
+  #modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.75); display: none; align-items: center; justify-content: center; z-index: 300; }
+  #modal-overlay .card { background: #232323; border: 1px solid #444; border-radius: 8px; padding: 20px 24px; width: 460px; max-width: 90vw; }
+  #modal-overlay h3 { margin: 0 0 4px; font-size: 15px; color: #fff; }
+  #modal-overlay .hint { font-size: 12px; color: #999; margin-bottom: 10px; }
+  #modal-overlay .input-row { display: flex; gap: 6px; }
+  #modal-input { flex: 1; background: #111; color: #fff; border: 1px solid #2e6da4; border-radius: 4px; padding: 8px 10px; font-size: 14px; }
+  #modal-mic-btn { font-size: 18px; background: #2a2a2a; border: 1px solid #444; border-radius: 4px; padding: 0 12px; cursor: pointer; color: #ccc; }
+  #modal-mic-btn.listening { background: #5a1f1f; border-color: #a33; color: #ff9a9a; animation: pulse 1s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+  #modal-mic-status { font-size: 11px; color: #f0c060; min-height: 14px; margin-top: 4px; }
+  #modal-lang-toggle { font-size: 11px; margin-top: 4px; color: #999; }
+  #modal-lang-toggle button { font-size: 11px; padding: 1px 8px; background: #2a2a2a; border: 1px solid #444; color: #999; border-radius: 3px; cursor: pointer; }
+  #modal-lang-toggle button.active { background: #1e3a5a; border-color: #2e6da4; color: #7fc7ff; }
+  #modal-preview { margin-top: 10px; padding: 8px 10px; background: #1a3a1a; border: 1px solid #2e5a2e; border-radius: 4px; font-size: 13px; color: #8fd88f; display: none; }
+  #modal-preview .lbl { font-size: 10px; color: #6fa86f; display: block; margin-bottom: 2px; }
+  #modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px; }
+  #modal-actions button { padding: 6px 14px; border-radius: 4px; border: 1px solid #444; background: #2a2a2a; color: #ccc; cursor: pointer; font-size: 13px; }
+  #modal-actions button.primary { background: #2e6da4; border-color: #2e6da4; color: #fff; }
+  #modal-actions button.primary:hover { background: #3a7fc0; }
+</style>
+</head>
+<body>
+
+<div class="top-row">
+  <div>
+    <h1 id="h-title">loading...</h1>
+    <div class="sub" id="h-sub"></div>
+  </div>
+  <div>
+    <span id="status-pill" class="pill"></span>
+    <button class="toolbtn" onclick="toggleHelp()">? Keyboard shortcuts</button>
+    <button class="toolbtn" onclick="markDone()">&#10003; Mark video done</button>
+    <a class="back" href="/index.html">&larr; back to index</a>
+  </div>
+</div>
+
+<div id="skim-banner">Boundary skim mode (B to exit) &mdash; playing each boundary &plusmn;2s, auto-advancing</div>
+
+<video id="player" controls></video>
+
+<div id="add-here-bar">
+  <button id="add-here-btn" onclick="openAddModalAtPlayhead()">+ Add boundary at current playhead (n)</button>
+  <span class="sub" id="add-here-time"></span>
+</div>
+
+<div class="flags-top" id="flags-top"></div>
+
+<div class="tl-wrap">
+  <div class="tl-label">coarse timeline</div>
+  <div class="timeline" id="tl-coarse"></div>
+  <div class="tl-label">fine timeline</div>
+  <div class="timeline" id="tl-fine"></div>
+</div>
+
+<div class="cols">
+  <div class="col">
+    <h2>Coarse <span class="filters">
+      <label><input type="radio" name="ffc" value="all" checked onchange="renderLists()"> all</label>
+      <label><input type="radio" name="ffc" value="flag" onchange="renderLists()"> flagged</label>
+      <label><input type="radio" name="ffc" value="lowconf" onchange="renderLists()"> low-conf</label>
+    </span></h2>
+    <div class="seg-list" id="list-coarse"></div>
+  </div>
+  <div class="col">
+    <h2>Fine <span class="filters">
+      <label><input type="radio" name="fff" value="all" checked onchange="renderLists()"> all</label>
+      <label><input type="radio" name="fff" value="flag" onchange="renderLists()"> flagged</label>
+      <label><input type="radio" name="fff" value="lowconf" onchange="renderLists()"> low-conf</label>
+    </span></h2>
+    <div class="seg-list" id="list-fine"></div>
+  </div>
+</div>
+
+<div class="status-line" id="status"></div>
+
+<div id="modal-overlay">
+  <div class="card">
+    <h3 id="modal-title">Edit summary</h3>
+    <div class="hint">Type in English or Chinese &mdash; 中文也可以，保存时会自动翻译成英文并统一格式。</div>
+    <div class="input-row">
+      <input type="text" id="modal-input" placeholder="e.g. hand picks up the jar  /  手拿起瓶子">
+      <button id="modal-mic-btn" onclick="toggleMic()" title="Voice input">&#127908;</button>
+    </div>
+    <div id="modal-lang-toggle">
+      Voice language: <button id="lang-zh" class="active" onclick="setMicLang('zh-CN')">中文</button>
+      <button id="lang-en" onclick="setMicLang('en-US')">English</button>
+    </div>
+    <div id="modal-mic-status"></div>
+    <div id="modal-preview"><span class="lbl">Will be saved as (translated &amp; format-normalized):</span><span id="modal-preview-text"></span></div>
+    <div id="modal-actions">
+      <button onclick="closeModal()">Cancel</button>
+      <button class="primary" id="modal-save-btn" onclick="submitModal()">Translate &amp; preview</button>
+    </div>
+  </div>
+</div>
+
+<div id="help-overlay" onclick="toggleHelp()">
+  <div class="card" onclick="event.stopPropagation()">
+    <h3>Keyboard shortcuts</h3>
+    <p style="color:#999;margin-top:-8px;">Every action also has a button on each segment row &mdash; these are just faster if you use them a lot.</p>
+    <table>
+      <tr><td><kbd>j</kbd>/<kbd>k</kbd></td><td>select prev/next segment, seek to end&minus;1.5s</td></tr>
+      <tr><td><kbd>Tab</kbd></td><td>switch coarse/fine column</td></tr>
+      <tr><td><kbd>1</kbd>-<kbd>4</kbd></td><td>playback speed</td></tr>
+      <tr><td><kbd>B</kbd></td><td>boundary skim mode (auto-play each boundary &plusmn;2s)</td></tr>
+      <tr><td><kbd>t</kbd></td><td>retime selected segment's end_time to playhead</td></tr>
+      <tr><td><kbd>[</kbd>/<kbd>]</kbd></td><td>nudge end_time &mp;0.1s (Shift: &mp;0.5s)</td></tr>
+      <tr><td><kbd>e</kbd></td><td>edit summary &mdash; opens a popup, pauses video, type or click &#127908; to speak (Chinese or English, auto-translated)</td></tr>
+      <tr><td><kbd>d</kbd></td><td>flip directional verb (insert&harr;remove etc.)</td></tr>
+      <tr><td><kbd>i</kbd></td><td>toggle type action/idle</td></tr>
+      <tr><td><kbd>m</kbd></td><td>merge selected segment into next</td></tr>
+      <tr><td><kbd>x</kbd></td><td>delete selected segment</td></tr>
+      <tr><td><kbd>n</kbd></td><td>add boundary wherever the playhead currently is (same popup as edit)</td></tr>
+      <tr><td><kbd>u</kbd></td><td>undo most recent action on selected segment</td></tr>
+      <tr><td><kbd>Shift+D</kbd></td><td>mark video done, jump to next claimed video</td></tr>
+      <tr><td><kbd>?</kbd></td><td>toggle this help</td></tr>
+    </table>
+  </div>
+</div>
+
+<script>
+const qs = new URLSearchParams(location.search);
+const FILE_NO = qs.get('file_no');
+const REVIEWER = qs.get('reviewer') || (document.cookie.match(/reviewer=([^;]+)/) || [])[1];
+if (!REVIEWER) { alert('no reviewer set, go back to index'); location.href = '/index.html'; }
+
+let STATE = null;         // {entry, coarse, fine, task, pass0}
+let SELECTED = { gran: 'fine', idx: 0 };
+let SKIM = false, SKIM_TIMER = null;
+const player = document.getElementById('player');
+const statusEl = document.getElementById('status');
+
+function fmt(t) { return t.toFixed(1); }
+function withStarts(segs) { let p = 0; return segs.map(s => { const o = { ...s, start_time: p }; p = s.end_time; return o; }); }
+
+function bucketFineByCoarse(coarse, fine) {
+  const bounds = []; let p = 0;
+  for (const c of coarse) { bounds.push([p, c.end_time]); p = c.end_time; }
+  const buckets = coarse.map(() => []);
+  for (const f of fine) {
+    let bi = bounds.findIndex(([lo, hi]) => f.start_time >= lo - 1e-6 && f.start_time < hi + 1e-6);
+    if (bi < 0) bi = bounds.length - 1;
+    buckets[bi].push(f);
+  }
+  return buckets;
+}
+
+async function load() {
+  const r = await fetch(`/api/video/${FILE_NO}`).then(r => r.json());
+  if (!r.ok) { statusEl.textContent = r.error; statusEl.className = 'status-line err'; return; }
+  STATE = r;
+  document.getElementById('h-title').textContent = `#${FILE_NO} ${r.entry.video_id} — ${r.task}`;
+  document.getElementById('h-sub').textContent = `${r.entry.domain} · ${r.entry.duration_in_sec}s · coarse ${r.coarse.length} / fine ${r.fine.length} · ${r.n_actions} actions logged`;
+  document.getElementById('status-pill').textContent = r.entry.status;
+  document.getElementById('status-pill').className = 'pill pill-' + r.entry.status;
+  player.src = `/api/video-file/${r.entry.video_id}.mp4`;
+  renderFlags();
+  renderAll();
+}
+
+function renderFlags() {
+  const el = document.getElementById('flags-top');
+  const f = STATE.entry.flags;
+  if (f.error + f.warn + f.info === 0) { el.innerHTML = ''; return; }
+  el.innerHTML = `<div class="flag">flags: E${f.error} W${f.warn} I${f.info} (see per-segment badges below)</div>`;
+}
+
+function renderAll() {
+  STATE.coarse = withStarts(STATE.coarse);
+  STATE.fine = withStarts(STATE.fine);
+  renderTimeline('coarse'); renderTimeline('fine');
+  renderLists();
+  updateHighlight();
+}
+
+function segFilterPass(mode, s) {
+  if (mode === 'all') return true;
+  if (mode === 'flag') return !!(s.qc_flag && s.qc_flag.length);
+  if (mode === 'lowconf') return (s.boundary_confidence != null && s.boundary_confidence < 0.5);
+  return true;
+}
+
+function renderTimeline(gran) {
+  const el = document.getElementById(`tl-${gran}`);
+  el.innerHTML = '';
+  const dur = STATE.entry.duration_in_sec;
+  STATE[gran].forEach((seg, i) => {
+    const startPct = (seg.start_time / dur) * 100, widthPct = ((seg.end_time - seg.start_time) / dur) * 100;
+    const block = document.createElement('div');
+    block.className = `seg ${i % 2 === 0 ? 'c0' : 'c1'}` + (SELECTED.gran === gran && SELECTED.idx === i ? ' selected' : '');
+    block.style.left = startPct + '%'; block.style.width = widthPct + '%';
+    block.title = `[${fmt(seg.start_time)}-${fmt(seg.end_time)}s] ${seg.summary}`;
+    block.addEventListener('click', () => { select(gran, i); seekToSeg(seg); });
+    el.appendChild(block);
+  });
+  const ph = document.createElement('div'); ph.className = 'playhead'; ph.id = `playhead-${gran}`;
+  el.appendChild(ph);
+}
+
+function badgesFor(s) {
+  let html = '';
+  if (s.boundary_confidence != null) html += `<span class="badge b-conf">conf ${s.boundary_confidence.toFixed(2)}</span>`;
+  if (s.type === 'idle') html += `<span class="badge b-idle">idle</span>`;
+  const mi = s.merge_info;
+  if (mi && mi.merged_from > 1) html += `<span class="badge b-autofixed" title="${(mi.source_indices||[]).join(',')}">merged${mi.rule ? ' (' + mi.rule + ')' : ''}</span>`;
+  if (/\[auto-fixed:/.test(s.summary)) html += `<span class="badge b-autofixed">auto-fixed</span>`;
+  if (s._corrections && s._corrections.length) {
+    const kinds = [...new Set(s._corrections.map(c => c.action))].join(',');
+    html += `<span class="badge b-edited" title="edited by reviewer">${kinds}</span>`;
+  }
+  for (const f of (s.qc_flag || [])) {
+    html += `<span class="badge b-${f.level}" title="${escapeHtml(f.detail)}">${f.code}</span>`;
+  }
+  return html;
+}
+
+function actionsToolbarHtml(gran, i, seg, isLast) {
+  const canUndo = seg._origin_seq != null;
+  return `<div class="row-actions" onclick="event.stopPropagation()">
+    <button title="Edit summary (e)" onclick="callEdit('${gran}',${i})">&#9998; Edit</button>
+    <button title="Set end time to current playhead (t)" onclick="callRetime('${gran}',${i})">&#9201; Retime&rarr;playhead</button>
+    <button title="Flip directional verb, e.g. insert&harr;remove (d)" onclick="callFlip('${gran}',${i})">&#8644; Flip dir</button>
+    <button title="Toggle action/idle (i)" onclick="callToggleType('${gran}',${i})">&#9210; Toggle idle</button>
+    <button title="Add a boundary wherever the video playhead currently is, in this column (n)" onclick="callAdd('${gran}',${i})">+ Add at playhead</button>
+    <button class="primary" title="Merge into next segment (m)" ${isLast ? 'disabled' : ''} onclick="callMerge('${gran}',${i})">&#8600; Merge&rarr;next</button>
+    <button class="danger" title="Delete this segment (x)" onclick="callDelete('${gran}',${i})">&#10005; Delete</button>
+    <button title="Undo the most recent edit on this segment (u)" ${canUndo ? '' : 'disabled'} onclick="callUndoSeg('${gran}',${i})">&#8617; Undo</button>
+  </div>`;
+}
+
+function renderLists() {
+  for (const gran of ['coarse', 'fine']) {
+    const mode = document.querySelector(`input[name="${gran === 'coarse' ? 'ffc' : 'fff'}"]:checked`).value;
+    const container = document.getElementById(`list-${gran}`);
+    container.innerHTML = '';
+    const segs = STATE[gran];
+    const groups = gran === 'fine' ? bucketFineByCoarse(STATE.coarse, STATE.fine) : [segs];
+    let globalIdx = 0;
+    groups.forEach((group) => {
+      (gran === 'fine' ? group : segs).forEach((seg) => {
+        const i = globalIdx++;
+        if (!segFilterPass(mode, seg)) return;
+        const row = document.createElement('div');
+        row.className = 'row' + (gran === 'fine' ? ' fine-indent' : '') + (SELECTED.gran === gran && SELECTED.idx === i ? ' selected' : '');
+        row.dataset.gran = gran; row.dataset.idx = i;
+        row.innerHTML = `<div class="idx">${i + 1}</div><div class="body">
+          <div class="times">${fmt(seg.start_time)}s&ndash;${fmt(seg.end_time)}s ${badgesFor(seg)}</div>
+          <div class="summary" data-summary>${escapeHtml(seg.summary)}</div>
+          ${actionsToolbarHtml(gran, i, seg, i === segs.length - 1)}
+        </div>`;
+        row.addEventListener('click', () => { select(gran, i); seekToSeg(seg); });
+        container.appendChild(row);
+      });
+    });
+  }
+}
+
+function escapeHtml(s) { const d = document.createElement('div'); d.textContent = String(s); return d.innerHTML; }
+
+function select(gran, idx) {
+  if (EDITING) { EDITING = false; renderLists(); }
+  SELECTED = { gran, idx };
+  document.querySelectorAll('.row').forEach(el => el.classList.remove('selected'));
+  const row = document.querySelector(`.row[data-gran="${gran}"][data-idx="${idx}"]`);
+  if (row) { row.classList.add('selected'); row.scrollIntoView({ block: 'nearest' }); }
+  document.querySelectorAll('.timeline .seg').forEach(el => el.classList.remove('selected'));
+  renderTimeline('coarse'); renderTimeline('fine'); // cheap, lists are short
+}
+
+function seekToSeg(seg) { player.currentTime = Math.max(0, seg.end_time - 1.5); player.play(); }
+
+function updateHighlight() {
+  const t = player.currentTime, dur = STATE.entry.duration_in_sec;
+  const timeEl = document.getElementById('add-here-time');
+  if (timeEl) timeEl.textContent = `playhead: ${fmt(t)}s (active column: ${SELECTED.gran})`;
+  for (const gran of ['coarse', 'fine']) {
+    const segs = STATE[gran];
+    let idx = segs.findIndex(s => t < s.end_time);
+    if (idx < 0) idx = segs.length - 1;
+    document.querySelectorAll(`#list-${gran} .row`).forEach(el => el.classList.toggle('current', parseInt(el.dataset.idx) === idx));
+    const ph = document.getElementById(`playhead-${gran}`);
+    if (ph) ph.style.left = (dur > 0 ? (t / dur) * 100 : 0) + '%';
+  }
+}
+player.addEventListener('timeupdate', updateHighlight);
+player.addEventListener('seeking', updateHighlight);
+
+// --- action posting -----------------------------------------------------
+
+async function postAction(gran, idx, action, payload) {
+  const r = await fetch(`/api/action/${FILE_NO}`, {
+    method: 'POST', body: JSON.stringify({ reviewer: REVIEWER, granularity: gran, seg_index: idx, action, payload })
+  }).then(r => r.json());
+  if (!r.ok) { flash(r.error, true); return null; }
+  STATE.coarse = r.coarse; STATE.fine = r.fine;
+  renderAll();
+  flash(r.translated ? `${action} saved (seq ${r.seq}) — translated to English & format-normalized` : `${action} saved (seq ${r.seq})`);
+  return r;
+}
+
+function flash(msg, isErr) {
+  statusEl.textContent = msg; statusEl.className = 'status-line' + (isErr ? ' err' : '');
+}
+
+function curSeg() { return STATE[SELECTED.gran][SELECTED.idx]; }
+function segAt(gran, idx) { return STATE[gran][idx]; }
+
+const DIR_PAIRS = [['insert', 'remove'], ['screw', 'unscrew'], ['open', 'close'], ['attach', 'detach'], ['plug', 'unplug']];
+function flipDirectional(summary) {
+  const words = summary.split(/\b/);
+  for (let i = 0; i < words.length; i++) {
+    const lw = words[i].toLowerCase();
+    for (const [a, b] of DIR_PAIRS) {
+      if (lw.startsWith(a)) { words[i] = words[i].replace(new RegExp(a, 'i'), b); return words.join(''); }
+      if (lw.startsWith(b)) { words[i] = words[i].replace(new RegExp(b, 'i'), a); return words.join(''); }
+    }
+  }
+  return null;
+}
+
+// Every call*() below is wired to BOTH an on-screen button (onclick, works by
+// mouse alone -- no keyboard shortcut knowledge required) and the matching
+// keyboard shortcut. All take an explicit (gran, idx) so a button click acts
+// on ITS OWN row even if that row wasn't the previously-selected one.
+
+let EDITING = false;
+
+function callEdit(gran, idx) {
+  select(gran, idx);
+  player.pause();
+  const seg = segAt(gran, idx);
+  openModal({ mode: 'edit', gran, idx, title: 'Edit summary', initialText: seg.summary });
+}
+
+function callRetime(gran, idx, endTime) {
+  select(gran, idx);
+  const et = endTime != null ? endTime : player.currentTime;
+  postAction(gran, idx, 'retime', { end_time: et });
+}
+
+function callFlip(gran, idx) {
+  select(gran, idx);
+  const seg = segAt(gran, idx);
+  const flipped = flipDirectional(seg.summary);
+  if (flipped) postAction(gran, idx, 'edit', { summary: flipped });
+  else flash('no directional verb found in this summary (insert/remove, screw/unscrew, open/close, attach/detach, plug/unplug)', true);
+}
+
+function callToggleType(gran, idx) {
+  select(gran, idx);
+  const seg = segAt(gran, idx);
+  const t = seg.type === 'idle' ? 'action' : 'idle';
+  postAction(gran, idx, 'edit', { type: t });
+}
+
+function findSegmentAtTime(gran, t) {
+  const segs = STATE[gran];
+  let idx = segs.findIndex(s => t < s.end_time);
+  if (idx < 0) idx = segs.length - 1;
+  return idx;
+}
+
+// Row "Split at playhead" button: ignores the row's own idx for validation --
+// always resolves whichever segment currently contains the playhead, in that
+// row's granularity. This is deliberately playhead-authoritative (see
+// openAddModalAtPlayhead) rather than requiring the reviewer to first select
+// the exact right row.
+function callAdd(gran, idx) {
+  openAddModalAtPlayhead(gran);
+}
+
+function callMerge(gran, idx) {
+  select(gran, idx);
+  postAction(gran, idx, 'merge', {});
+}
+
+function callDelete(gran, idx) {
+  select(gran, idx);
+  if (!confirm('Delete this segment? Its time span will be absorbed by the previous segment.')) return;
+  postAction(gran, idx, 'delete', {});
+}
+
+function callUndoSeg(gran, idx) {
+  select(gran, idx);
+  const seg = segAt(gran, idx);
+  if (seg._origin_seq == null) { flash('nothing to undo on this segment', true); return; }
+  postAction(gran, null, 'undo', { undo_seq: seg._origin_seq });
+}
+
+// --- add-at-playhead (global button + per-row Split button both land here) --
+
+function openAddModalAtPlayhead(gran) {
+  const g = gran || SELECTED.gran;
+  player.pause();
+  const t = player.currentTime;
+  const idx = findSegmentAtTime(g, t);
+  const seg = segAt(g, idx);
+  const lo = idx > 0 ? STATE[g][idx - 1].end_time : 0.0;
+  if (!(t > lo + 0.01 && t < seg.end_time - 0.01)) {
+    flash(`playhead is at ${fmt(t)}s, right on an existing boundary (${fmt(lo)}s-${fmt(seg.end_time)}s) -- move it slightly into the middle of a segment, then try again`, true);
+    return;
+  }
+  select(g, idx);
+  openModal({ mode: 'add', gran: g, idx, t, title: `Add boundary at ${fmt(t)}s (splits "${seg.summary.slice(0, 40)}")`, initialText: '' });
+}
+
+// --- edit/add modal (typed or voice input, translated+normalized preview) ---
+
+let MODAL = null; // {mode, gran, idx, t, finalText, translated}
+
+function openModal({ mode, gran, idx, t, title, initialText }) {
+  MODAL = { mode, gran, idx, t, finalText: null };
+  EDITING = true;
+  document.getElementById('modal-title').textContent = title;
+  const input = document.getElementById('modal-input');
+  input.value = initialText || '';
+  document.getElementById('modal-preview').style.display = 'none';
+  document.getElementById('modal-mic-status').textContent = '';
+  document.getElementById('modal-save-btn').textContent = 'Translate & preview';
+  document.getElementById('modal-overlay').style.display = 'flex';
+  input.focus();
+}
+
+function closeModal() {
+  stopMic();
+  document.getElementById('modal-overlay').style.display = 'none';
+  EDITING = false;
+  MODAL = null;
+}
+
+async function submitModal() {
+  const input = document.getElementById('modal-input');
+  const text = input.value.trim();
+  if (!text) { flash('type or speak something first', true); return; }
+
+  if (MODAL.finalText === null || MODAL.rawText !== text) {
+    // step 1: translate + normalize, show the preview -- this is the visible
+    // "yes, translation is happening" step, always shown even for English
+    // input (which just gets format-normalized).
+    document.getElementById('modal-save-btn').textContent = 'Translating...';
+    document.getElementById('modal-save-btn').disabled = true;
+    const r = await fetch('/api/translate', { method: 'POST', body: JSON.stringify({ text }) }).then(r => r.json());
+    document.getElementById('modal-save-btn').disabled = false;
+    MODAL.finalText = r.summary; MODAL.rawText = text; MODAL.wasTranslated = r.translated;
+    const prev = document.getElementById('modal-preview');
+    prev.style.display = 'block';
+    document.getElementById('modal-preview-text').textContent = r.summary +
+      (r.translated ? '  (translated from Chinese)' : '');
+    document.getElementById('modal-save-btn').textContent = 'Confirm & save';
+    return;
+  }
+
+  // step 2: user already saw the preview and clicked again -- commit it.
+  const payload = MODAL.wasTranslated ? { summary: MODAL.finalText, summary_raw: MODAL.rawText } : { summary: MODAL.finalText };
+  if (MODAL.mode === 'edit') {
+    await postAction(MODAL.gran, MODAL.idx, 'edit', payload);
+  } else {
+    await postAction(MODAL.gran, MODAL.idx, 'add', { ...payload, t: MODAL.t });
+  }
+  closeModal();
+}
+
+document.getElementById('modal-input').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') { e.preventDefault(); submitModal(); }
+  else if (e.key === 'Escape') { closeModal(); }
+  else if (MODAL) { MODAL.finalText = null; } // any further typing invalidates the stale preview
+});
+
+// --- voice input (Web Speech API -- Chrome/Edge only, needs network access
+// to the browser vendor's speech service; gracefully reports when unavailable
+// rather than failing silently) ---------------------------------------------
+
+let recognition = null, micLang = 'zh-CN';
+function setMicLang(lang) {
+  micLang = lang;
+  document.getElementById('lang-zh').classList.toggle('active', lang === 'zh-CN');
+  document.getElementById('lang-en').classList.toggle('active', lang === 'en-US');
+}
+
+function stopMic() {
+  if (recognition) { try { recognition.stop(); } catch (e) {} }
+  document.getElementById('modal-mic-btn').classList.remove('listening');
+}
+
+function toggleMic() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) {
+    document.getElementById('modal-mic-status').textContent =
+      'Voice input needs Chrome or Edge (and network access to the browser\'s speech service) -- not available in this browser. Please type instead.';
+    return;
+  }
+  const btn = document.getElementById('modal-mic-btn');
+  if (btn.classList.contains('listening')) { stopMic(); return; }
+  recognition = new SR();
+  recognition.lang = micLang;
+  recognition.interimResults = true;
+  recognition.continuous = false;
+  recognition.onstart = () => { btn.classList.add('listening'); document.getElementById('modal-mic-status').textContent = 'Listening... speak now'; };
+  recognition.onerror = (e) => {
+    document.getElementById('modal-mic-status').textContent =
+      e.error === 'not-allowed' ? 'Microphone permission denied -- allow mic access for this page and retry.' : `Voice input error: ${e.error}`;
+    btn.classList.remove('listening');
+  };
+  recognition.onend = () => { btn.classList.remove('listening'); };
+  recognition.onresult = (e) => {
+    let text = '';
+    for (let i = 0; i < e.results.length; i++) text += e.results[i][0].transcript;
+    document.getElementById('modal-input').value = text;
+    MODAL.finalText = null;
+  };
+  recognition.start();
+}
+
+// --- boundary skim mode ---------------------------------------------------
+
+function toggleSkim() {
+  SKIM = !SKIM;
+  document.getElementById('skim-banner').style.display = SKIM ? 'block' : 'none';
+  if (SKIM) runSkimStep(0); else if (SKIM_TIMER) clearTimeout(SKIM_TIMER);
+}
+function runSkimStep(i) {
+  if (!SKIM) return;
+  const segs = STATE[SELECTED.gran];
+  if (i >= segs.length) { SKIM = false; document.getElementById('skim-banner').style.display = 'none'; return; }
+  const b = segs[i].end_time;
+  select(SELECTED.gran, i);
+  player.currentTime = Math.max(0, b - 2);
+  player.play();
+  SKIM_TIMER = setTimeout(() => { player.pause(); runSkimStep(i + 1); }, 4000);
+}
+
+// --- mark done -------------------------------------------------------------
+
+async function markDone() {
+  const r = await fetch('/api/mark_done', { method: 'POST', body: JSON.stringify({ file_no: FILE_NO, reviewer: REVIEWER, done: true }) }).then(r => r.json());
+  if (!r.ok) { flash(r.error, true); return; }
+  flash('marked done, finding next claimed video...');
+  const a = await fetch('/api/assignment').then(r => r.json());
+  const next = a.entries.find(e => e.claimed_by === REVIEWER && e.status === 'in_progress');
+  if (next) location.href = `/workbench.html?file_no=${next.file_no}&reviewer=${encodeURIComponent(REVIEWER)}`;
+  else { flash('no more claimed videos -- back to index'); setTimeout(() => location.href = '/index.html', 1500); }
+}
+
+// --- keyboard ---------------------------------------------------------------
+
+function toggleHelp() {
+  const el = document.getElementById('help-overlay');
+  el.style.display = el.style.display === 'flex' ? 'none' : 'flex';
+}
+
+document.addEventListener('keydown', (e) => {
+  if (EDITING) return; // input field handles its own keys
+  if (e.key === '?') { toggleHelp(); return; }
+  if (document.getElementById('help-overlay').style.display === 'flex') return;
+
+  const segs = STATE ? STATE[SELECTED.gran] : [];
+  if (e.key === 'j') { SELECTED.idx = Math.min(segs.length - 1, SELECTED.idx + 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
+  else if (e.key === 'k') { SELECTED.idx = Math.max(0, SELECTED.idx - 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
+  else if (e.key === 'Tab') { e.preventDefault(); SELECTED.gran = SELECTED.gran === 'coarse' ? 'fine' : 'coarse'; SELECTED.idx = 0; select(SELECTED.gran, 0); }
+  else if (['1', '2', '3', '4'].includes(e.key)) { player.playbackRate = parseInt(e.key); }
+  else if (e.key === 'B' || e.key === 'b') { toggleSkim(); }
+  else if (e.key === 't') { callRetime(SELECTED.gran, SELECTED.idx, player.currentTime); }
+  else if (e.key === '[') { callRetime(SELECTED.gran, SELECTED.idx, curSeg().end_time - (e.shiftKey ? 0.5 : 0.1)); }
+  else if (e.key === ']') { callRetime(SELECTED.gran, SELECTED.idx, curSeg().end_time + (e.shiftKey ? 0.5 : 0.1)); }
+  else if (e.key === 'e') { callEdit(SELECTED.gran, SELECTED.idx); }
+  else if (e.key === 'd') { callFlip(SELECTED.gran, SELECTED.idx); }
+  else if (e.key === 'i') { callToggleType(SELECTED.gran, SELECTED.idx); }
+  else if (e.key === 'm') { callMerge(SELECTED.gran, SELECTED.idx); }
+  else if (e.key === 'x') { callDelete(SELECTED.gran, SELECTED.idx); }
+  else if (e.key === 'n') { openAddModalAtPlayhead(SELECTED.gran); }
+  else if (e.key === 'u') { callUndoSeg(SELECTED.gran, SELECTED.idx); }
+  else if (e.key === 'D' && e.shiftKey) { markDone(); }
+});
+
+load();
+</script>
+</body>
+</html>

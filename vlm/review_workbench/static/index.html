@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>M-v4.2 terminal review workbench</title>
+<style>
+  body { font-family: -apple-system, sans-serif; margin: 0; padding: 16px; background: #1e1e1e; color: #ddd; }
+  h1 { font-size: 18px; color: #fff; margin: 0 0 4px; }
+  .sub { color: #999; font-size: 13px; margin-bottom: 12px; }
+  .bar { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
+  .box { border: 1px solid #333; border-radius: 4px; padding: 8px 12px; background: #232323; font-size: 13px; }
+  .box b { color: #7fc7ff; }
+  input, select, button { background: #2a2a2a; color: #ddd; border: 1px solid #444; border-radius: 4px; padding: 5px 8px; font-size: 13px; }
+  button { cursor: pointer; }
+  button:hover { background: #333; }
+  button.primary { background: #2e6da4; border-color: #2e6da4; color: #fff; }
+  button.primary:hover { background: #3a7fc0; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { border-bottom: 1px solid #2a2a2a; padding: 5px 8px; text-align: left; }
+  th { color: #7fc7ff; cursor: pointer; position: sticky; top: 0; background: #1e1e1e; user-select: none; }
+  tr.mine { background: #1a2a1a; }
+  tr.others { opacity: 0.45; }
+  tr.done { color: #7fdc7f; }
+  tr:hover:not(.others) { background: #262626; }
+  a.claim-link { color: #7fc7ff; text-decoration: none; cursor: pointer; }
+  a.claim-link:hover { text-decoration: underline; }
+  .tier { padding: 1px 8px; border-radius: 3px; font-size: 11px; }
+  .tier-error { background: #5a1f1f; color: #ff9a9a; }
+  .tier-outlier { background: #4a3a1a; color: #f0c060; }
+  .tier-warn_dense { background: #2a2618; color: #d9b06a; }
+  .tier-clean { background: #1a3a1a; color: #8fd88f; }
+  .tier-failed_final { background: #333; color: #888; }
+  .status-badge { padding: 1px 6px; border-radius: 3px; font-size: 11px; }
+  .status-unclaimed { background: #2a2a2a; color: #999; }
+  .status-in_progress { background: #23283a; color: #9aa7c7; }
+  .status-done { background: #1a3a1a; color: #8fd88f; }
+  .status-no_data { background: #222; color: #555; }
+  .name-tag { font-size: 12px; color: #ccc; background: #2a2a2a; padding: 2px 8px; border-radius: 3px; }
+  #name-modal { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 100; }
+  #name-modal .card { background: #232323; padding: 20px; border-radius: 8px; border: 1px solid #444; }
+  .flag-sum { font-family: monospace; font-size: 11px; }
+  .flag-sum .e { color: #ff9a9a; } .flag-sum .w { color: #d9b06a; } .flag-sum .i { color: #7fc7ff; }
+  .release-btn { font-size: 11px; padding: 1px 6px; margin-left: 4px; }
+</style>
+</head>
+<body>
+
+<div id="name-modal">
+  <div class="card">
+    <h3>Enter your reviewer name</h3>
+    <input id="name-input" placeholder="e.g. alice" autofocus>
+    <button class="primary" onclick="submitName()">Start reviewing</button>
+  </div>
+</div>
+
+<h1>M-v4.2 terminal review workbench</h1>
+<div class="sub">500 keep videos, default-pass review. Reviewer: <span class="name-tag" id="my-name"></span> <a href="#" onclick="changeName()" style="font-size:11px;color:#7fc7ff;">(change)</a></div>
+
+<div class="bar">
+  <div class="box">Global: <b id="p-done">-</b>/<b id="p-total">-</b> done, <b id="p-unclaimed">-</b> unclaimed, <b id="p-inprogress">-</b> in progress</div>
+  <div class="box" id="my-progress"></div>
+  <div class="box">Range claim: <input id="range-input" placeholder="0051-0100" size="10"> <button class="primary" onclick="claimRange()">Claim range</button></div>
+</div>
+
+<div class="bar">
+  <label><input type="checkbox" id="f-mine" onchange="render()"> Only mine</label>
+  <label><input type="checkbox" id="f-unclaimed" onchange="render()"> Only unclaimed</label>
+  <select id="f-tier" onchange="render()">
+    <option value="">All tiers</option>
+    <option value="error">error</option>
+    <option value="outlier">outlier</option>
+    <option value="warn_dense">warn_dense</option>
+    <option value="clean">clean</option>
+    <option value="failed_final">failed_final (no data)</option>
+  </select>
+  <select id="f-status" onchange="render()">
+    <option value="">All statuses</option>
+    <option value="unclaimed">unclaimed</option>
+    <option value="in_progress">in_progress</option>
+    <option value="done">done</option>
+  </select>
+  <button onclick="refresh()">Refresh</button>
+</div>
+
+<table id="t">
+<thead><tr>
+  <th data-k="file_no">#</th><th data-k="video_id">video</th><th data-k="domain">domain</th>
+  <th data-k="duration_in_sec">dur(s)</th><th data-k="n_coarse">coarse</th><th data-k="n_fine">fine</th>
+  <th data-k="tier">tier</th><th>flags</th><th data-k="claimed_by">claimed by</th>
+  <th data-k="status">status</th><th data-k="corrections">corrections</th>
+</tr></thead>
+<tbody id="tbody"></tbody>
+</table>
+
+<script>
+let ME = null;
+let ENTRIES = [];
+let CORR_COUNTS = {};
+let SORT_KEY = "file_no", SORT_ASC = true;
+
+function getCookie(name) {
+  const m = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+  return m ? decodeURIComponent(m[2]) : null;
+}
+function setCookie(name, val) {
+  document.cookie = `${name}=${encodeURIComponent(val)}; path=/; max-age=31536000`;
+}
+
+function submitName() {
+  const v = document.getElementById('name-input').value.trim();
+  if (!v) return;
+  ME = v;
+  setCookie('reviewer', v);
+  document.getElementById('name-modal').style.display = 'none';
+  document.getElementById('my-name').textContent = ME;
+  refresh();
+}
+function changeName() {
+  document.getElementById('name-input').value = ME || '';
+  document.getElementById('name-modal').style.display = 'flex';
+}
+
+async function refresh() {
+  const [a, p, c] = await Promise.all([
+    fetch('/api/assignment').then(r => r.json()),
+    fetch('/api/progress').then(r => r.json()),
+    fetch('/api/correction_counts').then(r => r.json()),
+  ]);
+  ENTRIES = a.entries;
+  CORR_COUNTS = c;
+  document.getElementById('p-done').textContent = p.done;
+  document.getElementById('p-total').textContent = p.total;
+  document.getElementById('p-unclaimed').textContent = p.unclaimed;
+  document.getElementById('p-inprogress').textContent = p.in_progress;
+  const mine = p.by_reviewer[ME] || { claimed: 0, done: 0, corrections: 0 };
+  document.getElementById('my-progress').innerHTML =
+    `<b>${ME}</b>: ${mine.done}/${mine.claimed} done, ${mine.corrections} corrections`;
+  render();
+}
+
+function render() {
+  const onlyMine = document.getElementById('f-mine').checked;
+  const onlyUnclaimed = document.getElementById('f-unclaimed').checked;
+  const tierF = document.getElementById('f-tier').value;
+  const statusF = document.getElementById('f-status').value;
+
+  let rows = ENTRIES.filter(e => {
+    if (onlyMine && e.claimed_by !== ME) return false;
+    if (onlyUnclaimed && e.status !== 'unclaimed') return false;
+    if (tierF && e.tier !== tierF) return false;
+    if (statusF && e.status !== statusF) return false;
+    return true;
+  });
+  rows.sort((a, b) => {
+    let av = SORT_KEY === 'corrections' ? (CORR_COUNTS[a.file_no] || 0) : a[SORT_KEY];
+    let bv = SORT_KEY === 'corrections' ? (CORR_COUNTS[b.file_no] || 0) : b[SORT_KEY];
+    if (av == null) av = '';
+    if (bv == null) bv = '';
+    const cmp = (typeof av === 'number' && typeof bv === 'number') ? av - bv : String(av).localeCompare(String(bv));
+    return SORT_ASC ? cmp : -cmp;
+  });
+
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = rows.map(e => {
+    const isMine = e.claimed_by === ME;
+    const isOther = e.claimed_by && !isMine;
+    const cls = e.status === 'done' ? 'done' : (isMine ? 'mine' : (isOther ? 'others' : ''));
+    const flagSum = `<span class="flag-sum"><span class="e">E${e.flags.error}</span> <span class="w">W${e.flags.warn}</span> <span class="i">I${e.flags.info}</span></span>`;
+    const corr = CORR_COUNTS[e.file_no] || 0;
+    const canEnter = e.status !== 'no_data' && (!e.claimed_by || isMine);
+    const videoCell = canEnter
+      ? `<a class="claim-link" onclick="enter('${e.file_no}')">${e.video_id}</a>`
+      : `<span title="claimed by ${e.claimed_by}">${e.video_id}</span>`;
+    const releaseBtn = (isMine && e.status !== 'done')
+      ? `<button class="release-btn" onclick="release('${e.file_no}')">release</button>` : '';
+    return `<tr class="${cls}">
+      <td>${e.file_no}</td>
+      <td>${videoCell}</td>
+      <td>${e.domain || '-'}</td>
+      <td>${e.duration_in_sec != null ? e.duration_in_sec.toFixed(0) : '-'}</td>
+      <td>${e.n_coarse}</td><td>${e.n_fine}</td>
+      <td><span class="tier tier-${e.tier}">${e.tier}</span></td>
+      <td>${flagSum}</td>
+      <td>${e.claimed_by || '-'}${releaseBtn}</td>
+      <td><span class="status-badge status-${e.status}">${e.status}</span></td>
+      <td>${corr}</td>
+    </tr>`;
+  }).join('');
+}
+
+document.querySelectorAll('#t th[data-k]').forEach(th => {
+  th.addEventListener('click', () => {
+    const k = th.dataset.k;
+    if (SORT_KEY === k) SORT_ASC = !SORT_ASC; else { SORT_KEY = k; SORT_ASC = true; }
+    render();
+  });
+});
+
+async function enter(file_no) {
+  const r = await fetch('/api/claim', { method: 'POST', body: JSON.stringify({ file_no, reviewer: ME }) }).then(r => r.json());
+  if (!r.ok) { alert(r.error); refresh(); return; }
+  window.location.href = `/workbench.html?file_no=${file_no}&reviewer=${encodeURIComponent(ME)}`;
+}
+
+async function release(file_no) {
+  await fetch('/api/release', { method: 'POST', body: JSON.stringify({ file_no, reviewer: ME }) });
+  refresh();
+}
+
+async function claimRange() {
+  const v = document.getElementById('range-input').value.trim();
+  const m = v.match(/^(\d{4})-(\d{4})$/);
+  if (!m) { alert('format: 0051-0100'); return; }
+  const r = await fetch('/api/claim_range', { method: 'POST', body: JSON.stringify({ start_no: m[1], end_no: m[2], reviewer: ME }) }).then(r => r.json());
+  alert(`claimed ${r.claimed.length}, skipped ${r.skipped.length} (already claimed by others)`);
+  refresh();
+}
+
+// init
+const saved = getCookie('reviewer');
+if (saved) {
+  ME = saved;
+  document.getElementById('name-modal').style.display = 'none';
+  document.getElementById('my-name').textContent = ME;
+  refresh();
+  setInterval(refresh, 15000);
+} else {
+  document.getElementById('name-input').focus();
+}
+document.getElementById('name-input').addEventListener('keydown', e => { if (e.key === 'Enter') submitName(); });
+</script>
+</body>
+</html>
