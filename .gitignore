@@ -39,7 +39,12 @@ vlm/**/review.html
 vlm/**/*.mp4
 
 # vlm/ pipeline outputs, intermediate archives (pass0/narrations/fine_raw/refined),
-# review bundles, and generated review-page directories -- all local build artifacts
+# review bundles, and generated review-page directories -- all local build artifacts.
+# Exception: vlm/outputs/final/annotations_{coarse,fine}_qc.jsonl and
+# review_priority.json ARE tracked (force-added, deliberately overriding this
+# ignore) -- they're the data prerequisite review_workbench needs, see its
+# README's "Data prerequisites" section. Everything else under vlm/outputs/
+# stays untracked (draft_v2 jsonl, per-video archives, etc.).
 vlm/outputs/
 vlm/phase1_review/
 vlm/phase1v3_review/

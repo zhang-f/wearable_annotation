@@ -1,0 +1,2063 @@
+{
+ "order": [
+  {
+   "video_path": "01e536365b8b57ad.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "02481510e18faa48.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "0503dacc3da23d1a.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "0ded81ea4c94e111.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "15eadc001185bcfc.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "2590c2cacdf4a6c2.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "296444079e07d511.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "321eb4583643fc00.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "33aacac19b8ef511.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "3522c7b5cbdbe25d.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "35b4bd14afb42109.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "35fd504c73586f05.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "39cd3788881845f4.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "3f80b79ca3f2fb8f.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "4248b0a8cbe5cf92.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "5390b26fd5628981.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "647cd73e25621c81.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "6ad710d3e252678a.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "6d839f832037b10b.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "71da88e7ebab3c49.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "7250b1319203d6cb.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "733c295802e59c9a.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "7343f3bdddacab20.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "742dcf3b34e69665.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "7ba0ff671b9b7693.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "7d641f52d47eaf74.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "7d9f2cd50a0580a9.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "7db060fc3ba15e36.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "7f1c64f7d0880938.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "8c791c95ffbd8c11.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "90aab2dafc749e5c.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "9186ff4997024eb1.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "93369104441c8bdd.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "99b41b274db14f16.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "a0f7e4e25c3aeb6a.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "a121c30c39f9dc72.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "a5ce90da9a5cc07a.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "aac31709beff7418.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "af57359bc6056d66.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "b4bac0ea2c14e92a.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "b6919021874d152d.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "b7a97c9f635d686c.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "bc336f7581b8a9ed.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "c271543bd097924a.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "cafd82c22fda743d.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "cfeb935f46cb7112.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "d09110ca079693c3.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "d1b4bd88ef655ac6.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "d2037e676003fddb.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "d5a737cf7eacb871.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "d68b4e58600a7f11.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "d6cb618bb700b7c0.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "ddd45588155515b7.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "def3443075cdaba4.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "e15723e58a5486d3.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "e531cded0108b6c3.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "e920efcec8743f01.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "ed2b9c89c8343f30.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "ed3bb632400de4bf.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "f4b2e6ba35043fc6.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "f672d88a09fa7815.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "fdcb8a3482770355.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "ffb3c66973fc8f88.mp4",
+   "tier": "error"
+  },
+  {
+   "video_path": "07b99132cfca55ee.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "17e3cb885c9d4a9f.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "1ed4fd49e8e19860.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "4ebc148a613c5b76.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "4f9e4050e400480f.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "57d901c4644ef3d8.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "58911a11f1e276bc.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "775d3390a64cc86d.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "8c7588f2a424b8fd.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "9aa47843610895b3.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "b0011806f8d6b4a2.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "b754131136438561.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "cf67dafa9909085e.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "e243dd75d82b5ef5.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "ee57a88985e18518.mp4",
+   "tier": "outlier"
+  },
+  {
+   "video_path": "9e059416742fa71d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "51858592483eb035.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c6f351e626d204f7.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7c471a0376c4005b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "822a4fd6586ceddb.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "effe0fc95c21d897.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0573fc312656e95a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "126b5c0d5744b44c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5c73bd7058462eed.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b72e49ddb2816af6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4918e35d642df5a0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5f331a6a74380892.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9cc3dc4a5902df89.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e1784e87695bff3e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5cb8fe5e3e60a647.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "8f693926d354be4e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b666ad7b3dedefa1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e154915e636fc23f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e9203b673adb9f69.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c4bd701cf1a42462.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0af87fb5405568e9.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9740a14da7fe64ef.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c61524307dd6ab09.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3c1d649e2700fae3.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9ae6cd0fba68313e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "a668107d4cbb61d6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b10afe8715607c52.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ddb63645c6456edb.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "008a392f0747e13b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "050e205b707d34c2.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "554e251921df992c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6a91080d816fc652.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7c61851d69dcca12.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "86050eb539e421ca.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d93f21691be865c6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "10ec928416f6dff6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "14e98d6cd1072bfc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "1b320f890d95b5d1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3a122ee7ff513956.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4a42f604a51bf1f2.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "8a24481ff511dc25.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b754e83170d633b2.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ccb5d74c42da3d7d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e54820e8f6145075.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f7d1a1243e760c2d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "fc264c696a11a50c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "09608c5b07b02b7d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "1f8e125ab4afe11c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4fc1922db3df47c4.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "731a73b682f8b83d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "768cf9ecf66b2cee.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7acfba838209ca7d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "993b650b92312576.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "99d5ec76296211fd.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "dc07ae1154a60fdc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e14491be8f3ab48f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "fc410db25e770e55.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "fced96b0f5b0dbf1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "2fc1de40daf2fd56.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3f62985cbbc894a5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "421e68f636452a2e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "600c94461993bd6c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "677045547dd61344.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "773dc93c2e0328fc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9bee20d4cc3565da.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9d8733825f2d1b80.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ab10d41f6d4605bd.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ac89bbddd8c176ac.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b2987e9e55bb694b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ca42dc98a92a0625.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d95755db6e6f482f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e919cc570dc1732e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "feee7b1b3cafec09.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "00735eddaeaaff4a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0b4dd0cf02c47a4c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0d2c47b8b45472e6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "24d95d2a6c9ceb33.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "2dfb2ebedda99a75.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "319063b5835634fe.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3bf494fad87c2e22.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "56a188c143093ae9.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "59f325da8667be52.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "63dbf9f85a9248ae.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6b11e768bf7691a6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9283910a485e5c47.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "aa0904f3d6dfb6cb.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ac01e754ec86cfb7.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b27e74ddecbb7bec.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b8e0bf408166f57a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "bd236d309fb33abe.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c55a11661962ee05.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "cfcac7de1fca4d8d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d297a330f7817d59.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d7d04813264380b5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e24b832e75f04491.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "fe34295a59f41e67.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0e109a25e5ee366e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "144d1fcfc5333067.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "1862206fbd777a04.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "19f9b75674cc1d62.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "28f77b18a658d0ba.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "2ae7eb1e3ffef5a5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "37d115699f18ee8c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "41dea42f7a4302db.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "424e376f6c5d3b7a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "46fb9be9147b08ef.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4e45aa0b7b1cefbc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7d7178115abdd0d0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9143595052d09321.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "91bb11d60b173c2f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "932ea5bd09bba1c7.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "a28ac19ed2c774a0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "bc7038f12e25c978.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "bc802dccef94dc46.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "bc9c8f5d317a60eb.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "cfea8363b18eb019.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d6d6bbac13f0ef28.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d7a644cd2893ebdb.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "dd0712959a2dc6b0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e0c237d2d433e4ed.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e6cf2d5884653792.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "136ec63c00695767.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "16b74672db8025bb.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "175bd7e36afe2fb1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "29c6acf1a701deca.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "2a9775f86be5a257.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "2c2d312710238ea6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "350ee02d3dd2f2a1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3f83a362bd9e6865.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4437f649e3e0ae78.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "505edd30646d7a51.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "54f4e41e303817e5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "561193fbac3119f1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5ed574f36f1b666c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "61efb30f29304333.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "620c4234fcd99597.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "76277cb67536d36a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "76ece4d06afb5b97.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "76f6a9c88251a6e7.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7fde9407004214c5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "957b1133a062901f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "99bf1be8ed3e7779.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9abf47152bb7309d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "a2c43df2f8bad487.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ab9a0e009650c37f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "af27f2e6ff292d4d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b41a08a61835b12d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b555236010db154c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b926c3b164fb99e4.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "cd008d3fea3dc4ce.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e37f1607af3e8239.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f4e8ee1dc64cc84d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f91b8804648c07c3.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "04cac7c05a572dbb.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "096ac5a885857526.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "1640676907bf391d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "400d5fbf2ef04dcc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "41799da771e9335c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "440660c9d220f05f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4d459d476b184b3b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4dc09813cd6db424.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "543fa79dc714ad88.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "55f4d40026db8f8a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "60761e778b60f93b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6347a62131c3b60e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6ad63c06ed4bd5d5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6b10e2cc3d36ff03.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "70fe7910369441cb.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7703e284f89fba4d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "8343d72f336e401a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "87ec79793ce3e2ce.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "8d4e85c56534f444.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "995408ac589c3d17.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "99eb6e68af1b3d37.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9ffaadce7276fe77.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ae9216d2fea28108.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "af89239c69b82bb0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b4c3f98029b4fae1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b5468156643e73e9.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b7b5c1988e1b9054.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "bd153fbac40c6546.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c5ae58e40e8b0caa.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "cd72f9f2a62b3317.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "cfa3002990f24a07.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d67ce0f6e7a5819f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e39c79a85a659d6a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e598041593218d7b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e665e3d984c27577.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f9ab736efee50387.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "fba33dd3a93a3cb1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "01cf3744ff905bae.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "07a22df946b17f04.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0b799a81576b8079.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "133d77e09e757c15.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "241ce46d3ce5e765.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "252ec8533cd8fdc1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "359ed9ce38fdf4dc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "35ce7415cd4b338a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "41229acd15ae49e5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4ad436063d96fea1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4ed14ae209371b8f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5254e4d0b4349f24.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5357f3bae4e60c23.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "60701b4f31eec672.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "62189b4f6359392b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6fcdc58a7097d9a1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "710fe0fb3433b822.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "748532d0e7a231b1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "8156c6cde135b1c6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "89b7e64735f716ad.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "91d3df80504d3c9c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "abf6f60d444f0e8f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d97af455a2ad6229.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e1903ff853dd84c6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e255abdaf26df1be.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e6ffe33a1a04bb44.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f038c712f47f294c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ff51366018f42337.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "04d7bcbd7e28c6dc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "050db9cba4f937cc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0b188aff54b23521.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0e2fa501411d8a34.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "113b52b758726ddb.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "12dfa2496c4ae46d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "170839816f18ce6d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "1921a8ff5ff4da14.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "2802dbf733bf2ff8.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "2c97b06ef739fe10.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "31b91cd5278621d6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "31c34dad3a407368.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "343ad98d329ac9b0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3995fbe11c22123d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4031482e3291f02b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6ce4e634e6294692.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7021c4bd1646e15c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "80861551f47df9c3.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "8247c850100cdec9.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "82f9af6274421ca6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "83cc5bd425be68a0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "86f3d55356270dfc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "91303fcf06530363.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "925b69d15de7ec31.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "942693de3669b422.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9a8c29a110e078de.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9e587b74180f1c94.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ae5f95f662d7186f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "af7ed655cd7b54a0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b5e0fc933348d9b3.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b8d95d2deca24df2.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c2014f26905b8ebc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c243716b87e66d96.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c8de43fef9d332e1.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d0190734a81217e3.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d62c911f2a047ae2.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "da4ac778f470dbb5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "df4b79f11e24da6d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e0deb53ced2f4fe0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0529003148c61a83.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "1931045a2a1f3174.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "28d042165128a429.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "2c898865d2824341.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3db29b16c7c61f17.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "42273b360ba21855.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "44ff0dd1c2d916d7.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "48a1833b29d9f244.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "4b3abe4424996e78.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "58bc4ccb89389909.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5cd4daa226681ce2.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5ffb0890d41b657b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "62c5f025661b0e9e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "65f2b1d5fd62fbbe.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "69c7ab1c4668cd7d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6ba5fde6cd8169df.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6c9b422d68c5645b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "73837a0b6a47889f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7450c21c611ebbcf.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "75f71f52096b4abc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7a8e039c82395ef9.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7d6278d775aa962c.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "822f4439932ecf6a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "844c944ab42fdf0f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "854e6e8833979fd7.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "881a59d0833cabc8.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "8aec3d620d7a261a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9073c7bf35446446.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "935dc60302a2b044.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "94b36e37606e3561.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9d7335e2417e005b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9ec55705360d7c74.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "a5d6c4e1e57a6aa2.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "a83e03487288f8ef.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b0794d627212629e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b2961c174bbed10e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b599b3a879ce1783.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b5a0f4cfaaaa573f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "bff70d917a9eecd7.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "cd3373114c26af14.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "cd4cf4fa16f8bc56.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d732a7ee44bcf101.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d7cbab825d4eec1a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e084bf26fa7a042a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e4a13798a3a392e8.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e617633267e59431.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ee75c4669ff08846.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f75dbac8dc8474e0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f8de5ddb8ff95a04.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "fb9d3b11c2278193.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "06a0ddbe91283514.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "08b9fac1a8faa178.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "092e75dd037f34a5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0f4a9bb8d487e7d9.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "14f7ae08d9edfb96.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "159298eb11311742.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "235e6ec7c54cad76.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "2f90c7fa1cb1bdcd.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3cf2404c2ea07f3f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3dccfb967377314a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "49528620f24575ba.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "53d963241050526d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "542fdfa17f6fa982.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "580e519735efe3e2.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5f5f19fd15a6cf4e.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "646a798bef1636ab.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "65a264cea1bb1ff5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "65a3bdd51c70404a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6d4b84a8cac21312.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7210ea1ed76b722b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7680dce9e6ce8546.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7703e102d97f1b92.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "8291120b2264ee3d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9a9950f841635892.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "a3cf7c2a46077ed8.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "a506c15fc7b6b0a8.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b7c4660550af9918.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b88e6e9c3881c0f6.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c293f81e1c95b81a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c9e61ec88eb330ff.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d13428259eb7593f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d2e60c0f2e9a7959.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d5ed5a8283b24eba.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e5a1fae29e61a4e9.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e6b2c56a98ab688a.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f29fa787f94658c9.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f4b93ec122e0689b.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "f9f74a68321a1b80.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "fcd7ac944675ba99.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "02dde09225bc2304.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0e7a1aa0bc246683.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0ea9b6032f8aa082.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "12a29736f2d63b03.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "22011cd3304c1679.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "22525229a380c24f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "260b450bf8bbea45.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "3bd40d7062287d58.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "43242425b1660531.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "459e3ad53e531fca.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5921d542c5574cda.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "5fdcf288e74afb70.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "68d542c348fb1348.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "6d4d007bcb0953a5.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "714405de0f91efad.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7780858e86198cb7.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "79e5e7d3c479d240.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "7aaf216434387203.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "80083bc2e1af840f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "805de3a7e027ad71.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "80efe6b804a726fd.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "9089a1f96489e578.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "908edba416baccfe.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "98baff001c60c2cc.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "a0dbca463088a5ba.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "ade6c4794aae8935.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "b2ef7aa0312409c2.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "bf0dd175609a707f.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "c790d8940fe22f47.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "cba0787dd64384ae.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d2618d834c9b96c8.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "d9716d9c9a4fbaed.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "dbf32a9bed91dd2d.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "dd70387359352264.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e4832b19e737d6ed.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "e8642b70adfbb6c0.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "fc452979b6a73fea.mp4",
+   "tier": "warn_dense"
+  },
+  {
+   "video_path": "0028bee556249cd3.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "01a52ad19afc0640.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "0f4659e67419dc48.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "15da446d40899dda.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "181cf339d5b6fc7a.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "1b35fcdde5be1ab8.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "2623f29cffff8360.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "26694a16b3f352ec.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "273b07d4be91adc3.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "30b0e4f997812c32.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "3167c3eb6f346b36.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "3c91466b67b92bb1.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "51c154734fb81c60.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "56b5d0d8e8309822.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "5f8078abbf9bcf20.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "6ac2dc7f74ed5ddc.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "6b35e2ff46f78a28.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "71202dd2f453c9f3.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "76f253f9f9ac70a9.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "7938107eb358de46.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "7ce7fef418c428d6.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "7e5647b597e04e51.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "83f0c42cebdcc8b4.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "875bff219f6b77f2.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "9193a0cb291c2182.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "9cd6633184d041b0.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "a2da7ed1249aae92.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "b00c7a882446587f.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "b8e003b218b39f69.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "d73510ad805c7958.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "dc4225d35bb8705e.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "e0a955e58b5ee0bf.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "f23939aec00dae2a.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "f799d94ddc961851.mp4",
+   "tier": "clean"
+  },
+  {
+   "video_path": "f9b5eb74827728c3.mp4",
+   "tier": "clean"
+  }
+ ],
+ "o2_spotcheck": [
+  "01e536365b8b57ad.mp4",
+  "02481510e18faa48.mp4",
+  "0503dacc3da23d1a.mp4",
+  "0ded81ea4c94e111.mp4",
+  "15eadc001185bcfc.mp4",
+  "2590c2cacdf4a6c2.mp4",
+  "296444079e07d511.mp4",
+  "321eb4583643fc00.mp4",
+  "33aacac19b8ef511.mp4",
+  "3522c7b5cbdbe25d.mp4",
+  "35b4bd14afb42109.mp4",
+  "35fd504c73586f05.mp4",
+  "39cd3788881845f4.mp4",
+  "3f80b79ca3f2fb8f.mp4",
+  "4248b0a8cbe5cf92.mp4",
+  "5390b26fd5628981.mp4",
+  "5f331a6a74380892.mp4",
+  "647cd73e25621c81.mp4",
+  "6ad710d3e252678a.mp4",
+  "6d839f832037b10b.mp4",
+  "71da88e7ebab3c49.mp4",
+  "7250b1319203d6cb.mp4",
+  "733c295802e59c9a.mp4",
+  "7343f3bdddacab20.mp4",
+  "742dcf3b34e69665.mp4",
+  "775d3390a64cc86d.mp4",
+  "7ba0ff671b9b7693.mp4",
+  "7d641f52d47eaf74.mp4",
+  "7d9f2cd50a0580a9.mp4",
+  "7db060fc3ba15e36.mp4",
+  "7f1c64f7d0880938.mp4",
+  "8aec3d620d7a261a.mp4",
+  "8c791c95ffbd8c11.mp4",
+  "90aab2dafc749e5c.mp4",
+  "9186ff4997024eb1.mp4",
+  "93369104441c8bdd.mp4",
+  "99b41b274db14f16.mp4",
+  "a0f7e4e25c3aeb6a.mp4",
+  "a121c30c39f9dc72.mp4",
+  "a5ce90da9a5cc07a.mp4",
+  "aac31709beff7418.mp4",
+  "af57359bc6056d66.mp4",
+  "b4bac0ea2c14e92a.mp4",
+  "b6919021874d152d.mp4",
+  "b7a97c9f635d686c.mp4",
+  "bc336f7581b8a9ed.mp4",
+  "c271543bd097924a.mp4",
+  "cafd82c22fda743d.mp4",
+  "cfeb935f46cb7112.mp4",
+  "d09110ca079693c3.mp4",
+  "d1b4bd88ef655ac6.mp4",
+  "d2037e676003fddb.mp4",
+  "d5a737cf7eacb871.mp4",
+  "d68b4e58600a7f11.mp4",
+  "d6cb618bb700b7c0.mp4",
+  "d73510ad805c7958.mp4",
+  "ddd45588155515b7.mp4",
+  "def3443075cdaba4.mp4",
+  "e15723e58a5486d3.mp4",
+  "e531cded0108b6c3.mp4",
+  "e920efcec8743f01.mp4",
+  "ed2b9c89c8343f30.mp4",
+  "ed3bb632400de4bf.mp4",
+  "f4b2e6ba35043fc6.mp4",
+  "f672d88a09fa7815.mp4",
+  "fdcb8a3482770355.mp4",
+  "ffb3c66973fc8f88.mp4"
+ ],
+ "failed_final": [
+  "8787ee2c88cd53dd.mp4",
+  "8c2572f5ad2b0fb8.mp4",
+  "a2ba11fdc8197426.mp4",
+  "f5ceb862f4d13675.mp4"
+ ]
+}
