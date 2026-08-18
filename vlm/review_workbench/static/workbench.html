@@ -84,8 +84,6 @@
   #modal-lang-toggle { font-size: 11px; margin-top: 4px; color: #999; }
   #modal-lang-toggle button { font-size: 11px; padding: 1px 8px; background: #2a2a2a; border: 1px solid #444; color: #999; border-radius: 3px; cursor: pointer; }
   #modal-lang-toggle button.active { background: #1e3a5a; border-color: #2e6da4; color: #7fc7ff; }
-  #modal-preview { margin-top: 10px; padding: 8px 10px; background: #1a3a1a; border: 1px solid #2e5a2e; border-radius: 4px; font-size: 13px; color: #8fd88f; display: none; }
-  #modal-preview .lbl { font-size: 10px; color: #6fa86f; display: block; margin-bottom: 2px; }
   #modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px; }
   #modal-actions button { padding: 6px 14px; border-radius: 4px; border: 1px solid #444; background: #2a2a2a; color: #ccc; cursor: pointer; font-size: 13px; }
   #modal-actions button.primary { background: #2e6da4; border-color: #2e6da4; color: #fff; }
@@ -164,10 +162,9 @@
       <button id="lang-en" onclick="setMicLang('en-US')">English</button>
     </div>
     <div id="modal-mic-status"></div>
-    <div id="modal-preview"><span class="lbl">Will be saved as (translated &amp; format-normalized):</span><span id="modal-preview-text"></span></div>
     <div id="modal-actions">
       <button onclick="closeModal()">Cancel</button>
-      <button class="primary" id="modal-save-btn" onclick="submitModal()">Translate &amp; preview</button>
+      <button class="primary" id="modal-save-btn" onclick="submitModal()">Save</button>
     </div>
   </div>
 </div>
@@ -518,19 +515,20 @@ function openAddModalAtPlayhead(gran) {
   openModal({ mode: 'add', gran: g, idx, t, title: `Add boundary at ${fmt(t)}s (splits "${seg.summary.slice(0, 40)}")`, initialText: '' });
 }
 
-// --- edit/add modal (typed or voice input, translated+normalized preview) ---
+// --- edit/add modal (typed or voice input, translated+normalized on save) ---
 
-let MODAL = null; // {mode, gran, idx, t, finalText, translated}
+let MODAL = null; // {mode, gran, idx, t}
 
 function openModal({ mode, gran, idx, t, title, initialText }) {
-  MODAL = { mode, gran, idx, t, finalText: null };
+  MODAL = { mode, gran, idx, t };
   EDITING = true;
   document.getElementById('modal-title').textContent = title;
   const input = document.getElementById('modal-input');
   input.value = initialText || '';
-  document.getElementById('modal-preview').style.display = 'none';
   document.getElementById('modal-mic-status').textContent = '';
-  document.getElementById('modal-save-btn').textContent = 'Translate & preview';
+  const btn = document.getElementById('modal-save-btn');
+  btn.textContent = 'Save';
+  btn.disabled = false;
   document.getElementById('modal-overlay').style.display = 'flex';
   input.focus();
 }
@@ -547,37 +545,27 @@ async function submitModal() {
   const text = input.value.trim();
   if (!text) { flash('type or speak something first', true); return; }
 
-  if (MODAL.finalText === null || MODAL.rawText !== text) {
-    // step 1: translate + normalize, show the preview -- this is the visible
-    // "yes, translation is happening" step, always shown even for English
-    // input (which just gets format-normalized).
-    document.getElementById('modal-save-btn').textContent = 'Translating...';
-    document.getElementById('modal-save-btn').disabled = true;
-    const r = await fetch('/api/translate', { method: 'POST', body: JSON.stringify({ text }) }).then(r => r.json());
-    document.getElementById('modal-save-btn').disabled = false;
-    MODAL.finalText = r.summary; MODAL.rawText = text; MODAL.wasTranslated = r.translated;
-    const prev = document.getElementById('modal-preview');
-    prev.style.display = 'block';
-    document.getElementById('modal-preview-text').textContent = r.summary +
-      (r.translated ? '  (translated from Chinese)' : '');
-    document.getElementById('modal-save-btn').textContent = 'Confirm & save';
-    return;
-  }
-
-  // step 2: user already saw the preview and clicked again -- commit it.
-  const payload = MODAL.wasTranslated ? { summary: MODAL.finalText, summary_raw: MODAL.rawText } : { summary: MODAL.finalText };
+  // One-click save: translate + normalize, then commit immediately -- no
+  // separate preview/confirm step. postAction()'s flash message reports
+  // whether translation happened, so the reviewer still sees that it did.
+  const btn = document.getElementById('modal-save-btn');
+  btn.textContent = 'Saving...';
+  btn.disabled = true;
+  const r = await fetch('/api/translate', { method: 'POST', body: JSON.stringify({ text }) }).then(r => r.json());
+  const payload = r.translated ? { summary: r.summary, summary_raw: text } : { summary: r.summary };
   if (MODAL.mode === 'edit') {
     await postAction(MODAL.gran, MODAL.idx, 'edit', payload);
   } else {
     await postAction(MODAL.gran, MODAL.idx, 'add', { ...payload, t: MODAL.t });
   }
+  btn.disabled = false;
+  btn.textContent = 'Save';
   closeModal();
 }
 
 document.getElementById('modal-input').addEventListener('keydown', (e) => {
   if (e.key === 'Enter') { e.preventDefault(); submitModal(); }
   else if (e.key === 'Escape') { closeModal(); }
-  else if (MODAL) { MODAL.finalText = null; } // any further typing invalidates the stale preview
 });
 
 // --- voice input (Web Speech API -- Chrome/Edge only, needs network access
@@ -620,7 +608,6 @@ function toggleMic() {
     let text = '';
     for (let i = 0; i < e.results.length; i++) text += e.results[i][0].transcript;
     document.getElementById('modal-input').value = text;
-    MODAL.finalText = null;
   };
   recognition.start();
 }
