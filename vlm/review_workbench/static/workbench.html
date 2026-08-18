@@ -553,14 +553,16 @@ async function submitModal() {
   btn.disabled = true;
   const r = await fetch('/api/translate', { method: 'POST', body: JSON.stringify({ text }) }).then(r => r.json());
   const payload = r.translated ? { summary: r.summary, summary_raw: text } : { summary: r.summary };
-  if (MODAL.mode === 'edit') {
-    await postAction(MODAL.gran, MODAL.idx, 'edit', payload);
-  } else {
-    await postAction(MODAL.gran, MODAL.idx, 'add', { ...payload, t: MODAL.t });
-  }
+  const result = MODAL.mode === 'edit'
+    ? await postAction(MODAL.gran, MODAL.idx, 'edit', payload)
+    : await postAction(MODAL.gran, MODAL.idx, 'add', { ...payload, t: MODAL.t });
   btn.disabled = false;
   btn.textContent = 'Save';
-  closeModal();
+  // postAction() returns null (and already flash()ed the error) on failure --
+  // only close on success, so a failed save (e.g. video not claimed by you)
+  // leaves the modal open with the reviewer's text intact instead of
+  // silently discarding it.
+  if (result) closeModal();
 }
 
 document.getElementById('modal-input').addEventListener('keydown', (e) => {
