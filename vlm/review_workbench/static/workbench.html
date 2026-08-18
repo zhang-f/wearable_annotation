@@ -70,6 +70,7 @@
   #help-overlay .card { background: #232323; border: 1px solid #444; border-radius: 8px; padding: 20px 28px; font-size: 13px; max-width: 560px; }
   #help-overlay table { border-collapse: collapse; } #help-overlay td { padding: 3px 10px; }
   #help-overlay kbd { background: #333; border: 1px solid #555; border-radius: 3px; padding: 1px 6px; font-family: monospace; }
+  #help-overlay .help-group { padding-top: 10px; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: #7fc7ff; }
   #skim-banner { display: none; background: #3a2a1a; color: #f0c060; padding: 4px 10px; border-radius: 4px; font-size: 12px; margin-bottom: 6px; }
   .flags-top { margin: 6px 0; }
   .flags-top .flag { border-left: 3px solid #c99a3c; background: #2a2618; padding: 3px 8px; margin: 2px 0; border-radius: 2px; color: #e8d9b0; font-size: 11px; }
@@ -86,6 +87,7 @@
   #modal-mic-btn.listening { background: #5a1f1f; border-color: #a33; color: #ff9a9a; animation: pulse 1s infinite; }
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
   #modal-mic-status { font-size: 11px; color: #f0c060; min-height: 14px; margin-top: 4px; }
+  #modal-idle-row { display: block; font-size: 12px; color: #ccc; margin-top: 10px; cursor: pointer; }
   #modal-lang-toggle { font-size: 11px; margin-top: 4px; color: #999; }
   #modal-lang-toggle button { font-size: 11px; padding: 1px 8px; background: #2a2a2a; border: 1px solid #444; color: #999; border-radius: 3px; cursor: pointer; }
   #modal-lang-toggle button.active { background: #1e3a5a; border-color: #2e6da4; color: #7fc7ff; }
@@ -183,6 +185,7 @@
       <button id="lang-en" onclick="setMicLang('en-US')">English</button>
     </div>
     <div id="modal-mic-status"></div>
+    <label id="modal-idle-row"><input type="checkbox" id="modal-idle-checkbox"> Idle segment (no interaction)</label>
     <div id="modal-actions">
       <button onclick="closeModal()">Cancel</button>
       <button class="primary" id="modal-save-btn" onclick="submitModal()">Save</button>
@@ -195,21 +198,27 @@
     <h3>Keyboard shortcuts</h3>
     <p style="color:#999;margin-top:-8px;">Merge/Cut also have a button next to each timeline, scoped to whichever segment the playhead is currently in.</p>
     <table>
-      <tr><td><kbd>j</kbd>/<kbd>k</kbd></td><td>select prev/next segment, seek to end&minus;1.5s</td></tr>
-      <tr><td><kbd>&uarr;</kbd>/<kbd>&darr;</kbd></td><td>focus coarse/fine track &mdash; m/n/x/t/e/d/i/u/j/k all act on whichever track is focused (default: fine)</td></tr>
-      <tr><td><kbd>&larr;</kbd>/<kbd>&rarr;</kbd></td><td>seek video &minus;/+2s</td></tr>
-      <tr><td><kbd>Tab</kbd></td><td>same as &uarr;/&darr; -- switch focused track</td></tr>
+      <tr><td colspan="2" class="help-group">Playback</td></tr>
+      <tr><td><kbd>Space</kbd></td><td>play/pause</td></tr>
       <tr><td><kbd>1</kbd>-<kbd>4</kbd></td><td>playback speed</td></tr>
+      <tr><td><kbd>a</kbd>/<kbd>d</kbd></td><td>seek &minus;/+0.3s &mdash; fine trim</td></tr>
+      <tr><td><kbd>&larr;</kbd>/<kbd>&rarr;</kbd></td><td>seek &minus;/+0.5s &mdash; normal</td></tr>
+      <tr><td><kbd>Shift</kbd>+<kbd>&larr;</kbd>/<kbd>&rarr;</kbd></td><td>seek &minus;/+3s &mdash; jump</td></tr>
+
+      <tr><td colspan="2" class="help-group">Navigation</td></tr>
+      <tr><td><kbd>&uarr;</kbd>/<kbd>&darr;</kbd></td><td>focus coarse/fine track (default: fine) &mdash; m/n/x/t/e/u/j/k all act on the focused track</td></tr>
+      <tr><td><kbd>j</kbd>/<kbd>k</kbd></td><td>select prev/next segment in the focused track, seek to end&minus;1.5s</td></tr>
       <tr><td><kbd>B</kbd></td><td>boundary skim mode (auto-play each boundary &plusmn;2s)</td></tr>
-      <tr><td><kbd>t</kbd></td><td>retime selected segment's end_time to playhead</td></tr>
-      <tr><td><kbd>[</kbd>/<kbd>]</kbd></td><td>nudge end_time &mp;0.1s (Shift: &mp;0.5s)</td></tr>
-      <tr><td><kbd>e</kbd></td><td>edit summary &mdash; opens a popup, pauses video, type or click &#127908; to speak (Chinese or English, auto-translated)</td></tr>
-      <tr><td><kbd>d</kbd></td><td>flip directional verb (insert&harr;remove etc.)</td></tr>
-      <tr><td><kbd>i</kbd></td><td>toggle type action/idle</td></tr>
-      <tr><td><kbd>m</kbd></td><td>merge selected segment into next</td></tr>
-      <tr><td><kbd>x</kbd></td><td>delete selected segment</td></tr>
-      <tr><td><kbd>n</kbd></td><td>add boundary wherever the playhead currently is (same popup as edit)</td></tr>
+
+      <tr><td colspan="2" class="help-group">Editing</td></tr>
+      <tr><td><kbd>t</kbd></td><td>set selected segment's end_time to playhead</td></tr>
+      <tr><td><kbd>e</kbd></td><td>edit &mdash; opens a popup with summary text, an "idle segment" checkbox, and voice input (starts listening automatically, or just type)</td></tr>
+      <tr><td><kbd>m</kbd></td><td>merge &mdash; the segment at the playhead into the next one</td></tr>
+      <tr><td><kbd>n</kbd></td><td>cut &mdash; split the segment at the playhead in two (same popup as edit)</td></tr>
+      <tr><td><kbd>x</kbd></td><td>delete selected segment (time absorbed by the previous one)</td></tr>
       <tr><td><kbd>u</kbd></td><td>undo most recent action on selected segment</td></tr>
+
+      <tr><td colspan="2" class="help-group">Wrap-up</td></tr>
       <tr><td><kbd>Shift+D</kbd></td><td>mark video done, jump to next claimed video</td></tr>
       <tr><td><kbd>?</kbd></td><td>toggle this help</td></tr>
     </table>
@@ -586,21 +595,7 @@ function flash(msg, isErr) {
   statusEl.textContent = msg; statusEl.className = 'status-line' + (isErr ? ' err' : '');
 }
 
-function curSeg() { return STATE[SELECTED.gran][SELECTED.idx]; }
 function segAt(gran, idx) { return STATE[gran][idx]; }
-
-const DIR_PAIRS = [['insert', 'remove'], ['screw', 'unscrew'], ['open', 'close'], ['attach', 'detach'], ['plug', 'unplug']];
-function flipDirectional(summary) {
-  const words = summary.split(/\b/);
-  for (let i = 0; i < words.length; i++) {
-    const lw = words[i].toLowerCase();
-    for (const [a, b] of DIR_PAIRS) {
-      if (lw.startsWith(a)) { words[i] = words[i].replace(new RegExp(a, 'i'), b); return words.join(''); }
-      if (lw.startsWith(b)) { words[i] = words[i].replace(new RegExp(b, 'i'), a); return words.join(''); }
-    }
-  }
-  return null;
-}
 
 // Every call*() below is wired to BOTH an on-screen button (onclick, works by
 // mouse alone -- no keyboard shortcut knowledge required) and the matching
@@ -613,28 +608,13 @@ function callEdit(gran, idx) {
   select(gran, idx);
   player.pause();
   const seg = segAt(gran, idx);
-  openModal({ mode: 'edit', gran, idx, title: 'Edit summary', initialText: seg.summary });
+  openModal({ mode: 'edit', gran, idx, title: 'Edit summary', initialText: seg.summary, initialIdle: seg.type === 'idle' });
 }
 
 function callRetime(gran, idx, endTime) {
   select(gran, idx);
   const et = endTime != null ? endTime : player.currentTime;
   postAction(gran, idx, 'retime', { end_time: et });
-}
-
-function callFlip(gran, idx) {
-  select(gran, idx);
-  const seg = segAt(gran, idx);
-  const flipped = flipDirectional(seg.summary);
-  if (flipped) postAction(gran, idx, 'edit', { summary: flipped });
-  else flash('no directional verb found in this summary (insert/remove, screw/unscrew, open/close, attach/detach, plug/unplug)', true);
-}
-
-function callToggleType(gran, idx) {
-  select(gran, idx);
-  const seg = segAt(gran, idx);
-  const t = seg.type === 'idle' ? 'action' : 'idle';
-  postAction(gran, idx, 'edit', { type: t });
 }
 
 function findSegmentAtTime(gran, t) {
@@ -661,11 +641,16 @@ function segIndexForMerge(gran, t) {
   return idx;
 }
 
-function toolbarMerge(gran) {
+// Shared by the 'm' keyboard shortcut (no source tag) and the toolbar Merge
+// button (source: "toolbar") -- both resolve the segment from the playhead
+// identically, they only differ in whether the correction gets tagged.
+function mergeAtPlayhead(gran, source) {
   const idx = segIndexForMerge(gran, player.currentTime);
   if (idx >= STATE[gran].length - 1) return; // button should already be disabled in this case
-  callMerge(gran, idx, 'toolbar');
+  callMerge(gran, idx, source);
 }
+
+function toolbarMerge(gran) { mergeAtPlayhead(gran, 'toolbar'); }
 
 function toolbarCut(gran) {
   openAddModalAtPlayhead(gran, 'toolbar');
@@ -705,18 +690,20 @@ function openAddModalAtPlayhead(gran, source) {
 
 let MODAL = null; // {mode, gran, idx, t, source}
 
-function openModal({ mode, gran, idx, t, source, title, initialText }) {
+function openModal({ mode, gran, idx, t, source, title, initialText, initialIdle }) {
   MODAL = { mode, gran, idx, t, source };
   EDITING = true;
   document.getElementById('modal-title').textContent = title;
   const input = document.getElementById('modal-input');
   input.value = initialText || '';
   document.getElementById('modal-mic-status').textContent = '';
+  document.getElementById('modal-idle-checkbox').checked = !!initialIdle;
   const btn = document.getElementById('modal-save-btn');
   btn.textContent = 'Save';
   btn.disabled = false;
   document.getElementById('modal-overlay').style.display = 'flex';
   input.focus();
+  toggleMic(); // voice input starts listening automatically -- reviewer can just type over it if they'd rather not speak
 }
 
 function closeModal() {
@@ -738,7 +725,8 @@ async function submitModal() {
   btn.textContent = 'Saving...';
   btn.disabled = true;
   const r = await fetch('/api/translate', { method: 'POST', body: JSON.stringify({ text }) }).then(r => r.json());
-  const payload = r.translated ? { summary: r.summary, summary_raw: text } : { summary: r.summary };
+  const type = document.getElementById('modal-idle-checkbox').checked ? 'idle' : 'action';
+  const payload = r.translated ? { summary: r.summary, summary_raw: text, type } : { summary: r.summary, type };
   const result = MODAL.mode === 'edit'
     ? await postAction(MODAL.gran, MODAL.idx, 'edit', payload)
     : await postAction(MODAL.gran, MODAL.idx, 'add',
@@ -847,22 +835,19 @@ document.addEventListener('keydown', (e) => {
   if (e.key === ' ') { e.preventDefault(); togglePlayPause(); }
   else if (e.key === 'j') { SELECTED.idx = Math.min(segs.length - 1, SELECTED.idx + 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
   else if (e.key === 'k') { SELECTED.idx = Math.max(0, SELECTED.idx - 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
-  else if (e.key === 'Tab') { e.preventDefault(); SELECTED.gran = SELECTED.gran === 'coarse' ? 'fine' : 'coarse'; SELECTED.idx = 0; select(SELECTED.gran, 0); }
   else if (e.key === 'ArrowUp') { e.preventDefault(); if (SELECTED.gran !== 'coarse') select('coarse', 0); }
   else if (e.key === 'ArrowDown') { e.preventDefault(); if (SELECTED.gran !== 'fine') select('fine', 0); }
-  else if (e.key === 'ArrowRight') { e.preventDefault(); const t = Math.min(player.duration || 0, player.currentTime + 2); updateVidProgressVisual(t); requestSeek(t); }
-  else if (e.key === 'ArrowLeft') { e.preventDefault(); const t = Math.max(0, player.currentTime - 2); updateVidProgressVisual(t); requestSeek(t); }
+  else if (e.key === 'ArrowRight') { e.preventDefault(); const step = e.shiftKey ? 3 : 0.5; const t = Math.min(player.duration || 0, player.currentTime + step); updateVidProgressVisual(t); requestSeek(t); }
+  else if (e.key === 'ArrowLeft') { e.preventDefault(); const step = e.shiftKey ? 3 : 0.5; const t = Math.max(0, player.currentTime - step); updateVidProgressVisual(t); requestSeek(t); }
+  else if (e.key === 'a') { const t = Math.max(0, player.currentTime - 0.3); updateVidProgressVisual(t); requestSeek(t); }
+  else if (e.key === 'd') { const t = Math.min(player.duration || 0, player.currentTime + 0.3); updateVidProgressVisual(t); requestSeek(t); }
   else if (['1', '2', '3', '4'].includes(e.key)) { player.playbackRate = parseInt(e.key); }
   else if (e.key === 'B' || e.key === 'b') { toggleSkim(); }
   else if (e.key === 't') { callRetime(SELECTED.gran, SELECTED.idx, player.currentTime); }
-  else if (e.key === '[') { callRetime(SELECTED.gran, SELECTED.idx, curSeg().end_time - (e.shiftKey ? 0.5 : 0.1)); }
-  else if (e.key === ']') { callRetime(SELECTED.gran, SELECTED.idx, curSeg().end_time + (e.shiftKey ? 0.5 : 0.1)); }
   else if (e.key === 'e') { callEdit(SELECTED.gran, SELECTED.idx); }
-  else if (e.key === 'd') { callFlip(SELECTED.gran, SELECTED.idx); }
-  else if (e.key === 'i') { callToggleType(SELECTED.gran, SELECTED.idx); }
-  else if (e.key === 'm') { callMerge(SELECTED.gran, SELECTED.idx); }
-  else if (e.key === 'x') { callDelete(SELECTED.gran, SELECTED.idx); }
+  else if (e.key === 'm') { mergeAtPlayhead(SELECTED.gran); }
   else if (e.key === 'n') { openAddModalAtPlayhead(SELECTED.gran); }
+  else if (e.key === 'x') { callDelete(SELECTED.gran, SELECTED.idx); }
   else if (e.key === 'u') { callUndoSeg(SELECTED.gran, SELECTED.idx); }
   else if (e.key === 'D' && e.shiftKey) { markDone(); }
 });
