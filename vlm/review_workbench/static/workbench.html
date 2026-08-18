@@ -41,15 +41,13 @@
   .row .times { font-family: monospace; font-size: 10px; color: #7fc7ff; }
   .row .summary { font-size: 12px; margin: 1px 0; }
   .row .summary input { width: 100%; background: #111; color: #fff; border: 1px solid #2e6da4; border-radius: 2px; font-size: 12px; padding: 2px 4px; }
-  .row-actions { display: flex; gap: 3px; margin-top: 3px; flex-wrap: wrap; }
-  .row-actions button { font-size: 10px; padding: 2px 6px; border-radius: 3px; border: 1px solid #444; background: #2a2a2a; color: #ccc; cursor: pointer; line-height: 1.4; }
-  .row-actions button:hover { background: #3a3a3a; border-color: #666; }
-  .row-actions button:disabled { opacity: 0.35; cursor: default; }
-  .row-actions button:disabled:hover { background: #2a2a2a; border-color: #444; }
-  .row-actions button.danger:hover { background: #5a1f1f; border-color: #a33; color: #ff9a9a; }
-  .row-actions button.primary:hover { background: #1e3a5a; border-color: #2e6da4; color: #7fc7ff; }
   .toolbtn { font-size: 12px; padding: 3px 10px; margin-right: 8px; background: #2a2a2a; color: #ccc; border: 1px solid #444; border-radius: 4px; cursor: pointer; }
   .toolbtn:hover { background: #333; }
+  .toolbtn:disabled { opacity: 0.35; cursor: default; }
+  .toolbtn:disabled:hover { background: #2a2a2a; }
+  .tl-row { display: flex; align-items: center; gap: 8px; margin-bottom: 2px; }
+  .tl-track-actions { display: flex; gap: 4px; margin-left: auto; }
+  .tl-track-actions button { font-size: 10px; padding: 1px 8px; }
   .badge { font-size: 9px; padding: 0 4px; border-radius: 3px; margin-left: 4px; }
   .b-conf { color: #999; font-family: monospace; }
   .b-idle { color: #9aa7c7; background: #23283a; border: 1px solid #3a4a6a; }
@@ -70,8 +68,6 @@
   .pill { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; margin-left: 8px; }
   .pill-in_progress { background: #23283a; color: #9aa7c7; } .pill-done { background: #1a3a1a; color: #8fd88f; }
   #add-here-bar { margin: 8px 0; }
-  #add-here-btn { background: #2e6da4; color: #fff; border: none; border-radius: 4px; padding: 6px 14px; font-size: 13px; cursor: pointer; }
-  #add-here-btn:hover { background: #3a7fc0; }
   #modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.75); display: none; align-items: center; justify-content: center; z-index: 300; }
   #modal-overlay .card { background: #232323; border: 1px solid #444; border-radius: 8px; padding: 20px 24px; width: 460px; max-width: 90vw; }
   #modal-overlay h3 { margin: 0 0 4px; font-size: 15px; color: #fff; }
@@ -116,16 +112,27 @@
 </div>
 
 <div id="add-here-bar">
-  <button id="add-here-btn" onclick="openAddModalAtPlayhead()">+ Add boundary at current playhead (n)</button>
   <span class="sub" id="add-here-time"></span>
 </div>
 
 <div class="flags-top" id="flags-top"></div>
 
 <div class="tl-wrap">
-  <div class="tl-label">coarse timeline</div>
+  <div class="tl-row">
+    <div class="tl-label">coarse timeline</div>
+    <div class="tl-track-actions">
+      <button id="tlact-merge-coarse" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('coarse')">&#8600; Merge</button>
+      <button id="tlact-cut-coarse" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('coarse')">&#9986; Cut</button>
+    </div>
+  </div>
   <div class="timeline" id="tl-coarse"></div>
-  <div class="tl-label">fine timeline</div>
+  <div class="tl-row">
+    <div class="tl-label">fine timeline</div>
+    <div class="tl-track-actions">
+      <button id="tlact-merge-fine" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('fine')">&#8600; Merge</button>
+      <button id="tlact-cut-fine" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('fine')">&#9986; Cut</button>
+    </div>
+  </div>
   <div class="timeline" id="tl-fine"></div>
 </div>
 <div id="tl-scrub-time"></div>
@@ -174,7 +181,7 @@
 <div id="help-overlay" onclick="toggleHelp()">
   <div class="card" onclick="event.stopPropagation()">
     <h3>Keyboard shortcuts</h3>
-    <p style="color:#999;margin-top:-8px;">Every action also has a button on each segment row &mdash; these are just faster if you use them a lot.</p>
+    <p style="color:#999;margin-top:-8px;">Merge/Cut also have a button next to each timeline, scoped to whichever segment the playhead is currently in.</p>
     <table>
       <tr><td><kbd>j</kbd>/<kbd>k</kbd></td><td>select prev/next segment, seek to end&minus;1.5s</td></tr>
       <tr><td><kbd>Tab</kbd></td><td>switch coarse/fine column</td></tr>
@@ -453,20 +460,6 @@ function badgesFor(s) {
   return html;
 }
 
-function actionsToolbarHtml(gran, i, seg, isLast) {
-  const canUndo = seg._origin_seq != null;
-  return `<div class="row-actions" onclick="event.stopPropagation()">
-    <button title="Edit summary (e)" onclick="callEdit('${gran}',${i})">&#9998; Edit</button>
-    <button title="Set end time to current playhead (t)" onclick="callRetime('${gran}',${i})">&#9201; Retime&rarr;playhead</button>
-    <button title="Flip directional verb, e.g. insert&harr;remove (d)" onclick="callFlip('${gran}',${i})">&#8644; Flip dir</button>
-    <button title="Toggle action/idle (i)" onclick="callToggleType('${gran}',${i})">&#9210; Toggle idle</button>
-    <button title="Add a boundary wherever the video playhead currently is, in this column (n)" onclick="callAdd('${gran}',${i})">+ Add at playhead</button>
-    <button class="primary" title="Merge into next segment (m)" ${isLast ? 'disabled' : ''} onclick="callMerge('${gran}',${i})">&#8600; Merge&rarr;next</button>
-    <button class="danger" title="Delete this segment (x)" onclick="callDelete('${gran}',${i})">&#10005; Delete</button>
-    <button title="Undo the most recent edit on this segment (u)" ${canUndo ? '' : 'disabled'} onclick="callUndoSeg('${gran}',${i})">&#8617; Undo</button>
-  </div>`;
-}
-
 function renderLists() {
   for (const gran of ['coarse', 'fine']) {
     const mode = document.querySelector(`input[name="${gran === 'coarse' ? 'ffc' : 'fff'}"]:checked`).value;
@@ -485,7 +478,6 @@ function renderLists() {
         row.innerHTML = `<div class="idx">${i + 1}</div><div class="body">
           <div class="times">${fmt(seg.start_time)}s&ndash;${fmt(seg.end_time)}s ${badgesFor(seg)}</div>
           <div class="summary" data-summary>${escapeHtml(seg.summary)}</div>
-          ${actionsToolbarHtml(gran, i, seg, i === segs.length - 1)}
         </div>`;
         row.addEventListener('click', () => { select(gran, i); seekToSeg(seg); });
         container.appendChild(row);
@@ -520,9 +512,30 @@ function updateHighlight() {
     const ph = document.getElementById(`playhead-${gran}`);
     if (ph) ph.style.left = (dur > 0 ? (t / dur) * 100 : 0) + '%';
   }
+  updateToolbarButtons();
 }
 player.addEventListener('timeupdate', updateHighlight);
 player.addEventListener('seeking', updateHighlight);
+
+// Merge/Cut toolbar button enablement -- Merge disabled at the last segment
+// of its track; Cut disabled within 0.1s of either boundary of the segment
+// the playhead is in (matches the epsilon openAddModalAtPlayhead itself
+// tolerates, just applied a bit earlier so the button visibly greys out).
+function updateToolbarButtons() {
+  if (!STATE) return;
+  for (const gran of ['coarse', 'fine']) {
+    const t = player.currentTime;
+    const segs = STATE[gran];
+    const mergeBtn = document.getElementById(`tlact-merge-${gran}`);
+    if (mergeBtn) mergeBtn.disabled = segIndexForMerge(gran, t) >= segs.length - 1;
+
+    const cutIdx = findSegmentAtTime(gran, t);
+    const seg = segs[cutIdx];
+    const lo = cutIdx > 0 ? segs[cutIdx - 1].end_time : 0.0;
+    const cutBtn = document.getElementById(`tlact-cut-${gran}`);
+    if (cutBtn) cutBtn.disabled = Math.min(t - lo, seg.end_time - t) < 0.1;
+  }
+}
 
 // --- action posting -----------------------------------------------------
 
@@ -599,18 +612,31 @@ function findSegmentAtTime(gran, t) {
   return idx;
 }
 
-// Row "Split at playhead" button: ignores the row's own idx for validation --
-// always resolves whichever segment currently contains the playhead, in that
-// row's granularity. This is deliberately playhead-authoritative (see
-// openAddModalAtPlayhead) rather than requiring the reviewer to first select
-// the exact right row.
-function callAdd(gran, idx) {
-  openAddModalAtPlayhead(gran);
+function callMerge(gran, idx, source) {
+  select(gran, idx);
+  postAction(gran, idx, 'merge', source ? { source } : {});
 }
 
-function callMerge(gran, idx) {
-  select(gran, idx);
-  postAction(gran, idx, 'merge', {});
+// Which segment the playhead is "in" for Merge purposes: unlike
+// findSegmentAtTime (used for Cut/add, where landing exactly on a boundary
+// means "not inside any segment"), a playhead sitting exactly on a boundary
+// should resolve to the segment on its LEFT, since that's the one being
+// merged into its neighbor.
+function segIndexForMerge(gran, t) {
+  const segs = STATE[gran];
+  let idx = segs.findIndex(s => t <= s.end_time + 1e-6);
+  if (idx < 0) idx = segs.length - 1;
+  return idx;
+}
+
+function toolbarMerge(gran) {
+  const idx = segIndexForMerge(gran, player.currentTime);
+  if (idx >= STATE[gran].length - 1) return; // button should already be disabled in this case
+  callMerge(gran, idx, 'toolbar');
+}
+
+function toolbarCut(gran) {
+  openAddModalAtPlayhead(gran, 'toolbar');
 }
 
 function callDelete(gran, idx) {
@@ -626,9 +652,9 @@ function callUndoSeg(gran, idx) {
   postAction(gran, null, 'undo', { undo_seq: seg._origin_seq });
 }
 
-// --- add-at-playhead (global button + per-row Split button both land here) --
+// --- add-at-playhead (keyboard 'n' + per-track Cut button both land here) ---
 
-function openAddModalAtPlayhead(gran) {
+function openAddModalAtPlayhead(gran, source) {
   const g = gran || SELECTED.gran;
   player.pause();
   const t = player.currentTime;
@@ -640,15 +666,15 @@ function openAddModalAtPlayhead(gran) {
     return;
   }
   select(g, idx);
-  openModal({ mode: 'add', gran: g, idx, t, title: `Add boundary at ${fmt(t)}s (splits "${seg.summary.slice(0, 40)}")`, initialText: '' });
+  openModal({ mode: 'add', gran: g, idx, t, source, title: `Add boundary at ${fmt(t)}s (splits "${seg.summary.slice(0, 40)}")`, initialText: '' });
 }
 
 // --- edit/add modal (typed or voice input, translated+normalized on save) ---
 
-let MODAL = null; // {mode, gran, idx, t}
+let MODAL = null; // {mode, gran, idx, t, source}
 
-function openModal({ mode, gran, idx, t, title, initialText }) {
-  MODAL = { mode, gran, idx, t };
+function openModal({ mode, gran, idx, t, source, title, initialText }) {
+  MODAL = { mode, gran, idx, t, source };
   EDITING = true;
   document.getElementById('modal-title').textContent = title;
   const input = document.getElementById('modal-input');
@@ -683,7 +709,8 @@ async function submitModal() {
   const payload = r.translated ? { summary: r.summary, summary_raw: text } : { summary: r.summary };
   const result = MODAL.mode === 'edit'
     ? await postAction(MODAL.gran, MODAL.idx, 'edit', payload)
-    : await postAction(MODAL.gran, MODAL.idx, 'add', { ...payload, t: MODAL.t });
+    : await postAction(MODAL.gran, MODAL.idx, 'add',
+        MODAL.source ? { ...payload, t: MODAL.t, source: MODAL.source } : { ...payload, t: MODAL.t });
   btn.disabled = false;
   btn.textContent = 'Save';
   // postAction() returns null (and already flash()ed the error) on failure --
