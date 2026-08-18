@@ -10,6 +10,12 @@
   .sub { font-size: 12px; color: #999; }
   a.back { color: #7fc7ff; text-decoration: none; font-size: 12px; }
   video { width: 100%; max-height: 42vh; background: #000; border-radius: 4px; display: block; }
+  #vid-controls { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+  #vid-playpause { flex-shrink: 0; width: 30px; height: 26px; font-size: 11px; background: #2a2a2a; color: #ccc; border: 1px solid #444; border-radius: 4px; cursor: pointer; }
+  #vid-playpause:hover { background: #3a3a3a; border-color: #666; }
+  #vid-progress { position: relative; flex: 1; height: 8px; background: #111; border: 1px solid #333; border-radius: 4px; cursor: pointer; }
+  #vid-progress-fill { position: absolute; top: 0; bottom: 0; left: 0; width: 0%; background: #2e6da4; border-radius: 3px 0 0 3px; pointer-events: none; }
+  #vid-time { flex-shrink: 0; font-family: monospace; font-size: 11px; color: #999; white-space: nowrap; }
   .tl-wrap { margin: 10px 0; }
   .tl-label { font-size: 11px; color: #999; margin-bottom: 2px; }
   .timeline { position: relative; height: 26px; border-radius: 3px; overflow: hidden; cursor: pointer; margin-bottom: 6px; background: #111; }
@@ -103,7 +109,12 @@
 
 <div id="skim-banner">Boundary skim mode (B to exit) &mdash; playing each boundary &plusmn;2s, auto-advancing</div>
 
-<video id="player" controls></video>
+<video id="player"></video>
+<div id="vid-controls">
+  <button id="vid-playpause" title="Play/Pause (space)">&#9654;</button>
+  <div id="vid-progress"><div id="vid-progress-fill"></div></div>
+  <span id="vid-time">0:00 / 0:00</span>
+</div>
 
 <div id="add-here-bar">
   <button id="add-here-btn" onclick="openAddModalAtPlayhead()">+ Add boundary at current playhead (n)</button>
@@ -196,6 +207,42 @@ let SELECTED = { gran: 'fine', idx: 0 };
 let SKIM = false, SKIM_TIMER = null;
 const player = document.getElementById('player');
 const statusEl = document.getElementById('status');
+
+// --- custom video controls (native <video controls> bar overlaid/obscured the
+// bottom of the frame; this replaces it with a below-frame bar) -------------
+const vidPlayPause = document.getElementById('vid-playpause');
+const vidProgress = document.getElementById('vid-progress');
+const vidProgressFill = document.getElementById('vid-progress-fill');
+const vidTime = document.getElementById('vid-time');
+
+function fmtClock(s) {
+  if (!isFinite(s) || s < 0) s = 0;
+  const m = Math.floor(s / 60), sec = Math.floor(s % 60);
+  return `${m}:${String(sec).padStart(2, '0')}`;
+}
+function togglePlayPause() { if (player.paused) player.play(); else player.pause(); }
+function updatePlayPauseIcon() { vidPlayPause.innerHTML = player.paused ? '&#9654;' : '&#10074;&#10074;'; }
+function updateVidControls() {
+  const dur = player.duration || 0;
+  vidProgressFill.style.width = (dur > 0 ? (player.currentTime / dur) * 100 : 0) + '%';
+  vidTime.textContent = `${fmtClock(player.currentTime)} / ${fmtClock(dur)}`;
+}
+function seekFromEvent(e) {
+  const rect = vidProgress.getBoundingClientRect();
+  const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
+  const pct = Math.min(1, Math.max(0, x / rect.width));
+  player.currentTime = pct * (player.duration || 0);
+  updateVidControls();
+}
+vidPlayPause.addEventListener('click', togglePlayPause);
+player.addEventListener('play', updatePlayPauseIcon);
+player.addEventListener('pause', updatePlayPauseIcon);
+player.addEventListener('timeupdate', updateVidControls);
+player.addEventListener('loadedmetadata', updateVidControls);
+let VID_SCRUBBING = false;
+vidProgress.addEventListener('mousedown', (e) => { VID_SCRUBBING = true; seekFromEvent(e); });
+window.addEventListener('mousemove', (e) => { if (VID_SCRUBBING) seekFromEvent(e); });
+window.addEventListener('mouseup', () => { VID_SCRUBBING = false; });
 
 function fmt(t) { return t.toFixed(1); }
 function withStarts(segs) { let p = 0; return segs.map(s => { const o = { ...s, start_time: p }; p = s.end_time; return o; }); }
@@ -621,7 +668,8 @@ document.addEventListener('keydown', (e) => {
   if (document.getElementById('help-overlay').style.display === 'flex') return;
 
   const segs = STATE ? STATE[SELECTED.gran] : [];
-  if (e.key === 'j') { SELECTED.idx = Math.min(segs.length - 1, SELECTED.idx + 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
+  if (e.key === ' ') { e.preventDefault(); togglePlayPause(); }
+  else if (e.key === 'j') { SELECTED.idx = Math.min(segs.length - 1, SELECTED.idx + 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
   else if (e.key === 'k') { SELECTED.idx = Math.max(0, SELECTED.idx - 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
   else if (e.key === 'Tab') { e.preventDefault(); SELECTED.gran = SELECTED.gran === 'coarse' ? 'fine' : 'coarse'; SELECTED.idx = 0; select(SELECTED.gran, 0); }
   else if (['1', '2', '3', '4'].includes(e.key)) { player.playbackRate = parseInt(e.key); }
