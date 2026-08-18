@@ -18,7 +18,7 @@
   #vid-time { flex-shrink: 0; font-family: monospace; font-size: 11px; color: #999; white-space: nowrap; }
   .tl-wrap { margin: 10px 0; }
   .tl-label { font-size: 11px; color: #999; margin-bottom: 2px; }
-  .timeline { position: relative; height: 26px; border-radius: 3px; overflow: hidden; cursor: pointer; margin-bottom: 6px; background: #111; }
+  .timeline { position: relative; height: 26px; border-radius: 3px; overflow: hidden; cursor: pointer; margin-bottom: 6px; background: #111; box-sizing: border-box; border-left: 4px solid transparent; }
   .timeline .seg { position: absolute; top: 0; bottom: 0; box-sizing: border-box; border-right: 1px solid #000; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #111; overflow: hidden; white-space: nowrap; }
   .timeline .seg.c0 { background: #7fb2e5; } .timeline .seg.c1 { background: #5f92c5; }
   .timeline .seg.selected { outline: 2px solid #fff; outline-offset: -2px; }
@@ -48,6 +48,14 @@
   .tl-row { display: flex; align-items: center; gap: 8px; margin-bottom: 2px; }
   .tl-track-actions { display: flex; gap: 4px; margin-left: auto; }
   .tl-track-actions button { font-size: 10px; padding: 1px 8px; }
+  .tl-track { transition: opacity .15s; }
+  .tl-track.tl-dimmed { opacity: 0.55; }
+  .tl-track.tl-focused .timeline { border-left-color: #4da6ff; }
+  .tl-track.tl-focused .tl-label { color: #7fc7ff; font-weight: 600; }
+  .tl-track.tl-focused .tl-track-actions button { border-color: #4da6ff; }
+  .col.tl-dimmed { opacity: 0.55; transition: opacity .15s; }
+  .col.tl-focused .seg-list { border-color: #4da6ff; border-width: 2px; }
+  .col.tl-focused h2 { color: #fff; }
   .badge { font-size: 9px; padding: 0 4px; border-radius: 3px; margin-left: 4px; }
   .b-conf { color: #999; font-family: monospace; }
   .b-idle { color: #9aa7c7; background: #23283a; border: 1px solid #3a4a6a; }
@@ -118,27 +126,31 @@
 <div class="flags-top" id="flags-top"></div>
 
 <div class="tl-wrap">
-  <div class="tl-row">
-    <div class="tl-label">coarse timeline</div>
-    <div class="tl-track-actions">
-      <button id="tlact-merge-coarse" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('coarse')">&#8600; Merge</button>
-      <button id="tlact-cut-coarse" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('coarse')">&#9986; Cut</button>
+  <div class="tl-track" id="tltrack-coarse">
+    <div class="tl-row">
+      <div class="tl-label">coarse timeline</div>
+      <div class="tl-track-actions">
+        <button id="tlact-merge-coarse" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('coarse')">&#8600; Merge</button>
+        <button id="tlact-cut-coarse" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('coarse')">&#9986; Cut</button>
+      </div>
     </div>
+    <div class="timeline" id="tl-coarse"></div>
   </div>
-  <div class="timeline" id="tl-coarse"></div>
-  <div class="tl-row">
-    <div class="tl-label">fine timeline</div>
-    <div class="tl-track-actions">
-      <button id="tlact-merge-fine" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('fine')">&#8600; Merge</button>
-      <button id="tlact-cut-fine" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('fine')">&#9986; Cut</button>
+  <div class="tl-track" id="tltrack-fine">
+    <div class="tl-row">
+      <div class="tl-label">fine timeline</div>
+      <div class="tl-track-actions">
+        <button id="tlact-merge-fine" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('fine')">&#8600; Merge</button>
+        <button id="tlact-cut-fine" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('fine')">&#9986; Cut</button>
+      </div>
     </div>
+    <div class="timeline" id="tl-fine"></div>
   </div>
-  <div class="timeline" id="tl-fine"></div>
 </div>
 <div id="tl-scrub-time"></div>
 
 <div class="cols">
-  <div class="col">
+  <div class="col" id="col-coarse">
     <h2>Coarse <span class="filters">
       <label><input type="radio" name="ffc" value="all" checked onchange="renderLists()"> all</label>
       <label><input type="radio" name="ffc" value="flag" onchange="renderLists()"> flagged</label>
@@ -146,7 +158,7 @@
     </span></h2>
     <div class="seg-list" id="list-coarse"></div>
   </div>
-  <div class="col">
+  <div class="col" id="col-fine">
     <h2>Fine <span class="filters">
       <label><input type="radio" name="fff" value="all" checked onchange="renderLists()"> all</label>
       <label><input type="radio" name="fff" value="flag" onchange="renderLists()"> flagged</label>
@@ -184,7 +196,8 @@
     <p style="color:#999;margin-top:-8px;">Merge/Cut also have a button next to each timeline, scoped to whichever segment the playhead is currently in.</p>
     <table>
       <tr><td><kbd>j</kbd>/<kbd>k</kbd></td><td>select prev/next segment, seek to end&minus;1.5s</td></tr>
-      <tr><td><kbd>Tab</kbd></td><td>switch coarse/fine column</td></tr>
+      <tr><td><kbd>&uarr;</kbd>/<kbd>&darr;</kbd></td><td>focus coarse/fine track &mdash; m/n/x/t/e/d/i/u/j/k all act on whichever track is focused (default: fine)</td></tr>
+      <tr><td><kbd>Tab</kbd></td><td>same as &uarr;/&darr; -- switch focused track</td></tr>
       <tr><td><kbd>1</kbd>-<kbd>4</kbd></td><td>playback speed</td></tr>
       <tr><td><kbd>B</kbd></td><td>boundary skim mode (auto-play each boundary &plusmn;2s)</td></tr>
       <tr><td><kbd>t</kbd></td><td>retime selected segment's end_time to playhead</td></tr>
@@ -417,6 +430,7 @@ function renderAll() {
   renderTimeline('coarse'); renderTimeline('fine');
   renderLists();
   updateHighlight();
+  renderTrackFocus();
 }
 
 function segFilterPass(mode, s) {
@@ -496,6 +510,23 @@ function select(gran, idx) {
   if (row) { row.classList.add('selected'); row.scrollIntoView({ block: 'nearest' }); }
   document.querySelectorAll('.timeline .seg').forEach(el => el.classList.remove('selected'));
   renderTimeline('coarse'); renderTimeline('fine'); // cheap, lists are short
+  renderTrackFocus();
+}
+
+// Visual indication of which track (coarse/fine) keyboard shortcuts
+// (m/n/x/t/e/d/i/u/j/k) currently act on -- the focused track gets a bright
+// left bar on its timeline + a highlighted label/border/button-group; the
+// other dims by one step. Purely visual: does not change what the per-track
+// Merge/Cut toolbar buttons themselves do (they always act on their own
+// track regardless of focus).
+function renderTrackFocus() {
+  for (const gran of ['coarse', 'fine']) {
+    const focused = SELECTED.gran === gran;
+    const track = document.getElementById(`tltrack-${gran}`);
+    if (track) { track.classList.toggle('tl-focused', focused); track.classList.toggle('tl-dimmed', !focused); }
+    const col = document.getElementById(`col-${gran}`);
+    if (col) { col.classList.toggle('tl-focused', focused); col.classList.toggle('tl-dimmed', !focused); }
+  }
 }
 
 function seekToSeg(seg) { player.currentTime = Math.max(0, seg.end_time - 1.5); player.play(); }
@@ -816,6 +847,8 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === 'j') { SELECTED.idx = Math.min(segs.length - 1, SELECTED.idx + 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
   else if (e.key === 'k') { SELECTED.idx = Math.max(0, SELECTED.idx - 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
   else if (e.key === 'Tab') { e.preventDefault(); SELECTED.gran = SELECTED.gran === 'coarse' ? 'fine' : 'coarse'; SELECTED.idx = 0; select(SELECTED.gran, 0); }
+  else if (e.key === 'ArrowUp') { e.preventDefault(); if (SELECTED.gran !== 'coarse') select('coarse', 0); }
+  else if (e.key === 'ArrowDown') { e.preventDefault(); if (SELECTED.gran !== 'fine') select('fine', 0); }
   else if (['1', '2', '3', '4'].includes(e.key)) { player.playbackRate = parseInt(e.key); }
   else if (e.key === 'B' || e.key === 'b') { toggleSkim(); }
   else if (e.key === 't') { callRetime(SELECTED.gran, SELECTED.idx, player.currentTime); }
