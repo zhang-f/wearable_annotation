@@ -197,6 +197,7 @@
     <table>
       <tr><td><kbd>j</kbd>/<kbd>k</kbd></td><td>select prev/next segment, seek to end&minus;1.5s</td></tr>
       <tr><td><kbd>&uarr;</kbd>/<kbd>&darr;</kbd></td><td>focus coarse/fine track &mdash; m/n/x/t/e/d/i/u/j/k all act on whichever track is focused (default: fine)</td></tr>
+      <tr><td><kbd>&larr;</kbd>/<kbd>&rarr;</kbd></td><td>seek video &minus;/+2s</td></tr>
       <tr><td><kbd>Tab</kbd></td><td>same as &uarr;/&darr; -- switch focused track</td></tr>
       <tr><td><kbd>1</kbd>-<kbd>4</kbd></td><td>playback speed</td></tr>
       <tr><td><kbd>B</kbd></td><td>boundary skim mode (auto-play each boundary &plusmn;2s)</td></tr>
@@ -849,6 +850,8 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === 'Tab') { e.preventDefault(); SELECTED.gran = SELECTED.gran === 'coarse' ? 'fine' : 'coarse'; SELECTED.idx = 0; select(SELECTED.gran, 0); }
   else if (e.key === 'ArrowUp') { e.preventDefault(); if (SELECTED.gran !== 'coarse') select('coarse', 0); }
   else if (e.key === 'ArrowDown') { e.preventDefault(); if (SELECTED.gran !== 'fine') select('fine', 0); }
+  else if (e.key === 'ArrowRight') { e.preventDefault(); const t = Math.min(player.duration || 0, player.currentTime + 2); updateVidProgressVisual(t); requestSeek(t); }
+  else if (e.key === 'ArrowLeft') { e.preventDefault(); const t = Math.max(0, player.currentTime - 2); updateVidProgressVisual(t); requestSeek(t); }
   else if (['1', '2', '3', '4'].includes(e.key)) { player.playbackRate = parseInt(e.key); }
   else if (e.key === 'B' || e.key === 'b') { toggleSkim(); }
   else if (e.key === 't') { callRetime(SELECTED.gran, SELECTED.idx, player.currentTime); }
