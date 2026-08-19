@@ -232,6 +232,7 @@
 
       <tr><td colspan="2" class="help-group">Editing</td></tr>
       <tr><td><kbd>m</kbd></td><td>merge &mdash; the segment at the playhead into the next one</td></tr>
+      <tr><td><kbd>Shift+M</kbd></td><td>merge ALL segments in the focused track into one (confirm dialog) &mdash; for re-cutting a track from scratch</td></tr>
       <tr><td><kbd>n</kbd></td><td>cut &mdash; split the segment at the playhead in two, opens a popup with summary text, an "idle segment" checkbox, and voice input (starts listening automatically; saves itself as soon as you stop talking, no need to press Save/Enter -- typed text still needs Save/Enter)</td></tr>
 
       <tr><td colspan="2" class="help-group">Wrap-up</td></tr>
@@ -1016,6 +1017,27 @@ function mergeAtPlayhead(gran, source) {
 
 function toolbarMerge(gran) { mergeAtPlayhead(gran, 'toolbar'); }
 
+// Shift+M -- collapses every segment in the focused track down to one, for
+// re-cutting/re-annotating a track from scratch. Reuses the existing
+// 'merge' action one call at a time (always at idx 0, which each merge
+// leaves as the combined segment) rather than adding a new server-side bulk
+// action -- same corrections format, same replay.py support, just driven
+// repeatedly. That does mean it writes N-1 correction records instead of
+// one, which is fine (append-only log, each step individually inspectable)
+// and means a partial failure partway through just leaves you with however
+// many merges already landed rather than losing the whole batch.
+async function mergeAllInTrack(gran) {
+  const segs = STATE[gran];
+  if (segs.length <= 1) { flash(`${gran} track already has only one segment`, true); return; }
+  if (!confirm(`Merge all ${segs.length} segments in the ${gran} track into one? This writes ${segs.length - 1} merge corrections and isn't easily undone -- use this to clear a track for re-annotating from scratch.`)) return;
+  while (STATE[gran].length > 1) {
+    const r = await postAction(gran, 0, 'merge', { source: 'merge-all' });
+    if (!r) break; // a merge failed (e.g. lost claim) -- stop instead of retrying forever
+  }
+  select(gran, 0);
+  flash(`${gran} track merged down to ${STATE[gran].length} segment(s)`);
+}
+
 function toolbarCut(gran) {
   openAddModalAtPlayhead(gran, 'toolbar');
 }
@@ -1245,6 +1267,7 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === 'd') { const t = Math.min(player.duration || 0, player.currentTime + 0.3); updateVidProgressVisual(t); requestSeek(t); }
   else if (['1', '2', '3', '4'].includes(e.key)) { player.playbackRate = parseInt(e.key); }
   else if (e.key === 'B' || e.key === 'b') { toggleSkim(); }
+  else if (e.key === 'M' && e.shiftKey) { mergeAllInTrack(SELECTED.gran); }
   else if (e.key === 'm') { mergeAtPlayhead(SELECTED.gran); }
   else if (e.key === 'n') { openAddModalAtPlayhead(SELECTED.gran); }
   else if (e.key === 'D' && e.shiftKey) { markDone(); }
