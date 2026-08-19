@@ -30,20 +30,20 @@
   #tl-scrub-time { display: none; position: fixed; transform: translate(-50%, -100%); margin-top: -6px; background: #000; color: #fff; font-family: monospace; font-size: 11px; padding: 2px 6px; border-radius: 3px; border: 1px solid #2e6da4; pointer-events: none; z-index: 50; white-space: nowrap; }
   .cols { display: flex; gap: 12px; margin-top: 8px; }
   .col { flex: 1; min-width: 0; }
-  .col h2 { font-size: 13px; color: #7fc7ff; margin: 0 0 4px; display: flex; justify-content: space-between; align-items: center; }
-  .filters { font-size: 11px; }
+  .col h2 { font-size: 16px; color: #7fc7ff; margin: 0 0 4px; display: flex; justify-content: space-between; align-items: center; }
+  .filters { font-size: 12px; }
   .filters label { margin-right: 6px; }
   .seg-list { max-height: 68vh; overflow-y: auto; border: 1px solid #333; border-radius: 4px; }
-  .row { display: flex; gap: 6px; align-items: flex-start; padding: 5px 6px; border-bottom: 1px solid #2a2a2a; cursor: pointer; font-size: 12px; }
+  .row { display: flex; gap: 8px; align-items: flex-start; padding: 7px 8px; border-bottom: 1px solid #2a2a2a; cursor: pointer; font-size: 15px; }
   .row:hover { background: #262626; }
   .row.current { background: #24344a; }
   .row.selected { outline: 2px solid #2e6da4; outline-offset: -2px; }
-  .row.fine-indent { padding-left: 18px; }
-  .row .idx { color: #666; font-family: monospace; width: 20px; flex-shrink: 0; }
+  .row.fine-indent { padding-left: 20px; }
+  .row .idx { color: #666; font-family: monospace; width: 22px; flex-shrink: 0; }
   .row .body { flex: 1; min-width: 0; }
-  .row .times { font-family: monospace; font-size: 10px; color: #7fc7ff; }
-  .row .summary { font-size: 12px; margin: 1px 0; }
-  .row .summary input { width: 100%; background: #111; color: #fff; border: 1px solid #2e6da4; border-radius: 2px; font-size: 12px; padding: 2px 4px; }
+  .row .times { font-family: monospace; font-size: 12px; color: #7fc7ff; }
+  .row .summary { font-size: 15px; margin: 2px 0; }
+  .row .summary input { width: 100%; background: #111; color: #fff; border: 1px solid #2e6da4; border-radius: 2px; font-size: 15px; padding: 2px 4px; }
   .toolbtn { font-size: 12px; padding: 3px 10px; margin-right: 8px; background: #2a2a2a; color: #ccc; border: 1px solid #444; border-radius: 4px; cursor: pointer; }
   .toolbtn:hover { background: #333; }
   .toolbtn:disabled { opacity: 0.35; cursor: default; }
@@ -58,7 +58,7 @@
   .col.tl-hidden { display: none; }
   .col.tl-focused .seg-list { border-color: #4da6ff; border-width: 2px; }
   .col.tl-focused h2 { color: #fff; }
-  .badge { font-size: 9px; padding: 0 4px; border-radius: 3px; margin-left: 4px; }
+  .badge { font-size: 10px; padding: 0 4px; border-radius: 3px; margin-left: 4px; }
   .b-conf { color: #999; font-family: monospace; }
   .b-idle { color: #9aa7c7; background: #23283a; border: 1px solid #3a4a6a; }
   .b-autofixed { color: #d9b06a; background: #2a2618; border: 1px solid #5a4a28; }
@@ -226,6 +226,7 @@
 
       <tr><td colspan="2" class="help-group">Wrap-up</td></tr>
       <tr><td><kbd>Shift+D</kbd></td><td>mark video done, jump to next claimed video</td></tr>
+      <tr><td><kbd>Shift+N</kbd></td><td>jump to next claimed video without marking this one done</td></tr>
       <tr><td><kbd>?</kbd></td><td>toggle this help</td></tr>
     </table>
   </div>
@@ -830,6 +831,27 @@ async function markDone() {
   else { flash('no more claimed videos -- back to index'); setTimeout(() => location.href = '/index.html', 1500); }
 }
 
+// Jump to the next claimed-but-not-done video without marking the current
+// one done -- unlike markDone()'s "next", this walks forward from the
+// current video's own position (wrapping around) so it's genuinely the next
+// one in the queue, not just the first claimed video in the whole list.
+async function goToNextVideo() {
+  const a = await fetch('/api/assignment').then(r => r.json());
+  const entries = a.entries;
+  const n = entries.length;
+  const curIdx = entries.findIndex(e => e.file_no === FILE_NO);
+  for (let i = 1; i <= n; i++) {
+    const e = entries[(curIdx + i) % n];
+    // i can wrap all the way back to curIdx itself (the current video) --
+    // skip it explicitly rather than "jumping" to a same-page reload.
+    if (e.file_no !== FILE_NO && e.claimed_by === REVIEWER && e.status === 'in_progress') {
+      location.href = `/workbench.html?file_no=${e.file_no}&reviewer=${encodeURIComponent(REVIEWER)}`;
+      return;
+    }
+  }
+  flash('no other claimed videos to jump to', true);
+}
+
 // --- keyboard ---------------------------------------------------------------
 
 function toggleHelp() {
@@ -861,6 +883,7 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === 'x') { callDelete(SELECTED.gran, SELECTED.idx); }
   else if (e.key === 'u') { callUndoSeg(SELECTED.gran, SELECTED.idx); }
   else if (e.key === 'D' && e.shiftKey) { markDone(); }
+  else if (e.key === 'N' && e.shiftKey) { goToNextVideo(); }
 });
 
 load();
