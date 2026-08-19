@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Multi-reviewer human-terminal-review workbench server. Stdlib only
 (http.server + fcntl for atomic claim/append), consistent with the rest of
-vlm/'s tooling. Never writes to any existing draft/qc jsonl -- the only
-writes are review_workbench/assignment.json (claim state) and
-corrections/*.jsonl (append-only action logs).
+vlm/'s tooling. Never writes to any existing draft/qc jsonl -- routine
+per-action writes are review_workbench/assignment.json (claim state) and
+corrections/*.jsonl (append-only action logs); the one on-demand exception
+is /api/merge_final, which (re)writes outputs/final/annotations_
+{coarse,fine}_final.jsonl -- see merge_corrections.py's own docstring.
 
 Run: python3 review_workbench/server.py --port 8910 [--video-dir /path/to/mp4s]
 Then open http://<host>:8910/ (reviewers behind the same host/ssh-forward
@@ -22,7 +24,7 @@ from urllib.parse import urlparse, parse_qs
 WORKBENCH = Path(__file__).parent
 VLM = WORKBENCH.parent
 sys.path.insert(0, str(VLM))
-from review_workbench import replay, translate  # noqa: E402
+from review_workbench import merge_corrections, replay, translate  # noqa: E402
 
 ASSIGNMENT = WORKBENCH / "assignment.json"
 ASSIGNMENT_LOCK = WORKBENCH / "assignment.json.lock"
@@ -357,6 +359,19 @@ class Handler(BaseHTTPRequestHandler):
             text = body.get("text", "")
             summary, translated = translate.translate_and_normalize(text)
             return self._json({"ok": True, "summary": summary, "translated": translated})
+
+        if path == "/api/merge_final":
+            # Regenerates outputs/final/annotations_{coarse,fine}_final.jsonl
+            # from every video's current replayed state (QC base + that
+            # video's corrections/*.jsonl, if any) -- same code path as
+            # `python3 review_workbench/merge_corrections.py`. Read-only over
+            # assignment.json/corrections/qc jsonl; the two _final.jsonl
+            # files are the only thing this ever writes.
+            try:
+                stats = merge_corrections.run_merge()
+            except Exception as exc:  # noqa: BLE001 -- surface any failure to the UI instead of a bare 500
+                return self._json({"ok": False, "error": f"merge failed: {exc}"}, 500)
+            return self._json({"ok": True, **stats})
 
         if path == "/api/claim":
             file_no, reviewer = body.get("file_no"), body.get("reviewer")

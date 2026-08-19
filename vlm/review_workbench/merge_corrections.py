@@ -45,12 +45,12 @@ def build_output_record(base_rec, segments, human_reviewed):
     }
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--out-dir", default=str(FINAL))
-    args = ap.parse_args()
-    out_dir = Path(args.out_dir)
-
+def run_merge(out_dir=FINAL):
+    """Core merge logic, importable by both the CLI below and the review
+    server (so the workbench's "merge all" button runs the exact same code
+    path, not a reimplementation). Returns a stats dict; writes the same two
+    files as always."""
+    out_dir = Path(out_dir)
     assignment = json.load(open(WORKBENCH / "assignment.json"))
     coarse_out, fine_out = [], []
     n_done = n_touched = n_untouched_default_pass = 0
@@ -82,10 +82,23 @@ def main():
         for r in fine_out:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-    print(f"wrote {len(coarse_out)} coarse / {len(fine_out)} fine records to {out_dir}")
-    print(f"  human_reviewed=true (marked done): {n_done}")
-    print(f"  touched by >=1 correction: {n_touched}")
-    print(f"  untouched (default pass, emitted as-is from qc): {n_untouched_default_pass}")
+    return {
+        "n_coarse": len(coarse_out), "n_fine": len(fine_out),
+        "n_done": n_done, "n_touched": n_touched,
+        "n_untouched_default_pass": n_untouched_default_pass,
+        "out_dir": str(out_dir),
+    }
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--out-dir", default=str(FINAL))
+    args = ap.parse_args()
+    stats = run_merge(args.out_dir)
+    print(f"wrote {stats['n_coarse']} coarse / {stats['n_fine']} fine records to {stats['out_dir']}")
+    print(f"  human_reviewed=true (marked done): {stats['n_done']}")
+    print(f"  touched by >=1 correction: {stats['n_touched']}")
+    print(f"  untouched (default pass, emitted as-is from qc): {stats['n_untouched_default_pass']}")
 
 
 if __name__ == "__main__":
