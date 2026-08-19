@@ -21,6 +21,7 @@
   #vid-time { flex-shrink: 0; font-family: monospace; font-size: 11px; color: #999; white-space: nowrap; }
   .tl-wrap { margin: 10px 0; }
   .tl-label { font-size: 11px; color: #999; margin-bottom: 2px; }
+  .tl-hint { font-weight: normal; color: #666; }
   .timeline { position: relative; height: 26px; border-radius: 3px; overflow: hidden; cursor: pointer; margin-bottom: 6px; background: #111; box-sizing: border-box; border-left: 4px solid transparent; }
   .timeline .seg { position: absolute; top: 0; bottom: 0; box-sizing: border-box; border-right: 1px solid #000; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #111; overflow: hidden; white-space: nowrap; }
   .timeline .seg.c0 { background: #7fb2e5; } .timeline .seg.c1 { background: #5f92c5; }
@@ -159,7 +160,7 @@
 <div class="tl-wrap">
   <div class="tl-track" id="tltrack-coarse">
     <div class="tl-row">
-      <div class="tl-label">coarse timeline</div>
+      <div class="tl-label">coarse timeline <span class="tl-hint">(scroll or &larr;/&rarr; to zoom)</span></div>
       <div class="tl-track-actions">
         <button id="tlact-merge-coarse" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('coarse')">&#8600; Merge</button>
         <button id="tlact-cut-coarse" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('coarse')">&#9986; Cut</button>
@@ -170,7 +171,7 @@
   </div>
   <div class="tl-track" id="tltrack-fine">
     <div class="tl-row">
-      <div class="tl-label">fine timeline</div>
+      <div class="tl-label">fine timeline <span class="tl-hint">(scroll or &larr;/&rarr; to zoom)</span></div>
       <div class="tl-track-actions">
         <button id="tlact-merge-fine" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('fine')">&#8600; Merge</button>
         <button id="tlact-cut-fine" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('fine')">&#9986; Cut</button>
@@ -374,17 +375,27 @@ function attachTimelineScrub(el, gran) {
 // that are unclickably thin at full zoom-out become precisely clickable.
 // Drag-to-scrub (above) is untouched; it operates within whatever the
 // current zoom window is via timeFromTimelineEvent's gran-aware mapping.
-function attachTimelineZoom(el, gran) {
-  el.addEventListener('wheel', (e) => {
+function attachTimelineZoom(trackEl, timelineEl, gran) {
+  // Listens on the whole .tl-track (label row + timeline + ruler), not just
+  // the 26px-tall .timeline strip -- that strip alone is an easy miss,
+  // especially now that the track sits well down the page. Cursor position
+  // for the zoom-center math still comes from the .timeline element
+  // specifically, so it maps correctly regardless of where in the taller
+  // track the wheel event actually fired.
+  trackEl.addEventListener('wheel', (e) => {
     e.preventDefault();
-    const rect = el.getBoundingClientRect();
+    const rect = timelineEl.getBoundingClientRect();
     const screenFrac = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
     const cursorAbsFrac = screenFracToAbsFrac(gran, screenFrac);
-    applyZoom(gran, cursorAbsFrac, e.deltaY < 0 ? 0.85 : 1 / 0.85);
+    // Proportional to actual scroll magnitude (not a fixed step per event)
+    // so it behaves sanely on both a notched mouse wheel and a trackpad's
+    // stream of small continuous deltas.
+    const factor = Math.pow(0.998, -e.deltaY); // deltaY<0 (scroll up/"forward") = zoom in = factor<1
+    applyZoom(gran, cursorAbsFrac, factor);
   }, { passive: false });
 }
-attachTimelineZoom(document.getElementById('tl-coarse'), 'coarse');
-attachTimelineZoom(document.getElementById('tl-fine'), 'fine');
+attachTimelineZoom(document.getElementById('tltrack-coarse'), document.getElementById('tl-coarse'), 'coarse');
+attachTimelineZoom(document.getElementById('tltrack-fine'), document.getElementById('tl-fine'), 'fine');
 
 attachTimelineScrub(document.getElementById('tl-coarse'), 'coarse');
 attachTimelineScrub(document.getElementById('tl-fine'), 'fine');
@@ -415,15 +426,21 @@ window.addEventListener('mouseup', (e) => {
     requestSeek(t); // unconditional final seek to the exact release position
     return;
   }
-  // plain click -- unchanged existing behavior (select + seek to end-1.5s),
-  // but only if the release landed on an actual segment block (matches the
-  // old per-block click-listener behavior, which never fired on empty gaps).
+  // plain click -- selects the segment under the pointer (only if the
+  // release landed on an actual segment block, matching the old per-block
+  // click-listener behavior which never fired on empty gaps) and seeks to
+  // the EXACT clicked position, not a fixed offset from the segment's end
+  // -- important now that tracks are zoomable: click somewhere specific
+  // after zooming in, land exactly there.
   if (Date.now() - pending.startTime > TL_CLICK_MAX_MS) return;
   const block = e.target.closest('.seg');
   if (!block || !pending.el.contains(block)) return;
   const idx = parseInt(block.dataset.idx, 10);
   select(pending.gran, idx);
-  seekToSeg(STATE[pending.gran][idx]);
+  const t = timeFromTimelineEvent(pending.el, e, pending.gran);
+  updateVidProgressVisual(t);
+  requestSeek(t);
+  player.play();
 });
 
 function fmt(t) { return t.toFixed(1); }
