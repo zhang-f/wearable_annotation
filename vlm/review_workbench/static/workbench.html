@@ -27,6 +27,9 @@
   .timeline .seg.selected { outline: 2px solid #fff; outline-offset: -2px; }
   .timeline .seg.flagged { outline: 2px solid #ff9a9a; outline-offset: -2px; }
   .timeline .playhead { position: absolute; top: -2px; bottom: -2px; width: 2px; background: #fff; z-index: 5; pointer-events: none; }
+  .tl-ruler { position: relative; height: 14px; margin-top: 1px; }
+  .tl-ruler .tick { position: absolute; top: 0; transform: translateX(-50%); font-size: 9px; font-family: monospace; color: #888; white-space: nowrap; padding-top: 4px; }
+  .tl-ruler .tick::before { content: ''; position: absolute; top: 0; left: 50%; width: 1px; height: 3px; background: #555; }
   #tl-scrub-time { display: none; position: fixed; transform: translate(-50%, -100%); margin-top: -6px; background: #000; color: #fff; font-family: monospace; font-size: 11px; padding: 2px 6px; border-radius: 3px; border: 1px solid #2e6da4; pointer-events: none; z-index: 50; white-space: nowrap; }
   .cols { display: flex; gap: 12px; margin-top: 8px; }
   .col { flex: 1; min-width: 0; }
@@ -163,6 +166,7 @@
       </div>
     </div>
     <div class="timeline" id="tl-coarse"></div>
+    <div class="tl-ruler" id="ruler-coarse"></div>
   </div>
   <div class="tl-track" id="tltrack-fine">
     <div class="tl-row">
@@ -173,6 +177,7 @@
       </div>
     </div>
     <div class="timeline" id="tl-fine"></div>
+    <div class="tl-ruler" id="ruler-fine"></div>
   </div>
 </div>
 <div id="tl-scrub-time"></div>
@@ -208,8 +213,8 @@
       <tr><td colspan="2" class="help-group">Playback</td></tr>
       <tr><td><kbd>Space</kbd></td><td>play/pause</td></tr>
       <tr><td><kbd>1</kbd>-<kbd>4</kbd></td><td>playback speed</td></tr>
-      <tr><td><kbd>a</kbd>/<kbd>d</kbd></td><td>seek &minus;/+0.3s &mdash; fine trim</td></tr>
-      <tr><td><kbd>&larr;</kbd>/<kbd>&rarr;</kbd></td><td>seek &minus;/+3s &mdash; jump</td></tr>
+      <tr><td><kbd>a</kbd>/<kbd>d</kbd></td><td>seek &minus;/+0.3s</td></tr>
+      <tr><td><kbd>&larr;</kbd>/<kbd>&rarr;</kbd></td><td>zoom the focused track's timeline out/in, centered on the playhead &mdash; mouse wheel over a timeline does the same, centered on the cursor</td></tr>
 
       <tr><td colspan="2" class="help-group">Navigation</td></tr>
       <tr><td><kbd>&uarr;</kbd>/<kbd>&darr;</kbd></td><td>focus coarse/fine track (default: fine) &mdash; m/n/x/t/e/u/j/k all act on the focused track</td></tr>
@@ -217,12 +222,8 @@
       <tr><td><kbd>B</kbd></td><td>boundary skim mode (auto-play each boundary &plusmn;2s)</td></tr>
 
       <tr><td colspan="2" class="help-group">Editing</td></tr>
-      <tr><td><kbd>t</kbd></td><td>set selected segment's end_time to playhead</td></tr>
-      <tr><td><kbd>e</kbd></td><td>edit &mdash; opens a popup with summary text, an "idle segment" checkbox, and voice input (starts listening automatically, or just type)</td></tr>
       <tr><td><kbd>m</kbd></td><td>merge &mdash; the segment at the playhead into the next one</td></tr>
-      <tr><td><kbd>n</kbd></td><td>cut &mdash; split the segment at the playhead in two (same popup as edit)</td></tr>
-      <tr><td><kbd>x</kbd></td><td>delete selected segment (time absorbed by the previous one)</td></tr>
-      <tr><td><kbd>u</kbd></td><td>undo most recent action on selected segment</td></tr>
+      <tr><td><kbd>n</kbd></td><td>cut &mdash; split the segment at the playhead in two, opens a popup with summary text, an "idle segment" checkbox, and voice input (starts listening automatically; saves itself as soon as you stop talking, no need to press Save/Enter -- typed text still needs Save/Enter)</td></tr>
 
       <tr><td colspan="2" class="help-group">Wrap-up</td></tr>
       <tr><td><kbd>Shift+D</kbd></td><td>mark video done, jump to next claimed video</td></tr>
@@ -328,11 +329,12 @@ const TL_CLICK_MAX_MOVE = 4; // px
 const TL_CLICK_MAX_MS = 250;
 const tlScrubTime = document.getElementById('tl-scrub-time');
 
-function timeFromTimelineEvent(el, e) {
+function timeFromTimelineEvent(el, e, gran) {
   const rect = el.getBoundingClientRect();
   const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
-  const pct = Math.min(1, Math.max(0, x / rect.width));
-  return pct * (player.duration || 0);
+  const screenFrac = Math.min(1, Math.max(0, x / rect.width));
+  const absFrac = screenFracToAbsFrac(gran, screenFrac);
+  return absFrac * (player.duration || 0);
 }
 function showTlScrubTime(el, e, t) {
   const rect = el.getBoundingClientRect();
@@ -352,7 +354,7 @@ function tlEnterDrag(e) {
   TL_DRAGGING = true;
   clearTimeout(TL_PENDING.timer);
   VID_SCRUBBING = true;
-  const t = timeFromTimelineEvent(TL_PENDING.el, e);
+  const t = timeFromTimelineEvent(TL_PENDING.el, e, TL_PENDING.gran);
   updateVidProgressVisual(t);
   showTlScrubTime(TL_PENDING.el, e, t);
   requestSeek(t);
@@ -366,13 +368,31 @@ function attachTimelineScrub(el, gran) {
     };
   });
 }
+
+// Mouse wheel over a track zooms its timeline in/out, centered on the
+// cursor (so the point you're pointing at stays put) -- lets short segments
+// that are unclickably thin at full zoom-out become precisely clickable.
+// Drag-to-scrub (above) is untouched; it operates within whatever the
+// current zoom window is via timeFromTimelineEvent's gran-aware mapping.
+function attachTimelineZoom(el, gran) {
+  el.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const rect = el.getBoundingClientRect();
+    const screenFrac = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
+    const cursorAbsFrac = screenFracToAbsFrac(gran, screenFrac);
+    applyZoom(gran, cursorAbsFrac, e.deltaY < 0 ? 0.85 : 1 / 0.85);
+  }, { passive: false });
+}
+attachTimelineZoom(document.getElementById('tl-coarse'), 'coarse');
+attachTimelineZoom(document.getElementById('tl-fine'), 'fine');
+
 attachTimelineScrub(document.getElementById('tl-coarse'), 'coarse');
 attachTimelineScrub(document.getElementById('tl-fine'), 'fine');
 
 window.addEventListener('mousemove', (e) => {
   if (!TL_PENDING) return;
   if (TL_DRAGGING) {
-    const t = timeFromTimelineEvent(TL_PENDING.el, e);
+    const t = timeFromTimelineEvent(TL_PENDING.el, e, TL_PENDING.gran);
     updateVidProgressVisual(t);
     showTlScrubTime(TL_PENDING.el, e, t);
     requestSeek(t);
@@ -390,7 +410,7 @@ window.addEventListener('mouseup', (e) => {
     TL_DRAGGING = false;
     VID_SCRUBBING = false;
     hideTlScrubTime();
-    const t = timeFromTimelineEvent(pending.el, e);
+    const t = timeFromTimelineEvent(pending.el, e, pending.gran);
     updateVidProgressVisual(t);
     requestSeek(t); // unconditional final seek to the exact release position
     return;
@@ -457,21 +477,88 @@ function segFilterPass(mode, s) {
   return true;
 }
 
+// --- granularity-track zoom -------------------------------------------------
+// Per-track visible window, as FRACTIONS of the full duration_in_sec-based
+// timeline (matches how .seg blocks are positioned -- see renderTimeline) --
+// {lo, hi} in [0,1], hi > lo. {lo:0, hi:1} = fully zoomed out (current
+// behavior). Time-based, not index-based, so it stays valid across
+// merge/cut/etc (which change segment counts but not the video's timeline).
+let TL_ZOOM = { coarse: { lo: 0, hi: 1 }, fine: { lo: 0, hi: 1 } };
+
+// Screen-space fraction (0..1 across the .timeline element) <-> absolute
+// fraction of the full video, given the track's current zoom window.
+function screenFracToAbsFrac(gran, screenFrac) {
+  const z = TL_ZOOM[gran];
+  return z.lo + screenFrac * (z.hi - z.lo);
+}
+function absFracToScreenFrac(gran, absFrac) {
+  const z = TL_ZOOM[gran];
+  return (absFrac - z.lo) / (z.hi - z.lo);
+}
+
+// Zooms track `gran` in/out by `factor` (< 1 = in, > 1 = out), keeping
+// `centerAbsFrac` (0..1 of the full video) stationary on screen -- the
+// cursor position for wheel-zoom, or the playhead for keyboard zoom. Shared
+// so both input paths clamp/pan identically.
+function applyZoom(gran, centerAbsFrac, factor) {
+  const dur = STATE.entry.duration_in_sec;
+  const z = TL_ZOOM[gran];
+  const minRange = Math.min(1, Math.max(1 / dur, 0.01)); // never zoom past ~1s of video visible
+  let newRange = Math.max(minRange, Math.min(1, (z.hi - z.lo) * factor));
+  let newLo = centerAbsFrac - (centerAbsFrac - z.lo) * (newRange / (z.hi - z.lo));
+  let newHi = newLo + newRange;
+  if (newLo < 0) { newHi -= newLo; newLo = 0; }
+  if (newHi > 1) { newLo -= (newHi - 1); newHi = 1; }
+  TL_ZOOM[gran] = { lo: Math.max(0, newLo), hi: Math.min(1, newHi) };
+  renderTimeline(gran);
+  updateHighlight();
+}
+
+function niceTickInterval(rangeSec, targetTicks) {
+  const raw = rangeSec / targetTicks;
+  const mag = Math.pow(10, Math.floor(Math.log10(Math.max(raw, 1e-6))));
+  const norm = raw / mag;
+  const step = norm < 1.5 ? 1 : norm < 3 ? 2 : norm < 7 ? 5 : 10;
+  return step * mag;
+}
+
+function renderRuler(gran) {
+  const el = document.getElementById(`ruler-${gran}`);
+  if (!el) return;
+  el.innerHTML = '';
+  const dur = STATE.entry.duration_in_sec;
+  const z = TL_ZOOM[gran];
+  const visLo = z.lo * dur, visHi = z.hi * dur;
+  const step = niceTickInterval(visHi - visLo, 6);
+  const first = Math.ceil(visLo / step) * step;
+  for (let t = first; t <= visHi + 1e-9; t += step) {
+    const tick = document.createElement('div');
+    tick.className = 'tick';
+    tick.style.left = (((t - visLo) / (visHi - visLo)) * 100) + '%';
+    tick.textContent = fmtClock(t);
+    el.appendChild(tick);
+  }
+}
+
 function renderTimeline(gran) {
   const el = document.getElementById(`tl-${gran}`);
   el.innerHTML = '';
   const dur = STATE.entry.duration_in_sec;
   STATE[gran].forEach((seg, i) => {
-    const startPct = (seg.start_time / dur) * 100, widthPct = ((seg.end_time - seg.start_time) / dur) * 100;
+    const screenStart = absFracToScreenFrac(gran, seg.start_time / dur);
+    const screenEnd = absFracToScreenFrac(gran, seg.end_time / dur);
+    if (screenEnd <= 0 || screenStart >= 1) return; // fully outside the zoomed-in view
+    const startPct = Math.max(0, screenStart) * 100, endPct = Math.min(1, screenEnd) * 100;
     const block = document.createElement('div');
     block.className = `seg ${i % 2 === 0 ? 'c0' : 'c1'}` + (SELECTED.gran === gran && SELECTED.idx === i ? ' selected' : '');
-    block.style.left = startPct + '%'; block.style.width = widthPct + '%';
+    block.style.left = startPct + '%'; block.style.width = (endPct - startPct) + '%';
     block.title = `[${fmt(seg.start_time)}-${fmt(seg.end_time)}s] ${seg.summary}`;
     block.dataset.idx = i; // click vs. drag-scrub is disambiguated at the .timeline container level (see attachTimelineScrub)
     el.appendChild(block);
   });
   const ph = document.createElement('div'); ph.className = 'playhead'; ph.id = `playhead-${gran}`;
   el.appendChild(ph);
+  renderRuler(gran);
 }
 
 function badgesFor(s) {
@@ -563,7 +650,11 @@ function updateHighlight() {
     if (idx < 0) idx = segs.length - 1;
     document.querySelectorAll(`#list-${gran} .row`).forEach(el => el.classList.toggle('current', parseInt(el.dataset.idx) === idx));
     const ph = document.getElementById(`playhead-${gran}`);
-    if (ph) ph.style.left = (dur > 0 ? (t / dur) * 100 : 0) + '%';
+    if (ph) {
+      const screenFrac = dur > 0 ? absFracToScreenFrac(gran, t / dur) : 0;
+      if (screenFrac < 0 || screenFrac > 1) { ph.style.display = 'none'; }
+      else { ph.style.display = ''; ph.style.left = (screenFrac * 100) + '%'; }
+    }
   }
   updateToolbarButtons();
 }
@@ -616,19 +707,6 @@ function segAt(gran, idx) { return STATE[gran][idx]; }
 
 let EDITING = false;
 
-function callEdit(gran, idx) {
-  select(gran, idx);
-  player.pause();
-  const seg = segAt(gran, idx);
-  openModal({ mode: 'edit', gran, idx, title: 'Edit summary', initialText: seg.summary, initialIdle: seg.type === 'idle' });
-}
-
-function callRetime(gran, idx, endTime) {
-  select(gran, idx);
-  const et = endTime != null ? endTime : player.currentTime;
-  postAction(gran, idx, 'retime', { end_time: et });
-}
-
 function findSegmentAtTime(gran, t) {
   const segs = STATE[gran];
   let idx = segs.findIndex(s => t < s.end_time);
@@ -666,19 +744,6 @@ function toolbarMerge(gran) { mergeAtPlayhead(gran, 'toolbar'); }
 
 function toolbarCut(gran) {
   openAddModalAtPlayhead(gran, 'toolbar');
-}
-
-function callDelete(gran, idx) {
-  select(gran, idx);
-  if (!confirm('Delete this segment? Its time span will be absorbed by the previous segment.')) return;
-  postAction(gran, idx, 'delete', {});
-}
-
-function callUndoSeg(gran, idx) {
-  select(gran, idx);
-  const seg = segAt(gran, idx);
-  if (seg._origin_seq == null) { flash('nothing to undo on this segment', true); return; }
-  postAction(gran, null, 'undo', { undo_seq: seg._origin_seq });
 }
 
 // --- add-at-playhead (keyboard 'n' + per-track Cut button both land here) ---
@@ -719,13 +784,19 @@ function openModal({ mode, gran, idx, t, source, title, initialText, initialIdle
 }
 
 function closeModal() {
-  stopMic();
-  document.getElementById('modal-overlay').style.display = 'none';
+  // Null MODAL out before stopMic(): if a browser ever fires
+  // recognition.onend() synchronously inside .stop() (real browsers don't,
+  // but nothing guarantees that), the onend handler's `if (MODAL && text)`
+  // auto-save guard needs to already see MODAL as null to avoid a
+  // re-entrant double submitModal() call.
   EDITING = false;
   MODAL = null;
+  document.getElementById('modal-overlay').style.display = 'none';
+  stopMic();
 }
 
 async function submitModal() {
+  if (!MODAL) return; // modal already closed/submitted (e.g. a stray recognition.onend after closeModal())
   const input = document.getElementById('modal-input');
   const text = input.value.trim();
   if (!text) { flash('type or speak something first', true); return; }
@@ -792,7 +863,16 @@ function toggleMic() {
       e.error === 'not-allowed' ? 'Microphone permission denied -- allow mic access for this page and retry.' : `Voice input error: ${e.error}`;
     btn.classList.remove('listening');
   };
-  recognition.onend = () => { btn.classList.remove('listening'); };
+  recognition.onend = () => {
+    btn.classList.remove('listening');
+    // Auto-save as soon as speech recognition decides you're done talking --
+    // no Save/Enter needed for voice input. MODAL is already null by the
+    // time this fires if the modal was cancelled (closeModal() calls
+    // stopMic() synchronously, well before this async event arrives), so
+    // that case is naturally skipped, not just coincidentally harmless.
+    const text = document.getElementById('modal-input').value.trim();
+    if (MODAL && text) submitModal();
+  };
   recognition.onresult = (e) => {
     let text = '';
     for (let i = 0; i < e.results.length; i++) text += e.results[i][0].transcript;
@@ -870,18 +950,21 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === 'k') { SELECTED.idx = Math.max(0, SELECTED.idx - 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
   else if (e.key === 'ArrowUp') { e.preventDefault(); if (SELECTED.gran !== 'coarse') select('coarse', 0); }
   else if (e.key === 'ArrowDown') { e.preventDefault(); if (SELECTED.gran !== 'fine') select('fine', 0); }
-  else if (e.key === 'ArrowRight') { e.preventDefault(); const t = Math.min(player.duration || 0, player.currentTime + 3); updateVidProgressVisual(t); requestSeek(t); }
-  else if (e.key === 'ArrowLeft') { e.preventDefault(); const t = Math.max(0, player.currentTime - 3); updateVidProgressVisual(t); requestSeek(t); }
+  else if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+    // Zoom the focused track's timeline in/out (fine, ~8%-per-press steps),
+    // centered on the current playhead so it stays put on screen. This is
+    // the timeline's zoom control, not a seek -- a/d above still seek.
+    e.preventDefault();
+    const dur = STATE ? STATE.entry.duration_in_sec : 0;
+    const centerAbsFrac = dur > 0 ? player.currentTime / (player.duration || dur) : 0;
+    applyZoom(SELECTED.gran, centerAbsFrac, e.key === 'ArrowRight' ? 0.92 : 1 / 0.92);
+  }
   else if (e.key === 'a') { const t = Math.max(0, player.currentTime - 0.3); updateVidProgressVisual(t); requestSeek(t); }
   else if (e.key === 'd') { const t = Math.min(player.duration || 0, player.currentTime + 0.3); updateVidProgressVisual(t); requestSeek(t); }
   else if (['1', '2', '3', '4'].includes(e.key)) { player.playbackRate = parseInt(e.key); }
   else if (e.key === 'B' || e.key === 'b') { toggleSkim(); }
-  else if (e.key === 't') { callRetime(SELECTED.gran, SELECTED.idx, player.currentTime); }
-  else if (e.key === 'e') { callEdit(SELECTED.gran, SELECTED.idx); }
   else if (e.key === 'm') { mergeAtPlayhead(SELECTED.gran); }
   else if (e.key === 'n') { openAddModalAtPlayhead(SELECTED.gran); }
-  else if (e.key === 'x') { callDelete(SELECTED.gran, SELECTED.idx); }
-  else if (e.key === 'u') { callUndoSeg(SELECTED.gran, SELECTED.idx); }
   else if (e.key === 'D' && e.shiftKey) { markDone(); }
   else if (e.key === 'N' && e.shiftKey) { goToNextVideo(); }
 });
