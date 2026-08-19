@@ -31,6 +31,11 @@
   .tl-ruler { position: relative; height: 14px; margin-top: 1px; }
   .tl-ruler .tick { position: absolute; top: 0; transform: translateX(-50%); font-size: 9px; font-family: monospace; color: #888; white-space: nowrap; padding-top: 4px; }
   .tl-ruler .tick::before { content: ''; position: absolute; top: 0; left: 50%; width: 1px; height: 3px; background: #555; }
+  .tl-zoom-badge { position: absolute; top: 2px; left: 4px; z-index: 6; font-size: 9px; font-family: monospace; color: #ccc; background: rgba(0,0,0,0.55); padding: 0 4px; border-radius: 2px; pointer-events: none; }
+  .tl-boundary-hover { display: none; position: absolute; top: -2px; bottom: -2px; width: 2px; margin-left: -1px; background: #f0c060; z-index: 6; cursor: col-resize; pointer-events: none; }
+  .tl-minimap { position: relative; height: 8px; margin-top: 3px; background: #0a0a0a; border-radius: 2px; cursor: pointer; }
+  .tl-minimap-window { position: absolute; top: 0; bottom: 0; background: rgba(77,166,255,0.35); border: 1px solid #4da6ff; border-radius: 2px; pointer-events: none; }
+  .tl-fine-projection { display: none; position: absolute; top: 0; bottom: 0; background: rgba(255,255,255,0.14); border-left: 1px solid rgba(255,255,255,0.55); border-right: 1px solid rgba(255,255,255,0.55); z-index: 4; pointer-events: none; }
   #tl-scrub-time { display: none; position: fixed; transform: translate(-50%, -100%); margin-top: -6px; background: #000; color: #fff; font-family: monospace; font-size: 11px; padding: 2px 6px; border-radius: 3px; border: 1px solid #2e6da4; pointer-events: none; z-index: 50; white-space: nowrap; }
   .cols { display: flex; gap: 12px; margin-top: 8px; }
   .col { flex: 1; min-width: 0; }
@@ -160,7 +165,7 @@
 <div class="tl-wrap">
   <div class="tl-track" id="tltrack-coarse">
     <div class="tl-row">
-      <div class="tl-label">coarse timeline <span class="tl-hint">(scroll or &larr;/&rarr; to zoom)</span></div>
+      <div class="tl-label">coarse timeline <span class="tl-hint">(reference -- not zoomable)</span></div>
       <div class="tl-track-actions">
         <button id="tlact-merge-coarse" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('coarse')">&#8600; Merge</button>
         <button id="tlact-cut-coarse" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('coarse')">&#9986; Cut</button>
@@ -171,7 +176,7 @@
   </div>
   <div class="tl-track" id="tltrack-fine">
     <div class="tl-row">
-      <div class="tl-label">fine timeline <span class="tl-hint">(scroll or &larr;/&rarr; to zoom)</span></div>
+      <div class="tl-label">fine timeline <span class="tl-hint">(scroll or &larr;/&rarr; to zoom, dblclick to reset, drag near a boundary to retime)</span></div>
       <div class="tl-track-actions">
         <button id="tlact-merge-fine" class="toolbtn" title="Merge the segment at the playhead into the next one (m)" onclick="toolbarMerge('fine')">&#8600; Merge</button>
         <button id="tlact-cut-fine" class="toolbtn" title="Split the segment at the playhead (n)" onclick="toolbarCut('fine')">&#9986; Cut</button>
@@ -179,6 +184,9 @@
     </div>
     <div class="timeline" id="tl-fine"></div>
     <div class="tl-ruler" id="ruler-fine"></div>
+    <div class="tl-minimap" id="minimap-fine" title="Full-length overview -- click to jump the zoomed view here">
+      <div class="tl-minimap-window" id="minimap-window-fine"></div>
+    </div>
   </div>
 </div>
 <div id="tl-scrub-time"></div>
@@ -337,6 +345,27 @@ function timeFromTimelineEvent(el, e, gran) {
   const absFrac = screenFracToAbsFrac(gran, screenFrac);
   return absFrac * (player.duration || 0);
 }
+// Boundary-line dragging (fine track only) -- ±5 SCREEN-pixel hit-test
+// against each fine segment's end_time, excluding the last segment (nothing
+// bounds it on the right). Screen-pixel, not time-based, so hit-testing
+// naturally goes through the same shared screenFrac<->absFrac mapping as
+// everything else and gets more forgiving at low zoom / more precise at
+// high zoom for free.
+const TL_BOUNDARY_PX = 5;
+function findBoundaryHit(el, e, gran) {
+  if (gran !== 'fine' || !STATE) return -1;
+  const rect = el.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const segs = STATE[gran];
+  const dur = STATE.entry.duration_in_sec;
+  for (let i = 0; i < segs.length - 1; i++) {
+    const screenFrac = absFracToScreenFrac(gran, segs[i].end_time / dur);
+    if (screenFrac < 0 || screenFrac > 1) continue;
+    if (Math.abs(screenFrac * rect.width - x) <= TL_BOUNDARY_PX) return i;
+  }
+  return -1;
+}
+
 function showTlScrubTime(el, e, t) {
   const rect = el.getBoundingClientRect();
   const x = e.touches ? e.touches[0].clientX : e.clientX;
@@ -361,13 +390,43 @@ function tlEnterDrag(e) {
   requestSeek(t);
 }
 
+// {gran, idx, el, origEndTime} while a boundary line is being dragged, else
+// null. Checked first in mousedown -- takes priority over the scrub/click
+// gesture above.
+let BOUNDARY_DRAG = null;
+
 function attachTimelineScrub(el, gran) {
   el.addEventListener('mousedown', (e) => {
+    const bIdx = findBoundaryHit(el, e, gran);
+    if (bIdx >= 0) {
+      BOUNDARY_DRAG = { gran, idx: bIdx, el, origEndTime: STATE[gran][bIdx].end_time };
+      return;
+    }
     TL_PENDING = {
       el, gran, startX: e.clientX, startY: e.clientY, startTime: Date.now(),
       timer: setTimeout(() => tlEnterDrag(e), TL_CLICK_MAX_MS),
     };
   });
+  if (gran === 'fine') {
+    // Hover feedback (cursor + boundary-hover marker) so a boundary line is
+    // discoverable before you commit to a drag. Suppressed mid-gesture.
+    el.addEventListener('mousemove', (e) => {
+      if (TL_PENDING || BOUNDARY_DRAG) return;
+      const bIdx = findBoundaryHit(el, e, gran);
+      el.style.cursor = bIdx >= 0 ? 'col-resize' : '';
+      const hover = document.getElementById('boundary-hover-fine');
+      if (!hover) return;
+      if (bIdx < 0) { hover.style.display = 'none'; return; }
+      const dur = STATE.entry.duration_in_sec;
+      hover.style.left = (absFracToScreenFrac(gran, STATE[gran][bIdx].end_time / dur) * 100) + '%';
+      hover.style.display = 'block';
+    });
+    el.addEventListener('mouseleave', () => {
+      el.style.cursor = '';
+      const hover = document.getElementById('boundary-hover-fine');
+      if (hover) hover.style.display = 'none';
+    });
+  }
 }
 
 // Mouse wheel over a track zooms its timeline in/out, centered on the
@@ -394,11 +453,65 @@ function attachTimelineZoom(trackEl, timelineEl, gran) {
     applyZoom(gran, cursorAbsFrac, factor);
   }, { passive: false });
 }
-attachTimelineZoom(document.getElementById('tltrack-coarse'), document.getElementById('tl-coarse'), 'coarse');
+// Coarse stays a fixed full-length reference (see the click-semantics split
+// below) -- only fine zooms.
 attachTimelineZoom(document.getElementById('tltrack-fine'), document.getElementById('tl-fine'), 'fine');
 
 attachTimelineScrub(document.getElementById('tl-coarse'), 'coarse');
 attachTimelineScrub(document.getElementById('tl-fine'), 'fine');
+
+// Full-length overview strip below the fine track -- click anywhere on it to
+// re-center the (same-width) zoom window there, via the same panTo used for
+// auto-follow-playhead.
+document.getElementById('minimap-fine').addEventListener('click', (e) => {
+  const rect = e.currentTarget.getBoundingClientRect();
+  const frac = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
+  panTo('fine', frac);
+  updateHighlight(false);
+});
+
+// Double-click anywhere on the fine track resets zoom to full length (1x).
+// Fires on segment blocks too (not just empty gaps) -- fine segments tile
+// the track edge-to-edge, so there's essentially no empty area to require
+// excluding them.
+document.getElementById('tl-fine').addEventListener('dblclick', () => {
+  TL_ZOOM.fine = { lo: 0, hi: 1 };
+  renderTimeline('fine');
+  renderMinimap('fine');
+  renderFineProjection();
+  updateHighlight(false);
+});
+
+// Live local-only preview while dragging a boundary line -- mutates
+// STATE.fine[idx].end_time directly and re-renders via the normal renderAll
+// path (so the adjacent segment's start_time, derived from this end_time via
+// withStarts(), cascades into the list/timeline automatically) WITHOUT
+// calling postAction, so nothing is saved until mouseup.
+window.addEventListener('mousemove', (e) => {
+  if (!BOUNDARY_DRAG) return;
+  const { gran, idx, el, origEndTime } = BOUNDARY_DRAG;
+  const rect = el.getBoundingClientRect();
+  if (e.clientY < rect.top - 60 || e.clientY > rect.bottom + 60) {
+    STATE[gran][idx].end_time = origEndTime; // cancel: dragged too far off-track
+    renderAll();
+    BOUNDARY_DRAG = null;
+    return;
+  }
+  const t = timeFromTimelineEvent(el, e, gran);
+  const segs = STATE[gran];
+  const prevEnd = idx > 0 ? segs[idx - 1].end_time : 0;
+  const nextEnd = segs[idx + 1] ? segs[idx + 1].end_time : STATE.entry.duration_in_sec;
+  segs[idx].end_time = Math.max(prevEnd + 0.1, Math.min(nextEnd - 0.1, t));
+  renderAll();
+});
+window.addEventListener('mouseup', async () => {
+  if (!BOUNDARY_DRAG) return;
+  const { gran, idx, origEndTime } = BOUNDARY_DRAG;
+  BOUNDARY_DRAG = null;
+  const finalT = STATE[gran][idx].end_time;
+  if (Math.abs(finalT - origEndTime) < 1e-3) return; // no real movement -- don't spam a no-op retime record
+  await postAction(gran, idx, 'retime', { end_time: finalT, source: 'drag' });
+});
 
 window.addEventListener('mousemove', (e) => {
   if (!TL_PENDING) return;
@@ -428,19 +541,25 @@ window.addEventListener('mouseup', (e) => {
   }
   // plain click -- selects the segment under the pointer (only if the
   // release landed on an actual segment block, matching the old per-block
-  // click-listener behavior which never fired on empty gaps) and seeks to
-  // the EXACT clicked position, not a fixed offset from the segment's end
-  // -- important now that tracks are zoomable: click somewhere specific
-  // after zooming in, land exactly there.
+  // click-listener behavior which never fired on empty gaps).
+  // fine: seeks to the EXACT clicked position -- important now that fine is
+  // zoomable, click somewhere specific after zooming in and land exactly
+  // there. coarse: unchanged, jumps to the segment's end-1.5s (seekToSeg) --
+  // coarse segments are few and long, so jumping to a boundary to preview
+  // the transition is more useful than an arbitrary mid-segment position.
   if (Date.now() - pending.startTime > TL_CLICK_MAX_MS) return;
   const block = e.target.closest('.seg');
   if (!block || !pending.el.contains(block)) return;
   const idx = parseInt(block.dataset.idx, 10);
   select(pending.gran, idx);
-  const t = timeFromTimelineEvent(pending.el, e, pending.gran);
-  updateVidProgressVisual(t);
-  requestSeek(t);
-  player.play();
+  if (pending.gran === 'fine') {
+    const t = timeFromTimelineEvent(pending.el, e, pending.gran);
+    updateVidProgressVisual(t);
+    requestSeek(t);
+    player.play();
+  } else {
+    seekToSeg(STATE.coarse[idx]);
+  }
 });
 
 function fmt(t) { return t.toFixed(1); }
@@ -483,6 +602,7 @@ function renderAll() {
   STATE.fine = withStarts(STATE.fine);
   renderTimeline('coarse'); renderTimeline('fine');
   renderLists();
+  renderMinimap('fine');
   updateHighlight();
   renderTrackFocus();
 }
@@ -513,14 +633,19 @@ function absFracToScreenFrac(gran, absFrac) {
   return (absFrac - z.lo) / (z.hi - z.lo);
 }
 
+// Only the fine track zooms (coarse stays a fixed full-length reference --
+// see the coarse click-semantics split in the mouseup handler and the
+// removed attachTimelineZoom(coarse) call below). 1x-50x, matching the
+// task spec.
+const TL_MAX_ZOOM = 50;
+
 // Zooms track `gran` in/out by `factor` (< 1 = in, > 1 = out), keeping
 // `centerAbsFrac` (0..1 of the full video) stationary on screen -- the
 // cursor position for wheel-zoom, or the playhead for keyboard zoom. Shared
 // so both input paths clamp/pan identically.
 function applyZoom(gran, centerAbsFrac, factor) {
-  const dur = STATE.entry.duration_in_sec;
   const z = TL_ZOOM[gran];
-  const minRange = Math.min(1, Math.max(1 / dur, 0.01)); // never zoom past ~1s of video visible
+  const minRange = 1 / TL_MAX_ZOOM;
   let newRange = Math.max(minRange, Math.min(1, (z.hi - z.lo) * factor));
   let newLo = centerAbsFrac - (centerAbsFrac - z.lo) * (newRange / (z.hi - z.lo));
   let newHi = newLo + newRange;
@@ -528,7 +653,58 @@ function applyZoom(gran, centerAbsFrac, factor) {
   if (newHi > 1) { newLo -= (newHi - 1); newHi = 1; }
   TL_ZOOM[gran] = { lo: Math.max(0, newLo), hi: Math.min(1, newHi) };
   renderTimeline(gran);
+  renderZoomBadge(gran);
+  renderMinimap(gran);
+  renderFineProjection();
   updateHighlight();
+}
+
+// Re-centers track `gran`'s current zoom window on `centerAbsFrac`, keeping
+// the same zoom level (unlike applyZoom, which changes the level around a
+// fixed point) -- used by the minimap click-to-jump and the playhead
+// auto-follow in updateHighlight(). Deliberately does NOT call
+// updateHighlight() itself (unlike applyZoom): auto-follow calls this FROM
+// INSIDE updateHighlight()'s own playhead-positioning loop, so doing so
+// would recurse.
+function panTo(gran, centerAbsFrac) {
+  const z = TL_ZOOM[gran];
+  const range = z.hi - z.lo;
+  let newLo = centerAbsFrac - range / 2, newHi = centerAbsFrac + range / 2;
+  if (newLo < 0) { newHi -= newLo; newLo = 0; }
+  if (newHi > 1) { newLo -= (newHi - 1); newHi = 1; }
+  TL_ZOOM[gran] = { lo: Math.max(0, newLo), hi: Math.min(1, newHi) };
+  renderTimeline(gran);
+  renderMinimap(gran);
+  renderFineProjection();
+}
+
+function renderZoomBadge(gran) {
+  const el = document.getElementById(`zoom-badge-${gran}`);
+  if (!el) return;
+  const z = TL_ZOOM[gran];
+  const level = 1 / (z.hi - z.lo);
+  el.textContent = (level < 1.05 ? '1' : level.toFixed(level < 10 ? 1 : 0)) + '×';
+}
+
+function renderMinimap(gran) {
+  const el = document.getElementById(`minimap-window-${gran}`);
+  if (!el) return;
+  const z = TL_ZOOM[gran];
+  el.style.left = (z.lo * 100) + '%';
+  el.style.width = Math.max(0.5, (z.hi - z.lo) * 100) + '%'; // floor so it stays visible/clickable even at 50x
+}
+
+// Coarse never zooms, so its own screen-fraction === absolute-fraction
+// always -- the fine window's {lo,hi} (already in that same absolute-
+// fraction space) maps onto it with no extra conversion.
+function renderFineProjection() {
+  const el = document.getElementById('fine-projection');
+  if (!el) return;
+  const z = TL_ZOOM.fine;
+  if (z.lo <= 0 && z.hi >= 1) { el.style.display = 'none'; return; }
+  el.style.display = 'block';
+  el.style.left = (z.lo * 100) + '%';
+  el.style.width = ((z.hi - z.lo) * 100) + '%';
 }
 
 function niceTickInterval(rangeSec, targetTicks) {
@@ -575,6 +751,26 @@ function renderTimeline(gran) {
   });
   const ph = document.createElement('div'); ph.className = 'playhead'; ph.id = `playhead-${gran}`;
   el.appendChild(ph);
+  // Per-track chrome that renderTimeline's innerHTML='' above wipes on every
+  // call, so (unlike .tl-ruler/.tl-minimap, which are static siblings of
+  // .timeline and untouched by the wipe) these must be recreated here every
+  // time, matching the .playhead pattern just above.
+  if (gran === 'fine') {
+    const badge = document.createElement('div');
+    badge.className = 'tl-zoom-badge'; badge.id = 'zoom-badge-fine';
+    badge.title = 'double-click to reset zoom to 1×';
+    el.appendChild(badge);
+    const hover = document.createElement('div');
+    hover.className = 'tl-boundary-hover'; hover.id = 'boundary-hover-fine';
+    el.appendChild(hover);
+    renderZoomBadge('fine');
+  }
+  if (gran === 'coarse') {
+    const proj = document.createElement('div');
+    proj.className = 'tl-fine-projection'; proj.id = 'fine-projection';
+    el.appendChild(proj);
+    renderFineProjection();
+  }
   renderRuler(gran);
 }
 
@@ -658,7 +854,14 @@ function updatePlayheadLabel() {
 
 function seekToSeg(seg) { player.currentTime = Math.max(0, seg.end_time - 1.5); player.play(); }
 
-function updateHighlight() {
+// allowAutoPan=false is for callers that just deliberately repositioned the
+// fine viewport themselves (minimap click, double-click reset) and want the
+// playhead marker/current-row highlight refreshed for the new window WITHOUT
+// auto-pan immediately snapping the view back to the playhead -- that would
+// defeat the whole point of manually browsing away from the playhead while
+// zoomed. The timeupdate/seeking listeners (actual playback) always pass the
+// default true.
+function updateHighlight(allowAutoPan = true) {
   const t = player.currentTime, dur = STATE.entry.duration_in_sec;
   updatePlayheadLabel();
   for (const gran of ['coarse', 'fine']) {
@@ -666,6 +869,20 @@ function updateHighlight() {
     let idx = segs.findIndex(s => t < s.end_time);
     if (idx < 0) idx = segs.length - 1;
     document.querySelectorAll(`#list-${gran} .row`).forEach(el => el.classList.toggle('current', parseInt(el.dataset.idx) === idx));
+    // Auto-pan the zoomed fine viewport to keep the playhead visible during
+    // playback/stepping/scrubbing -- only re-centers once the playhead drifts
+    // near the edge (outside the middle 80%), not continuously every tick,
+    // to avoid a full timeline rebuild on every timeupdate. Suppressed while
+    // the user is actively dragging something themselves (scrub or boundary)
+    // so auto-pan doesn't fight their gesture.
+    if (allowAutoPan && gran === 'fine' && dur > 0 && !VID_SCRUBBING && !BOUNDARY_DRAG) {
+      const z = TL_ZOOM.fine;
+      if (z.hi - z.lo < 1 - 1e-9) {
+        const absFrac = t / dur;
+        const screenFrac0 = absFracToScreenFrac('fine', absFrac);
+        if (screenFrac0 < 0.1 || screenFrac0 > 0.9) panTo('fine', absFrac);
+      }
+    }
     const ph = document.getElementById(`playhead-${gran}`);
     if (ph) {
       const screenFrac = dur > 0 ? absFracToScreenFrac(gran, t / dur) : 0;
@@ -957,6 +1174,13 @@ function toggleHelp() {
 }
 
 document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && BOUNDARY_DRAG) {
+    // Cancel an in-progress boundary drag -- revert, don't save.
+    STATE[BOUNDARY_DRAG.gran][BOUNDARY_DRAG.idx].end_time = BOUNDARY_DRAG.origEndTime;
+    BOUNDARY_DRAG = null;
+    renderAll();
+    return;
+  }
   if (EDITING) return; // input field handles its own keys
   if (e.key === '?') { toggleHelp(); return; }
   if (document.getElementById('help-overlay').style.display === 'flex') return;
@@ -967,14 +1191,15 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === 'k') { SELECTED.idx = Math.max(0, SELECTED.idx - 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
   else if (e.key === 'ArrowUp') { e.preventDefault(); if (SELECTED.gran !== 'coarse') select('coarse', 0); }
   else if (e.key === 'ArrowDown') { e.preventDefault(); if (SELECTED.gran !== 'fine') select('fine', 0); }
-  else if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
-    // Zoom the focused track's timeline in/out (fine, ~8%-per-press steps),
-    // centered on the current playhead so it stays put on screen. This is
-    // the timeline's zoom control, not a seek -- a/d above still seek.
+  else if ((e.key === 'ArrowRight' || e.key === 'ArrowLeft') && SELECTED.gran === 'fine') {
+    // Zoom the fine timeline in/out (~8%-per-press steps), centered on the
+    // current playhead so it stays put on screen. Fine only -- coarse never
+    // zooms. This is the timeline's zoom control, not a seek -- a/d above
+    // still seek.
     e.preventDefault();
     const dur = STATE ? STATE.entry.duration_in_sec : 0;
     const centerAbsFrac = dur > 0 ? player.currentTime / (player.duration || dur) : 0;
-    applyZoom(SELECTED.gran, centerAbsFrac, e.key === 'ArrowRight' ? 0.92 : 1 / 0.92);
+    applyZoom('fine', centerAbsFrac, e.key === 'ArrowRight' ? 0.92 : 1 / 0.92);
   }
   else if (e.key === 'a') { const t = Math.max(0, player.currentTime - 0.3); updateVidProgressVisual(t); requestSeek(t); }
   else if (e.key === 'd') { const t = Math.min(player.duration || 0, player.currentTime + 0.3); updateVidProgressVisual(t); requestSeek(t); }
