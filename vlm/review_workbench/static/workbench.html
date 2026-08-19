@@ -9,7 +9,10 @@
   h1 { font-size: 15px; margin: 0; color: #fff; }
   .sub { font-size: 12px; color: #999; }
   a.back { color: #7fc7ff; text-decoration: none; font-size: 12px; }
-  video { width: 100%; max-height: 42vh; background: #000; border-radius: 4px; display: block; }
+  .main-layout { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 4px; }
+  .video-col { flex: 0 1 auto; max-width: 46%; }
+  .desc-col { flex: 1 1 0; min-width: 0; }
+  video { display: block; max-height: 75vh; max-width: 100%; width: auto; margin: 0 auto; background: #000; border-radius: 4px; }
   #vid-controls { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
   #vid-playpause { flex-shrink: 0; width: 30px; height: 26px; font-size: 11px; background: #2a2a2a; color: #ccc; border: 1px solid #444; border-radius: 4px; cursor: pointer; }
   #vid-playpause:hover { background: #3a3a3a; border-color: #666; }
@@ -30,7 +33,7 @@
   .col h2 { font-size: 13px; color: #7fc7ff; margin: 0 0 4px; display: flex; justify-content: space-between; align-items: center; }
   .filters { font-size: 11px; }
   .filters label { margin-right: 6px; }
-  .seg-list { max-height: 58vh; overflow-y: auto; border: 1px solid #333; border-radius: 4px; }
+  .seg-list { max-height: 68vh; overflow-y: auto; border: 1px solid #333; border-radius: 4px; }
   .row { display: flex; gap: 6px; align-items: flex-start; padding: 5px 6px; border-bottom: 1px solid #2a2a2a; cursor: pointer; font-size: 12px; }
   .row:hover { background: #262626; }
   .row.current { background: #24344a; }
@@ -48,12 +51,11 @@
   .tl-row { display: flex; align-items: center; gap: 8px; margin-bottom: 2px; }
   .tl-track-actions { display: flex; gap: 4px; margin-left: auto; }
   .tl-track-actions button { font-size: 10px; padding: 1px 8px; }
-  .tl-track { transition: opacity .15s; }
-  .tl-track.tl-dimmed { opacity: 0.55; }
+  .tl-track.tl-hidden { display: none; }
   .tl-track.tl-focused .timeline { border-left-color: #4da6ff; }
   .tl-track.tl-focused .tl-label { color: #7fc7ff; font-weight: 600; }
   .tl-track.tl-focused .tl-track-actions button { border-color: #4da6ff; }
-  .col.tl-dimmed { opacity: 0.55; transition: opacity .15s; }
+  .col.tl-hidden { display: none; }
   .col.tl-focused .seg-list { border-color: #4da6ff; border-width: 2px; }
   .col.tl-focused h2 { color: #fff; }
   .badge { font-size: 9px; padding: 0 4px; border-radius: 3px; margin-left: 4px; }
@@ -114,7 +116,33 @@
 
 <div id="skim-banner">Boundary skim mode (B to exit) &mdash; playing each boundary &plusmn;2s, auto-advancing</div>
 
-<video id="player"></video>
+<div class="main-layout">
+  <div class="video-col">
+    <video id="player"></video>
+  </div>
+  <div class="desc-col">
+    <div class="flags-top" id="flags-top"></div>
+    <div class="cols">
+      <div class="col" id="col-coarse">
+        <h2>Coarse <span class="filters">
+          <label><input type="radio" name="ffc" value="all" checked onchange="renderLists()"> all</label>
+          <label><input type="radio" name="ffc" value="flag" onchange="renderLists()"> flagged</label>
+          <label><input type="radio" name="ffc" value="lowconf" onchange="renderLists()"> low-conf</label>
+        </span></h2>
+        <div class="seg-list" id="list-coarse"></div>
+      </div>
+      <div class="col" id="col-fine">
+        <h2>Fine <span class="filters">
+          <label><input type="radio" name="fff" value="all" checked onchange="renderLists()"> all</label>
+          <label><input type="radio" name="fff" value="flag" onchange="renderLists()"> flagged</label>
+          <label><input type="radio" name="fff" value="lowconf" onchange="renderLists()"> low-conf</label>
+        </span></h2>
+        <div class="seg-list" id="list-fine"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="vid-controls">
   <button id="vid-playpause" title="Play/Pause (space)">&#9654;</button>
   <div id="vid-progress"><div id="vid-progress-fill"></div></div>
@@ -124,8 +152,6 @@
 <div id="add-here-bar">
   <span class="sub" id="add-here-time"></span>
 </div>
-
-<div class="flags-top" id="flags-top"></div>
 
 <div class="tl-wrap">
   <div class="tl-track" id="tltrack-coarse">
@@ -150,25 +176,6 @@
   </div>
 </div>
 <div id="tl-scrub-time"></div>
-
-<div class="cols">
-  <div class="col" id="col-coarse">
-    <h2>Coarse <span class="filters">
-      <label><input type="radio" name="ffc" value="all" checked onchange="renderLists()"> all</label>
-      <label><input type="radio" name="ffc" value="flag" onchange="renderLists()"> flagged</label>
-      <label><input type="radio" name="ffc" value="lowconf" onchange="renderLists()"> low-conf</label>
-    </span></h2>
-    <div class="seg-list" id="list-coarse"></div>
-  </div>
-  <div class="col" id="col-fine">
-    <h2>Fine <span class="filters">
-      <label><input type="radio" name="fff" value="all" checked onchange="renderLists()"> all</label>
-      <label><input type="radio" name="fff" value="flag" onchange="renderLists()"> flagged</label>
-      <label><input type="radio" name="fff" value="lowconf" onchange="renderLists()"> low-conf</label>
-    </span></h2>
-    <div class="seg-list" id="list-fine"></div>
-  </div>
-</div>
 
 <div class="status-line" id="status"></div>
 
@@ -202,8 +209,7 @@
       <tr><td><kbd>Space</kbd></td><td>play/pause</td></tr>
       <tr><td><kbd>1</kbd>-<kbd>4</kbd></td><td>playback speed</td></tr>
       <tr><td><kbd>a</kbd>/<kbd>d</kbd></td><td>seek &minus;/+0.3s &mdash; fine trim</td></tr>
-      <tr><td><kbd>&larr;</kbd>/<kbd>&rarr;</kbd></td><td>seek &minus;/+0.5s &mdash; normal</td></tr>
-      <tr><td><kbd>Shift</kbd>+<kbd>&larr;</kbd>/<kbd>&rarr;</kbd></td><td>seek &minus;/+3s &mdash; jump</td></tr>
+      <tr><td><kbd>&larr;</kbd>/<kbd>&rarr;</kbd></td><td>seek &minus;/+3s &mdash; jump</td></tr>
 
       <tr><td colspan="2" class="help-group">Navigation</td></tr>
       <tr><td><kbd>&uarr;</kbd>/<kbd>&darr;</kbd></td><td>focus coarse/fine track (default: fine) &mdash; m/n/x/t/e/u/j/k all act on the focused track</td></tr>
@@ -523,28 +529,33 @@ function select(gran, idx) {
   renderTrackFocus();
 }
 
-// Visual indication of which track (coarse/fine) keyboard shortcuts
-// (m/n/x/t/e/d/i/u/j/k) currently act on -- the focused track gets a bright
-// left bar on its timeline + a highlighted label/border/button-group; the
-// other dims by one step. Purely visual: does not change what the per-track
-// Merge/Cut toolbar buttons themselves do (they always act on their own
-// track regardless of focus).
+// Which track (coarse/fine) keyboard shortcuts (m/n/x/t/e/u/j/k) currently
+// act on -- only the focused track's timeline+segment list are shown at all
+// (coarse and fine are never both visible at once); its timeline gets a
+// bright left bar + highlighted label/button-group. Purely visual/layout:
+// does not change what the per-track Merge/Cut toolbar buttons themselves
+// do (they always act on their own track regardless of focus).
 function renderTrackFocus() {
   for (const gran of ['coarse', 'fine']) {
     const focused = SELECTED.gran === gran;
     const track = document.getElementById(`tltrack-${gran}`);
-    if (track) { track.classList.toggle('tl-focused', focused); track.classList.toggle('tl-dimmed', !focused); }
+    if (track) { track.classList.toggle('tl-focused', focused); track.classList.toggle('tl-hidden', !focused); }
     const col = document.getElementById(`col-${gran}`);
-    if (col) { col.classList.toggle('tl-focused', focused); col.classList.toggle('tl-dimmed', !focused); }
+    if (col) { col.classList.toggle('tl-focused', focused); col.classList.toggle('tl-hidden', !focused); }
   }
+  updatePlayheadLabel();
+}
+
+function updatePlayheadLabel() {
+  const timeEl = document.getElementById('add-here-time');
+  if (timeEl) timeEl.textContent = `playhead: ${fmt(player.currentTime)}s (active column: ${SELECTED.gran})`;
 }
 
 function seekToSeg(seg) { player.currentTime = Math.max(0, seg.end_time - 1.5); player.play(); }
 
 function updateHighlight() {
   const t = player.currentTime, dur = STATE.entry.duration_in_sec;
-  const timeEl = document.getElementById('add-here-time');
-  if (timeEl) timeEl.textContent = `playhead: ${fmt(t)}s (active column: ${SELECTED.gran})`;
+  updatePlayheadLabel();
   for (const gran of ['coarse', 'fine']) {
     const segs = STATE[gran];
     let idx = segs.findIndex(s => t < s.end_time);
@@ -837,8 +848,8 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === 'k') { SELECTED.idx = Math.max(0, SELECTED.idx - 1); select(SELECTED.gran, SELECTED.idx); seekToSeg(segs[SELECTED.idx]); }
   else if (e.key === 'ArrowUp') { e.preventDefault(); if (SELECTED.gran !== 'coarse') select('coarse', 0); }
   else if (e.key === 'ArrowDown') { e.preventDefault(); if (SELECTED.gran !== 'fine') select('fine', 0); }
-  else if (e.key === 'ArrowRight') { e.preventDefault(); const step = e.shiftKey ? 3 : 0.5; const t = Math.min(player.duration || 0, player.currentTime + step); updateVidProgressVisual(t); requestSeek(t); }
-  else if (e.key === 'ArrowLeft') { e.preventDefault(); const step = e.shiftKey ? 3 : 0.5; const t = Math.max(0, player.currentTime - step); updateVidProgressVisual(t); requestSeek(t); }
+  else if (e.key === 'ArrowRight') { e.preventDefault(); const t = Math.min(player.duration || 0, player.currentTime + 3); updateVidProgressVisual(t); requestSeek(t); }
+  else if (e.key === 'ArrowLeft') { e.preventDefault(); const t = Math.max(0, player.currentTime - 3); updateVidProgressVisual(t); requestSeek(t); }
   else if (e.key === 'a') { const t = Math.max(0, player.currentTime - 0.3); updateVidProgressVisual(t); requestSeek(t); }
   else if (e.key === 'd') { const t = Math.min(player.duration || 0, player.currentTime + 0.3); updateVidProgressVisual(t); requestSeek(t); }
   else if (['1', '2', '3', '4'].includes(e.key)) { player.playbackRate = parseInt(e.key); }
