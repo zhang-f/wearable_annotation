@@ -331,11 +331,12 @@ window.addEventListener('mouseup', (e) => {
 // Press-and-drag anywhere on a track continuously scrubs the video, reusing
 // the exact same gated seek core (requestSeek/VID_SCRUBBING/
 // updateVidProgressVisual) as the main progress bar above -- same feel, same
-// video.duration basis, one shared 'seeked' gate. A short press-and-release
-// (< 4px movement, < 250ms) is still a plain click: select the segment under
-// the pointer and seek to end_time-1.5s, exactly as before.
+// duration basis, one shared 'seeked' gate. A press-and-release that never
+// moves more than TL_CLICK_MAX_MOVE px is a plain click (see below) --
+// purely movement-based, no time cutoff, so a careful/slow precise click
+// still registers as a click rather than getting silently dropped or
+// mis-routed into scrub mode.
 const TL_CLICK_MAX_MOVE = 4; // px
-const TL_CLICK_MAX_MS = 250;
 const tlScrubTime = document.getElementById('tl-scrub-time');
 
 function timeFromTimelineEvent(el, e, gran) {
@@ -343,7 +344,13 @@ function timeFromTimelineEvent(el, e, gran) {
   const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
   const screenFrac = Math.min(1, Math.max(0, x / rect.width));
   const absFrac = screenFracToAbsFrac(gran, screenFrac);
-  return absFrac * (player.duration || 0);
+  // STATE.entry.duration_in_sec, NOT player.duration -- segment blocks are
+  // positioned via entry.duration_in_sec (see renderTimeline), and the two
+  // can differ by several seconds (container duration vs. annotated
+  // duration). Using player.duration here silently drifted the seek target
+  // away from the visually-clicked segment position, worse the further into
+  // the video you clicked.
+  return absFrac * (STATE.entry.duration_in_sec || 0);
 }
 // Boundary-line dragging (fine track only) -- ±5 SCREEN-pixel hit-test
 // against each fine segment's end_time, excluding the last segment (nothing
@@ -354,6 +361,15 @@ function timeFromTimelineEvent(el, e, gran) {
 const TL_BOUNDARY_PX = 5;
 function findBoundaryHit(el, e, gran) {
   if (gran !== 'fine' || !STATE) return -1;
+  // Only hit-test once actually zoomed in. At 1x, fine's ~300 segments pack
+  // into a ~1250px track (a few px average width each), so the ±5px
+  // tolerance below overlaps a boundary almost everywhere -- every ordinary
+  // click was getting silently hijacked into a (usually no-op) boundary
+  // drag instead of the precise seek it looked like it should do. This
+  // matches how the feature is actually meant to be used anyway: zoom in
+  // until boundaries are visually separated, then drag them (acceptance
+  // test 1 exercises precise click unzoomed; test 2 zooms to 20x first).
+  if (TL_ZOOM.fine.hi - TL_ZOOM.fine.lo >= 1 - 1e-9) return -1;
   const rect = el.getBoundingClientRect();
   const x = e.clientX - rect.left;
   const segs = STATE[gran];
@@ -376,13 +392,12 @@ function showTlScrubTime(el, e, t) {
 }
 function hideTlScrubTime() { tlScrubTime.style.display = 'none'; }
 
-let TL_PENDING = null; // {el, gran, startX, startY, startTime, timer} -- not yet resolved as click or drag
+let TL_PENDING = null; // {el, gran, startX, startY} -- not yet resolved as click or drag
 let TL_DRAGGING = false;
 
 function tlEnterDrag(e) {
   if (TL_DRAGGING || !TL_PENDING) return;
   TL_DRAGGING = true;
-  clearTimeout(TL_PENDING.timer);
   VID_SCRUBBING = true;
   const t = timeFromTimelineEvent(TL_PENDING.el, e, TL_PENDING.gran);
   updateVidProgressVisual(t);
@@ -402,10 +417,13 @@ function attachTimelineScrub(el, gran) {
       BOUNDARY_DRAG = { gran, idx: bIdx, el, origEndTime: STATE[gran][bIdx].end_time };
       return;
     }
-    TL_PENDING = {
-      el, gran, startX: e.clientX, startY: e.clientY, startTime: Date.now(),
-      timer: setTimeout(() => tlEnterDrag(e), TL_CLICK_MAX_MS),
-    };
+    // Click vs. drag is decided purely by movement (see the window mousemove
+    // handler below promoting to drag past TL_CLICK_MAX_MOVE px), not by how
+    // long the button was held -- a deliberate, careful click (which precise
+    // clicking on the fine track specifically encourages) can easily take
+    // longer than a short fixed timeout, and a time-based cutoff was
+    // silently dropping/misrouting exactly those clicks.
+    TL_PENDING = { el, gran, startX: e.clientX, startY: e.clientY };
   });
   if (gran === 'fine') {
     // Hover feedback (cursor + boundary-hover marker) so a boundary line is
@@ -452,6 +470,27 @@ function attachTimelineZoom(trackEl, timelineEl, gran) {
     const factor = Math.pow(0.998, -e.deltaY); // deltaY<0 (scroll up/"forward") = zoom in = factor<1
     applyZoom(gran, cursorAbsFrac, factor);
   }, { passive: false });
+
+  // Safari-only: trackpad pinch is delivered as non-standard
+  // gesturestart/gesturechange/gestureend events (WebKit's GestureEvent),
+  // NOT as wheel+ctrlKey like Chrome/Firefox -- the wheel listener above
+  // never sees it there. e.scale is cumulative from gesturestart, so we
+  // track the last-seen scale and feed applyZoom the incremental ratio
+  // between ticks, same shape as the wheel handler's per-event factor.
+  let gestureLastScale = 1;
+  trackEl.addEventListener('gesturestart', (e) => {
+    e.preventDefault();
+    gestureLastScale = e.scale;
+  });
+  trackEl.addEventListener('gesturechange', (e) => {
+    e.preventDefault();
+    const rect = timelineEl.getBoundingClientRect();
+    const screenFrac = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
+    const cursorAbsFrac = screenFracToAbsFrac(gran, screenFrac);
+    const factor = gestureLastScale / e.scale; // scale growing (pinch out) = zoom in = factor<1
+    gestureLastScale = e.scale;
+    applyZoom(gran, cursorAbsFrac, factor);
+  });
 }
 // Coarse stays a fixed full-length reference (see the click-semantics split
 // below) -- only fine zooms.
@@ -528,7 +567,6 @@ window.addEventListener('mousemove', (e) => {
 window.addEventListener('mouseup', (e) => {
   if (!TL_PENDING) return;
   const pending = TL_PENDING;
-  clearTimeout(pending.timer);
   TL_PENDING = null;
   if (TL_DRAGGING) {
     TL_DRAGGING = false;
@@ -547,7 +585,6 @@ window.addEventListener('mouseup', (e) => {
   // there. coarse: unchanged, jumps to the segment's end-1.5s (seekToSeg) --
   // coarse segments are few and long, so jumping to a boundary to preview
   // the transition is more useful than an arbitrary mid-segment position.
-  if (Date.now() - pending.startTime > TL_CLICK_MAX_MS) return;
   const block = e.target.closest('.seg');
   if (!block || !pending.el.contains(block)) return;
   const idx = parseInt(block.dataset.idx, 10);
@@ -1198,7 +1235,7 @@ document.addEventListener('keydown', (e) => {
     // still seek.
     e.preventDefault();
     const dur = STATE ? STATE.entry.duration_in_sec : 0;
-    const centerAbsFrac = dur > 0 ? player.currentTime / (player.duration || dur) : 0;
+    const centerAbsFrac = dur > 0 ? player.currentTime / dur : 0; // entry.duration_in_sec basis, matching the playhead's own on-screen position (updateHighlight)
     applyZoom('fine', centerAbsFrac, e.key === 'ArrowRight' ? 0.92 : 1 / 0.92);
   }
   else if (e.key === 'a') { const t = Math.max(0, player.currentTime - 0.3); updateVidProgressVisual(t); requestSeek(t); }
