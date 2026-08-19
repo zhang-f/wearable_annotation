@@ -590,10 +590,13 @@ window.addEventListener('mouseup', (e) => {
   const idx = parseInt(block.dataset.idx, 10);
   select(pending.gran, idx);
   if (pending.gran === 'fine') {
+    // Seeks and stops there -- no auto-play (and pauses if it was already
+    // playing). Precise clicking is for landing on an exact frame to
+    // inspect it, which playback immediately undoes.
+    player.pause();
     const t = timeFromTimelineEvent(pending.el, e, pending.gran);
     updateVidProgressVisual(t);
     requestSeek(t);
-    player.play();
   } else {
     seekToSeg(STATE.coarse[idx]);
   }
