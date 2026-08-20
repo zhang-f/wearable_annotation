@@ -82,7 +82,6 @@
   #help-overlay table { border-collapse: collapse; } #help-overlay td { padding: 3px 10px; }
   #help-overlay kbd { background: #333; border: 1px solid #555; border-radius: 3px; padding: 1px 6px; font-family: monospace; }
   #help-overlay .help-group { padding-top: 10px; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: #7fc7ff; }
-  #skim-banner { display: none; background: #3a2a1a; color: #f0c060; padding: 4px 10px; border-radius: 4px; font-size: 12px; margin-bottom: 6px; }
   .flags-top { margin: 6px 0; }
   .flags-top .flag { border-left: 3px solid #c99a3c; background: #2a2618; padding: 3px 8px; margin: 2px 0; border-radius: 2px; color: #e8d9b0; font-size: 11px; }
   .pill { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; margin-left: 8px; }
@@ -122,8 +121,6 @@
     <a class="back" href="/index.html">&larr; back to index</a>
   </div>
 </div>
-
-<div id="skim-banner">Boundary skim mode (B to exit) &mdash; playing each boundary &plusmn;2s, auto-advancing</div>
 
 <div class="main-layout">
   <div class="video-col">
@@ -228,7 +225,6 @@
       <tr><td colspan="2" class="help-group">Navigation</td></tr>
       <tr><td><kbd>&uarr;</kbd>/<kbd>&darr;</kbd></td><td>focus coarse/fine track (default: fine) &mdash; m/n/x/t/e/u/j/k all act on the focused track</td></tr>
       <tr><td><kbd>j</kbd>/<kbd>k</kbd></td><td>select prev/next segment in the focused track, seek to end&minus;1.5s</td></tr>
-      <tr><td><kbd>B</kbd></td><td>boundary skim mode (auto-play each boundary &plusmn;2s)</td></tr>
 
       <tr><td colspan="2" class="help-group">Editing</td></tr>
       <tr><td><kbd>m</kbd></td><td>merge &mdash; the segment at the playhead into the next one</td></tr>
@@ -251,7 +247,6 @@ if (!REVIEWER) { alert('no reviewer set, go back to index'); location.href = '/i
 
 let STATE = null;         // {entry, coarse, fine, task, pass0}
 let SELECTED = { gran: 'fine', idx: 0 };
-let SKIM = false, SKIM_TIMER = null;
 const player = document.getElementById('player');
 const statusEl = document.getElementById('status');
 
@@ -1170,24 +1165,6 @@ function toggleMic() {
   recognition.start();
 }
 
-// --- boundary skim mode ---------------------------------------------------
-
-function toggleSkim() {
-  SKIM = !SKIM;
-  document.getElementById('skim-banner').style.display = SKIM ? 'block' : 'none';
-  if (SKIM) runSkimStep(0); else if (SKIM_TIMER) clearTimeout(SKIM_TIMER);
-}
-function runSkimStep(i) {
-  if (!SKIM) return;
-  const segs = STATE[SELECTED.gran];
-  if (i >= segs.length) { SKIM = false; document.getElementById('skim-banner').style.display = 'none'; return; }
-  const b = segs[i].end_time;
-  select(SELECTED.gran, i);
-  player.currentTime = Math.max(0, b - 2);
-  player.play();
-  SKIM_TIMER = setTimeout(() => { player.pause(); runSkimStep(i + 1); }, 4000);
-}
-
 // --- mark done -------------------------------------------------------------
 
 async function markDone() {
@@ -1259,7 +1236,6 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === 'a') { const t = Math.max(0, player.currentTime - 0.3); updateVidProgressVisual(t); requestSeek(t); }
   else if (e.key === 'd') { const t = Math.min(player.duration || 0, player.currentTime + 0.3); updateVidProgressVisual(t); requestSeek(t); }
   else if (['1', '2', '3', '4'].includes(e.key)) { player.playbackRate = parseInt(e.key); }
-  else if (e.key === 'B' || e.key === 'b') { toggleSkim(); }
   else if (e.key === 'M' && e.shiftKey) { mergeAllInTrack(SELECTED.gran); }
   else if (e.key === 'm') { mergeAtPlayhead(SELECTED.gran); }
   else if (e.key === 'n') { openAddModalAtPlayhead(SELECTED.gran); }
