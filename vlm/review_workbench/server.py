@@ -413,7 +413,7 @@ class Handler(BaseHTTPRequestHandler):
             if not reviewer or entry["claimed_by"] != reviewer:
                 return self._json({"ok": False, "error": "video not claimed by you"}, 403)
             action = body.get("action")
-            if action not in ("retime", "edit", "merge", "delete", "add", "undo"):
+            if action not in ("retime", "edit", "merge", "delete", "add", "undo", "clear_all"):
                 return self._json({"ok": False, "error": f"unknown action {action}"}, 400)
             granularity = body.get("granularity")
             seg_index = body.get("seg_index")

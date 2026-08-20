@@ -41,6 +41,15 @@ same list restated for a non-code audience):
   to prevent an invalid retime interactively, but replay clamps defensively
   so a corrections log can never produce an inverted/zero-length segment
   even if the UI's own guard had a bug.
+- "clear_all: 整条轨清空重标" -- collapses every current segment in the
+  granularity down to a single blank segment spanning the whole track
+  (summary=""), for a reviewer who wants to re-cut a track from scratch
+  instead of living with the auto-generated boundaries. One correction
+  record regardless of how many segments existed (unlike doing it via
+  repeated merges, which would log one record per segment removed) --
+  merge_info.merged_from/source_indices are summed/concatenated across all
+  the absorbed segments so the provenance isn't lost. seg_index is always 0
+  (the action targets the whole track, not a specific segment).
 """
 import json
 from pathlib import Path
@@ -161,6 +170,24 @@ def replay_granularity(base_segments, all_actions, granularity):
                 if segs:
                     segs[0]["_corrections"].append({"action": "delete_absorbed_by_next", "before": removed["summary"]})
 
+        elif act == "clear_all":
+            if not segs:
+                continue
+            merged_from = sum(s.get("merge_info", {}).get("merged_from", 1) for s in segs)
+            source_indices = []
+            corrections = []
+            for s in segs:
+                source_indices.extend(s.get("merge_info", {}).get("source_indices", []))
+                corrections.extend(s.get("_corrections", []))
+            combined = dict(segs[-1])  # carries over any extra fields (e.g. end_time_stage1), like merge does
+            combined["summary"] = ""
+            combined["boundary_confidence"] = 0.5
+            combined["type"] = "action"
+            combined["merge_info"] = {"merged_from": merged_from, "rule": "manual_clear_all", "source_indices": source_indices}
+            combined["_origin_seq"] = seq
+            combined["_corrections"] = corrections + [{"action": "clear_all", "before": f"{len(segs)} segments cleared"}]
+            segs = [combined]
+
         elif act == "add":
             if idx is None or not (0 <= idx < len(segs)):
                 continue
@@ -215,9 +242,9 @@ def next_seq(file_no, video_id):
 
 
 def effective_correction_count(file_no, video_id):
-    """Count of still-in-force corrective actions (retime/edit/merge/delete/add)
-    across both granularities -- excludes mark_done/undo bookkeeping lines and
-    anything a later undo cancelled."""
+    """Count of still-in-force corrective actions (retime/edit/merge/delete/
+    add/clear_all) across both granularities -- excludes mark_done/undo
+    bookkeeping lines and anything a later undo cancelled."""
     actions = load_actions(file_no, video_id)
     n = 0
     for gran in ("coarse", "fine"):

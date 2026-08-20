@@ -1017,25 +1017,18 @@ function mergeAtPlayhead(gran, source) {
 
 function toolbarMerge(gran) { mergeAtPlayhead(gran, 'toolbar'); }
 
-// Shift+M -- collapses every segment in the focused track down to one, for
-// re-cutting/re-annotating a track from scratch. Reuses the existing
-// 'merge' action one call at a time (always at idx 0, which each merge
-// leaves as the combined segment) rather than adding a new server-side bulk
-// action -- same corrections format, same replay.py support, just driven
-// repeatedly. That does mean it writes N-1 correction records instead of
-// one, which is fine (append-only log, each step individually inspectable)
-// and means a partial failure partway through just leaves you with however
-// many merges already landed rather than losing the whole batch.
+// Shift+M -- collapses every segment in the focused track down to one blank
+// segment, for re-cutting/re-annotating a track from scratch. Backed by a
+// dedicated 'clear_all' server-side action (see replay.py) that does this
+// as a single correction record, rather than looping the existing 'merge'
+// action once per segment -- avoids inflating the corrections log/reviewer
+// correction-count stats with N-1 records for what's really one decision.
 async function mergeAllInTrack(gran) {
   const segs = STATE[gran];
   if (segs.length <= 1) { flash(`${gran} track already has only one segment`, true); return; }
-  if (!confirm(`Merge all ${segs.length} segments in the ${gran} track into one? This writes ${segs.length - 1} merge corrections and isn't easily undone -- use this to clear a track for re-annotating from scratch.`)) return;
-  while (STATE[gran].length > 1) {
-    const r = await postAction(gran, 0, 'merge', { source: 'merge-all' });
-    if (!r) break; // a merge failed (e.g. lost claim) -- stop instead of retrying forever
-  }
-  select(gran, 0);
-  flash(`${gran} track merged down to ${STATE[gran].length} segment(s)`);
+  if (!confirm(`Clear all ${segs.length} segments in the ${gran} track down to one blank segment spanning the whole video? Not easily undone -- use this to re-annotate a track from scratch.`)) return;
+  const r = await postAction(gran, 0, 'clear_all', {});
+  if (r) select(gran, 0);
 }
 
 function toolbarCut(gran) {
