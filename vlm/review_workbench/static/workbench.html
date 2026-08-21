@@ -898,7 +898,14 @@ function seekToSeg(seg) { player.currentTime = Math.max(0, seg.end_time - 1.5); 
 // zoomed. The timeupdate/seeking listeners (actual playback) always pass the
 // default true.
 function updateHighlight(allowAutoPan = true) {
-  const t = player.currentTime, dur = STATE.entry.duration_in_sec;
+  // player.duration, NOT STATE.entry.duration_in_sec -- the two can differ
+  // by many seconds (container/file duration vs. the annotated duration),
+  // and this dur is what turns currentTime into the playhead's screenFrac
+  // below. Using the shorter metadata value made the playhead (and the
+  // auto-pan-follow threshold) treat ordinary end-of-video playback as
+  // "off the end of the timeline" and hide it, well before the video
+  // actually finished.
+  const t = player.currentTime, dur = player.duration || STATE.entry.duration_in_sec;
   updatePlayheadLabel();
   for (const gran of ['coarse', 'fine']) {
     const segs = STATE[gran];
