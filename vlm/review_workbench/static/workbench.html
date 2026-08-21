@@ -181,7 +181,7 @@
     </div>
     <div class="timeline" id="tl-fine"></div>
     <div class="tl-ruler" id="ruler-fine"></div>
-    <div class="tl-minimap" id="minimap-fine" title="Full-length overview -- click to jump the zoomed view here">
+    <div class="tl-minimap" id="minimap-fine" title="Full-length overview -- click or drag to move the zoomed view">
       <div class="tl-minimap-window" id="minimap-window-fine"></div>
     </div>
   </div>
@@ -495,15 +495,29 @@ attachTimelineZoom(document.getElementById('tltrack-fine'), document.getElementB
 attachTimelineScrub(document.getElementById('tl-coarse'), 'coarse');
 attachTimelineScrub(document.getElementById('tl-fine'), 'fine');
 
-// Full-length overview strip below the fine track -- click anywhere on it to
+// Full-length overview strip below the fine track -- click or drag on it to
 // re-center the (same-width) zoom window there, via the same panTo used for
-// auto-follow-playhead.
-document.getElementById('minimap-fine').addEventListener('click', (e) => {
-  const rect = e.currentTarget.getBoundingClientRect();
+// auto-follow-playhead. Drag uses window-level mousemove/mouseup (not
+// listeners on the strip itself) so it keeps tracking even once the cursor
+// drifts outside the strip's own (only 8px-tall) bounds mid-drag -- a plain
+// 'click' listener would silently do nothing whenever a drag's mouseup
+// happened to land outside the element, which is exactly what "sometimes
+// doesn't respond" looks like on a strip this thin.
+let MINIMAP_DRAGGING = false;
+function panMinimapFromEvent(e) {
+  const rect = document.getElementById('minimap-fine').getBoundingClientRect();
   const frac = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
   panTo('fine', frac);
   updateHighlight(false);
+}
+document.getElementById('minimap-fine').addEventListener('mousedown', (e) => {
+  MINIMAP_DRAGGING = true;
+  panMinimapFromEvent(e);
 });
+window.addEventListener('mousemove', (e) => {
+  if (MINIMAP_DRAGGING) panMinimapFromEvent(e);
+});
+window.addEventListener('mouseup', () => { MINIMAP_DRAGGING = false; });
 
 // Double-click anywhere on the fine track resets zoom to full length (1x).
 // Fires on segment blocks too (not just empty gaps) -- fine segments tile
