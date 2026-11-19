@@ -1,0 +1,850 @@
+{
+  "video_id": "9186ff4997024eb1",
+  "duration": 220.134,
+  "task": "Creating a button flower bouquet",
+  "domain": "Arts and Crafts",
+  "query": "How do I create a button flower bouquet?",
+  "goal": {
+    "title": "Make a button-flower bouquet",
+    "description": "Thread and twist colored pipe cleaners through buttons to form individual flower heads, gather the stems, and wrap them in green paper.",
+    "final_state": "Several button-topped stems are gathered inside a green paper sleeve and held up.",
+    "procedure": [
+      "Lay out the pipe cleaners and select buttons from the small box.",
+      "Thread buttons onto pipe-cleaner tips and bend or twist the ends to hold each head.",
+      "Repeat with red, blue, and gray stems and different button combinations.",
+      "Gather the finished stems, fan the button heads, and wrap green paper around the bundle."
+    ]
+  },
+  "object_inventory": [
+    "pipe cleaner",
+    "red pipe cleaner",
+    "blue pipe cleaner",
+    "gray pipe cleaner",
+    "button",
+    "button box",
+    "table",
+    "green paper",
+    "bouquet"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 30.24,
+      "description": "Pipe cleaners are placed on the table; individual buttons are selected and arranged beside them."
+    },
+    {
+      "start": 30.24,
+      "end": 52.31,
+      "description": "The red stem tip is bent, threaded through buttons, and twisted to retain the head."
+    },
+    {
+      "start": 52.31,
+      "end": 85.34,
+      "description": "Buttons are threaded onto a blue stem and the tip is bent and twisted around the head."
+    },
+    {
+      "start": 85.34,
+      "end": 105.55,
+      "description": "A gray stem is selected, bent, threaded through buttons, and secured."
+    },
+    {
+      "start": 105.55,
+      "end": 146.14,
+      "description": "More stems receive button heads, with the pipe-cleaner tips tightened before each stem is set aside."
+    },
+    {
+      "start": 146.14,
+      "end": 192.35,
+      "description": "The remaining gray and blue stems receive buttons, including stacked light and dark heads."
+    },
+    {
+      "start": 192.35,
+      "end": 220.13,
+      "description": "The finished stems are brought together, their heads spread, and green paper folded around the bundle before display."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 5.71,
+      "old_summary": "hands gather and bundle colored pipe cleaners",
+      "summary": "both hands lay colored pipe cleaners on the table",
+      "verb": "place",
+      "object": "pipe cleaner",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 5.71,
+      "end": 12.31,
+      "old_summary": "hand arranges black beads on a small white card",
+      "summary": "left hand selects buttons from the box",
+      "verb": "pick up",
+      "object": "button",
+      "tool": null,
+      "target": "button box",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "button"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.31,
+      "end": 13.84,
+      "old_summary": "hand picks up a button from a container",
+      "summary": "left hand places another button beside the others",
+      "verb": "place",
+      "object": "button",
+      "tool": null,
+      "target": "table",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.84,
+      "end": 15.55,
+      "old_summary": "hand picks up a button",
+      "summary": "left hand adds another button to the row",
+      "verb": "place",
+      "object": "button",
+      "tool": null,
+      "target": "table",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.55,
+      "end": 18.36,
+      "old_summary": "hand arranges buttons on a piece of paper",
+      "summary": "left hand arranges selected buttons on the table",
+      "verb": "arrange",
+      "object": "button",
+      "tool": null,
+      "target": "table",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.36,
+      "end": 22.51,
+      "old_summary": "hand arranges buttons on a piece of paper",
+      "summary": "right hand selects more buttons from the box",
+      "verb": "pick up",
+      "object": "button",
+      "tool": null,
+      "target": "button box",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "button"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 22.51,
+      "end": 24.08,
+      "old_summary": "hand picks up a button",
+      "summary": "right hand places another button beside the row",
+      "verb": "place",
+      "object": "button",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 24.08,
+      "end": 27.13,
+      "old_summary": "right hand picks up a button",
+      "summary": "right hand finishes arranging the selected buttons",
+      "verb": "arrange",
+      "object": "button",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.13,
+      "end": 30.24,
+      "old_summary": "right hand moves buttons on the workspace",
+      "summary": "right hand selects a red pipe cleaner",
+      "verb": "pick up",
+      "object": "red pipe cleaner",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "red pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.24,
+      "end": 35.05,
+      "old_summary": "hands thread a black button onto a red pipe cleaner",
+      "summary": "both hands bend the red pipe-cleaner tip",
+      "verb": "bend",
+      "object": "red pipe cleaner",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "red pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.05,
+      "end": 52.31,
+      "old_summary": "hand threads a black button onto a red pipe cleaner",
+      "summary": "both hands thread buttons onto the red pipe cleaner",
+      "verb": "thread",
+      "object": "button",
+      "tool": "red pipe cleaner",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "red pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.31,
+      "end": 65.85,
+      "old_summary": "hands thread a black button onto a blue pipe cleaner",
+      "summary": "both hands thread a button onto a blue pipe cleaner",
+      "verb": "thread",
+      "object": "button",
+      "tool": "blue pipe cleaner",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "button"
+        ],
+        "right": [
+          "blue pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 65.85,
+      "end": 85.34,
+      "old_summary": "hands thread a black button onto a gray pipe cleaner",
+      "summary": "both hands secure buttons on the blue pipe cleaner",
+      "verb": "twist",
+      "object": "blue pipe cleaner",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 85.34,
+      "end": 93.77,
+      "old_summary": "hand threads a black button onto a red pipe cleaner",
+      "summary": "both hands bend the gray pipe-cleaner tip",
+      "verb": "bend",
+      "object": "gray pipe cleaner",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "gray pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 93.77,
+      "end": 105.55,
+      "old_summary": "hand threads a black button onto a red pipe cleaner",
+      "summary": "both hands secure buttons onto the gray pipe cleaner",
+      "verb": "thread",
+      "object": "button",
+      "tool": "gray pipe cleaner",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "gray pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.55,
+      "end": 113.22,
+      "old_summary": "hand threads black button onto blue pipe cleaner",
+      "summary": "both hands thread a button onto another red pipe cleaner",
+      "verb": "thread",
+      "object": "button",
+      "tool": "red pipe cleaner",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "button"
+        ],
+        "right": [
+          "red pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 113.22,
+      "end": 118.25,
+      "old_summary": "hand threads black button onto blue pipe cleaner",
+      "summary": "both hands secure the button on the red stem",
+      "verb": "twist",
+      "object": "red pipe cleaner",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "red pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.25,
+      "end": 125.09,
+      "old_summary": "hand threads a black button onto a blue pipe cleaner",
+      "summary": "both hands thread a button onto another blue pipe cleaner",
+      "verb": "thread",
+      "object": "button",
+      "tool": "blue pipe cleaner",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "button"
+        ],
+        "right": [
+          "blue pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 125.09,
+      "end": 134.5,
+      "old_summary": "hand threads black button onto gray pipe cleaner",
+      "summary": "both hands secure the button on the blue stem",
+      "verb": "twist",
+      "object": "blue pipe cleaner",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.5,
+      "end": 146.14,
+      "old_summary": "hand threads a black button onto a gray pipe cleaner",
+      "summary": "both hands thread buttons onto another blue pipe cleaner",
+      "verb": "thread",
+      "object": "button",
+      "tool": "blue pipe cleaner",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "button"
+        ],
+        "right": [
+          "blue pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 146.14,
+      "end": 153.13,
+      "old_summary": "hand threads black button onto red pipe cleaner",
+      "summary": "both hands twist the blue stem around its button",
+      "verb": "twist",
+      "object": "blue pipe cleaner",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.13,
+      "end": 158.61,
+      "old_summary": "hand threads a black button onto a red pipe cleaner",
+      "summary": "both hands thread a button onto a gray pipe cleaner",
+      "verb": "thread",
+      "object": "button",
+      "tool": "gray pipe cleaner",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "button"
+        ],
+        "right": [
+          "gray pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 158.61,
+      "end": 164.36,
+      "old_summary": "hand threads black button onto red pipe cleaner",
+      "summary": "both hands tighten the gray stem around its button",
+      "verb": "twist",
+      "object": "gray pipe cleaner",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "gray pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 164.36,
+      "end": 174.63,
+      "old_summary": "hand threads a black button onto a blue pipe cleaner",
+      "summary": "both hands thread a white button onto another blue stem",
+      "verb": "thread",
+      "object": "button",
+      "tool": "blue pipe cleaner",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "button"
+        ],
+        "right": [
+          "blue pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 174.63,
+      "end": 182.49,
+      "old_summary": "hands thread a black button onto a blue pipe cleaner",
+      "summary": "both hands add another button onto the blue stem",
+      "verb": "thread",
+      "object": "button",
+      "tool": "blue pipe cleaner",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "button"
+        ],
+        "right": [
+          "blue pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 182.49,
+      "end": 192.35,
+      "old_summary": "hand threads a black button onto a gray pipe cleaner",
+      "summary": "both hands twist the stem beneath the stacked buttons",
+      "verb": "twist",
+      "object": "blue pipe cleaner",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue pipe cleaner"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 192.35,
+      "end": 197.44,
+      "old_summary": "hand threads a black button onto a gray pipe cleaner",
+      "summary": "both hands gather the button-flower stems into a bouquet",
+      "verb": "gather",
+      "object": "bouquet",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bouquet"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 197.44,
+      "end": 220.13,
+      "old_summary": "hand adjusts the position of button flowers on a green paper base",
+      "summary": "both hands wrap green paper around the bouquet",
+      "verb": "wrap",
+      "object": "green paper",
+      "tool": null,
+      "target": "bouquet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bouquet"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 30.24,
+      "fine_index_range": [
+        0,
+        8
+      ],
+      "instruction": "Lay out stems and buttons",
+      "description": "Pipe cleaners are placed on the table; individual buttons are selected and arranged beside them.",
+      "goal_contribution": "Provides the stems and flower-head pieces.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 30.24,
+      "end": 52.31,
+      "fine_index_range": [
+        9,
+        10
+      ],
+      "instruction": "Make the first red button flower",
+      "description": "The red stem tip is bent, threaded through buttons, and twisted to retain the head.",
+      "goal_contribution": "Produces the first assembled flower.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Laid-out stems and buttons are ready to form a first flower."
+    },
+    {
+      "start": 52.31,
+      "end": 85.34,
+      "fine_index_range": [
+        11,
+        12
+      ],
+      "instruction": "Make a blue button flower",
+      "description": "Buttons are threaded onto a blue stem and the tip is bent and twisted around the head.",
+      "goal_contribution": "Adds a contrasting flower to the set.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "One completed flower suggests more, though a blue one is only one option."
+    },
+    {
+      "start": 85.34,
+      "end": 105.55,
+      "fine_index_range": [
+        13,
+        14
+      ],
+      "instruction": "Make a gray button flower",
+      "description": "A gray stem is selected, bent, threaded through buttons, and secured.",
+      "goal_contribution": "Adds another completed stem.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "A further flower is likely, but gray is not dictated by prior steps."
+    },
+    {
+      "start": 105.55,
+      "end": 146.14,
+      "fine_index_range": [
+        15,
+        19
+      ],
+      "instruction": "Assemble further red and blue flowers",
+      "description": "More stems receive button heads, with the pipe-cleaner tips tightened before each stem is set aside.",
+      "goal_contribution": "Expands the collection for the bouquet.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The bouquet goal calls for additional button flowers."
+    },
+    {
+      "start": 146.14,
+      "end": 192.35,
+      "fine_index_range": [
+        20,
+        25
+      ],
+      "instruction": "Finish the remaining button flowers",
+      "description": "The remaining gray and blue stems receive buttons, including stacked light and dark heads.",
+      "goal_contribution": "Completes the individual flowers before bundling.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Remaining stems naturally receive button heads before assembly."
+    },
+    {
+      "start": 192.35,
+      "end": 220.13,
+      "fine_index_range": [
+        26,
+        27
+      ],
+      "instruction": "Gather and wrap the bouquet",
+      "description": "The finished stems are brought together, their heads spread, and green paper folded around the bundle before display.",
+      "goal_contribution": "Turns separate stems into the finished handheld bouquet.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Completed flowers are ready to bundle as a bouquet."
+    }
+  ],
+  "notes": "All overview, 743 dense step frames, and 28 native endpoint frames reviewed. Fine boundaries preserved. Button threading details are sometimes finger-occluded; no unseen adhesive use inferred. Predictability awaits independent past-only testing."
+}

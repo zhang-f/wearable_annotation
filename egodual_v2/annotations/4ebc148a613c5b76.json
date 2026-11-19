@@ -1,0 +1,1087 @@
+{
+  "video_id": "4ebc148a613c5b76",
+  "duration": 302.267,
+  "task": "Making scrambled eggs",
+  "domain": "Chef",
+  "query": "How do I make scrambled eggs?",
+  "goal": {
+    "title": "Cook and plate scrambled eggs",
+    "description": "Crack and beat two eggs, heat an oiled frying pan, pour in the eggs and let them set briefly, then scrape and fold them into curds. Transfer the eggs to a plate and grind pepper and salt over them.",
+    "final_state": "A plate of scrambled eggs sits on the counter after pepper and salt grinding, with both grinders returned to their rack.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 15.4,
+        "description": "Approach the stove, open upper cupboard doors, take a pale blue mixing bowl from a stack and carry it to the counter beside the egg carton."
+      },
+      {
+        "start": 15.4,
+        "end": 31.3,
+        "description": "Open the cutlery drawer, retrieve a fork, push the drawer shut and put the fork beside the bowl. Open the egg carton, tear a paper towel from its roll and lay it on the counter, then pick up an egg."
+      },
+      {
+        "start": 31.3,
+        "end": 50.4,
+        "description": "Tap and pull open the first egg over the bowl, drain it and put its shell on the towel. Take a second egg from the carton, crack and open it above the bowl, drain its contents and add its shell to the towel."
+      },
+      {
+        "start": 50.4,
+        "end": 65,
+        "description": "Hold the bowl in the left hand and beat the two eggs rapidly with the fork until the yolks and whites become a more uniform yellow liquid. Rest the fork in the bowl and put it down."
+      },
+      {
+        "start": 65,
+        "end": 86.95,
+        "description": "Open the lower pan storage drawer, retrieve a frying pan and place it on the front right burner. Open the upper cupboard, take an olive oil bottle, close the cupboard and set the bottle on the counter. Turn the stove control several times until blue flame is visible beneath the pan."
+      },
+      {
+        "start": 86.95,
+        "end": 107.24,
+        "description": "Unscrew the green cap, pour a small stream of olive oil into the pan, recap the bottle and set it down. Lift and repeatedly tilt the pan over the flame so the oil moves across the base, then rest the pan on the grate."
+      },
+      {
+        "start": 107.24,
+        "end": 128.19,
+        "description": "Open the utensil drawer, retrieve a black spatula and place it beside the stove. Open the plate cupboard, take a dark green plate and set it on the adjacent counter. Return to the bowl and stir the eggs again with the fork."
+      },
+      {
+        "start": 128.19,
+        "end": 145.5,
+        "description": "Set the bowl down, lift and tilt the pan again to move the oil around its base, then rest it. Pick up the egg bowl with the fork inside, carry it above the pan and tip it so the beaten eggs flow into the hot oil. Hold the inverted bowl briefly as the final drips fall."
+      },
+      {
+        "start": 145.5,
+        "end": 185.41,
+        "description": "Put the empty bowl down and watch the eggs cook without stirring. The outer portions become paler and firmer. Briefly touch the pan handle, then retrieve the spatula and begin probing the edge of the set egg."
+      },
+      {
+        "start": 185.41,
+        "end": 249.22,
+        "description": "Hold the pan handle and push the spatula across its base, scraping the set layer inward and folding it over the remaining liquid. Repeat from different sides, dividing and turning the eggs into soft irregular curds. Near 245–246s reach to turn the burner control, then regrasp the pan."
+      },
+      {
+        "start": 249.22,
+        "end": 280.6,
+        "description": "Lift the pan from the stove and carry it over the green plate. Repeatedly scoop eggs with the spatula and scrape smaller remaining pieces down the tilted pan onto the plate. Return the pan to the stove with the spatula resting inside, retrieve the fork and reposition the plate."
+      },
+      {
+        "start": 280.6,
+        "end": 302.267,
+        "description": "Lift the pepper grinder, remove its cap and twist it over the plated eggs. After the fine track ends at 285s, continue grinding until about 286.3s, recap and return the grinder by about 290s. Retrieve the pink salt grinder, remove its cap, grind over the eggs at about 293.1–296.2s, recap and return it to the rack by about 300.2s, then withdraw the hands."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 15.4,
+      "description": "Approach the stove, open upper cupboard doors, take a pale blue mixing bowl from a stack and carry it to the counter beside the egg carton."
+    },
+    {
+      "start": 15.4,
+      "end": 31.3,
+      "description": "Open the cutlery drawer, retrieve a fork, push the drawer shut and put the fork beside the bowl. Open the egg carton, tear a paper towel from its roll and lay it on the counter, then pick up an egg."
+    },
+    {
+      "start": 31.3,
+      "end": 50.4,
+      "description": "Tap and pull open the first egg over the bowl, drain it and put its shell on the towel. Take a second egg from the carton, crack and open it above the bowl, drain its contents and add its shell to the towel."
+    },
+    {
+      "start": 50.4,
+      "end": 65,
+      "description": "Hold the bowl in the left hand and beat the two eggs rapidly with the fork until the yolks and whites become a more uniform yellow liquid. Rest the fork in the bowl and put it down."
+    },
+    {
+      "start": 65,
+      "end": 86.95,
+      "description": "Open the lower pan storage drawer, retrieve a frying pan and place it on the front right burner. Open the upper cupboard, take an olive oil bottle, close the cupboard and set the bottle on the counter. Turn the stove control several times until blue flame is visible beneath the pan."
+    },
+    {
+      "start": 86.95,
+      "end": 107.24,
+      "description": "Unscrew the green cap, pour a small stream of olive oil into the pan, recap the bottle and set it down. Lift and repeatedly tilt the pan over the flame so the oil moves across the base, then rest the pan on the grate."
+    },
+    {
+      "start": 107.24,
+      "end": 128.19,
+      "description": "Open the utensil drawer, retrieve a black spatula and place it beside the stove. Open the plate cupboard, take a dark green plate and set it on the adjacent counter. Return to the bowl and stir the eggs again with the fork."
+    },
+    {
+      "start": 128.19,
+      "end": 145.5,
+      "description": "Set the bowl down, lift and tilt the pan again to move the oil around its base, then rest it. Pick up the egg bowl with the fork inside, carry it above the pan and tip it so the beaten eggs flow into the hot oil. Hold the inverted bowl briefly as the final drips fall."
+    },
+    {
+      "start": 145.5,
+      "end": 185.41,
+      "description": "Put the empty bowl down and watch the eggs cook without stirring. The outer portions become paler and firmer. Briefly touch the pan handle, then retrieve the spatula and begin probing the edge of the set egg."
+    },
+    {
+      "start": 185.41,
+      "end": 249.22,
+      "description": "Hold the pan handle and push the spatula across its base, scraping the set layer inward and folding it over the remaining liquid. Repeat from different sides, dividing and turning the eggs into soft irregular curds. Near 245–246s reach to turn the burner control, then regrasp the pan."
+    },
+    {
+      "start": 249.22,
+      "end": 280.6,
+      "description": "Lift the pan from the stove and carry it over the green plate. Repeatedly scoop eggs with the spatula and scrape smaller remaining pieces down the tilted pan onto the plate. Return the pan to the stove with the spatula resting inside, retrieve the fork and reposition the plate."
+    },
+    {
+      "start": 280.6,
+      "end": 302.267,
+      "description": "Lift the pepper grinder, remove its cap and twist it over the plated eggs. After the fine track ends at 285s, continue grinding until about 286.3s, recap and return the grinder by about 290s. Retrieve the pink salt grinder, remove its cap, grind over the eggs at about 293.1–296.2s, recap and return it to the rack by about 300.2s, then withdraw the hands."
+    }
+  ],
+  "object_inventory": [
+    "mixing bowl",
+    "fork",
+    "egg",
+    "eggshell",
+    "egg carton",
+    "paper towel",
+    "frying pan",
+    "olive oil bottle",
+    "oil bottle cap",
+    "spatula",
+    "serving plate",
+    "pepper grinder",
+    "pepper grinder cap",
+    "salt grinder",
+    "salt grinder cap",
+    "cabinet",
+    "utensil drawer",
+    "pan storage drawer",
+    "stove",
+    "counter",
+    "olive oil"
+  ],
+  "notes": "All fine boundaries retained and descriptions rewritten from complete overview, every dense step page and native end frames. Fine ends at 285s, true duration 302.267s: tail at 285–286.3s continues pepper grinding; 286.3–290s recaps and returns pepper grinder; 290–293s retrieves and uncaps pink salt grinder; 293.1–296.2s grinds salt; 296.5–300.2s caps and returns salt grinder; last ~2s hands withdraw. Tail inspected densely at 3fps and described in procedure; no fine steps appended. The 145.5–185.41s waiting segment includes taking spatula/handle and first probing motions near its end. No milk, cheese or other ingredient addition is visible. Plate and bowl identities are distinguished. In-hand states use grasped bowl/pan/utensil, never loose egg contents. Predictability pending blind evaluation.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 4.0,
+      "summary": "idle: approach the kitchen counter",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand touches a plate",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 4.0,
+      "end": 10.5,
+      "summary": "open the cabinet and reach for a bowl",
+      "verb": "open",
+      "object": "cabinet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=4.1–8s open cupboard doors; t=8.8–10.5s grasp top bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand retrieves a white bowl from the cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.5,
+      "end": 13.0,
+      "summary": "remove the mixing bowl from the cabinet",
+      "verb": "remove",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "cabinet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand carries bowl from cabinet to countertop",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.0,
+      "end": 15.4,
+      "summary": "place the mixing bowl on the counter",
+      "verb": "place",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places bowl on countertop",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.4,
+      "end": 19.5,
+      "summary": "open the drawer and retrieve a fork",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": "utensil drawer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=16.1–16.7s open drawer; t=17.5–18.8s retrieve fork; t=19.1–19.5s start pushing drawer shut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand retrieves a fork from the drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 19.5,
+      "end": 22.01,
+      "summary": "place the fork beside the mixing bowl",
+      "verb": "place",
+      "object": "fork",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places fork on countertop",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.01,
+      "end": 27.22,
+      "summary": "open the egg carton",
+      "verb": "open",
+      "object": "egg carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens egg carton",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.22,
+      "end": 31.3,
+      "summary": "tear off a paper towel and retrieve an egg",
+      "verb": "pick up",
+      "object": "egg",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=27.4–29.2s tear and lay down paper towel; t=30.1–31.3s retrieve first egg.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up egg from carton",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 31.3,
+      "end": 37.51,
+      "summary": "crack the first egg into the mixing bowl",
+      "verb": "crack",
+      "object": "egg",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cracks egg and drops shells into bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.51,
+      "end": 47.5,
+      "summary": "crack the second egg into the mixing bowl",
+      "verb": "crack",
+      "object": "egg",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=38.1s put first shell on towel; t=38.5–40.3s retrieve next egg; t=41–46s crack and empty it; t=47.5s move shell toward towel.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cracks egg and drops shells into bowl",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 47.5,
+      "end": 50.4,
+      "summary": "put the eggshells on the paper towel",
+      "verb": "place",
+      "object": "eggshell",
+      "tool": null,
+      "target": "paper towel",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places fork on countertop",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.4,
+      "end": 65.0,
+      "summary": "beat the eggs with the fork",
+      "verb": "stir",
+      "object": "egg",
+      "tool": "fork",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=50.8–51.2s retrieve fork; t=51.5–64.1s beat eggs while left holds bowl; t=64.3–65s rest fork in bowl and put bowl down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand whisks eggs in bowl with fork",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 65.0,
+      "end": 69.5,
+      "summary": "retrieve the frying pan from the storage drawer",
+      "verb": "remove",
+      "object": "frying pan",
+      "tool": null,
+      "target": "pan storage drawer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "frying pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=65.2s open cupboard then lower drawer; t=66.4–68s take pan and push drawer shut; t=69s carry pan toward burner.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places frying pan on stove",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 69.5,
+      "end": 74.07,
+      "summary": "place the pan and open the oil cabinet",
+      "verb": "open",
+      "object": "cabinet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69.7–70.2s rest pan on front right burner; t=71–72s open cupboard; t=74s reach for oil.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand grasps a bottle of olive oil in the cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 74.07,
+      "end": 78.3,
+      "summary": "take the olive oil bottle from the cabinet",
+      "verb": "remove",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": "cabinet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "olive oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=75.3s retrieve bottle; t=76–77s close cupboard doors; t=78s set oil beside stove.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pulls bottle of olive oil from cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 78.3,
+      "end": 86.95,
+      "summary": "turn the burner control to light the stove",
+      "verb": "turn on",
+      "object": "stove",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=79–84.4s repeated knob turns; blue flame becomes visible at t=84.8s; t=86.8s reach for oil.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand turns stove burner knob",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 86.95,
+      "end": 90.01,
+      "summary": "unscrew the olive oil bottle cap",
+      "verb": "open",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle cap"
+        ],
+        "right": [
+          "olive oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours olive oil from bottle into frying pan",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 90.01,
+      "end": 96.1,
+      "summary": "pour olive oil into the frying pan",
+      "verb": "pour",
+      "object": "olive oil",
+      "tool": "olive oil bottle",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "olive oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=90.8–92.1s pour; t=93.5–95.6s replace and tighten cap; t=96.1s move bottle aside.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours olive oil from bottle into frying pan",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.1,
+      "end": 99.5,
+      "summary": "set the olive oil bottle beside the stove",
+      "verb": "place",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand heats frying pan on stove",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.5,
+      "end": 107.24,
+      "summary": "tilt the frying pan to spread the oil",
+      "verb": "tilt",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "frying pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand tilts pan to spread oil",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 107.24,
+      "end": 111.6,
+      "summary": "rest the pan and open the utensil drawer",
+      "verb": "open",
+      "object": "utensil drawer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=107.4–109.4s leave pan still on burner; t=110.8–111.6s pull utensil drawer.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens a drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 111.6,
+      "end": 113.5,
+      "summary": "retrieve a spatula from the drawer",
+      "verb": "pick up",
+      "object": "spatula",
+      "tool": null,
+      "target": "utensil drawer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand retrieves spatula from drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 113.5,
+      "end": 117.5,
+      "summary": "set the spatula down and open the plate cabinet",
+      "verb": "open",
+      "object": "cabinet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=113.6–115s move spatula beside stove; t=116.8–117.5s open cupboard.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens a cabinet door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 117.5,
+      "end": 120.5,
+      "summary": "take a serving plate from the cabinet",
+      "verb": "remove",
+      "object": "serving plate",
+      "tool": null,
+      "target": "cabinet",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "serving plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand retrieves a plate from the cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 120.5,
+      "end": 123.49,
+      "summary": "place the serving plate beside the stove",
+      "verb": "place",
+      "object": "serving plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places plate on countertop",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.49,
+      "end": 128.19,
+      "summary": "stir the beaten eggs again",
+      "verb": "stir",
+      "object": "egg",
+      "tool": "fork",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=125.8–126.3s pick up fork; t=126.4–128s stir briefly.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours whisked eggs into frying pan",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 128.19,
+      "end": 137.87,
+      "summary": "tilt the pan again to distribute the oil",
+      "verb": "tilt",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=128.2s set bowl and fork down; t=131.3–136.1s tilt pan; t=137.1–137.8s rest pan and reach for bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours whisked eggs into the frying pan",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 137.87,
+      "end": 140.7,
+      "summary": "lift the bowl of beaten eggs over the pan",
+      "verb": "lift",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl",
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=138.2s grasp bowl with fork resting inside; t=140.4s begin tipping eggs into pan.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours the whisked eggs into the heated frying pan.",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 140.7,
+      "end": 145.5,
+      "summary": "pour the beaten eggs into the frying pan",
+      "verb": "pour",
+      "object": "egg",
+      "tool": "mixing bowl",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl",
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours whisked eggs from a bowl into a frying pan",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 145.5,
+      "end": 185.41,
+      "summary": "idle: wait for the eggs to begin setting",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=145.8–146.3s put bowl down, then wait; t=154.1s briefly touch pan handle; t=178s take spatula and handle; t=183.4–185.4s begin probing egg edge. Long compound boundary preserved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs eggs in frying pan with spatula",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 185.41,
+      "end": 249.22,
+      "summary": "scrape and fold the eggs into curds",
+      "verb": "stir",
+      "object": "egg",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=186.4–244.4s repeatedly scrape pan and fold curds; t=245.1–246.3s left hand turns burner knob while right retains spatula; t=247.7–249.2s regrasp pan handle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs eggs in frying pan with spatula",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 249.22,
+      "end": 253.9,
+      "summary": "lift the pan and scoop eggs toward the plate",
+      "verb": "move",
+      "object": "frying pan",
+      "tool": null,
+      "target": "serving plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs eggs in frying pan with spatula",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 253.9,
+      "end": 273.6,
+      "summary": "transfer the scrambled eggs onto the serving plate",
+      "verb": "move",
+      "object": "egg",
+      "tool": "spatula",
+      "target": "serving plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs eggs in frying pan with spatula",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 273.6,
+      "end": 280.6,
+      "summary": "rest the pan and retrieve the pepper grinder",
+      "verb": "pick up",
+      "object": "pepper grinder",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "pepper grinder"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=274–276s return pan with spatula to stove; t=276.5–277.4s retrieve fork; t=279–279.8s reposition serving plate and fork; t=280.4s reach for pepper grinder.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up salt shaker",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 280.6,
+      "end": 285.0,
+      "summary": "grind pepper over the scrambled eggs",
+      "verb": "grind",
+      "object": "pepper grinder",
+      "tool": null,
+      "target": "egg",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pepper grinder"
+        ],
+        "right": [
+          "pepper grinder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=280.7–283.1s lift grinder and remove cap; t=283.5–285s twist above eggs. Grinding continues beyond fine coverage.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand seasons the eggs on the plate with pepper",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 31.3,
+      "instruction": "Collect the bowl fork and eggs",
+      "description": "Approach the counter, open the cupboard, take and place a mixing bowl, retrieve a fork from the cutlery drawer, open the egg carton, lay out a paper towel and pick up an egg.",
+      "fine_index_range": [
+        0,
+        7
+      ],
+      "transition_in": null,
+      "goal_contribution": "Makes the bowl, utensil and eggs available for mixing.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 31.3,
+      "end": 65.0,
+      "instruction": "Crack and beat two eggs",
+      "description": "Crack the first egg into the bowl, discard its shell, take and crack a second egg, place the shells on the towel and beat both eggs with the fork before resting the bowl.",
+      "fine_index_range": [
+        8,
+        11
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Combines the eggs into a beaten mixture ready to cook.",
+      "predictability_level": "strong",
+      "predictability_reason": "After collect the bowl fork and eggs, crack and beat two eggs is a natural next stage toward cook and plate scrambled eggs."
+    },
+    {
+      "start": 65.0,
+      "end": 107.24,
+      "instruction": "Prepare and oil the hot frying pan",
+      "description": "Retrieve the pan, put it on the burner, open the cupboard and fetch olive oil, light the burner, unscrew the bottle, pour oil, recap and set it aside, then tilt the pan to spread oil.",
+      "fine_index_range": [
+        12,
+        19
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Provides a heated oiled cooking surface for the beaten eggs.",
+      "predictability_level": "strong",
+      "predictability_reason": "After crack and beat two eggs, prepare and oil the hot frying pan is a natural next stage toward cook and plate scrambled eggs."
+    },
+    {
+      "start": 107.24,
+      "end": 137.87,
+      "instruction": "Collect serving utensils and finish pan preparation",
+      "description": "Rest the pan, retrieve a spatula from the drawer, open the cupboard and collect a plate, set it beside the stove, stir the beaten eggs again and tilt the pan to distribute oil.",
+      "fine_index_range": [
+        20,
+        26
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Stages the utensils and plate and finishes preparing the pan before pouring.",
+      "predictability_level": "weak",
+      "predictability_reason": "After prepare and oil the hot frying pan, collect serving utensils and finish pan preparation is plausible for cook and plate scrambled eggs, but several next steps fit."
+    },
+    {
+      "start": 137.87,
+      "end": 249.22,
+      "instruction": "Pour and scramble the eggs",
+      "description": "Lift and tip the bowl into the pan, wait while the egg begins to set, then scrape and fold it repeatedly into curds while holding the handle and finally turning the burner control.",
+      "fine_index_range": [
+        27,
+        30
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Transforms the beaten mixture into scrambled egg curds.",
+      "predictability_level": "strong",
+      "predictability_reason": "After collect serving utensils and finish pan preparation, pour and scramble the eggs is a natural next stage toward cook and plate scrambled eggs."
+    },
+    {
+      "start": 249.22,
+      "end": 285.0,
+      "instruction": "Plate the scrambled eggs and begin seasoning",
+      "description": "Lift the pan, scoop and scrape eggs onto the green plate, return pan and spatula to the stove, retrieve the fork, reposition the plate and remove the pepper grinder cap before grinding.",
+      "fine_index_range": [
+        31,
+        34
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Moves the cooked eggs to the serving plate and begins final seasoning; remaining pepper and salt handling is visible beyond fine coverage.",
+      "predictability_level": "strong",
+      "predictability_reason": "After pour and scramble the eggs, plate the scrambled eggs and begin seasoning is a natural next stage toward cook and plate scrambled eggs."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/4ebc148a613c5b76/20261106T230943507791Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

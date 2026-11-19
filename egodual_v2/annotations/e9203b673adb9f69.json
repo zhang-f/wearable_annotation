@@ -1,0 +1,1286 @@
+{
+  "video_id": "e9203b673adb9f69",
+  "duration": 118.734,
+  "task": "Fixing a stuck backpack zipper",
+  "domain": "Handyman",
+  "query": "How do I fix a stuck backpack zipper?",
+  "goal": {
+    "title": "Free the stuck front-pocket zipper on a backpack",
+    "description": "Inspect and tug the zipper and fabric at the front pocket. Wet a cotton swab with liquid from the oil bottle, close the bottle and rub the swab around the slider while trying to free nearby fabric. Put the swab down, use a narrow metal tool to work repeatedly beside the slider, then move the zipper back and forth to check it and set down the backpack.",
+    "final_state": "The front-pocket zipper slider is moved back and forth across the opening after the repair attempts. The backpack rests in front of the wearer; the metal tool is still held.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 23.93,
+        "description": "Reposition the backpack, tug the front-pocket zipper repeatedly and pinch fabric beside its slider. Release the fabric after the initial attempts."
+      },
+      {
+        "start": 23.93,
+        "end": 41.87,
+        "description": "Pick up the oil bottle and unscrew its cap. Put the cap down, take a cotton swab, wet it at the bottle opening, close the bottle and set it aside."
+      },
+      {
+        "start": 41.87,
+        "end": 70.02,
+        "description": "Rub the slider with the swab, tug the pull and repeatedly work at the adjacent fabric. Put the swab on the backpack and shift the laptop beside it."
+      },
+      {
+        "start": 70.02,
+        "end": 103.77,
+        "description": "Take a narrow metal tool, reposition the backpack and hold the slider close. Repeatedly probe and pull the fabric beside the slider while holding it steady."
+      },
+      {
+        "start": 103.77,
+        "end": 118.63,
+        "description": "Move the slider back and forth along the pocket opening several times, repositioning the fabric and the backpack. Lower the backpack at the end while retaining the metal tool."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 23.93,
+      "description": "Reposition the backpack, tug the front-pocket zipper repeatedly and pinch fabric beside its slider. Release the fabric after the initial attempts."
+    },
+    {
+      "start": 23.93,
+      "end": 41.87,
+      "description": "Pick up the oil bottle and unscrew its cap. Put the cap down, take a cotton swab, wet it at the bottle opening, close the bottle and set it aside."
+    },
+    {
+      "start": 41.87,
+      "end": 70.02,
+      "description": "Rub the slider with the swab, tug the pull and repeatedly work at the adjacent fabric. Put the swab on the backpack and shift the laptop beside it."
+    },
+    {
+      "start": 70.02,
+      "end": 103.77,
+      "description": "Take a narrow metal tool, reposition the backpack and hold the slider close. Repeatedly probe and pull the fabric beside the slider while holding it steady."
+    },
+    {
+      "start": 103.77,
+      "end": 118.63,
+      "description": "Move the slider back and forth along the pocket opening several times, repositioning the fabric and the backpack. Lower the backpack at the end while retaining the metal tool."
+    }
+  ],
+  "object_inventory": [
+    "backpack",
+    "zipper slider",
+    "backpack fabric",
+    "oil bottle",
+    "bottle cap",
+    "cotton swab",
+    "metal tool",
+    "laptop"
+  ],
+  "notes": "All source fine boundaries preserved. Entire overview, all673 dense sampled frames and native end contact sheets visually inspected. Metal tool type remains unclear and is deliberately generic; detailed grasping/probing interval is ambiguous rather than assumed to use pliers or a fork. Liquid is described as oil bottle from appearance/use, no chemical formulation inferred. Subtasks were regrouped from observed steps. Whole-task narrative includes unsuccessful repeated pulls and later tool work. Tail118.63–118.734s has no additional interaction. Predictability pending independent prior-context assessment.",
+  "fine": [
+    {
+      "summary": "idle: sit facing the backpack",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 0,
+      "end": 4.07,
+      "old_summary": "",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "summary": "lift and reposition the backpack",
+      "verb": "move",
+      "object": "backpack",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 4.07,
+      "end": 5.57,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "pull the zipper slider along the backpack",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 5.57,
+      "end": 9.83,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider along the backpack",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 9.83,
+      "end": 10.88,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider along the backpack",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 10.88,
+      "end": 13.43,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider along the backpack",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 13.43,
+      "end": 14.3,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider along the backpack",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 14.3,
+      "end": 19.79,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull fabric away from the zipper slider",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backpack fabric"
+        ],
+        "right": [
+          "zipper slider"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 19.79,
+      "end": 23.11,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "release the backpack fabric",
+      "verb": "put down",
+      "object": "backpack fabric",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "zipper slider"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 23.11,
+      "end": 23.93,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pick up the oil bottle",
+      "verb": "pick up",
+      "object": "oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 23.93,
+      "end": 24.43,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "unscrew the oil bottle cap",
+      "verb": "unscrew",
+      "object": "bottle cap",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 24.43,
+      "end": 27.16,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "put down the bottle cap on the backpack",
+      "verb": "put down",
+      "object": "bottle cap",
+      "tool": null,
+      "target": "backpack",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 27.16,
+      "end": 28.71,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "dip the cotton swab into the oil bottle",
+      "verb": "insert",
+      "object": "cotton swab",
+      "tool": null,
+      "target": "oil bottle",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle"
+        ],
+        "right": [
+          "cotton swab"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=29.1s pick up swab, then t=30–37s dip/rub it repeatedly around bottle opening; compound segment.",
+      "confidence": "high",
+      "notes": "",
+      "start": 28.71,
+      "end": 37.89,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "screw the cap onto the oil bottle",
+      "verb": "screw",
+      "object": "bottle cap",
+      "tool": null,
+      "target": "oil bottle",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle"
+        ],
+        "right": [
+          "cotton swab"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=38.1s pick up cap while retaining swab, t=39–41s screw cap on.",
+      "confidence": "high",
+      "notes": "",
+      "start": 37.89,
+      "end": 41.49,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "put down the oil bottle beside the backpack",
+      "verb": "put down",
+      "object": "oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cotton swab"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 41.49,
+      "end": 41.87,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "rub the zipper slider with the cotton swab",
+      "verb": "wipe",
+      "object": "zipper slider",
+      "tool": "cotton swab",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "cotton swab"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 41.87,
+      "end": 49.42,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider along the backpack",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "cotton swab"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 49.42,
+      "end": 50.82,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "rub beside the zipper slider with the cotton swab",
+      "verb": "wipe",
+      "object": "zipper slider",
+      "tool": "cotton swab",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "cotton swab"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 50.82,
+      "end": 51.71,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the zipper slider",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "cotton swab",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backpack fabric"
+        ],
+        "right": [
+          "cotton swab"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=52–68s repeatedly pick/probe fabric and slider with fingers/swab; no hidden repair inferred.",
+      "confidence": "high",
+      "notes": "",
+      "start": 51.71,
+      "end": 69.21,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "put down the cotton swab on the backpack",
+      "verb": "put down",
+      "object": "cotton swab",
+      "tool": null,
+      "target": "backpack",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69.5s lower swab; t=69.8–70.0s left hand moves laptop beside backpack.",
+      "confidence": "high",
+      "notes": "",
+      "start": 69.21,
+      "end": 70.02,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pick up the metal tool",
+      "verb": "pick up",
+      "object": "metal tool",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=70.8–71.4s collect a narrow metal tool; its exact class is unclear, so named generically.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 70.02,
+      "end": 71.48,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "reposition the backpack on the lap",
+      "verb": "move",
+      "object": "backpack",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 71.48,
+      "end": 73.0,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "grasp the zipper slider",
+      "verb": "hold",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 73.0,
+      "end": 74.27,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "inspect the fabric beside the zipper slider",
+      "verb": "inspect",
+      "object": "backpack fabric",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 74.27,
+      "end": 79.79,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 79.79,
+      "end": 81.46,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 81.46,
+      "end": 82.86,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 82.86,
+      "end": 86.09,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 86.09,
+      "end": 89.59,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 89.59,
+      "end": 92.99,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 92.99,
+      "end": 95.15,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 95.15,
+      "end": 98.5,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 98.5,
+      "end": 100.77,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 100.77,
+      "end": 100.9,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "work fabric away from the slider with the metal tool",
+      "verb": "remove",
+      "object": "backpack fabric",
+      "tool": "metal tool",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "The tool tip and fabric contact are partly obscured by fingers; narrow metal tool identity cannot be established. Action is visible probing/pulling around the slider, not a claimed part replacement.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 100.9,
+      "end": 103.77,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider back and forth",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider",
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated visible testing of the same front-pocket zipper; metal tool remains between right fingers.",
+      "confidence": "high",
+      "notes": "",
+      "start": 103.77,
+      "end": 105.31,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider back and forth",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "zipper slider",
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated visible testing of the same front-pocket zipper; metal tool remains between right fingers.",
+      "confidence": "high",
+      "notes": "",
+      "start": 105.31,
+      "end": 106.44,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider back and forth",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider",
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated visible testing of the same front-pocket zipper; metal tool remains between right fingers.",
+      "confidence": "high",
+      "notes": "",
+      "start": 106.44,
+      "end": 107.51,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider back and forth",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "zipper slider",
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated visible testing of the same front-pocket zipper; metal tool remains between right fingers.",
+      "confidence": "high",
+      "notes": "",
+      "start": 107.51,
+      "end": 108.36,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider back and forth",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider",
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated visible testing of the same front-pocket zipper; metal tool remains between right fingers.",
+      "confidence": "high",
+      "notes": "",
+      "start": 108.36,
+      "end": 109.26,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider back and forth",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "zipper slider",
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated visible testing of the same front-pocket zipper; metal tool remains between right fingers.",
+      "confidence": "high",
+      "notes": "",
+      "start": 109.26,
+      "end": 110.5,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider back and forth",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider",
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated visible testing of the same front-pocket zipper; metal tool remains between right fingers.",
+      "confidence": "high",
+      "notes": "",
+      "start": 110.5,
+      "end": 112.37,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider back and forth",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "zipper slider"
+        ],
+        "right": [
+          "zipper slider",
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated visible testing of the same front-pocket zipper; metal tool remains between right fingers.",
+      "confidence": "high",
+      "notes": "",
+      "start": 112.37,
+      "end": 114.07,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the zipper slider back and forth",
+      "verb": "move",
+      "object": "zipper slider",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "zipper slider",
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated visible testing of the same front-pocket zipper; metal tool remains between right fingers.",
+      "confidence": "high",
+      "notes": "",
+      "start": 114.07,
+      "end": 115.75,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "set the backpack down after checking the zipper",
+      "verb": "place",
+      "object": "backpack",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backpack"
+        ],
+        "right": [
+          "metal tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=116s move zipper, t=117s lower backpack; no new fine boundaries added.",
+      "confidence": "high",
+      "notes": "",
+      "start": 115.75,
+      "end": 118.63,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 23.93,
+      "fine_index_range": [
+        0,
+        8
+      ],
+      "instruction": "Inspect the stuck zipper and trapped fabric",
+      "description": "Reposition the backpack, tug the front-pocket zipper repeatedly and pinch fabric beside its slider. Release the fabric after the initial attempts.",
+      "goal_contribution": "Identify the jam and attempt to release it by hand.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 23.93,
+      "end": 41.87,
+      "fine_index_range": [
+        9,
+        14
+      ],
+      "instruction": "Prepare an oiled cotton swab",
+      "description": "Pick up the oil bottle and unscrew its cap. Put the cap down, take a cotton swab, wet it at the bottle opening, close the bottle and set it aside.",
+      "goal_contribution": "Prepare the applicator used on the stuck slider.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_reason": "A stuck zipper may be lubricated, among several possible fixes."
+    },
+    {
+      "start": 41.87,
+      "end": 70.02,
+      "fine_index_range": [
+        15,
+        19
+      ],
+      "instruction": "Lubricate the slider and loosen the fabric",
+      "description": "Rub the slider with the swab, tug the pull and repeatedly work at the adjacent fabric. Put the swab on the backpack and shift the laptop beside it.",
+      "goal_contribution": "Attempt to free the jam using the wetted swab and fingers.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_reason": "An oiled swab is ready to lubricate the slider and work the fabric loose."
+    },
+    {
+      "start": 70.02,
+      "end": 103.77,
+      "fine_index_range": [
+        20,
+        33
+      ],
+      "instruction": "Work trapped fabric out with a metal tool",
+      "description": "Take a narrow metal tool, reposition the backpack and hold the slider close. Repeatedly probe and pull the fabric beside the slider while holding it steady.",
+      "goal_contribution": "Continue the repair after the swab and finger attempts; exact tool identity remains uncertain.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_reason": "Continued resistance may call for a tool, but it is not a necessary step."
+    },
+    {
+      "start": 103.77,
+      "end": 118.63,
+      "fine_index_range": [
+        34,
+        43
+      ],
+      "instruction": "Test the zipper movement and set down the backpack",
+      "description": "Move the slider back and forth along the pocket opening several times, repositioning the fabric and the backpack. Lower the backpack at the end while retaining the metal tool.",
+      "goal_contribution": "Check the observed movement after working on the jam; no unseen durability test is claimed.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_reason": "After freeing fabric, zipper movement should be tested."
+    }
+  ]
+}

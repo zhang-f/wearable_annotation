@@ -1,0 +1,21 @@
+{
+  "video_id": "321eb4583643fc00",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The emptied box is ready to cut into a cardboard panel."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The cut panel is ready to fold into the stand."
+    }
+  ]
+}

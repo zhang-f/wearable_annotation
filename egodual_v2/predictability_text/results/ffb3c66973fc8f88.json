@@ -1,0 +1,31 @@
+{
+  "video_id": "ffb3c66973fc8f88",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Cut yarn lengths are ready to align and knot together."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The joined end needs anchoring for braiding."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Anchored strands are ready to braid."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "A finished braid needs an end knot and trim."
+    }
+  ]
+}

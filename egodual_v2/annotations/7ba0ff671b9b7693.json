@@ -1,0 +1,874 @@
+{
+  "video_id": "7ba0ff671b9b7693",
+  "duration": 285.6,
+  "task": "Decorating a water bottle with vinyl stickers",
+  "domain": "Arts and Crafts",
+  "query": "How do I decorate a water bottle with vinyl stickers?",
+  "goal": {
+    "title": "Decorate a metal tumbler with three stickers",
+    "description": "Rinse and repeatedly wipe a rose-gold tumbler, then peel and attach three precut quotation stickers around its exterior, smoothing each with fingers and a spoon.",
+    "final_state": "Three stickers are pressed onto separate sides of the tumbler, which is inspected and set on the table.",
+    "procedure": [
+      "Rinse the tumbler under the faucet and dry its exterior with paper towels.",
+      "Handle the clear-liquid containers and wet a fresh towel before wiping the tumbler again.",
+      "Carry the tumbler to the craft table, select the first sticker, peel its backing and press it onto the cup.",
+      "Rub the first sticker with a spoon, then position, peel and apply the second sticker.",
+      "Apply the third purple sticker, smooth it with fingers and a spoon, and rotate the finished cup for inspection."
+    ]
+  },
+  "object_inventory": [
+    "tumbler",
+    "faucet",
+    "paper towel",
+    "clear liquid jug",
+    "second jug",
+    "jug cap",
+    "small plastic cup",
+    "first sticker",
+    "second sticker",
+    "third sticker",
+    "sticker backing",
+    "spoon",
+    "table",
+    "counter"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 48.01,
+      "description": "The tumbler is carried to the sink, rotated under running water and repeatedly wiped with paper towels."
+    },
+    {
+      "start": 48.01,
+      "end": 119.2,
+      "description": "The clear-liquid containers are opened and handled; fresh paper towel is wetted, folded and used to wipe the tumbler body and base."
+    },
+    {
+      "start": 119.2,
+      "end": 168.1,
+      "description": "The cleaned tumbler is returned to the table. A precut quotation sticker is compared with the cup, peeled, pressed onto its side and rubbed with a spoon."
+    },
+    {
+      "start": 168.1,
+      "end": 222.65,
+      "description": "The spoon is set aside while another sticker is selected and its position tested. Its backing is peeled, the sticker is pressed onto another side, and a spoon smooths it down."
+    },
+    {
+      "start": 222.65,
+      "end": 283.89,
+      "description": "The cup is rotated, the purple sticker is peeled and attached, and fingers and a spoon smooth it. The decorated cup is rotated for inspection and set down."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.61,
+      "old_summary": "hand picks up water bottle",
+      "summary": "left hand carries the tumbler to the sink",
+      "verb": "carry",
+      "object": "tumbler",
+      "tool": null,
+      "target": "faucet",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.61,
+      "end": 5.0,
+      "old_summary": "hand rinses water bottle under running water",
+      "summary": "right hand turns on the faucet",
+      "verb": "turn on",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.0,
+      "end": 8.17,
+      "old_summary": "hands rinse water bottle under running water",
+      "summary": "both hands rotate the tumbler under running water",
+      "verb": "rinse",
+      "object": "tumbler",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.17,
+      "end": 11.3,
+      "old_summary": "hand wipes water bottle with paper towel",
+      "summary": "right hand closes the faucet and carries the tumbler aside",
+      "verb": "turn off",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.3,
+      "end": 14.73,
+      "old_summary": "hands pull paper towel from roll",
+      "summary": "both hands tear paper towel from the roll",
+      "verb": "tear",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.73,
+      "end": 16.68,
+      "old_summary": "hand wipes water bottle with paper towel",
+      "summary": "right hand separates and folds the paper towel",
+      "verb": "fold",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.68,
+      "end": 25.55,
+      "old_summary": "hand wipes water bottle with paper towel",
+      "summary": "right hand wipes the tumbler with paper towel",
+      "verb": "wipe",
+      "object": "tumbler",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.55,
+      "end": 48.01,
+      "old_summary": "hands wipe water bottle with paper towel",
+      "summary": "both hands take fresh towel and wipe the tumbler",
+      "verb": "wipe",
+      "object": "tumbler",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "25.55–48.01s includes obtaining another towel and repeated wiping; source boundary preserved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.01,
+      "end": 68.74,
+      "old_summary": "hand pours cleaning solution from a jug into a bowl",
+      "summary": "both hands open and reposition the clear-liquid jugs",
+      "verb": "open",
+      "object": "clear liquid jug",
+      "tool": null,
+      "target": "second jug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clear liquid jug"
+        ],
+        "right": [
+          "jug cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "At 55–68s two clear-liquid jugs/caps are handled beside a small cup; exact liquid identity and transfer are not reliably visible.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 68.74,
+      "end": 72.22,
+      "old_summary": "hands pull paper towel from dispenser",
+      "summary": "right hand tears a fresh paper towel",
+      "verb": "tear",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 72.22,
+      "end": 80.03,
+      "old_summary": "hands squeeze paper towel",
+      "summary": "both hands wet and fold the paper towel",
+      "verb": "wet",
+      "object": "paper towel",
+      "tool": null,
+      "target": "small plastic cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 80.03,
+      "end": 91.53,
+      "old_summary": "hand wipes water bottle with paper towel",
+      "summary": "right hand wipes the tumbler while left hand rotates it",
+      "verb": "wipe",
+      "object": "tumbler",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 91.53,
+      "end": 110.05,
+      "old_summary": "hand wipes a tumbler with a paper towel",
+      "summary": "right hand takes fresh towel and wipes the tumbler",
+      "verb": "wipe",
+      "object": "tumbler",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.05,
+      "end": 119.2,
+      "old_summary": "hand wipes water bottle with paper towel",
+      "summary": "left hand wipes the tumbler base with paper towel",
+      "verb": "wipe",
+      "object": "tumbler",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "tumbler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.2,
+      "end": 121.19,
+      "old_summary": "hand holds water bottle",
+      "summary": "right hand carries the cleaned tumbler to the table",
+      "verb": "carry",
+      "object": "tumbler",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tumbler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 121.19,
+      "end": 124.67,
+      "old_summary": "hand rotates the water bottle",
+      "summary": "right hand places the tumbler beside the stickers",
+      "verb": "place",
+      "object": "tumbler",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.67,
+      "end": 132.31,
+      "old_summary": "hand picks up a vinyl sticker from the table",
+      "summary": "both hands compare a sticker against the tumbler",
+      "verb": "position",
+      "object": "first sticker",
+      "tool": null,
+      "target": "tumbler",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "first sticker"
+        ],
+        "right": [
+          "tumbler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 132.31,
+      "end": 158.73,
+      "old_summary": "hands apply vinyl sticker to water bottle",
+      "summary": "both hands peel and press the first sticker onto the tumbler",
+      "verb": "attach",
+      "object": "first sticker",
+      "tool": null,
+      "target": "tumbler",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "132.31–158.73s includes backing removal, positioning and finger smoothing; source boundary preserved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 158.73,
+      "end": 168.1,
+      "old_summary": "hand uses spoon to press sticker onto water bottle",
+      "summary": "right hand rubs the first sticker with a spoon",
+      "verb": "rub",
+      "object": "first sticker",
+      "tool": "spoon",
+      "target": "tumbler",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 168.1,
+      "end": 169.14,
+      "old_summary": "hands press the vinyl sticker onto the water bottle",
+      "summary": "right hand sets the spoon on the table",
+      "verb": "place",
+      "object": "spoon",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 169.14,
+      "end": 171.26,
+      "old_summary": "hand adjusts sticker on water bottle",
+      "summary": "right hand reaches for the second sticker",
+      "verb": "pick up",
+      "object": "second sticker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 171.26,
+      "end": 176.5,
+      "old_summary": "hand holds water bottle",
+      "summary": "both hands compare the second sticker against the tumbler",
+      "verb": "position",
+      "object": "second sticker",
+      "tool": null,
+      "target": "tumbler",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": [
+          "second sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 176.5,
+      "end": 189.49,
+      "old_summary": "hand applies sticker to water bottle",
+      "summary": "both hands rotate the tumbler and test the second sticker placement",
+      "verb": "position",
+      "object": "second sticker",
+      "tool": null,
+      "target": "tumbler",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": [
+          "second sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 189.49,
+      "end": 193.34,
+      "old_summary": "hand presses sticker onto water bottle",
+      "summary": "both hands peel backing from the second sticker",
+      "verb": "peel",
+      "object": "second sticker",
+      "tool": null,
+      "target": "sticker backing",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "second sticker"
+        ],
+        "right": [
+          "second sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 193.34,
+      "end": 212.48,
+      "old_summary": "hands press vinyl sticker onto water bottle",
+      "summary": "both hands attach and smooth the second sticker",
+      "verb": "attach",
+      "object": "second sticker",
+      "tool": null,
+      "target": "tumbler",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 212.48,
+      "end": 222.65,
+      "old_summary": "hand uses spoon to press vinyl sticker onto water bottle",
+      "summary": "right hand smooths the second sticker with the spoon",
+      "verb": "rub",
+      "object": "second sticker",
+      "tool": "spoon",
+      "target": "tumbler",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 222.65,
+      "end": 227.01,
+      "old_summary": "hand rotates water bottle",
+      "summary": "both hands rotate the tumbler and reach for another sticker",
+      "verb": "rotate",
+      "object": "tumbler",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tumbler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 227.01,
+      "end": 259.91,
+      "old_summary": "hands apply a vinyl sticker to the water bottle",
+      "summary": "both hands peel and attach the third purple sticker",
+      "verb": "attach",
+      "object": "third sticker",
+      "tool": null,
+      "target": "tumbler",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "227.01–259.91s includes sticker selection, backing removal, positioning and smoothing; source boundary preserved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 259.91,
+      "end": 270.09,
+      "old_summary": "hand uses spoon to press vinyl sticker onto water bottle",
+      "summary": "right hand rubs the third sticker with the spoon",
+      "verb": "rub",
+      "object": "third sticker",
+      "tool": "spoon",
+      "target": "tumbler",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tumbler"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 270.09,
+      "end": 283.89,
+      "old_summary": "hands adjust vinyl sticker on water bottle",
+      "summary": "both hands inspect the decorated tumbler and set it down",
+      "verb": "inspect",
+      "object": "tumbler",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 48.01,
+      "fine_index_range": [
+        0,
+        7
+      ],
+      "instruction": "Rinse and dry the tumbler",
+      "description": "The tumbler is carried to the sink, rotated under running water and repeatedly wiped with paper towels.",
+      "goal_contribution": "Provides a visibly rinsed and dried surface for decoration.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 48.01,
+      "end": 119.2,
+      "fine_index_range": [
+        8,
+        13
+      ],
+      "instruction": "Wipe the tumbler again with fresh towel",
+      "description": "The clear-liquid containers are opened and handled; fresh paper towel is wetted, folded and used to wipe the tumbler body and base.",
+      "goal_contribution": "Completes surface preparation before stickers are applied.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After rinse and dry the tumbler, wipe the tumbler again with fresh towel is plausible for decorate a metal tumbler with three stickers, but several next steps fit."
+    },
+    {
+      "start": 119.2,
+      "end": 168.1,
+      "fine_index_range": [
+        14,
+        18
+      ],
+      "instruction": "Apply and smooth the first sticker",
+      "description": "The cleaned tumbler is returned to the table. A precut quotation sticker is compared with the cup, peeled, pressed onto its side and rubbed with a spoon.",
+      "goal_contribution": "Attaches the first decorative quotation to the tumbler.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After wipe the tumbler again with fresh towel, apply and smooth the first sticker is a natural next stage toward decorate a metal tumbler with three stickers."
+    },
+    {
+      "start": 168.1,
+      "end": 222.65,
+      "fine_index_range": [
+        19,
+        25
+      ],
+      "instruction": "Apply and smooth the second sticker",
+      "description": "The spoon is set aside while another sticker is selected and its position tested. Its backing is peeled, the sticker is pressed onto another side, and a spoon smooths it down.",
+      "goal_contribution": "Adds a second securely pressed quotation without covering the first.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After apply and smooth the first sticker, apply and smooth the second sticker is a natural next stage toward decorate a metal tumbler with three stickers."
+    },
+    {
+      "start": 222.65,
+      "end": 283.89,
+      "fine_index_range": [
+        26,
+        29
+      ],
+      "instruction": "Apply the third sticker and inspect the cup",
+      "description": "The cup is rotated, the purple sticker is peeled and attached, and fingers and a spoon smooth it. The decorated cup is rotated for inspection and set down.",
+      "goal_contribution": "Completes the three-sticker decoration and checks the final appearance.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After apply and smooth the second sticker, apply the third sticker and inspect the cup is a natural next stage toward decorate a metal tumbler with three stickers."
+    }
+  ],
+  "notes": "Reviewed all overview, all 941 dense sampled frames and native end frames. One tumbler is repeatedly rotated, not multiple cups. Chemical identity is not inferred from jug appearance. Original fine boundaries retained; final 1.71s is unsegmented and shows the cup stationary on the table. Predictability awaits independent past-only testing."
+}

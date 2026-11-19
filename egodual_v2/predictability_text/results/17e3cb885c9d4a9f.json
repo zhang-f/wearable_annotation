@@ -1,0 +1,21 @@
+{
+  "video_id": "17e3cb885c9d4a9f",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After unplug the lamp and remove its bulb, install the replacement bulb and straighten the shade is a natural next stage toward replace the bedside lamp bulb."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After install the replacement bulb and straighten the shade, reconnect power and check the lamp is a natural next stage toward replace the bedside lamp bulb."
+    }
+  ]
+}

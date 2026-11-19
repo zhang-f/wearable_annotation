@@ -1,0 +1,21 @@
+{
+  "video_id": "0ded81ea4c94e111",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After wash, core and slice the pear, season the pear and add the oat topping is a natural next stage toward prepare a microwaved pear and oat bowl."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After season the pear and add the oat topping, microwave the prepared pear and oat bowl is a natural next stage toward prepare a microwaved pear and oat bowl."
+    }
+  ]
+}

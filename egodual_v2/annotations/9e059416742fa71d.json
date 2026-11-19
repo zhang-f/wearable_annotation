@@ -1,0 +1,1705 @@
+{
+  "video_id": "9e059416742fa71d",
+  "duration": 285.534,
+  "task": "Installing a new utensil drawer organizer",
+  "domain": "Handyman",
+  "query": "How do I install a new utensil drawer organizer?",
+  "goal": {
+    "title": "Clean and reorganize the cutlery drawer",
+    "description": "Empty the kitchen drawer onto the counter, wipe the drawer, install a gray compartment organizer, and return cooking tools, cutlery, and chopsticks in grouped compartments.",
+    "final_state": "The utensils are grouped inside the gray organizer, the counter is cleared, and the drawer is closed.",
+    "procedure": [
+      "Open the drawer and remove the cooking tools, measuring utensils, cutlery, and chopsticks onto the counter.",
+      "Fold the cloth and wipe the empty drawer base and corners.",
+      "Separate, inspect, and fit the expandable organizer and its side trays into the drawer.",
+      "Return the large tools and measuring utensils, adjusting their arrangement.",
+      "Sort forks, knives, spoons, and chopsticks into separate compartments and close the drawer."
+    ]
+  },
+  "object_inventory": [
+    "drawer",
+    "counter",
+    "utensil cup",
+    "measuring cups",
+    "kitchen tool",
+    "strainer",
+    "whisk",
+    "metal spatula",
+    "peeler",
+    "can opener",
+    "bench scraper",
+    "kitchen thermometer",
+    "rice paddle",
+    "measuring spoons",
+    "serving spoon",
+    "spoon",
+    "fork",
+    "chopsticks",
+    "cloth",
+    "organizer",
+    "side tray",
+    "wooden utensil",
+    "table knife"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 37.79,
+      "description": "The drawer is opened and the small utensil cup, measuring cups, strainer, whisk, cooking tools, paddles, and measuring spoons are laid on the counter."
+    },
+    {
+      "start": 37.79,
+      "end": 63.2,
+      "description": "Serving spoons, table spoons, forks, and chopsticks are collected and grouped on the counter."
+    },
+    {
+      "start": 63.2,
+      "end": 80.57,
+      "description": "A folded gray cloth wipes the base and corners; the cloth is folded away and the base checked with the hand."
+    },
+    {
+      "start": 80.57,
+      "end": 115.01,
+      "description": "The gray organizer and separate long trays are examined, positioned in the drawer, and adjusted until they sit together."
+    },
+    {
+      "start": 115.01,
+      "end": 156.49,
+      "description": "The bench scraper, black-handled tools, long utensils, metal spatula, measuring cups, thermometer, and peeler are placed and repositioned."
+    },
+    {
+      "start": 156.49,
+      "end": 196.86,
+      "description": "Measuring spoons, strainer, serving utensils, small utensil cup, paddles, and wooden utensils are fitted into their compartments."
+    },
+    {
+      "start": 196.86,
+      "end": 248.89,
+      "description": "Forks, knives, and spoons are gathered in turn and nested or aligned in separate compartments."
+    },
+    {
+      "start": 248.89,
+      "end": 285.22,
+      "description": "The chopsticks are gathered, aligned alongside the cutlery, nearby utensils are adjusted, and the drawer is closed."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.4,
+      "old_summary": "hand pulls open the utensil drawer",
+      "summary": "left hand pulls open the cutlery drawer",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.4,
+      "end": 5.34,
+      "old_summary": "hand removes utensils from drawer",
+      "summary": "both hands lift a small utensil cup onto the counter",
+      "verb": "place",
+      "object": "utensil cup",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.34,
+      "end": 8.28,
+      "old_summary": "hands remove utensils from the drawer",
+      "summary": "both hands move nested measuring cups onto the counter",
+      "verb": "place",
+      "object": "measuring cups",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.28,
+      "end": 10.56,
+      "old_summary": "hand removes utensils from drawer",
+      "summary": "both hands remove a small metal kitchen tool",
+      "verb": "remove",
+      "object": "kitchen tool",
+      "tool": null,
+      "target": "drawer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "kitchen tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small rectangular metal tool partly occluded; exact subtype not asserted.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.56,
+      "end": 14.24,
+      "old_summary": "hand moves measuring cup to countertop",
+      "summary": "left hand places the mesh strainer on the counter",
+      "verb": "place",
+      "object": "strainer",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.24,
+      "end": 16.29,
+      "old_summary": "hand moves utensils in drawer",
+      "summary": "both hands lift the whisk from the drawer",
+      "verb": "pick up",
+      "object": "whisk",
+      "tool": null,
+      "target": "drawer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "whisk"
+        ],
+        "right": [
+          "whisk"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 16.29,
+      "end": 17.29,
+      "old_summary": "hand places whisk on countertop",
+      "summary": "both hands set the whisk beside the strainer",
+      "verb": "place",
+      "object": "whisk",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.29,
+      "end": 21.89,
+      "old_summary": "hand removes utensils from drawer and places them on counter",
+      "summary": "both hands lay cooking tools on the counter",
+      "verb": "place",
+      "object": "kitchen tool",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Two cooking utensils removed together; exact subtype of one black-handled item unclear.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 21.89,
+      "end": 24.24,
+      "old_summary": "hand places utensils on countertop",
+      "summary": "right hand places a metal spatula on the counter",
+      "verb": "place",
+      "object": "metal spatula",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 24.24,
+      "end": 26.35,
+      "old_summary": "hand moves utensils from drawer to countertop",
+      "summary": "both hands remove the peeler and can opener",
+      "verb": "remove",
+      "object": "peeler",
+      "tool": null,
+      "target": "drawer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "can opener"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.35,
+      "end": 30.24,
+      "old_summary": "hand places knife on countertop",
+      "summary": "both hands place the bench scraper on the counter",
+      "verb": "place",
+      "object": "bench scraper",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.24,
+      "end": 32.33,
+      "old_summary": "hand places a utensil on the countertop",
+      "summary": "right hand removes the green kitchen thermometer",
+      "verb": "remove",
+      "object": "kitchen thermometer",
+      "tool": null,
+      "target": "drawer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 32.33,
+      "end": 36.04,
+      "old_summary": "hands place utensils on the countertop",
+      "summary": "both hands lift paddles and measuring spoons from the drawer",
+      "verb": "remove",
+      "object": "rice paddle",
+      "tool": null,
+      "target": "drawer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "rice paddle"
+        ],
+        "right": [
+          "measuring spoons"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 36.04,
+      "end": 37.79,
+      "old_summary": "hand places spatula on countertop",
+      "summary": "both hands place the paddles and spoons on the counter",
+      "verb": "place",
+      "object": "rice paddle",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.79,
+      "end": 42.01,
+      "old_summary": "hands place spoons on the countertop",
+      "summary": "both hands remove and place serving spoons on the counter",
+      "verb": "place",
+      "object": "serving spoon",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 42.01,
+      "end": 46.95,
+      "old_summary": "hands remove spoons from the drawer and place them on the countertop",
+      "summary": "both hands gather spoons and place them on the counter",
+      "verb": "place",
+      "object": "spoon",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.95,
+      "end": 50.42,
+      "old_summary": "hand places knife on countertop",
+      "summary": "both hands gather forks and place them on the counter",
+      "verb": "place",
+      "object": "fork",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 50.42,
+      "end": 54.66,
+      "old_summary": "hand places forks on the countertop",
+      "summary": "both hands remove the remaining forks from the drawer",
+      "verb": "remove",
+      "object": "fork",
+      "tool": null,
+      "target": "drawer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 54.66,
+      "end": 63.2,
+      "old_summary": "hands remove utensils from drawer and place them on countertop",
+      "summary": "both hands gather chopsticks and place them on the counter",
+      "verb": "place",
+      "object": "chopsticks",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes gathering chopsticks at t=55–61s and setting them on counter around t=62–63s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 63.2,
+      "end": 76.43,
+      "old_summary": "hand wipes inside of drawer with cloth",
+      "summary": "right hand wipes the empty drawer with the cloth",
+      "verb": "wipe",
+      "object": "drawer",
+      "tool": "cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cloth"
+        ],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes cloth folding t=65–69s before wiping t=70–76s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 76.43,
+      "end": 78.71,
+      "old_summary": "hand places towel on countertop",
+      "summary": "both hands fold the cloth and set it aside",
+      "verb": "fold",
+      "object": "cloth",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.71,
+      "end": 80.57,
+      "old_summary": "hand pushes drawer",
+      "summary": "right hand brushes across the empty drawer base",
+      "verb": "brush",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 80.57,
+      "end": 85.74,
+      "old_summary": "hand picks up the drawer organizer",
+      "summary": "both hands pick up the gray cutlery organizer",
+      "verb": "pick up",
+      "object": "organizer",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "organizer"
+        ],
+        "right": [
+          "organizer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 85.74,
+      "end": 88.46,
+      "old_summary": "hand separates the two parts of the drawer organizer",
+      "summary": "both hands separate the organizer and long side tray",
+      "verb": "separate",
+      "object": "organizer",
+      "tool": null,
+      "target": "side tray",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "organizer"
+        ],
+        "right": [
+          "organizer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.46,
+      "end": 95.93,
+      "old_summary": "hand places the gray organizer into the drawer",
+      "summary": "both hands inspect and position the organizer side trays",
+      "verb": "position",
+      "object": "side tray",
+      "tool": null,
+      "target": "drawer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "organizer"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 95.93,
+      "end": 98.42,
+      "old_summary": "hand slides drawer organizer into drawer",
+      "summary": "right hand aligns the side tray in the drawer",
+      "verb": "align",
+      "object": "side tray",
+      "tool": null,
+      "target": "drawer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "organizer"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 98.42,
+      "end": 106.75,
+      "old_summary": "hands push the drawer organizer into the drawer",
+      "summary": "both hands lower the compartment organizer into the drawer",
+      "verb": "place",
+      "object": "organizer",
+      "tool": null,
+      "target": "drawer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "organizer"
+        ],
+        "right": [
+          "organizer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.75,
+      "end": 115.01,
+      "old_summary": "hand picks up a knife from the counter",
+      "summary": "both hands adjust the organizer and its sliding sides",
+      "verb": "adjust",
+      "object": "organizer",
+      "tool": null,
+      "target": "drawer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.01,
+      "end": 118.75,
+      "old_summary": "hand places utensil into organizer",
+      "summary": "right hand places the bench scraper into the organizer",
+      "verb": "place",
+      "object": "bench scraper",
+      "tool": null,
+      "target": "organizer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 118.75,
+      "end": 122.15,
+      "old_summary": "hand places utensil into organizer",
+      "summary": "right hand returns a black-handled tool to the drawer",
+      "verb": "place",
+      "object": "kitchen tool",
+      "tool": null,
+      "target": "organizer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 122.15,
+      "end": 124.44,
+      "old_summary": "hand places utensil into organizer",
+      "summary": "right hand returns another small kitchen tool",
+      "verb": "place",
+      "object": "kitchen tool",
+      "tool": null,
+      "target": "organizer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 124.44,
+      "end": 129.47,
+      "old_summary": "hand places wooden spoon into organizer",
+      "summary": "right hand lays long cooking tools along the drawer side",
+      "verb": "place",
+      "object": "kitchen tool",
+      "tool": null,
+      "target": "organizer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 129.47,
+      "end": 131.02,
+      "old_summary": "hand places spatula into organizer",
+      "summary": "right hand returns another black-handled tool",
+      "verb": "place",
+      "object": "kitchen tool",
+      "tool": null,
+      "target": "organizer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 131.02,
+      "end": 133.1,
+      "old_summary": "hand places utensils into the organizer",
+      "summary": "right hand places the metal spatula into the side compartment",
+      "verb": "place",
+      "object": "metal spatula",
+      "tool": null,
+      "target": "organizer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.1,
+      "end": 138.39,
+      "old_summary": "hand places measuring spoons in organizer",
+      "summary": "both hands position the peeler and shift nearby utensils",
+      "verb": "position",
+      "object": "peeler",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 138.39,
+      "end": 143.13,
+      "old_summary": "hand places measuring spoons into the organizer",
+      "summary": "left hand places nested measuring cups into the organizer",
+      "verb": "place",
+      "object": "measuring cups",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 143.13,
+      "end": 145.67,
+      "old_summary": "hands place a green object into the organizer",
+      "summary": "left hand returns the green kitchen thermometer",
+      "verb": "place",
+      "object": "kitchen thermometer",
+      "tool": null,
+      "target": "organizer",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 145.67,
+      "end": 149.42,
+      "old_summary": "hand places utensil into organizer",
+      "summary": "both hands rearrange tools beside the measuring cups",
+      "verb": "arrange",
+      "object": "kitchen tool",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "kitchen tool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 149.42,
+      "end": 151.88,
+      "old_summary": "right hand places a utensil into the organizer",
+      "summary": "both hands adjust the tools in the side compartments",
+      "verb": "adjust",
+      "object": "kitchen tool",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 151.88,
+      "end": 153.75,
+      "old_summary": "hand places a utensil into the organizer",
+      "summary": "both hands reposition the peeler beside the measuring cups",
+      "verb": "position",
+      "object": "peeler",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "peeler"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 153.75,
+      "end": 156.49,
+      "old_summary": "hand picks up a strainer from the counter",
+      "summary": "both hands settle the peeler and adjacent tools",
+      "verb": "arrange",
+      "object": "peeler",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 156.49,
+      "end": 159.73,
+      "old_summary": "hand places spatula into organizer",
+      "summary": "left hand gathers wooden utensils and measuring spoons",
+      "verb": "pick up",
+      "object": "wooden utensil",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "wooden utensil",
+          "measuring spoons"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 159.73,
+      "end": 162.91,
+      "old_summary": "hand places wooden spatula into drawer organizer",
+      "summary": "right hand arranges small measuring utensils in the organizer",
+      "verb": "arrange",
+      "object": "measuring spoons",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wooden utensil",
+          "measuring spoons"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 162.91,
+      "end": 166.12,
+      "old_summary": "hands place a measuring spoon into the organizer",
+      "summary": "both hands nest measuring spoons together in the drawer",
+      "verb": "nest",
+      "object": "measuring spoons",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring spoons"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 166.12,
+      "end": 166.2,
+      "old_summary": "hand places a spoon into the organizer",
+      "summary": "right hand reaches toward the counter utensils",
+      "verb": "reach",
+      "object": "strainer",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited 0.08s boundary within the continuous reach for the strainer around t=166.12–166.20s; retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 166.2,
+      "end": 168.58,
+      "old_summary": "hand places strainer into organizer",
+      "summary": "right hand places the strainer into the organizer",
+      "verb": "place",
+      "object": "strainer",
+      "tool": null,
+      "target": "organizer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 168.58,
+      "end": 175.36,
+      "old_summary": "hands place spoons into the organizer",
+      "summary": "both hands return and arrange the serving spoons",
+      "verb": "place",
+      "object": "serving spoon",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "serving spoon"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes touching chopsticks t=169–170s, then collecting serving spoons t=171s and placing them t=173–175s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 175.36,
+      "end": 179.11,
+      "old_summary": "hand picks up spoon from countertop",
+      "summary": "both hands straighten the serving spoons in their compartment",
+      "verb": "arrange",
+      "object": "serving spoon",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 179.11,
+      "end": 181.81,
+      "old_summary": "hand places knife into organizer",
+      "summary": "left hand moves a small metal kitchen tool into the drawer",
+      "verb": "place",
+      "object": "kitchen tool",
+      "tool": null,
+      "target": "organizer",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 181.81,
+      "end": 186.7,
+      "old_summary": "hands place utensils into the organizer",
+      "summary": "both hands fit the small utensil cup into the organizer",
+      "verb": "place",
+      "object": "utensil cup",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 186.7,
+      "end": 187.32,
+      "old_summary": "hand places a fork into the organizer",
+      "summary": "right hand adjusts the utensil cup in its compartment",
+      "verb": "adjust",
+      "object": "utensil cup",
+      "tool": null,
+      "target": "organizer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuous utensil-cup adjustment across boundaries around t=186.7–187.32s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 187.32,
+      "end": 190.62,
+      "old_summary": "hand places a measuring cup into the organizer",
+      "summary": "right hand shifts the cup and adjacent tools",
+      "verb": "arrange",
+      "object": "utensil cup",
+      "tool": null,
+      "target": "organizer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 190.62,
+      "end": 194.47,
+      "old_summary": "left hand places white spoon into organizer, right hand places wooden spoon into organizer",
+      "summary": "both hands pick up the remaining paddles and wooden utensils",
+      "verb": "pick up",
+      "object": "rice paddle",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "rice paddle"
+        ],
+        "right": [
+          "wooden utensil"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 194.47,
+      "end": 196.86,
+      "old_summary": "hands place a white spatula into the organizer",
+      "summary": "both hands place the paddles and wooden utensils into compartments",
+      "verb": "place",
+      "object": "rice paddle",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 196.86,
+      "end": 203.7,
+      "old_summary": "hands place forks into the organizer",
+      "summary": "both hands collect and align the forks",
+      "verb": "align",
+      "object": "fork",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "fork"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 203.7,
+      "end": 211.36,
+      "old_summary": "hands place forks into the organizer",
+      "summary": "both hands arrange the forks in the lower compartment",
+      "verb": "arrange",
+      "object": "fork",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 211.36,
+      "end": 216.52,
+      "old_summary": "hands place knives into the organizer",
+      "summary": "both hands gather table knives from the counter",
+      "verb": "pick up",
+      "object": "table knife",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "table knife"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 216.52,
+      "end": 225.0,
+      "old_summary": "hands place spoons into the organizer",
+      "summary": "both hands align the knives in an organizer compartment",
+      "verb": "arrange",
+      "object": "table knife",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 225.0,
+      "end": 241.58,
+      "old_summary": "hands place spoons into the organizer",
+      "summary": "both hands collect and arrange spoons in the organizer",
+      "verb": "arrange",
+      "object": "spoon",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 241.58,
+      "end": 248.89,
+      "old_summary": "hands place spoons into the organizer",
+      "summary": "both hands nest and straighten the remaining spoons",
+      "verb": "arrange",
+      "object": "spoon",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 248.89,
+      "end": 253.79,
+      "old_summary": "hands place tongs into the organizer",
+      "summary": "both hands align the spoons before reaching for chopsticks",
+      "verb": "arrange",
+      "object": "spoon",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chopsticks"
+        ],
+        "right": [
+          "chopsticks"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Begins with spoon adjustment before chopsticks are collected at t=250–253s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 253.79,
+      "end": 261.65,
+      "old_summary": "hands place utensils into the organizer",
+      "summary": "both hands straighten chopsticks inside the organizer",
+      "verb": "arrange",
+      "object": "chopsticks",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 261.65,
+      "end": 266.52,
+      "old_summary": "hands place wooden utensils into the organizer",
+      "summary": "both hands gather the remaining chopsticks from the counter",
+      "verb": "pick up",
+      "object": "chopsticks",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes picking up chopsticks t=262–263s and placing/alignment t=264–266s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 266.52,
+      "end": 282.31,
+      "old_summary": "hands adjust utensils in the organizer",
+      "summary": "both hands align chopsticks and adjust neighboring utensils",
+      "verb": "arrange",
+      "object": "chopsticks",
+      "tool": null,
+      "target": "organizer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 282.31,
+      "end": 285.22,
+      "old_summary": "hands close the utensil drawer",
+      "summary": "both hands push the organized drawer closed",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 37.79,
+      "fine_index_range": [
+        0,
+        13
+      ],
+      "instruction": "Remove the cooking and measuring tools",
+      "description": "The drawer is opened and the small utensil cup, measuring cups, strainer, whisk, cooking tools, paddles, and measuring spoons are laid on the counter.",
+      "goal_contribution": "Clears the larger items for cleaning and organizer installation.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 37.79,
+      "end": 63.2,
+      "fine_index_range": [
+        14,
+        18
+      ],
+      "instruction": "Empty the remaining cutlery",
+      "description": "Serving spoons, table spoons, forks, and chopsticks are collected and grouped on the counter.",
+      "goal_contribution": "Leaves the drawer base empty.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After removing cooking tools, the remaining cutlery should be emptied."
+    },
+    {
+      "start": 63.2,
+      "end": 80.57,
+      "fine_index_range": [
+        19,
+        21
+      ],
+      "instruction": "Wipe the drawer interior",
+      "description": "A folded gray cloth wipes the base and corners; the cloth is folded away and the base checked with the hand.",
+      "goal_contribution": "Provides a clean surface for the organizer.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The empty drawer is ready to wipe clean."
+    },
+    {
+      "start": 80.57,
+      "end": 115.01,
+      "fine_index_range": [
+        22,
+        27
+      ],
+      "instruction": "Fit the compartment organizer",
+      "description": "The gray organizer and separate long trays are examined, positioned in the drawer, and adjusted until they sit together.",
+      "goal_contribution": "Creates the compartments for systematic storage.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The cleaned drawer is ready for its organizer."
+    },
+    {
+      "start": 115.01,
+      "end": 156.49,
+      "fine_index_range": [
+        28,
+        40
+      ],
+      "instruction": "Return the large kitchen tools",
+      "description": "The bench scraper, black-handled tools, long utensils, metal spatula, measuring cups, thermometer, and peeler are placed and repositioned.",
+      "goal_contribution": "Allocates the larger and irregular tools to the side and deep compartments.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "With compartments fitted, the removed tools can be returned."
+    },
+    {
+      "start": 156.49,
+      "end": 196.86,
+      "fine_index_range": [
+        41,
+        53
+      ],
+      "instruction": "Store measuring and serving utensils",
+      "description": "Measuring spoons, strainer, serving utensils, small utensil cup, paddles, and wooden utensils are fitted into their compartments.",
+      "goal_contribution": "Completes storage of cooking accessories.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Remaining measuring and serving pieces need their places."
+    },
+    {
+      "start": 196.86,
+      "end": 248.89,
+      "fine_index_range": [
+        54,
+        59
+      ],
+      "instruction": "Sort forks, knives, and spoons",
+      "description": "Forks, knives, and spoons are gathered in turn and nested or aligned in separate compartments.",
+      "goal_contribution": "Makes the everyday cutlery easier to retrieve.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The table cutlery still needs sorting into compartments."
+    },
+    {
+      "start": 248.89,
+      "end": 285.22,
+      "fine_index_range": [
+        60,
+        64
+      ],
+      "instruction": "Finish the chopsticks and close the drawer",
+      "description": "The chopsticks are gathered, aligned alongside the cutlery, nearby utensils are adjusted, and the drawer is closed.",
+      "goal_contribution": "Finishes the organized drawer and clears the counter.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The remaining chopsticks can be placed before closing the drawer."
+    }
+  ],
+  "notes": "Reviewed nine overview sheets, all 1088 dense frames and all 65 native endpoints. Fine boundaries preserved, including two very short continuous adjustments. Some small black-handled tool subtypes remain visually uncertain and are named conservatively. Remaining 0.314s after the last fine end shows the closed drawer."
+}

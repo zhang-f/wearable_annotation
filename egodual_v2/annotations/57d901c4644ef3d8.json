@@ -1,0 +1,752 @@
+{
+  "video_id": "57d901c4644ef3d8",
+  "duration": 261.934,
+  "task": "Making quick microwave chocolate pudding",
+  "domain": "Chef",
+  "query": "How do I make quick microwave chocolate pudding?",
+  "goal": {
+    "title": "Make quick microwave chocolate pudding",
+    "description": "Retrieve a dark mixing bowl from an upper cabinet and carry it to a counter already stocked with cocoa powder, milk, a dish towel and a measuring spoon. Tear open the cocoa box, stir cocoa powder and a second dry ingredient into the bowl, then add milk in two additions while stirring until the batter is smooth. Carry the bowl to the microwave, cook it for roughly a minute and a half, then bring it back to the counter and stir the heated mixture until it thickens into a finished chocolate pudding.",
+    "final_state": "A smooth brown chocolate pudding sits mixed in the dark bowl at the counter; it has not been plated, tasted, or put away by the end of the video.",
+    "procedure": [
+      "Retrieve a bowl and bring it to the ingredients on the counter.",
+      "Open the cocoa package and add cocoa and the visible pale dry ingredient to the bowl.",
+      "Add milk and stir, adding more milk while mixing.",
+      "Carry the mixture to the microwave and heat it.",
+      "Remove the bowl and stir the heated brown mixture at the counter."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 17.5,
+      "description": "Retrieve the mixing bowl from the cabinet and arrange it with the ingredients on the counter."
+    },
+    {
+      "start": 17.5,
+      "end": 54.73,
+      "description": "Open the cocoa box and mix cocoa powder, a second dry ingredient and milk into a batter."
+    },
+    {
+      "start": 54.73,
+      "end": 107.6,
+      "description": "Continue stirring the batter, then carry it to the microwave and start cooking."
+    },
+    {
+      "start": 107.6,
+      "end": 189.6,
+      "description": "Wait for the microwave to finish cooking the pudding."
+    },
+    {
+      "start": 189.6,
+      "end": 261.57,
+      "description": "Remove the pudding from the microwave and stir it smooth at the counter."
+    }
+  ],
+  "object_inventory": [
+    "mixing bowl",
+    "cocoa powder",
+    "milk",
+    "pudding mixture",
+    "measuring spoon",
+    "dish towel",
+    "microwave",
+    "cabinet",
+    "counter"
+  ],
+  "notes": "Dense 3-8fps contact sheets and a sparse long-step sheet reviewed for all 26 fine steps plus two full-video overview sheets. Steps 8-9 (t=26.5-31.6s) show a white cup pouring a pale granular ingredient into the bowl; it could not be visually confirmed as a second dose of cocoa powder versus sugar or another dry ingredient, so it is recorded as cocoa powder with ambiguous=true/confidence=low rather than guessed. Step 15 (53.9-54.73s, 0.83s) is a very short hand-transition whose released item is not clearly resolved. Steps 18 (0.3s) and 19 are short/compound transit-and-place segments while moving to the microwave; boundary_note documents the compound actions rather than altering the human-cut boundaries. Fine track ends 0.36s before ffprobe_duration (261.934s); the gap is a static shot of the finished pudding bowl at the counter, well under the 1s threshold for a tail note.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "summary": "reach for the kitchen cabinet",
+      "verb": "reach for",
+      "object": "cabinet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand touches cabinet knob",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 1.0,
+      "end": 2.2,
+      "summary": "open the cabinet door",
+      "verb": "open",
+      "object": "cabinet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand turns cabinet knob",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 2.2,
+      "end": 3.6,
+      "summary": "reach into the cabinet for the mixing bowl",
+      "verb": "reach for",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "hand enters the upper shelf toward a dark bowl; the grasp is not yet complete at segment end",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand removes a black mixing bowl from the cabinet",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 3.6,
+      "end": 8.34,
+      "summary": "take the mixing bowl and close the cabinet",
+      "verb": "pick up",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=3.6-4.0 grasps the bowl and shuts the cabinet door; t=4.3-8.3 walks across the kitchen carrying the bowl low out of frame",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand places mixing bowl on counter",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.34,
+      "end": 17.5,
+      "summary": "set the mixing bowl and supplies on the counter",
+      "verb": "place",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=8.3-9.3 sets the bowl beside the paper towel roll and cocoa box already on the counter; t=9.3-17.5 nudges the dish towel and other items into place",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand tears open cocoa powder bag",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.5,
+      "end": 18.34,
+      "summary": "pick up the cocoa powder box",
+      "verb": "pick up",
+      "object": "cocoa powder",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cocoa powder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up spoon",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.34,
+      "end": 22.02,
+      "summary": "tear open the cocoa powder box",
+      "verb": "open",
+      "object": "cocoa powder",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cocoa powder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "opens the inner foil pouch t=18.3-22",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pours cocoa powder from bag into bowl using spoon",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.02,
+      "end": 26.5,
+      "summary": "pour cocoa powder into the mixing bowl",
+      "verb": "pour",
+      "object": "cocoa powder",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cocoa powder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pours cocoa powder from bag into spoon then into bowl",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.5,
+      "end": 30.0,
+      "summary": "add more cocoa powder to the mixing bowl",
+      "verb": "pour",
+      "object": "cocoa powder",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cocoa powder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "pours from a small white cup; could be additional cocoa powder or a different dry ingredient, not legible",
+      "confidence": "low",
+      "notes": "",
+      "old_summary": "hand pours sugar from measuring spoon into bowl",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.0,
+      "end": 31.6,
+      "summary": "stir the dry ingredients with the measuring spoon",
+      "verb": "stir",
+      "object": "cocoa powder",
+      "tool": "measuring spoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand places spoon down next to bowl",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.6,
+      "end": 36.59,
+      "summary": "pour milk into the mixing bowl",
+      "verb": "pour",
+      "object": "milk",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "milk"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand stirs cocoa powder and sugar in bowl with spoon",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 36.59,
+      "end": 40.42,
+      "summary": "stir the pudding mixture with the measuring spoon",
+      "verb": "stir",
+      "object": "pudding mixture",
+      "tool": "measuring spoon",
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "milk"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "left hand holds the milk carton ready while the right hand stirs",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand stirs cocoa powder and sugar in bowl with spoon",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.42,
+      "end": 44.5,
+      "summary": "continue stirring the pudding mixture",
+      "verb": "stir",
+      "object": "pudding mixture",
+      "tool": "measuring spoon",
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "milk"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand stirs cocoa powder and sugar in bowl with spoon",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.5,
+      "end": 48.7,
+      "summary": "pour more milk into the pudding mixture",
+      "verb": "pour",
+      "object": "milk",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "milk"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pours milk from carton into bowl",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.7,
+      "end": 53.9,
+      "summary": "wipe the dish towel while stirring the mixture",
+      "verb": "wipe",
+      "object": "dish towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "dish towel"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "left hand lifts the dotted dish towel near the bowl rim while the right hand keeps stirring",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pours milk from carton into bowl",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 53.9,
+      "end": 54.73,
+      "summary": "set the dish towel aside",
+      "verb": "put down",
+      "object": "dish towel",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "0.83s transition; the exact item released is not clearly resolved",
+      "confidence": "low",
+      "notes": "",
+      "old_summary": "hand places milk carton down",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.73,
+      "end": 100.7,
+      "summary": "stir the pudding mixture continuously",
+      "verb": "stir",
+      "object": "pudding mixture",
+      "tool": "measuring spoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "continuous stirring motion for about 46 seconds with no object changes observed",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand stirs the mixture with a spoon",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 100.7,
+      "end": 103.9,
+      "summary": "pick up the mixing bowl from the counter",
+      "verb": "pick up",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand places bowl into microwave",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 103.9,
+      "end": 104.2,
+      "summary": "carry the mixing bowl toward the microwave",
+      "verb": "move",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "very short 0.3s transition while walking toward the microwave",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand places bowl into microwave",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.2,
+      "end": 107.6,
+      "summary": "place the mixing bowl inside the microwave",
+      "verb": "place",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=104.2-106 sets the bowl on the turntable; t=106-107.6 closes the door and presses buttons to start",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand presses buttons on microwave",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.6,
+      "end": 189.6,
+      "summary": "idle: wait for the microwave to finish",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "hand rests near the counter and microwave for about 82 seconds while it runs; no task-object interaction",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand rests on countertop beside microwave",
+      "beyond_video_end": false,
+      "transition_in": "NONE"
+    },
+    {
+      "start": 189.6,
+      "end": 195.12,
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand opens microwave door",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 195.12,
+      "end": 201.1,
+      "summary": "take the mixing bowl out of the microwave",
+      "verb": "remove",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand places bowl on counter",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 201.1,
+      "end": 214.2,
+      "summary": "carry the bowl to the counter and stir the pudding",
+      "verb": "stir",
+      "object": "pudding mixture",
+      "tool": "measuring spoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=201-203 carries the bowl from the microwave to the counter; t=203-214.2 stirs the heated pudding",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand stirs pudding in bowl",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 214.2,
+      "end": 250.71,
+      "summary": "stir the pudding mixture continuously",
+      "verb": "stir",
+      "object": "pudding mixture",
+      "tool": "measuring spoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "continuous stirring for about 36 seconds, briefly lifting and turning the bowl with both hands around t=228-230",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand stirs pudding in bowl with spoon",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 250.71,
+      "end": 261.57,
+      "summary": "give the pudding a final stir",
+      "verb": "stir",
+      "object": "pudding mixture",
+      "tool": "measuring spoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand stirs pudding in bowl with spoon",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 17.5,
+      "fine_index_range": [
+        0,
+        4
+      ],
+      "instruction": "Get the mixing bowl and set up ingredients",
+      "description": "Retrieve the dark mixing bowl from the cabinet and arrange it with the cocoa powder, milk, dish towel and spoon on the counter.",
+      "transition_in": null,
+      "goal_contribution": "Provides the mixing vessel beside the ingredients.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 17.5,
+      "end": 36.59,
+      "fine_index_range": [
+        5,
+        10
+      ],
+      "instruction": "Mix the dry ingredients with milk",
+      "description": "Open the cocoa box, stir cocoa powder and a second dry ingredient into the bowl, then pour in milk to start forming a batter.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Combines the dry ingredients with liquid to begin the mixture.",
+      "predictability_level": "strong",
+      "predictability_reason": "The bowl and ingredients are ready for mixing the pudding base."
+    },
+    {
+      "start": 36.59,
+      "end": 100.7,
+      "fine_index_range": [
+        11,
+        16
+      ],
+      "instruction": "Stir the mixture into a smooth batter",
+      "description": "Add more milk and continue stirring, pausing to handle the dish towel, until the batter is smooth.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Blends the ingredients before heating.",
+      "predictability_level": "strong",
+      "predictability_reason": "The partly combined ingredients need stirring smooth."
+    },
+    {
+      "start": 100.7,
+      "end": 189.6,
+      "fine_index_range": [
+        17,
+        20
+      ],
+      "instruction": "Microwave the pudding mixture",
+      "description": "Carry the bowl to the microwave, place it inside, start the microwave and wait for it to finish cooking.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Heats the mixed ingredients in the bowl.",
+      "predictability_level": "strong",
+      "predictability_reason": "Smooth pudding batter is ready to microwave."
+    },
+    {
+      "start": 189.6,
+      "end": 261.57,
+      "fine_index_range": [
+        21,
+        25
+      ],
+      "instruction": "Finish the pudding after microwaving",
+      "description": "Remove the hot bowl from the microwave, carry it back to the counter and stir the mixture into a finished chocolate pudding.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Mixes the heated pudding mixture for its final consistency.",
+      "predictability_level": "strong",
+      "predictability_reason": "The cooked pudding needs removing and a final stir."
+    }
+  ]
+}

@@ -1,0 +1,1117 @@
+{
+  "video_id": "6d839f832037b10b",
+  "duration": 171.2,
+  "task": "Installing a wall-mounted hand sanitizer holder",
+  "domain": "Handyman",
+  "query": "How do I install a wall-mounted hand sanitizer holder?",
+  "goal": {
+    "title": "Install a wire holder for a pump bottle on a cabinet door",
+    "description": "Retrieve a tape measure, small hardware and hammer from the cabinet. Measure a position on the closed door and try driving a nail near the hanging towel. Reopen the cabinet, remeasure the door and secure the wire hook at the revised position with the hammer. Hang the green-liquid pump bottle on the hook, adjust its neck and test the pump repeatedly. Remove the bottle, reinforce the hook with additional hammer taps and hang the bottle again.",
+    "final_state": "The pump bottle hangs from the wire holder on the cabinet door and its pump is pressed again.",
+    "procedure": [
+      "Gather the tape measure and hammer and measure the door.",
+      "Try the initial nail position and remeasure the mounting location.",
+      "Hammer the wire holder onto the door.",
+      "Hang the bottle and test its pump.",
+      "Reinforce the holder and hang the bottle again."
+    ]
+  },
+  "object_inventory": [
+    "tape measure",
+    "hammer",
+    "nail",
+    "wire hook",
+    "cabinet door",
+    "pump bottle",
+    "cabinet shelf"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 29.97,
+      "description": "Retrieve small hardware and the tape measure, close the door and measure vertically before collecting the hammer."
+    },
+    {
+      "start": 29.97,
+      "end": 47.25,
+      "description": "Hold the nail against the door below the towel, hammer it and bring the wire hook to the door."
+    },
+    {
+      "start": 47.25,
+      "end": 78.18,
+      "description": "Measure the door repeatedly, including a measurement from lower down, then return the tape measure to the cabinet."
+    },
+    {
+      "start": 78.18,
+      "end": 108.96,
+      "description": "Bring the hammer and nail back to the door, position the wire hook and repeatedly tap its fastener before putting the hammer away."
+    },
+    {
+      "start": 108.96,
+      "end": 157.28,
+      "description": "Hang the bottle on the hook, adjust it and repeatedly press its pump above the palm; remove and rehang the bottle while checking its support."
+    },
+    {
+      "start": 157.28,
+      "end": 170.18,
+      "description": "Put the bottle aside, hammer the holder fastener again, return the hammer and hang and operate the bottle once more."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 0.78,
+      "old_summary": "hand picks up tape measure",
+      "summary": "pick up a nail",
+      "verb": "pick up",
+      "object": "nail",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "nail"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": null
+    },
+    {
+      "start": 0.78,
+      "end": 3.03,
+      "old_summary": "hand retrieves a tape measure from a cabinet",
+      "summary": "pick up the tape measure",
+      "verb": "pick up",
+      "object": "tape measure",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 3.03,
+      "end": 4.6,
+      "old_summary": "hand pulls tape from tape measure",
+      "summary": "pull out the measuring tape",
+      "verb": "extend",
+      "object": "tape measure",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape measure"
+        ],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 4.6,
+      "end": 6.29,
+      "old_summary": "hand places tape measure against wall",
+      "summary": "push the cabinet door closed",
+      "verb": "close",
+      "object": "cabinet door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.29,
+      "end": 10.28,
+      "old_summary": "hand holds tape measure against wall",
+      "summary": "move around the cabinet door holding the tape measure",
+      "verb": "move",
+      "object": "tape measure",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.28,
+      "end": 12.78,
+      "old_summary": "hand holds tape measure near door frame",
+      "summary": "hold the door closed by its knob",
+      "verb": "close",
+      "object": "cabinet door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.78,
+      "end": 18.39,
+      "old_summary": "hand holds tape measure against wall",
+      "summary": "measure vertically along the cabinet door",
+      "verb": "measure",
+      "object": "cabinet door",
+      "tool": "tape measure",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape measure"
+        ],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 18.39,
+      "end": 23.77,
+      "old_summary": "hand retracts tape measure from wall",
+      "summary": "retract and lower the measuring tape",
+      "verb": "retract",
+      "object": "tape measure",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.77,
+      "end": 26.53,
+      "old_summary": "hand retrieves a tape measure from a cabinet",
+      "summary": "put the tape measure on the cabinet shelf",
+      "verb": "put down",
+      "object": "tape measure",
+      "tool": null,
+      "target": "cabinet shelf",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.53,
+      "end": 29.97,
+      "old_summary": "hand picks up a tape measure from a cabinet shelf",
+      "summary": "take the hammer and nail",
+      "verb": "pick up",
+      "object": "hammer",
+      "tool": null,
+      "target": "nail",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "nail"
+        ],
+        "right": [
+          "hammer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 29.97,
+      "end": 35.46,
+      "old_summary": "hand hammers a nail into the wall",
+      "summary": "position the nail and tap it with the hammer",
+      "verb": "hammer",
+      "object": "nail",
+      "tool": "hammer",
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "nail"
+        ],
+        "right": [
+          "hammer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.46,
+      "end": 39.06,
+      "old_summary": "hand hammers nail into wall",
+      "summary": "continue hammering the nail into the door",
+      "verb": "hammer",
+      "object": "nail",
+      "tool": "hammer",
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "nail"
+        ],
+        "right": [
+          "hammer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.06,
+      "end": 43.94,
+      "old_summary": "hand hammers nail into wall",
+      "summary": "pick up the wire hook from the shelf",
+      "verb": "pick up",
+      "object": "wire hook",
+      "tool": null,
+      "target": "cabinet shelf",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wire hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.94,
+      "end": 47.25,
+      "old_summary": "hand picks up a nail",
+      "summary": "position the wire hook against the door",
+      "verb": "position",
+      "object": "wire hook",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.25,
+      "end": 53.21,
+      "old_summary": "hand holds tape measure against wall",
+      "summary": "measure the cabinet door again",
+      "verb": "measure",
+      "object": "cabinet door",
+      "tool": "tape measure",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape measure"
+        ],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 53.21,
+      "end": 62.36,
+      "old_summary": "hand marks wall with pencil using tape measure",
+      "summary": "hold the tape against the door and read it",
+      "verb": "measure",
+      "object": "cabinet door",
+      "tool": "tape measure",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape measure"
+        ],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.36,
+      "end": 78.18,
+      "old_summary": "hand puts tape measure into cabinet",
+      "summary": "measure another position on the cabinet door",
+      "verb": "measure",
+      "object": "cabinet door",
+      "tool": "tape measure",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.18,
+      "end": 83.16,
+      "old_summary": "hand holds a nail against the wall",
+      "summary": "retrieve the hammer and position the nail",
+      "verb": "position",
+      "object": "nail",
+      "tool": "hammer",
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "nail"
+        ],
+        "right": [
+          "hammer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 83.16,
+      "end": 86.28,
+      "old_summary": "hand hammers nail into wall",
+      "summary": "hammer the nail into the door",
+      "verb": "hammer",
+      "object": "nail",
+      "tool": "hammer",
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "nail"
+        ],
+        "right": [
+          "hammer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.28,
+      "end": 91.78,
+      "old_summary": "hand hammers nail into wall",
+      "summary": "position the wire hook around the nail",
+      "verb": "position",
+      "object": "wire hook",
+      "tool": null,
+      "target": "nail",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "wire hook"
+        ],
+        "right": [
+          "hammer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 91.78,
+      "end": 104.2,
+      "old_summary": "hand hammers a nail into the wall",
+      "summary": "hammer the hook fastener into the door",
+      "verb": "hammer",
+      "object": "nail",
+      "tool": "hammer",
+      "target": "wire hook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wire hook"
+        ],
+        "right": [
+          "hammer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.2,
+      "end": 108.96,
+      "old_summary": "hand hammers nail into wall",
+      "summary": "put the hammer on the cabinet shelf",
+      "verb": "put down",
+      "object": "hammer",
+      "tool": null,
+      "target": "cabinet shelf",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 108.96,
+      "end": 111.17,
+      "old_summary": "hand presses pump on sanitizer bottle",
+      "summary": "lift the pump bottle onto the hook",
+      "verb": "hang",
+      "object": "pump bottle",
+      "tool": null,
+      "target": "wire hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pump bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 111.17,
+      "end": 115.07,
+      "old_summary": "hand presses the sanitizer dispenser",
+      "summary": "adjust the hanging bottle and its pump",
+      "verb": "adjust",
+      "object": "pump bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pump bottle"
+        ],
+        "right": [
+          "pump bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.07,
+      "end": 117.56,
+      "old_summary": "hand presses the sanitizer dispenser",
+      "summary": "press the pump above the open palm",
+      "verb": "press",
+      "object": "pump bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.56,
+      "end": 122.51,
+      "old_summary": "hand presses sanitizer dispenser",
+      "summary": "idle: rub hands and turn towards the cabinet",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 122.51,
+      "end": 126.25,
+      "old_summary": "hand presses pump on sanitizer bottle",
+      "summary": "test the pump on the hanging bottle",
+      "verb": "press",
+      "object": "pump bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 126.25,
+      "end": 132.74,
+      "old_summary": "hand presses the hand sanitizer dispenser",
+      "summary": "press the pump above the open palm",
+      "verb": "press",
+      "object": "pump bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 132.74,
+      "end": 139.4,
+      "old_summary": "hand dispenses sanitizer from the holder",
+      "summary": "idle: rub hands and gesture beside the door",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 139.4,
+      "end": 144.45,
+      "old_summary": "hand presses the hand sanitizer dispenser",
+      "summary": "lift the bottle off the hook and rehang it",
+      "verb": "hang",
+      "object": "pump bottle",
+      "tool": null,
+      "target": "wire hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 144.45,
+      "end": 149.43,
+      "old_summary": "hand presses the sanitizer dispenser",
+      "summary": "adjust the bottle on the wire hook",
+      "verb": "adjust",
+      "object": "pump bottle",
+      "tool": null,
+      "target": "wire hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pump bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 149.43,
+      "end": 152.0,
+      "old_summary": "hand presses the hand sanitizer dispenser",
+      "summary": "press the bottle pump again",
+      "verb": "press",
+      "object": "pump bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 152.0,
+      "end": 153.38,
+      "old_summary": "hand presses the sanitizer dispenser",
+      "summary": "idle: release the bottle and pause",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 153.38,
+      "end": 155.52,
+      "old_summary": "hand removes hand sanitizer from wall holder",
+      "summary": "lift the bottle off the wire hook",
+      "verb": "remove",
+      "object": "pump bottle",
+      "tool": null,
+      "target": "wire hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pump bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 155.52,
+      "end": 157.28,
+      "old_summary": "hand presses pump on sanitizer bottle",
+      "summary": "adjust the bottle neck beneath the pump",
+      "verb": "adjust",
+      "object": "pump bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pump bottle"
+        ],
+        "right": [
+          "pump bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 157.28,
+      "end": 159.66,
+      "old_summary": "hand presses the hand sanitizer dispenser",
+      "summary": "put down the bottle and retrieve the hammer",
+      "verb": "pick up",
+      "object": "hammer",
+      "tool": null,
+      "target": "cabinet shelf",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hammer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 159.66,
+      "end": 164.64,
+      "old_summary": "hand hammers nail into wall",
+      "summary": "tap the wire hook fastener with the hammer",
+      "verb": "hammer",
+      "object": "nail",
+      "tool": "hammer",
+      "target": "wire hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hammer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 164.64,
+      "end": 166.18,
+      "old_summary": "hand picks up a bottle from the cabinet",
+      "summary": "put the hammer back on the shelf",
+      "verb": "put down",
+      "object": "hammer",
+      "tool": null,
+      "target": "cabinet shelf",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 166.18,
+      "end": 167.38,
+      "old_summary": "hand dispenses sanitizer from the bottle",
+      "summary": "pick up the pump bottle again",
+      "verb": "pick up",
+      "object": "pump bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pump bottle"
+        ],
+        "right": [
+          "pump bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small hardware or endpoint grip is partly occluded.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 167.38,
+      "end": 170.18,
+      "old_summary": "hand presses the sanitizer dispenser",
+      "summary": "rehang the bottle and press its pump",
+      "verb": "hang",
+      "object": "pump bottle",
+      "tool": null,
+      "target": "wire hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 29.97,
+      "fine_index_range": [
+        0,
+        9
+      ],
+      "instruction": "Measure the door and gather the mounting tools.",
+      "description": "Retrieve small hardware and the tape measure, close the door and measure vertically before collecting the hammer.",
+      "goal_contribution": "Establish an initial mounting location and collect the tools needed to attach the holder.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 29.97,
+      "end": 47.25,
+      "fine_index_range": [
+        10,
+        13
+      ],
+      "instruction": "Try the initial fastener position.",
+      "description": "Hold the nail against the door below the towel, hammer it and bring the wire hook to the door.",
+      "goal_contribution": "Try the first mounting point before revising its position.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Measured door and gathered tools lead to an initial fastening attempt."
+    },
+    {
+      "start": 47.25,
+      "end": 78.18,
+      "fine_index_range": [
+        14,
+        16
+      ],
+      "instruction": "Remeasure the holder position.",
+      "description": "Measure the door repeatedly, including a measurement from lower down, then return the tape measure to the cabinet.",
+      "goal_contribution": "Choose a revised location for mounting the bottle holder.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After the initial attempt, remeasuring is plausible if placement remains uncertain."
+    },
+    {
+      "start": 78.18,
+      "end": 108.96,
+      "fine_index_range": [
+        17,
+        21
+      ],
+      "instruction": "Secure the wire hook to the door.",
+      "description": "Bring the hammer and nail back to the door, position the wire hook and repeatedly tap its fastener before putting the hammer away.",
+      "goal_contribution": "Attach the holder that will support the pump bottle.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "With position checked, the wire hook can be secured."
+    },
+    {
+      "start": 108.96,
+      "end": 157.28,
+      "fine_index_range": [
+        22,
+        34
+      ],
+      "instruction": "Hang and test the pump bottle.",
+      "description": "Hang the bottle on the hook, adjust it and repeatedly press its pump above the palm; remove and rehang the bottle while checking its support.",
+      "goal_contribution": "Check that the installed holder supports the bottle and permits operating its pump.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "A mounted bottle holder is ready to test with the bottle."
+    },
+    {
+      "start": 157.28,
+      "end": 170.18,
+      "fine_index_range": [
+        35,
+        39
+      ],
+      "instruction": "Reinforce the hook and rehang the bottle.",
+      "description": "Put the bottle aside, hammer the holder fastener again, return the hammer and hang and operate the bottle once more.",
+      "goal_contribution": "Leave the bottle hanging on the reinforced holder.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "A test may reveal need for reinforcement, though it is not assured."
+    }
+  ],
+  "notes": "Viewed all six overview sheets, eleven dense 3/15 fps contact sheets and three native endpoint sheets. At t=32–39s an initial nail is hammered near the towel; at t=48–76s the door is measured again; t=83–104s shows fastening the wire holder; t=110–152s shows repeated bottle hanging and pumping; t=161–164s shows further hammer taps. Small hardware and some final grips are partly hidden. The source final boundary is 170.18s and true video duration is 171.2s; the remaining brief tail is not assigned a new step."
+}

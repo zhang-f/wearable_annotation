@@ -1,0 +1,36 @@
+{
+  "video_id": "296444079e07d511",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After arrange the jeans and prepare the iron, iron the first front section is a natural next stage toward iron and hang a pair of jeans."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After iron the first front section, iron the first rear section is a natural next stage toward iron and hang a pair of jeans."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After iron the first rear section, iron the other rear section is a natural next stage toward iron and hang a pair of jeans."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After iron the other rear section, iron the remaining front section is a natural next stage toward iron and hang a pair of jeans."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After iron the remaining front section, clip and hang the pressed jeans is a natural next stage toward iron and hang a pair of jeans."
+    }
+  ]
+}

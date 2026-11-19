@@ -1,0 +1,21 @@
+{
+  "video_id": "02481510e18faa48",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After a paper guideline, laying patterned tape is plausible but not directly necessary for drawing."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The patterned tape panel is ready for the stated face drawing."
+    }
+  ]
+}

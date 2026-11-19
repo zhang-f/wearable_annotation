@@ -1,0 +1,21 @@
+{
+  "video_id": "742dcf3b34e69665",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After wipe and position the spatula, coat the handle with purple paint is a natural next stage toward paint a wooden spatula handle purple."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After coat the handle with purple paint, remove the mask and clean the painting tools is plausible for paint a wooden spatula handle purple, but several next steps fit."
+    }
+  ]
+}

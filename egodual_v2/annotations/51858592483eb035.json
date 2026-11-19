@@ -1,0 +1,1753 @@
+{
+  "video_id": "51858592483eb035",
+  "duration": 234.667,
+  "task": "Making a chocolate peanut butter protein shake",
+  "domain": "Chef",
+  "query": "How do I make a chocolate peanut butter protein shake?",
+  "goal": {
+    "title": "Blend a peanut butter milk drink",
+    "description": "Set up a blender, measure milk into its pitcher and add spoonfuls of peanut butter and white supplement powder. Blend the mixture, pour it into a glass, rinse the equipment and drink from the glass.",
+    "final_state": "A glass of beige foamy drink remains partly filled on the counter after a sip; the pitcher and lid have been rinsed in the sink and the blender base moved back.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 14.14,
+        "description": "Pull the blender base forward, lift the pitcher, remove its lid and seat the pitcher on the base. Set the lid down, open the glassware cupboard, retrieve the Pyrex measuring cup, close that door and set the cup on the counter. Open a pantry cupboard."
+      },
+      {
+        "start": 14.14,
+        "end": 42.06,
+        "description": "Search through the pantry, lifting or shifting several tubs, bags, bottles and storage containers. Take out a mixed nuts tin and a large ingredient tub and set them beside the blender. Reposition the other pantry containers and close the doors. Neither of these two large containers is visibly opened or poured into the blender."
+      },
+      {
+        "start": 42.06,
+        "end": 60.88,
+        "description": "Open the adjacent cupboard and look through its contents. Briefly lift and replace a white-lid jar, move a small jar and retrieve the blue-lid peanut butter jar and black-green supplement tub. Put both on the counter, close the pantry, briefly open the glassware cupboard without taking another item, then retrieve the measuring cup and walk toward the refrigerator."
+      },
+      {
+        "start": 60.88,
+        "end": 83.2,
+        "description": "Open the refrigerator, remove the milk jug and return to the blender counter with the cup. Put the cup down, remove the red milk cap and pour milk into the cup. Replace the milk cap, return the jug to the refrigerator door shelf and close the door. Retrieve the measured milk and tip it into the blender pitcher."
+      },
+      {
+        "start": 83.2,
+        "end": 107.71,
+        "description": "Put the empty measuring cup down, pick up the peanut butter jar, unscrew its blue lid and set the lid down. Open the cutlery drawer and take a large spoon. Scoop a heaped spoonful and shake it repeatedly over the pitcher; scoop again and continue shaking until clumps fall into the milk. Carry the used spoon to the sink and leave it there."
+      },
+      {
+        "start": 107.71,
+        "end": 123.93,
+        "description": "Screw the blue lid onto the peanut butter jar. Open the pantry and return the unused large tub and mixed nuts tin, then close that cupboard. Open the adjacent cupboard and put the peanut butter away, close its door, pick up the supplement tub and walk to the drawer. Open the drawer and retrieve a clean smaller spoon."
+      },
+      {
+        "start": 123.93,
+        "end": 137.68,
+        "description": "Open the black-green supplement tub, scoop a spoonful of white powder and tip it into the blender. Replace and tighten the tub lid. Pick up the empty measuring cup while retaining the spoon and leave both in the sink. Carry the closed supplement tub to the pantry and place it on a shelf. The powder is white and the label appears to say creatine; its composition is not inferred from the task title."
+      },
+      {
+        "start": 137.68,
+        "end": 155.78,
+        "description": "Close the pantry and pick up the blender lid. Attempt to fit it, lift it away and reseat it, then press the handle down until secure. Move a metal canister aside to reach the power strip, handle the blender plug and press the power button. Press further controls; the liquid visibly begins churning around 155.1s."
+      },
+      {
+        "start": 155.78,
+        "end": 188.95,
+        "description": "Keep the left palm on the blender lid while the drink churns. Open the pantry again, look inside without retrieving anything, close both doors and briefly steady the lid again. Withdraw the hands and use a phone, including typing, while the blender continues. Lower the phone and press the blender control to stop it."
+      },
+      {
+        "start": 188.95,
+        "end": 203.84,
+        "description": "Manipulate the lid release and handle, lift the pitcher off the base and carry it to the sink counter with the lid resting on top. Put it down, open the glassware cupboard, take a tall ribbed drinking glass and close the door. Put the glass beside the pitcher, lift the blender lid off and leave the lid in the sink."
+      },
+      {
+        "start": 203.84,
+        "end": 221.41,
+        "description": "Hold the glass in the left hand and tilt the pitcher with the right, pouring the beige foamy drink into the glass. Set the filled glass down. Bring the pitcher into the sink, turn the faucet on and leave the pitcher under the stream. Retrieve the lid, rotate and tilt it under running water to rinse both sides, then lower it into the sink."
+      },
+      {
+        "start": 221.41,
+        "end": 234.667,
+        "description": "Rinse the hands, turn the tap off and dry them on the towel hanging from the oven. Return to the blender and slide its base back on the counter. Pick up the filled glass, raise it to the mouth, drink briefly, then lower and set it on the counter. The video ends with the glass still partly filled."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 14.14,
+      "description": "Pull the blender base forward, lift the pitcher, remove its lid and seat the pitcher on the base. Set the lid down, open the glassware cupboard, retrieve the Pyrex measuring cup, close that door and set the cup on the counter. Open a pantry cupboard."
+    },
+    {
+      "start": 14.14,
+      "end": 42.06,
+      "description": "Search through the pantry, lifting or shifting several tubs, bags, bottles and storage containers. Take out a mixed nuts tin and a large ingredient tub and set them beside the blender. Reposition the other pantry containers and close the doors. Neither of these two large containers is visibly opened or poured into the blender."
+    },
+    {
+      "start": 42.06,
+      "end": 60.88,
+      "description": "Open the adjacent cupboard and look through its contents. Briefly lift and replace a white-lid jar, move a small jar and retrieve the blue-lid peanut butter jar and black-green supplement tub. Put both on the counter, close the pantry, briefly open the glassware cupboard without taking another item, then retrieve the measuring cup and walk toward the refrigerator."
+    },
+    {
+      "start": 60.88,
+      "end": 83.2,
+      "description": "Open the refrigerator, remove the milk jug and return to the blender counter with the cup. Put the cup down, remove the red milk cap and pour milk into the cup. Replace the milk cap, return the jug to the refrigerator door shelf and close the door. Retrieve the measured milk and tip it into the blender pitcher."
+    },
+    {
+      "start": 83.2,
+      "end": 107.71,
+      "description": "Put the empty measuring cup down, pick up the peanut butter jar, unscrew its blue lid and set the lid down. Open the cutlery drawer and take a large spoon. Scoop a heaped spoonful and shake it repeatedly over the pitcher; scoop again and continue shaking until clumps fall into the milk. Carry the used spoon to the sink and leave it there."
+    },
+    {
+      "start": 107.71,
+      "end": 123.93,
+      "description": "Screw the blue lid onto the peanut butter jar. Open the pantry and return the unused large tub and mixed nuts tin, then close that cupboard. Open the adjacent cupboard and put the peanut butter away, close its door, pick up the supplement tub and walk to the drawer. Open the drawer and retrieve a clean smaller spoon."
+    },
+    {
+      "start": 123.93,
+      "end": 137.68,
+      "description": "Open the black-green supplement tub, scoop a spoonful of white powder and tip it into the blender. Replace and tighten the tub lid. Pick up the empty measuring cup while retaining the spoon and leave both in the sink. Carry the closed supplement tub to the pantry and place it on a shelf. The powder is white and the label appears to say creatine; its composition is not inferred from the task title."
+    },
+    {
+      "start": 137.68,
+      "end": 155.78,
+      "description": "Close the pantry and pick up the blender lid. Attempt to fit it, lift it away and reseat it, then press the handle down until secure. Move a metal canister aside to reach the power strip, handle the blender plug and press the power button. Press further controls; the liquid visibly begins churning around 155.1s."
+    },
+    {
+      "start": 155.78,
+      "end": 188.95,
+      "description": "Keep the left palm on the blender lid while the drink churns. Open the pantry again, look inside without retrieving anything, close both doors and briefly steady the lid again. Withdraw the hands and use a phone, including typing, while the blender continues. Lower the phone and press the blender control to stop it."
+    },
+    {
+      "start": 188.95,
+      "end": 203.84,
+      "description": "Manipulate the lid release and handle, lift the pitcher off the base and carry it to the sink counter with the lid resting on top. Put it down, open the glassware cupboard, take a tall ribbed drinking glass and close the door. Put the glass beside the pitcher, lift the blender lid off and leave the lid in the sink."
+    },
+    {
+      "start": 203.84,
+      "end": 221.41,
+      "description": "Hold the glass in the left hand and tilt the pitcher with the right, pouring the beige foamy drink into the glass. Set the filled glass down. Bring the pitcher into the sink, turn the faucet on and leave the pitcher under the stream. Retrieve the lid, rotate and tilt it under running water to rinse both sides, then lower it into the sink."
+    },
+    {
+      "start": 221.41,
+      "end": 234.667,
+      "description": "Rinse the hands, turn the tap off and dry them on the towel hanging from the oven. Return to the blender and slide its base back on the counter. Pick up the filled glass, raise it to the mouth, drink briefly, then lower and set it on the counter. The video ends with the glass still partly filled."
+    }
+  ],
+  "object_inventory": [
+    "blender base",
+    "blender pitcher",
+    "blender lid",
+    "measuring cup",
+    "cupboard door",
+    "cutlery drawer",
+    "peanut butter jar",
+    "peanut butter lid",
+    "supplement tub",
+    "supplement lid",
+    "milk jug",
+    "milk cap",
+    "refrigerator door",
+    "spoon",
+    "drinking glass",
+    "mixed nuts tin",
+    "large ingredient tub",
+    "blender plug",
+    "faucet",
+    "phone",
+    "metal canister",
+    "pantry containers",
+    "pantry shelf",
+    "peanut butter",
+    "white supplement powder",
+    "sink",
+    "dish towel",
+    "hands"
+  ],
+  "notes": "Human fine boundaries retained exactly; all descriptions and coarse groupings independently rewritten after all overview, dense step pages and native end frames. Container label appears to read creatine, but white powder is described conservatively; no protein powder is inferred from original task. Mixed nuts tin and large ingredient tub are retrieved and returned without visible use. Pressing the fitted lid with a palm is contact rather than a held-object state. Phone use is idle despite phone in both hands. Repeated lid-fitting, spoon shaking and rinsing cross some human boundaries; notes record this without changing them. Fine ends 234.34s versus video 234.667s; final 0.327s continues the released-glass end state. Predictability pending independent blind stage.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.83,
+      "summary": "move the blender base and pick up the pitcher",
+      "verb": "move",
+      "object": "blender base",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": [
+          "blender pitcher"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0–1.3s pull base forward; t=2.5–3.8s lift pitcher and begin removing lid. Multiple object changes retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places blender jar onto its base",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.83,
+      "end": 6.34,
+      "summary": "place the blender pitcher on its base",
+      "verb": "place",
+      "object": "blender pitcher",
+      "tool": null,
+      "target": "blender base",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places blender jar onto its base",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 6.34,
+      "end": 7.02,
+      "summary": "put the blender lid on the counter",
+      "verb": "put down",
+      "object": "blender lid",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds a glass",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.02,
+      "end": 9.64,
+      "summary": "open the glassware cupboard",
+      "verb": "open",
+      "object": "cupboard door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens cabinet door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 9.64,
+      "end": 10.82,
+      "summary": "take the measuring cup from the cupboard",
+      "verb": "pick up",
+      "object": "measuring cup",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand retrieves a glass from the cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.82,
+      "end": 13.24,
+      "summary": "put the measuring cup on the counter",
+      "verb": "put down",
+      "object": "measuring cup",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=11–11.5s left closes cupboard; t=12.7–13.1s right sets measuring cup down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up measuring cup",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.24,
+      "end": 14.14,
+      "summary": "open the pantry cupboard",
+      "verb": "open",
+      "object": "cupboard door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens cabinet door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.14,
+      "end": 31.35,
+      "summary": "move pantry containers and retrieve two ingredient containers",
+      "verb": "move",
+      "object": "large ingredient tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mixed nuts tin"
+        ],
+        "right": [
+          "large ingredient tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=16.5–28s move several tubs, bags and a storage container; t=28.9s take mixed nuts tin; t=30.6–31.3s take large ingredient tub. Compound human interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves items in cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 31.35,
+      "end": 40.64,
+      "summary": "replace containers in the pantry cupboard",
+      "verb": "place",
+      "object": "pantry containers",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=31.5s lower retrieved containers; t=32.9–40s move a red bottle, bags, bottles and a blue-white tub within pantry. Distinct interactions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves items in cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 40.64,
+      "end": 42.06,
+      "summary": "close the pantry cupboard doors",
+      "verb": "close",
+      "object": "cupboard door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand closes cabinet door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 42.06,
+      "end": 44.08,
+      "summary": "open the adjacent pantry cupboard",
+      "verb": "open",
+      "object": "cupboard door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens cabinet door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 44.08,
+      "end": 51.37,
+      "summary": "retrieve the peanut butter jar and supplement tub",
+      "verb": "pick up",
+      "object": "peanut butter jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "supplement tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=44.4–45.6s briefly lift and replace a white-lid jar; t=49s move small jar; t=49.8–51.3s retrieve peanut butter and supplement containers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand retrieves protein powder container from cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 51.37,
+      "end": 52.88,
+      "summary": "put the peanut butter and supplement containers down",
+      "verb": "put down",
+      "object": "peanut butter jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places protein container on counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.88,
+      "end": 54.95,
+      "summary": "close the pantry cupboard doors",
+      "verb": "close",
+      "object": "cupboard door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand closes cabinet door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 54.95,
+      "end": 58.49,
+      "summary": "open the glassware cupboard and look inside",
+      "verb": "open",
+      "object": "cupboard door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57.5–57.9s opens cupboard, turns away without visibly taking another object.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens cabinet door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 58.49,
+      "end": 60.88,
+      "summary": "pick up the measuring cup and approach the refrigerator",
+      "verb": "pick up",
+      "object": "measuring cup",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up measuring cup",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 60.88,
+      "end": 63.38,
+      "summary": "open the refrigerator door",
+      "verb": "open",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "measuring cup"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens refrigerator door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 63.38,
+      "end": 65.11,
+      "summary": "take the milk jug from the refrigerator",
+      "verb": "pick up",
+      "object": "milk jug",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "measuring cup"
+        ],
+        "right": [
+          "milk jug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand takes a milk carton from the refrigerator",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 65.11,
+      "end": 67.63,
+      "summary": "put the measuring cup beside the blender",
+      "verb": "put down",
+      "object": "measuring cup",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "milk jug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places measuring cup on counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 67.63,
+      "end": 72.6,
+      "summary": "pour milk into the measuring cup",
+      "verb": "pour",
+      "object": "milk jug",
+      "tool": null,
+      "target": "measuring cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "milk cap"
+        ],
+        "right": [
+          "milk jug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=67.8–68.5s remove cap; t=68.8–72.4s pour milk; t=72.5s begin recapping. Cup rests on counter during pouring.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours milk into measuring cup",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 72.6,
+      "end": 75.55,
+      "summary": "cap the milk jug and return it to the refrigerator",
+      "verb": "place",
+      "object": "milk jug",
+      "tool": null,
+      "target": "refrigerator door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "milk jug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=72.6–73s tighten milk cap; t=74.5s open refrigerator; t=75.5s insert jug into door shelf.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds milk jug in front of open refrigerator",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.55,
+      "end": 76.47,
+      "summary": "put down the milk jug and close the refrigerator",
+      "verb": "put down",
+      "object": "milk jug",
+      "tool": null,
+      "target": "refrigerator door",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places milk jug on counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 76.47,
+      "end": 80.63,
+      "summary": "pick up the measuring cup of milk",
+      "verb": "pick up",
+      "object": "measuring cup",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=76.5s finish closing fridge; t=78.6s retrieve cup; t=80.2s bring it above pitcher.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours milk into blender jar",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 80.63,
+      "end": 83.2,
+      "summary": "pour the measured milk into the blender pitcher",
+      "verb": "pour",
+      "object": "measuring cup",
+      "tool": null,
+      "target": "blender pitcher",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours milk from measuring cup into blender jar",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.2,
+      "end": 85.76,
+      "summary": "put down the measuring cup and open peanut butter",
+      "verb": "open",
+      "object": "peanut butter jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "peanut butter lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=83.8–84.4s set cup down; t=85.1s pick up peanut butter; t=85.4–86.1s twist lid off. Boundary interrupts lid removal.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens blue container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 85.76,
+      "end": 88.71,
+      "summary": "remove the peanut butter lid and open the drawer",
+      "verb": "remove",
+      "object": "peanut butter lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=86.2s place lid down; t=88.2–88.7s pull cutlery drawer open.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.71,
+      "end": 89.96,
+      "summary": "take a spoon from the cutlery drawer",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up spoon from drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 89.96,
+      "end": 96.96,
+      "summary": "scoop peanut butter and shake it over the pitcher",
+      "verb": "scoop",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "blender pitcher",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=90–92s scoop heaped spoonful; t=93.3–96.9s repeatedly shake above pitcher. Boundary divides repeated transfer attempts.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops peanut butter from jar and adds it to blender jar",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.96,
+      "end": 104.62,
+      "summary": "shake spoonfuls of peanut butter into the pitcher",
+      "verb": "shake",
+      "object": "spoon",
+      "tool": null,
+      "target": "blender pitcher",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=97.5–98.4s scoop again, t=98.8–104.6s shake spoon repeatedly over pitcher; peanut butter drops in several clumps.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops peanut butter from jar with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.62,
+      "end": 107.71,
+      "summary": "put the peanut butter spoon in the sink",
+      "verb": "put down",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves peanut butter jar toward cabinet",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.71,
+      "end": 110.04,
+      "summary": "screw the lid onto the peanut butter jar",
+      "verb": "close",
+      "object": "peanut butter jar",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=107.8s lift lid; t=108.4–109.2s tighten; t=109.8–110s open pantry door. Compound interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens cabinet door",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.04,
+      "end": 112.69,
+      "summary": "return the ingredient tub and mixed nuts tin",
+      "verb": "place",
+      "object": "large ingredient tub",
+      "tool": null,
+      "target": "pantry shelf",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mixed nuts tin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=110.7s open second door; t=111.5–112.7s retrieve stacked containers and return large tub then tin.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places peanut butter jar in cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 112.69,
+      "end": 117.33,
+      "summary": "return the peanut butter jar to the cupboard",
+      "verb": "place",
+      "object": "peanut butter jar",
+      "tool": null,
+      "target": "pantry shelf",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=113–114.5s close first cupboard and lift jar; t=115s open adjacent cupboard; t=116–117.3s put jar inside.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places protein powder container on counter",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 117.33,
+      "end": 120.17,
+      "summary": "close the cupboard and pick up the supplement tub",
+      "verb": "pick up",
+      "object": "supplement tub",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "supplement tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=117.8–118.2s close cupboard; t=119s grasp supplement tub and carry toward drawer.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up protein powder container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 120.17,
+      "end": 122.48,
+      "summary": "open the cutlery drawer",
+      "verb": "open",
+      "object": "cutlery drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "supplement tub"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pulls open drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 122.48,
+      "end": 123.93,
+      "summary": "take a clean spoon from the drawer",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "supplement tub"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pulls out drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 123.93,
+      "end": 128.05,
+      "summary": "spoon white supplement powder into the blender pitcher",
+      "verb": "scoop",
+      "object": "white supplement powder",
+      "tool": "spoon",
+      "target": "blender pitcher",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "supplement tub"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=124.8–125.4s remove tub lid; t=125.8–127.2s scoop white powder; t=127.7–128s tip it into pitcher.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand pours protein powder from jar into blender jar",
+      "notes": "White powder is visible; composition cannot be established from appearance. Container label appears to read creatine, not protein powder.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 128.05,
+      "end": 130.04,
+      "summary": "replace the lid on the supplement tub",
+      "verb": "close",
+      "object": "supplement tub",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "supplement tub"
+        ],
+        "right": [
+          "spoon",
+          "supplement lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=128.1s finish emptying spoon; t=129.1s pick lid up while retaining spoon; t=130s bring lid to tub.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places spoon into jar lid",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.04,
+      "end": 132.26,
+      "summary": "tighten the supplement lid and put down the tub",
+      "verb": "close",
+      "object": "supplement tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=130.1–131.3s tighten lid; t=131.5–132s put closed tub down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places protein powder container on counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 132.26,
+      "end": 135.11,
+      "summary": "put the measuring cup and spoon in the sink",
+      "verb": "put down",
+      "object": "measuring cup",
+      "tool": null,
+      "target": "sink",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "supplement tub"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=132.4s grasp supplement tub; t=132.8–133.1s pick up cup while retaining spoon; t=134.6s lower cup and spoon into sink.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves measuring cup toward sink",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 135.11,
+      "end": 137.68,
+      "summary": "return the supplement tub to the cupboard",
+      "verb": "place",
+      "object": "supplement tub",
+      "tool": null,
+      "target": "pantry shelf",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=136.2–136.8s open cupboard; t=137.4–137.7s place tub on shelf.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places container in cabinet",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 137.68,
+      "end": 147.37,
+      "summary": "close the cupboard and secure the blender lid",
+      "verb": "close",
+      "object": "blender lid",
+      "tool": null,
+      "target": "blender pitcher",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=138.5–139.3s close cupboard; t=140.3s retrieve lid; t=140.8–142.4s fit then remove it; t=143.2–147.2s reseat and press lid handle shut. Multiple attempts retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands secure blender lid onto blender jar",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 147.37,
+      "end": 153.22,
+      "summary": "plug in the blender and press its power button",
+      "verb": "press",
+      "object": "blender base",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=148.1–149.2s move metal canister aside; t=149.8–151.3s handle power plug at power strip; t=151.8–153.1s press blender control while left steadies lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses button on blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 153.22,
+      "end": 155.78,
+      "summary": "press the blender controls to blend the drink",
+      "verb": "press",
+      "object": "blender base",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=153.8–155.1s press several controls; contents begin visibly churning at t=155.1s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses button on blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 155.78,
+      "end": 163.6,
+      "summary": "steady the blender lid while the drink blends",
+      "verb": "hold",
+      "object": "blender lid",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=155.8–162.1s palm presses lid as mixture churns; t=162.6–163.5s open cupboard. Pressing counter-supported lid is not in_hand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds blender lid while it blends",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 163.6,
+      "end": 168.59,
+      "summary": "look in the cupboard and close its doors",
+      "verb": "close",
+      "object": "cupboard door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=163.6–166.9s look into cupboard without taking an item; t=167.1–168.3s close both doors; t=168.5s return hand to lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand closes cabinet door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 168.59,
+      "end": 185.35,
+      "summary": "idle: use the phone while the drink blends",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "phone"
+        ],
+        "right": [
+          "phone"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=168.6–169.5s left hand briefly steadies lid; t=171.8–185.3s hold phone and type. Unrelated phone use marked idle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stops blender by removing hand from lid, then hand holds and operates phone",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 185.35,
+      "end": 188.95,
+      "summary": "press the blender power control",
+      "verb": "press",
+      "object": "blender base",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=185.4–186.2s lower phone out of view; t=187.3–188.6s press control to stop blending.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses button on blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 188.95,
+      "end": 196.06,
+      "summary": "unlock the blender lid and lift the pitcher",
+      "verb": "remove",
+      "object": "blender pitcher",
+      "tool": null,
+      "target": "blender base",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": [
+          "blender pitcher"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=190.2–194.9s manipulate lid handle and release; t=195.1–196s lift pitcher off base with lid still resting on it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands twist and remove blender lid",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 196.06,
+      "end": 198.29,
+      "summary": "carry the blender pitcher to the sink counter",
+      "verb": "move",
+      "object": "blender pitcher",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=196.1–197.8s carry and place pitcher beside sink; t=198.1s turn to glassware cupboard.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes blender lid",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 198.29,
+      "end": 200.51,
+      "summary": "open the cupboard and take a drinking glass",
+      "verb": "pick up",
+      "object": "drinking glass",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drinking glass"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a glass from the cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 200.51,
+      "end": 203.84,
+      "summary": "put down the glass and remove the blender lid",
+      "verb": "remove",
+      "object": "blender lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=201.1s close cupboard with left hand; t=202.1s set glass beside pitcher; t=202.8–203.7s lift lid and lower it into sink.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes blender lid",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 203.84,
+      "end": 209.67,
+      "summary": "pour the blended drink into the glass",
+      "verb": "pour",
+      "object": "blender pitcher",
+      "tool": null,
+      "target": "drinking glass",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "drinking glass"
+        ],
+        "right": [
+          "blender pitcher"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours shake from blender into glass",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 209.67,
+      "end": 213.19,
+      "summary": "put down the glass and rinse the blender pitcher",
+      "verb": "rinse",
+      "object": "blender pitcher",
+      "tool": null,
+      "target": "faucet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blender pitcher"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=210s lower filled glass to counter; t=211.2s bring pitcher into sink; t=211.8–213.2s turn tap and rinse pitcher.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand turns on faucet",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 213.19,
+      "end": 216.1,
+      "summary": "put down the pitcher and pick up its lid",
+      "verb": "pick up",
+      "object": "blender lid",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": [
+          "blender lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=213.2–214s leave pitcher under running tap; t=214.5–215.4s retrieve lid and raise it toward stream.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand rinses blender blade assembly under faucet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 216.1,
+      "end": 217.8,
+      "summary": "rinse the underside of the blender lid",
+      "verb": "rinse",
+      "object": "blender lid",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blender lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand rinses blender jar and blade assembly under faucet",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 217.8,
+      "end": 221.41,
+      "summary": "turn and rinse the blender lid under the faucet",
+      "verb": "rinse",
+      "object": "blender lid",
+      "tool": null,
+      "target": "faucet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=217.8–220.5s continue rotating same lid through stream; t=220.7–221.3s lower lid into sink. Preceding boundary divides continuous rinsing.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand rinses blender jar and blade assembly under faucet",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 221.41,
+      "end": 225.29,
+      "summary": "rinse the hands and dry them on the towel",
+      "verb": "wipe",
+      "object": "hands",
+      "tool": "dish towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "dish towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=221.4–222.4s rinse hands; t=223.1s turn tap off; t=223.9–225.3s turn to oven towel and dry hands. Distinct interactions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands rinse blender jar and blade assembly under faucet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 225.29,
+      "end": 228.75,
+      "summary": "move the blender base back on the counter",
+      "verb": "move",
+      "object": "blender base",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=225.3–226.2s finish drying hands; t=227.1–228.3s slide base backward; t=228.5s release it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves blender base",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 228.75,
+      "end": 231.31,
+      "summary": "pick up the glass and raise it to drink",
+      "verb": "pick up",
+      "object": "drinking glass",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drinking glass"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up glass of shake",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 231.31,
+      "end": 234.34,
+      "summary": "drink from the glass and put it down",
+      "verb": "drink",
+      "object": "drinking glass",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=231.3–232.9s hold glass at mouth; t=233.1–234.3s lower and set glass on counter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places glass on counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 13.24,
+      "instruction": "Set up the blender and measuring cup",
+      "description": "Move the base, lift and fit the pitcher, set its lid down, open the glassware cupboard, retrieve the measuring cup and set it on the counter.",
+      "fine_index_range": [
+        0,
+        5
+      ],
+      "transition_in": null,
+      "goal_contribution": "Stages the blending vessel and a cup for measuring the liquid.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 13.24,
+      "end": 58.49,
+      "instruction": "Find and stage the drink ingredients",
+      "description": "Open and search two pantry cupboards, move containers, set aside a large tub and nuts tin, retrieve peanut butter and supplement tub, close the pantry and briefly inspect the glassware cupboard.",
+      "fine_index_range": [
+        6,
+        14
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Locates the two ingredients that will be added later; several searched containers are staged but remain unused.",
+      "predictability_level": "weak",
+      "predictability_reason": "After set up the blender and measuring cup, find and stage the drink ingredients is plausible for blend a peanut butter milk drink, but several next steps fit."
+    },
+    {
+      "start": 58.49,
+      "end": 83.2,
+      "instruction": "Measure milk and add it to the pitcher",
+      "description": "Take the measuring cup to the refrigerator, open it, retrieve milk, return to the counter, measure milk into the cup, recap and return the jug, close the refrigerator and pour the measured milk into the pitcher.",
+      "fine_index_range": [
+        15,
+        23
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Supplies the drink liquid while returning the remaining milk to cold storage.",
+      "predictability_level": "strong",
+      "predictability_reason": "After find and stage the drink ingredients, measure milk and add it to the pitcher is a natural next stage toward blend a peanut butter milk drink."
+    },
+    {
+      "start": 83.2,
+      "end": 107.71,
+      "instruction": "Add peanut butter to the milk",
+      "description": "Put the cup down, open peanut butter, retrieve a spoon, scoop and repeatedly shake heaped spoonfuls into the pitcher, then put the used spoon in the sink.",
+      "fine_index_range": [
+        24,
+        29
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds peanut butter to the milk before blending.",
+      "predictability_level": "strong",
+      "predictability_reason": "After measure milk and add it to the pitcher, add peanut butter to the milk is a natural next stage toward blend a peanut butter milk drink."
+    },
+    {
+      "start": 107.71,
+      "end": 137.68,
+      "instruction": "Put ingredients away and add supplement powder",
+      "description": "Recap peanut butter, return the unused large tub and nuts tin, store peanut butter, retrieve the supplement tub and clean spoon, scoop white powder into the pitcher, recap the tub, place cup and spoon in sink and return supplement to pantry.",
+      "fine_index_range": [
+        30,
+        40
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Completes the visible ingredient additions and clears the ingredient containers and measuring utensils.",
+      "predictability_level": "weak",
+      "predictability_reason": "After add peanut butter to the milk, put ingredients away and add supplement powder is plausible for blend a peanut butter milk drink, but several next steps fit."
+    },
+    {
+      "start": 137.68,
+      "end": 188.95,
+      "instruction": "Secure the blender and blend the drink",
+      "description": "Close the cupboard, repeatedly align and secure the lid, move a canister, connect power and press blender controls. Steady the lid while blending, briefly inspect and close the pantry, use a phone during the wait and stop the blender.",
+      "fine_index_range": [
+        41,
+        47
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Mixes the milk, peanut butter and white supplement powder into a foamy drink; phone use is incidental waiting content.",
+      "predictability_level": "strong",
+      "predictability_reason": "After put ingredients away and add supplement powder, secure the blender and blend the drink is a natural next stage toward blend a peanut butter milk drink."
+    },
+    {
+      "start": 188.95,
+      "end": 209.67,
+      "instruction": "Transfer the blended drink into a glass",
+      "description": "Release the lid handle, lift and carry the pitcher to the sink counter, retrieve a drinking glass from the cupboard, set it down, remove the lid into the sink and pour the drink into the held glass.",
+      "fine_index_range": [
+        48,
+        52
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Transfers the finished mixture into its serving vessel.",
+      "predictability_level": "strong",
+      "predictability_reason": "After secure the blender and blend the drink, transfer the blended drink into a glass is a natural next stage toward blend a peanut butter milk drink."
+    },
+    {
+      "start": 209.67,
+      "end": 228.75,
+      "instruction": "Rinse the equipment and tidy the blender station",
+      "description": "Set the filled glass down, rinse the pitcher, leave it under the tap, retrieve and rinse both sides of the lid, set the lid down, rinse hands, turn water off, dry hands and slide the blender base back.",
+      "fine_index_range": [
+        53,
+        58
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Clears drink residue from used equipment and restores counter space after serving.",
+      "predictability_level": "weak",
+      "predictability_reason": "After transfer the blended drink into a glass, rinse the equipment and tidy the blender station is plausible for blend a peanut butter milk drink, but several next steps fit."
+    },
+    {
+      "start": 228.75,
+      "end": 234.34,
+      "instruction": "Drink from the glass and set it down",
+      "description": "Pick up the filled glass, raise it to the mouth, drink briefly and set the still partly filled glass back on the counter.",
+      "fine_index_range": [
+        59,
+        60
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Completes the task with a visible taste of the prepared drink.",
+      "predictability_level": "weak",
+      "predictability_reason": "After rinse the equipment and tidy the blender station, drink from the glass and set it down is plausible for blend a peanut butter milk drink, but several next steps fit."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/51858592483eb035/20261106T231008384960Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

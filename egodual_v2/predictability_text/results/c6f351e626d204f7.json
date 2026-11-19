@@ -1,0 +1,46 @@
+{
+  "video_id": "c6f351e626d204f7",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Arranged pretzels need melted white chocolate for dipping."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Heating chocolate often requires stirring and reheating until melted."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After heating and stirring, final smoothing before dipping is natural."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Smooth melted chocolate is ready for the pretzels."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Chocolate-coated pretzels are ready for sprinkles."
+    },
+    {
+      "index": 6,
+      "level": "weak",
+      "reason": "After decorating, chilling to set chocolate is plausible among several next steps."
+    },
+    {
+      "index": 7,
+      "level": "weak",
+      "reason": "The chilled pretzels can be plated, though they could stay on parchment."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "video_id": "f672d88a09fa7815",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Threaded needle needs a usable length and end knot."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Prepared thread and needle are ready to position the replacement button."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The aligned button needs repeated stitches to attach it."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "A sewn button needs its thread secured on the reverse."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Secured finishing thread is ready to trim."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "video_id": "d5a737cf7eacb871",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After remove the old screw from the drawer knob, search for a replacement screw in storage is plausible for replace a missing screw on a dresser drawer knob, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After search for a replacement screw in storage, insert the new screw into the drawer knob is a natural next stage toward replace a missing screw on a dresser drawer knob."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After insert the new screw into the drawer knob, tighten the new screw into the knob is a natural next stage toward replace a missing screw on a dresser drawer knob."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After tighten the new screw into the knob, open and close the drawer to test it is a natural next stage toward replace a missing screw on a dresser drawer knob."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "After open and close the drawer to test it, reattach and finish tightening the replacement screw is plausible for replace a missing screw on a dresser drawer knob, but several next steps fit."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "After reattach and finish tightening the replacement screw, close the drawer is a natural next stage toward replace a missing screw on a dresser drawer knob."
+    }
+  ]
+}

@@ -1,0 +1,946 @@
+{
+  "video_id": "15eadc001185bcfc",
+  "duration": 260.134,
+  "task": "Making stuffed mini sweet peppers with herbed cheese",
+  "domain": "Chef",
+  "query": "How do I make stuffed mini sweet peppers with herbed cheese?",
+  "goal": {
+    "title": "Prepare creamy stuffed mini peppers",
+    "description": "Wash and dry four small bell peppers, trim their tops and scrape out the interiors. Mix chopped herbs and pinched seasonings into a prepared creamy filling, spoon it into all four peppers and arrange them on a plate.",
+    "final_state": "Four uncooked peppers with creamy filling visible at their open ends lie arranged on a plate. No heating or tasting is shown.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 26.4,
+        "description": "Gather four small bell peppers from the cutting board, carry them to the sink, turn on the faucet and spread a towel beside the basin. Rotate and rub each pepper individually under running water, putting the washed peppers on the towel. Turn the faucet off after washing the fourth."
+      },
+      {
+        "start": 26.4,
+        "end": 38.84,
+        "description": "Fold the towel over the peppers and rub and roll them inside it. Uncover them, gather all four, carry them back to the kitchen counter and lay them on the cutting board."
+      },
+      {
+        "start": 38.84,
+        "end": 62.97,
+        "description": "Move the empty scrap bowl beside the board and take the knife. Hold each pepper in turn and cut across its stem end, placing the detached top into the scrap bowl. Set the knife down after cutting the fourth pepper."
+      },
+      {
+        "start": 62.97,
+        "end": 77.98,
+        "description": "Leave the counter and look over the dining table for several seconds, without visible food preparation, then return to the peppers."
+      },
+      {
+        "start": 77.98,
+        "end": 128.72,
+        "description": "Take a small metal spoon. Hold each trimmed pepper over the scrap bowl and repeatedly scrape its inside while turning it in the left hand. Drop the loosened seeds and inner material into the bowl and return each hollow pepper to the board."
+      },
+      {
+        "start": 128.72,
+        "end": 149.8,
+        "description": "Put down the scraping utensil and pick chopped green herbs from the board in several pinches, dropping them into the already prepared creamy filling. Stir with the spoon while holding the bowl. Add pinches from each of the two small white bowls, then stir again. The exact identities of the creamy base and these seasonings are not established visually."
+      },
+      {
+        "start": 149.8,
+        "end": 169.72,
+        "description": "Pause to tap the phone lying on the stove. Return to the counter, hold the filling bowl and stir and scrape the mixture with the spoon, then reach for the first hollow pepper."
+      },
+      {
+        "start": 169.72,
+        "end": 241,
+        "description": "Hold the first pepper in the left hand and repeatedly spoon creamy filling into its open end, pressing and leveling it with the spoon; place it on the plate. Fill the red pepper and return it to the board, then fill the two remaining yellow peppers one at a time, putting one on the board and retaining the last in the left hand."
+      },
+      {
+        "start": 241,
+        "end": 260.134,
+        "description": "Move the filled peppers from the board to the plate, first handling the yellow peppers and then the red pepper. Pause to tap the phone again, then retrieve the final yellow pepper and arrange all four stuffed peppers on the plate. Withdraw both hands and look at the finished plate until the clip ends. No baking or eating is shown."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 26.4,
+      "description": "Gather four small bell peppers from the cutting board, carry them to the sink, turn on the faucet and spread a towel beside the basin. Rotate and rub each pepper individually under running water, putting the washed peppers on the towel. Turn the faucet off after washing the fourth."
+    },
+    {
+      "start": 26.4,
+      "end": 38.84,
+      "description": "Fold the towel over the peppers and rub and roll them inside it. Uncover them, gather all four, carry them back to the kitchen counter and lay them on the cutting board."
+    },
+    {
+      "start": 38.84,
+      "end": 62.97,
+      "description": "Move the empty scrap bowl beside the board and take the knife. Hold each pepper in turn and cut across its stem end, placing the detached top into the scrap bowl. Set the knife down after cutting the fourth pepper."
+    },
+    {
+      "start": 62.97,
+      "end": 77.98,
+      "description": "Leave the counter and look over the dining table for several seconds, without visible food preparation, then return to the peppers."
+    },
+    {
+      "start": 77.98,
+      "end": 128.72,
+      "description": "Take a small metal spoon. Hold each trimmed pepper over the scrap bowl and repeatedly scrape its inside while turning it in the left hand. Drop the loosened seeds and inner material into the bowl and return each hollow pepper to the board."
+    },
+    {
+      "start": 128.72,
+      "end": 149.8,
+      "description": "Put down the scraping utensil and pick chopped green herbs from the board in several pinches, dropping them into the already prepared creamy filling. Stir with the spoon while holding the bowl. Add pinches from each of the two small white bowls, then stir again. The exact identities of the creamy base and these seasonings are not established visually."
+    },
+    {
+      "start": 149.8,
+      "end": 169.72,
+      "description": "Pause to tap the phone lying on the stove. Return to the counter, hold the filling bowl and stir and scrape the mixture with the spoon, then reach for the first hollow pepper."
+    },
+    {
+      "start": 169.72,
+      "end": 241,
+      "description": "Hold the first pepper in the left hand and repeatedly spoon creamy filling into its open end, pressing and leveling it with the spoon; place it on the plate. Fill the red pepper and return it to the board, then fill the two remaining yellow peppers one at a time, putting one on the board and retaining the last in the left hand."
+    },
+    {
+      "start": 241,
+      "end": 260.134,
+      "description": "Move the filled peppers from the board to the plate, first handling the yellow peppers and then the red pepper. Pause to tap the phone again, then retrieve the final yellow pepper and arrange all four stuffed peppers on the plate. Withdraw both hands and look at the finished plate until the clip ends. No baking or eating is shown."
+    }
+  ],
+  "object_inventory": [
+    "bell pepper",
+    "spoon",
+    "knife",
+    "filling bowl",
+    "creamy filling",
+    "chopped herbs",
+    "dried seasoning",
+    "towel",
+    "cutting board",
+    "scrap bowl",
+    "plate",
+    "phone",
+    "sink",
+    "pepper seeds"
+  ],
+  "notes": "All 32 human fine intervals preserved. All nine overview sheets, every dense page for all 32 intervals, and both native end-state sheets visually reviewed. Native PTS burned before resampling. Objects are named conservatively: creamy filling and seasoning identities are not inferred from the recipe. Two phone interruptions and a walk away from kitchen are idle despite hand use on phone. Source last fine end259.1s; true end260.134s has only continued view of completed plate, no additional task manipulation. Some source intervals contain several pick/place events; those are documented without changing human boundaries. Predictability pending independent blind stage.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 6.99,
+      "summary": "carry the peppers to the sink and turn on water",
+      "verb": "move",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bell pepper"
+        ],
+        "right": [
+          "bell pepper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=2.5s gather four peppers; t=4.7s turn on faucet; t=5.8s spread towel; t=6.7s move first pepper under water. Several hand-object changes retained in source interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes mini sweet peppers under running water",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 6.99,
+      "end": 11.05,
+      "summary": "rinse the first pepper and set it on the towel",
+      "verb": "wash",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bell pepper"
+        ],
+        "right": [
+          "bell pepper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=7–9.3s rotate first orange pepper under running water; t=9.9s set on towel; t=10.6s take next pepper.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes mini sweet pepper under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.05,
+      "end": 16.15,
+      "summary": "rinse the second pepper and set it on the towel",
+      "verb": "wash",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bell pepper"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=11.7–14.5s rub and rotate second pepper; t=15.6s lower it onto towel; t=16.1s reach for red pepper.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands wash mini sweet peppers under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.15,
+      "end": 21.33,
+      "summary": "rinse the red pepper and set it on the towel",
+      "verb": "wash",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bell pepper"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=17–19.4s wash red pepper; t=20.3s put on towel; t=21s take remaining orange pepper.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes mini sweet pepper under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 21.33,
+      "end": 26.4,
+      "summary": "rinse the last pepper and turn off the faucet",
+      "verb": "wash",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=21.8–24s rotate last pepper under water; t=24.1s turn faucet off; t=25.7s lower pepper onto towel.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes mini sweet pepper under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.4,
+      "end": 32.71,
+      "summary": "rub the peppers dry inside the folded towel",
+      "verb": "wipe",
+      "object": "bell pepper",
+      "tool": "towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=27–31s fold towel over four peppers and rub/roll them; t=31.8s uncover them.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands pat dry sweet peppers with a towel",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 32.71,
+      "end": 38.84,
+      "summary": "carry the peppers back to the cutting board",
+      "verb": "move",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=33.4s gather four peppers; t=34–36s carry to counter; t=36.3–38.5s place and arrange them on board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places peppers on cutting board",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 38.84,
+      "end": 41.1,
+      "summary": "move the scrap bowl beside the cutting board",
+      "verb": "move",
+      "object": "scrap bowl",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=39.3s lift empty small bowl and place beside board at 40.7s; t=41.067s right hand has begun gripping knife.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places pepper top in bowl",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 41.1,
+      "end": 46.54,
+      "summary": "cut off the first pepper top and discard it",
+      "verb": "cut",
+      "object": "bell pepper",
+      "tool": "knife",
+      "target": "scrap bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=41.7s lift knife; t=42.5–44.6s cut across first orange pepper; t=45.6s place detached top in scrap bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts top off mini sweet pepper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.54,
+      "end": 51.43,
+      "summary": "cut off the red pepper top and discard it",
+      "verb": "cut",
+      "object": "bell pepper",
+      "tool": "knife",
+      "target": "scrap bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=47.5–49.8s slice across red pepper; t=50.4s put top in scrap bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts top off mini sweet pepper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.43,
+      "end": 56.45,
+      "summary": "cut off another pepper top and discard it",
+      "verb": "cut",
+      "object": "bell pepper",
+      "tool": "knife",
+      "target": "scrap bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=52.5–54.2s slice top from yellow pepper; t=55.4s move detached top into scrap bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts top off mini sweet pepper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.45,
+      "end": 62.97,
+      "summary": "cut off the last pepper top and discard it",
+      "verb": "cut",
+      "object": "bell pepper",
+      "tool": "knife",
+      "target": "scrap bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57.8–60.5s cut top from final yellow pepper; t=61.5s put top in scrap bowl; t=62.5s set knife on board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts top off mini sweet pepper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.97,
+      "end": 77.98,
+      "summary": "idle: walk away from the kitchen and return",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=64.5s leave counter; t=68–72.5s look over dining table without visible task-object manipulation; t=73.5–77.9s return to kitchen.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs cheese mixture with a spoon",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 77.98,
+      "end": 94.74,
+      "summary": "scrape seeds from the first pepper into the scrap bowl",
+      "verb": "remove",
+      "object": "pepper seeds",
+      "tool": "spoon",
+      "target": "scrap bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=78.5s retrieve small spoon; t=81.5–93.5s hold pepper in left hand and scrape interior with right-hand spoon; t=94.6s put hollow pepper on board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops cheese mixture from bowl with spoon and fills mini sweet pepper",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 94.74,
+      "end": 105.18,
+      "summary": "scrape seeds from the second pepper into the scrap bowl",
+      "verb": "remove",
+      "object": "pepper seeds",
+      "tool": "spoon",
+      "target": "scrap bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=95.5s lift next yellow pepper; t=96.5–103.8s scrape and turn it over scrap bowl; t=104.8s set it down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops cheese mixture into a mini sweet pepper with a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.18,
+      "end": 114.73,
+      "summary": "scrape seeds from the red pepper into the scrap bowl",
+      "verb": "remove",
+      "object": "pepper seeds",
+      "tool": "spoon",
+      "target": "scrap bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=105.8s lift red pepper; t=106.3–113.5s scrape its interior; t=114.4s return it to board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops cheese mixture from bowl with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 114.73,
+      "end": 128.72,
+      "summary": "scrape seeds from the last pepper into the scrap bowl",
+      "verb": "remove",
+      "object": "pepper seeds",
+      "tool": "spoon",
+      "target": "scrap bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=115.5s pick up final yellow pepper; t=116–127.6s repeatedly scrape its interior; t=128.2s set hollow pepper down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops cheese mixture into a mini sweet pepper with a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 128.72,
+      "end": 142.04,
+      "summary": "add chopped herbs and stir them into the filling",
+      "verb": "mix",
+      "object": "chopped herbs",
+      "tool": "spoon",
+      "target": "filling bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=130.8s set scraping spoon aside; t=131s pick chopped herbs from board; t=132.5–136.5s drop several pinches into creamy filling; t=137.5–141.8s stir, holding bowl in left hand. Multiple hand-object changes retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops herbed cheese mixture with a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 142.04,
+      "end": 144.82,
+      "summary": "sprinkle seasoning from the first small bowl into the filling",
+      "verb": "sprinkle",
+      "object": "dried seasoning",
+      "tool": null,
+      "target": "filling bowl",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "dried seasoning"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=142.5s pinch ingredient from left small white bowl; t=143.8–144.5s sprinkle over filling. Exact seasoning identity not visually established.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand stirs the herbed cheese mixture with a spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 144.82,
+      "end": 147.6,
+      "summary": "sprinkle seasoning from the second small bowl into the filling",
+      "verb": "sprinkle",
+      "object": "dried seasoning",
+      "tool": null,
+      "target": "filling bowl",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=145.2s pinch dried material from the other small bowl; t=146.6s sprinkle into filling; t=147.3s reach for spoon. Exact seasoning identity not visually established.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand stirs the herbed cheese mixture in the bowl with a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.6,
+      "end": 149.8,
+      "summary": "stir the seasoned creamy filling with the spoon",
+      "verb": "stir",
+      "object": "creamy filling",
+      "tool": "spoon",
+      "target": "filling bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=147.8–149s hold bowl and stir; t=149.3s release bowl and turn toward phone.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs herbed cheese mixture in a bowl with a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 149.8,
+      "end": 158.91,
+      "summary": "idle: tap the phone screen beside the stove",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=151.5–158.4s right index finger repeatedly taps phone lying on stove; no food preparation during this interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand operates smartphone",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 158.91,
+      "end": 169.72,
+      "summary": "stir the filling and lift the first hollow pepper",
+      "verb": "stir",
+      "object": "creamy filling",
+      "tool": "spoon",
+      "target": "filling bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filling bowl"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=161.5–169.3s stir and scrape filling in bowl; t=169.667s left still supports bowl, then reaches for pepper just after boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs herbed cheese mixture in a bowl with a spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 169.72,
+      "end": 189.56,
+      "summary": "spoon creamy filling into the first hollow pepper",
+      "verb": "fill",
+      "object": "bell pepper",
+      "tool": "spoon",
+      "target": "creamy filling",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bell pepper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=170.5s lift orange pepper; t=171.5–188.8s repeatedly scoop filling and press it into opening; t=189.5s start carrying filled pepper toward plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand fills hollowed-out mini sweet pepper with herbed cheese mixture using a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 189.56,
+      "end": 191.42,
+      "summary": "place the first stuffed pepper on the plate",
+      "verb": "place",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=190.5–191s place filled orange pepper on plate; t=191.4s reach toward red pepper on board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand fills mini sweet pepper with herbed cheese mixture using spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 191.42,
+      "end": 208.17,
+      "summary": "spoon creamy filling into the red pepper",
+      "verb": "fill",
+      "object": "bell pepper",
+      "tool": "spoon",
+      "target": "creamy filling",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=192s lift red pepper; t=193–206.9s scoop and press filling into it; t=207.8s put filled red pepper back on board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand fills hollowed-out mini sweet pepper with herbed cheese mixture using a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 208.17,
+      "end": 221.43,
+      "summary": "spoon creamy filling into another yellow pepper",
+      "verb": "fill",
+      "object": "bell pepper",
+      "tool": "spoon",
+      "target": "creamy filling",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=208.4–209.7s stir and gather filling; t=210.8s lift yellow pepper; t=211.3–220.4s fill it; t=221.2s set it down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand fills hollowed-out mini sweet pepper with herbed cheese mixture using a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 221.43,
+      "end": 241.0,
+      "summary": "spoon creamy filling into the remaining yellow pepper",
+      "verb": "fill",
+      "object": "bell pepper",
+      "tool": "spoon",
+      "target": "creamy filling",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bell pepper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=222.3–224.2s scoop filling; t=224.8s pick final yellow pepper; t=225.3–240.5s fill and level opening; t=240.933s left still holds pepper while right starts lowering spoon.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand fills hollowed-out mini sweet pepper with herbed cheese mixture using a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 241.0,
+      "end": 242.93,
+      "summary": "place another stuffed yellow pepper on the plate",
+      "verb": "place",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=241.1s right picks up a filled yellow pepper while left retains another; t=241.5–242.4s transfer and adjust peppers at plate; t=242.867s left lowers a yellow pepper back onto board. Two yellow peppers remain on plate. Source compound movement retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places mini sweet pepper on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 242.93,
+      "end": 245.31,
+      "summary": "place the filled red pepper on the plate",
+      "verb": "place",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=243.5s right picks red pepper; t=244.6–245.1s lowers it beside the yellow peppers. Three peppers now on plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places the mini sweet peppers on a plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 245.31,
+      "end": 253.02,
+      "summary": "idle: tap the phone screen beside the plate",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bell pepper"
+        ],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=247.3–251.8s tap phone while food stays in place; t=252.9–253s left grips final filled pepper on board. Compound source boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a mini sweet pepper",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 253.02,
+      "end": 259.1,
+      "summary": "plate the last stuffed pepper and arrange all four",
+      "verb": "place",
+      "object": "bell pepper",
+      "tool": null,
+      "target": "plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=254.5–255s put last yellow pepper on plate; t=255.3–257.1s both hands rearrange all four; t=257.5s withdraw hands and view finished plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a mini sweet pepper from a plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 38.84,
+      "instruction": "Wash and dry the bell peppers",
+      "description": "Carry four peppers to the sink, turn on the faucet and rinse them individually, placing each on the towel. Shut off the water, rub the peppers in the folded towel, uncover them and carry them back to the cutting board.",
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "transition_in": null,
+      "goal_contribution": "Provides washed, dried peppers for trimming and hollowing.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 38.84,
+      "end": 128.72,
+      "instruction": "Trim and hollow the four peppers",
+      "description": "Position a scrap bowl beside the board, cut off all four pepper tops with the knife and discard the tops. After a walk away from the kitchen, return and scrape each pepper interior with the spoon, dropping seeds and loose material into the scrap bowl.",
+      "fine_index_range": [
+        7,
+        16
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Creates open hollow peppers that can hold the creamy filling.",
+      "predictability_level": "strong",
+      "predictability_reason": "After wash and dry the bell peppers, trim and hollow the four peppers is a natural next stage toward prepare creamy stuffed mini peppers."
+    },
+    {
+      "start": 128.72,
+      "end": 169.72,
+      "instruction": "Season and mix the creamy filling",
+      "description": "Pick chopped herbs from the board and drop them into the prepared creamy base, stir, add pinches from both small seasoning bowls and stir again. Pause to operate the phone, then return and mix and scrape the filling thoroughly.",
+      "fine_index_range": [
+        17,
+        22
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Distributes the visible herbs and seasonings through the filling before the peppers are stuffed.",
+      "predictability_level": "strong",
+      "predictability_reason": "After trim and hollow the four peppers, season and mix the creamy filling is a natural next stage toward prepare creamy stuffed mini peppers."
+    },
+    {
+      "start": 169.72,
+      "end": 259.1,
+      "instruction": "Fill and plate the peppers",
+      "description": "Spoon the creamy mixture into each hollow pepper in repeated scoops, press and level the openings, and set the filled peppers on the board or plate. Transfer the remaining filled peppers to the plate, with a brief phone interruption, and arrange all four.",
+      "fine_index_range": [
+        23,
+        31
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Completes the stuffed pepper snack and leaves all four portions together on a plate.",
+      "predictability_level": "strong",
+      "predictability_reason": "After season and mix the creamy filling, fill and plate the peppers is a natural next stage toward prepare creamy stuffed mini peppers."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/15eadc001185bcfc/20261106T082540520341Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

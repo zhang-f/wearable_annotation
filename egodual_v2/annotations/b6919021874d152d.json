@@ -1,0 +1,829 @@
+{
+  "video_id": "b6919021874d152d",
+  "duration": 80.067,
+  "task": "Replacing a worn-out cabinet bumper",
+  "domain": "Handyman",
+  "query": "How do I replace a worn-out cabinet bumper?",
+  "goal": {
+    "title": "Replace a small adhesive pad on a cabinet door",
+    "description": "Pick residue from the inner lower corner of an open wooden cabinet door, dampen a towel at the sink and wipe the corner, then peel a small replacement pad from its backing, press it in place and check the door.",
+    "final_state": "A small pad remains at the cleaned lower inside corner of the open cabinet door; hands have withdrawn.",
+    "procedure": [
+      "Pick away the old material at the lower inner corner while steadying the cabinet door.",
+      "Dampen a towel at the sink and wipe the mounting area, then dry it.",
+      "Peel the backing from a small adhesive pad and position it on the corner.",
+      "Press and hold the pad firmly, release it and move the door to inspect the repair."
+    ]
+  },
+  "object_inventory": [
+    "cabinet door",
+    "adhesive residue",
+    "towel",
+    "faucet",
+    "sink",
+    "adhesive pad",
+    "backing paper",
+    "cutting board"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 15.0,
+      "description": "The right hand steadies the open door while the left picks and rubs at the small lower inside corner fitting, then turns toward the sink with a towel."
+    },
+    {
+      "start": 15.0,
+      "end": 37.4,
+      "description": "The towel is dampened at the faucet, used repeatedly on the lower corner, then another dry portion is rubbed over the surface."
+    },
+    {
+      "start": 37.4,
+      "end": 43.6,
+      "description": "A tiny pad and backing are separated between the fingers and the pad brought toward the cleaned corner."
+    },
+    {
+      "start": 43.6,
+      "end": 71.0,
+      "description": "The small pad is positioned at the corner, then sustained finger pressure is held while the other hand supports the door until the pad is released."
+    },
+    {
+      "start": 71.0,
+      "end": 77.9,
+      "description": "The door is swung slightly and its corner inspected before both hands withdraw, leaving the cabinet open."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 12.9,
+      "old_summary": "hand peels off bumper from cabinet door",
+      "summary": "left hand picks residue from cabinet door while right steadies it",
+      "verb": "pick",
+      "object": "adhesive residue",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small round corner fitting/residue is visible, but its exact material cannot be determined. No screw removal is inferred.",
+      "transition_in": null
+    },
+    {
+      "start": 12.9,
+      "end": 15.0,
+      "old_summary": "hand wipes cabinet door",
+      "summary": "left hand withdraws from cabinet while right carries towel",
+      "verb": "carry",
+      "object": "towel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.0,
+      "end": 36.5,
+      "old_summary": "hand wipes cabinet with cloth",
+      "summary": "left hand wipes cabinet corner with damp towel after wetting it",
+      "verb": "wipe",
+      "object": "cabinet door",
+      "tool": "towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "towel"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes wetting towel at faucet around16–18s, wiping cabinet corner20–28s, and drying with folded towel32–36s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.5,
+      "end": 37.4,
+      "old_summary": "hand holds the cabinet door",
+      "summary": "left hand lowers towel after wiping cabinet corner",
+      "verb": "lower",
+      "object": "towel",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.4,
+      "end": 42.0,
+      "old_summary": "hands manipulate the bumper strip",
+      "summary": "both hands peel backing paper from small adhesive pad",
+      "verb": "peel",
+      "object": "backing paper",
+      "tool": null,
+      "target": "adhesive pad",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "adhesive pad"
+        ],
+        "right": [
+          "backing paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Tiny transparent/light pad and backing are partially occluded. Exact product type is not visually identifiable.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 42.0,
+      "end": 43.5,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand takes adhesive pad toward cabinet corner",
+      "verb": "move",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "adhesive pad"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.5,
+      "end": 43.6,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand holds pad beside cabinet door corner",
+      "verb": "hold",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "adhesive pad"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Preserved 0.1s interval shows same pad positioning motion.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.6,
+      "end": 49.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand positions adhesive pad on cabinet door",
+      "verb": "position",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.1,
+      "end": 50.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand presses pad while right supports door",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 50.1,
+      "end": 51.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "both hands press around the cabinet corner pad",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 51.1,
+      "end": 53.1,
+      "old_summary": "hand holds cabinet door",
+      "summary": "right hand shifts grip while left holds pad against door",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 53.1,
+      "end": 54.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand maintains pressure on pad beneath right-held door",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "53.1–70.1s consists of sustained pressure on the same pad across fine11–23, without a clear new hand-object change at each one-second source boundary. Boundaries retained as requested.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 54.1,
+      "end": 55.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand holds pad firmly against cabinet corner",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 55.1,
+      "end": 57.0,
+      "old_summary": "hand holds cabinet door",
+      "summary": "left hand continues pressing pad while right steadies door",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 57.0,
+      "end": 58.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand holds pressure on the fitted pad",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 58.1,
+      "end": 59.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand presses pad against lower door corner",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 59.1,
+      "end": 61.1,
+      "old_summary": "hand holds cabinet door",
+      "summary": "left hand keeps pad pressed beneath right-held door",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 61.1,
+      "end": 62.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand holds pad in place at cabinet corner",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.1,
+      "end": 63.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand continues holding pressure on pad",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 63.1,
+      "end": 63.6,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand maintains pressure beneath cabinet door corner",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 63.6,
+      "end": 66.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand presses pad while right holds door still",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 66.1,
+      "end": 67.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand holds fitted pad against door",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 67.1,
+      "end": 69.1,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand continues pressing pad at cabinet corner",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 69.1,
+      "end": 70.1,
+      "old_summary": "hand holds cabinet door",
+      "summary": "left hand maintains pressure before releasing the pad",
+      "verb": "press",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 70.1,
+      "end": 71.0,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "left hand releases pad while right steadies cabinet door",
+      "verb": "release",
+      "object": "adhesive pad",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 71.0,
+      "end": 73.1,
+      "old_summary": "hand holds cabinet door",
+      "summary": "right hand swings cabinet door while left checks lower corner",
+      "verb": "move",
+      "object": "cabinet door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 73.1,
+      "end": 74.5,
+      "old_summary": "hand holds cabinet door",
+      "summary": "right hand moves cabinet door back outward",
+      "verb": "move",
+      "object": "cabinet door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 74.5,
+      "end": 74.6,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "right hand releases cabinet door",
+      "verb": "release",
+      "object": "cabinet door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Preserved 0.1s interval around hand withdrawal.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 74.6,
+      "end": 77.6,
+      "old_summary": "no hand activity",
+      "summary": "idle (hands withdraw while the cabinet remains open)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 77.6,
+      "end": 77.7,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "idle (view of repaired open cabinet door)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 77.7,
+      "end": 77.9,
+      "old_summary": "hand presses bumper strip onto cabinet door",
+      "summary": "idle (no further hand interaction)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Source fine stops77.9s; remaining2.167s shows cabinet and no new task interaction in overview. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 15.0,
+      "fine_index_range": [
+        0,
+        1
+      ],
+      "instruction": "Remove old material from the cabinet corner.",
+      "description": "The right hand steadies the open door while the left picks and rubs at the small lower inside corner fitting, then turns toward the sink with a towel.",
+      "goal_contribution": "Expose the mounting surface for the replacement pad.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 15.0,
+      "end": 37.4,
+      "fine_index_range": [
+        2,
+        3
+      ],
+      "instruction": "Clean and dry the cabinet mounting corner.",
+      "description": "The towel is dampened at the faucet, used repeatedly on the lower corner, then another dry portion is rubbed over the surface.",
+      "goal_contribution": "Prepare a clean contact area for the adhesive pad.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After remove old material from the cabinet corner, clean and dry the cabinet mounting corner is a natural next stage toward replace a small adhesive pad on a cabinet door."
+    },
+    {
+      "start": 37.4,
+      "end": 43.6,
+      "fine_index_range": [
+        4,
+        6
+      ],
+      "instruction": "Peel the replacement pad from its backing.",
+      "description": "A tiny pad and backing are separated between the fingers and the pad brought toward the cleaned corner.",
+      "goal_contribution": "Expose the adhesive surface and position the replacement.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After clean and dry the cabinet mounting corner, peel the replacement pad from its backing is a natural next stage toward replace a small adhesive pad on a cabinet door."
+    },
+    {
+      "start": 43.6,
+      "end": 71.0,
+      "fine_index_range": [
+        7,
+        24
+      ],
+      "instruction": "Apply and firmly hold the pad against the door.",
+      "description": "The small pad is positioned at the corner, then sustained finger pressure is held while the other hand supports the door until the pad is released.",
+      "goal_contribution": "Seat the pad on the cleaned cabinet corner.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After peel the replacement pad from its backing, apply and firmly hold the pad against the door is a natural next stage toward replace a small adhesive pad on a cabinet door."
+    },
+    {
+      "start": 71.0,
+      "end": 77.9,
+      "fine_index_range": [
+        25,
+        30
+      ],
+      "instruction": "Check the door and withdraw hands.",
+      "description": "The door is swung slightly and its corner inspected before both hands withdraw, leaving the cabinet open.",
+      "goal_contribution": "Check that the applied pad remains attached.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After apply and firmly hold the pad against the door, check the door and withdraw hands is a natural next stage toward replace a small adhesive pad on a cabinet door."
+    }
+  ],
+  "notes": "All overview, 446 dense frames and native endpoint sheets inspected. Fine boundaries unchanged. Many source one-second intervals divide a sustained pad press; descriptions intentionally preserve the visible continuous hold rather than invent repeated distinct repairs. Exact pad product/material uncertain, so canonical adhesive pad is used. No unobserved screwdriver, glue bottle or replacement knob action added."
+}

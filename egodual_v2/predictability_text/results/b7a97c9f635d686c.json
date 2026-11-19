@@ -1,0 +1,46 @@
+{
+  "video_id": "b7a97c9f635d686c",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After the palette test, setting up separate paint dishes is plausible but not required."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The dispensed paints need mixing before finger painting."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Prepared orange paint is ready for the flower petals."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Orange petal clusters naturally call for flower centers."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Centered flowers naturally call for green leaves."
+    },
+    {
+      "index": 6,
+      "level": "weak",
+      "reason": "After painting, cleaning fingers and a dish is plausible among finishing tasks."
+    },
+    {
+      "index": 7,
+      "level": "weak",
+      "reason": "After cleaning, extra green marks are possible but not strongly implied."
+    }
+  ]
+}

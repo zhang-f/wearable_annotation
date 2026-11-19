@@ -1,0 +1,1032 @@
+{
+  "video_id": "d2037e676003fddb",
+  "duration": 151.467,
+  "task": "Analyze energy flow through a food web diagram",
+  "domain": "Tutorial",
+  "query": "How do I analyze energy flow through a food web diagram?",
+  "goal": {
+    "title": "Label a food web diagram and draw an energy pyramid",
+    "description": "On a tablet drawing app, circles producer organisms on a pre-drawn food web diagram with a stylus and labels groups of organisms as Producers, Primary, Secondary, and Tertiary Consumers, drawing connecting arrows between them to show energy flow. Starts a new page to explain that only about 10% of energy transfers between trophic levels, sketches an energy pyramid, and labels its tiers with the same organisms before returning to the original diagram to point out examples.",
+    "final_state": "The food web diagram is fully labeled by trophic level and a separate energy pyramid page illustrates the 10% energy-transfer rule; the clip ends with the presenter pointing to organisms on the original diagram.",
+    "procedure": [
+      "Circle organisms on the food-web diagram and label primary consumers.",
+      "Add producer and secondary-consumer labels.",
+      "Draw connections and add tertiary-consumer labels.",
+      "Write the ten-percent energy-transfer note and sketch a pyramid beside the food web.",
+      "Label the pyramid tiers and point to corresponding organisms.",
+      "Point to examples on the annotated food web."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 24.64,
+      "description": "Circle the producer organisms and label the primary consumers."
+    },
+    {
+      "start": 24.64,
+      "end": 43.57,
+      "description": "Label the producers and secondary consumers."
+    },
+    {
+      "start": 43.57,
+      "end": 75.79,
+      "description": "Draw energy-flow lines and label the tertiary consumers."
+    },
+    {
+      "start": 75.79,
+      "end": 110.15,
+      "description": "Explain the ten percent energy rule and draw an energy pyramid."
+    },
+    {
+      "start": 110.15,
+      "end": 141.13,
+      "description": "Label the energy pyramid's trophic levels with organisms."
+    },
+    {
+      "start": 141.13,
+      "end": 151.6,
+      "description": "Point out organisms on the original food web diagram."
+    }
+  ],
+  "object_inventory": [
+    "tablet",
+    "stylus",
+    "food web diagram",
+    "color palette",
+    "energy pyramid diagram"
+  ],
+  "notes": "Only human fine boundaries trusted. Overview (0.5fps) covering the full 151.467s video reviewed. Step 18 differs from its old_summary (repeats 'Primary Consumers'): the frames show 'Secondary Consumers' being written next to the frog and snake instead; recorded as differs_from_expectation. Step 26 differs more sharply: its old_summary says 'writes Tertiary Consumers on the tablet', but this 29s step actually shows a new blank page with text explaining that only 10% of energy transfers between trophic levels; recorded as differs_from_expectation. Steps 31-34 use the stylus to point at and label the energy pyramid's tiers; steps 35-36 switch to a bare-finger pointing gesture back on the original food web diagram, matching the visible change in hand posture. Verb 'point' is not in the suggested verb list and is used for every indicating/pointing step, noted once here per the prompt's allowance for unlisted verbs. Step 36 (148.75-151.6s) exceeds the ffprobe duration (151.467s) by 0.133s and is marked beyond_video_end.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 2.12,
+      "summary": "circle the grass and flowering plant",
+      "verb": "draw",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand circles 'Grass' and 'A Flowering Plant' on the food web diagram using a stylus",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 2.12,
+      "end": 3.4,
+      "summary": "continue circling the flowering plant",
+      "verb": "draw",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand circles 'A Flowering Plant' on the food web diagram using a stylus",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 3.4,
+      "end": 4.78,
+      "summary": "circle the flowering plant again",
+      "verb": "draw",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand circles 'A Flowering Plant' on the food web diagram with a stylus",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 4.78,
+      "end": 5.97,
+      "summary": "redraw the circle around the flowering plant",
+      "verb": "draw",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand circles a flowering plant on the food web diagram with a stylus",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 5.97,
+      "end": 9.65,
+      "summary": "circle the flowering plant organism",
+      "verb": "draw",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand circles the 'A Flowering Plant' organism on the food web diagram using a stylus",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.65,
+      "end": 11.75,
+      "summary": "finish circling the flowering plant",
+      "verb": "draw",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0-12s is a sequence of repeated circling strokes around the same two producer organisms.",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand circles 'A Flowering Plant' on the food web diagram using a stylus",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.75,
+      "end": 13.36,
+      "summary": "write Primary Consumers next to the circled organisms",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand writes 'Primary Consumers' next to circled organisms on the food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.36,
+      "end": 15.19,
+      "summary": "tap the color palette on the tablet",
+      "verb": "press",
+      "object": "color palette",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand taps color palette on tablet",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.19,
+      "end": 16.08,
+      "summary": "write on the food web diagram",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand writes on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.08,
+      "end": 17.06,
+      "summary": "continue writing on the food web diagram",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand writes on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.06,
+      "end": 17.79,
+      "summary": "finish writing on the food web diagram",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand writes on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.79,
+      "end": 24.64,
+      "summary": "rewrite Primary Consumers next to the circled organisms",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand writes 'Primary Consumers' next to circled organisms on the food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 24.64,
+      "end": 29.49,
+      "summary": "tap the color palette again on the tablet",
+      "verb": "press",
+      "object": "color palette",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand taps color palette on tablet",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.49,
+      "end": 31.02,
+      "summary": "write Producers on the diagram",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand writes 'Producers' on the diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.02,
+      "end": 31.84,
+      "summary": "write on the food web diagram",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand writes on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.84,
+      "end": 32.6,
+      "summary": "continue writing on the food web diagram",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand writes on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 32.6,
+      "end": 33.58,
+      "summary": "keep writing on the food web diagram",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand writes on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.58,
+      "end": 35.29,
+      "summary": "finish writing the Producers label",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand writes on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.29,
+      "end": 43.57,
+      "summary": "write Secondary Consumers next to the frog and snake",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "differs_from_expectation: old_summary repeats 'Primary Consumers' here, but the frames show 'Secondary Consumers' being written next to the frog and snake instead.",
+      "old_summary": "hand writes 'Primary Consumers' next to circled organisms on the food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.57,
+      "end": 51.31,
+      "summary": "draw a connecting line on the food web diagram",
+      "verb": "draw",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand draws a line on the food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.31,
+      "end": 56.52,
+      "summary": "write Tertiary Consumers on the diagram",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand writes 'Tertiary Consumers' on the tablet",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.52,
+      "end": 60.09,
+      "summary": "tap the color palette on the tablet",
+      "verb": "press",
+      "object": "color palette",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand taps color palette on tablet",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.09,
+      "end": 62.79,
+      "summary": "draw a connecting line on the food web diagram",
+      "verb": "draw",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand draws a line on the food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.79,
+      "end": 68.03,
+      "summary": "draw another connecting line on the diagram",
+      "verb": "draw",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand draws a line on the food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.03,
+      "end": 69.05,
+      "summary": "write Tertiary Consumers on the diagram again",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand writes 'Tertiary Consumers' on the diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.05,
+      "end": 75.79,
+      "summary": "finish writing Tertiary Consumers on the diagram",
+      "verb": "write",
+      "object": "food web diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand writes 'Tertiary Consumers' on the food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.79,
+      "end": 105.0,
+      "summary": "write the ten percent energy rule on a new page",
+      "verb": "write",
+      "object": "energy pyramid diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=76-105s is a single long step: starts a new blank page and writes a note explaining that only about 10% of energy transfers between each trophic level.",
+      "confidence": "medium",
+      "notes": "differs_from_expectation: old_summary says 'writes Tertiary Consumers on the tablet', but this 29s step actually shows a new page with an explanatory note about the 10% energy-transfer rule, not a label on the original diagram.",
+      "old_summary": "hand writes 'Tertiary Consumers' on the tablet",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.0,
+      "end": 107.54,
+      "summary": "draw the outline of an energy pyramid",
+      "verb": "draw",
+      "object": "energy pyramid diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand draws a line on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.54,
+      "end": 108.81,
+      "summary": "continue drawing the energy pyramid outline",
+      "verb": "draw",
+      "object": "energy pyramid diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand draws on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 108.81,
+      "end": 109.51,
+      "summary": "keep drawing the energy pyramid outline",
+      "verb": "draw",
+      "object": "energy pyramid diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand draws on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.51,
+      "end": 110.15,
+      "summary": "finish drawing the energy pyramid outline",
+      "verb": "draw",
+      "object": "energy pyramid diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand draws a line on the tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.15,
+      "end": 115.87,
+      "summary": "point to an organism to label the pyramid",
+      "verb": "point",
+      "object": "energy pyramid diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "Verb 'point' is not in the suggested verb list; used consistently for the indicating/pointing gestures in this and later steps, per the prompt's allowance for unlisted verbs.",
+      "old_summary": "hand points to organism in food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.87,
+      "end": 119.63,
+      "summary": "point to another organism for the pyramid",
+      "verb": "point",
+      "object": "energy pyramid diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand points to organism in food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.63,
+      "end": 129.0,
+      "summary": "point to organisms while labeling the pyramid levels",
+      "verb": "point",
+      "object": "energy pyramid diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=120-129s adds organism icons and labels to each tier of the pyramid.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand points to organism in food web diagram",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 129.0,
+      "end": 141.13,
+      "summary": "point to an organism on the pyramid diagram",
+      "verb": "point",
+      "object": "energy pyramid diagram",
+      "tool": "stylus",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stylus"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand points to organism on tablet screen",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.13,
+      "end": 148.75,
+      "summary": "point to organisms on the food web diagram",
+      "verb": "point",
+      "object": "food web diagram",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=141-149s switches to a bare-finger pointing gesture back on the original diagram, consistent with the stylus no longer visible in the grip.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand points to organisms in the food web diagram with a stylus",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 148.75,
+      "end": 151.6,
+      "summary": null,
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Segment end (151.6s) exceeds the ffprobe duration (151.467s) by 0.133s; marked beyond_video_end.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand points to organism on food web diagram",
+      "beyond_video_end": true,
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 24.64,
+      "fine_index_range": [
+        0,
+        11
+      ],
+      "instruction": "Circle producers and label the primary consumers",
+      "description": "Circles the grass and flowering plant on the food web diagram with a stylus, then writes 'Primary Consumers' beside the organisms that eat them.",
+      "transition_in": null,
+      "goal_contribution": "Identifies the plants and the organisms feeding on them.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 24.64,
+      "end": 43.57,
+      "fine_index_range": [
+        12,
+        18
+      ],
+      "instruction": "Label the producers and secondary consumers",
+      "description": "Taps the color palette and writes 'Producers' near the plants, then labels the frog and snake as secondary consumers.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Adds more trophic-level labels to the food web.",
+      "predictability_level": "strong",
+      "predictability_reason": "After marking primary consumers, labeling producers and secondary consumers continues the food web."
+    },
+    {
+      "start": 43.57,
+      "end": 75.79,
+      "fine_index_range": [
+        19,
+        25
+      ],
+      "instruction": "Draw energy-flow lines and label tertiary consumers",
+      "description": "Draws connecting arrows between organisms on the diagram and writes 'Tertiary Consumers' beside the top predators.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Connects organisms and labels the upper consumer level.",
+      "predictability_level": "strong",
+      "predictability_reason": "The partly labeled web is ready for flow lines and top consumers."
+    },
+    {
+      "start": 75.79,
+      "end": 110.15,
+      "fine_index_range": [
+        26,
+        30
+      ],
+      "instruction": "Explain the ten percent rule and draw a pyramid",
+      "description": "Starts a new page explaining that only 10% of energy transfers between levels, then sketches an energy pyramid outline.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Adds a visual explanation of reduced energy at successive levels.",
+      "predictability_level": "strong",
+      "predictability_reason": "A labeled food web supports explaining energy transfer and drawing the pyramid."
+    },
+    {
+      "start": 110.15,
+      "end": 141.13,
+      "fine_index_range": [
+        31,
+        34
+      ],
+      "instruction": "Label the energy pyramid's trophic levels",
+      "description": "Points to organisms with the stylus while adding their icons and labels to each tier of the energy pyramid.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Maps the food-web organisms onto the pyramid levels.",
+      "predictability_level": "strong",
+      "predictability_reason": "The drawn energy pyramid needs its trophic levels labeled."
+    },
+    {
+      "start": 141.13,
+      "end": 151.6,
+      "fine_index_range": [
+        35,
+        36
+      ],
+      "instruction": "Point out organisms on the food web diagram",
+      "description": "Returns to the food web diagram and points out organisms with a finger to recap the energy-flow concept.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Reviews the annotated relationships using examples on the diagram.",
+      "predictability_level": "weak",
+      "predictability_reason": "After labeling the pyramid, returning to the web for recap is plausible but optional."
+    }
+  ]
+}

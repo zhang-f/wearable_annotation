@@ -1,0 +1,36 @@
+{
+  "video_id": "7f1c64f7d0880938",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The laid-out tortilla is ready for hummus spread."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Hummus-coated tortilla needs cucumber for the stated filling."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The filled tortilla is ready to roll."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "The roll must be sliced to make pinwheels."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "Plated pinwheels may be displayed, though the task could end at plating."
+    }
+  ]
+}

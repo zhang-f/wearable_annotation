@@ -1,0 +1,408 @@
+{
+  "video_id": "7250b1319203d6cb",
+  "duration": 84.6,
+  "task": "Making a paper airplane",
+  "domain": "Arts and Crafts",
+  "query": "How do I make a paper airplane?",
+  "goal": {
+    "title": "Fold a white paper airplane",
+    "description": "Fold a white rectangular sheet lengthwise and smooth the center crease, then open it again. Fold the two corners at one end inward to meet the center line and crease them firmly. Fold the next pair of side edges toward the center, fold the pointed section back and repeat inward folds on both sides. Close the shaped paper along its center crease, fold one wing down, turn it over and fold the other wing to match. Lift the airplane, spread and adjust its wings and hold it up for inspection.",
+    "final_state": "A white paper airplane with a pointed nose and two spread wings is held above the table. No flight is shown.",
+    "procedure": [
+      "Make and reopen a lengthwise center crease.",
+      "Fold matching corners and side edges towards the center.",
+      "Fold back the pointed section and narrow both sides again.",
+      "Fold the airplane in half and crease both wings.",
+      "Spread and align the wings and hold up the finished airplane."
+    ]
+  },
+  "object_inventory": [
+    "paper",
+    "paper airplane"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 12.7,
+      "description": "Fold the rectangular sheet in half lengthwise, press the fold flat and reopen it."
+    },
+    {
+      "start": 12.7,
+      "end": 38.59,
+      "description": "Fold both upper corners to the center and then bring each sloping side inward, pressing the creases."
+    },
+    {
+      "start": 38.59,
+      "end": 60.43,
+      "description": "Fold the pointed section back, bring both long edges inward and close the paper along the center."
+    },
+    {
+      "start": 60.43,
+      "end": 84.6,
+      "description": "Lift and pinch the center fold, fold down one wing, turn the airplane and fold its matching wing, then spread and align both wings."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 9.47,
+      "old_summary": "hands fold paper in half lengthwise",
+      "summary": "fold the paper lengthwise and press the center crease",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 9.47,
+      "end": 12.7,
+      "old_summary": "hand folds paper in half lengthwise",
+      "summary": "open the paper along its center crease",
+      "verb": "unfold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.7,
+      "end": 17.14,
+      "old_summary": "hands fold top corner of paper down",
+      "summary": "fold one upper corner towards the center line",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 17.14,
+      "end": 23.65,
+      "old_summary": "hand folds top corner of paper down",
+      "summary": "fold the opposite upper corner towards the center",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 23.65,
+      "end": 31.05,
+      "old_summary": "hand folds top corner of paper airplane down",
+      "summary": "fold one sloping side towards the center line",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 31.05,
+      "end": 38.59,
+      "old_summary": "hands fold paper airplane wing",
+      "summary": "fold the opposite sloping side towards the center",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 38.59,
+      "end": 47.32,
+      "old_summary": "hands fold paper to form airplane wing",
+      "summary": "fold the pointed paper section back and crease it",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 47.32,
+      "end": 55.11,
+      "old_summary": "hands fold paper airplane wing",
+      "summary": "fold a long edge inward and flatten the crease",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 55.11,
+      "end": 60.43,
+      "old_summary": "hands fold paper airplane wing",
+      "summary": "fold the opposite edge inward and close the center fold",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 60.43,
+      "end": 64.54,
+      "old_summary": "hands adjust the paper airplane's wing",
+      "summary": "lift and pinch the folded airplane body",
+      "verb": "crease",
+      "object": "paper airplane",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper airplane"
+        ],
+        "right": [
+          "paper airplane"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 64.54,
+      "end": 69.06,
+      "old_summary": "hands press down on the paper airplane to shape it",
+      "summary": "fold the first wing down and press its crease",
+      "verb": "fold",
+      "object": "paper airplane",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.06,
+      "end": 73.63,
+      "old_summary": "hands fold and press down on the paper airplane",
+      "summary": "turn the airplane over and fold the other wing",
+      "verb": "fold",
+      "object": "paper airplane",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper airplane"
+        ],
+        "right": [
+          "paper airplane"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 73.63,
+      "end": 84.6,
+      "old_summary": "hand adjusts the paper airplane's wings",
+      "summary": "spread and adjust the wings of the paper airplane",
+      "verb": "adjust",
+      "object": "paper airplane",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper airplane"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 12.7,
+      "fine_index_range": [
+        0,
+        1
+      ],
+      "instruction": "Make the paper center crease.",
+      "description": "Fold the rectangular sheet in half lengthwise, press the fold flat and reopen it.",
+      "goal_contribution": "Create a center reference for aligning subsequent folds.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 12.7,
+      "end": 38.59,
+      "fine_index_range": [
+        2,
+        5
+      ],
+      "instruction": "Fold the nose and narrow both sides.",
+      "description": "Fold both upper corners to the center and then bring each sloping side inward, pressing the creases.",
+      "goal_contribution": "Shape a pointed, narrower front section of the airplane.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After make the paper center crease, fold the nose and narrow both sides is a natural next stage toward fold a white paper airplane."
+    },
+    {
+      "start": 38.59,
+      "end": 60.43,
+      "fine_index_range": [
+        6,
+        8
+      ],
+      "instruction": "Fold back the point and form the body.",
+      "description": "Fold the pointed section back, bring both long edges inward and close the paper along the center.",
+      "goal_contribution": "Form the layered airplane body before shaping its wings.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After fold the nose and narrow both sides, fold back the point and form the body is a natural next stage toward fold a white paper airplane."
+    },
+    {
+      "start": 60.43,
+      "end": 84.6,
+      "fine_index_range": [
+        9,
+        12
+      ],
+      "instruction": "Crease both wings and open the airplane.",
+      "description": "Lift and pinch the center fold, fold down one wing, turn the airplane and fold its matching wing, then spread and align both wings.",
+      "goal_contribution": "Finish the airplane with two open wings ready to hold.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After fold back the point and form the body, crease both wings and open the airplane is a natural next stage toward fold a white paper airplane."
+    }
+  ],
+  "notes": "Viewed all three overview sheets, five dense contact sheets (292 frames) and the native endpoint sheet. Center fold t=2–9s; initial corner pair t=13–23s; second inward pair t=25–38s; point folded back t=40–46s; wing creases t=65–73s; wings opened and airplane displayed t=74–84s. Only one sheet is manipulated and no scissors, glue or flight test is shown. Several trusted source steps include crease smoothing and regripping; no fine boundary changed."
+}

@@ -1,0 +1,31 @@
+{
+  "video_id": "b6919021874d152d",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After remove old material from the cabinet corner, clean and dry the cabinet mounting corner is a natural next stage toward replace a small adhesive pad on a cabinet door."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After clean and dry the cabinet mounting corner, peel the replacement pad from its backing is a natural next stage toward replace a small adhesive pad on a cabinet door."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After peel the replacement pad from its backing, apply and firmly hold the pad against the door is a natural next stage toward replace a small adhesive pad on a cabinet door."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After apply and firmly hold the pad against the door, check the door and withdraw hands is a natural next stage toward replace a small adhesive pad on a cabinet door."
+    }
+  ]
+}

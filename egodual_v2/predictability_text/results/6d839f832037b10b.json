@@ -1,0 +1,36 @@
+{
+  "video_id": "6d839f832037b10b",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Measured door and gathered tools lead to an initial fastening attempt."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After the initial attempt, remeasuring is plausible if placement remains uncertain."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "With position checked, the wire hook can be secured."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "A mounted bottle holder is ready to test with the bottle."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "A test may reveal need for reinforcement, though it is not assured."
+    }
+  ]
+}

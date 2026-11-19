@@ -1,0 +1,26 @@
+{
+  "video_id": "d6cb618bb700b7c0",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "A threaded needle is ready to attach the button to the shirt."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Started button stitches naturally continue until secure."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The repeated stitches need securing to finish the button."
+    }
+  ]
+}

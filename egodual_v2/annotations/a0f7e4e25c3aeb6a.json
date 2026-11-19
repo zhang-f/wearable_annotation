@@ -1,0 +1,610 @@
+{
+  "video_id": "a0f7e4e25c3aeb6a",
+  "duration": 262.8,
+  "task": "Cleaning a soap dish in the shower",
+  "domain": "Handyman",
+  "query": "How do I clean a soap dish in the shower?",
+  "goal": {
+    "title": "Clean and remount the shower soap holder",
+    "description": "Remove the soap and suction-mounted wire holder, take the holder apart over the sink, scrub the mount and wire rack with a toothbrush and cleaning liquid, rinse and reassemble it, then dry and remount it.",
+    "final_state": "The cleaned holder is attached to the shower tile and the blue soap is back on the rack.",
+    "procedure": [
+      "Move the soap to the sink and loosen the holder from the shower tile.",
+      "Rinse and inspect the holder, then prepare the toothbrush with cleaning liquid.",
+      "Scrub the circular mount and detached wire rack, including edges and wire joints.",
+      "Rinse the rack and mount, reassemble the holder, and dry it with the blue cloth.",
+      "Wipe the mounting area, secure the holder on the tile, and replace the soap."
+    ]
+  },
+  "object_inventory": [
+    "soap",
+    "soap holder",
+    "wire rack",
+    "suction mount",
+    "sink",
+    "tile",
+    "toothbrush",
+    "cleaning bottle",
+    "faucet",
+    "cloth"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 39.2,
+      "description": "The soap is moved to the sink, the holder is loosened from the tile, and the assembly is inspected and rinsed over the basin."
+    },
+    {
+      "start": 39.2,
+      "end": 52.96,
+      "description": "The toothbrush is wetted and cleaning liquid squeezed onto its bristles, then it is transferred to the working hand."
+    },
+    {
+      "start": 52.96,
+      "end": 76.99,
+      "description": "The toothbrush scrubs around the metal mounting housing; the circular suction mount is detached and its inner and outer surfaces brushed."
+    },
+    {
+      "start": 76.99,
+      "end": 127.83,
+      "description": "The rack is turned through different orientations while the toothbrush works along the bars, rim, ends, and joints."
+    },
+    {
+      "start": 127.83,
+      "end": 208.8,
+      "description": "The faucet is adjusted, the rack and mount rubbed under running water, and the mounting assembly reattached to the rack."
+    },
+    {
+      "start": 208.8,
+      "end": 262.65,
+      "description": "The holder is dried with the blue cloth, the tile mounting area wiped, the suction assembly secured, and the soap returned."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 5.25,
+      "old_summary": "hands remove soap dish from shower wall",
+      "summary": "right hand moves the soap from the holder to the sink",
+      "verb": "place",
+      "object": "soap",
+      "tool": null,
+      "target": "sink",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 5.25,
+      "end": 14.82,
+      "old_summary": "hands remove soap dish from shower wall",
+      "summary": "both hands loosen the soap holder from the shower tile",
+      "verb": "remove",
+      "object": "soap holder",
+      "tool": null,
+      "target": "tile",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "soap holder"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.82,
+      "end": 39.2,
+      "old_summary": "hand rinses soap dish under running water",
+      "summary": "both hands rinse and inspect the soap holder over the sink",
+      "verb": "rinse",
+      "object": "soap holder",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "soap holder"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Compound segment: carry to sink t=15–17s, inspect/rub holder t=18–20s, operate faucet t=21s, rinse/rotate t=22–38s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.2,
+      "end": 44.06,
+      "old_summary": "hand scrubs soap dish with toothbrush",
+      "summary": "right hand wets the toothbrush under the faucet",
+      "verb": "wet",
+      "object": "toothbrush",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toothbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 44.06,
+      "end": 51.5,
+      "old_summary": "hand pours liquid from bottle onto toothbrush",
+      "summary": "right hand squeezes cleaning liquid onto the toothbrush",
+      "verb": "pour",
+      "object": "cleaning bottle",
+      "tool": null,
+      "target": "toothbrush",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toothbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 51.5,
+      "end": 52.96,
+      "old_summary": "hand holds toothbrush over sink",
+      "summary": "both hands transfer the toothbrush between hands",
+      "verb": "transfer",
+      "object": "toothbrush",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "toothbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.96,
+      "end": 65.15,
+      "old_summary": "hand brushes soap dish",
+      "summary": "right hand scrubs the soap-holder mount with the toothbrush",
+      "verb": "scrub",
+      "object": "suction mount",
+      "tool": "toothbrush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "soap holder"
+        ],
+        "right": [
+          "toothbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.15,
+      "end": 76.99,
+      "old_summary": "hand brushes soap dish",
+      "summary": "right hand scrubs the detached suction mount",
+      "verb": "scrub",
+      "object": "suction mount",
+      "tool": "toothbrush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "toothbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Mount is put down near t=65s, picked up and brushed t=67–76s, then set down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 76.99,
+      "end": 127.83,
+      "old_summary": "hand brushes soap dish",
+      "summary": "right hand scrubs the wire rack with the toothbrush",
+      "verb": "scrub",
+      "object": "wire rack",
+      "tool": "toothbrush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wire rack"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Ends with rack lowered and toothbrush set across sink near t=127s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.83,
+      "end": 129.69,
+      "old_summary": "hand rinses soap dish under running water",
+      "summary": "right hand turns the faucet handle",
+      "verb": "turn",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "wire rack"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 129.69,
+      "end": 133.4,
+      "old_summary": "hand scrubs soap dish with toothbrush",
+      "summary": "left hand adjusts the faucet while holding the rack",
+      "verb": "adjust",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wire rack"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.4,
+      "end": 138.13,
+      "old_summary": "hand scrubs soap dish with toothbrush",
+      "summary": "both hands rub the wire rack beneath the faucet",
+      "verb": "rinse",
+      "object": "wire rack",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 138.13,
+      "end": 150.99,
+      "old_summary": "hands scrub the soap dish with a toothbrush under running water",
+      "summary": "both hands rinse the wire rack under running water",
+      "verb": "rinse",
+      "object": "wire rack",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wire rack"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 150.99,
+      "end": 179.25,
+      "old_summary": "hand scrubs soap dish with toothbrush",
+      "summary": "both hands rub and rinse the suction mount",
+      "verb": "rinse",
+      "object": "suction mount",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 179.25,
+      "end": 208.8,
+      "old_summary": "hand scrubs soap dish with toothbrush",
+      "summary": "both hands reattach the suction mount to the rack",
+      "verb": "attach",
+      "object": "suction mount",
+      "tool": null,
+      "target": "wire rack",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "soap holder"
+        ],
+        "right": [
+          "soap holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes rinsing hands t=180–183s, closing faucet near t=184s, then reassembly t=187–208s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 208.8,
+      "end": 222.55,
+      "old_summary": "hand dries soap dish with towel",
+      "summary": "both hands dry the soap holder with the blue cloth",
+      "verb": "dry",
+      "object": "soap holder",
+      "tool": "cloth",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "soap holder"
+        ],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 222.55,
+      "end": 231.45,
+      "old_summary": "hand wipes wall with cloth",
+      "summary": "right hand wipes the tile and positions the soap holder",
+      "verb": "position",
+      "object": "soap holder",
+      "tool": null,
+      "target": "tile",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "soap holder"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes wiping tile t=223–225s then positioning mount t=226–231s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 231.45,
+      "end": 253.81,
+      "old_summary": "hand wipes the soap dish",
+      "summary": "both hands secure the soap holder onto the shower tile",
+      "verb": "attach",
+      "object": "soap holder",
+      "tool": null,
+      "target": "tile",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 253.81,
+      "end": 262.65,
+      "old_summary": "hand places sponge in soap dish",
+      "summary": "right hand returns the blue soap to the holder",
+      "verb": "place",
+      "object": "soap",
+      "tool": null,
+      "target": "soap holder",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes reaching to sink for soap t=254–255s and setting it in holder t=256–259s, followed by view only.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 39.2,
+      "fine_index_range": [
+        0,
+        2
+      ],
+      "instruction": "Remove and rinse the holder",
+      "description": "The soap is moved to the sink, the holder is loosened from the tile, and the assembly is inspected and rinsed over the basin.",
+      "goal_contribution": "Makes the holder accessible for detailed cleaning.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 39.2,
+      "end": 52.96,
+      "fine_index_range": [
+        3,
+        5
+      ],
+      "instruction": "Prepare the cleaning brush",
+      "description": "The toothbrush is wetted and cleaning liquid squeezed onto its bristles, then it is transferred to the working hand.",
+      "goal_contribution": "Prepares a small brush for the narrow surfaces.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After remove and rinse the holder, prepare the cleaning brush is a natural next stage toward clean and remount the shower soap holder."
+    },
+    {
+      "start": 52.96,
+      "end": 76.99,
+      "fine_index_range": [
+        6,
+        7
+      ],
+      "instruction": "Scrub the mounting assembly",
+      "description": "The toothbrush scrubs around the metal mounting housing; the circular suction mount is detached and its inner and outer surfaces brushed.",
+      "goal_contribution": "Cleans the mounting parts separately.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After prepare the cleaning brush, scrub the mounting assembly is a natural next stage toward clean and remount the shower soap holder."
+    },
+    {
+      "start": 76.99,
+      "end": 127.83,
+      "fine_index_range": [
+        8,
+        8
+      ],
+      "instruction": "Scrub the wire rack",
+      "description": "The rack is turned through different orientations while the toothbrush works along the bars, rim, ends, and joints.",
+      "goal_contribution": "Removes residue from the soap-supporting surface.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After scrub the mounting assembly, scrub the wire rack is a natural next stage toward clean and remount the shower soap holder."
+    },
+    {
+      "start": 127.83,
+      "end": 208.8,
+      "fine_index_range": [
+        9,
+        14
+      ],
+      "instruction": "Rinse and reassemble the holder",
+      "description": "The faucet is adjusted, the rack and mount rubbed under running water, and the mounting assembly reattached to the rack.",
+      "goal_contribution": "Leaves the cleaned parts joined and ready for mounting.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After scrub the wire rack, rinse and reassemble the holder is a natural next stage toward clean and remount the shower soap holder."
+    },
+    {
+      "start": 208.8,
+      "end": 262.65,
+      "fine_index_range": [
+        15,
+        18
+      ],
+      "instruction": "Dry and reinstall the holder",
+      "description": "The holder is dried with the blue cloth, the tile mounting area wiped, the suction assembly secured, and the soap returned.",
+      "goal_contribution": "Restores the cleaned holder to use.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After rinse and reassemble the holder, dry and reinstall the holder is a natural next stage toward clean and remount the shower soap holder."
+    }
+  ],
+  "notes": "Reviewed nine overview sheets, all 842 dense step frames and all 19 native endpoints. Fine boundaries retained. The cleaning bottle is used but its precise formulation is not inferred from the small label. Final 0.15s is a view of the remounted holder."
+}

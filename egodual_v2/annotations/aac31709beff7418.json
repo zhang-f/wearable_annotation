@@ -1,0 +1,2622 @@
+{
+  "video_id": "aac31709beff7418",
+  "duration": 165.134,
+  "task": "Installing corner guards (child safety)",
+  "domain": "Handyman",
+  "query": "How do I install corner guards for child safety?",
+  "goal": {
+    "title": "Install adhesive corner guards on a furniture corner",
+    "description": "Wipe down a furniture corner with a cloth to prepare the surface, then peel the paper backing off roughly a dozen small clear adhesive corner guards one at a time. Hold up a guard to check it, then press each corner guard firmly onto a corner of the furniture frame in a repeated sequence of short presses, working around to a new corner guard and corner about ten times, with one brief pause to reach into a nearby drawer partway through.",
+    "final_state": "Roughly ten small clear corner guards have been pressed onto corners of the furniture frame; the last guard is still being pressed into place as the video ends, with peeled paper backings scattered on the desk nearby.",
+    "procedure": [
+      "Wipe the surface near the furniture corner.",
+      "Peel adhesive backing and inspect the small clear pieces.",
+      "Press the first adhesive pieces into position along the furniture edges.",
+      "Continue peeling and pressing additional pieces at successive positions.",
+      "Press the remaining pieces into place and check their contact with the surface."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 14.9,
+      "description": "Wipe the furniture corner clean with a cloth."
+    },
+    {
+      "start": 14.9,
+      "end": 67.0,
+      "description": "Peel the paper backing off about a dozen individual corner guards."
+    },
+    {
+      "start": 67.0,
+      "end": 83.5,
+      "description": "Hold up a corner guard to inspect it before applying it."
+    },
+    {
+      "start": 83.5,
+      "end": 155.2,
+      "description": "Press a sequence of corner guards firmly onto corners of the furniture frame, one after another."
+    }
+  ],
+  "object_inventory": [
+    "cloth",
+    "furniture corner",
+    "corner guard",
+    "adhesive backing"
+  ],
+  "notes": "This video is dominated by a single repeated micro-action: the human fine-track splits one continuous 'press the corner guard onto the furniture corner' motion into roughly 90 sub-second segments (many 0.1s long) across about ten corner-guard applications, interspersed with a few longer press segments and occasional brief re-peels of another guard's backing. All of these were reviewed via dense and sparse contact sheets; the pressing motion and held object are visually consistent throughout, so steps within each press cluster share the same description by design (flagged as repeated-summary warnings, not errors) rather than inventing false visual distinctions. Step 32 (105.3-105.4s, 0.1s) is labeled in the source as 'hand reaches into drawer', an outlier amid the pressing sequence; it is kept as a brief, low-confidence reach rather than reinterpreted as another press. The exact furniture piece is not identified from the frames (a reflective metal-framed item, possibly a lamp base or small stand, sits beside the work area but is not clearly the object receiving the guards), so it is tracked generically as 'furniture corner'. Fine track ends 9.93s before ffprobe_duration (165.134s); this is a large gap but no additional source segments cover it, so no step was added per the no-alter-boundaries rule - the gap is flagged here per the tail-note requirement.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "summary": "wipe the furniture corner before installing guards",
+      "verb": "wipe",
+      "object": "furniture corner",
+      "tool": "cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes the table",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 2.0,
+      "end": 14.9,
+      "summary": "continue wiping the furniture corner with the cloth",
+      "verb": "wipe",
+      "object": "furniture corner",
+      "tool": "cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes the surface of the furniture corner with a cloth",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.9,
+      "end": 67.0,
+      "summary": "peel the paper backing off a corner guard",
+      "verb": "peel",
+      "object": "adhesive backing",
+      "tool": null,
+      "target": "corner guard",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "repeated roughly a dozen times across about 52 seconds, preparing individual corner guards one after another",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand peels off backing from corner guard",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 67.0,
+      "end": 83.5,
+      "summary": "hold the corner guard up to inspect it",
+      "verb": "hold",
+      "object": "corner guard",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds the corner guard",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.5,
+      "end": 84.2,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.2,
+      "end": 84.3,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.3,
+      "end": 84.4,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.4,
+      "end": 84.5,
+      "summary": "peel the backing off another corner guard",
+      "verb": "peel",
+      "object": "adhesive backing",
+      "tool": null,
+      "target": "corner guard",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hands peel off the backing from the corner guard",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 84.5,
+      "end": 84.6,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.6,
+      "end": 84.7,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.7,
+      "end": 84.8,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.8,
+      "end": 84.9,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.9,
+      "end": 88.6,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.6,
+      "end": 88.7,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds corner guard",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.7,
+      "end": 89.1,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.1,
+      "end": 89.2,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.2,
+      "end": 89.3,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.3,
+      "end": 89.4,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.4,
+      "end": 89.5,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.5,
+      "end": 98.4,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.4,
+      "end": 98.5,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.5,
+      "end": 98.6,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.6,
+      "end": 98.7,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.7,
+      "end": 98.8,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.8,
+      "end": 99.3,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.3,
+      "end": 99.4,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.4,
+      "end": 99.5,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.5,
+      "end": 99.6,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.6,
+      "end": 99.7,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.7,
+      "end": 99.8,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.8,
+      "end": 105.2,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.2,
+      "end": 105.3,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.3,
+      "end": 105.4,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand reaches into drawer",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.4,
+      "end": 105.5,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.5,
+      "end": 105.6,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.6,
+      "end": 105.7,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.7,
+      "end": 105.8,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.8,
+      "end": 112.4,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.4,
+      "end": 112.5,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.5,
+      "end": 112.6,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.6,
+      "end": 112.7,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.7,
+      "end": 112.8,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.8,
+      "end": 112.9,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.9,
+      "end": 113.0,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.0,
+      "end": 113.1,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.1,
+      "end": 113.2,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.2,
+      "end": 113.3,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.3,
+      "end": 113.9,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.9,
+      "end": 119.2,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.2,
+      "end": 119.3,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.3,
+      "end": 119.4,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.4,
+      "end": 119.5,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.5,
+      "end": 119.6,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.6,
+      "end": 119.7,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.7,
+      "end": 119.8,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.8,
+      "end": 125.6,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 125.6,
+      "end": 126.1,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.1,
+      "end": 126.2,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.2,
+      "end": 126.3,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.3,
+      "end": 126.4,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.4,
+      "end": 126.5,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.5,
+      "end": 126.6,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.6,
+      "end": 126.7,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.7,
+      "end": 126.8,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.8,
+      "end": 126.9,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.9,
+      "end": 127.0,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.0,
+      "end": 132.8,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 132.8,
+      "end": 132.9,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 132.9,
+      "end": 133.0,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.0,
+      "end": 133.1,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.1,
+      "end": 133.2,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.2,
+      "end": 133.3,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.3,
+      "end": 133.9,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.9,
+      "end": 140.6,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 140.6,
+      "end": 140.7,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 140.7,
+      "end": 140.8,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 140.8,
+      "end": 140.9,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard into place",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 140.9,
+      "end": 141.0,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.0,
+      "end": 141.1,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.1,
+      "end": 141.2,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.2,
+      "end": 141.3,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.3,
+      "end": 141.4,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.4,
+      "end": 141.5,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.5,
+      "end": 141.6,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.6,
+      "end": 147.4,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "corner guard"
+        ],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.4,
+      "end": 147.5,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.5,
+      "end": 147.6,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.6,
+      "end": 147.7,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.7,
+      "end": 147.8,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.8,
+      "end": 147.9,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.9,
+      "end": 148.0,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.0,
+      "end": 153.8,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.8,
+      "end": 153.9,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.9,
+      "end": 154.0,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.0,
+      "end": 154.1,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.1,
+      "end": 154.2,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.2,
+      "end": 154.3,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds corner guard",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.3,
+      "end": 154.4,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.4,
+      "end": 154.5,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.5,
+      "end": 154.6,
+      "summary": "press down on the corner guard again",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.6,
+      "end": 154.7,
+      "summary": "press the corner guard onto the furniture corner",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.7,
+      "end": 154.8,
+      "summary": "keep pressing the corner guard into place",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.8,
+      "end": 155.2,
+      "summary": "continue pressing the corner guard firmly",
+      "verb": "press",
+      "object": "corner guard",
+      "tool": null,
+      "target": "furniture corner",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "corner guard"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand presses corner guard onto furniture corner",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 14.9,
+      "fine_index_range": [
+        0,
+        1
+      ],
+      "instruction": "Wipe the furniture corner clean",
+      "description": "Wipe down the furniture corner with a cloth to prepare it for the corner guards.",
+      "transition_in": null,
+      "goal_contribution": "Prepares the receiving surface for adhesive contact.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 14.9,
+      "end": 83.5,
+      "fine_index_range": [
+        2,
+        3
+      ],
+      "instruction": "Prepare the corner guards",
+      "description": "Peel the paper backing off about a dozen corner guards and hold one up to inspect it.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Exposes adhesive and readies a piece for placement.",
+      "predictability_level": "strong",
+      "predictability_reason": "The cleaned furniture corners are ready for adhesive guard preparation."
+    },
+    {
+      "start": 83.5,
+      "end": 112.4,
+      "fine_index_range": [
+        4,
+        37
+      ],
+      "instruction": "Apply the first corner guards",
+      "description": "Press the first four corner guards firmly onto corners of the furniture frame, including a brief reach toward a nearby drawer.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Begins attaching the protective pieces to the furniture edges.",
+      "predictability_level": "strong",
+      "predictability_reason": "Peeled guards are ready to apply."
+    },
+    {
+      "start": 112.4,
+      "end": 132.8,
+      "fine_index_range": [
+        38,
+        66
+      ],
+      "instruction": "Apply the middle corner guards",
+      "description": "Continue pressing three more corner guards onto successive corners of the furniture frame.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Extends the adhesive protection to additional edge positions.",
+      "predictability_level": "strong",
+      "predictability_reason": "After initial guards, additional corners still need coverage."
+    },
+    {
+      "start": 132.8,
+      "end": 155.2,
+      "fine_index_range": [
+        67,
+        102
+      ],
+      "instruction": "Apply the remaining corner guards",
+      "description": "Press the final four corner guards into place, finishing with the last guard still being pressed as the video ends.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Continues securing the remaining pieces; the track ends during the final application.",
+      "predictability_level": "strong",
+      "predictability_reason": "Remaining corners naturally receive the final guards."
+    }
+  ]
+}

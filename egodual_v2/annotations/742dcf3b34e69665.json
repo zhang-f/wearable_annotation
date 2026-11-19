@@ -1,0 +1,391 @@
+{
+  "video_id": "742dcf3b34e69665",
+  "duration": 256.867,
+  "task": "Painting a wooden spoon handle",
+  "domain": "Arts and Crafts",
+  "query": "How do I paint a wooden spoon handle?",
+  "goal": {
+    "title": "Paint a wooden spatula handle purple",
+    "description": "Hold a wooden spatula and wipe its handle with crumpled paper towel, rotating it to reach the surfaces. Straighten the paper towel underneath and load a small blue-handled paintbrush from the linked paint pots. Apply purple paint along the exposed handle, repeatedly reloading the brush and rotating the spatula to coat its sides, edges and rounded end around the hanging hole. Set the painted utensil on the towel, wipe the brush, peel the white masking band from the handle, close the paint pot and wipe residual paint from the brush with paper towel.",
+    "final_state": "The wooden spatula lies on the paper towel with a purple-painted handle and an unpainted broad head. The masking band has been peeled off and cleanup is underway.",
+    "procedure": [
+      "Wipe the wooden handle and arrange paper towel below it.",
+      "Load the brush and coat the handle purple while rotating it.",
+      "Touch up the edges and the end around the hanging hole.",
+      "Set the utensil down and remove the masking band.",
+      "Close the paint pot and wipe the brush."
+    ]
+  },
+  "object_inventory": [
+    "wooden spatula",
+    "paper towel",
+    "paintbrush",
+    "paint pot strip",
+    "masking tape"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 20.0,
+      "description": "Wipe the bare wooden handle with paper towel, rotate the utensil and arrange a towel underneath."
+    },
+    {
+      "start": 20.0,
+      "end": 213.48,
+      "description": "Load the small brush and apply purple paint along the handle, rotating the utensil and reloading paint to cover the sides, edges and rounded end."
+    },
+    {
+      "start": 213.48,
+      "end": 256.87,
+      "description": "Set the painted spatula on the towel, wipe the brush, peel away the masking band, close the paint pot and continue wiping the brush."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 12.0,
+      "old_summary": "hand wipes the wooden spoon handle with a paper towel",
+      "summary": "wipe the wooden spatula handle with paper towel",
+      "verb": "wipe",
+      "object": "wooden spatula",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wooden spatula"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 12.0,
+      "end": 20.0,
+      "old_summary": "hand wipes spoon handle with paper towel",
+      "summary": "rotate and wipe the handle and straighten the towel",
+      "verb": "wipe",
+      "object": "wooden spatula",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wooden spatula"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Wiping, lifting/straightening the towel and picking up the brush occur inside 12–20s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.0,
+      "end": 53.41,
+      "old_summary": "hand paints the wooden spoon handle with a brush",
+      "summary": "brush purple paint along the wooden spatula handle",
+      "verb": "paint",
+      "object": "wooden spatula",
+      "tool": "paintbrush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wooden spatula"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated reloads from the paint pot and strokes on the handle occur throughout this interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 53.41,
+      "end": 109.6,
+      "old_summary": "hand paints the wooden spoon handle",
+      "summary": "rotate the handle and paint its exposed sides",
+      "verb": "paint",
+      "object": "wooden spatula",
+      "tool": "paintbrush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wooden spatula"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "This long segment includes repeated paint-pot to handle brush transfers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.6,
+      "end": 170.0,
+      "old_summary": "hand paints the wooden spoon handle",
+      "summary": "coat the handle edges and end with purple paint",
+      "verb": "paint",
+      "object": "wooden spatula",
+      "tool": "paintbrush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wooden spatula"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Several brush reloads and handle rotations occur throughout the 60.4s interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 170.0,
+      "end": 170.1,
+      "old_summary": "hand paints the wooden spoon handle",
+      "summary": "rotate the handle beside the paint pots",
+      "verb": "rotate",
+      "object": "wooden spatula",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "wooden spatula"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "The 170–170.1s interval splits the same continuous handle rotation and painting sequence.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 170.1,
+      "end": 213.48,
+      "old_summary": "hand paints wooden spoon handle with brush",
+      "summary": "touch up the painted handle with repeated brush strokes",
+      "verb": "paint",
+      "object": "wooden spatula",
+      "tool": "paintbrush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wooden spatula"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated brush reloads and touch-up strokes occur throughout this interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 213.48,
+      "end": 225.58,
+      "old_summary": "hand wipes paintbrush on paper towel",
+      "summary": "set down the spatula and wipe the paintbrush",
+      "verb": "wipe",
+      "object": "paintbrush",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "The utensil is put down and the brush moves to the crumpled towel at t=214–216s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 225.58,
+      "end": 234.17,
+      "old_summary": "hand paints wooden spoon handle",
+      "summary": "peel the masking tape band from the handle",
+      "verb": "remove",
+      "object": "masking tape",
+      "tool": null,
+      "target": "wooden spatula",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Tape is peeled t=226–231s, then put aside before the next paint-pot action.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 234.17,
+      "end": 242.7,
+      "old_summary": "hand dips brush into paint",
+      "summary": "close the small paint pot lid",
+      "verb": "close",
+      "object": "paint pot strip",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint pot strip"
+        ],
+        "right": [
+          "paint pot strip"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 242.7,
+      "end": 243.3,
+      "old_summary": "hand wipes paintbrush on paper towel",
+      "summary": "reach for the paintbrush beside the towel",
+      "verb": "pick up",
+      "object": "paintbrush",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 243.3,
+      "end": 256.87,
+      "old_summary": "hand paints wooden spoon handle with brush",
+      "summary": null,
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "超出视频结尾",
+      "beyond_video_end": true,
+      "confidence": "low",
+      "notes": "Visible brush wiping t=244–256s. Endpoint overrun is 0.003s from duration rounding, rather than an unseen long tail.",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 20.0,
+      "fine_index_range": [
+        0,
+        1
+      ],
+      "instruction": "Wipe and position the spatula.",
+      "description": "Wipe the bare wooden handle with paper towel, rotate the utensil and arrange a towel underneath.",
+      "goal_contribution": "Prepare the handle surface and a protected work area for painting.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 20.0,
+      "end": 213.48,
+      "fine_index_range": [
+        2,
+        6
+      ],
+      "instruction": "Coat the handle with purple paint.",
+      "description": "Load the small brush and apply purple paint along the handle, rotating the utensil and reloading paint to cover the sides, edges and rounded end.",
+      "goal_contribution": "Leave the exposed handle coated purple while retaining the masked boundary near the head.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After wipe and position the spatula, coat the handle with purple paint is a natural next stage toward paint a wooden spatula handle purple."
+    },
+    {
+      "start": 213.48,
+      "end": 256.87,
+      "fine_index_range": [
+        7,
+        11
+      ],
+      "instruction": "Remove the mask and clean the painting tools.",
+      "description": "Set the painted spatula on the towel, wipe the brush, peel away the masking band, close the paint pot and continue wiping the brush.",
+      "goal_contribution": "Reveal the clean paint boundary and leave the painted utensil resting during cleanup.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After coat the handle with purple paint, remove the mask and clean the painting tools is plausible for paint a wooden spatula handle purple, but several next steps fit."
+    }
+  ],
+  "notes": "Viewed all eight overview sheets, fourteen dense contact sheets (838 frames) and native endpoint sheet. Wiping t=0–18s; brush loaded t=21–23s; purple paint applied t=24–213s with handle rotations and repeated pot-to-handle brush movements; utensil set down t=214s; brush wiped t=216–225s; white masking band peeled t=226–231s; paint pot closed t=234–242s; brush wiped again t=244–256s. Purple-painted object is the wooden spatula handle, not a separate stick. The final source endpoint 256.87s exceeds ffprobe 256.867s by only 0.003s; strict beyond-duration handling leaves final summary null although cleanup is visually observed up to 256.8s."
+}

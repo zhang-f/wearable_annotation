@@ -1,0 +1,31 @@
+{
+  "video_id": "fc264c696a11a50c",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After expose the thermostat battery compartment, remove and set aside the old batteries is a natural next stage toward replace the thermostat batteries and restore its display."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After remove and set aside the old batteries, install replacement batteries and inspect the display is a natural next stage toward replace the thermostat batteries and restore its display."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After install replacement batteries and inspect the display, reposition a battery and close the compartment is plausible for replace the thermostat batteries and restore its display, but several next steps fit."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After reposition a battery and close the compartment, remount the thermostat and check its controls is a natural next stage toward replace the thermostat batteries and restore its display."
+    }
+  ]
+}

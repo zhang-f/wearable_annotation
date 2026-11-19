@@ -1,0 +1,36 @@
+{
+  "video_id": "7db060fc3ba15e36",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After prepare the cleaning supplies, carry supplies to the vehicle and enter is a natural next stage toward wipe the driver-area surfaces of a parked vehicle."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After carry supplies to the vehicle and enter, wipe the dashboard with paper towel and cloth is a natural next stage toward wipe the driver-area surfaces of a parked vehicle."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After wipe the dashboard with paper towel and cloth, wipe the driver-door trim and controls is plausible for wipe the driver-area surfaces of a parked vehicle, but several next steps fit."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "After wipe the driver-door trim and controls, wipe the dashboard and steering area again is plausible for wipe the driver-area surfaces of a parked vehicle, but several next steps fit."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "After wipe the dashboard and steering area again, wipe the cupholder console is plausible for wipe the driver-area surfaces of a parked vehicle, but several next steps fit."
+    }
+  ]
+}

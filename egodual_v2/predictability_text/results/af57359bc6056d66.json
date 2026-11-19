@@ -1,0 +1,31 @@
+{
+  "video_id": "af57359bc6056d66",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The upside-down chair and wipes are ready for leg cleaning."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Clean chair legs are ready for adhesive felt pads."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After padding two legs, the other legs still need pads."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Applied pads are ready for a final placement check."
+    }
+  ]
+}

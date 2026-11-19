@@ -1,0 +1,1024 @@
+{
+  "video_id": "ed3bb632400de4bf",
+  "duration": 160.867,
+  "task": "Tightening loose mailbox",
+  "domain": "Handyman",
+  "query": "How do I tighten a loose mailbox?",
+  "goal": {
+    "title": "Adjust the mailbox mounting fasteners",
+    "description": "Open a roadside mailbox and select a screwdriver bit from tools stored inside. Use a screwdriver and pliers around the lower side and underside mounting hardware, repeatedly changing grip and position through the hedge, then check the mailbox front and door.",
+    "final_state": "The mailbox remains on its rusty metal support after its mounting fasteners are worked; the door is opened at the end.",
+    "procedure": [
+      "Open the mailbox and select a screwdriver bit.",
+      "Fit the bit to the screwdriver and close the mailbox door.",
+      "Work the first side mounting fastener with screwdriver and pliers.",
+      "Move to the opposite side and repeatedly turn the lower fastener.",
+      "Adjust underside mounting hardware with both tools.",
+      "Return to the side fastener, then check the mailbox door."
+    ]
+  },
+  "object_inventory": [
+    "mailbox door",
+    "mailbox",
+    "bit holder",
+    "driver bit",
+    "screwdriver",
+    "pliers",
+    "mounting fastener"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 29.46,
+      "description": "The mailbox door opens, tools and driver bits are handled inside, a bit fitted to the screwdriver, and pliers taken before the door closes."
+    },
+    {
+      "start": 29.46,
+      "end": 56.64,
+      "description": "The screwdriver and pliers are held against opposite sides of a mounting fastener, with repeated turns and regrips before changing position."
+    },
+    {
+      "start": 56.64,
+      "end": 102.2,
+      "description": "The tools move around the mailbox edge and the screwdriver makes many short rotations while the other hand braces the hardware."
+    },
+    {
+      "start": 102.2,
+      "end": 153.39,
+      "description": "Both tools are repositioned under the mailbox near the rusty support, then moved along the side and back beneath the box, with vegetation obscuring parts of the contact."
+    },
+    {
+      "start": 153.39,
+      "end": 155.37,
+      "description": "The tools are withdrawn, both hands touch the mailbox front and the door starts to open just after source fine coverage."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.18,
+      "old_summary": "hand opens the mailbox",
+      "summary": "both hands open mailbox and reach toward stored tools",
+      "verb": "open",
+      "object": "mailbox door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.18,
+      "end": 5.69,
+      "old_summary": "hand manipulates mailbox interior",
+      "summary": "right hand adjusts tools inside mailbox while left steadies rim",
+      "verb": "adjust",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.69,
+      "end": 9.24,
+      "old_summary": "hand manipulates mailbox interior",
+      "summary": "right hand selects a driver bit from holder",
+      "verb": "take",
+      "object": "driver bit",
+      "tool": null,
+      "target": "bit holder",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "driver bit"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 9.24,
+      "end": 11.9,
+      "old_summary": "hand removes screwdriver from mailbox",
+      "summary": "both hands adjust driver bit beside open mailbox",
+      "verb": "adjust",
+      "object": "driver bit",
+      "tool": null,
+      "target": "bit holder",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "driver bit"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.9,
+      "end": 13.14,
+      "old_summary": "hand inserts screwdriver bit into screwdriver handle",
+      "summary": "right hand lifts screwdriver from mailbox",
+      "verb": "take",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 13.14,
+      "end": 16.7,
+      "old_summary": "hand tightens screw on mailbox with screwdriver",
+      "summary": "right hand brings screwdriver to side mounting fastener",
+      "verb": "position",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.7,
+      "end": 23.7,
+      "old_summary": "hand selects screwdriver bit from set",
+      "summary": "both hands select and fit another screwdriver bit",
+      "verb": "fit",
+      "object": "driver bit",
+      "tool": null,
+      "target": "screwdriver",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "16.7–23.7s includes holder pickup, bit selection and return/bit fitting.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 23.7,
+      "end": 24.97,
+      "old_summary": "hand inserts screwdriver bit into driver",
+      "summary": "both hands seat driver bit in screwdriver shaft",
+      "verb": "fit",
+      "object": "driver bit",
+      "tool": null,
+      "target": "screwdriver",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 24.97,
+      "end": 26.9,
+      "old_summary": "hand selects a screwdriver bit from a set inside the mailbox",
+      "summary": "right hand returns tools inside then closes mailbox door",
+      "verb": "close",
+      "object": "mailbox door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.9,
+      "end": 29.46,
+      "old_summary": "hand tightens screw on mailbox with screwdriver",
+      "summary": "both hands take pliers and move to mailbox side",
+      "verb": "take",
+      "object": "pliers",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 29.46,
+      "end": 33.18,
+      "old_summary": "hand holds pliers near mailbox",
+      "summary": "both hands position screwdriver and pliers at mounting hardware",
+      "verb": "position",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.18,
+      "end": 41.8,
+      "old_summary": "hand tightens screw on mailbox with screwdriver",
+      "summary": "right hand turns screwdriver while left braces mounting fastener",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.8,
+      "end": 41.83,
+      "old_summary": "hand holds screwdriver bit against mailbox",
+      "summary": "both hands briefly hold tools at mailbox mounting point",
+      "verb": "hold",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "41.8–41.83s is shorter than one15fps frame; native endpoint41.8s repeats the same tool contact, no independent change visible.",
+      "beyond_video_end": false,
+      "confidence": "low",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.83,
+      "end": 46.52,
+      "old_summary": "hand places pliers down",
+      "summary": "both hands regrip pliers beside mailbox support",
+      "verb": "regrip",
+      "object": "pliers",
+      "tool": null,
+      "target": "mounting fastener",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.52,
+      "end": 49.85,
+      "old_summary": "hand tightens screw on mailbox with screwdriver",
+      "summary": "right hand turns screwdriver at side mounting fastener",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.85,
+      "end": 52.92,
+      "old_summary": "hand holds pliers",
+      "summary": "both hands readjust tools under mailbox edge",
+      "verb": "adjust",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.92,
+      "end": 56.64,
+      "old_summary": "hand holds pliers",
+      "summary": "both hands move tools around front toward opposite side",
+      "verb": "move",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.64,
+      "end": 64.87,
+      "old_summary": "hand uses pliers to adjust screw on mailbox",
+      "summary": "both hands place tools against opposite lower mounting point",
+      "verb": "position",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Mailbox body occludes tool contact during much of57–61s; tool regrip and return to visible lower hardware are clear.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 64.87,
+      "end": 69.3,
+      "old_summary": "hand tightens screw with screwdriver",
+      "summary": "right hand rotates screwdriver while left holds mounting hardware",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.3,
+      "end": 74.5,
+      "old_summary": "hand tightens screw with screwdriver",
+      "summary": "right hand regrips and turns screwdriver at mounting point",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.5,
+      "end": 79.67,
+      "old_summary": "hand tightens screw with screwdriver",
+      "summary": "right hand continues rotating screwdriver against braced fastener",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 79.67,
+      "end": 84.3,
+      "old_summary": "hand tightens screw on mailbox with screwdriver",
+      "summary": "both hands reposition tools around the mailbox edge",
+      "verb": "position",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.3,
+      "end": 89.41,
+      "old_summary": "hand tightens screw with screwdriver",
+      "summary": "right hand resumes turning screwdriver at lower mounting point",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.41,
+      "end": 93.51,
+      "old_summary": "hand tightens screw with screwdriver",
+      "summary": "right hand turns screwdriver through repeated short rotations",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 93.51,
+      "end": 98.6,
+      "old_summary": "hand tightens screw with screwdriver",
+      "summary": "left hand braces hardware while right turns screwdriver again",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.6,
+      "end": 102.2,
+      "old_summary": "hand tightens screw with screwdriver",
+      "summary": "right hand withdraws screwdriver as both hands change position",
+      "verb": "withdraw",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 102.2,
+      "end": 107.93,
+      "old_summary": "hands tighten screw with screwdriver",
+      "summary": "both hands move tools beneath mailbox beside rusty support",
+      "verb": "move",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.93,
+      "end": 112.5,
+      "old_summary": "hands tighten screw with screwdriver",
+      "summary": "both hands work screwdriver and pliers at underside mounting hardware",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.5,
+      "end": 126.62,
+      "old_summary": "hand tightens screw with screwdriver",
+      "summary": "right hand turns screwdriver at side while left braces hardware",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.62,
+      "end": 130.34,
+      "old_summary": "hand uses pliers to adjust mailbox",
+      "summary": "both hands withdraw tools and regrip them beneath mailbox",
+      "verb": "regrip",
+      "object": "pliers",
+      "tool": null,
+      "target": "screwdriver",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.34,
+      "end": 135.62,
+      "old_summary": "hands use pliers to tighten screw on mailbox",
+      "summary": "both hands place tools at underside fastener near support",
+      "verb": "position",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 135.62,
+      "end": 140.82,
+      "old_summary": "hands tighten screw with screwdriver",
+      "summary": "both hands turn and regrip tools beneath mailbox",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 140.82,
+      "end": 153.39,
+      "old_summary": "hand trims bush with shears",
+      "summary": "left hand turns screwdriver while right braces hardware with pliers",
+      "verb": "turn",
+      "object": "mounting fastener",
+      "tool": "screwdriver",
+      "target": "pliers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Dense leaves obscure exact fastener during141–152s. Visible screwdriver rotation and opposing pliers grip support generic hardware action only.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.39,
+      "end": 155.18,
+      "old_summary": "hand adjusts mailbox with screwdriver and pliers",
+      "summary": "both hands withdraw tools and touch mailbox front",
+      "verb": "touch",
+      "object": "mailbox",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 155.18,
+      "end": 155.37,
+      "old_summary": "hand holds screwdriver and pliers against mailbox",
+      "summary": "both hands hold tools beside mailbox door before opening it",
+      "verb": "hold",
+      "object": "mailbox door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Fine ends155.37s; door opens155.5–156s and both hands continue touching/adjusting front through159s. Task-related tail lacks source fine coverage.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 29.46,
+      "fine_index_range": [
+        0,
+        9
+      ],
+      "instruction": "Select tools and fit the screwdriver bit.",
+      "description": "The mailbox door opens, tools and driver bits are handled inside, a bit fitted to the screwdriver, and pliers taken before the door closes.",
+      "goal_contribution": "Prepare the tools for the mailbox mounting hardware.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 29.46,
+      "end": 56.64,
+      "fine_index_range": [
+        10,
+        16
+      ],
+      "instruction": "Work the first side mounting point.",
+      "description": "The screwdriver and pliers are held against opposite sides of a mounting fastener, with repeated turns and regrips before changing position.",
+      "goal_contribution": "Adjust the accessible fastener on the first side of the mailbox.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After select tools and fit the screwdriver bit, work the first side mounting point is a natural next stage toward adjust the mailbox mounting fasteners."
+    },
+    {
+      "start": 56.64,
+      "end": 102.2,
+      "fine_index_range": [
+        17,
+        25
+      ],
+      "instruction": "Work the opposite lower side mounting point.",
+      "description": "The tools move around the mailbox edge and the screwdriver makes many short rotations while the other hand braces the hardware.",
+      "goal_contribution": "Adjust mounting hardware reached from the opposite side.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After work the first side mounting point, work the opposite lower side mounting point is a natural next stage toward adjust the mailbox mounting fasteners."
+    },
+    {
+      "start": 102.2,
+      "end": 153.39,
+      "fine_index_range": [
+        26,
+        32
+      ],
+      "instruction": "Work underside hardware and revisit the side.",
+      "description": "Both tools are repositioned under the mailbox near the rusty support, then moved along the side and back beneath the box, with vegetation obscuring parts of the contact.",
+      "goal_contribution": "Continue adjustment around the underside and remaining mounting points.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After work the opposite lower side mounting point, work underside hardware and revisit the side is plausible for adjust the mailbox mounting fasteners, but several next steps fit."
+    },
+    {
+      "start": 153.39,
+      "end": 155.37,
+      "fine_index_range": [
+        33,
+        34
+      ],
+      "instruction": "Check the mailbox front and door.",
+      "description": "The tools are withdrawn, both hands touch the mailbox front and the door starts to open just after source fine coverage.",
+      "goal_contribution": "Check the mailbox body and door after working the mounting hardware.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After work underside hardware and revisit the side, check the mailbox front and door is a natural next stage toward adjust the mailbox mounting fasteners."
+    }
+  ],
+  "notes": "Viewed all5 overview sheets, all602 dense frames and all35 native endpoints. Fine times retained. Screwdriver/pliers rotations are visible but thread direction and successful tightening versus loosening cannot be established, so description says adjustment. Significant body/leaf occlusion recorded locally. Last source fine ends155.37s before visible door opening and front handling through159s. Independent predictability pending."
+}

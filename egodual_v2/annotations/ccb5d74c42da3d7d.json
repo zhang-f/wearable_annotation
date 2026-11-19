@@ -1,0 +1,2008 @@
+{
+  "video_id": "ccb5d74c42da3d7d",
+  "duration": 315.467,
+  "task": "Making fried egg and tomato toast",
+  "domain": "Chef",
+  "query": "How do I make fried egg and tomato toast?",
+  "goal": {
+    "title": "Make an egg and tomato toast sandwich",
+    "description": "Toast two bread slices, rinse and slice a tomato, cook egg in an oiled frying pan, then place tomato and cooked egg between the toast slices.",
+    "final_state": "A closed egg and tomato sandwich rests on a white plate.",
+    "procedure": [
+      "Load bread into the toaster, connect it and start toasting.",
+      "Rinse and dry the tomato, then cut it into thin slices.",
+      "Heat a frying pan, add oil, crack egg into a bowl and pour it into the pan.",
+      "Break the yolk with a silicone spatula and allow the egg to cook, occasionally shaking the pan and checking the watch timer.",
+      "Remove the toast, arrange tomato slices on one piece, transfer the egg with a wooden spatula and close the sandwich."
+    ]
+  },
+  "object_inventory": [
+    "bread",
+    "bread bag",
+    "toaster",
+    "power cord",
+    "wall socket",
+    "tomato",
+    "faucet",
+    "paper towel",
+    "knife",
+    "cutting board",
+    "frying pan",
+    "stove controls",
+    "white plate",
+    "silicone spatula",
+    "oil bottle",
+    "oil cap",
+    "egg",
+    "eggshell",
+    "bowl",
+    "sink",
+    "watch",
+    "wooden spatula",
+    "utensil holder",
+    "sandwich"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 27.45,
+      "description": "Two bread slices are loaded, the toaster is plugged in and its controls are adjusted to start heating."
+    },
+    {
+      "start": 27.45,
+      "end": 55.5,
+      "description": "The tomato is rinsed at the faucet, dried with paper towel and sliced repeatedly on the cutting board."
+    },
+    {
+      "start": 55.5,
+      "end": 76.94,
+      "description": "Stove controls are set, the pan is positioned, and oil is poured into it before the bottle is put aside."
+    },
+    {
+      "start": 76.94,
+      "end": 93.65,
+      "description": "Egg is cracked into the bowl, carried to the stove and tipped into the frying pan; the bowl is set in the sink."
+    },
+    {
+      "start": 93.65,
+      "end": 157.04,
+      "description": "The yolk is broken and egg spread with a silicone spatula, the watch is checked, and the pan is shaken and stirred between waits."
+    },
+    {
+      "start": 157.04,
+      "end": 273.51,
+      "description": "A plate is moved beside the toaster. The wearer checks toaster and watch controls, waits and repeatedly shakes the pan as the egg sets."
+    },
+    {
+      "start": 273.51,
+      "end": 290.02,
+      "description": "The two toast slices are removed from the toaster and arranged on the plate; tomato slices are added and adjusted across one slice."
+    },
+    {
+      "start": 290.02,
+      "end": 314.24,
+      "description": "The pan is lifted, a wooden spatula is taken and used to scrape cooked egg onto the tomato toast. The pan is returned and the second toast slice placed on top."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.18,
+      "old_summary": "",
+      "summary": "both hands pull bread slices from the bag",
+      "verb": "pull",
+      "object": "bread",
+      "tool": null,
+      "target": "bread bag",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.18,
+      "end": 4.93,
+      "old_summary": "n",
+      "summary": "both hands separate two bread slices above the toaster",
+      "verb": "separate",
+      "object": "bread",
+      "tool": null,
+      "target": "toaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 4.93,
+      "end": 6.18,
+      "old_summary": "n",
+      "summary": "both hands place bread slices in the toaster slots",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "toaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 6.18,
+      "end": 8.23,
+      "old_summary": "n",
+      "summary": "both hands gather the toaster power cord",
+      "verb": "gather",
+      "object": "power cord",
+      "tool": null,
+      "target": "toaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "power cord"
+        ],
+        "right": [
+          "power cord"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.23,
+      "end": 12.89,
+      "old_summary": "n",
+      "summary": "right hand inserts the toaster plug into the wall socket",
+      "verb": "insert",
+      "object": "power cord",
+      "tool": null,
+      "target": "wall socket",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.89,
+      "end": 21.68,
+      "old_summary": "n",
+      "summary": "right hand adjusts the toaster dial",
+      "verb": "adjust",
+      "object": "toaster",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 21.68,
+      "end": 27.45,
+      "old_summary": "n",
+      "summary": "right hand starts toaster then reaches faucet beside left-held tomato",
+      "verb": "press",
+      "object": "toaster",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "This preserved segment includes starting the toaster near 22–24s and reaching faucet with tomato near 26–27s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.45,
+      "end": 29.03,
+      "old_summary": "n",
+      "summary": "left hand holds tomato under water while right adjusts faucet",
+      "verb": "rinse",
+      "object": "tomato",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.03,
+      "end": 29.85,
+      "old_summary": "n",
+      "summary": "right hand turns off faucet while left holds tomato",
+      "verb": "turn off",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 29.85,
+      "end": 36.07,
+      "old_summary": "n",
+      "summary": "both hands dry tomato with a paper towel",
+      "verb": "dry",
+      "object": "tomato",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.07,
+      "end": 37.74,
+      "old_summary": "n",
+      "summary": "right hand picks up knife while left sets down tomato",
+      "verb": "pick up",
+      "object": "knife",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 37.74,
+      "end": 41.19,
+      "old_summary": "n",
+      "summary": "right hand starts slicing tomato held by left hand",
+      "verb": "slice",
+      "object": "tomato",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.19,
+      "end": 43.42,
+      "old_summary": "n",
+      "summary": "right hand cuts another tomato slice",
+      "verb": "slice",
+      "object": "tomato",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.42,
+      "end": 45.68,
+      "old_summary": "n",
+      "summary": "right hand slices tomato while left steadies it",
+      "verb": "slice",
+      "object": "tomato",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 45.68,
+      "end": 47.9,
+      "old_summary": "n",
+      "summary": "right hand continues cutting tomato into slices",
+      "verb": "slice",
+      "object": "tomato",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.9,
+      "end": 49.55,
+      "old_summary": "n",
+      "summary": "right hand cuts tomato while left holds the remaining piece",
+      "verb": "slice",
+      "object": "tomato",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.55,
+      "end": 52.34,
+      "old_summary": "n",
+      "summary": "right hand slices the remaining tomato piece",
+      "verb": "slice",
+      "object": "tomato",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.34,
+      "end": 54.95,
+      "old_summary": "n",
+      "summary": "right hand sets knife beside the sliced tomato",
+      "verb": "set down",
+      "object": "knife",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.95,
+      "end": 55.5,
+      "old_summary": "n",
+      "summary": "idle (turning from tomato counter toward stove)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 55.5,
+      "end": 64.27,
+      "old_summary": "n",
+      "summary": "right hand adjusts stove controls beside the repositioned frying pan",
+      "verb": "adjust",
+      "object": "stove controls",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Pan and plate positioning precede touching stove controls within 55.5–64.27s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 64.27,
+      "end": 67.76,
+      "old_summary": "n",
+      "summary": "left hand picks up oil bottle after right adjusts stove",
+      "verb": "pick up",
+      "object": "oil bottle",
+      "tool": null,
+      "target": "stove controls",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 67.76,
+      "end": 69.74,
+      "old_summary": "n",
+      "summary": "both hands open the oil bottle",
+      "verb": "open",
+      "object": "oil bottle",
+      "tool": null,
+      "target": "oil cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oil cap"
+        ],
+        "right": [
+          "oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.74,
+      "end": 74.36,
+      "old_summary": "n",
+      "summary": "right hand pours oil into the frying pan",
+      "verb": "pour",
+      "object": "oil bottle",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oil cap"
+        ],
+        "right": [
+          "oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.36,
+      "end": 75.42,
+      "old_summary": "n",
+      "summary": "both hands screw cap onto the oil bottle",
+      "verb": "close",
+      "object": "oil bottle",
+      "tool": null,
+      "target": "oil cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.42,
+      "end": 76.94,
+      "old_summary": "n",
+      "summary": "right hand sets down oil bottle and reaches for egg",
+      "verb": "set down",
+      "object": "oil bottle",
+      "tool": null,
+      "target": "egg",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 76.94,
+      "end": 77.73,
+      "old_summary": "n",
+      "summary": "right hand positions egg over the bowl",
+      "verb": "position",
+      "object": "egg",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 77.73,
+      "end": 80.54,
+      "old_summary": "n",
+      "summary": "both hands crack egg into the bowl",
+      "verb": "crack",
+      "object": "egg",
+      "tool": null,
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 80.54,
+      "end": 82.8,
+      "old_summary": "n",
+      "summary": "right hand puts eggshell aside while left picks up bowl",
+      "verb": "set down",
+      "object": "eggshell",
+      "tool": null,
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 82.8,
+      "end": 86.01,
+      "old_summary": "n",
+      "summary": "left hand carries the bowl toward the frying pan",
+      "verb": "carry",
+      "object": "bowl",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.01,
+      "end": 87.55,
+      "old_summary": "n",
+      "summary": "left hand tilts bowl to pour egg into pan",
+      "verb": "pour",
+      "object": "egg",
+      "tool": "bowl",
+      "target": "frying pan",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.55,
+      "end": 92.16,
+      "old_summary": "n",
+      "summary": "left hand empties bowl into pan then lowers it toward sink",
+      "verb": "pour",
+      "object": "egg",
+      "tool": "bowl",
+      "target": "frying pan",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.16,
+      "end": 93.65,
+      "old_summary": "n",
+      "summary": "left hand sets down bowl while right picks up silicone spatula",
+      "verb": "pick up",
+      "object": "silicone spatula",
+      "tool": null,
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "silicone spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 93.65,
+      "end": 102.81,
+      "old_summary": "n",
+      "summary": "right hand breaks yolk and spreads egg with silicone spatula",
+      "verb": "spread",
+      "object": "egg",
+      "tool": "silicone spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "silicone spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 102.81,
+      "end": 103.94,
+      "old_summary": "n",
+      "summary": "right hand places silicone spatula on white plate",
+      "verb": "set down",
+      "object": "silicone spatula",
+      "tool": null,
+      "target": "white plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.94,
+      "end": 109.97,
+      "old_summary": "n",
+      "summary": "right hand taps watch on left wrist",
+      "verb": "tap",
+      "object": "watch",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 109.97,
+      "end": 126.2,
+      "old_summary": "n",
+      "summary": "idle (watching egg cook in the frying pan)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 126.2,
+      "end": 130.28,
+      "old_summary": "n",
+      "summary": "right hand shakes frying pan by its handle",
+      "verb": "shake",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "frying pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 130.28,
+      "end": 135.35,
+      "old_summary": "n",
+      "summary": "right hand picks up silicone spatula and stirs egg",
+      "verb": "stir",
+      "object": "egg",
+      "tool": "silicone spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "silicone spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 135.35,
+      "end": 136.43,
+      "old_summary": "n",
+      "summary": "right hand lays silicone spatula on plate",
+      "verb": "set down",
+      "object": "silicone spatula",
+      "tool": null,
+      "target": "white plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.43,
+      "end": 157.04,
+      "old_summary": "n",
+      "summary": "idle (watching egg cook before turning toward toaster)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 157.04,
+      "end": 160.31,
+      "old_summary": "n",
+      "summary": "right hand moves white plate beside toaster",
+      "verb": "move",
+      "object": "white plate",
+      "tool": null,
+      "target": "toaster",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 160.31,
+      "end": 174.28,
+      "old_summary": "n",
+      "summary": "right hand presses toaster lever then taps watch",
+      "verb": "press",
+      "object": "toaster",
+      "tool": null,
+      "target": "watch",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "frying pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Contains toaster lever interaction near 160–162s, watch taps near 164–173s, and pan pickup at its end.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 174.28,
+      "end": 179.93,
+      "old_summary": "n",
+      "summary": "right hand shakes frying pan over stove",
+      "verb": "shake",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 179.93,
+      "end": 199.56,
+      "old_summary": "n",
+      "summary": "idle (watching egg cook without holding utensils)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 199.56,
+      "end": 208.15,
+      "old_summary": "n",
+      "summary": "right hand lifts and shakes frying pan",
+      "verb": "shake",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 208.15,
+      "end": 223.19,
+      "old_summary": "n",
+      "summary": "idle (waiting beside the cooking egg)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 223.19,
+      "end": 229.88,
+      "old_summary": "n",
+      "summary": "right hand shakes frying pan to loosen egg",
+      "verb": "shake",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 229.88,
+      "end": 237.15,
+      "old_summary": "n",
+      "summary": "idle (waiting beside stove before lifting watch)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 237.15,
+      "end": 241.14,
+      "old_summary": "n",
+      "summary": "right hand taps watch on raised left wrist",
+      "verb": "tap",
+      "object": "watch",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 241.14,
+      "end": 259.79,
+      "old_summary": "n",
+      "summary": "idle (watching egg cook and checking watch without utensil interaction)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Mostly stationary waiting; brief watch inspection at end is included without inventing a utensil action. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 259.79,
+      "end": 261.21,
+      "old_summary": "n",
+      "summary": "left hand raises watch while right hand rests beside sink",
+      "verb": "raise",
+      "object": "watch",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 261.21,
+      "end": 263.38,
+      "old_summary": "n",
+      "summary": "idle (lowering arms beside the frying pan)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 263.38,
+      "end": 266.42,
+      "old_summary": "n",
+      "summary": "right hand shakes frying pan by the handle",
+      "verb": "shake",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 266.42,
+      "end": 273.51,
+      "old_summary": "n",
+      "summary": "right hand shakes pan then releases it and turns toward toaster",
+      "verb": "shake",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Contains pan shaking near 267–270s followed by turning to toaster and beginning toast pickup near 273s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 273.51,
+      "end": 274.55,
+      "old_summary": "n",
+      "summary": "right hand transfers first toast slice from toaster to plate",
+      "verb": "transfer",
+      "object": "bread",
+      "tool": null,
+      "target": "white plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 274.55,
+      "end": 275.55,
+      "old_summary": "n",
+      "summary": "left hand removes second toast slice and places it on plate",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "white plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 275.55,
+      "end": 276.73,
+      "old_summary": "n",
+      "summary": "left hand straightens toast slices on the plate",
+      "verb": "straighten",
+      "object": "bread",
+      "tool": null,
+      "target": "white plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 276.73,
+      "end": 278.29,
+      "old_summary": "n",
+      "summary": "both hands separate tomato slices above the toast",
+      "verb": "separate",
+      "object": "tomato",
+      "tool": null,
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "tomato"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 278.29,
+      "end": 279.57,
+      "old_summary": "n",
+      "summary": "right hand places tomato slice on toast",
+      "verb": "place",
+      "object": "tomato",
+      "tool": null,
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 279.57,
+      "end": 280.77,
+      "old_summary": "n",
+      "summary": "right hand adds tomato slice beside the first",
+      "verb": "place",
+      "object": "tomato",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 280.77,
+      "end": 282.64,
+      "old_summary": "n",
+      "summary": "right hand transfers another tomato slice to toast",
+      "verb": "transfer",
+      "object": "tomato",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 282.64,
+      "end": 284.24,
+      "old_summary": "n",
+      "summary": "both hands position tomato slices across toast",
+      "verb": "position",
+      "object": "tomato",
+      "tool": null,
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 284.24,
+      "end": 284.83,
+      "old_summary": "n",
+      "summary": "right hand picks up another tomato slice",
+      "verb": "pick up",
+      "object": "tomato",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tomato"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 284.83,
+      "end": 286.13,
+      "old_summary": "n",
+      "summary": "right hand places tomato slice on the toast",
+      "verb": "place",
+      "object": "tomato",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 286.13,
+      "end": 286.96,
+      "old_summary": "n",
+      "summary": "right hand adds tomato slice while left steadies toast",
+      "verb": "place",
+      "object": "tomato",
+      "tool": null,
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 286.96,
+      "end": 287.84,
+      "old_summary": "n",
+      "summary": "right hand adjusts tomato slices on toast",
+      "verb": "adjust",
+      "object": "tomato",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 287.84,
+      "end": 290.02,
+      "old_summary": "n",
+      "summary": "both hands finish arranging tomato then turn toward frying pan",
+      "verb": "arrange",
+      "object": "tomato",
+      "tool": null,
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 290.02,
+      "end": 291.86,
+      "old_summary": "n",
+      "summary": "left hand lifts frying pan while right reaches utensil holder",
+      "verb": "lift",
+      "object": "frying pan",
+      "tool": null,
+      "target": "utensil holder",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 291.86,
+      "end": 293.26,
+      "old_summary": "n",
+      "summary": "right hand takes wooden spatula while left holds frying pan",
+      "verb": "take",
+      "object": "wooden spatula",
+      "tool": null,
+      "target": "utensil holder",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "wooden spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 293.26,
+      "end": 298.37,
+      "old_summary": "n",
+      "summary": "right hand slides egg from tilted pan onto tomato toast",
+      "verb": "transfer",
+      "object": "egg",
+      "tool": "wooden spatula",
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "wooden spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 298.37,
+      "end": 299.7,
+      "old_summary": "n",
+      "summary": "right hand scrapes egg from pan onto toast",
+      "verb": "scrape",
+      "object": "egg",
+      "tool": "wooden spatula",
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "wooden spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 299.7,
+      "end": 301.8,
+      "old_summary": "n",
+      "summary": "right hand scrapes remaining egg onto the sandwich filling",
+      "verb": "scrape",
+      "object": "egg",
+      "tool": "wooden spatula",
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "wooden spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 301.8,
+      "end": 309.38,
+      "old_summary": "n",
+      "summary": "right hand scrapes pan and presses egg onto toast",
+      "verb": "scrape",
+      "object": "egg",
+      "tool": "wooden spatula",
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "wooden spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "At 302–309s the wooden spatula alternates scraping pan residue and pressing egg onto toast; preserved boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 309.38,
+      "end": 310.0,
+      "old_summary": "n",
+      "summary": "right hand rests wooden spatula across frying pan",
+      "verb": "set down",
+      "object": "wooden spatula",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 310.0,
+      "end": 311.38,
+      "old_summary": "n",
+      "summary": "left hand returns frying pan to stove",
+      "verb": "set down",
+      "object": "frying pan",
+      "tool": null,
+      "target": "stove controls",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 311.38,
+      "end": 314.24,
+      "old_summary": "n",
+      "summary": "both hands place second toast slice over egg and tomato",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "sandwich",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sandwich"
+        ],
+        "right": [
+          "sandwich"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 27.45,
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "instruction": "Start toasting the bread.",
+      "description": "Two bread slices are loaded, the toaster is plugged in and its controls are adjusted to start heating.",
+      "goal_contribution": "Prepare the two toasted outer sandwich layers.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 27.45,
+      "end": 55.5,
+      "fine_index_range": [
+        7,
+        18
+      ],
+      "instruction": "Rinse, dry and slice the tomato.",
+      "description": "The tomato is rinsed at the faucet, dried with paper towel and sliced repeatedly on the cutting board.",
+      "goal_contribution": "Prepare the fresh tomato filling.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After start toasting the bread, rinse, dry and slice the tomato is plausible for make an egg and tomato toast sandwich, but several next steps fit."
+    },
+    {
+      "start": 55.5,
+      "end": 76.94,
+      "fine_index_range": [
+        19,
+        24
+      ],
+      "instruction": "Heat and oil the frying pan.",
+      "description": "Stove controls are set, the pan is positioned, and oil is poured into it before the bottle is put aside.",
+      "goal_contribution": "Prepare the hot oiled surface for cooking egg.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After rinse, dry and slice the tomato, heat and oil the frying pan is plausible for make an egg and tomato toast sandwich, but several next steps fit."
+    },
+    {
+      "start": 76.94,
+      "end": 93.65,
+      "fine_index_range": [
+        25,
+        31
+      ],
+      "instruction": "Crack egg into bowl and pour into pan.",
+      "description": "Egg is cracked into the bowl, carried to the stove and tipped into the frying pan; the bowl is set in the sink.",
+      "goal_contribution": "Place the egg in the pan ready to cook.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After heat and oil the frying pan, crack egg into bowl and pour into pan is a natural next stage toward make an egg and tomato toast sandwich."
+    },
+    {
+      "start": 93.65,
+      "end": 157.04,
+      "fine_index_range": [
+        32,
+        39
+      ],
+      "instruction": "Spread the egg and begin cooking it.",
+      "description": "The yolk is broken and egg spread with a silicone spatula, the watch is checked, and the pan is shaken and stirred between waits.",
+      "goal_contribution": "Cook and spread the egg filling into a compact layer.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After crack egg into bowl and pour into pan, spread the egg and begin cooking it is a natural next stage toward make an egg and tomato toast sandwich."
+    },
+    {
+      "start": 157.04,
+      "end": 273.51,
+      "fine_index_range": [
+        40,
+        53
+      ],
+      "instruction": "Set out a plate and let the egg finish cooking.",
+      "description": "A plate is moved beside the toaster. The wearer checks toaster and watch controls, waits and repeatedly shakes the pan as the egg sets.",
+      "goal_contribution": "Have a serving plate ready and finish cooking the egg.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After spread the egg and begin cooking it, set out a plate and let the egg finish cooking is plausible for make an egg and tomato toast sandwich, but several next steps fit."
+    },
+    {
+      "start": 273.51,
+      "end": 290.02,
+      "fine_index_range": [
+        54,
+        66
+      ],
+      "instruction": "Plate the toast and cover one slice with tomato.",
+      "description": "The two toast slices are removed from the toaster and arranged on the plate; tomato slices are added and adjusted across one slice.",
+      "goal_contribution": "Build the tomato layer on the toasted sandwich base.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After set out a plate and let the egg finish cooking, plate the toast and cover one slice with tomato is a natural next stage toward make an egg and tomato toast sandwich."
+    },
+    {
+      "start": 290.02,
+      "end": 314.24,
+      "fine_index_range": [
+        67,
+        75
+      ],
+      "instruction": "Transfer the egg and close the sandwich.",
+      "description": "The pan is lifted, a wooden spatula is taken and used to scrape cooked egg onto the tomato toast. The pan is returned and the second toast slice placed on top.",
+      "goal_contribution": "Finish the assembled egg and tomato toast sandwich.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After plate the toast and cover one slice with tomato, transfer the egg and close the sandwich is a natural next stage toward make an egg and tomato toast sandwich."
+    }
+  ],
+  "notes": "All summaries and coarse groups rewritten from timestamped overview, every 3/15fps step frame and native endpoint sheets. Fine boundaries unchanged. Source fine stops at 314.24s; real tail to 315.467s shows the completed sandwich without another distinct preparation action. No ingredient beyond visible egg, tomato and bread is asserted."
+}

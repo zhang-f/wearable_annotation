@@ -1,0 +1,2092 @@
+{
+  "video_id": "a668107d4cbb61d6",
+  "duration": 244.0,
+  "task": "Making a BBQ chicken quesadilla",
+  "domain": "Chef",
+  "query": "How do I make a BBQ chicken quesadilla?",
+  "goal": {
+    "title": "Cook a barbecue chicken and cheese quesadilla",
+    "description": "Open the tortilla bag and set two tortillas on the board. Retrieve the container of cooked chicken from the microwave. Pour barbecue sauce over one tortilla and spread it with a spoon. Cut chicken pieces smaller and scatter them over the sauce, add shredded cheese and cover with the other tortilla. Cook the filled tortilla stack in a frying pan, repeatedly pressing, checking and turning it with a spatula. Transfer it to a plate and cut it into quarters with a rolling cutter.",
+    "final_state": "The cooked quesadilla is on the plate, cut into four portions. No eating is shown.",
+    "procedure": [
+      "Lay out two tortillas and retrieve the cooked chicken.",
+      "Coat one tortilla with barbecue sauce.",
+      "Dice the chicken and add it to the sauced tortilla.",
+      "Sprinkle shredded cheese and add the top tortilla.",
+      "Cook, press and turn the quesadilla in the frying pan.",
+      "Transfer the quesadilla to a plate and cut it into portions."
+    ]
+  },
+  "object_inventory": [
+    "tortilla bag",
+    "tortilla",
+    "microwave door",
+    "chicken container",
+    "chicken",
+    "barbecue sauce bottle",
+    "bottle cap",
+    "drawer",
+    "spoon",
+    "knife",
+    "shredded cheese bag",
+    "shredded cheese",
+    "frying pan",
+    "burner knob",
+    "spatula",
+    "plate",
+    "rolling cutter",
+    "phone",
+    "thermostat",
+    "window",
+    "counter"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 14.7,
+      "description": "Open the tortilla bag, separate two tortillas onto the board and retrieve the chicken container from the microwave."
+    },
+    {
+      "start": 14.7,
+      "end": 50.0,
+      "description": "Open the sauce bottle and pour a spiral over one tortilla. Fetch a spoon from the drawer and spread the sauce over its surface, then move the chicken container closer."
+    },
+    {
+      "start": 50.0,
+      "end": 92.5,
+      "description": "Briefly use the phone, reposition the tortilla and take chicken from the container. Cut it into small pieces with the knife, then scatter the pieces over the sauce."
+    },
+    {
+      "start": 92.5,
+      "end": 130.4,
+      "description": "Work open the cheese bag, operate the burner and sprinkle cheese over the chicken. Place the second tortilla on top, move the stack into the frying pan and press it flat."
+    },
+    {
+      "start": 130.4,
+      "end": 194.34,
+      "description": "Briefly leave to operate the thermostat, then return and press the tortilla with the palms. Get the spatula, press and lift the edge repeatedly, turn the quesadilla over and press again."
+    },
+    {
+      "start": 194.34,
+      "end": 220.57,
+      "description": "Ready the serving plate, wait, work the spatula beneath the quesadilla and transfer it onto the plate. Put the spatula aside."
+    },
+    {
+      "start": 220.57,
+      "end": 244.0,
+      "description": "Take the rolling cutter and cut the plated quesadilla, briefly turn toward the window, then return to finish crossing cuts and adjust the portions."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.6,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "pick up the tortilla bag",
+      "verb": "pick up",
+      "object": "tortilla bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla bag"
+        ],
+        "right": [
+          "tortilla bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Starts lifting/adjusting tortilla packaging.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 1.6,
+      "end": 3.77,
+      "old_summary": "hands open bag, place it down, remove tortillas, and place them on the cutting board",
+      "summary": "open the tortilla bag",
+      "verb": "open",
+      "object": "tortilla bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla bag"
+        ],
+        "right": [
+          "tortilla bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 3.77,
+      "end": 5.99,
+      "old_summary": "n",
+      "summary": "pull tortillas from the bag",
+      "verb": "remove",
+      "object": "tortilla",
+      "tool": null,
+      "target": "tortilla bag",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Separates two tortillas, both releases spread over following brief segments.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.99,
+      "end": 6.97,
+      "old_summary": "n",
+      "summary": "place one tortilla on the cutting board",
+      "verb": "place",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.98s cut during tortilla separation.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 6.97,
+      "end": 7.9,
+      "old_summary": "n",
+      "summary": "place the other tortilla on the board",
+      "verb": "place",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.93s cut during second tortilla placement.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.9,
+      "end": 10.1,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "move the tortilla bag aside",
+      "verb": "move",
+      "object": "tortilla bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.1,
+      "end": 11.29,
+      "old_summary": "hand retrieves a bowl of cooked chicken from the microwave",
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.29,
+      "end": 13.65,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "remove the cooked chicken container from the microwave",
+      "verb": "remove",
+      "object": "chicken container",
+      "tool": null,
+      "target": "microwave door",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "chicken container"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Container of browned chicken pieces removed; prior microwave heating outside video. Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 13.65,
+      "end": 14.7,
+      "old_summary": "n",
+      "summary": "put the chicken container beside the board",
+      "verb": "put down",
+      "object": "chicken container",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.7,
+      "end": 18.04,
+      "old_summary": "hand pours BBQ sauce from bottle onto tortilla",
+      "summary": "pick up the barbecue sauce bottle",
+      "verb": "pick up",
+      "object": "barbecue sauce bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "barbecue sauce bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bottle pickup and cap unscrew combined.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.04,
+      "end": 18.68,
+      "old_summary": "n",
+      "summary": "remove the sauce bottle cap",
+      "verb": "open",
+      "object": "barbecue sauce bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "barbecue sauce bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.64s cut within cap removal.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 18.68,
+      "end": 26.5,
+      "old_summary": "n",
+      "summary": "pour barbecue sauce over one tortilla",
+      "verb": "pour",
+      "object": "barbecue sauce bottle",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "barbecue sauce bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Spiral of dark barbecue sauce across tortilla.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.5,
+      "end": 28.11,
+      "old_summary": "Hand picks up the BBQ sauce bottle",
+      "summary": "close the barbecue sauce bottle",
+      "verb": "close",
+      "object": "barbecue sauce bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "barbecue sauce bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.11,
+      "end": 29.31,
+      "old_summary": "Hand opens the drawer",
+      "summary": "put down the sauce bottle",
+      "verb": "put down",
+      "object": "barbecue sauce bottle",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.31,
+      "end": 30.31,
+      "old_summary": "n",
+      "summary": "open the cutlery drawer",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Walks to cutlery drawer then starts opening it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.31,
+      "end": 33.27,
+      "old_summary": "n",
+      "summary": "take a spoon from the drawer",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 33.27,
+      "end": 35.77,
+      "old_summary": "Hand finishes spreading BBQ sauce on the tortilla with the spoon (hand switch)",
+      "summary": "carry the spoon back to the board",
+      "verb": "move",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Spoon transported back; hands intermittently out of view.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.77,
+      "end": 39.25,
+      "old_summary": "n",
+      "summary": "spread barbecue sauce over the tortilla",
+      "verb": "spread",
+      "object": "tortilla",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.25,
+      "end": 40.94,
+      "old_summary": "n",
+      "summary": "smooth the sauce across the tortilla",
+      "verb": "spread",
+      "object": "tortilla",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuous same-object sauce spreading across adjacent boundaries.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.94,
+      "end": 44.1,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "continue spreading the barbecue sauce",
+      "verb": "spread",
+      "object": "tortilla",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuous sauce spreading, ends when spoon is placed.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.1,
+      "end": 46.0,
+      "old_summary": "hand adjusts the plate on the cutting board",
+      "summary": "put the spoon down",
+      "verb": "put down",
+      "object": "spoon",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.0,
+      "end": 46.52,
+      "old_summary": "hand interacts with the bowl of chopped chicken, then repositions it",
+      "summary": "release the spoon beside the board",
+      "verb": "put down",
+      "object": "spoon",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.52s segment within spoon release/reach.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.52,
+      "end": 50.0,
+      "old_summary": "n",
+      "summary": "move the chicken container beside the cutting board",
+      "verb": "move",
+      "object": "chicken container",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 50.0,
+      "end": 58.1,
+      "old_summary": "hand uses phone, scrolling and tapping multiple times",
+      "summary": "idle: tap and scroll on the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Phone tapping and scrolling unrelated to direct food manipulation. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 58.1,
+      "end": 61.3,
+      "old_summary": "hand chops the chicken with the knife",
+      "summary": "move the filled tortilla farther up the board",
+      "verb": "move",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 61.3,
+      "end": 62.89,
+      "old_summary": "n",
+      "summary": "pick up the knife and select chicken pieces",
+      "verb": "pick up",
+      "object": "knife",
+      "tool": null,
+      "target": "chicken",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chicken"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Selects chicken with left hand and takes knife right.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.89,
+      "end": 63.12,
+      "old_summary": "n",
+      "summary": "lift chicken from the container",
+      "verb": "pick up",
+      "object": "chicken",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "chicken"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.23s cut within chicken selection, no independent intermediate action.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 63.12,
+      "end": 63.98,
+      "old_summary": "n",
+      "summary": "place the chicken on the cutting board",
+      "verb": "place",
+      "object": "chicken",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "chicken"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Chicken moved from container to board; knife already held.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 63.98,
+      "end": 68.5,
+      "old_summary": "n",
+      "summary": "cut the chicken into smaller pieces",
+      "verb": "cut",
+      "object": "chicken",
+      "tool": "knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chicken"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.5,
+      "end": 73.67,
+      "old_summary": "n",
+      "summary": "cut another section of chicken",
+      "verb": "cut",
+      "object": "chicken",
+      "tool": "knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chicken"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated chopping and food repositioning across adjacent segments.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.67,
+      "end": 78.94,
+      "old_summary": "n",
+      "summary": "continue dicing the chicken",
+      "verb": "cut",
+      "object": "chicken",
+      "tool": "knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chicken"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated chopping, same knife/chicken interaction.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.94,
+      "end": 84.0,
+      "old_summary": "n",
+      "summary": "cut the remaining chicken into small pieces",
+      "verb": "cut",
+      "object": "chicken",
+      "tool": "knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chicken"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated chopping, same knife/chicken interaction.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.0,
+      "end": 86.59,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "finish chopping the chicken pieces",
+      "verb": "cut",
+      "object": "chicken",
+      "tool": "knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chicken"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Finishes chopping; knife lowered near t=86s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.59,
+      "end": 87.46,
+      "old_summary": "n",
+      "summary": "put the knife down beside the chicken",
+      "verb": "put down",
+      "object": "knife",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.46,
+      "end": 88.62,
+      "old_summary": "n",
+      "summary": "gather chopped chicken with both hands",
+      "verb": "pick up",
+      "object": "chicken",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chicken"
+        ],
+        "right": [
+          "chicken"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Picks up chopped pieces and begins transfer.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 88.62,
+      "end": 91.0,
+      "old_summary": "n",
+      "summary": "scatter chopped chicken over the sauced tortilla",
+      "verb": "place",
+      "object": "chicken",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "chicken"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Chicken scattered over sauce, no extra ingredients.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 91.0,
+      "end": 92.5,
+      "old_summary": "hand spreads and adjusts chopped chicken on the plate",
+      "summary": "add the remaining chicken pieces to the tortilla",
+      "verb": "place",
+      "object": "chicken",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.5,
+      "end": 94.1,
+      "old_summary": "hand reaches for cheese bag",
+      "summary": "pick up the shredded cheese bag",
+      "verb": "pick up",
+      "object": "shredded cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shredded cheese bag"
+        ],
+        "right": [
+          "shredded cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 94.1,
+      "end": 98.8,
+      "old_summary": "hand turns stove knob",
+      "summary": "pull at the cheese bag seal",
+      "verb": "open",
+      "object": "shredded cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shredded cheese bag"
+        ],
+        "right": [
+          "shredded cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Bag initially resists opening.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.8,
+      "end": 100.0,
+      "old_summary": "n",
+      "summary": "turn the stove burner knob",
+      "verb": "turn",
+      "object": "burner knob",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "shredded cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Stove knob turned before assembly; no temperature inferred.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 100.0,
+      "end": 105.23,
+      "old_summary": "hand returns to cheese bag",
+      "summary": "pull the cheese bag open",
+      "verb": "open",
+      "object": "shredded cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shredded cheese bag"
+        ],
+        "right": [
+          "shredded cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continues opening same cheese bag after knob adjustment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.23,
+      "end": 112.7,
+      "old_summary": "n",
+      "summary": "tear open the shredded cheese bag",
+      "verb": "open",
+      "object": "shredded cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shredded cheese bag"
+        ],
+        "right": [
+          "shredded cheese"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bag opens, first pinch of cheese taken and distributed.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.7,
+      "end": 115.42,
+      "old_summary": "hand sprinkles cheese over chicken and sauce",
+      "summary": "sprinkle shredded cheese over the chicken",
+      "verb": "place",
+      "object": "shredded cheese",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "shredded cheese bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.42,
+      "end": 118.33,
+      "old_summary": "n",
+      "summary": "add more shredded cheese over the tortilla",
+      "verb": "place",
+      "object": "shredded cheese",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "shredded cheese bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated pinch-and-scatter cheese transfers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 118.33,
+      "end": 119.6,
+      "old_summary": "hand finishes sprinkling cheese",
+      "summary": "spread the cheese across the filling",
+      "verb": "adjust",
+      "object": "shredded cheese",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "shredded cheese bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bag retained while right hand spreads cheese.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 119.6,
+      "end": 120.14,
+      "old_summary": "hand places and presses a second tortilla on top of the cheese-covered tortilla to form a quesadilla",
+      "summary": "put down the shredded cheese bag",
+      "verb": "put down",
+      "object": "shredded cheese bag",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Short bag placement/release segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 120.14,
+      "end": 120.83,
+      "old_summary": "n",
+      "summary": "adjust the filling on the tortilla",
+      "verb": "adjust",
+      "object": "shredded cheese",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.69s adjustment of same filling immediately after bag release.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 120.83,
+      "end": 123.5,
+      "old_summary": "n",
+      "summary": "pick up the second tortilla",
+      "verb": "pick up",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Both hands take top tortilla and move above filling.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 123.5,
+      "end": 125.5,
+      "old_summary": "hand picks up tortilla",
+      "summary": "place the second tortilla over the filling",
+      "verb": "place",
+      "object": "tortilla",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 125.5,
+      "end": 128.3,
+      "old_summary": "hand places and presses tortilla in pan",
+      "summary": "lift the filled tortilla stack into the pan",
+      "verb": "place",
+      "object": "tortilla",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Whole stack lifted into frying pan, not folded in half.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 128.3,
+      "end": 130.4,
+      "old_summary": "hand moves away from pan to walk toward dog",
+      "summary": "press the top tortilla with both hands",
+      "verb": "press",
+      "object": "tortilla",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Both palms press stack flat.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 130.4,
+      "end": 139.38,
+      "old_summary": "hand walks back to kitchen",
+      "summary": "idle: walk to the thermostat",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Walks away from cooking task toward thermostat. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 139.38,
+      "end": 141.7,
+      "old_summary": "n",
+      "summary": "idle: press the thermostat controls",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Thermostat touches are unrelated idle; setpoint not transcribed. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 141.7,
+      "end": 149.54,
+      "old_summary": "hand adjusts tortilla in pan",
+      "summary": "idle: walk back to the stove",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 149.54,
+      "end": 151.24,
+      "old_summary": "n",
+      "summary": "press the tortilla stack with the palm",
+      "verb": "press",
+      "object": "tortilla",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Presses tortilla then adds second hand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 151.24,
+      "end": 153.9,
+      "old_summary": "n",
+      "summary": "press the tortilla with both hands",
+      "verb": "press",
+      "object": "tortilla",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 153.9,
+      "end": 157.37,
+      "old_summary": "hand presses down on the tortilla",
+      "summary": "press and rotate the tortilla in the pan",
+      "verb": "adjust",
+      "object": "tortilla",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated palm pressing and small rotations.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 157.37,
+      "end": 161.12,
+      "old_summary": "n",
+      "summary": "pick up the spatula from the utensil holder",
+      "verb": "pick up",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Turns toward utensil holder and retrieves slotted spatula.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 161.12,
+      "end": 161.92,
+      "old_summary": "n",
+      "summary": "bring the spatula toward the frying pan",
+      "verb": "move",
+      "object": "spatula",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Subsecond transfer toward pan, same held tool.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 161.92,
+      "end": 170.53,
+      "old_summary": "n",
+      "summary": "press the quesadilla with the spatula",
+      "verb": "press",
+      "object": "tortilla",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Repeated spatula pressure/checks; same object.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 170.53,
+      "end": 172.69,
+      "old_summary": "n",
+      "summary": "lift the spatula away from the quesadilla",
+      "verb": "move",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Withdraws spatula and steps back before next press.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 172.69,
+      "end": 184.64,
+      "old_summary": "hand presses down on the tortilla",
+      "summary": "press and check the tortilla with the spatula",
+      "verb": "press",
+      "object": "tortilla",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes repeated lifts and pressure checks, not just one stroke.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 184.64,
+      "end": 187.3,
+      "old_summary": "n",
+      "summary": "lift a tortilla edge with fingers and spatula",
+      "verb": "lift",
+      "object": "tortilla",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Left fingers grip edge while right spatula supports.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 187.3,
+      "end": 189.34,
+      "old_summary": "hand uses spatula to lift quesadilla and picks up empty plate",
+      "summary": "turn the filled tortilla stack over",
+      "verb": "flip",
+      "object": "tortilla",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Filled stack turned by t=188s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 189.34,
+      "end": 194.34,
+      "old_summary": "n",
+      "summary": "press the turned quesadilla with the spatula",
+      "verb": "press",
+      "object": "tortilla",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Pressed again after turn.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.34,
+      "end": 196.15,
+      "old_summary": "n",
+      "summary": "put the spatula down briefly",
+      "verb": "put down",
+      "object": "spatula",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Spatula placed then regrasped in following segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 196.15,
+      "end": 198.7,
+      "old_summary": "n",
+      "summary": "pick up a serving plate",
+      "verb": "pick up",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Grasps serving plate left and spatula right.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 198.7,
+      "end": 199.54,
+      "old_summary": "hand places plate on cutting board and lifts quesadilla again",
+      "summary": "put the plate beside the frying pan",
+      "verb": "put down",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.84s plate placement interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 199.54,
+      "end": 213.16,
+      "old_summary": "hand transfers quesadilla to plate and places it down",
+      "summary": "idle: wait while the quesadilla cooks",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Starts putting spatula down then mostly waiting t=201–212s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 213.16,
+      "end": 216.03,
+      "old_summary": "n",
+      "summary": "slide the spatula under the quesadilla",
+      "verb": "lift",
+      "object": "tortilla",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Spatula slides beneath cooked tortilla stack.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 216.03,
+      "end": 219.5,
+      "old_summary": "n",
+      "summary": "transfer the quesadilla from the pan to the plate",
+      "verb": "place",
+      "object": "tortilla",
+      "tool": "spatula",
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Left fingers steady while spatula transfers entire stack.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 219.5,
+      "end": 220.57,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "put the spatula down beside the plate",
+      "verb": "put down",
+      "object": "spatula",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 220.57,
+      "end": 222.1,
+      "old_summary": "n",
+      "summary": "pick up the rolling cutter",
+      "verb": "pick up",
+      "object": "rolling cutter",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "rolling cutter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Retrieves blue rolling cutter and positions it above food.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 222.1,
+      "end": 226.18,
+      "old_summary": "hand cuts the quesadilla into wedges on a plate",
+      "summary": "cut across the quesadilla with the rolling cutter",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "rolling cutter",
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "rolling cutter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "First straight cut through tortilla stack.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 226.18,
+      "end": 229.41,
+      "old_summary": "n",
+      "summary": "idle: turn toward the kitchen window",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "rolling cutter"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Turns away holding cutter, unrelated idle. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 229.41,
+      "end": 230.9,
+      "old_summary": "n",
+      "summary": "idle: gesture toward the window",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "rolling cutter"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Gestures at window/reflection, no food contact. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 230.9,
+      "end": 234.4,
+      "old_summary": "n",
+      "summary": "idle: return to the plate",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "rolling cutter"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Returns attention to plated food. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 234.4,
+      "end": 239.92,
+      "old_summary": "n",
+      "summary": "cut the quesadilla into quarters",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "rolling cutter",
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "rolling cutter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Perpendicular rolling cuts produce quarters.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 239.92,
+      "end": 241.18,
+      "old_summary": "n",
+      "summary": "put the rolling cutter down",
+      "verb": "put down",
+      "object": "rolling cutter",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 241.18,
+      "end": 244.0,
+      "old_summary": "n",
+      "summary": "adjust the cut quesadilla portions on the plate",
+      "verb": "adjust",
+      "object": "tortilla",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Adjusts portions and looks at completed dish; no eating shown.",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 14.7,
+      "fine_index_range": [
+        0,
+        8
+      ],
+      "instruction": "Set out tortillas and cooked chicken",
+      "description": "Open the tortilla bag, separate two tortillas onto the board and retrieve the chicken container from the microwave.",
+      "goal_contribution": "Make the bread layers and cooked filling available.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 14.7,
+      "end": 50.0,
+      "fine_index_range": [
+        9,
+        22
+      ],
+      "instruction": "Coat the bottom tortilla with barbecue sauce",
+      "description": "Open the sauce bottle and pour a spiral over one tortilla. Fetch a spoon from the drawer and spread the sauce over its surface, then move the chicken container closer.",
+      "goal_contribution": "Create the sauce layer beneath the filling.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After set out tortillas and cooked chicken, coat the bottom tortilla with barbecue sauce is plausible for cook a barbecue chicken and cheese quesadilla, but several next steps fit."
+    },
+    {
+      "start": 50.0,
+      "end": 92.5,
+      "fine_index_range": [
+        23,
+        36
+      ],
+      "instruction": "Dice and add the chicken",
+      "description": "Briefly use the phone, reposition the tortilla and take chicken from the container. Cut it into small pieces with the knife, then scatter the pieces over the sauce.",
+      "goal_contribution": "Distribute bite-sized chicken across the bottom tortilla.",
+      "transition_in": "NONE",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After coat the bottom tortilla with barbecue sauce, dice and add the chicken is a natural next stage toward cook a barbecue chicken and cheese quesadilla."
+    },
+    {
+      "start": 92.5,
+      "end": 130.4,
+      "fine_index_range": [
+        37,
+        50
+      ],
+      "instruction": "Add cheese and assemble the quesadilla in the pan",
+      "description": "Work open the cheese bag, operate the burner and sprinkle cheese over the chicken. Place the second tortilla on top, move the stack into the frying pan and press it flat.",
+      "goal_contribution": "Enclose the filling between tortillas and begin heating it.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After dice and add the chicken, add cheese and assemble the quesadilla in the pan is a natural next stage toward cook a barbecue chicken and cheese quesadilla."
+    },
+    {
+      "start": 130.4,
+      "end": 194.34,
+      "fine_index_range": [
+        51,
+        64
+      ],
+      "instruction": "Cook and turn the quesadilla",
+      "description": "Briefly leave to operate the thermostat, then return and press the tortilla with the palms. Get the spatula, press and lift the edge repeatedly, turn the quesadilla over and press again.",
+      "goal_contribution": "Heat the filling and cook both tortilla surfaces.",
+      "transition_in": "NONE",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After add cheese and assemble the quesadilla in the pan, cook and turn the quesadilla is a natural next stage toward cook a barbecue chicken and cheese quesadilla."
+    },
+    {
+      "start": 194.34,
+      "end": 220.57,
+      "fine_index_range": [
+        65,
+        71
+      ],
+      "instruction": "Finish cooking and plate the quesadilla",
+      "description": "Ready the serving plate, wait, work the spatula beneath the quesadilla and transfer it onto the plate. Put the spatula aside.",
+      "goal_contribution": "Remove the cooked quesadilla from the pan onto its serving plate.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After cook and turn the quesadilla, finish cooking and plate the quesadilla is a natural next stage toward cook a barbecue chicken and cheese quesadilla."
+    },
+    {
+      "start": 220.57,
+      "end": 244.0,
+      "fine_index_range": [
+        72,
+        79
+      ],
+      "instruction": "Cut the quesadilla into portions",
+      "description": "Take the rolling cutter and cut the plated quesadilla, briefly turn toward the window, then return to finish crossing cuts and adjust the portions.",
+      "goal_contribution": "Leave the quesadilla divided into four portions.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After finish cooking and plate the quesadilla, cut the quesadilla into portions is plausible for cook a barbecue chicken and cheese quesadilla, but several next steps fit."
+    }
+  ],
+  "notes": "Reviewed all 8 overview sheets, all 19 compact dense pages (1208 frames), and all 5 native endpoint sheets. BBQ sauce visible t=19–26s; cooked chicken cut t=64–87s; shredded cheese added t=111–120s. Thermostat trip t=130–149s and window gestures t=226–234s unrelated idle. Repeated hand/spatula pressing and underside checks shown t=150–194s; turn near t=187s. Filled tortilla removed to plate t=216–219s and rolling cutter portions it t=222–244s. Chicken was already cooked when retrieved; no raw-chicken cooking invented."
+}

@@ -1,0 +1,36 @@
+{
+  "video_id": "39cd3788881845f4",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After rub and arrange the whole vegetables, cut and collect the vegetable filling is a natural next stage toward prepare a hummus and vegetable wrap."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After cut and collect the vegetable filling, prepare the tortilla with hummus is a natural next stage toward prepare a hummus and vegetable wrap."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After prepare the tortilla with hummus, layer vegetables avocado and cheese onto the tortilla is a natural next stage toward prepare a hummus and vegetable wrap."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After layer vegetables avocado and cheese onto the tortilla, fold and roll the filled tortilla is a natural next stage toward prepare a hummus and vegetable wrap."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After fold and roll the filled tortilla, cut and present the finished vegetable wrap is a natural next stage toward prepare a hummus and vegetable wrap."
+    }
+  ]
+}

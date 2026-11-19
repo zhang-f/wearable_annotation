@@ -1,0 +1,1201 @@
+{
+  "video_id": "39cd3788881845f4",
+  "duration": 288.267,
+  "task": "Making veggie wrap",
+  "domain": "Chef",
+  "query": "How do I make a veggie wrap?",
+  "goal": {
+    "title": "Prepare a hummus and vegetable wrap",
+    "description": "Rub and cut the vegetables, spread mixed hummus over a tortilla, layer cucumber lettuce tomato avocado and shredded cheese, then fold, roll and halve the wrap.",
+    "final_state": "Two cut wrap halves are arranged on a raised serving plate with the vegetable filling visible.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 23.1,
+        "description": "Lift a plate holding lettuce, cucumber and a tomato. Hold a white bowl in the left hand while rubbing and turning the lettuce inside it, return the lettuce to the vegetable plate and retrieve the cucumber."
+      },
+      {
+        "start": 23.1,
+        "end": 55.73,
+        "description": "Roll and rub the cucumber over a white catch plate, replace it and repeat with the tomato. Lift the bowl and rub the tomato inside it, put the bowl and tomato down and move the catch plate aside. Lift and briefly tilt the vegetable plate above the bowl while retaining the produce, then lay the lettuce on the cutting board."
+      },
+      {
+        "start": 55.73,
+        "end": 101.9,
+        "description": "Pick up the patterned chef knife, chop the lettuce crosswise into strips and gather it. Put the cucumber on the board, trim a tip and repeatedly cut it lengthwise into sticks, then retrieve the tomato."
+      },
+      {
+        "start": 101.9,
+        "end": 139.55,
+        "description": "Saw through the tomato to make thick rounds, set the remaining tomato piece aside, halve the rounds and transfer the half-moons to the vegetable plate. Scoop chopped lettuce and cucumber sticks onto the same plate and put the remaining tomato in the white bowl."
+      },
+      {
+        "start": 139.55,
+        "end": 157.72,
+        "description": "Rest the chef knife across the tortilla, bring its serving plate onto the cutting board, retrieve the hummus tub and take the butter knife. Remove the clear lid, peel off the inner film and place both pieces aside."
+      },
+      {
+        "start": 157.72,
+        "end": 204.72,
+        "description": "Hold the tub in the left hand and stir the darker red topping into the orange hummus with the butter knife. Scoop hummus onto the tortilla and repeatedly spread it into a broad strip through the center. Rest the butter knife in the tub, set the tub aside and move the chef knife onto the tomato bowl."
+      },
+      {
+        "start": 204.72,
+        "end": 224.24,
+        "description": "Lift the prepared vegetable plate and use the right fingertips to line cucumber sticks along the spread. Add several handfuls of chopped lettuce, arrange tomato half-moons along the top and return the vegetable plate."
+      },
+      {
+        "start": 224.24,
+        "end": 244.9,
+        "description": "Lift the second ingredient plate and use its spoon to transfer avocado pieces over the tomatoes. Scoop and scatter shredded cheese over the same central filling, then return the plate and spoon."
+      },
+      {
+        "start": 244.9,
+        "end": 269.34,
+        "description": "Lift the near tortilla edge over the filling and pull it snug. Tuck the right and left edges inward while holding the filling enclosed, then roll the bundle forward until the tortilla surrounds the filling."
+      },
+      {
+        "start": 269.34,
+        "end": 288.267,
+        "description": "Retrieve the chef knife and saw crosswise through the wrap while steadying it with the other hand. Rest the knife on the tomato bowl, separate and arrange the two halves with the cut faces visible, then lift and hold the serving plate toward the camera through the final frame."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 23.1,
+      "description": "Lift a plate holding lettuce, cucumber and a tomato. Hold a white bowl in the left hand while rubbing and turning the lettuce inside it, return the lettuce to the vegetable plate and retrieve the cucumber."
+    },
+    {
+      "start": 23.1,
+      "end": 55.73,
+      "description": "Roll and rub the cucumber over a white catch plate, replace it and repeat with the tomato. Lift the bowl and rub the tomato inside it, put the bowl and tomato down and move the catch plate aside. Lift and briefly tilt the vegetable plate above the bowl while retaining the produce, then lay the lettuce on the cutting board."
+    },
+    {
+      "start": 55.73,
+      "end": 101.9,
+      "description": "Pick up the patterned chef knife, chop the lettuce crosswise into strips and gather it. Put the cucumber on the board, trim a tip and repeatedly cut it lengthwise into sticks, then retrieve the tomato."
+    },
+    {
+      "start": 101.9,
+      "end": 139.55,
+      "description": "Saw through the tomato to make thick rounds, set the remaining tomato piece aside, halve the rounds and transfer the half-moons to the vegetable plate. Scoop chopped lettuce and cucumber sticks onto the same plate and put the remaining tomato in the white bowl."
+    },
+    {
+      "start": 139.55,
+      "end": 157.72,
+      "description": "Rest the chef knife across the tortilla, bring its serving plate onto the cutting board, retrieve the hummus tub and take the butter knife. Remove the clear lid, peel off the inner film and place both pieces aside."
+    },
+    {
+      "start": 157.72,
+      "end": 204.72,
+      "description": "Hold the tub in the left hand and stir the darker red topping into the orange hummus with the butter knife. Scoop hummus onto the tortilla and repeatedly spread it into a broad strip through the center. Rest the butter knife in the tub, set the tub aside and move the chef knife onto the tomato bowl."
+    },
+    {
+      "start": 204.72,
+      "end": 224.24,
+      "description": "Lift the prepared vegetable plate and use the right fingertips to line cucumber sticks along the spread. Add several handfuls of chopped lettuce, arrange tomato half-moons along the top and return the vegetable plate."
+    },
+    {
+      "start": 224.24,
+      "end": 244.9,
+      "description": "Lift the second ingredient plate and use its spoon to transfer avocado pieces over the tomatoes. Scoop and scatter shredded cheese over the same central filling, then return the plate and spoon."
+    },
+    {
+      "start": 244.9,
+      "end": 269.34,
+      "description": "Lift the near tortilla edge over the filling and pull it snug. Tuck the right and left edges inward while holding the filling enclosed, then roll the bundle forward until the tortilla surrounds the filling."
+    },
+    {
+      "start": 269.34,
+      "end": 288.267,
+      "description": "Retrieve the chef knife and saw crosswise through the wrap while steadying it with the other hand. Rest the knife on the tomato bowl, separate and arrange the two halves with the cut faces visible, then lift and hold the serving plate toward the camera through the final frame."
+    }
+  ],
+  "object_inventory": [
+    "vegetable plate",
+    "white bowl",
+    "white catch plate",
+    "lettuce",
+    "cucumber",
+    "tomato",
+    "chef knife",
+    "butter knife",
+    "hummus",
+    "hummus tub",
+    "serving plate",
+    "tortilla",
+    "avocado and cheese plate",
+    "avocado",
+    "shredded cheese",
+    "spoon",
+    "cutting board",
+    "hummus seal",
+    "hummus lid"
+  ],
+  "notes": "All human fine boundaries retained. Every overview, dense step page and native end state inspected. The first phase shows rubbing produce against/inside a white bowl and catch plate; no running faucet or water addition is visible, so washing under running water is not asserted. Boundary 122.0–122.1 is preserved during a continuous tomato lift. Fine ends at 287.5s; remaining 0.767s continues holding the finished plate, with no new step appended. Hand states record grasp/support rather than merely pressing plate-supported food. Predictability left for independent blind evaluation.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 5.6,
+      "summary": "lift the plate of vegetables",
+      "verb": "lift",
+      "object": "vegetable plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "vegetable plate"
+        ],
+        "right": [
+          "vegetable plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds plate with lettuce, cucumber, and tomato",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 5.6,
+      "end": 16.94,
+      "summary": "rub the lettuce inside the white bowl",
+      "verb": "rub",
+      "object": "lettuce",
+      "tool": null,
+      "target": "white bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "white bowl"
+        ],
+        "right": [
+          "lettuce"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands wash lettuce in a bowl under running water",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 16.94,
+      "end": 23.1,
+      "summary": "return the lettuce and pick up the cucumber",
+      "verb": "pick up",
+      "object": "cucumber",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "white bowl"
+        ],
+        "right": [
+          "cucumber"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=17–21.4s continue rubbing lettuce; t=21.7–22.1s return it; t=22.8–23.1s grasp cucumber.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes lettuce under running water",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 23.1,
+      "end": 28.7,
+      "summary": "rub the cucumber over the white catch plate",
+      "verb": "rub",
+      "object": "cucumber",
+      "tool": null,
+      "target": "white catch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cucumber"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=24.6s set bowl down; t=24.8–27.9s roll cucumber on catch plate; t=28.2–28.7s return cucumber.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes cucumber under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.7,
+      "end": 37.2,
+      "summary": "rub the tomato over the white catch plate",
+      "verb": "rub",
+      "object": "tomato",
+      "tool": null,
+      "target": "white catch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tomato"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes tomato under running water",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 37.2,
+      "end": 43.9,
+      "summary": "rub the tomato in the bowl and move the plate",
+      "verb": "rub",
+      "object": "tomato",
+      "tool": null,
+      "target": "white bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=38.3s lift bowl; t=38.6–40s rub tomato inside; t=40.4s set bowl down; t=41.2s return tomato; t=42.1–43.9s move catch plate aside.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes tomato under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.9,
+      "end": 47.6,
+      "summary": "lift the vegetable plate toward the bowl",
+      "verb": "lift",
+      "object": "vegetable plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "vegetable plate"
+        ],
+        "right": [
+          "tomato"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves tomato on plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 47.6,
+      "end": 55.0,
+      "summary": "tilt the vegetable plate above the bowl",
+      "verb": "tilt",
+      "object": "vegetable plate",
+      "tool": null,
+      "target": "white bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "lettuce"
+        ],
+        "right": [
+          "lettuce"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=47.8–51.1s tilt plate above bowl while retaining vegetables; t=51.8s lower plate; t=53.7–55s retrieve lettuce.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places tomato on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.0,
+      "end": 55.73,
+      "summary": "place the lettuce on the cutting board",
+      "verb": "place",
+      "object": "lettuce",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "chef knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands tear lettuce into smaller pieces",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.73,
+      "end": 75.88,
+      "summary": "chop the lettuce into strips",
+      "verb": "cut",
+      "object": "lettuce",
+      "tool": "chef knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "chef knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=56s retrieve knife; t=56.9–72s chop; t=72–75.8s gather chopped lettuce.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops lettuce on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.88,
+      "end": 101.9,
+      "summary": "cut the cucumber lengthwise into sticks",
+      "verb": "cut",
+      "object": "cucumber",
+      "tool": "chef knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "chef knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=76.7–77.2s move cucumber to board; t=78.1s trim tip; t=80.9–98s make lengthwise cuts; t=99.2–101.9s retrieve tomato.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops cucumber on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 101.9,
+      "end": 122.0,
+      "summary": "slice the tomato on the cutting board",
+      "verb": "cut",
+      "object": "tomato",
+      "tool": "chef knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "chef knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices tomato with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 122.0,
+      "end": 122.1,
+      "summary": "lift the remaining tomato piece",
+      "verb": "lift",
+      "object": "tomato",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tomato"
+        ],
+        "right": [
+          "chef knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=122.0–122.1s very short preserved segment lies within lifting and rotating remaining tomato.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places tomato on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 122.1,
+      "end": 130.74,
+      "summary": "cut tomato half-moons and transfer them to the plate",
+      "verb": "cut",
+      "object": "tomato",
+      "tool": "chef knife",
+      "target": "vegetable plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "vegetable plate"
+        ],
+        "right": [
+          "chef knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=123.5s set remaining tomato aside; t=124–129s halve tomato rounds; t=129.5–130.7s transfer half-moons.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices tomato with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.74,
+      "end": 133.73,
+      "summary": "transfer chopped lettuce onto the vegetable plate",
+      "verb": "move",
+      "object": "lettuce",
+      "tool": null,
+      "target": "vegetable plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "chef knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up lettuce and places it on the plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.73,
+      "end": 137.65,
+      "summary": "transfer cucumber sticks onto the vegetable plate",
+      "verb": "move",
+      "object": "cucumber",
+      "tool": "chef knife",
+      "target": "vegetable plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "chef knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up cucumber slices and places them on the plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 137.65,
+      "end": 139.55,
+      "summary": "put the remaining tomato in the white bowl",
+      "verb": "place",
+      "object": "tomato",
+      "tool": null,
+      "target": "white bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places tomato slice into bowl",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 139.55,
+      "end": 142.65,
+      "summary": "rest the chef knife across the tortilla plate",
+      "verb": "place",
+      "object": "chef knife",
+      "tool": null,
+      "target": "serving plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads sauce on tortilla with knife",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 142.65,
+      "end": 146.69,
+      "summary": "move the tortilla plate onto the cutting board",
+      "verb": "move",
+      "object": "serving plate",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "serving plate"
+        ],
+        "right": [
+          "serving plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places tortilla on cutting board",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 146.69,
+      "end": 151.97,
+      "summary": "open the hummus tub",
+      "verb": "open",
+      "object": "hummus tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "hummus tub"
+        ],
+        "right": [
+          "butter knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=147–148.1s retrieve tub; t=148.8s take butter knife; t=149.4–151.1s lift lid and set it aside.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads sauce on tortilla with knife",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 151.97,
+      "end": 157.72,
+      "summary": "peel the inner seal from the hummus tub",
+      "verb": "remove",
+      "object": "hummus seal",
+      "tool": null,
+      "target": "hummus tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "hummus tub"
+        ],
+        "right": [
+          "butter knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads sauce on tortilla with knife",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 157.72,
+      "end": 177.77,
+      "summary": "stir the red topping into the hummus",
+      "verb": "stir",
+      "object": "hummus",
+      "tool": "butter knife",
+      "target": "hummus tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "hummus tub"
+        ],
+        "right": [
+          "butter knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs sauce in a container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 177.77,
+      "end": 183.14,
+      "summary": "scoop hummus onto the tortilla and spread it",
+      "verb": "spread",
+      "object": "hummus",
+      "tool": "butter knife",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "hummus tub"
+        ],
+        "right": [
+          "butter knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads sauce on tortilla with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 183.14,
+      "end": 188.43,
+      "summary": "spread more hummus along the tortilla",
+      "verb": "spread",
+      "object": "hummus",
+      "tool": "butter knife",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "hummus tub"
+        ],
+        "right": [
+          "butter knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads sauce on tortilla with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 188.43,
+      "end": 193.9,
+      "summary": "smooth hummus across the tortilla center",
+      "verb": "spread",
+      "object": "hummus",
+      "tool": "butter knife",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "hummus tub"
+        ],
+        "right": [
+          "butter knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads sauce on tortilla with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 193.9,
+      "end": 200.83,
+      "summary": "spread another scoop of hummus over the tortilla",
+      "verb": "spread",
+      "object": "hummus",
+      "tool": "butter knife",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "hummus tub"
+        ],
+        "right": [
+          "butter knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads sauce on tortilla with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 200.83,
+      "end": 204.72,
+      "summary": "set the hummus and knives aside",
+      "verb": "place",
+      "object": "hummus tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=201.5–202s rest butter knife in tub and set tub aside; t=202.8–204.7s lift chef knife from ingredient plate and rest it across tomato bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads sauce on tortilla with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.72,
+      "end": 209.92,
+      "summary": "place cucumber sticks on the tortilla",
+      "verb": "place",
+      "object": "cucumber",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "vegetable plate"
+        ],
+        "right": [
+          "lettuce"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=205.1s lift vegetable plate; t=205.5–209.4s add cucumber; t=209.8s take lettuce.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places cucumber slices on tortilla",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 209.92,
+      "end": 217.35,
+      "summary": "add chopped lettuce over the cucumber",
+      "verb": "place",
+      "object": "lettuce",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "vegetable plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places lettuce on tortilla",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 217.35,
+      "end": 224.24,
+      "summary": "arrange tomato half-moons over the lettuce",
+      "verb": "place",
+      "object": "tomato",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=218.5–223s add tomato slices; t=223.4s return vegetable plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places tomato slice on tortilla",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 224.24,
+      "end": 232.8,
+      "summary": "spoon avocado pieces onto the tortilla",
+      "verb": "place",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado and cheese plate"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adds avocado to the tortilla",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 232.8,
+      "end": 242.37,
+      "summary": "spoon shredded cheese over the filling",
+      "verb": "place",
+      "object": "shredded cheese",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado and cheese plate"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads shredded cheese onto tortilla with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 242.37,
+      "end": 244.9,
+      "summary": "set the topping plate and spoon aside",
+      "verb": "place",
+      "object": "avocado and cheese plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand rolls the tortilla",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 244.9,
+      "end": 252.44,
+      "summary": "fold the near tortilla edge over the filling",
+      "verb": "fold",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands roll the tortilla",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 252.44,
+      "end": 255.85,
+      "summary": "tuck the right tortilla edge inward",
+      "verb": "fold",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands roll the tortilla",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 255.85,
+      "end": 259.86,
+      "summary": "tuck the left tortilla edge inward",
+      "verb": "fold",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands roll the tortilla",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 259.86,
+      "end": 269.34,
+      "summary": "roll the tortilla into a closed wrap",
+      "verb": "roll",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands roll the tortilla",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 269.34,
+      "end": 280.59,
+      "summary": "cut the rolled wrap in half",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "chef knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "chef knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=270–271.5s retrieve chef knife; t=272–279.4s saw through wrap; t=280–280.6s rest knife across tomato bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wrap with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 280.59,
+      "end": 287.5,
+      "summary": "arrange the wrap halves and lift the serving plate",
+      "verb": "lift",
+      "object": "serving plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "serving plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=281.1–282.5s separate and arrange halves; t=283s lift plate with both hands; t=286s release right grip while left holds plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands cut wrap in half, then lift plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 55.73,
+      "instruction": "Rub and arrange the whole vegetables",
+      "description": "Lift the vegetables, rub lettuce in the white bowl, rub cucumber and tomato over the catch plate, move dishes aside, tilt the vegetable plate over the bowl and place lettuce on the board.",
+      "fine_index_range": [
+        0,
+        8
+      ],
+      "transition_in": null,
+      "goal_contribution": "Prepares the whole vegetables for cutting; no running faucet or added water is visible.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 55.73,
+      "end": 139.55,
+      "instruction": "Cut and collect the vegetable filling",
+      "description": "Chop lettuce, trim and slice cucumber into sticks, slice and halve tomato rounds, collect the cut vegetables on a plate and place the leftover tomato in a bowl.",
+      "fine_index_range": [
+        9,
+        16
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Provides small lettuce pieces, cucumber sticks and tomato slices for the wrap.",
+      "predictability_level": "strong",
+      "predictability_reason": "After rub and arrange the whole vegetables, cut and collect the vegetable filling is a natural next stage toward prepare a hummus and vegetable wrap."
+    },
+    {
+      "start": 139.55,
+      "end": 204.72,
+      "instruction": "Prepare the tortilla with hummus",
+      "description": "Reposition the chef knife and tortilla plate, open the hummus tub and peel its seal, stir in the red topping, spread hummus down the tortilla center and set tub and knives aside.",
+      "fine_index_range": [
+        17,
+        26
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Creates the spread layer beneath the vegetable filling.",
+      "predictability_level": "strong",
+      "predictability_reason": "After cut and collect the vegetable filling, prepare the tortilla with hummus is a natural next stage toward prepare a hummus and vegetable wrap."
+    },
+    {
+      "start": 204.72,
+      "end": 244.9,
+      "instruction": "Layer vegetables avocado and cheese onto the tortilla",
+      "description": "Lift the prepared vegetable plate, add cucumber, lettuce and tomato, then use a spoon from the second plate to add avocado and shredded cheese before replacing the dishes.",
+      "fine_index_range": [
+        27,
+        32
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Assembles all visible filling ingredients along the tortilla center.",
+      "predictability_level": "strong",
+      "predictability_reason": "After prepare the tortilla with hummus, layer vegetables avocado and cheese onto the tortilla is a natural next stage toward prepare a hummus and vegetable wrap."
+    },
+    {
+      "start": 244.9,
+      "end": 269.34,
+      "instruction": "Fold and roll the filled tortilla",
+      "description": "Fold the near edge over the filling, tuck the right and left ends inward and roll the tortilla forward into a closed bundle.",
+      "fine_index_range": [
+        33,
+        36
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Encloses the loose fillings in a compact wrap.",
+      "predictability_level": "strong",
+      "predictability_reason": "After layer vegetables avocado and cheese onto the tortilla, fold and roll the filled tortilla is a natural next stage toward prepare a hummus and vegetable wrap."
+    },
+    {
+      "start": 269.34,
+      "end": 287.5,
+      "instruction": "Cut and present the finished vegetable wrap",
+      "description": "Retrieve the chef knife, cut the wrap crosswise, set the knife on the tomato bowl, arrange the two halves and lift the serving plate.",
+      "fine_index_range": [
+        37,
+        38
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Portions the wrap and displays the completed filling and rolled tortilla.",
+      "predictability_level": "strong",
+      "predictability_reason": "After fold and roll the filled tortilla, cut and present the finished vegetable wrap is a natural next stage toward prepare a hummus and vegetable wrap."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/39cd3788881845f4/20261106T230213578887Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

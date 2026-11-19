@@ -1,0 +1,16 @@
+{
+  "video_id": "0503dacc3da23d1a",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The planned sticker layout is ready to adhere to the page."
+    }
+  ]
+}

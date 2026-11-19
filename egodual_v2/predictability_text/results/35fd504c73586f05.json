@@ -1,0 +1,46 @@
+{
+  "video_id": "35fd504c73586f05",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After wash and dry the celery, cut the celery into snack pieces is a natural next stage toward make celery snacks with peanut butter and raisins."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After cut the celery into snack pieces, pause and retrieve preparation utensils is plausible for make celery snacks with peanut butter and raisins, but several next steps fit."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After pause and retrieve preparation utensils, open the filling and fill the first celery piece is a natural next stage toward make celery snacks with peanut butter and raisins."
+    },
+    {
+      "index": 4,
+      "level": "no",
+      "reason": "After open the filling and fill the first celery piece, pause to use the phone is not suggested by make celery snacks with peanut butter and raisins or the preceding subtasks."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After pause to use the phone, fill the remaining celery with peanut butter is a natural next stage toward make celery snacks with peanut butter and raisins."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "After fill the remaining celery with peanut butter, top the celery with raisins is a natural next stage toward make celery snacks with peanut butter and raisins."
+    },
+    {
+      "index": 7,
+      "level": "strong",
+      "reason": "After top the celery with raisins, plate the finished celery snacks is a natural next stage toward make celery snacks with peanut butter and raisins."
+    }
+  ]
+}

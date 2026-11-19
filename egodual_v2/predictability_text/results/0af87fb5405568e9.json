@@ -1,0 +1,26 @@
+{
+  "video_id": "0af87fb5405568e9",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Hand adjustment of a loose handle naturally leads to screwdriver tightening."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "Trying a second screwdriver is plausible if the first fit is poor."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After screw adjustment, drawer movement and handle stability should be checked."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "video_id": "768cf9ecf66b2cee",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After set out the sandwich ingredients, spread both bread slices is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After spread both bread slices, assemble the sandwich in the pan and light the burner is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After assemble the sandwich in the pan and light the burner, cook and turn the first side is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After cook and turn the first side, finish cooking the sandwich is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After finish cooking the sandwich, serve and taste the sandwich is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    }
+  ]
+}

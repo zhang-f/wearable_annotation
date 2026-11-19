@@ -1,0 +1,2283 @@
+{
+  "video_id": "822a4fd6586ceddb",
+  "duration": 269.934,
+  "task": "Making smoked salmon and dill cream crostini",
+  "domain": "Chef",
+  "query": "How do I make smoked salmon and dill cream crostini?",
+  "goal": {
+    "title": "Prepare salmon toast with herb cream-cheese spread",
+    "description": "Set two bread slices on a lined plate and heat them in the combination oven. Unwrap cream cheese and spoon some into a metal bowl, add chopped green herbs, salt and small additions of liquid from a brown bottle, then stir into a spread. Remove the warm bread using oven mitts, spread both slices with the herb mixture and top them with separated orange salmon slices. Cut the topped toast and lift a piece toward the mouth.",
+    "final_state": "Both bread slices are coated with herb cream cheese and topped with salmon. The toast is cut and a piece is lifted for tasting.",
+    "procedure": [
+      "Place two bread slices in the combination oven and set its controls.",
+      "Unwrap cream cheese and transfer portions to the mixing bowl.",
+      "Add chopped herbs, salt and bottled liquid, then mix thoroughly.",
+      "Remove the bread with oven mitts and spread the herb cheese onto both slices.",
+      "Separate salmon slices, arrange them over the bread, cut and taste the toast."
+    ]
+  },
+  "object_inventory": [
+    "bread",
+    "bread bag",
+    "large plate",
+    "small plate",
+    "oven door",
+    "oven control",
+    "bowl",
+    "measuring spoon",
+    "spoon",
+    "knife",
+    "cream cheese",
+    "cream cheese box",
+    "foil wrapper",
+    "chopped herbs",
+    "salt container",
+    "liquid bottle",
+    "bottle cap",
+    "pen",
+    "note",
+    "oven mitt",
+    "salmon container",
+    "container lid",
+    "salmon",
+    "herb cheese spread",
+    "counter"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 37.7,
+      "description": "Take two slices from the bag, place them on the lined plate, load the plate into the combination oven and repeatedly set its controls before leaving it heating."
+    },
+    {
+      "start": 37.7,
+      "end": 65.71,
+      "description": "Bring forward the bowl and measuring spoon, open the cream-cheese box and foil, scoop portions into the bowl, and rewrap the remaining cheese."
+    },
+    {
+      "start": 65.71,
+      "end": 114.5,
+      "description": "Use the knife and spoon to scrape chopped herbs into the bowl. Add salt from the blue-topped container and measure small liquid additions using the brown bottle cap, then close the bottle."
+    },
+    {
+      "start": 114.5,
+      "end": 150.49,
+      "description": "Stir the mixture with the knife, briefly mark a handwritten checklist, then stir thoroughly until the visible herbs are distributed through the cheese. Put the bowl down."
+    },
+    {
+      "start": 150.49,
+      "end": 192.6,
+      "description": "Inspect and wait at the oven, open it and put on oven mitts. Remove the plate, close the oven, set the mitts aside and open the salmon container."
+    },
+    {
+      "start": 192.6,
+      "end": 234.29,
+      "description": "Lift the first bread slice, scoop and smooth the herb cheese over it, and place it on the small plate. Repeat on the second slice."
+    },
+    {
+      "start": 234.29,
+      "end": 250.21,
+      "description": "Take salmon slices from the container, peel the overlapping pieces apart and arrange them across both coated bread slices. Return a small remaining piece to the container."
+    },
+    {
+      "start": 250.21,
+      "end": 269.36,
+      "description": "Cut through the salmon-topped bread using the knife, adjust the plate and lift a topped piece toward the mouth. The final piece has a bite missing."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.9,
+      "old_summary": "hand retrieves first slice of bread from bag",
+      "summary": "take bread from the bread bag",
+      "verb": "remove",
+      "object": "bread",
+      "tool": null,
+      "target": "bread bag",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Reaches into bread bag and separates slices within t=0–3.9s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.9,
+      "end": 8.0,
+      "old_summary": "hand places first slice of bread on paper",
+      "summary": "place the first bread slice on the lined plate",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "large plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "First slice released then second taken before t=8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.0,
+      "end": 10.9,
+      "old_summary": "hand retrieves second slice of bread from bag and places it on paper",
+      "summary": "place the second bread slice on the lined plate",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "large plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "large plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.9,
+      "end": 13.9,
+      "old_summary": "hand carries plate toward oven and opens oven door",
+      "summary": "carry the plate and open the oven door",
+      "verb": "open",
+      "object": "oven door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "large plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Carries plate while opening appliance door.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 13.9,
+      "end": 17.1,
+      "old_summary": "hand closes oven door",
+      "summary": "put the bread plate inside the oven",
+      "verb": "place",
+      "object": "large plate",
+      "tool": null,
+      "target": "oven door",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.1,
+      "end": 17.69,
+      "old_summary": "hand adjusts temperature setting on oven control panel",
+      "summary": "close the oven door",
+      "verb": "close",
+      "object": "oven door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 17.69,
+      "end": 20.1,
+      "old_summary": "n",
+      "summary": "press the oven control buttons",
+      "verb": "press",
+      "object": "oven control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Control label/setting not consistently legible.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 20.1,
+      "end": 22.7,
+      "old_summary": "n",
+      "summary": "adjust the oven cooking program",
+      "verb": "press",
+      "object": "oven control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 22.7,
+      "end": 25.19,
+      "old_summary": "n",
+      "summary": "press the oven controls again",
+      "verb": "press",
+      "object": "oven control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 25.19,
+      "end": 26.17,
+      "old_summary": "n",
+      "summary": "set the oven temperature controls",
+      "verb": "press",
+      "object": "oven control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Display briefly shows 325°F near t=25s; subsequent adjustments also occur.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.17,
+      "end": 26.77,
+      "old_summary": "n",
+      "summary": "press another oven control button",
+      "verb": "press",
+      "object": "oven control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuous same control interaction through preceding/following subsecond cuts.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.77,
+      "end": 29.0,
+      "old_summary": "n",
+      "summary": "adjust the oven settings",
+      "verb": "press",
+      "object": "oven control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 29.0,
+      "end": 30.0,
+      "old_summary": "hand sets timer on oven control panel",
+      "summary": "press the oven start control",
+      "verb": "press",
+      "object": "oven control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.0,
+      "end": 37.7,
+      "old_summary": "hand unwraps and scoops cream cheese",
+      "summary": "idle: leave the oven and approach the preparation counter",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Completes control press near t=31s then walks away; no carried object visible.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 37.7,
+      "end": 38.69,
+      "old_summary": "n",
+      "summary": "move the metal mixing bowl forward",
+      "verb": "move",
+      "object": "bowl",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 38.69,
+      "end": 40.41,
+      "old_summary": "n",
+      "summary": "take the measuring spoon from the bowl",
+      "verb": "pick up",
+      "object": "measuring spoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "measuring spoon"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 40.41,
+      "end": 42.05,
+      "old_summary": "n",
+      "summary": "set the bowl down beside the measuring spoon",
+      "verb": "put down",
+      "object": "bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "measuring spoon"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Regrips bowl and spoon before reaching toward cheese box.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 42.05,
+      "end": 43.31,
+      "old_summary": "n",
+      "summary": "reach for the cream cheese box",
+      "verb": "reach",
+      "object": "cream cheese box",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cream cheese box"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.31,
+      "end": 46.19,
+      "old_summary": "n",
+      "summary": "open the cream cheese box",
+      "verb": "open",
+      "object": "cream cheese box",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "foil wrapper"
+        ],
+        "right": [
+          "foil wrapper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Box opened and foil block extracted by t=46.2s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.19,
+      "end": 51.99,
+      "old_summary": "n",
+      "summary": "unwrap the cream cheese block",
+      "verb": "open",
+      "object": "foil wrapper",
+      "tool": null,
+      "target": "cream cheese",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "foil wrapper"
+        ],
+        "right": [
+          "foil wrapper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Foil opening, cream cheese block visible.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.99,
+      "end": 53.45,
+      "old_summary": "n",
+      "summary": "pick up the measuring spoon",
+      "verb": "pick up",
+      "object": "measuring spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "foil wrapper"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 53.45,
+      "end": 55.6,
+      "old_summary": "n",
+      "summary": "scoop cream cheese from its wrapper",
+      "verb": "scoop",
+      "object": "cream cheese",
+      "tool": "measuring spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "foil wrapper"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.6,
+      "end": 59.83,
+      "old_summary": "hand puts cream cheese in the bowl",
+      "summary": "put the cream cheese into the bowl",
+      "verb": "place",
+      "object": "cream cheese",
+      "tool": "measuring spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "foil wrapper"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Measured cheese dropped into bowl, spoon released and foil refold begins.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.83,
+      "end": 64.0,
+      "old_summary": "n",
+      "summary": "fold the foil around the remaining cream cheese",
+      "verb": "fold",
+      "object": "foil wrapper",
+      "tool": null,
+      "target": "cream cheese",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cream cheese box"
+        ],
+        "right": [
+          "foil wrapper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 64.0,
+      "end": 65.71,
+      "old_summary": "hand scrapes dill from plate into bowl",
+      "summary": "put the wrapped cream cheese into its box",
+      "verb": "place",
+      "object": "foil wrapper",
+      "tool": null,
+      "target": "cream cheese box",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Finishes box packing and reaches knife by t=65.7s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.71,
+      "end": 67.67,
+      "old_summary": "n",
+      "summary": "pick up the knife from the herb plate",
+      "verb": "pick up",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "measuring spoon"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 67.67,
+      "end": 69.39,
+      "old_summary": "n",
+      "summary": "scrape cream cheese from the spoon with the knife",
+      "verb": "scrape",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "measuring spoon"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.39,
+      "end": 72.31,
+      "old_summary": "n",
+      "summary": "lift chopped herbs from the plate",
+      "verb": "pick up",
+      "object": "chopped herbs",
+      "tool": "knife",
+      "target": "small plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "small plate"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Scoops herbs with knife, raises plate briefly by t=72.3s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 72.31,
+      "end": 73.17,
+      "old_summary": "n",
+      "summary": "scrape the chopped herbs into the bowl",
+      "verb": "scrape",
+      "object": "chopped herbs",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Same herb-transfer motion continues across a 0.86s cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.17,
+      "end": 75.04,
+      "old_summary": "n",
+      "summary": "reposition the spoon and knife above the bowl",
+      "verb": "adjust",
+      "object": "knife",
+      "tool": null,
+      "target": "measuring spoon",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "measuring spoon"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.04,
+      "end": 79.88,
+      "old_summary": "n",
+      "summary": "scrape herbs and cheese off the measuring spoon",
+      "verb": "scrape",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "measuring spoon"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 79.88,
+      "end": 83.85,
+      "old_summary": "n",
+      "summary": "scrape the remaining herbs into the bowl",
+      "verb": "scrape",
+      "object": "chopped herbs",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "measuring spoon"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Scrapes spoon, then gathers remaining herbs on plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.85,
+      "end": 87.2,
+      "old_summary": "n",
+      "summary": "put the utensils down beside the bowl",
+      "verb": "put down",
+      "object": "knife",
+      "tool": null,
+      "target": "small plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Knife/spoon lowered before seasoning container pickup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.2,
+      "end": 90.16,
+      "old_summary": "n",
+      "summary": "pick up and open the salt container",
+      "verb": "open",
+      "object": "salt container",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "salt container"
+        ],
+        "right": [
+          "salt container"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 90.16,
+      "end": 96.1,
+      "old_summary": "n",
+      "summary": "shake salt into the mixing bowl",
+      "verb": "shake",
+      "object": "salt container",
+      "tool": null,
+      "target": "bowl",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "salt container"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Container visibly marked salt; pours granules into bowl.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.1,
+      "end": 97.57,
+      "old_summary": "hand adds lemon extract to the bowl",
+      "summary": "put the salt container back",
+      "verb": "put down",
+      "object": "salt container",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "liquid bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.57,
+      "end": 100.62,
+      "old_summary": "n",
+      "summary": "pick up and open the small liquid bottle",
+      "verb": "open",
+      "object": "liquid bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "liquid bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Brown bottle label not legible enough to identify liquid.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 100.62,
+      "end": 104.45,
+      "old_summary": "n",
+      "summary": "tip liquid into the bottle cap",
+      "verb": "pour",
+      "object": "liquid bottle",
+      "tool": null,
+      "target": "bottle cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "liquid bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.45,
+      "end": 109.6,
+      "old_summary": "n",
+      "summary": "pour the cap contents into the bowl",
+      "verb": "pour",
+      "object": "bottle cap",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "liquid bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated cap filling and emptying; small liquid stream difficult to resolve.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.6,
+      "end": 111.49,
+      "old_summary": "n",
+      "summary": "measure another small capful of liquid",
+      "verb": "pour",
+      "object": "liquid bottle",
+      "tool": null,
+      "target": "bottle cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "liquid bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 111.49,
+      "end": 114.5,
+      "old_summary": "n",
+      "summary": "close and put down the liquid bottle",
+      "verb": "close",
+      "object": "liquid bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated cap handling then recaps and sets bottle down at t=114.5s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 114.5,
+      "end": 118.52,
+      "old_summary": "hand stirs the mixture with a spoon",
+      "summary": "stir the cheese and herbs with the knife",
+      "verb": "mix",
+      "object": "herb cheese spread",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Knife used to stir, not spoon.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 118.52,
+      "end": 119.54,
+      "old_summary": "n",
+      "summary": "put the mixing bowl on the counter",
+      "verb": "put down",
+      "object": "bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.54,
+      "end": 121.79,
+      "old_summary": "n",
+      "summary": "pick up the handwritten note and pen",
+      "verb": "pick up",
+      "object": "note",
+      "tool": "pen",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "note"
+        ],
+        "right": [
+          "pen"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Reaches pen then lifts handwritten note by t=121.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 121.79,
+      "end": 127.0,
+      "old_summary": "n",
+      "summary": "mark the handwritten checklist with the pen",
+      "verb": "write",
+      "object": "note",
+      "tool": "pen",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pen"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Marks list and returns note to counter; exact writing not transcribed.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.0,
+      "end": 144.0,
+      "old_summary": "hand stops stirring the mixture",
+      "summary": "stir the cream cheese mixture thoroughly",
+      "verb": "mix",
+      "object": "herb cheese spread",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Repeated circular mixing with knife for t=127–144s.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 144.0,
+      "end": 150.49,
+      "old_summary": "hand places the baking tray on the counter",
+      "summary": "put down the bowl and approach the oven",
+      "verb": "put down",
+      "object": "bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bowl released then walks to oven.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 150.49,
+      "end": 153.74,
+      "old_summary": "n",
+      "summary": "inspect the oven through its closed door",
+      "verb": "inspect",
+      "object": "oven door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Touches/holds appliance handle; door remains closed.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 153.74,
+      "end": 164.5,
+      "old_summary": "n",
+      "summary": "idle: wait beside the oven",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Mostly waits, then starts reaching handle near t=164.5s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 164.5,
+      "end": 165.69,
+      "old_summary": "n",
+      "summary": "open the oven door",
+      "verb": "open",
+      "object": "oven door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 165.69,
+      "end": 168.91,
+      "old_summary": "hand picks up a twenty-sixth piece of smoked salmon",
+      "summary": "put on the oven mitts",
+      "verb": "put on",
+      "object": "oven mitt",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt"
+        ],
+        "right": [
+          "oven mitt"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Retrieves and puts on both mitts; no frame implies direct barehand contact with hot plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 168.91,
+      "end": 176.39,
+      "old_summary": "n",
+      "summary": "remove the bread plate with the oven mitts",
+      "verb": "remove",
+      "object": "large plate",
+      "tool": "oven mitt",
+      "target": "oven door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "large plate"
+        ],
+        "right": [
+          "oven mitt",
+          "large plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Removes plate and carries it to counter over t=168.9–176.4s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 176.39,
+      "end": 179.85,
+      "old_summary": "n",
+      "summary": "close the oven door with a mitted hand",
+      "verb": "close",
+      "object": "oven door",
+      "tool": "oven mitt",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt"
+        ],
+        "right": [
+          "oven mitt"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 179.85,
+      "end": 186.26,
+      "old_summary": "n",
+      "summary": "remove the oven mitts beside the counter",
+      "verb": "remove",
+      "object": "oven mitt",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Returns counter and removes mitts; multiple movements.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 186.26,
+      "end": 187.25,
+      "old_summary": "n",
+      "summary": "move the cream cheese box aside",
+      "verb": "move",
+      "object": "cream cheese box",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Brief shifts of box/utensils adjacent to plate; exact fingertip grip partly occluded.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 187.25,
+      "end": 190.0,
+      "old_summary": "n",
+      "summary": "put the oven mitts down",
+      "verb": "put down",
+      "object": "oven mitt",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuation of removing/laying down mitts.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 190.0,
+      "end": 192.6,
+      "old_summary": "n",
+      "summary": "open the salmon container",
+      "verb": "open",
+      "object": "salmon container",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "container lid"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 192.6,
+      "end": 196.24,
+      "old_summary": "n",
+      "summary": "pick up a warm bread slice",
+      "verb": "pick up",
+      "object": "bread",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Lid set aside then bread picked up t=193–196s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 196.24,
+      "end": 200.46,
+      "old_summary": "n",
+      "summary": "move the mixing bowl closer to the bread",
+      "verb": "move",
+      "object": "bowl",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Moves bowl then retrieves knife; both changes in same interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 200.46,
+      "end": 202.48,
+      "old_summary": "n",
+      "summary": "scoop herb cheese spread onto the knife",
+      "verb": "scoop",
+      "object": "herb cheese spread",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 202.48,
+      "end": 204.71,
+      "old_summary": "n",
+      "summary": "spread the herb cheese over the bread",
+      "verb": "spread",
+      "object": "herb cheese spread",
+      "tool": "knife",
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "First spread layer on raised bread.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.71,
+      "end": 205.78,
+      "old_summary": "n",
+      "summary": "scoop more herb cheese from the bowl",
+      "verb": "scoop",
+      "object": "herb cheese spread",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuation of dip-and-spread loop.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 205.78,
+      "end": 212.88,
+      "old_summary": "n",
+      "summary": "smooth the herb cheese over the bread slice",
+      "verb": "spread",
+      "object": "herb cheese spread",
+      "tool": "knife",
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 212.88,
+      "end": 216.77,
+      "old_summary": "n",
+      "summary": "move the small serving plate closer",
+      "verb": "move",
+      "object": "small plate",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Knife put down briefly and plate moved beside bread.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 216.77,
+      "end": 218.3,
+      "old_summary": "hand places the salmon on the second slice of bread",
+      "summary": "put down the measuring spoon",
+      "verb": "put down",
+      "object": "measuring spoon",
+      "tool": null,
+      "target": "container lid",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 218.3,
+      "end": 220.65,
+      "old_summary": "n",
+      "summary": "place the coated bread on the small plate",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "small plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bread set on small plate then reaches second slice.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 220.65,
+      "end": 222.51,
+      "old_summary": "n",
+      "summary": "pick up the second bread slice",
+      "verb": "pick up",
+      "object": "bread",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 222.51,
+      "end": 224.56,
+      "old_summary": "n",
+      "summary": "scoop herb cheese from the mixing bowl",
+      "verb": "scoop",
+      "object": "herb cheese spread",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 224.56,
+      "end": 228.35,
+      "old_summary": "n",
+      "summary": "spread herb cheese onto the second bread slice",
+      "verb": "spread",
+      "object": "herb cheese spread",
+      "tool": "knife",
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 228.35,
+      "end": 230.32,
+      "old_summary": "n",
+      "summary": "scoop more herb cheese with the knife",
+      "verb": "scoop",
+      "object": "herb cheese spread",
+      "tool": "knife",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 230.32,
+      "end": 234.29,
+      "old_summary": "n",
+      "summary": "smooth the spread and place the bread down",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "small plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Finishes spreading, sets bread on small plate and lowers knife.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 234.29,
+      "end": 237.34,
+      "old_summary": "n",
+      "summary": "take salmon slices from the container",
+      "verb": "remove",
+      "object": "salmon",
+      "tool": null,
+      "target": "salmon container",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "salmon"
+        ],
+        "right": [
+          "salmon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bowl put aside then salmon retrieved near t=236–237s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 237.34,
+      "end": 239.28,
+      "old_summary": "n",
+      "summary": "separate and place a salmon piece on the toast",
+      "verb": "place",
+      "object": "salmon",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salmon"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 239.28,
+      "end": 242.23,
+      "old_summary": "n",
+      "summary": "peel another salmon slice apart",
+      "verb": "separate",
+      "object": "salmon",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "salmon"
+        ],
+        "right": [
+          "salmon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated peeling and placing thin salmon slices; same inventory object.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 242.23,
+      "end": 244.43,
+      "old_summary": "n",
+      "summary": "put a salmon piece on the coated bread",
+      "verb": "place",
+      "object": "salmon",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salmon"
+        ],
+        "right": [
+          "salmon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 244.43,
+      "end": 247.71,
+      "old_summary": "n",
+      "summary": "separate more salmon and arrange it on the toast",
+      "verb": "place",
+      "object": "salmon",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salmon"
+        ],
+        "right": [
+          "salmon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Peels and places multiple pieces during t=244.4–247.7s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 247.71,
+      "end": 249.13,
+      "old_summary": "n",
+      "summary": "place the remaining salmon piece on the toast",
+      "verb": "place",
+      "object": "salmon",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 249.13,
+      "end": 250.21,
+      "old_summary": "n",
+      "summary": "put a small salmon piece back in the container",
+      "verb": "put down",
+      "object": "salmon",
+      "tool": null,
+      "target": "salmon container",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 250.21,
+      "end": 255.28,
+      "old_summary": "n",
+      "summary": "cut the topped bread with the knife",
+      "verb": "cut",
+      "object": "bread",
+      "tool": "knife",
+      "target": "small plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Gets knife and makes successive cuts through topped bread.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 255.28,
+      "end": 258.28,
+      "old_summary": "n",
+      "summary": "continue cutting through the salmon toast",
+      "verb": "cut",
+      "object": "bread",
+      "tool": "knife",
+      "target": "small plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuous cutting; no hand-object change at t=255.28s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 258.28,
+      "end": 258.5,
+      "old_summary": "n",
+      "summary": "press the knife through the topped bread",
+      "verb": "cut",
+      "object": "bread",
+      "tool": "knife",
+      "target": "small plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.22s cut during ongoing knife use, no distinct change visible.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 258.5,
+      "end": 261.83,
+      "old_summary": "n",
+      "summary": "finish cutting and withdraw the knife",
+      "verb": "cut",
+      "object": "bread",
+      "tool": "knife",
+      "target": "small plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continues cuts then releases knife near t=261s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 261.83,
+      "end": 264.67,
+      "old_summary": "n",
+      "summary": "move the plate and grasp a toast piece",
+      "verb": "pick up",
+      "object": "bread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Moves plate, grasps topped bread piece with both hands.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 264.67,
+      "end": 267.85,
+      "old_summary": "n",
+      "summary": "lift a topped bread piece toward the mouth",
+      "verb": "move",
+      "object": "bread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Raised bread moves toward mouth; a bite missing by t=267.8s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 267.85,
+      "end": 269.36,
+      "old_summary": "n",
+      "summary": "hold the topped toast after taking a bite",
+      "verb": "hold",
+      "object": "bread",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Holds bitten topped bread; not a two-slice closed sandwich.",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 37.7,
+      "fine_index_range": [
+        0,
+        13
+      ],
+      "instruction": "Heat the bread slices",
+      "description": "Take two slices from the bag, place them on the lined plate, load the plate into the combination oven and repeatedly set its controls before leaving it heating.",
+      "goal_contribution": "Warm the bread while the spread is prepared.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 37.7,
+      "end": 65.71,
+      "fine_index_range": [
+        14,
+        24
+      ],
+      "instruction": "Portion cream cheese into the mixing bowl",
+      "description": "Bring forward the bowl and measuring spoon, open the cream-cheese box and foil, scoop portions into the bowl, and rewrap the remaining cheese.",
+      "goal_contribution": "Provide the creamy base of the bread topping.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "While the bread heats, preparing the herb cheese spread is the natural next stage."
+    },
+    {
+      "start": 65.71,
+      "end": 114.5,
+      "fine_index_range": [
+        25,
+        40
+      ],
+      "instruction": "Add herbs and seasonings to the cheese",
+      "description": "Use the knife and spoon to scrape chopped herbs into the bowl. Add salt from the blue-topped container and measure small liquid additions using the brown bottle cap, then close the bottle.",
+      "goal_contribution": "Combine the visible herbs and seasonings with the cheese base.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Portioned cream cheese needs herbs and seasoning for the stated spread."
+    },
+    {
+      "start": 114.5,
+      "end": 150.49,
+      "fine_index_range": [
+        41,
+        46
+      ],
+      "instruction": "Mix the herb cheese spread",
+      "description": "Stir the mixture with the knife, briefly mark a handwritten checklist, then stir thoroughly until the visible herbs are distributed through the cheese. Put the bowl down.",
+      "goal_contribution": "Produce a spread that can be applied to the bread.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The added herbs and seasonings need mixing into the cheese."
+    },
+    {
+      "start": 150.49,
+      "end": 192.6,
+      "fine_index_range": [
+        47,
+        56
+      ],
+      "instruction": "Remove the warmed bread and ready the toppings",
+      "description": "Inspect and wait at the oven, open it and put on oven mitts. Remove the plate, close the oven, set the mitts aside and open the salmon container.",
+      "goal_contribution": "Return the warmed bread to the preparation counter and expose the salmon.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After mixing the spread, warmed bread and toppings are needed for assembly."
+    },
+    {
+      "start": 192.6,
+      "end": 234.29,
+      "fine_index_range": [
+        57,
+        70
+      ],
+      "instruction": "Spread both bread slices with herb cheese",
+      "description": "Lift the first bread slice, scoop and smooth the herb cheese over it, and place it on the small plate. Repeat on the second slice.",
+      "goal_contribution": "Create an even herb-cheese layer beneath the salmon topping.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The herb cheese and bread are ready to combine."
+    },
+    {
+      "start": 234.29,
+      "end": 250.21,
+      "fine_index_range": [
+        71,
+        77
+      ],
+      "instruction": "Arrange salmon over the bread",
+      "description": "Take salmon slices from the container, peel the overlapping pieces apart and arrange them across both coated bread slices. Return a small remaining piece to the container.",
+      "goal_contribution": "Cover both toast slices with the visible orange salmon.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Cheese-covered bread is ready for salmon topping."
+    },
+    {
+      "start": 250.21,
+      "end": 269.36,
+      "fine_index_range": [
+        78,
+        84
+      ],
+      "instruction": "Cut and taste the topped toast",
+      "description": "Cut through the salmon-topped bread using the knife, adjust the plate and lift a topped piece toward the mouth. The final piece has a bite missing.",
+      "goal_contribution": "Portion and taste the assembled toast.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The finished toast may be cut and tasted, though serving could end without it."
+    }
+  ],
+  "notes": "All 9 overview sheets, 20 compact dense pages (1218 frames) and 6 native endpoint sheets reviewed. The oven appliance and controls are visibly used t=12–32s and t=150–176s; precise selected cooking mode is not confidently legible. Cream cheese label is visible. Brown bottle liquid is unidentified and not assigned a guessed ingredient name. t=119–127s briefly marks handwritten checklist. t=250–262s cuts topped bread; final bite visible t=267–269s. Existing fine boundaries retained including continuous-control and continuous-cutting splits."
+}

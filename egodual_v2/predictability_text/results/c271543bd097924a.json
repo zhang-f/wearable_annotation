@@ -1,0 +1,36 @@
+{
+  "video_id": "c271543bd097924a",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After arrange paper and thread, roll the pink paper into a bead is a natural next stage toward roll a pink paper bead and secure its thread."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After roll the pink paper into a bead, glue and press the paper tip closed is a natural next stage toward roll a pink paper bead and secure its thread."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After glue and press the paper tip closed, adjust the thread and form a loop beside the bead is plausible for roll a pink paper bead and secure its thread, but several next steps fit."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "After adjust the thread and form a loop beside the bead, spread and gather the long thread is plausible for roll a pink paper bead and secure its thread, but several next steps fit."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "After spread and gather the long thread, tighten the small thread loops beside the bead is plausible for roll a pink paper bead and secure its thread, but several next steps fit."
+    }
+  ]
+}

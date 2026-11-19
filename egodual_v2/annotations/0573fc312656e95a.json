@@ -1,0 +1,2089 @@
+{
+  "video_id": "0573fc312656e95a",
+  "duration": 371.134,
+  "task": "Installing a curtain tie-back hook",
+  "domain": "Handyman",
+  "query": "How do I install a curtain tie-back hook?",
+  "goal": {
+    "title": "Install a curtain holdback hook",
+    "description": "Hold a curtain hook against the wall, measure and mark its mounting holes, then select and swap drill bits to drill the holes, repeatedly widening them to fit wall anchors. Press the anchors into place, position the hook over them, and drive in screws with a screwdriver, checking and tightening the hook until it is secure. Finally gather the curtain and hook it in place.",
+    "final_state": "The hook is fastened flush to the wall with its screws tightened, and the curtain is gathered and held inside it beside the window.",
+    "procedure": [
+      "Gather the curtain and mark an initial hook position.",
+      "Measure the spacing, reposition the hook, and mark its mounting holes again.",
+      "Select drill bits and drill the marked wall holes.",
+      "Repeatedly widen the holes and press wall anchors into them.",
+      "Align the hook with the anchors and start the mounting screws.",
+      "Tighten the screws and check the hook by hand.",
+      "Gather the curtain inside the mounted hook."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 33.56,
+      "description": "Gather curtain and mark an initial hook position."
+    },
+    {
+      "start": 33.56,
+      "end": 71.35,
+      "description": "Measure and mark the hook position again."
+    },
+    {
+      "start": 71.35,
+      "end": 161.63,
+      "description": "Choose drill bits and drill mounting holes."
+    },
+    {
+      "start": 161.63,
+      "end": 261.84,
+      "description": "Fit anchors and repeatedly widen the holes."
+    },
+    {
+      "start": 261.84,
+      "end": 305.27,
+      "description": "Align hook and start screws."
+    },
+    {
+      "start": 305.27,
+      "end": 359.17,
+      "description": "Tighten screws and check hook."
+    },
+    {
+      "start": 359.17,
+      "end": 371.134,
+      "description": "Gather curtain inside hook and inspect."
+    }
+  ],
+  "object_inventory": [
+    "tape measure",
+    "floor",
+    "curtain",
+    "curtain hook",
+    "wall",
+    "marker",
+    "drill",
+    "drill bit",
+    "drill bit bag",
+    "wall anchor",
+    "wall anchor bag",
+    "screwdriver",
+    "screw"
+  ],
+  "notes": "All 77 original fine boundaries retained. Repeated marking, drilling and screwdriver-turn segments are recorded literally; many boundaries split continuous interaction, with notes for human review. differs_from_expectation: anchor fit requires repeated drill-bit replacement and drilling; no hammer is used. Left hand sometimes holds screwdriver and hook simultaneously; inventory and transition derivation allow lists of held objects. A green anchor fixed in the wall is not still in_hand when fingers withdraw. No inferred bit diameter or fastener specification. Uncovered tail 370.45–371.134s is static inspection, no task interaction visible in overview. Canonical drill bit combines visually similar bits because precise sizes cannot be read.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.31,
+      "summary": "put down the tape measure",
+      "verb": "put down",
+      "object": "tape measure",
+      "tool": null,
+      "target": "floor",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=1.3–2.2s put tape measure down; t=2.3s reach toward marker.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 2.31,
+      "end": 12.0,
+      "summary": "gather the curtain beside the wall",
+      "verb": "gather",
+      "object": "curtain",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "curtain"
+        ],
+        "right": [
+          "curtain"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=2.3–6s pause, then t=6–12s gather curtain; opening pause shares this step.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.0,
+      "end": 16.73,
+      "summary": "pick up the curtain hook",
+      "verb": "pick up",
+      "object": "curtain hook",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "curtain"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=14.3s retrieve hook; t=16.3s left hand grasps curtain while right holds hook.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 16.73,
+      "end": 23.43,
+      "summary": "hold the curtain hook against the wall",
+      "verb": "hold",
+      "object": "curtain hook",
+      "tool": null,
+      "target": "wall",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.43,
+      "end": 28.47,
+      "summary": "mark the wall through the curtain hook",
+      "verb": "mark",
+      "object": "wall",
+      "tool": "marker",
+      "target": "curtain hook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "marker"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=24.7s pick up marker, then t=25–28s mark through hook.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 28.47,
+      "end": 33.56,
+      "summary": "mark the wall through the curtain hook",
+      "verb": "mark",
+      "object": "wall",
+      "tool": "marker",
+      "target": "curtain hook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "marker"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=28.47s cut falls inside continuous marking, visible on both sides.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.56,
+      "end": 40.71,
+      "summary": "remove the curtain hook from the wall",
+      "verb": "remove",
+      "object": "curtain hook",
+      "tool": null,
+      "target": "wall",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "curtain hook"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=34–38s remove and inspect hook; t=40s put marker down, hook remains held at native t=40.667s; hook is placed on floor at t=41s in next segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.71,
+      "end": 44.12,
+      "summary": "extend the tape measure",
+      "verb": "extend",
+      "object": "tape measure",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape measure"
+        ],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=40.7s put marker down; t=42s pick up tape measure; t=43s extend tape.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 44.12,
+      "end": 50.72,
+      "summary": "measure the space beside the curtain",
+      "verb": "measure",
+      "object": "wall",
+      "tool": "tape measure",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape measure"
+        ],
+        "right": [
+          "tape measure"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.72,
+      "end": 52.41,
+      "summary": "put down the tape measure",
+      "verb": "put down",
+      "object": "tape measure",
+      "tool": null,
+      "target": "floor",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=51s retract tape and t=52s lower measure to floor.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.41,
+      "end": 59.5,
+      "summary": "hold the curtain hook against the wall",
+      "verb": "hold",
+      "object": "curtain hook",
+      "tool": null,
+      "target": "wall",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=55.6s pick hook up, then t=56–59s align it with marks.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 59.5,
+      "end": 65.33,
+      "summary": "mark the wall through the curtain hook",
+      "verb": "mark",
+      "object": "wall",
+      "tool": "marker",
+      "target": "curtain hook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "marker"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=60.3s retrieve marker; t=62–65s mark holes.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 65.33,
+      "end": 67.96,
+      "summary": "mark the wall through the curtain hook",
+      "verb": "mark",
+      "object": "wall",
+      "tool": "marker",
+      "target": "curtain hook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "marker"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=65.33s boundary divides ongoing marking without a new object interaction.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 67.96,
+      "end": 71.35,
+      "summary": "put down the curtain hook",
+      "verb": "put down",
+      "object": "curtain hook",
+      "tool": null,
+      "target": "floor",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "marker"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=68–70s adjust hook; t=71s lower it to floor.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.35,
+      "end": 75.44,
+      "summary": "pick up the drill bit bag",
+      "verb": "pick up",
+      "object": "drill bit bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill bit bag"
+        ],
+        "right": [
+          "drill bit bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=71.7s put marker down; t=72.7s pick up drill and t=74s put it down; t=74.3s retrieve bit bag.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 75.44,
+      "end": 77.61,
+      "summary": "open the drill bit bag",
+      "verb": "open",
+      "object": "drill bit bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill bit bag"
+        ],
+        "right": [
+          "drill bit bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 77.61,
+      "end": 89.59,
+      "summary": "remove drill bits from the bag",
+      "verb": "remove",
+      "object": "drill bit",
+      "tool": null,
+      "target": "drill bit bag",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill bit"
+        ],
+        "right": [
+          "drill bit bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 89.59,
+      "end": 92.9,
+      "summary": "put down the drill bit bag",
+      "verb": "put down",
+      "object": "drill bit bag",
+      "tool": null,
+      "target": "floor",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "drill bit"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=89.7–92s remove bit, t=92.5s put bag down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.9,
+      "end": 94.83,
+      "summary": "hold the drill bits",
+      "verb": "hold",
+      "object": "drill bit",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill bit"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.83,
+      "end": 97.51,
+      "summary": "select a drill bit",
+      "verb": "select",
+      "object": "drill bit",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill bit"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=95–96.7s compare bits; t=97s lower one toward floor.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.51,
+      "end": 99.15,
+      "summary": "pick up the drill",
+      "verb": "pick up",
+      "object": "drill",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill bit"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 99.15,
+      "end": 103.32,
+      "summary": "insert the drill bit into the drill",
+      "verb": "insert",
+      "object": "drill bit",
+      "tool": null,
+      "target": "drill",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill bit"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.32,
+      "end": 106.07,
+      "summary": "tighten the drill chuck",
+      "verb": "tighten",
+      "object": "drill",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.07,
+      "end": 115.81,
+      "summary": "drill a hole in the wall",
+      "verb": "drill",
+      "object": "wall",
+      "tool": "drill",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.81,
+      "end": 117.92,
+      "summary": "withdraw the drill from the wall",
+      "verb": "withdraw",
+      "object": "drill",
+      "tool": null,
+      "target": "wall",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.92,
+      "end": 124.66,
+      "summary": "drill a hole in the wall",
+      "verb": "drill",
+      "object": "wall",
+      "tool": "drill",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.66,
+      "end": 128.04,
+      "summary": "drill a hole in the wall",
+      "verb": "drill",
+      "object": "wall",
+      "tool": "drill",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=124.66s boundary lies within drilling; t=128s withdraw drill.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 128.04,
+      "end": 133.56,
+      "summary": "loosen the drill chuck",
+      "verb": "loosen",
+      "object": "drill",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.56,
+      "end": 135.13,
+      "summary": "replace the drill bit",
+      "verb": "replace",
+      "object": "drill bit",
+      "tool": null,
+      "target": "drill",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill bit"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=134.3s put removed bit down; t=134.7s retrieve another bit.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 135.13,
+      "end": 142.42,
+      "summary": "tighten the drill chuck",
+      "verb": "tighten",
+      "object": "drill",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=135.4s insert bit then t=136–142s tighten chuck.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 142.42,
+      "end": 148.83,
+      "summary": "adjust the drill controls",
+      "verb": "adjust",
+      "object": "drill",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=143–146s adjust drill controls; t=147–148.8s raise and inspect drill; wall drilling begins around t=149s in next segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.83,
+      "end": 153.2,
+      "summary": "drill a hole in the wall",
+      "verb": "drill",
+      "object": "wall",
+      "tool": "drill",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=148.83s cut lies inside ongoing drilling.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.2,
+      "end": 157.25,
+      "summary": "drill a hole in the wall",
+      "verb": "drill",
+      "object": "wall",
+      "tool": "drill",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=153.2s cut lies inside ongoing drilling; withdraw at t=157.2s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 157.25,
+      "end": 161.63,
+      "summary": "pick up the wall anchor bag",
+      "verb": "pick up",
+      "object": "wall anchor bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wall anchor bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=158–160s put drill down, then t=161s retrieve anchor bag.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 161.63,
+      "end": 167.88,
+      "summary": "open the wall anchor bag",
+      "verb": "open",
+      "object": "wall anchor bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wall anchor bag"
+        ],
+        "right": [
+          "wall anchor bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 167.88,
+      "end": 170.86,
+      "summary": "remove wall anchors from the bag",
+      "verb": "remove",
+      "object": "wall anchor",
+      "tool": null,
+      "target": "wall anchor bag",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wall anchor bag"
+        ],
+        "right": [
+          "wall anchor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 170.86,
+      "end": 175.75,
+      "summary": "select a wall anchor from the bag",
+      "verb": "select",
+      "object": "wall anchor",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wall anchor bag"
+        ],
+        "right": [
+          "wall anchor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 175.75,
+      "end": 176.58,
+      "summary": "put down the wall anchor bag",
+      "verb": "put down",
+      "object": "wall anchor bag",
+      "tool": null,
+      "target": "floor",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wall anchor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 176.58,
+      "end": 180.49,
+      "summary": "bring the wall anchor to the hole",
+      "verb": "move",
+      "object": "wall anchor",
+      "tool": null,
+      "target": "wall",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wall anchor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 180.49,
+      "end": 183.49,
+      "summary": "press the wall anchor into the hole",
+      "verb": "press",
+      "object": "wall anchor",
+      "tool": null,
+      "target": "wall",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drill bit"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=180.5–181s try anchor; t=183s pick up drill bit.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 183.49,
+      "end": 187.99,
+      "summary": "insert the drill bit into the drill",
+      "verb": "insert",
+      "object": "drill bit",
+      "tool": null,
+      "target": "drill",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 187.99,
+      "end": 188.55,
+      "summary": "remove the drill bit from the drill",
+      "verb": "remove",
+      "object": "drill bit",
+      "tool": null,
+      "target": "drill",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill bit"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=187.6s remove bit, then t=188.1s put it down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 188.55,
+      "end": 193.72,
+      "summary": "insert another drill bit into the drill",
+      "verb": "insert",
+      "object": "drill bit",
+      "tool": null,
+      "target": "drill",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=188.7s insert another bit; t=189–193s tighten chuck.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 193.72,
+      "end": 201.99,
+      "summary": "drill a hole in the wall",
+      "verb": "drill",
+      "object": "wall",
+      "tool": "drill",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 201.99,
+      "end": 206.63,
+      "summary": "drill a hole in the wall",
+      "verb": "drill",
+      "object": "wall",
+      "tool": "drill",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=201.99s boundary divides continued drilling before withdrawal.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 206.63,
+      "end": 208.28,
+      "summary": "pick up a wall anchor",
+      "verb": "pick up",
+      "object": "wall anchor",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wall anchor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=207s put drill down, t=208s retrieve anchor.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 208.28,
+      "end": 212.91,
+      "summary": "press the wall anchor into the hole",
+      "verb": "press",
+      "object": "wall anchor",
+      "tool": null,
+      "target": "wall",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=209–211s try anchor; t=212.5s pick up drill.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 212.91,
+      "end": 215.51,
+      "summary": "replace the drill bit",
+      "verb": "replace",
+      "object": "drill bit",
+      "tool": null,
+      "target": "drill",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill bit"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=213–214s remove bit; t=214.6s retrieve another and t=215s insert it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 215.51,
+      "end": 216.62,
+      "summary": "pick up another drill bit",
+      "verb": "pick up",
+      "object": "drill bit",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill bit"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 216.62,
+      "end": 227.36,
+      "summary": "tighten the drill chuck",
+      "verb": "tighten",
+      "object": "drill",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": [
+          "drill"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=216.7s insert drill bit; t=217–225s tighten chuck; t=226s raise drill to wall.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 227.36,
+      "end": 231.23,
+      "summary": "drill a hole in the wall",
+      "verb": "drill",
+      "object": "wall",
+      "tool": "drill",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 231.23,
+      "end": 234.7,
+      "summary": "drill a hole in the wall",
+      "verb": "drill",
+      "object": "wall",
+      "tool": "drill",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drill"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=231.23s cut lies inside continued drilling; withdraw at t=234.5s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 234.7,
+      "end": 236.51,
+      "summary": "pick up a wall anchor",
+      "verb": "pick up",
+      "object": "wall anchor",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wall anchor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=235.2s lower drill to floor, t=235.7s pick anchor up.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 236.51,
+      "end": 242.36,
+      "summary": "press the wall anchor into the hole",
+      "verb": "press",
+      "object": "wall anchor",
+      "tool": null,
+      "target": "wall",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wall anchor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 242.36,
+      "end": 250.59,
+      "summary": "press the wall anchor into the hole",
+      "verb": "press",
+      "object": "wall anchor",
+      "tool": null,
+      "target": "wall",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wall anchor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=242.36s cut divides repeated pressing of the same anchor; t=247–249s lower hands and regrasp.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 250.59,
+      "end": 261.84,
+      "summary": "press the wall anchor with the screwdriver",
+      "verb": "press",
+      "object": "wall anchor",
+      "tool": "screwdriver",
+      "target": "wall",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=250–255s finger pressure on anchors, then t=256–261s screwdriver presses anchor; no hammering inferred.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 261.84,
+      "end": 264.15,
+      "summary": "pick up the curtain hook",
+      "verb": "pick up",
+      "object": "curtain hook",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "curtain hook"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=262s put screwdriver down; t=263.3s pick hook up.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 264.15,
+      "end": 267.28,
+      "summary": "align the curtain hook with the wall anchors",
+      "verb": "align",
+      "object": "curtain hook",
+      "tool": null,
+      "target": "wall anchor",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "curtain hook"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 267.28,
+      "end": 271.19,
+      "summary": "press the wall anchor with the screwdriver",
+      "verb": "press",
+      "object": "wall anchor",
+      "tool": "screwdriver",
+      "target": "wall",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=267.3s lower hook; t=269–271s press anchor using screwdriver. differs_from_expectation: hook was not attached after alignment; anchor needs more adjustment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 271.19,
+      "end": 276.03,
+      "summary": "pick up a screw from the floor",
+      "verb": "pick up",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=271.7s put screwdriver down, t=272.7s retrieve anchor, t=273.3s try anchor, t=274.3s retrieve screwdriver, t=275.7s retrieve screw.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 276.03,
+      "end": 283.07,
+      "summary": "hold the curtain hook against the wall",
+      "verb": "hold",
+      "object": "curtain hook",
+      "tool": null,
+      "target": "wall",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "curtain hook",
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=278–279s lower drill without use, t=280s pick hook up, t=281s align; left holds hook and screwdriver together.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 283.07,
+      "end": 289.49,
+      "summary": "insert the screw through the curtain hook",
+      "verb": "insert",
+      "object": "screw",
+      "tool": null,
+      "target": "curtain hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "curtain hook",
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 289.49,
+      "end": 291.82,
+      "summary": "reach for another screw",
+      "verb": "reach for",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "curtain hook",
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=289.7–291.8s right hand releases hook and lowers toward screws on floor.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 291.82,
+      "end": 296.34,
+      "summary": "pick up another screw",
+      "verb": "pick up",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "curtain hook",
+          "screwdriver"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=292–295s right hand reaches to floor, t=295.7–296.3s brings screw toward hook.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 296.34,
+      "end": 302.09,
+      "summary": "insert the screw through the curtain hook",
+      "verb": "insert",
+      "object": "screw",
+      "tool": null,
+      "target": "curtain hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "curtain hook",
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=296–302s right fingers repeatedly turn screw before screwdriver is applied.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 302.09,
+      "end": 305.27,
+      "summary": "adjust the curtain hook against the wall",
+      "verb": "adjust",
+      "object": "curtain hook",
+      "tool": null,
+      "target": "wall",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=304.5s change grip; left moves screwdriver to screw.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 305.27,
+      "end": 312.65,
+      "summary": "tighten the curtain hook screw",
+      "verb": "tighten",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "curtain hook",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 312.65,
+      "end": 318.1,
+      "summary": "tighten the curtain hook screw",
+      "verb": "tighten",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "curtain hook",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=312.65s cut divides ongoing screwdriver turns.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 318.1,
+      "end": 327.01,
+      "summary": "tighten the curtain hook screw",
+      "verb": "tighten",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "curtain hook",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=318.1s cut divides ongoing tightening; fingers regrasp driver but object is unchanged.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 327.01,
+      "end": 332.09,
+      "summary": "tighten the curtain hook screw",
+      "verb": "tighten",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "curtain hook",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "curtain hook"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=327.01s cut divides continued tightening.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 332.09,
+      "end": 352.6,
+      "summary": "tighten the curtain hook screw",
+      "verb": "tighten",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "curtain hook",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=332.09s cut divides tightening; t=332.3–333.3s right hand tests hook, then screwdriver returns to screw.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 352.6,
+      "end": 355.04,
+      "summary": "check the curtain hook",
+      "verb": "check",
+      "object": "curtain hook",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 355.04,
+      "end": 359.17,
+      "summary": "tighten the curtain hook screw",
+      "verb": "tighten",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "curtain hook",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=356–357.7s tighten screw; t=358s turn to curtain.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 359.17,
+      "end": 362.56,
+      "summary": "gather the curtain beside the hook",
+      "verb": "gather",
+      "object": "curtain",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "curtain"
+        ],
+        "right": [
+          "curtain"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 362.56,
+      "end": 365.31,
+      "summary": "place the curtain inside the hook",
+      "verb": "place",
+      "object": "curtain",
+      "tool": null,
+      "target": "curtain hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=362.7–364s arrange curtain inside hook, t=364.3s release; final second has no interaction.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 365.31,
+      "end": 365.9,
+      "summary": "idle: inspect the held curtain",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=365.31–365.9s hands absent, same static inspection as adjacent interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 365.9,
+      "end": 370.45,
+      "summary": "adjust the curtain inside the hook",
+      "verb": "adjust",
+      "object": "curtain",
+      "tool": null,
+      "target": "curtain hook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=365.9–367.5s no interaction, t=368.3–368.8s right hand pulls curtain slightly, then withdraws.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 40.71,
+      "instruction": "Mark an initial curtain hook position",
+      "description": "Put down the tape measure, gather the curtain to one side, hold the curtain hook against the wall, and use a marker to mark its mounting holes.",
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "transition_in": null,
+      "goal_contribution": "Establishes an initial mounting position beside the curtain.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 40.71,
+      "end": 71.35,
+      "instruction": "Measure and mark the hook position",
+      "description": "Use the tape measure to check spacing from the window, reposition the curtain hook against the wall, and mark its mounting holes again with the marker.",
+      "fine_index_range": [
+        7,
+        13
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Refines the hook location and marks the holes to drill.",
+      "predictability_level": "strong",
+      "predictability_reason": "The initial hook mark naturally leads to measuring and refining its position."
+    },
+    {
+      "start": 71.35,
+      "end": 157.25,
+      "instruction": "Drill mounting holes in the wall",
+      "description": "Open the drill bit bag, fit a bit into the drill, and drill into the wall at the marked points, swapping to different bits and redrilling as needed to size the holes.",
+      "fine_index_range": [
+        14,
+        32
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Creates holes for the hook mounting hardware.",
+      "predictability_level": "strong",
+      "predictability_reason": "Marked mounting points are ready for drilled holes."
+    },
+    {
+      "start": 157.25,
+      "end": 261.84,
+      "instruction": "Fit wall anchors into the holes",
+      "description": "Open the wall anchor bag, take out an anchor, and repeatedly redrill each hole wider with different bits before pressing the anchors into the wall by hand.",
+      "fine_index_range": [
+        33,
+        55
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Seats anchors that will receive the mounting screws.",
+      "predictability_level": "strong",
+      "predictability_reason": "Drilled holes need anchors to hold the hook."
+    },
+    {
+      "start": 261.84,
+      "end": 305.27,
+      "instruction": "Position the hook and start its screws",
+      "description": "Hold the curtain hook up against the wall anchors, adjust its alignment, then pick up screws and start driving them into the anchors with a screwdriver.",
+      "fine_index_range": [
+        56,
+        65
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Connects the hook to the wall anchors.",
+      "predictability_level": "strong",
+      "predictability_reason": "With anchors fitted, the hook can be positioned and screwed on."
+    },
+    {
+      "start": 305.27,
+      "end": 359.17,
+      "instruction": "Tighten the curtain hook screws",
+      "description": "Turn each screw fully into the wall anchors with the screwdriver, then grip and shake the hook by hand to check that it is firmly secured.",
+      "fine_index_range": [
+        66,
+        72
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Secures the hook and checks its attachment.",
+      "predictability_level": "strong",
+      "predictability_reason": "Started hook screws need tightening."
+    },
+    {
+      "start": 359.17,
+      "end": 370.45,
+      "instruction": "Gather the curtain inside the mounted hook",
+      "description": "Pull the curtain aside, gather its folds by hand, and place it inside the mounted hook before stepping back to inspect the finished installation.",
+      "fine_index_range": [
+        73,
+        76
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Uses the installed hook to hold the curtain aside.",
+      "predictability_level": "strong",
+      "predictability_reason": "The mounted holdback is ready to gather the curtain."
+    }
+  ]
+}

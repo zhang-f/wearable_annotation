@@ -1,0 +1,36 @@
+{
+  "video_id": "3c1d649e2700fae3",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After take six dates from the bag, clean the counter and wash both hands is plausible for prepare stuffed dates with white filling and sliced nuts, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After clean the counter and wash both hands, open and arrange the dates is a natural next stage toward prepare stuffed dates with white filling and sliced nuts."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After open and arrange the dates, fill the opened dates is a natural next stage toward prepare stuffed dates with white filling and sliced nuts."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "After fill the opened dates, transfer the filled dates onto the plate is plausible for prepare stuffed dates with white filling and sliced nuts, but several next steps fit."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After transfer the filled dates onto the plate, garnish and arrange the stuffed dates is a natural next stage toward prepare stuffed dates with white filling and sliced nuts."
+    }
+  ]
+}

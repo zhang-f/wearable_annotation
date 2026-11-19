@@ -1,0 +1,284 @@
+{
+  "video_id": "e531cded0108b6c3",
+  "duration": 256.867,
+  "task": "Creating a quick spray paint resist (with stencil)",
+  "domain": "Arts and Crafts",
+  "query": "How do I create a quick spray paint resist with a stencil?",
+  "goal": {
+    "title": "Create a spray-painted heart resist on paper",
+    "description": "Press a plastic cover sheet flat on the work surface and place a white paper sheet on top, then position a heart-shaped paper mask on the paper and secure its edges with strips of tape pulled from a roll and trimmed with scissors. Spray gold paint over the paper around the mask, peel the mask away to reveal a white heart shape, and trace a purple marker around its outline before adding a small mark below it.",
+    "final_state": "A white heart shape surrounded by gold spray paint remains on the paper, fully outlined in purple marker with a small mark added at the lower left; the final visible action is the marker lifting away from the paper.",
+    "procedure": [
+      "Spread the protective plastic sheet and place white paper on it.",
+      "Position the heart-shaped mask on the paper.",
+      "Pull and cut tape to secure the mask.",
+      "Spray gold paint around the mask and lift the mask away.",
+      "Trace around the heart with the purple marker and add the small writing below it."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 12,
+      "description": "Prepare the covered work surface and paper."
+    },
+    {
+      "start": 12,
+      "end": 95,
+      "description": "Position and tape the heart mask."
+    },
+    {
+      "start": 95,
+      "end": 137,
+      "description": "Spray paint over the mask."
+    },
+    {
+      "start": 137,
+      "end": 165,
+      "description": "Remove the painted mask."
+    },
+    {
+      "start": 165,
+      "end": 256.867,
+      "description": "Outline the heart and add a small mark."
+    }
+  ],
+  "object_inventory": [
+    "plastic sheet",
+    "paper sheet",
+    "heart mask",
+    "tape",
+    "scissors",
+    "spray paint can",
+    "spray paint cap",
+    "marker",
+    "marker cap"
+  ],
+  "notes": "The preserved eight-step track cannot express all visually distinct subtask boundaries: final step spans 46.83–173s and crosses several intermediate goals. Only two coarse units are defensible without changing fine boundaries. First subtask has three steps, second five. Unannotated tail 173.0–256.867s (83.867s): t=174–236s right hand continues purple outline around heart while left steadies paper; t=238–243s marker rests briefly; t=246–251s marker writes small characters at lower left; t=254–256s hands withdraw. No new steps added. First-pass object vocabulary was retained; the mask is paper, not a rigid stencil inferred from task name.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 5.17,
+      "summary": "press the plastic sheet flat",
+      "verb": "press",
+      "object": "plastic sheet",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0–2.7s no interaction, then t=3.0–4.3s both hands smooth plastic; one segment includes opening pause.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 5.17,
+      "end": 12.02,
+      "summary": "place the paper sheet on the plastic sheet",
+      "verb": "place",
+      "object": "paper sheet",
+      "tool": null,
+      "target": "plastic sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.02,
+      "end": 18.12,
+      "summary": "place the heart mask on the paper sheet",
+      "verb": "place",
+      "object": "heart mask",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=13.3s pick up mask, t=14.0s place it, t=16–17.7s press it; multiple hand–object changes.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.12,
+      "end": 20.64,
+      "summary": "pick up the tape",
+      "verb": "pick up",
+      "object": "tape",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tape"
+        ],
+        "right": [
+          "tape"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 20.64,
+      "end": 31.75,
+      "summary": "pull a strip of tape from the roll",
+      "verb": "pull",
+      "object": "tape",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape"
+        ],
+        "right": [
+          "tape"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "pull is used for unrolling tape; not in the suggested verb list.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.75,
+      "end": 37.12,
+      "summary": "move the tape beside the paper sheet",
+      "verb": "move",
+      "object": "tape",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tape"
+        ],
+        "right": [
+          "tape"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=32–35s hands are out of view; t=36.3s tape returns at the lap. Exact placement and grip at t=37.12s are partly occluded.",
+      "beyond_video_end": false,
+      "confidence": "low",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.12,
+      "end": 46.83,
+      "summary": "put down the tape beside the paper sheet",
+      "verb": "put down",
+      "object": "tape",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "scissors"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=40.3s put down tape, t=45.3s pick up scissors; this segment contains distinct interactions.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.83,
+      "end": 173.0,
+      "summary": "spray the paper sheet around the heart mask",
+      "verb": "spray",
+      "object": "paper sheet",
+      "tool": "spray paint can",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "marker cap"
+        ],
+        "right": [
+          "marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Large compound segment: t=50.7s cut tape; t=55s apply tape; t=68–86s attach/press mask; t=96s pick up paint can; t=106–120s spray; t=127s cap can; t=146–163s peel mask; t=167–173s draw with marker. Boundaries preserved.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "spray and pull are necessary additional verbs. differs_from_expectation: one atomic step was expected, but this interval contains preparation, painting, mask removal and drawing.",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 18.12,
+      "instruction": "Prepare the paper and heart mask",
+      "description": "Press a plastic sheet flat on the work surface, place a white paper sheet on top of it, and position a heart-shaped paper mask on the paper, pressing it down to hold it in place.",
+      "fine_index_range": [
+        0,
+        2
+      ],
+      "transition_in": null,
+      "goal_contribution": "Arranges the protected paper surface and heart mask.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 18.12,
+      "end": 173.0,
+      "instruction": "Tape and paint around the heart mask",
+      "description": "Pull tape from the roll and use it with scissors to secure the mask to the paper, spray gold paint around it, peel the mask away to reveal a white heart, and begin tracing its outline with a purple marker.",
+      "fine_index_range": [
+        3,
+        7
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Secures the mask and applies the surrounding paint; marker work continues beyond the retained fine track.",
+      "predictability_level": "strong",
+      "predictability_reason": "After prepare the paper and heart mask, tape and paint around the heart mask is a natural next stage toward create a spray-painted heart resist on paper."
+    }
+  ]
+}

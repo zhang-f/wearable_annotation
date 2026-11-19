@@ -1,0 +1,1836 @@
+{
+  "video_id": "ddb63645c6456edb",
+  "duration": 194.0,
+  "task": "Making microwave egg sandwich",
+  "domain": "Chef",
+  "query": "How do I make a microwave egg sandwich?",
+  "goal": {
+    "title": "Make a microwave-cooked egg sandwich",
+    "description": "Crack and beat an egg in a bowl, microwave it under a cover in several short cycles with checks and stirring, then loosen the cooked egg onto bread and close the sandwich.",
+    "final_state": "A closed egg sandwich rests on a folded paper towel on the counter.",
+    "procedure": [
+      "Crack egg into bowl, discard shell beside bread and add a small amount of water from the cup.",
+      "Beat the egg thoroughly with a fork.",
+      "Put the bowl in the microwave, cover it and heat, checking and stirring between short heating cycles.",
+      "Remove the cooked egg, loosen it with a fork and tip it onto a bread slice.",
+      "Place the second bread slice on top, press sandwich and fold paper towel beneath it."
+    ]
+  },
+  "object_inventory": [
+    "egg",
+    "eggshell",
+    "bowl",
+    "bread",
+    "paper towel",
+    "cup",
+    "water",
+    "fork",
+    "microwave",
+    "microwave cover",
+    "microwave keypad",
+    "sandwich"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 14.13,
+      "description": "The egg is tapped and cracked into a bowl, shell set aside, a little water poured from the cup, and a fork picked up."
+    },
+    {
+      "start": 14.13,
+      "end": 43.92,
+      "description": "The fork beats egg until the yellow mixture is blended, then is placed beside the bread."
+    },
+    {
+      "start": 43.92,
+      "end": 72.11,
+      "description": "The microwave is opened, bowl inserted and covered, then door closed and heating started."
+    },
+    {
+      "start": 72.11,
+      "end": 100.5,
+      "description": "Heating is stopped, the cover removed and egg stirred with a fork inside the microwave before replacing cover and restarting."
+    },
+    {
+      "start": 100.5,
+      "end": 119.2,
+      "description": "The cover is removed and bowl lifted briefly to inspect the setting egg, then bowl and cover returned and heating resumed."
+    },
+    {
+      "start": 119.2,
+      "end": 139.6,
+      "description": "The bowl is uncovered and carried to the counter, where a fork loosens the egg around its edges."
+    },
+    {
+      "start": 139.6,
+      "end": 159.6,
+      "description": "The bowl is returned and covered; microwave buttons are pressed, heating briefly runs and the covered bowl is retrieved."
+    },
+    {
+      "start": 159.6,
+      "end": 177.89,
+      "description": "The bowl is set on the counter, a fork runs around and under the egg, and the tilted bowl releases the egg onto a bread slice."
+    },
+    {
+      "start": 177.89,
+      "end": 193.69,
+      "description": "The other bread slice covers the egg, hands align and press the sandwich, shell is cleared and paper towel folded underneath."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.2,
+      "old_summary": "picks up and puts down the fork",
+      "summary": "right hand picks up egg beside the bowl",
+      "verb": "pick up",
+      "object": "egg",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 1.2,
+      "end": 4.0,
+      "old_summary": "holds the bowl and picks up the egg",
+      "summary": "right hand taps egg against the bowl rim",
+      "verb": "tap",
+      "object": "egg",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 4.0,
+      "end": 6.16,
+      "old_summary": "cracks the egg into the bowl",
+      "summary": "both hands split eggshell over the bowl",
+      "verb": "split",
+      "object": "egg",
+      "tool": null,
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 6.16,
+      "end": 8.6,
+      "old_summary": "n",
+      "summary": "both hands empty egg into bowl then join shell halves",
+      "verb": "empty",
+      "object": "egg",
+      "tool": null,
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.6,
+      "end": 9.6,
+      "old_summary": "puts down the eggshell",
+      "summary": "right hand sets eggshell beside bread",
+      "verb": "set down",
+      "object": "eggshell",
+      "tool": null,
+      "target": "paper towel",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.6,
+      "end": 10.76,
+      "old_summary": "picks up the small cup, opens its lid, pours water into the bowl",
+      "summary": "right hand pinches at egg surface while left takes cup",
+      "verb": "pinch",
+      "object": "egg",
+      "tool": null,
+      "target": "cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.76,
+      "end": 12.4,
+      "old_summary": "n",
+      "summary": "left hand tilts cup over egg bowl",
+      "verb": "pour",
+      "object": "water",
+      "tool": "cup",
+      "target": "bowl",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Cup tilts above bowl; liquid quantity is not asserted.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.4,
+      "end": 13.5,
+      "old_summary": "closes the lid of the small cup and puts it down",
+      "summary": "left hand sets cup down beside bowl",
+      "verb": "set down",
+      "object": "cup",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.5,
+      "end": 14.13,
+      "old_summary": "whisks the egg and water mixture in the bowl with a fork",
+      "summary": "right hand picks up fork beside bread",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.13,
+      "end": 41.2,
+      "old_summary": "n",
+      "summary": "right hand beats egg with fork while left holds bowl",
+      "verb": "beat",
+      "object": "egg",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.2,
+      "end": 42.1,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "right hand lifts fork from beaten egg",
+      "verb": "lift",
+      "object": "fork",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 42.1,
+      "end": 43.92,
+      "old_summary": "hand opens the microwave",
+      "summary": "right hand sets fork down while left holds bowl",
+      "verb": "set down",
+      "object": "fork",
+      "tool": null,
+      "target": "paper towel",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.92,
+      "end": 45.0,
+      "old_summary": "n",
+      "summary": "left hand opens microwave while right holds bowl",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 45.0,
+      "end": 46.58,
+      "old_summary": "hand places bowl into microwave and covers it with lid",
+      "summary": "right hand sets egg bowl on microwave turntable",
+      "verb": "place",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.58,
+      "end": 47.16,
+      "old_summary": "n",
+      "summary": "left hand lifts microwave cover from stove",
+      "verb": "lift",
+      "object": "microwave cover",
+      "tool": null,
+      "target": "microwave",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "microwave cover"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 47.16,
+      "end": 48.5,
+      "old_summary": "n",
+      "summary": "right hand positions cover over bowl inside microwave",
+      "verb": "cover",
+      "object": "bowl",
+      "tool": "microwave cover",
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.5,
+      "end": 49.9,
+      "old_summary": "hand closes the microwave",
+      "summary": "right hand closes microwave door",
+      "verb": "close",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 49.9,
+      "end": 72.11,
+      "old_summary": "hand sets microwave timer",
+      "summary": "right hand starts microwave and waits beside it",
+      "verb": "press",
+      "object": "microwave keypad",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Keypad presses occur near 50–54s; most of 54–70s is waiting, before a stop press near 71s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 72.11,
+      "end": 73.9,
+      "old_summary": "n",
+      "summary": "right hand holds microwave handle after stopping heating",
+      "verb": "hold",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 73.9,
+      "end": 75.33,
+      "old_summary": "hand removes lid from bowl",
+      "summary": "right hand opens microwave and lifts cover",
+      "verb": "lift",
+      "object": "microwave cover",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "microwave cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 75.33,
+      "end": 77.8,
+      "old_summary": "n",
+      "summary": "right hand sets cover down and reaches for fork",
+      "verb": "set down",
+      "object": "microwave cover",
+      "tool": null,
+      "target": "fork",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 77.8,
+      "end": 83.0,
+      "old_summary": "hand stirs egg mixture with fork",
+      "summary": "right hand stirs egg inside microwave with fork",
+      "verb": "stir",
+      "object": "egg",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.0,
+      "end": 83.38,
+      "old_summary": "hand places lid back on bowl",
+      "summary": "right hand withdraws fork from microwave",
+      "verb": "withdraw",
+      "object": "fork",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.38,
+      "end": 84.9,
+      "old_summary": "n",
+      "summary": "right hand puts fork down then lifts microwave cover",
+      "verb": "set down",
+      "object": "fork",
+      "tool": null,
+      "target": "microwave cover",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "microwave cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.9,
+      "end": 86.03,
+      "old_summary": "hand sets microwave timer again",
+      "summary": "right hand covers bowl and closes microwave",
+      "verb": "cover",
+      "object": "bowl",
+      "tool": "microwave cover",
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.03,
+      "end": 100.5,
+      "old_summary": "n",
+      "summary": "right hand restarts microwave and waits",
+      "verb": "press",
+      "object": "microwave keypad",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Keypad interaction near 86–87s precedes waiting through 99s and stop/open preparation at 100s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 100.5,
+      "end": 102.02,
+      "old_summary": "hand removes lid from bowl",
+      "summary": "right hand opens microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 102.02,
+      "end": 103.3,
+      "old_summary": "removes lid from microwave",
+      "summary": "right hand lifts cover from bowl",
+      "verb": "lift",
+      "object": "microwave cover",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "microwave cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 103.3,
+      "end": 105.75,
+      "old_summary": "stirs egg with fork then replaces microwave lid",
+      "summary": "right hand sets cover down then reaches for bowl",
+      "verb": "set down",
+      "object": "microwave cover",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.75,
+      "end": 108.41,
+      "old_summary": "n",
+      "summary": "both hands lift and inspect the partially cooked egg bowl",
+      "verb": "lift",
+      "object": "bowl",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 108.41,
+      "end": 110.3,
+      "old_summary": "presses buttons and start button on microwave",
+      "summary": "both hands return bowl to microwave and replace cover",
+      "verb": "return",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "microwave cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.3,
+      "end": 111.09,
+      "old_summary": "no hand activity",
+      "summary": "right hand closes microwave door and presses keypad",
+      "verb": "press",
+      "object": "microwave keypad",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 111.09,
+      "end": 119.2,
+      "old_summary": "n",
+      "summary": "right hand presses microwave controls then waits for egg",
+      "verb": "press",
+      "object": "microwave keypad",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes initial keypad press near 111s, waiting, then stop/open preparation near 119s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 119.2,
+      "end": 120.16,
+      "old_summary": "hand opens the microwave door",
+      "summary": "right hand stops microwave and opens door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 120.16,
+      "end": 121.99,
+      "old_summary": "hand lifts and removes the lid from the bowl",
+      "summary": "right hand lifts microwave cover from bowl",
+      "verb": "lift",
+      "object": "microwave cover",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "microwave cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 121.99,
+      "end": 123.98,
+      "old_summary": "hand places the lid down and picks up the bowl",
+      "summary": "both hands grip bowl after cover is set down",
+      "verb": "grip",
+      "object": "bowl",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 123.98,
+      "end": 125.2,
+      "old_summary": "n",
+      "summary": "both hands lift bowl out of microwave",
+      "verb": "lift",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 125.2,
+      "end": 128.6,
+      "old_summary": "hand adjusts the bowl position on the counter",
+      "summary": "both hands carry cooked egg bowl to counter",
+      "verb": "carry",
+      "object": "bowl",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 128.6,
+      "end": 130.2,
+      "old_summary": "hand picks up the fork",
+      "summary": "right hand picks up fork beside the bowl",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 130.2,
+      "end": 139.6,
+      "old_summary": "hand resumes stirring the egg",
+      "summary": "right hand loosens egg edges with fork while left steadies bowl",
+      "verb": "loosen",
+      "object": "egg",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 139.6,
+      "end": 140.63,
+      "old_summary": "hand stops stirring and puts the fork down",
+      "summary": "right hand lays fork down as left lifts bowl",
+      "verb": "set down",
+      "object": "fork",
+      "tool": null,
+      "target": "paper towel",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 140.63,
+      "end": 142.14,
+      "old_summary": "hand places the lid back on the bowl and presses microwave buttons",
+      "summary": "both hands carry bowl back into microwave",
+      "verb": "carry",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 142.14,
+      "end": 143.07,
+      "old_summary": "n",
+      "summary": "right hand covers bowl in microwave",
+      "verb": "cover",
+      "object": "bowl",
+      "tool": "microwave cover",
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "microwave cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 143.07,
+      "end": 144.07,
+      "old_summary": "n",
+      "summary": "right hand closes microwave and presses controls",
+      "verb": "press",
+      "object": "microwave keypad",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 144.07,
+      "end": 145.2,
+      "old_summary": "n",
+      "summary": "right hand starts another microwave heating cycle",
+      "verb": "press",
+      "object": "microwave keypad",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 145.2,
+      "end": 151.65,
+      "old_summary": "hand starts the microwave",
+      "summary": "right hand presses microwave keypad then waits",
+      "verb": "press",
+      "object": "microwave keypad",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Keypad press near 145s precedes waiting and another button interaction near 150–151s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 151.65,
+      "end": 155.69,
+      "old_summary": "hand pauses the microwave",
+      "summary": "right hand presses microwave stop button",
+      "verb": "press",
+      "object": "microwave keypad",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 155.69,
+      "end": 156.3,
+      "old_summary": "n",
+      "summary": "left hand pulls microwave door open",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 156.3,
+      "end": 157.4,
+      "old_summary": "hand opens the microwave door",
+      "summary": "right hand lifts cover from egg bowl",
+      "verb": "lift",
+      "object": "microwave cover",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "microwave cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 157.4,
+      "end": 159.6,
+      "old_summary": "hand removes the lid from the bowl",
+      "summary": "both hands lift bowl from microwave after setting cover down",
+      "verb": "lift",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 159.6,
+      "end": 161.0,
+      "old_summary": "hand picks up the bowl",
+      "summary": "both hands set cooked egg bowl on counter",
+      "verb": "set down",
+      "object": "bowl",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 161.0,
+      "end": 161.1,
+      "old_summary": "hand removes the bowl from the microwave",
+      "summary": "right hand reaches toward fork beside bread",
+      "verb": "reach",
+      "object": "fork",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "A preserved 0.1-second reach interval; fork pickup is clearer in the following segment.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 161.1,
+      "end": 161.94,
+      "old_summary": "hand picks up the fork",
+      "summary": "right hand picks up fork",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 161.94,
+      "end": 166.98,
+      "old_summary": "hand stirs the egg in the bowl",
+      "summary": "right hand runs fork around cooked egg inside bowl",
+      "verb": "loosen",
+      "object": "egg",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 166.98,
+      "end": 169.2,
+      "old_summary": "hand picks up a slice of bread",
+      "summary": "right hand shifts fork over bread beside bowl",
+      "verb": "move",
+      "object": "fork",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 169.2,
+      "end": 170.2,
+      "old_summary": "hand places the slice of bread on the counter",
+      "summary": "right hand moves bread slice on paper towel",
+      "verb": "move",
+      "object": "bread",
+      "tool": null,
+      "target": "paper towel",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 170.2,
+      "end": 171.2,
+      "old_summary": "hand picks up the fork again",
+      "summary": "right hand scoops beneath egg with fork",
+      "verb": "scoop",
+      "object": "egg",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 171.2,
+      "end": 172.2,
+      "old_summary": "hand scoops some egg from the bowl",
+      "summary": "left hand tilts bowl while right loosens egg with fork",
+      "verb": "tilt",
+      "object": "bowl",
+      "tool": "fork",
+      "target": "egg",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 172.2,
+      "end": 175.04,
+      "old_summary": "hand puts the fork down",
+      "summary": "right hand guides egg from tilted bowl onto bread",
+      "verb": "transfer",
+      "object": "egg",
+      "tool": "fork",
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 175.04,
+      "end": 175.4,
+      "old_summary": "n",
+      "summary": "left hand lowers empty bowl beside bread",
+      "verb": "lower",
+      "object": "bowl",
+      "tool": null,
+      "target": "paper towel",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 175.4,
+      "end": 177.89,
+      "old_summary": "n",
+      "summary": "right hand rests fork in empty bowl",
+      "verb": "set down",
+      "object": "fork",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 177.89,
+      "end": 179.42,
+      "old_summary": "n",
+      "summary": "right hand picks up second bread slice",
+      "verb": "pick up",
+      "object": "bread",
+      "tool": null,
+      "target": "paper towel",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 179.42,
+      "end": 182.47,
+      "old_summary": "n",
+      "summary": "both hands lay bread over egg and press sandwich",
+      "verb": "press",
+      "object": "bread",
+      "tool": null,
+      "target": "sandwich",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 182.47,
+      "end": 185.21,
+      "old_summary": "n",
+      "summary": "both hands align the sandwich edges",
+      "verb": "align",
+      "object": "sandwich",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 185.21,
+      "end": 186.44,
+      "old_summary": "n",
+      "summary": "right hand removes eggshell while left steadies sandwich",
+      "verb": "remove",
+      "object": "eggshell",
+      "tool": null,
+      "target": "sandwich",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 186.44,
+      "end": 188.88,
+      "old_summary": "n",
+      "summary": "both hands fold paper towel beneath sandwich",
+      "verb": "fold",
+      "object": "paper towel",
+      "tool": null,
+      "target": "sandwich",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sandwich"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 188.88,
+      "end": 192.01,
+      "old_summary": "n",
+      "summary": "both hands center sandwich on folded paper towel",
+      "verb": "center",
+      "object": "sandwich",
+      "tool": null,
+      "target": "paper towel",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 192.01,
+      "end": 193.69,
+      "old_summary": "n",
+      "summary": "idle (hands withdraw from the completed sandwich)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 14.13,
+      "fine_index_range": [
+        0,
+        8
+      ],
+      "instruction": "Crack the egg and add water.",
+      "description": "The egg is tapped and cracked into a bowl, shell set aside, a little water poured from the cup, and a fork picked up.",
+      "goal_contribution": "Gather the raw egg mixture ready for beating.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 14.13,
+      "end": 43.92,
+      "fine_index_range": [
+        9,
+        11
+      ],
+      "instruction": "Beat the egg in the bowl.",
+      "description": "The fork beats egg until the yellow mixture is blended, then is placed beside the bread.",
+      "goal_contribution": "Prepare a mixed egg that can cook evenly in the microwave.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After crack the egg and add water, beat the egg in the bowl is a natural next stage toward make a microwave-cooked egg sandwich."
+    },
+    {
+      "start": 43.92,
+      "end": 72.11,
+      "fine_index_range": [
+        12,
+        17
+      ],
+      "instruction": "Cover the bowl and start microwaving.",
+      "description": "The microwave is opened, bowl inserted and covered, then door closed and heating started.",
+      "goal_contribution": "Begin cooking the beaten egg.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After beat the egg in the bowl, cover the bowl and start microwaving is a natural next stage toward make a microwave-cooked egg sandwich."
+    },
+    {
+      "start": 72.11,
+      "end": 100.5,
+      "fine_index_range": [
+        18,
+        25
+      ],
+      "instruction": "Stir the egg and resume heating.",
+      "description": "Heating is stopped, the cover removed and egg stirred with a fork inside the microwave before replacing cover and restarting.",
+      "goal_contribution": "Redistribute the partly heated egg before further cooking.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After cover the bowl and start microwaving, stir the egg and resume heating is plausible for make a microwave-cooked egg sandwich, but several next steps fit."
+    },
+    {
+      "start": 100.5,
+      "end": 119.2,
+      "fine_index_range": [
+        26,
+        32
+      ],
+      "instruction": "Inspect the egg and heat it again.",
+      "description": "The cover is removed and bowl lifted briefly to inspect the setting egg, then bowl and cover returned and heating resumed.",
+      "goal_contribution": "Check and continue setting the egg.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After stir the egg and resume heating, inspect the egg and heat it again is plausible for make a microwave-cooked egg sandwich, but several next steps fit."
+    },
+    {
+      "start": 119.2,
+      "end": 139.6,
+      "fine_index_range": [
+        33,
+        39
+      ],
+      "instruction": "Remove bowl and loosen the partly cooked egg.",
+      "description": "The bowl is uncovered and carried to the counter, where a fork loosens the egg around its edges.",
+      "goal_contribution": "Inspect the egg and release its edges before another heating pass.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After inspect the egg and heat it again, remove bowl and loosen the partly cooked egg is plausible for make a microwave-cooked egg sandwich, but several next steps fit."
+    },
+    {
+      "start": 139.6,
+      "end": 159.6,
+      "fine_index_range": [
+        40,
+        49
+      ],
+      "instruction": "Return egg for a final short heating cycle.",
+      "description": "The bowl is returned and covered; microwave buttons are pressed, heating briefly runs and the covered bowl is retrieved.",
+      "goal_contribution": "Finish cooking the formed egg layer.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After remove bowl and loosen the partly cooked egg, return egg for a final short heating cycle is plausible for make a microwave-cooked egg sandwich, but several next steps fit."
+    },
+    {
+      "start": 159.6,
+      "end": 177.89,
+      "fine_index_range": [
+        50,
+        60
+      ],
+      "instruction": "Loosen and transfer the cooked egg onto bread.",
+      "description": "The bowl is set on the counter, a fork runs around and under the egg, and the tilted bowl releases the egg onto a bread slice.",
+      "goal_contribution": "Make the egg filling sit on the sandwich base.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After return egg for a final short heating cycle, loosen and transfer the cooked egg onto bread is a natural next stage toward make a microwave-cooked egg sandwich."
+    },
+    {
+      "start": 177.89,
+      "end": 193.69,
+      "fine_index_range": [
+        61,
+        67
+      ],
+      "instruction": "Close the sandwich and tidy its paper base.",
+      "description": "The other bread slice covers the egg, hands align and press the sandwich, shell is cleared and paper towel folded underneath.",
+      "goal_contribution": "Leave a finished egg sandwich on a clean folded paper base.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After loosen and transfer the cooked egg onto bread, close the sandwich and tidy its paper base is a natural next stage toward make a microwave-cooked egg sandwich."
+    }
+  ],
+  "notes": "Visually rewritten from all overview, 1008 dense step frames and native endpoint sheets. Fine boundaries retained including very brief reaches and long mixed press/wait intervals. Only egg and bread are visible sandwich ingredients; no cheese or seasoning added is inferred."
+}

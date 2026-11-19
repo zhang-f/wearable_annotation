@@ -1,0 +1,1516 @@
+{
+  "video_id": "33aacac19b8ef511",
+  "duration": 187.6,
+  "task": "Making breakfast smoothie",
+  "domain": "Chef",
+  "query": "How do I make a breakfast smoothie?",
+  "goal": {
+    "title": "Prepare a blueberry banana spinach protein smoothie",
+    "description": "Open the ingredients, measure blueberries and banana into a beaker, add spinach and milk, then add protein and collagen powders. Assemble and plug in an immersion blender, blend the mixture and pour the purple smoothie into a stemmed glass.",
+    "final_state": "A full stemmed glass of purple foamy smoothie is held toward the camera; remaining mixture and the detached blender shaft are in the beaker.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 12.21,
+        "description": "Approach arranged ingredients. Move the clear blending beaker forward, position blueberry and sliced-banana containers beside it, unscrew the milk carton cap and set it aside."
+      },
+      {
+        "start": 12.21,
+        "end": 32.62,
+        "description": "Lift and open the protein powder tub, set its white lid down and retrieve its scoop. Lift and open the green-lidded collagen tub, set its lid down and reach inside to locate its scoop. No powder is added to the beaker during this preparation."
+      },
+      {
+        "start": 32.62,
+        "end": 45.3,
+        "description": "Reposition the banana container, remove the yellow clip from the spinach bag, pull its top open and stand the bag on the counter."
+      },
+      {
+        "start": 45.3,
+        "end": 59.9,
+        "description": "Hold the blueberry container with the left hand and repeatedly transfer rounded spoonfuls of blueberries into the blending beaker. Return the berry container to the counter."
+      },
+      {
+        "start": 59.9,
+        "end": 78.2,
+        "description": "Lift the sliced-banana container and repeatedly scoop banana pieces into the beaker. Put the container down, lift and lower the beaker briefly and leave the measuring spoon in the banana container."
+      },
+      {
+        "start": 78.2,
+        "end": 97.97,
+        "description": "Reach into the spinach bag, lift a handful and put it into the beaker, pressing the leaves below its rim. Set the bag down, lift the open milk carton and pour milk in. Steady and briefly raise the beaker to inspect its layers, add more milk and return the carton upright."
+      },
+      {
+        "start": 97.97,
+        "end": 120.5,
+        "description": "Lift the open protein powder tub, fill its scoop and empty the scoop over the beaker, tapping out the powder before returning the scoop. Lift the collagen tub, fill its scoop, tip it over the ingredients and return the scoop and tub."
+      },
+      {
+        "start": 120.5,
+        "end": 137.8,
+        "description": "Lift and examine the filled beaker, put it back on the counter and screw the cap onto the milk carton. Retrieve the metal blender shaft and black motor, move the spinach bag aside, arrange the cord and insert the plug into the wall socket."
+      },
+      {
+        "start": 137.8,
+        "end": 169.3,
+        "description": "Join and position the immersion blender in the beaker. Hold its motor in the right hand and steady the beaker with the left. Press the control and move the shaft through the ingredients until the mixture is uniformly purple and foamy. Detach and put aside the motor, leaving the shaft in the beaker."
+      },
+      {
+        "start": 169.3,
+        "end": 187.6,
+        "description": "Lift and tilt the beaker, hold the shaft near its rim and pour the thick purple mixture into the stemmed glass. Return the beaker upright and put it down, lift the full glass and hold it toward the camera for presentation. No drinking is visible."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 12.21,
+      "description": "Approach arranged ingredients. Move the clear blending beaker forward, position blueberry and sliced-banana containers beside it, unscrew the milk carton cap and set it aside."
+    },
+    {
+      "start": 12.21,
+      "end": 32.62,
+      "description": "Lift and open the protein powder tub, set its white lid down and retrieve its scoop. Lift and open the green-lidded collagen tub, set its lid down and reach inside to locate its scoop. No powder is added to the beaker during this preparation."
+    },
+    {
+      "start": 32.62,
+      "end": 45.3,
+      "description": "Reposition the banana container, remove the yellow clip from the spinach bag, pull its top open and stand the bag on the counter."
+    },
+    {
+      "start": 45.3,
+      "end": 59.9,
+      "description": "Hold the blueberry container with the left hand and repeatedly transfer rounded spoonfuls of blueberries into the blending beaker. Return the berry container to the counter."
+    },
+    {
+      "start": 59.9,
+      "end": 78.2,
+      "description": "Lift the sliced-banana container and repeatedly scoop banana pieces into the beaker. Put the container down, lift and lower the beaker briefly and leave the measuring spoon in the banana container."
+    },
+    {
+      "start": 78.2,
+      "end": 97.97,
+      "description": "Reach into the spinach bag, lift a handful and put it into the beaker, pressing the leaves below its rim. Set the bag down, lift the open milk carton and pour milk in. Steady and briefly raise the beaker to inspect its layers, add more milk and return the carton upright."
+    },
+    {
+      "start": 97.97,
+      "end": 120.5,
+      "description": "Lift the open protein powder tub, fill its scoop and empty the scoop over the beaker, tapping out the powder before returning the scoop. Lift the collagen tub, fill its scoop, tip it over the ingredients and return the scoop and tub."
+    },
+    {
+      "start": 120.5,
+      "end": 137.8,
+      "description": "Lift and examine the filled beaker, put it back on the counter and screw the cap onto the milk carton. Retrieve the metal blender shaft and black motor, move the spinach bag aside, arrange the cord and insert the plug into the wall socket."
+    },
+    {
+      "start": 137.8,
+      "end": 169.3,
+      "description": "Join and position the immersion blender in the beaker. Hold its motor in the right hand and steady the beaker with the left. Press the control and move the shaft through the ingredients until the mixture is uniformly purple and foamy. Detach and put aside the motor, leaving the shaft in the beaker."
+    },
+    {
+      "start": 169.3,
+      "end": 187.6,
+      "description": "Lift and tilt the beaker, hold the shaft near its rim and pour the thick purple mixture into the stemmed glass. Return the beaker upright and put it down, lift the full glass and hold it toward the camera for presentation. No drinking is visible."
+    }
+  ],
+  "object_inventory": [
+    "blending beaker",
+    "blueberry container",
+    "banana container",
+    "blueberry",
+    "banana slice",
+    "milk carton",
+    "milk cap",
+    "protein powder tub",
+    "protein tub lid",
+    "protein scoop",
+    "collagen tub",
+    "collagen tub lid",
+    "collagen scoop",
+    "spinach bag",
+    "bag clip",
+    "spinach",
+    "measuring spoon",
+    "immersion blender",
+    "blender shaft",
+    "stemmed glass",
+    "smoothie",
+    "protein powder",
+    "collagen powder",
+    "counter",
+    "power plug",
+    "wall socket"
+  ],
+  "notes": "All six overview sheets, every dense fine page and all four native endpoint sheets visually inspected. Human fine bounds retained without merging repeated spoonful intervals. Blueberries and sliced banana are already prepared at start; no washing, peeling or cutting is invented. Powder tub labels and later visible scoop transfers distinguish protein and collagen. Milk cap is handled around20–21s, not a powder scoop. Motor is detached after blending; shaft remains in beaker during pouring. Fine track ends181.6s before true187.6s: tail visually reviewed, continued glass presentation and grip changes, no drinking; no added fine boundary. Predictability remains pending blind stage.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.6,
+      "summary": "idle: approach the smoothie ingredients",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places blender cup on counter",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 1.6,
+      "end": 4.5,
+      "summary": "move the blending beaker forward",
+      "verb": "move",
+      "object": "blending beaker",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the measuring cup",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 4.5,
+      "end": 6.4,
+      "summary": "move the blueberry container beside the beaker",
+      "verb": "move",
+      "object": "blueberry container",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "banana container"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=4.8–5.8s move berry container; t=6.1s reach and grasp banana container.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the container of berries",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.4,
+      "end": 7.6,
+      "summary": "reposition the banana container on the counter",
+      "verb": "move",
+      "object": "banana container",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves container of banana slices",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.6,
+      "end": 9.6,
+      "summary": "grip the milk carton cap",
+      "verb": "grip",
+      "object": "milk cap",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "milk cap"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand touches the carton of milk",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 9.6,
+      "end": 10.8,
+      "summary": "unscrew the cap from the milk carton",
+      "verb": "unscrew",
+      "object": "milk cap",
+      "tool": null,
+      "target": "milk carton",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "milk cap"
+        ],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places carton of milk on counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.8,
+      "end": 12.21,
+      "summary": "set the milk cap beside the beaker",
+      "verb": "put down",
+      "object": "milk cap",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand unscrews the cap of the lactaid milk carton",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.21,
+      "end": 14.7,
+      "summary": "lift and reposition the protein powder tub",
+      "verb": "move",
+      "object": "protein powder tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "protein tub lid"
+        ],
+        "right": [
+          "protein powder tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up protein powder container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.7,
+      "end": 17.06,
+      "summary": "unscrew the protein powder tub lid",
+      "verb": "unscrew",
+      "object": "protein tub lid",
+      "tool": null,
+      "target": "protein powder tub",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "protein tub lid"
+        ],
+        "right": [
+          "protein powder tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens protein powder container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.06,
+      "end": 20.4,
+      "summary": "put the protein tub lid on the counter",
+      "verb": "put down",
+      "object": "protein tub lid",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "milk cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places lid on countertop",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.4,
+      "end": 21.34,
+      "summary": "put the milk cap beside the protein tub lid",
+      "verb": "put down",
+      "object": "milk cap",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=20.4–21.3s fingers turn the small white milk cap and set it down; no powder addition.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours milk from carton into measuring cup",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 21.34,
+      "end": 22.48,
+      "summary": "lift the open protein powder tub",
+      "verb": "pick up",
+      "object": "protein powder tub",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "protein powder tub"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves lactaid milk carton",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 22.48,
+      "end": 25.05,
+      "summary": "retrieve the scoop inside the protein powder tub",
+      "verb": "retrieve",
+      "object": "protein scoop",
+      "tool": null,
+      "target": "protein powder tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "protein powder tub"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=22.8–24.4s right hand searches inside tub and retrieves scoop; no transfer into beaker yet.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens protein powder container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 25.05,
+      "end": 26.56,
+      "summary": "lift the collagen powder tub",
+      "verb": "pick up",
+      "object": "collagen tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "collagen tub lid"
+        ],
+        "right": [
+          "collagen tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up collagen peptides container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.56,
+      "end": 28.66,
+      "summary": "unscrew the green collagen tub lid",
+      "verb": "unscrew",
+      "object": "collagen tub lid",
+      "tool": null,
+      "target": "collagen tub",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "collagen tub lid"
+        ],
+        "right": [
+          "collagen tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens protein powder container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.66,
+      "end": 31.44,
+      "summary": "set the collagen lid down and retrieve its scoop",
+      "verb": "retrieve",
+      "object": "collagen scoop",
+      "tool": null,
+      "target": "collagen tub",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=29.1s put green lid on counter; t=29.8–31.4s lower tub then reach inside.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours lactaid milk into blender cup",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 31.44,
+      "end": 32.62,
+      "summary": "withdraw the hand from the collagen tub",
+      "verb": "release",
+      "object": "collagen scoop",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=31.5–32s hand withdraws from open tub, leaving scoop there; no powder added.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves lactaid milk carton",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 32.62,
+      "end": 34.28,
+      "summary": "move the banana container beside the spinach bag",
+      "verb": "move",
+      "object": "banana container",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves container of banana slices",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 34.28,
+      "end": 34.6,
+      "summary": "reach toward the spinach bag clip",
+      "verb": "reach",
+      "object": "bag clip",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand touches baby spinach bag",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 34.6,
+      "end": 36.82,
+      "summary": "remove the clip from the spinach bag",
+      "verb": "remove",
+      "object": "bag clip",
+      "tool": null,
+      "target": "spinach bag",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "spinach bag"
+        ],
+        "right": [
+          "bag clip"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands open the baby spinach bag",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 36.82,
+      "end": 41.64,
+      "summary": "pull open the spinach bag",
+      "verb": "open",
+      "object": "spinach bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "spinach bag"
+        ],
+        "right": [
+          "spinach bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens baby spinach bag",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.64,
+      "end": 45.3,
+      "summary": "stand the open spinach bag on the counter",
+      "verb": "put down",
+      "object": "spinach bag",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=42.8–43.5s set removed clip aside; t=44.9–45.3s left reaches beaker.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves blender cup toward milk carton",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 45.3,
+      "end": 50.47,
+      "summary": "scoop blueberries from the container into the beaker",
+      "verb": "transfer",
+      "object": "blueberry",
+      "tool": "measuring spoon",
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blueberry container"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops blackberries from container with spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 50.47,
+      "end": 54.17,
+      "summary": "add more blueberries to the blending beaker",
+      "verb": "transfer",
+      "object": "blueberry",
+      "tool": "measuring spoon",
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blueberry container"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops blackberries from container with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.17,
+      "end": 59.9,
+      "summary": "measure more blueberries into the blending beaker",
+      "verb": "transfer",
+      "object": "blueberry",
+      "tool": "measuring spoon",
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blueberry container"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated scooping across54.17s boundary; t=59.1–59.8s lower spoon into beaker and put berry tub down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops blueberries from container with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.9,
+      "end": 64.26,
+      "summary": "scoop banana slices into the blending beaker",
+      "verb": "transfer",
+      "object": "banana slice",
+      "tool": "measuring spoon",
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "banana container"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops banana slices from container with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 64.26,
+      "end": 69.66,
+      "summary": "add more banana slices to the beaker",
+      "verb": "transfer",
+      "object": "banana slice",
+      "tool": "measuring spoon",
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "banana container"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops banana slices from container with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.66,
+      "end": 72.0,
+      "summary": "transfer another spoonful of banana into the beaker",
+      "verb": "transfer",
+      "object": "banana slice",
+      "tool": "measuring spoon",
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "banana container"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops banana slices from container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 72.0,
+      "end": 76.46,
+      "summary": "set the banana container down and move the beaker",
+      "verb": "move",
+      "object": "blending beaker",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blending beaker"
+        ],
+        "right": [
+          "measuring spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=72.9–73.3s put banana tub down; t=74s left lifts beaker while right spoon enters it; t=76.1s lower beaker.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops protein powder into blender cup",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 76.46,
+      "end": 78.2,
+      "summary": "put the measuring spoon in the banana container",
+      "verb": "put down",
+      "object": "measuring spoon",
+      "tool": null,
+      "target": "banana container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops collagen peptides with a measuring spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.2,
+      "end": 82.67,
+      "summary": "put a handful of spinach into the blending beaker",
+      "verb": "transfer",
+      "object": "spinach",
+      "tool": null,
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "spinach bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=79–80.6s retrieve handful; t=81.1–82.6s release leaves and press them below rim.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand puts spinach into blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 82.67,
+      "end": 84.7,
+      "summary": "set the open spinach bag on the counter",
+      "verb": "put down",
+      "object": "spinach bag",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves spinach bag away from blender",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.7,
+      "end": 86.1,
+      "summary": "lift the milk carton toward the blending beaker",
+      "verb": "pick up",
+      "object": "milk carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "milk carton"
+        ],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds lactaid carton",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 86.1,
+      "end": 88.3,
+      "summary": "pour milk into the blending beaker",
+      "verb": "pour",
+      "object": "milk carton",
+      "tool": null,
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours lactaid into blender",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.3,
+      "end": 90.5,
+      "summary": "steady the beaker while pouring milk",
+      "verb": "pour",
+      "object": "milk carton",
+      "tool": null,
+      "target": "blending beaker",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blending beaker"
+        ],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds blender cup while pouring lactaid into it",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.5,
+      "end": 92.7,
+      "summary": "lift the blending beaker to inspect its contents",
+      "verb": "move",
+      "object": "blending beaker",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blending beaker"
+        ],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds blender cup",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.7,
+      "end": 95.56,
+      "summary": "add more milk to the blending beaker",
+      "verb": "pour",
+      "object": "milk carton",
+      "tool": null,
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=92.7–93.1s lower beaker; t=93.3–94.8s second visible pour; t=95.1s bring carton upright.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours lactaid into blender cup",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.56,
+      "end": 97.97,
+      "summary": "put the milk carton back on the counter",
+      "verb": "put down",
+      "object": "milk carton",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "protein powder tub"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places lactaid carton on counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.97,
+      "end": 98.84,
+      "summary": "lift the open protein powder tub",
+      "verb": "pick up",
+      "object": "protein powder tub",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "protein powder tub"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds open container of collagen peptides",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.84,
+      "end": 106.4,
+      "summary": "scoop protein powder from the tub",
+      "verb": "scoop",
+      "object": "protein powder",
+      "tool": "protein scoop",
+      "target": "protein powder tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "protein scoop"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=99.3–105.4s dig and level a scoop; t=106s lift loaded scoop, left returns tub to counter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops collagen peptides from container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 106.4,
+      "end": 110.78,
+      "summary": "empty protein powder into the blending beaker",
+      "verb": "pour",
+      "object": "protein scoop",
+      "tool": null,
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blending beaker"
+        ],
+        "right": [
+          "protein scoop"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=107.4–109.6s invert and tap scoop over beaker; t=110.1–110.7s return scoop to protein tub.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adds powder to blender cup",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.78,
+      "end": 118.64,
+      "summary": "scoop collagen powder into the blending beaker",
+      "verb": "transfer",
+      "object": "collagen powder",
+      "tool": "collagen scoop",
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "collagen tub"
+        ],
+        "right": [
+          "collagen scoop"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=111.8–115.7s lift tub and fill scoop; t=116.6–118.2s tip scoop into beaker; t=118.5s return scoop to tub.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adds collagen powder to the blender cup",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 118.64,
+      "end": 120.5,
+      "summary": "put the collagen tub on the counter",
+      "verb": "put down",
+      "object": "collagen tub",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blending beaker"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places jar down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 120.5,
+      "end": 123.7,
+      "summary": "lift the filled blending beaker for inspection",
+      "verb": "move",
+      "object": "blending beaker",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blending beaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adds blueberries to the blender cup",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.7,
+      "end": 124.5,
+      "summary": "put the filled blending beaker on the counter",
+      "verb": "put down",
+      "object": "blending beaker",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "milk cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand drops blueberries into blender cup",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.5,
+      "end": 127.23,
+      "summary": "screw the cap back onto the milk carton",
+      "verb": "screw",
+      "object": "milk cap",
+      "tool": null,
+      "target": "milk carton",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves carton of milk",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.23,
+      "end": 129.8,
+      "summary": "pick up the immersion blender shaft",
+      "verb": "pick up",
+      "object": "blender shaft",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blender shaft"
+        ],
+        "right": [
+          "blender shaft"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops blueberries with spoon and puts them into blender cup",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 129.8,
+      "end": 136.1,
+      "summary": "retrieve the blender motor and arrange its cord",
+      "verb": "move",
+      "object": "immersion blender",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "power plug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=130.5–132.5s retrieve black motor and move spinach bag aside; t=133–135.8s handle motor and cord. Coupling partly below view; no premature blending asserted.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand plugs in the immersion blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 136.1,
+      "end": 137.8,
+      "summary": "plug the blender cord into the wall socket",
+      "verb": "insert",
+      "object": "power plug",
+      "tool": null,
+      "target": "wall socket",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "power plug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand plugs in blender cord",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 137.8,
+      "end": 166.94,
+      "summary": "blend the ingredients in the beaker",
+      "verb": "blend",
+      "object": "smoothie",
+      "tool": "immersion blender",
+      "target": "blending beaker",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blending beaker"
+        ],
+        "right": [
+          "immersion blender"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=138.8–141.5s join and lower motor/shaft, grip beaker; t=142–166.8s press control and move blender within beaker as mixture becomes uniform purple.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand operates immersion blender in cup",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 166.94,
+      "end": 169.3,
+      "summary": "detach the blender motor from its shaft",
+      "verb": "detach",
+      "object": "immersion blender",
+      "tool": null,
+      "target": "blender shaft",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "immersion blender"
+        ],
+        "right": [
+          "blender shaft"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=167.4–168.5s lift motor off shaft and put motor aside; t=168.9–169.3s right holds shaft top in beaker.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places blender cup down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 169.3,
+      "end": 180.34,
+      "summary": "pour the smoothie into the stemmed glass",
+      "verb": "pour",
+      "object": "smoothie",
+      "tool": null,
+      "target": "stemmed glass",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blending beaker"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=170s lift beaker; t=171.7–178.3s tip beaker into glass while left holds shaft at rim; t=179–180.3s return beaker upright and put it on counter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours smoothie from blender cup into glass",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 180.34,
+      "end": 181.6,
+      "summary": "lift the filled smoothie glass",
+      "verb": "pick up",
+      "object": "stemmed glass",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "stemmed glass"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours smoothie from blender cup into glass",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 45.3,
+      "instruction": "Arrange and open the smoothie ingredients",
+      "description": "Move the beaker and fruit containers into position, uncap milk and open both powder tubs while locating their scoops. Remove the bag clip, pull the spinach bag open and stand it on the counter.",
+      "fine_index_range": [
+        0,
+        21
+      ],
+      "transition_in": null,
+      "goal_contribution": "Makes the ingredients and measuring tools accessible before loading the beaker.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 45.3,
+      "end": 84.7,
+      "instruction": "Load the fruit and spinach into the beaker",
+      "description": "Repeatedly scoop blueberries into the beaker, then transfer banana slices in several spoonfuls. Set fruit containers down, briefly move the beaker, leave the spoon in the banana tub and add and press down a handful of spinach. Put the spinach bag aside.",
+      "fine_index_range": [
+        22,
+        31
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Places the solid fruit and greens in the blending vessel.",
+      "predictability_level": "strong",
+      "predictability_reason": "After arrange and open the smoothie ingredients, load the fruit and spinach into the beaker is a natural next stage toward prepare a blueberry banana spinach protein smoothie."
+    },
+    {
+      "start": 84.7,
+      "end": 127.23,
+      "instruction": "Add milk and powder to the smoothie ingredients",
+      "description": "Lift the milk carton, pour while steadying the beaker, inspect the level and pour more. Scoop and empty protein powder into the beaker, then scoop and add collagen powder. Put the tubs down, inspect the filled beaker and recap the milk.",
+      "fine_index_range": [
+        32,
+        45
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the liquid and measured powders to the fruit and greens before blending.",
+      "predictability_level": "strong",
+      "predictability_reason": "After load the fruit and spinach into the beaker, add milk and powder to the smoothie ingredients is a natural next stage toward prepare a blueberry banana spinach protein smoothie."
+    },
+    {
+      "start": 127.23,
+      "end": 169.3,
+      "instruction": "Assemble and operate the immersion blender",
+      "description": "Retrieve the shaft and motor, move the spinach bag aside, arrange and plug in the cord, join and lower the blender into the beaker and blend while holding the beaker steady. Detach the motor afterward.",
+      "fine_index_range": [
+        46,
+        50
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Turns the separate ingredients into a uniform purple smoothie.",
+      "predictability_level": "strong",
+      "predictability_reason": "After add milk and powder to the smoothie ingredients, assemble and operate the immersion blender is a natural next stage toward prepare a blueberry banana spinach protein smoothie."
+    },
+    {
+      "start": 169.3,
+      "end": 181.6,
+      "instruction": "Pour and present the finished smoothie",
+      "description": "Tip the beaker over the stemmed glass while holding the shaft near its rim, pour the purple mixture, put the beaker down and lift the full glass.",
+      "fine_index_range": [
+        51,
+        52
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Transfers the blended drink into its serving glass for presentation.",
+      "predictability_level": "strong",
+      "predictability_reason": "After assemble and operate the immersion blender, pour and present the finished smoothie is a natural next stage toward prepare a blueberry banana spinach protein smoothie."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/33aacac19b8ef511/20261106T090426628632Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

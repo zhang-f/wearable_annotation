@@ -1,0 +1,31 @@
+{
+  "video_id": "2590c2cacdf4a6c2",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Separated wrappers must be cut into squares for the stated snack."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Cut squares are ready to spread on a tray and oil."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The prepared squares are ready to bake."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Baked wrappers can be removed and seasoned."
+    }
+  ]
+}

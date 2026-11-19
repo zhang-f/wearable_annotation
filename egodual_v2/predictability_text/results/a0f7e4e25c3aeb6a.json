@@ -1,0 +1,36 @@
+{
+  "video_id": "a0f7e4e25c3aeb6a",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After remove and rinse the holder, prepare the cleaning brush is a natural next stage toward clean and remount the shower soap holder."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After prepare the cleaning brush, scrub the mounting assembly is a natural next stage toward clean and remount the shower soap holder."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After scrub the mounting assembly, scrub the wire rack is a natural next stage toward clean and remount the shower soap holder."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After scrub the wire rack, rinse and reassemble the holder is a natural next stage toward clean and remount the shower soap holder."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After rinse and reassemble the holder, dry and reinstall the holder is a natural next stage toward clean and remount the shower soap holder."
+    }
+  ]
+}

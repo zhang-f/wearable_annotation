@@ -1,0 +1,1465 @@
+{
+  "video_id": "768cf9ecf66b2cee",
+  "duration": 344.8,
+  "task": "Making grilled cheese sandwich",
+  "domain": "Chef",
+  "query": "How do I make a grilled cheese sandwich?",
+  "goal": {
+    "title": "Pan-toast a cheese sandwich and serve it",
+    "description": "Place two bread slices on a plate and remove a slice of marbled cheese from its packet. Open the spread tub and spread the pale spread over both bread slices with a knife. Put one bread slice in a frying pan, layer the cheese and the second slice on it, and turn on the gas burner. Wait, check the underside repeatedly with a spatula, flip and press the sandwich, then transfer the browned sandwich to the plate. Carry it to the island, wait and take a bite.",
+    "final_state": "A browned cheese sandwich is served on the green plate and lifted for a bite.",
+    "procedure": [
+      "Set out bread and remove a cheese slice from its packet.",
+      "Spread both bread slices with the tub spread.",
+      "Layer bread, cheese and bread in the frying pan and light the burner.",
+      "Cook the sandwich, checking and flipping it with the spatula.",
+      "Transfer the sandwich to a plate, carry it to the island and taste it."
+    ]
+  },
+  "object_inventory": [
+    "bread",
+    "cheese",
+    "cheese packet",
+    "spread tub",
+    "spread lid",
+    "knife",
+    "plate",
+    "frying pan",
+    "burner knob",
+    "stove control",
+    "spatula",
+    "sandwich",
+    "counter"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 19.59,
+      "description": "Move the plate, place two bread slices on it and open the cheese packet. Separate one cheese slice and remove the spread tub lid."
+    },
+    {
+      "start": 19.59,
+      "end": 62.81,
+      "description": "Scoop spread from the tub with the knife and coat the bread slices, returning for more spread and smoothing the surfaces. Put the knife down and lift a prepared slice."
+    },
+    {
+      "start": 62.81,
+      "end": 79.02,
+      "description": "Place one bread slice in the pan, position the marbled cheese on it and cover it with the other slice. Turn the burner knob until the blue flame is visible."
+    },
+    {
+      "start": 79.02,
+      "end": 204.77,
+      "description": "Wait beside the pan, obtain the spatula and press the stove control. Periodically lift an edge to check underneath, then flip the sandwich with the spatula."
+    },
+    {
+      "start": 204.77,
+      "end": 269.43,
+      "description": "Steady the flipped sandwich, press and reposition it with the spatula, then wait before lifting it from the pan."
+    },
+    {
+      "start": 269.43,
+      "end": 344.44,
+      "description": "Place the sandwich on the plate and put the spatula aside. Carry the plate to the island, wait, touch and lift the sandwich, take it toward the mouth and return it to the plate."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 4.52,
+      "old_summary": "",
+      "summary": "move the plate beside the bread bag",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0–4.5s moves plate and reaches for bread.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 4.52,
+      "end": 6.29,
+      "old_summary": "n",
+      "summary": "put a bread slice on the plate",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.29,
+      "end": 8.87,
+      "old_summary": "n",
+      "summary": "arrange the second bread slice on the plate",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=6.3–8.9s arranges bread then reaches toward cheese packet.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.87,
+      "end": 12.83,
+      "old_summary": "n",
+      "summary": "open the cheese packet",
+      "verb": "open",
+      "object": "cheese packet",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese packet"
+        ],
+        "right": [
+          "cheese"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Packet opening and cheese extraction overlap through t=12.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.83,
+      "end": 14.39,
+      "old_summary": "n",
+      "summary": "pull a cheese slice from the packet",
+      "verb": "remove",
+      "object": "cheese",
+      "tool": null,
+      "target": "cheese packet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cheese packet"
+        ],
+        "right": [
+          "cheese"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.39,
+      "end": 16.29,
+      "old_summary": "n",
+      "summary": "put the cheese slice on the plate",
+      "verb": "place",
+      "object": "cheese",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Cheese placed then packet lowered near t=16s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.29,
+      "end": 18.32,
+      "old_summary": "n",
+      "summary": "remove the spread tub lid",
+      "verb": "open",
+      "object": "spread tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "spread lid"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.32,
+      "end": 19.59,
+      "old_summary": "n",
+      "summary": "set the spread lid on the counter",
+      "verb": "put down",
+      "object": "spread lid",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Lid put down and knife retrieved t=18.3–19.6s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.59,
+      "end": 22.68,
+      "old_summary": "n",
+      "summary": "scoop spread from the tub with the knife",
+      "verb": "scoop",
+      "object": "spread tub",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.68,
+      "end": 36.45,
+      "old_summary": "n",
+      "summary": "spread one bread slice with the knife",
+      "verb": "spread",
+      "object": "bread",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Repeated spreading strokes across bread; no inferred extra ingredients.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.45,
+      "end": 39.43,
+      "old_summary": "n",
+      "summary": "scoop more spread from the tub",
+      "verb": "scoop",
+      "object": "spread tub",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.43,
+      "end": 48.6,
+      "old_summary": "n",
+      "summary": "spread the second bread slice",
+      "verb": "spread",
+      "object": "bread",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Same knife spreading interaction throughout t=39.4–48.6s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.6,
+      "end": 50.99,
+      "old_summary": "n",
+      "summary": "put the knife on the spread tub",
+      "verb": "put down",
+      "object": "knife",
+      "tool": null,
+      "target": "spread tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.99,
+      "end": 57.58,
+      "old_summary": "n",
+      "summary": "smooth the spread over the bread with the knife",
+      "verb": "spread",
+      "object": "bread",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuation of bread spreading after brief knife placement; reaches more spread during interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 57.58,
+      "end": 62.81,
+      "old_summary": "n",
+      "summary": "put down the knife and lift a bread slice",
+      "verb": "pick up",
+      "object": "bread",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Knife placed on tub then bread lifted by t=62.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.81,
+      "end": 65.67,
+      "old_summary": "n",
+      "summary": "place the bread slice in the frying pan",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.67,
+      "end": 67.74,
+      "old_summary": "n",
+      "summary": "pick up the cheese slice",
+      "verb": "pick up",
+      "object": "cheese",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese"
+        ],
+        "right": [
+          "cheese"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=65.7–67.7s bread released then cheese picked up.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 67.74,
+      "end": 71.1,
+      "old_summary": "n",
+      "summary": "position the cheese slice on the bread",
+      "verb": "place",
+      "object": "cheese",
+      "tool": null,
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Cheese adjusted with both hands before release in pan.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.1,
+      "end": 72.96,
+      "old_summary": "n",
+      "summary": "pick up the remaining bread slice",
+      "verb": "pick up",
+      "object": "bread",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 72.96,
+      "end": 75.71,
+      "old_summary": "n",
+      "summary": "place the remaining bread over the cheese",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "cheese",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.71,
+      "end": 79.02,
+      "old_summary": "n",
+      "summary": "turn the burner knob",
+      "verb": "turn",
+      "object": "burner knob",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Withdraws from sandwich and turns burner knob; flame visible t=77–79s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 79.02,
+      "end": 104.85,
+      "old_summary": "n",
+      "summary": "idle: wait beside the sandwich cooking in the pan",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Mostly waiting t=79–104.9s; briefly looks toward the plate, with no sustained new hand-object interaction.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 104.85,
+      "end": 107.07,
+      "old_summary": "n",
+      "summary": "pick up the spatula",
+      "verb": "pick up",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 107.07,
+      "end": 112.94,
+      "old_summary": "n",
+      "summary": "press a stove control while holding the spatula",
+      "verb": "press",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=107–112.9s waits with spatula then presses rear stove control near t=111s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 112.94,
+      "end": 114.79,
+      "old_summary": "n",
+      "summary": "hold the spatula beside the sandwich",
+      "verb": "hold",
+      "object": "spatula",
+      "tool": null,
+      "target": "sandwich",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 114.79,
+      "end": 131.4,
+      "old_summary": "n",
+      "summary": "idle: wait while the sandwich cooks",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Waiting; held spatula intermittently outside image. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 131.4,
+      "end": 133.13,
+      "old_summary": "n",
+      "summary": "move the plate beside the pan",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Plate moved at t=131.4–132s, then spatula readied.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.13,
+      "end": 146.23,
+      "old_summary": "n",
+      "summary": "slide the spatula beneath the sandwich",
+      "verb": "lift",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=133–146s checks edge with spatula, then waits holding tool.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 146.23,
+      "end": 170.63,
+      "old_summary": "n",
+      "summary": "idle: wait with the spatula near the pan",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Waiting with no new hand-object interaction; endpoint spatula visible right. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 170.63,
+      "end": 177.48,
+      "old_summary": "n",
+      "summary": "lift the sandwich edge with the spatula",
+      "verb": "lift",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=170.6–177.5s lifts sandwich edge then withdraws while waiting.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 177.48,
+      "end": 183.24,
+      "old_summary": "n",
+      "summary": "idle: wait while holding the spatula",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 183.24,
+      "end": 185.59,
+      "old_summary": "n",
+      "summary": "press the stove control with a finger",
+      "verb": "press",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Control setting itself not legible; no specific temperature inferred.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 185.59,
+      "end": 187.71,
+      "old_summary": "n",
+      "summary": "press the sandwich with the spatula",
+      "verb": "press",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 187.71,
+      "end": 190.38,
+      "old_summary": "n",
+      "summary": "lift the spatula away from the sandwich",
+      "verb": "move",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuation of withdrawing spatula after pressing bread; no distinct new object.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 190.38,
+      "end": 196.07,
+      "old_summary": "n",
+      "summary": "idle: wait beside the frying pan",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Waiting with tool at side. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 196.07,
+      "end": 201.69,
+      "old_summary": "n",
+      "summary": "slide the spatula beneath the sandwich",
+      "verb": "lift",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Spatula works underneath sandwich before the flip.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 201.69,
+      "end": 204.77,
+      "old_summary": "n",
+      "summary": "flip the sandwich with the spatula",
+      "verb": "flip",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Sandwich turns over at t=203–205s, revealing browned surface.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.77,
+      "end": 208.1,
+      "old_summary": "n",
+      "summary": "steady the flipped sandwich with the fingertips",
+      "verb": "adjust",
+      "object": "sandwich",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Left fingertips touch and reposition sandwich, not holding it at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 208.1,
+      "end": 212.51,
+      "old_summary": "n",
+      "summary": "press and reposition the sandwich with the spatula",
+      "verb": "press",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=208–212.5s fingers withdraw and spatula presses sandwich.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 212.51,
+      "end": 221.9,
+      "old_summary": "n",
+      "summary": "press the sandwich repeatedly with the spatula",
+      "verb": "press",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Repeated same-object pressing and repositioning.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 221.9,
+      "end": 224.45,
+      "old_summary": "n",
+      "summary": "lift the spatula away from the sandwich",
+      "verb": "move",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 224.45,
+      "end": 257.83,
+      "old_summary": "n",
+      "summary": "idle: wait for the other side to cook",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "No visible hand-object change during long cooking wait. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 257.83,
+      "end": 259.33,
+      "old_summary": "n",
+      "summary": "slide the spatula beneath the cooked sandwich",
+      "verb": "lift",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 259.33,
+      "end": 269.43,
+      "old_summary": "n",
+      "summary": "lift the sandwich out of the frying pan",
+      "verb": "remove",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Several checks/adjustments, then lifts sandwich toward plate t=268–269.4s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 269.43,
+      "end": 272.38,
+      "old_summary": "n",
+      "summary": "place the sandwich on the plate",
+      "verb": "place",
+      "object": "sandwich",
+      "tool": "spatula",
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Transfer finishes on plate near t=270s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 272.38,
+      "end": 276.12,
+      "old_summary": "n",
+      "summary": "put the spatula beside the plate",
+      "verb": "put down",
+      "object": "spatula",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Puts spatula down, briefly adjusts sandwich then starts reaching plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 276.12,
+      "end": 278.44,
+      "old_summary": "n",
+      "summary": "pick up the plate holding the sandwich",
+      "verb": "pick up",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Grips plate and starts carrying it at t=277–278s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 278.44,
+      "end": 287.05,
+      "old_summary": "n",
+      "summary": "carry the plate to the kitchen island",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 287.05,
+      "end": 318.39,
+      "old_summary": "n",
+      "summary": "put the plate down and wait",
+      "verb": "put down",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Plate released near t=287–289s, then extended idle wait until touch at t=318s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 318.39,
+      "end": 319.56,
+      "old_summary": "n",
+      "summary": "press the sandwich lightly with the fingertips",
+      "verb": "press",
+      "object": "sandwich",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 319.56,
+      "end": 320.99,
+      "old_summary": "n",
+      "summary": "reach toward the sandwich",
+      "verb": "reach",
+      "object": "sandwich",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sandwich"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 320.99,
+      "end": 324.4,
+      "old_summary": "n",
+      "summary": "lift the sandwich with both hands",
+      "verb": "pick up",
+      "object": "sandwich",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sandwich"
+        ],
+        "right": [
+          "sandwich"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Both hands grasp sandwich; cheese visible between bread.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 324.4,
+      "end": 325.8,
+      "old_summary": "n",
+      "summary": "raise the sandwich toward the mouth",
+      "verb": "move",
+      "object": "sandwich",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sandwich"
+        ],
+        "right": [
+          "sandwich"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Sandwich moves to mouth outside image; subsequent missing edge supports tasting.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 325.8,
+      "end": 331.21,
+      "old_summary": "n",
+      "summary": "lower the sandwich onto the plate",
+      "verb": "put down",
+      "object": "sandwich",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Sandwich lowered back to plate t=329–330s, hands then withdraw.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 331.21,
+      "end": 344.44,
+      "old_summary": "n",
+      "summary": "idle: sit beside the plated sandwich",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Hands rest near plate with no active interaction. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 19.59,
+      "fine_index_range": [
+        0,
+        7
+      ],
+      "instruction": "Set out the sandwich ingredients",
+      "description": "Move the plate, place two bread slices on it and open the cheese packet. Separate one cheese slice and remove the spread tub lid.",
+      "goal_contribution": "Make the bread, cheese and spread accessible for assembling the sandwich.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 19.59,
+      "end": 62.81,
+      "fine_index_range": [
+        8,
+        14
+      ],
+      "instruction": "Spread both bread slices",
+      "description": "Scoop spread from the tub with the knife and coat the bread slices, returning for more spread and smoothing the surfaces. Put the knife down and lift a prepared slice.",
+      "goal_contribution": "Coat the bread surfaces before placing the sandwich in the pan.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After set out the sandwich ingredients, spread both bread slices is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    },
+    {
+      "start": 62.81,
+      "end": 79.02,
+      "fine_index_range": [
+        15,
+        20
+      ],
+      "instruction": "Assemble the sandwich in the pan and light the burner",
+      "description": "Place one bread slice in the pan, position the marbled cheese on it and cover it with the other slice. Turn the burner knob until the blue flame is visible.",
+      "goal_contribution": "Begin heating the assembled cheese sandwich.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After spread both bread slices, assemble the sandwich in the pan and light the burner is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    },
+    {
+      "start": 79.02,
+      "end": 204.77,
+      "fine_index_range": [
+        21,
+        36
+      ],
+      "instruction": "Cook and turn the first side",
+      "description": "Wait beside the pan, obtain the spatula and press the stove control. Periodically lift an edge to check underneath, then flip the sandwich with the spatula.",
+      "goal_contribution": "Cook the first side and turn the sandwich to expose the other side to the pan.",
+      "transition_in": "NONE",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After assemble the sandwich in the pan and light the burner, cook and turn the first side is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    },
+    {
+      "start": 204.77,
+      "end": 269.43,
+      "fine_index_range": [
+        37,
+        43
+      ],
+      "instruction": "Finish cooking the sandwich",
+      "description": "Steady the flipped sandwich, press and reposition it with the spatula, then wait before lifting it from the pan.",
+      "goal_contribution": "Finish browning the second side and remove the cooked sandwich.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After cook and turn the first side, finish cooking the sandwich is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    },
+    {
+      "start": 269.43,
+      "end": 344.44,
+      "fine_index_range": [
+        44,
+        54
+      ],
+      "instruction": "Serve and taste the sandwich",
+      "description": "Place the sandwich on the plate and put the spatula aside. Carry the plate to the island, wait, touch and lift the sandwich, take it toward the mouth and return it to the plate.",
+      "goal_contribution": "Present the cooked sandwich and check it by tasting.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After finish cooking the sandwich, serve and taste the sandwich is a natural next stage toward pan-toast a cheese sandwich and serve it."
+    }
+  ],
+  "notes": "Reviewed all 11 overview sheets, all 19 dense compact pages (1201 sampled frames) and all 4 native endpoint sheets. t=77–79s visible gas flame appears; t=203–205s sandwich flips; t=269–272s sandwich leaves pan; t=324–326s lifted sandwich moves out of image toward mouth and returns with an edge missing. Spread composition is not identifiable from the image and is called spread. Long waits are idle; actual fine boundaries preserved."
+}

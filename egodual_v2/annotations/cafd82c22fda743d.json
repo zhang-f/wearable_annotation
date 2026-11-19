@@ -1,0 +1,1100 @@
+{
+  "video_id": "cafd82c22fda743d",
+  "duration": 214.067,
+  "task": "Making Pan-Fried Dumplings (pre-made)",
+  "domain": "Chef",
+  "query": "How do I make pan-fried dumplings using pre-made ones?",
+  "goal": {
+    "title": "Pan-fry dumplings and serve with dressing",
+    "description": "Light the burner beneath a pan, add corn oil and place four prepared dumplings into the oil. Move and turn the dumplings with a red spatula as their surfaces brown, fetch a creamy dressing from the refrigerator, then plate the dumplings and add dressing at the table.",
+    "final_state": "Four browned dumplings sit on a plate with a small amount of creamy dressing; a fork rests beside them.",
+    "procedure": [
+      "Turn on the burner and retrieve corn oil from the cabinet.",
+      "Pour oil into the pan and return the bottle.",
+      "Place four dumplings into the pan.",
+      "Move and turn the dumplings with a spatula while they brown.",
+      "Bring dressing from the refrigerator to the table.",
+      "Finish turning and transfer the dumplings to a plate.",
+      "Put the spatula in the sink, take a fork and carry the plate to the table.",
+      "Pour dressing beside the dumplings and handle them with the fork."
+    ]
+  },
+  "object_inventory": [
+    "stove knob",
+    "oil bottle",
+    "oil cap",
+    "cabinet door",
+    "pan",
+    "dumpling",
+    "plate",
+    "spatula",
+    "refrigerator door",
+    "dressing bottle",
+    "drawer",
+    "fork",
+    "dressing cap"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 32.68,
+      "description": "The burner is lit, corn oil retrieved from the lower cabinet, poured into the pan, recapped and returned before the cabinet closes."
+    },
+    {
+      "start": 32.68,
+      "end": 67.88,
+      "description": "Each dumpling is lifted from the plate, adjusted by hand and placed into the oil; fingers are rubbed and wiped afterward."
+    },
+    {
+      "start": 67.88,
+      "end": 95.42,
+      "description": "The red spatula slides under the dumplings and repeatedly nudges or turns them before being placed on the empty plate."
+    },
+    {
+      "start": 95.42,
+      "end": 108.03,
+      "description": "The refrigerator is opened, a creamy dressing bottle taken out and carried to the table."
+    },
+    {
+      "start": 108.03,
+      "end": 169.25,
+      "description": "The spatula repeatedly turns and repositions the dumplings, revealing browned patches, then lifts one as the plate is taken."
+    },
+    {
+      "start": 169.25,
+      "end": 186.59,
+      "description": "Four successive spatula transfers move the dumplings out of the pan and their positions on the plate are adjusted."
+    },
+    {
+      "start": 186.59,
+      "end": 196.87,
+      "description": "The spatula is put into the sink, a fork taken from the drawer, and the plate carried to the table with the fork placed beside the food."
+    },
+    {
+      "start": 196.87,
+      "end": 213.9,
+      "description": "The dressing bottle is opened and tilted over the plate, then recapped and set down; the fork presses into a dumpling."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 8.59,
+      "old_summary": "hand turns stove knob",
+      "summary": "right hand turns stove knob and lights burner under pan",
+      "verb": "turn",
+      "object": "stove knob",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 8.59,
+      "end": 11.18,
+      "old_summary": "hand opens cabinet door",
+      "summary": "left hand opens cabinet beneath sink",
+      "verb": "open",
+      "object": "cabinet door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.18,
+      "end": 15.11,
+      "old_summary": "hand retrieves bottle of corn oil from cabinet",
+      "summary": "left hand retrieves corn oil bottle from cabinet",
+      "verb": "take",
+      "object": "oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.11,
+      "end": 20.51,
+      "old_summary": "hand pours corn oil from bottle into pan",
+      "summary": "both hands uncap oil bottle then right pours into pan",
+      "verb": "pour",
+      "object": "oil bottle",
+      "tool": null,
+      "target": "pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oil cap"
+        ],
+        "right": [
+          "oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "15.11–20.51s contains cap removal and oil pouring18.5–20s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.51,
+      "end": 25.55,
+      "old_summary": "hand pours corn oil from bottle into pan",
+      "summary": "both hands screw cap back onto oil bottle",
+      "verb": "close",
+      "object": "oil bottle",
+      "tool": null,
+      "target": "oil cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.55,
+      "end": 27.88,
+      "old_summary": "hand places a bottle into the cabinet",
+      "summary": "left hand returns oil bottle to cabinet",
+      "verb": "place",
+      "object": "oil bottle",
+      "tool": null,
+      "target": "cabinet door",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 27.88,
+      "end": 29.77,
+      "old_summary": "hand closes cabinet door",
+      "summary": "both hands close cabinet doors",
+      "verb": "close",
+      "object": "cabinet door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 29.77,
+      "end": 32.68,
+      "old_summary": "hand picks up a dumpling from a plate",
+      "summary": "idle looking toward heated pan and plate",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 32.68,
+      "end": 35.2,
+      "old_summary": "hand picks up a dumpling from a plate",
+      "summary": "right hand reaches toward first dumpling on plate",
+      "verb": "reach",
+      "object": "dumpling",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 35.2,
+      "end": 44.57,
+      "old_summary": "hand places dumpling into the pan",
+      "summary": "right hand lifts first dumpling and places it into pan",
+      "verb": "place",
+      "object": "dumpling",
+      "tool": null,
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 44.57,
+      "end": 51.79,
+      "old_summary": "hand places dumpling into the pan",
+      "summary": "right hand transfers second dumpling from plate to pan",
+      "verb": "place",
+      "object": "dumpling",
+      "tool": null,
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 51.79,
+      "end": 56.93,
+      "old_summary": "hand places dumpling into the pan",
+      "summary": "right hand places third dumpling into pan",
+      "verb": "place",
+      "object": "dumpling",
+      "tool": null,
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 56.93,
+      "end": 64.17,
+      "old_summary": "hand places dumpling into the pan",
+      "summary": "right hand separates and places last dumpling into pan",
+      "verb": "place",
+      "object": "dumpling",
+      "tool": null,
+      "target": "pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 64.17,
+      "end": 67.88,
+      "old_summary": "hand flips dumplings in pan with spatula",
+      "summary": "both hands rub fingertips and wipe on hanging towel",
+      "verb": "wipe",
+      "object": "dumpling",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 67.88,
+      "end": 77.18,
+      "old_summary": "hand flips dumplings in pan with red spatula",
+      "summary": "right hand takes red spatula and slides it under dumplings",
+      "verb": "slide",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "67.88–77.18s includes spatula pickup69s and subsequent pan contact74–77s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 77.18,
+      "end": 79.56,
+      "old_summary": "hand flips dumpling with red spatula",
+      "summary": "right hand nudges dumplings apart with spatula",
+      "verb": "move",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 79.56,
+      "end": 88.96,
+      "old_summary": "hand flips dumplings in pan with red spatula",
+      "summary": "right hand lifts and turns dumplings with spatula",
+      "verb": "turn",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.96,
+      "end": 91.49,
+      "old_summary": "hand flips dumplings in pan with red spatula",
+      "summary": "right hand shifts dumplings around the hot pan",
+      "verb": "move",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 91.49,
+      "end": 95.42,
+      "old_summary": "hand flips dumplings in pan with red spatula",
+      "summary": "right hand turns dumplings then rests spatula on plate",
+      "verb": "set down",
+      "object": "spatula",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "91.49–95.42s includes turning dumplings and spatula placement94.5s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.42,
+      "end": 100.59,
+      "old_summary": "hand opens refrigerator door",
+      "summary": "left hand opens refrigerator door",
+      "verb": "open",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 100.59,
+      "end": 103.64,
+      "old_summary": "hand takes a jar from the fridge",
+      "summary": "right hand retrieves creamy dressing bottle from refrigerator",
+      "verb": "take",
+      "object": "dressing bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "dressing bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 103.64,
+      "end": 106.29,
+      "old_summary": "hand places bottle on table",
+      "summary": "right hand carries dressing bottle toward table",
+      "verb": "carry",
+      "object": "dressing bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "dressing bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.29,
+      "end": 108.03,
+      "old_summary": "hand picks up a bottle",
+      "summary": "right hand places dressing bottle on table",
+      "verb": "place",
+      "object": "dressing bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 108.03,
+      "end": 165.33,
+      "old_summary": "hand uses spatula to flip dumplings in pan",
+      "summary": "right hand repeatedly turns and repositions dumplings with spatula",
+      "verb": "turn",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "108.03–165.33s includes return to stove, spatula pickup around110s, many individual dumpling turns and pauses142–149s; retained long source fine.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 165.33,
+      "end": 169.25,
+      "old_summary": "hand uses spatula to lift dumpling from pan",
+      "summary": "right hand lifts browned dumpling while left reaches for plate",
+      "verb": "lift",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 169.25,
+      "end": 171.04,
+      "old_summary": "hand places cooked dumpling onto plate using spatula",
+      "summary": "right hand transfers first dumpling onto left-held plate",
+      "verb": "place",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 171.04,
+      "end": 176.01,
+      "old_summary": "hand uses spatula to transfer dumpling from pan to plate",
+      "summary": "right hand lifts second dumpling and slides it onto plate",
+      "verb": "place",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 176.01,
+      "end": 179.41,
+      "old_summary": "hand uses spatula to move dumpling from pan to plate",
+      "summary": "right hand transfers third dumpling onto plate",
+      "verb": "place",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 179.41,
+      "end": 185.5,
+      "old_summary": "hand uses spatula to move dumpling from pan to plate",
+      "summary": "right hand lifts final dumpling and places it on plate",
+      "verb": "place",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 185.5,
+      "end": 186.59,
+      "old_summary": "hand holds plate with dumplings",
+      "summary": "right hand adjusts plated dumplings with spatula",
+      "verb": "adjust",
+      "object": "dumpling",
+      "tool": "spatula",
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 186.59,
+      "end": 187.24,
+      "old_summary": "hand holds plate under pan",
+      "summary": "right hand lowers spatula toward empty pan",
+      "verb": "move",
+      "object": "spatula",
+      "tool": null,
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 187.24,
+      "end": 188.97,
+      "old_summary": "hand places spatula in sink",
+      "summary": "right hand puts spatula into sink",
+      "verb": "set down",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 188.97,
+      "end": 190.31,
+      "old_summary": "hand pulls open a drawer",
+      "summary": "right hand opens cutlery drawer",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 190.31,
+      "end": 192.08,
+      "old_summary": "hand closes the drawer",
+      "summary": "right hand takes fork and shuts drawer",
+      "verb": "take",
+      "object": "fork",
+      "tool": null,
+      "target": "drawer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 192.08,
+      "end": 195.27,
+      "old_summary": "hand places plate with dumplings on table",
+      "summary": "left hand carries plate of dumplings to table",
+      "verb": "carry",
+      "object": "plate",
+      "tool": null,
+      "target": "dumpling",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 195.27,
+      "end": 196.87,
+      "old_summary": "hand places fork on plate",
+      "summary": "right hand sets fork beside dumplings as left lowers plate",
+      "verb": "place",
+      "object": "fork",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 196.87,
+      "end": 209.98,
+      "old_summary": "hand pours sauce from bottle onto dumplings on plate",
+      "summary": "both hands open dressing bottle and right pours onto plate",
+      "verb": "pour",
+      "object": "dressing bottle",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "196.87–209.98s combines dressing bottle pickup/uncapping, pouring200–205s, recapping206–209s and placement. Preserved fine includes several hand-object changes.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 209.98,
+      "end": 213.9,
+      "old_summary": "hand uses fork to move dumpling on plate",
+      "summary": "right hand presses fork into dumpling on plate",
+      "verb": "press",
+      "object": "dumpling",
+      "tool": "fork",
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 32.68,
+      "fine_index_range": [
+        0,
+        7
+      ],
+      "instruction": "Heat and oil the frying pan.",
+      "description": "The burner is lit, corn oil retrieved from the lower cabinet, poured into the pan, recapped and returned before the cabinet closes.",
+      "goal_contribution": "Provide a hot oiled surface for frying the dumplings.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 32.68,
+      "end": 67.88,
+      "fine_index_range": [
+        8,
+        13
+      ],
+      "instruction": "Place four dumplings in the pan.",
+      "description": "Each dumpling is lifted from the plate, adjusted by hand and placed into the oil; fingers are rubbed and wiped afterward.",
+      "goal_contribution": "Start frying all four dumplings in a single layer.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After heat and oil the frying pan, place four dumplings in the pan is a natural next stage toward pan-fry dumplings and serve with dressing."
+    },
+    {
+      "start": 67.88,
+      "end": 95.42,
+      "fine_index_range": [
+        14,
+        18
+      ],
+      "instruction": "Move and turn the dumplings as they fry.",
+      "description": "The red spatula slides under the dumplings and repeatedly nudges or turns them before being placed on the empty plate.",
+      "goal_contribution": "Keep the dumplings separated and expose their surfaces to the pan.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After place four dumplings in the pan, move and turn the dumplings as they fry is plausible for pan-fry dumplings and serve with dressing, but several next steps fit."
+    },
+    {
+      "start": 95.42,
+      "end": 108.03,
+      "fine_index_range": [
+        19,
+        22
+      ],
+      "instruction": "Fetch dressing for serving.",
+      "description": "The refrigerator is opened, a creamy dressing bottle taken out and carried to the table.",
+      "goal_contribution": "Make the serving condiment available while frying continues.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After move and turn the dumplings as they fry, fetch dressing for serving is plausible for pan-fry dumplings and serve with dressing, but several next steps fit."
+    },
+    {
+      "start": 108.03,
+      "end": 169.25,
+      "fine_index_range": [
+        23,
+        24
+      ],
+      "instruction": "Finish browning and lift the first dumpling.",
+      "description": "The spatula repeatedly turns and repositions the dumplings, revealing browned patches, then lifts one as the plate is taken.",
+      "goal_contribution": "Finish browning the dumplings before removal.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After fetch dressing for serving, finish browning and lift the first dumpling is a natural next stage toward pan-fry dumplings and serve with dressing."
+    },
+    {
+      "start": 169.25,
+      "end": 186.59,
+      "fine_index_range": [
+        25,
+        29
+      ],
+      "instruction": "Transfer all dumplings to the plate.",
+      "description": "Four successive spatula transfers move the dumplings out of the pan and their positions on the plate are adjusted.",
+      "goal_contribution": "Collect the fried dumplings for serving.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After finish browning and lift the first dumpling, transfer all dumplings to the plate is a natural next stage toward pan-fry dumplings and serve with dressing."
+    },
+    {
+      "start": 186.59,
+      "end": 196.87,
+      "fine_index_range": [
+        30,
+        35
+      ],
+      "instruction": "Put away spatula and carry plate to table.",
+      "description": "The spatula is put into the sink, a fork taken from the drawer, and the plate carried to the table with the fork placed beside the food.",
+      "goal_contribution": "Arrange the cooked dumplings and cutlery for eating.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After transfer all dumplings to the plate, put away spatula and carry plate to table is a natural next stage toward pan-fry dumplings and serve with dressing."
+    },
+    {
+      "start": 196.87,
+      "end": 213.9,
+      "fine_index_range": [
+        36,
+        37
+      ],
+      "instruction": "Add dressing and handle a dumpling with the fork.",
+      "description": "The dressing bottle is opened and tilted over the plate, then recapped and set down; the fork presses into a dumpling.",
+      "goal_contribution": "Finish the serving with creamy dressing.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After put away spatula and carry plate to table, add dressing and handle a dumpling with the fork is a natural next stage toward pan-fry dumplings and serve with dressing."
+    }
+  ],
+  "notes": "Viewed all7 overview sheets, all775 dense frames and all38 native endpoint frames. Fine boundaries retained and every description rewritten. Food described as dumplings without asserting unseen filling. Coarse divisions rebuilt around visible heating/oiling, loading, frying, dressing retrieval, plating and serving. Predictability pending independent testing."
+}

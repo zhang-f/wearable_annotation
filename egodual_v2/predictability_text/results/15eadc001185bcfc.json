@@ -1,0 +1,26 @@
+{
+  "video_id": "15eadc001185bcfc",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After wash and dry the bell peppers, trim and hollow the four peppers is a natural next stage toward prepare creamy stuffed mini peppers."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After trim and hollow the four peppers, season and mix the creamy filling is a natural next stage toward prepare creamy stuffed mini peppers."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After season and mix the creamy filling, fill and plate the peppers is a natural next stage toward prepare creamy stuffed mini peppers."
+    }
+  ]
+}

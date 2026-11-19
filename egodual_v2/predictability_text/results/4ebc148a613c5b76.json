@@ -1,0 +1,36 @@
+{
+  "video_id": "4ebc148a613c5b76",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After collect the bowl fork and eggs, crack and beat two eggs is a natural next stage toward cook and plate scrambled eggs."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After crack and beat two eggs, prepare and oil the hot frying pan is a natural next stage toward cook and plate scrambled eggs."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After prepare and oil the hot frying pan, collect serving utensils and finish pan preparation is plausible for cook and plate scrambled eggs, but several next steps fit."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After collect serving utensils and finish pan preparation, pour and scramble the eggs is a natural next stage toward cook and plate scrambled eggs."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After pour and scramble the eggs, plate the scrambled eggs and begin seasoning is a natural next stage toward cook and plate scrambled eggs."
+    }
+  ]
+}

@@ -1,0 +1,1232 @@
+{
+  "video_id": "bc336f7581b8a9ed",
+  "duration": 275.334,
+  "task": "Yarn-wrapped clothespin “doll” character",
+  "domain": "Arts and Crafts",
+  "query": "How do I make a yarn-wrapped clothespin “doll” character?",
+  "goal": {
+    "title": "Make a yarn-wrapped clothespin figure",
+    "description": "Separate and align wooden clothespin pieces, secure white yarn with hot glue, and wind a thick white body around the wood. Mark and paint the exposed head, tie a short yarn piece around the figure, then glue a blue paper hat onto the top.",
+    "final_state": "A white yarn-wrapped wooden figure with a marked pale face and blue paper hat lies on the table.",
+    "procedure": [
+      "Separate and align the wooden clothespin pieces.",
+      "Anchor white yarn to the wood with hot glue.",
+      "Wind yarn repeatedly around the wooden body and glue the end.",
+      "Cut excess yarn and straighten the wrapped body.",
+      "Mark the face and brush light paint onto the head.",
+      "Cut and attach a short yarn piece, then add face details.",
+      "Glue the blue paper hat to the head and display the figure."
+    ]
+  },
+  "object_inventory": [
+    "clothespin",
+    "metal spring",
+    "white yarn",
+    "glue gun",
+    "scissors",
+    "marker",
+    "marker cap",
+    "paintbrush",
+    "paint pot",
+    "blue paper hat"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 14.09,
+      "description": "The wood is turned, the metal spring removed and placed on the table, and the wooden pieces brought together."
+    },
+    {
+      "start": 14.09,
+      "end": 71.9,
+      "description": "White yarn is pulled from the ball, wrapped around the wood, and held in place while the glue gun is used twice."
+    },
+    {
+      "start": 71.9,
+      "end": 155.23,
+      "description": "The wood is rotated while many yarn loops accumulate. The end is glued, excess yarn cut and the wrapping smoothed."
+    },
+    {
+      "start": 155.23,
+      "end": 186.41,
+      "description": "A blue-bodied marker is uncapped and used to make small dark marks on the exposed head, then set down."
+    },
+    {
+      "start": 186.41,
+      "end": 210.47,
+      "description": "A brush and small paint pots are brought forward; the brush is dipped into light paint and worked over the exposed wooden head."
+    },
+    {
+      "start": 210.47,
+      "end": 245.03,
+      "description": "A short piece of yarn is cut and tied onto the figure. The figure is lifted and a brush adds small head details before being set aside."
+    },
+    {
+      "start": 245.03,
+      "end": 275.3,
+      "description": "The hat is fitted and set aside, hot glue applied to the head, and the blue paper hat pressed into place. The figure is held up and laid down."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 4.36,
+      "old_summary": "hand picks up clothespin",
+      "summary": "both hands pick up and turn wooden clothespin",
+      "verb": "turn",
+      "object": "clothespin",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "clothespin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 4.36,
+      "end": 6.5,
+      "old_summary": "hand inspects clothespin",
+      "summary": "both hands separate wooden pieces and metal spring",
+      "verb": "separate",
+      "object": "clothespin",
+      "tool": null,
+      "target": "metal spring",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "metal spring"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 6.5,
+      "end": 8.18,
+      "old_summary": "hand rotates clothespin",
+      "summary": "right hand sets metal spring down beside clothespin",
+      "verb": "set down",
+      "object": "metal spring",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.18,
+      "end": 14.09,
+      "old_summary": "hand holds clothespin",
+      "summary": "both hands align the wooden clothespin pieces",
+      "verb": "align",
+      "object": "clothespin",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.09,
+      "end": 31.0,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "right hand pulls white yarn and wraps it around clothespin",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "14.09–31s includes yarn pickup followed by winding and tightening, retained source interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 31.0,
+      "end": 33.26,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "both hands adjust yarn around the wooden pieces",
+      "verb": "adjust",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.26,
+      "end": 35.09,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "right hand reaches toward glue gun while left holds clothespin",
+      "verb": "reach",
+      "object": "glue gun",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 35.09,
+      "end": 46.83,
+      "old_summary": "hand applies glue to clothespin",
+      "summary": "right hand applies hot glue along wooden clothespin",
+      "verb": "apply",
+      "object": "clothespin",
+      "tool": "glue gun",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Glue gun picked up around35–37s, applied38–45s and returned around46.5s within preserved interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.83,
+      "end": 55.96,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "right hand presses white yarn around glued clothespin",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 55.96,
+      "end": 62.16,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "right hand applies more hot glue to clothespin",
+      "verb": "apply",
+      "object": "clothespin",
+      "tool": "glue gun",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.16,
+      "end": 71.9,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "both hands press yarn and turn the wooden pieces",
+      "verb": "press",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "clothespin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 71.9,
+      "end": 90.26,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "right hand winds white yarn around clothespin body",
+      "verb": "wind",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 90.26,
+      "end": 102.74,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "right hand pulls yarn and continues winding around body",
+      "verb": "wind",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 102.74,
+      "end": 118.82,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "both hands rotate clothespin while winding white yarn",
+      "verb": "wind",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.82,
+      "end": 125.71,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "both hands tighten and smooth the wrapped yarn body",
+      "verb": "smooth",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 125.71,
+      "end": 133.62,
+      "old_summary": "hand applies glue to yarn-wrapped clothespin with hot glue gun",
+      "summary": "right hand glues the yarn end onto clothespin",
+      "verb": "glue",
+      "object": "white yarn",
+      "tool": "glue gun",
+      "target": "clothespin",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.62,
+      "end": 137.8,
+      "old_summary": "hand wraps yarn around clothespin",
+      "summary": "both hands press the glued yarn against body",
+      "verb": "press",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 137.8,
+      "end": 147.74,
+      "old_summary": "hand cuts yarn on doll with scissors",
+      "summary": "right hand cuts excess yarn with scissors",
+      "verb": "cut",
+      "object": "white yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "137.8–147.74s includes yarn pulling, scissors pickup, cutting about145s and scissors lowering.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.74,
+      "end": 155.23,
+      "old_summary": "hand wraps yarn around clothespin doll",
+      "summary": "both hands straighten white yarn around wooden body",
+      "verb": "straighten",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "clothespin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 155.23,
+      "end": 161.62,
+      "old_summary": "hand uses scissors to cut yarn on doll",
+      "summary": "right hand picks up marker beside wrapped figure",
+      "verb": "pick up",
+      "object": "marker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 161.62,
+      "end": 164.21,
+      "old_summary": "hand places blue marker on table",
+      "summary": "both hands remove marker cap",
+      "verb": "uncap",
+      "object": "marker",
+      "tool": null,
+      "target": "marker cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "marker cap"
+        ],
+        "right": [
+          "marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 164.21,
+      "end": 172.36,
+      "old_summary": "hand draws on yarn-wrapped clothespin doll with marker",
+      "summary": "right hand draws small marks on wooden head",
+      "verb": "draw",
+      "object": "clothespin",
+      "tool": "marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 172.36,
+      "end": 178.24,
+      "old_summary": "hand draws on yarn-wrapped clothespin doll with marker",
+      "summary": "right hand adds marker marks to wooden head",
+      "verb": "draw",
+      "object": "clothespin",
+      "tool": "marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 178.24,
+      "end": 184.54,
+      "old_summary": "hand adjusts blue tape on yarn-wrapped clothespin doll",
+      "summary": "left hand holds and examines the marked figure",
+      "verb": "hold",
+      "object": "clothespin",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 184.54,
+      "end": 186.41,
+      "old_summary": "hand holds yarn-wrapped clothespin doll",
+      "summary": "right hand sets marker down beside scissors",
+      "verb": "set down",
+      "object": "marker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 186.41,
+      "end": 188.57,
+      "old_summary": "hand picks up a small tool",
+      "summary": "right hand picks up paintbrush from white board",
+      "verb": "pick up",
+      "object": "paintbrush",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 188.57,
+      "end": 190.9,
+      "old_summary": "hand picks up small plastic piece",
+      "summary": "right hand brings open paint pots toward figure",
+      "verb": "move",
+      "object": "paint pot",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paint pot"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 190.9,
+      "end": 194.91,
+      "old_summary": "hand dips brush into paint",
+      "summary": "right hand dips paintbrush into light paint",
+      "verb": "dip",
+      "object": "paintbrush",
+      "tool": null,
+      "target": "paint pot",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paint pot"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.91,
+      "end": 196.31,
+      "old_summary": "hand places small object on table",
+      "summary": "both hands set paint pots down and retrieve figure",
+      "verb": "pick up",
+      "object": "clothespin",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 196.31,
+      "end": 210.47,
+      "old_summary": "hand uses paintbrush to apply paint to yarn-wrapped clothespin doll",
+      "summary": "right hand brushes light paint onto wooden head",
+      "verb": "paint",
+      "object": "clothespin",
+      "tool": "paintbrush",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "196.31–210.47s includes figure pickup followed by repeated brush strokes.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 210.47,
+      "end": 212.51,
+      "old_summary": "hand places yarn-wrapped clothespin doll on table",
+      "summary": "both hands set figure down and gather loose yarn",
+      "verb": "take",
+      "object": "white yarn",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 212.51,
+      "end": 217.61,
+      "old_summary": "hand cuts yarn with scissors",
+      "summary": "right hand cuts a short yarn piece with scissors",
+      "verb": "cut",
+      "object": "white yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "white yarn"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 217.61,
+      "end": 218.09,
+      "old_summary": "hand holds yarn",
+      "summary": "right hand puts scissors down beside short yarn",
+      "verb": "set down",
+      "object": "scissors",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "white yarn"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 218.09,
+      "end": 227.26,
+      "old_summary": "hands adjust yarn on clothespin doll",
+      "summary": "both hands tie short yarn around wrapped figure",
+      "verb": "tie",
+      "object": "white yarn",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 227.26,
+      "end": 229.33,
+      "old_summary": "hand adjusts yarn on clothespin doll",
+      "summary": "left hand picks up figure while right takes paintbrush",
+      "verb": "pick up",
+      "object": "clothespin",
+      "tool": null,
+      "target": "paintbrush",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 229.33,
+      "end": 242.31,
+      "old_summary": "hand draws on yarn-wrapped clothespin doll with marker",
+      "summary": "right hand brushes small details onto the figure head",
+      "verb": "paint",
+      "object": "clothespin",
+      "tool": "paintbrush",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "paintbrush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 242.31,
+      "end": 245.03,
+      "old_summary": "hand holds yarn-wrapped clothespin doll",
+      "summary": "right hand sets paintbrush down beside figure",
+      "verb": "set down",
+      "object": "paintbrush",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 245.03,
+      "end": 248.58,
+      "old_summary": "hand attaches blue piece to yarn-wrapped clothespin doll",
+      "summary": "right hand picks up blue paper hat and positions it",
+      "verb": "position",
+      "object": "blue paper hat",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": [
+          "blue paper hat"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 248.58,
+      "end": 249.82,
+      "old_summary": "hand places blue piece on doll",
+      "summary": "right hand puts blue paper hat beside figure",
+      "verb": "set down",
+      "object": "blue paper hat",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 249.82,
+      "end": 255.79,
+      "old_summary": "hand uses glue gun to attach accessory to yarn-wrapped clothespin doll",
+      "summary": "right hand applies hot glue onto figure head",
+      "verb": "apply",
+      "object": "clothespin",
+      "tool": "glue gun",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "249.82–255.79s includes glue gun pickup, nozzle application and return before hat placement.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 255.79,
+      "end": 263.06,
+      "old_summary": "hand attaches blue paper piece to yarn-wrapped clothespin doll",
+      "summary": "right hand presses blue paper hat onto glued head",
+      "verb": "press",
+      "object": "blue paper hat",
+      "tool": null,
+      "target": "clothespin",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "clothespin"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 263.06,
+      "end": 275.3,
+      "old_summary": "hand adjusts yarn on doll",
+      "summary": "both hands display figure then place it on table",
+      "verb": "place",
+      "object": "clothespin",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "263.06–275.3s contains display followed by placement around273s and yarn touching at275s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 14.09,
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "instruction": "Separate and align the clothespin pieces.",
+      "description": "The wood is turned, the metal spring removed and placed on the table, and the wooden pieces brought together.",
+      "goal_contribution": "Prepare the wooden frame for the figure.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 14.09,
+      "end": 71.9,
+      "fine_index_range": [
+        4,
+        10
+      ],
+      "instruction": "Attach the first yarn wraps with hot glue.",
+      "description": "White yarn is pulled from the ball, wrapped around the wood, and held in place while the glue gun is used twice.",
+      "goal_contribution": "Anchor the yarn securely to the wooden frame.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Aligned clothespin pieces are ready to bind with yarn."
+    },
+    {
+      "start": 71.9,
+      "end": 155.23,
+      "fine_index_range": [
+        11,
+        18
+      ],
+      "instruction": "Build and finish the white yarn body.",
+      "description": "The wood is rotated while many yarn loops accumulate. The end is glued, excess yarn cut and the wrapping smoothed.",
+      "goal_contribution": "Cover the central body in a thick white yarn layer.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Initial yarn wraps naturally lead to completing the wrapped body."
+    },
+    {
+      "start": 155.23,
+      "end": 186.41,
+      "fine_index_range": [
+        19,
+        24
+      ],
+      "instruction": "Mark the wooden head.",
+      "description": "A blue-bodied marker is uncapped and used to make small dark marks on the exposed head, then set down.",
+      "goal_contribution": "Add the initial facial marks to the figure.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After wrapping the body, marking the head is plausible but details could be added differently."
+    },
+    {
+      "start": 186.41,
+      "end": 210.47,
+      "fine_index_range": [
+        25,
+        29
+      ],
+      "instruction": "Paint the exposed head.",
+      "description": "A brush and small paint pots are brought forward; the brush is dipped into light paint and worked over the exposed wooden head.",
+      "goal_contribution": "Give the head a pale painted surface.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The marked exposed head may be painted, though other decorations are possible."
+    },
+    {
+      "start": 210.47,
+      "end": 245.03,
+      "fine_index_range": [
+        30,
+        36
+      ],
+      "instruction": "Attach a short yarn piece and finish head details.",
+      "description": "A short piece of yarn is cut and tied onto the figure. The figure is lifted and a brush adds small head details before being set aside.",
+      "goal_contribution": "Finish the small yarn and painted decorations.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "A painted head may receive yarn and detail work, but the exact finish is optional."
+    },
+    {
+      "start": 245.03,
+      "end": 275.3,
+      "fine_index_range": [
+        37,
+        41
+      ],
+      "instruction": "Glue on the blue hat and display the figure.",
+      "description": "The hat is fitted and set aside, hot glue applied to the head, and the blue paper hat pressed into place. The figure is held up and laid down.",
+      "goal_contribution": "Complete the hat attachment and show the finished figure.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The finished figure is ready for its hat and display."
+    }
+  ],
+  "notes": "Viewed all overview sheets, all969 dense frames and all42 native endpoint frames. Fine boundaries preserved. Coarse groups rebuilt from visible assembly and decoration; no unsupported task-specific identity added. Independent predictability pending."
+}

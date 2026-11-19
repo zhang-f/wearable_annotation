@@ -1,0 +1,681 @@
+{
+  "video_id": "7db060fc3ba15e36",
+  "duration": 155.8,
+  "task": "How to clean car interior with detailing supplies",
+  "domain": "Tutorial",
+  "query": "How do I clean my car interior using detailing supplies?",
+  "goal": {
+    "title": "Wipe the driver-area surfaces of a parked vehicle",
+    "description": "Prepare wet paper towel, a blue cleaning cloth and spray bottle indoors, carry them to the snowy parked vehicle, and wipe its dashboard, driver door trim, steering area and center-console cupholders.",
+    "final_state": "The visible driver-area dashboard, door panel, steering area and cupholder console have been wiped; the person remains inside holding the cleaning supplies.",
+    "procedure": [
+      "Wet paper towels at the kitchen sink and collect a blue cloth and spray bottle.",
+      "Open the house door, walk to the vehicle, open its driver door and enter.",
+      "Wipe the dashboard with wet paper towel, then fold and spray the blue cloth.",
+      "Wipe across the dashboard and driver-side door trim with the cloth.",
+      "Return to the dashboard, instrument area and steering wheel for further wiping.",
+      "Reapply spray to the cloth and wipe the center-console surfaces around the cupholders."
+    ]
+  },
+  "object_inventory": [
+    "paper towel",
+    "faucet",
+    "blue cloth",
+    "spray bottle",
+    "house door",
+    "vehicle door",
+    "dashboard",
+    "center controls",
+    "steering wheel",
+    "instrument panel",
+    "door panel",
+    "cupholder console"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 12.78,
+      "description": "Paper towel is collected and wetted at the kitchen faucet. A blue cloth and spray bottle are picked up and carried toward the front door."
+    },
+    {
+      "start": 12.78,
+      "end": 39.34,
+      "description": "The house door is opened, the person walks across the snowy porch to the parked vehicle, opens its driver door and brings the supplies inside."
+    },
+    {
+      "start": 39.34,
+      "end": 91.69,
+      "description": "Wet paper towel wipes across the dashboard, briefly interrupted by a center-control press. The blue cloth is folded and sprayed, then used across the dashboard from the driver side toward the passenger side."
+    },
+    {
+      "start": 91.69,
+      "end": 112.05,
+      "description": "The cloth rubs the driver door upper trim, pale panel, window-switch recess and interior handle surround."
+    },
+    {
+      "start": 112.05,
+      "end": 136.6,
+      "description": "The cloth returns to the central dashboard, instrument surround and steering-wheel surfaces, with refolding between passes."
+    },
+    {
+      "start": 136.6,
+      "end": 153.28,
+      "description": "The cloth is refolded and sprayed again, then rubbed around the cupholders and adjacent center-console trim."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.58,
+      "old_summary": "hand picks up paper towel",
+      "summary": "both hands gather paper towel beside the sink",
+      "verb": "pick up",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 2.58,
+      "end": 8.19,
+      "old_summary": "hand wets paper towel under running water",
+      "summary": "left hand wets paper towel while right operates the faucet",
+      "verb": "wet",
+      "object": "paper towel",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.19,
+      "end": 9.55,
+      "old_summary": "hand picks up a blue cloth",
+      "summary": "right hand picks up the blue cleaning cloth",
+      "verb": "pick up",
+      "object": "blue cloth",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "blue cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 9.55,
+      "end": 12.78,
+      "old_summary": "hand picks up spray bottle",
+      "summary": "right hand collects the spray bottle and carries cleaning supplies",
+      "verb": "carry",
+      "object": "spray bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel",
+          "blue cloth"
+        ],
+        "right": [
+          "spray bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.78,
+      "end": 17.65,
+      "old_summary": "hand opens door",
+      "summary": "left hand opens the house door",
+      "verb": "open",
+      "object": "house door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel",
+          "blue cloth"
+        ],
+        "right": [
+          "spray bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 17.65,
+      "end": 29.67,
+      "old_summary": "hand opens car door",
+      "summary": "both hands carry the supplies to the parked vehicle",
+      "verb": "carry",
+      "object": "paper towel",
+      "tool": null,
+      "target": "vehicle door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel",
+          "blue cloth"
+        ],
+        "right": [
+          "spray bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.67,
+      "end": 37.27,
+      "old_summary": "hand sprays dashboard and wipes it with a cloth",
+      "summary": "right hand opens the vehicle door and carries supplies inside",
+      "verb": "open",
+      "object": "vehicle door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel",
+          "blue cloth"
+        ],
+        "right": [
+          "spray bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "29.67–37.27s includes opening the vehicle door, entering and setting down the spray bottle; preserved source segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 37.27,
+      "end": 39.34,
+      "old_summary": "hand wipes dashboard with paper towel",
+      "summary": "both hands put supplies down and arrange the paper towel",
+      "verb": "position",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.34,
+      "end": 45.36,
+      "old_summary": "hand wipes dashboard with paper towel",
+      "summary": "right hand wipes the dashboard with wet paper towel",
+      "verb": "wipe",
+      "object": "dashboard",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 45.36,
+      "end": 46.92,
+      "old_summary": "hand adjusts controls on the car's center console",
+      "summary": "right hand presses a center-console control",
+      "verb": "press",
+      "object": "center controls",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.92,
+      "end": 53.3,
+      "old_summary": "hand wipes dashboard with paper towel",
+      "summary": "right hand wipes the dashboard again and gathers the towel",
+      "verb": "wipe",
+      "object": "dashboard",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 53.3,
+      "end": 61.56,
+      "old_summary": "hand sprays steering wheel with cleaning solution",
+      "summary": "both hands fold the blue cloth and handle the spray bottle",
+      "verb": "fold",
+      "object": "blue cloth",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blue cloth"
+        ],
+        "right": [
+          "spray bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "53.3–61.56s includes discarding the paper towel, unfolding/refolding the cloth and taking the spray bottle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 61.56,
+      "end": 68.49,
+      "old_summary": "hand wipes steering wheel with blue microfiber cloth",
+      "summary": "right hand sprays cleaner onto the blue cloth",
+      "verb": "spray",
+      "object": "blue cloth",
+      "tool": "spray bottle",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blue cloth"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.49,
+      "end": 78.86,
+      "old_summary": "hand wipes dashboard with blue microfiber cloth",
+      "summary": "right hand wipes the driver-side dashboard with the cloth",
+      "verb": "wipe",
+      "object": "dashboard",
+      "tool": "blue cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blue cloth"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.86,
+      "end": 91.69,
+      "old_summary": "hand wipes dashboard with blue microfiber cloth",
+      "summary": "right hand wipes across the central and passenger dashboard",
+      "verb": "wipe",
+      "object": "dashboard",
+      "tool": "blue cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 91.69,
+      "end": 112.05,
+      "old_summary": "hand wipes car door panel with blue microfiber cloth",
+      "summary": "right hand wipes the driver-side door panel and controls",
+      "verb": "wipe",
+      "object": "door panel",
+      "tool": "blue cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blue cloth"
+        ],
+        "right": [
+          "blue cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.05,
+      "end": 117.83,
+      "old_summary": "hand wipes dashboard with blue microfiber cloth",
+      "summary": "right hand wipes the dashboard above the center display",
+      "verb": "wipe",
+      "object": "dashboard",
+      "tool": "blue cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.83,
+      "end": 126.75,
+      "old_summary": "hand wipes dashboard with blue microfiber cloth",
+      "summary": "right hand wipes the dashboard above the instrument panel",
+      "verb": "wipe",
+      "object": "dashboard",
+      "tool": "blue cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blue cloth"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.75,
+      "end": 134.1,
+      "old_summary": "hand wipes steering wheel with blue microfiber cloth",
+      "summary": "right hand wipes the instrument surround and steering wheel",
+      "verb": "wipe",
+      "object": "steering wheel",
+      "tool": "blue cloth",
+      "target": "instrument panel",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.1,
+      "end": 136.6,
+      "old_summary": "hand wipes steering wheel with blue microfiber cloth",
+      "summary": "right hand wipes across the steering-wheel center",
+      "verb": "wipe",
+      "object": "steering wheel",
+      "tool": "blue cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.6,
+      "end": 153.28,
+      "old_summary": "hand wipes car interior with blue microfiber cloth",
+      "summary": "right hand wipes the cupholder console with the blue cloth",
+      "verb": "wipe",
+      "object": "cupholder console",
+      "tool": "blue cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "spray bottle"
+        ],
+        "right": [
+          "blue cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "136.6–153.28s includes refolding the cloth, spraying it and wiping around several console/cupholder edges; source boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 12.78,
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "instruction": "Prepare the cleaning supplies",
+      "description": "Paper towel is collected and wetted at the kitchen faucet. A blue cloth and spray bottle are picked up and carried toward the front door.",
+      "goal_contribution": "Collects the wiping materials used to clean the vehicle interior.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 12.78,
+      "end": 39.34,
+      "fine_index_range": [
+        4,
+        7
+      ],
+      "instruction": "Carry supplies to the vehicle and enter",
+      "description": "The house door is opened, the person walks across the snowy porch to the parked vehicle, opens its driver door and brings the supplies inside.",
+      "goal_contribution": "Provides access to the driver-area surfaces with the cleaning materials at hand.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After prepare the cleaning supplies, carry supplies to the vehicle and enter is a natural next stage toward wipe the driver-area surfaces of a parked vehicle."
+    },
+    {
+      "start": 39.34,
+      "end": 91.69,
+      "fine_index_range": [
+        8,
+        14
+      ],
+      "instruction": "Wipe the dashboard with paper towel and cloth",
+      "description": "Wet paper towel wipes across the dashboard, briefly interrupted by a center-control press. The blue cloth is folded and sprayed, then used across the dashboard from the driver side toward the passenger side.",
+      "goal_contribution": "Cleans the broad upper dashboard surfaces and changes to the reusable cloth.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After carry supplies to the vehicle and enter, wipe the dashboard with paper towel and cloth is a natural next stage toward wipe the driver-area surfaces of a parked vehicle."
+    },
+    {
+      "start": 91.69,
+      "end": 112.05,
+      "fine_index_range": [
+        15,
+        15
+      ],
+      "instruction": "Wipe the driver-door trim and controls",
+      "description": "The cloth rubs the driver door upper trim, pale panel, window-switch recess and interior handle surround.",
+      "goal_contribution": "Cleans the frequently touched door surfaces beside the driver.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After wipe the dashboard with paper towel and cloth, wipe the driver-door trim and controls is plausible for wipe the driver-area surfaces of a parked vehicle, but several next steps fit."
+    },
+    {
+      "start": 112.05,
+      "end": 136.6,
+      "fine_index_range": [
+        16,
+        19
+      ],
+      "instruction": "Wipe the dashboard and steering area again",
+      "description": "The cloth returns to the central dashboard, instrument surround and steering-wheel surfaces, with refolding between passes.",
+      "goal_contribution": "Finishes the driver-facing dashboard and steering controls.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After wipe the driver-door trim and controls, wipe the dashboard and steering area again is plausible for wipe the driver-area surfaces of a parked vehicle, but several next steps fit."
+    },
+    {
+      "start": 136.6,
+      "end": 153.28,
+      "fine_index_range": [
+        20,
+        20
+      ],
+      "instruction": "Wipe the cupholder console",
+      "description": "The cloth is refolded and sprayed again, then rubbed around the cupholders and adjacent center-console trim.",
+      "goal_contribution": "Cleans the remaining lower console surfaces visible in the driver area.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After wipe the dashboard and steering area again, wipe the cupholder console is plausible for wipe the driver-area surfaces of a parked vehicle, but several next steps fit."
+    }
+  ],
+  "notes": "Reviewed every overview sheet, all 523 dense sampled frames and native end frames. Vehicle remains parked; snow on outside glass is not interior dirt. Cleaner identity is not read from the bottle. Source fine boundaries retained, including multi-action segments. Last 2.52s beyond fine coverage continues console wiping/supply handling."
+}

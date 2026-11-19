@@ -1,0 +1,1051 @@
+{
+  "video_id": "a5ce90da9a5cc07a",
+  "duration": 184.0,
+  "task": "Creating a mosaic coaster with glass gems",
+  "domain": "Arts and Crafts",
+  "query": "How do I create a mosaic coaster with glass gems?",
+  "goal": {
+    "title": "Decorate a plate with clear and purple gems",
+    "description": "Trial-arrange clear and purple decorative gems on a blue-green plate, gather them again, then use hot glue to attach the central clear motif and purple pieces extending around it.",
+    "final_state": "Clear gems form a central motif with purple gems extending horizontally and vertically across the plate, which is lifted and displayed.",
+    "procedure": [
+      "Position the plate and lay out the clear gems near its center.",
+      "Arrange purple gems around the clear pieces to test a cross-like pattern.",
+      "Gather the loose gems and prepare the hot-glue gun.",
+      "Glue and press the clear center pieces into position.",
+      "Glue the purple gems around the center, press the pieces, remove fine glue strands, and display the decorated plate."
+    ]
+  },
+  "object_inventory": [
+    "plate",
+    "newspaper",
+    "clear gem",
+    "purple gem",
+    "decorative gem",
+    "glue gun",
+    "glue strand"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 22.6,
+      "description": "The plate is positioned on newspaper and clear decorative pieces placed and adjusted near its center."
+    },
+    {
+      "start": 22.6,
+      "end": 45.23,
+      "description": "Purple gems are spaced to either side, above, and below the center, then the loose pieces gathered again before gluing."
+    },
+    {
+      "start": 45.23,
+      "end": 89.54,
+      "description": "The glue gun is picked up and clear pieces are individually glued, placed, and held against the plate."
+    },
+    {
+      "start": 89.54,
+      "end": 142.11,
+      "description": "Purple gems are picked up one at a time, receive hot glue, and are pressed into the horizontal and vertical extensions around the clear center."
+    },
+    {
+      "start": 142.11,
+      "end": 184.0,
+      "description": "The glue gun is put down, individual gems pressed again, fine glue strands pulled away, and the plate lifted and tilted for inspection."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 9.67,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "both hands position the plate on the newspaper",
+      "verb": "position",
+      "object": "plate",
+      "tool": null,
+      "target": "newspaper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 9.67,
+      "end": 14.32,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "right hand places a clear gem near the plate center",
+      "verb": "place",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.32,
+      "end": 15.88,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "right hand adds another clear gem beside the first",
+      "verb": "place",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.88,
+      "end": 17.94,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "right hand places another clear gem in the center motif",
+      "verb": "place",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 17.94,
+      "end": 20.18,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "right hand adjusts the clear gems on the plate",
+      "verb": "arrange",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 20.18,
+      "end": 22.6,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "right hand adds another clear gem to the arrangement",
+      "verb": "place",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 22.6,
+      "end": 24.61,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "right hand places a purple gem beside the clear motif",
+      "verb": "place",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 24.61,
+      "end": 25.96,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "right hand places another purple gem across the plate",
+      "verb": "place",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 25.96,
+      "end": 27.26,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "right hand adds a purple gem to the left side",
+      "verb": "place",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.26,
+      "end": 28.76,
+      "old_summary": "hand adjusts the position of the coaster on the magazine",
+      "summary": "right hand moves a purple gem above the center",
+      "verb": "place",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 28.76,
+      "end": 33.05,
+      "old_summary": "hand rotates the coaster",
+      "summary": "right hand arranges purple gems below and beside the center",
+      "verb": "arrange",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 33.05,
+      "end": 37.07,
+      "old_summary": "hand rotates the coaster",
+      "summary": "right hand adjusts the spacing between the purple gems",
+      "verb": "arrange",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 37.07,
+      "end": 41.48,
+      "old_summary": "hand places a glass gem on the coaster",
+      "summary": "right hand repositions several gems on the plate",
+      "verb": "arrange",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 41.48,
+      "end": 45.23,
+      "old_summary": "hand rotates coaster",
+      "summary": "right hand gathers the loose gems into a cluster",
+      "verb": "gather",
+      "object": "decorative gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 45.23,
+      "end": 57.09,
+      "old_summary": "hand applies hot glue to coaster, then places glass gems",
+      "summary": "right hand picks up the glue gun and applies glue",
+      "verb": "apply",
+      "object": "glue gun",
+      "tool": null,
+      "target": "clear gem",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes picking up and orienting glue gun t=46–49s, selecting gem around t=51s, and applying glue t=52–57s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 57.09,
+      "end": 63.19,
+      "old_summary": "hand places glass gem on coaster",
+      "summary": "left hand places and presses a clear gem onto the plate",
+      "verb": "place",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 63.19,
+      "end": 68.37,
+      "old_summary": "hand applies hot glue to the coaster and places glass gems",
+      "summary": "left hand glues and places another clear gem",
+      "verb": "place",
+      "object": "clear gem",
+      "tool": "glue gun",
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Contains applying glue to next gem at t=63–64s then placing and pressing it t=65–68s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.37,
+      "end": 71.35,
+      "old_summary": "hand places glass gem on coaster",
+      "summary": "left hand presses another clear gem beside the first pieces",
+      "verb": "press",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 71.35,
+      "end": 76.52,
+      "old_summary": "hand rotates coaster while other hand holds glue gun",
+      "summary": "left hand holds a clear gem against the plate",
+      "verb": "press",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 76.52,
+      "end": 79.97,
+      "old_summary": "hand rotates coaster while other hand holds glue gun",
+      "summary": "left hand presses another clear gem into the center motif",
+      "verb": "press",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 79.97,
+      "end": 86.44,
+      "old_summary": "hand applies hot glue to the coaster",
+      "summary": "right hand applies glue before another clear gem is placed",
+      "verb": "apply",
+      "object": "glue gun",
+      "tool": null,
+      "target": "clear gem",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Contains pause at t=80–81s, picking up gem near t=82s, glue application t=83–85s and positioning at end.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.44,
+      "end": 89.54,
+      "old_summary": "hand places glass gem on coaster",
+      "summary": "left hand presses the clear gem into position",
+      "verb": "press",
+      "object": "clear gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 89.54,
+      "end": 93.07,
+      "old_summary": "hand places glass gem on coaster",
+      "summary": "right hand applies glue to a purple gem",
+      "verb": "apply",
+      "object": "glue gun",
+      "tool": null,
+      "target": "purple gem",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "purple gem"
+        ],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 93.07,
+      "end": 96.46,
+      "old_summary": "hand places glass gem on coaster",
+      "summary": "left hand places and presses the purple gem beside the center",
+      "verb": "place",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.46,
+      "end": 102.45,
+      "old_summary": "hand applies hot glue to the coaster while the other hand holds and rotates it",
+      "summary": "right hand applies glue to another purple gem",
+      "verb": "apply",
+      "object": "glue gun",
+      "tool": null,
+      "target": "purple gem",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "purple gem"
+        ],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 102.45,
+      "end": 104.86,
+      "old_summary": "hand places a glass gem on the coaster",
+      "summary": "left hand presses the purple gem onto the plate",
+      "verb": "press",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.86,
+      "end": 108.4,
+      "old_summary": "hand applies hot glue to coaster and places glass gem",
+      "summary": "right hand applies glue to the next purple gem",
+      "verb": "apply",
+      "object": "glue gun",
+      "tool": null,
+      "target": "purple gem",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "purple gem"
+        ],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 108.4,
+      "end": 112.64,
+      "old_summary": "hand rotates coaster while other hand applies hot glue",
+      "summary": "left hand presses another purple gem into the pattern",
+      "verb": "press",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.64,
+      "end": 115.61,
+      "old_summary": "hand rotates coaster while other hand applies hot glue",
+      "summary": "right hand applies glue to another purple gem",
+      "verb": "apply",
+      "object": "glue gun",
+      "tool": null,
+      "target": "purple gem",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "purple gem"
+        ],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.61,
+      "end": 118.36,
+      "old_summary": "hand places glass gem on coaster",
+      "summary": "left hand presses the purple gem into place",
+      "verb": "press",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.36,
+      "end": 122.32,
+      "old_summary": "hand applies hot glue to the coaster",
+      "summary": "right hand applies glue to the next purple gem",
+      "verb": "apply",
+      "object": "glue gun",
+      "tool": null,
+      "target": "purple gem",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "purple gem"
+        ],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Begins by finishing pressure on previous gem near t=119s, then applies glue around t=120–122s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 122.32,
+      "end": 125.6,
+      "old_summary": "hand rotates coaster while other hand holds glue gun",
+      "summary": "left hand presses another purple gem onto the plate",
+      "verb": "press",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 125.6,
+      "end": 131.87,
+      "old_summary": "hand places glass gem on coaster",
+      "summary": "right hand applies glue to another purple gem",
+      "verb": "apply",
+      "object": "glue gun",
+      "tool": null,
+      "target": "purple gem",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "purple gem"
+        ],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Finishes positioning previous gem near t=125s, then selects and glues next piece around t=128–131s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 131.87,
+      "end": 134.96,
+      "old_summary": "hand places a glass gem on the coaster",
+      "summary": "left hand places and presses another purple gem",
+      "verb": "place",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.96,
+      "end": 138.2,
+      "old_summary": "hand applies hot glue to coaster and places glass gem",
+      "summary": "right hand applies glue to the remaining purple gem",
+      "verb": "apply",
+      "object": "glue gun",
+      "tool": null,
+      "target": "purple gem",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "purple gem"
+        ],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Finishes pressing near t=135–136s before glue application around t=137–138s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 138.2,
+      "end": 142.11,
+      "old_summary": "hand applies hot glue to coaster and places glass gem",
+      "summary": "left hand places the last purple gem into the pattern",
+      "verb": "place",
+      "object": "purple gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glue gun"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Glue application continues t=138–140s before placement and pressing t=140–142s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 142.11,
+      "end": 159.02,
+      "old_summary": "hand rotates the coaster with glass gems",
+      "summary": "right hand sets down the glue gun and presses gems",
+      "verb": "press",
+      "object": "decorative gem",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes setting glue gun down near t=144s and pressing several different gems t=146–159s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 159.02,
+      "end": 176.53,
+      "old_summary": "hand rotates coaster",
+      "summary": "both hands press gems and pull away fine glue strands",
+      "verb": "remove",
+      "object": "glue strand",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes pressing multiple gems and pulling fine glue strands with both hands at t=165–171s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 176.53,
+      "end": 184.0,
+      "old_summary": "hand rotates the coaster",
+      "summary": "both hands lift and tilt the decorated plate",
+      "verb": "lift",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Plate is lifted and tilted t=177–181s, then set down and hands withdrawn by t=182s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 22.6,
+      "fine_index_range": [
+        0,
+        5
+      ],
+      "instruction": "Lay out the central clear motif",
+      "description": "The plate is positioned on newspaper and clear decorative pieces placed and adjusted near its center.",
+      "goal_contribution": "Establishes the center of the planned decoration.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 22.6,
+      "end": 45.23,
+      "fine_index_range": [
+        6,
+        13
+      ],
+      "instruction": "Trial-arrange the purple pieces",
+      "description": "Purple gems are spaced to either side, above, and below the center, then the loose pieces gathered again before gluing.",
+      "goal_contribution": "Tests the overall pattern and prepares the pieces for permanent attachment.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The central motif is laid out, so surrounding purple pieces can be arranged."
+    },
+    {
+      "start": 45.23,
+      "end": 89.54,
+      "fine_index_range": [
+        14,
+        21
+      ],
+      "instruction": "Glue the clear center pieces",
+      "description": "The glue gun is picked up and clear pieces are individually glued, placed, and held against the plate.",
+      "goal_contribution": "Secures the central motif.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After arranging pieces, the clear center can be glued in place."
+    },
+    {
+      "start": 89.54,
+      "end": 142.11,
+      "fine_index_range": [
+        22,
+        35
+      ],
+      "instruction": "Glue the surrounding purple gems",
+      "description": "Purple gems are picked up one at a time, receive hot glue, and are pressed into the horizontal and vertical extensions around the clear center.",
+      "goal_contribution": "Completes the surrounding colored pattern.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Glued center pieces naturally lead to securing the purple surround."
+    },
+    {
+      "start": 142.11,
+      "end": 184.0,
+      "fine_index_range": [
+        36,
+        38
+      ],
+      "instruction": "Press, tidy, and display the decoration",
+      "description": "The glue gun is put down, individual gems pressed again, fine glue strands pulled away, and the plate lifted and tilted for inspection.",
+      "goal_contribution": "Finishes the plate surface and shows the completed arrangement.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The glued decoration is ready to press, tidy, and display."
+    }
+  ],
+  "notes": "Reviewed six overview sheets, all 672 dense step frames and 39 native endpoints. Only inherited fine boundaries retained; several gluing intervals contain the finish of one placement and preparation of the next, noted explicitly. Gem material is not inferred beyond decorative appearance; no unsupported glass/acrylic claim."
+}

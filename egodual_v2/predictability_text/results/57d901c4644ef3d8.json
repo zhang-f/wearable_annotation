@@ -1,0 +1,31 @@
+{
+  "video_id": "57d901c4644ef3d8",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The bowl and ingredients are ready for mixing the pudding base."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The partly combined ingredients need stirring smooth."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Smooth pudding batter is ready to microwave."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "The cooked pudding needs removing and a final stir."
+    }
+  ]
+}

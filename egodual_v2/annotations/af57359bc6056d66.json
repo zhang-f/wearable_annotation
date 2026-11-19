@@ -1,0 +1,807 @@
+{
+  "video_id": "af57359bc6056d66",
+  "duration": 169.8,
+  "task": "Applying felt pads to chair or table legs",
+  "domain": "Handyman",
+  "query": "How do I apply felt pads to chair or chair legs?",
+  "goal": {
+    "title": "Apply felt pads to a small chair's legs",
+    "description": "Flip a small white wooden chair upside down and clean each turned-wood leg first with disposable wipes from a container and then with a cloth. Peel felt pads one at a time from a backing sheet and press each onto the bottom of a chair leg, adjusting and re-pressing several pads to seat them firmly. Finish by rotating the chair to check that a felt pad is seated on every leg.",
+    "final_state": "All four legs of the chair have a felt pad pressed onto their bottom tip; the chair is still upside down and being rotated for a final check as the video ends.",
+    "procedure": [
+      "Turn the furniture upside down and take a disposable wipe.",
+      "Wipe the exposed wooden legs with wipes and a cloth.",
+      "Peel felt pads from the backing sheet and press them onto leg ends.",
+      "Continue applying and adjusting pads on the other leg ends.",
+      "Rotate the furniture and press or inspect the fitted pads."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 11.1,
+      "description": "Flip the chair over and get out a container of wipes."
+    },
+    {
+      "start": 11.1,
+      "end": 77.41,
+      "description": "Wipe each chair leg clean, first with disposable wipes and then with a cloth."
+    },
+    {
+      "start": 77.41,
+      "end": 145.3,
+      "description": "Peel felt pads from the backing sheet and press them onto the chair legs."
+    },
+    {
+      "start": 145.3,
+      "end": 169.8,
+      "description": "Finish pressing and adjusting the pads, then rotate the chair to check all the legs."
+    }
+  ],
+  "object_inventory": [
+    "chair",
+    "chair leg",
+    "wipe",
+    "wipe container",
+    "cloth",
+    "felt pad",
+    "backing sheet"
+  ],
+  "notes": "Visual correction: overview_01.jpg t=150–159s shows a backrest and a seat, so the furniture is a chair; previous table identification was wrong. All new labels use chair; source old_summary values are preserved. Dense 3fps contact sheets and an overview sheet were reviewed for all 29 fine steps. The source summaries use inconsistent furniture names; the visible backrest and seat identify one white wooden chair, so new labels use chair consistently. Fine track ends at ffprobe_duration (169.8s) exactly, so no tail note is needed.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 2.33,
+      "summary": "flip the chair upside down",
+      "verb": "flip",
+      "object": "chair",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chair"
+        ],
+        "right": [
+          "chair"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand flips table over",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 2.33,
+      "end": 5.69,
+      "summary": "hold the container of wipes",
+      "verb": "hold",
+      "object": "wipe container",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wipe container"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds container",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.69,
+      "end": 8.26,
+      "summary": "pull a wipe from the container",
+      "verb": "pick up",
+      "object": "wipe",
+      "tool": null,
+      "target": "wipe container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wipe"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pulls out wipe from container",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.26,
+      "end": 11.1,
+      "summary": "flip the chair over again",
+      "verb": "flip",
+      "object": "chair",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wipe"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "wipe is kept in one hand while the other steadies the chair",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand flips the white wooden table over",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.1,
+      "end": 23.11,
+      "summary": "wipe the chair leg with the wipe",
+      "verb": "wipe",
+      "object": "chair leg",
+      "tool": "wipe",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wipe"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes chair leg with wipe",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.11,
+      "end": 25.98,
+      "summary": "continue wiping the chair leg",
+      "verb": "wipe",
+      "object": "chair leg",
+      "tool": "wipe",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wipe"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes chair leg with wipe",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.98,
+      "end": 36.84,
+      "summary": "wipe another chair leg with the wipe",
+      "verb": "wipe",
+      "object": "chair leg",
+      "tool": "wipe",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wipe"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes table leg with wipe",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.84,
+      "end": 43.23,
+      "summary": "pull out another wipe from the container",
+      "verb": "pick up",
+      "object": "wipe",
+      "tool": null,
+      "target": "wipe container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wipe"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pulls out wipe from container",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.23,
+      "end": 58.25,
+      "summary": "wipe the chair leg thoroughly with the wipe",
+      "verb": "wipe",
+      "object": "chair leg",
+      "tool": "wipe",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wipe"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes table leg with wipe",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.25,
+      "end": 61.53,
+      "summary": "wipe the chair leg with a cloth",
+      "verb": "wipe",
+      "object": "chair leg",
+      "tool": "cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "switches from the disposable wipe to a fabric cloth",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes table leg with cloth",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 61.53,
+      "end": 66.77,
+      "summary": "wipe another chair leg with the cloth",
+      "verb": "wipe",
+      "object": "chair leg",
+      "tool": "cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes chair leg with cloth",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 66.77,
+      "end": 71.55,
+      "summary": "continue wiping the chair leg with the cloth",
+      "verb": "wipe",
+      "object": "chair leg",
+      "tool": "cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes chair leg with cloth",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.55,
+      "end": 77.41,
+      "summary": "wipe the last chair leg with the cloth",
+      "verb": "wipe",
+      "object": "chair leg",
+      "tool": "cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes table leg with cloth",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 77.41,
+      "end": 88.68,
+      "summary": "peel a felt pad from the backing sheet",
+      "verb": "peel",
+      "object": "felt pad",
+      "tool": null,
+      "target": "backing sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "backing sheet"
+        ],
+        "right": [
+          "felt pad"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands peel felt pad from backing sheet",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 88.68,
+      "end": 95.56,
+      "summary": "press the felt pad onto the chair leg",
+      "verb": "press",
+      "object": "felt pad",
+      "tool": null,
+      "target": "chair leg",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press felt pad onto table leg",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.56,
+      "end": 103.06,
+      "summary": "peel another felt pad from its backing",
+      "verb": "peel",
+      "object": "felt pad",
+      "tool": null,
+      "target": "backing sheet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "felt pad"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand peels off a felt pad from its backing",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 103.06,
+      "end": 108.63,
+      "summary": "adjust the felt pad on the chair leg",
+      "verb": "adjust",
+      "object": "felt pad",
+      "tool": null,
+      "target": "chair leg",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands adjust felt pad on table leg",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 108.63,
+      "end": 112.87,
+      "summary": "press the felt pad firmly onto the chair leg",
+      "verb": "press",
+      "object": "felt pad",
+      "tool": null,
+      "target": "chair leg",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press felt pad onto table leg",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 112.87,
+      "end": 123.11,
+      "summary": "manipulate the felt pad on the chair leg",
+      "verb": "adjust",
+      "object": "felt pad",
+      "tool": null,
+      "target": "chair leg",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "long 10.2s segment seating the pad against the leg tip",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hands manipulate a felt pad on a table leg",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 123.11,
+      "end": 130.58,
+      "summary": "peel a felt pad from the template sheet",
+      "verb": "peel",
+      "object": "felt pad",
+      "tool": null,
+      "target": "backing sheet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "felt pad"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand peels off a felt pad from a template",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 130.58,
+      "end": 134.95,
+      "summary": "peel the backing off the felt pad",
+      "verb": "peel",
+      "object": "felt pad",
+      "tool": null,
+      "target": "backing sheet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "felt pad"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand peels backing off felt pad",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.95,
+      "end": 138.17,
+      "summary": "peel the adhesive backing off the felt pad",
+      "verb": "peel",
+      "object": "felt pad",
+      "tool": null,
+      "target": "backing sheet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "felt pad"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand peels off adhesive from felt pad",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 138.17,
+      "end": 145.3,
+      "summary": "press the felt pad onto the chair leg",
+      "verb": "press",
+      "object": "felt pad",
+      "tool": null,
+      "target": "chair leg",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press felt pad onto table leg",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 145.3,
+      "end": 146.59,
+      "summary": "press the felt pad firmly into place",
+      "verb": "press",
+      "object": "felt pad",
+      "tool": null,
+      "target": "chair leg",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands press felt pad onto table leg",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 146.59,
+      "end": 149.34,
+      "summary": "rotate the chair leg to check the pad",
+      "verb": "adjust",
+      "object": "chair leg",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand rotates table leg",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 149.34,
+      "end": 152.42,
+      "summary": "rotate the chair to reach another leg",
+      "verb": "move",
+      "object": "chair",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand rotates table to access leg",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 152.42,
+      "end": 154.02,
+      "summary": "adjust the chair leg",
+      "verb": "adjust",
+      "object": "chair leg",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand adjusts table leg",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 154.02,
+      "end": 161.6,
+      "summary": "rotate the chair leg to inspect the felt pad",
+      "verb": "adjust",
+      "object": "chair leg",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand rotates table leg",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 161.6,
+      "end": 169.8,
+      "summary": "rotate the chair to check all the felt pads",
+      "verb": "adjust",
+      "object": "chair",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chair"
+        ],
+        "right": [
+          "chair"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "final check of the pads on all four legs as the video ends",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand adjusts position near table leg",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 11.1,
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "instruction": "Flip the chair and get out wipes",
+      "description": "Flip the small chair upside down and pull a disposable wipe from its container.",
+      "transition_in": null,
+      "goal_contribution": "Exposes the leg ends and provides a cleaning wipe.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 11.1,
+      "end": 77.41,
+      "fine_index_range": [
+        4,
+        12
+      ],
+      "instruction": "Clean all the chair legs",
+      "description": "Wipe each turned-wood chair leg clean, first with disposable wipes and then with a cloth.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Cleans the leg surfaces before applying adhesive pads.",
+      "predictability_level": "strong",
+      "predictability_reason": "The upside-down chair and wipes are ready for leg cleaning."
+    },
+    {
+      "start": 77.41,
+      "end": 123.11,
+      "fine_index_range": [
+        13,
+        18
+      ],
+      "instruction": "Apply the first felt pads",
+      "description": "Peel felt pads from the backing sheet and press and adjust them onto the first two chair legs.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds protective felt to the first leg ends.",
+      "predictability_level": "strong",
+      "predictability_reason": "Clean chair legs are ready for adhesive felt pads."
+    },
+    {
+      "start": 123.11,
+      "end": 146.59,
+      "fine_index_range": [
+        19,
+        23
+      ],
+      "instruction": "Apply more felt pads",
+      "description": "Peel another felt pad from its backing and press it firmly onto a chair leg.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds protective felt to further leg ends.",
+      "predictability_level": "strong",
+      "predictability_reason": "After padding two legs, the other legs still need pads."
+    },
+    {
+      "start": 146.59,
+      "end": 169.8,
+      "fine_index_range": [
+        24,
+        28
+      ],
+      "instruction": "Finish and check all the pads",
+      "description": "Adjust the chair legs and rotate the chair to confirm a felt pad is seated on every leg.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Checks and seats the pads on the furniture legs.",
+      "predictability_level": "strong",
+      "predictability_reason": "Applied pads are ready for a final placement check."
+    }
+  ]
+}

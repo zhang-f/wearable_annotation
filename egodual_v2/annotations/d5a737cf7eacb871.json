@@ -1,0 +1,943 @@
+{
+  "video_id": "d5a737cf7eacb871",
+  "duration": 150.267,
+  "task": "Replacing a missing drawer knob screw",
+  "domain": "Handyman",
+  "query": "How do I replace a missing drawer knob screw?",
+  "goal": {
+    "title": "Replace a missing screw on a dresser drawer knob",
+    "description": "Opens a dresser drawer and removes the remaining loose screw from its knob with a screwdriver, then searches another drawer and a small parts storage bin for a replacement screw of the right size, trying a few candidates. Inserts the replacement screw into the knob and drives it in with the screwdriver over several passes, opening and closing the drawer partway through to test the fit, then reattaches and finishes tightening the screw before closing the drawer.",
+    "final_state": "The replacement screw is driven into the drawer knob and the drawer is pushed closed; the dresser top is shown undisturbed for the final uncovered second of footage.",
+    "procedure": [
+      "Inspect the drawer knob and remove its loose screw.",
+      "Search the storage drawer and parts container for a suitable screw.",
+      "Position a replacement screw in the knob attachment.",
+      "Turn the screwdriver repeatedly to seat the screw.",
+      "Open and close the drawer to check the knob.",
+      "Work on the screw again and finish the adjustment.",
+      "Push the drawer closed."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 19.14,
+      "description": "Remove the old screw from the drawer knob with a screwdriver."
+    },
+    {
+      "start": 19.14,
+      "end": 44.89,
+      "description": "Search another drawer and a storage bin for a replacement screw."
+    },
+    {
+      "start": 44.89,
+      "end": 49.85,
+      "description": "Insert the replacement screw into the knob hole."
+    },
+    {
+      "start": 49.85,
+      "end": 116.31,
+      "description": "Tighten the replacement screw into the knob with the screwdriver."
+    },
+    {
+      "start": 116.31,
+      "end": 124.5,
+      "description": "Open and close the drawer to test the fit."
+    },
+    {
+      "start": 124.5,
+      "end": 143.66,
+      "description": "Reattach and finish tightening the replacement screw."
+    },
+    {
+      "start": 143.66,
+      "end": 149.21,
+      "description": "Close the drawer."
+    }
+  ],
+  "object_inventory": [
+    "drawer",
+    "drawer knob",
+    "screw",
+    "screwdriver",
+    "storage bin",
+    "dresser"
+  ],
+  "notes": "Only human fine boundaries trusted. Overview (0.5fps) covering the full 150.267s video reviewed. Lighting is dim and the camera is chest-mounted looking down, so small-screw and screwdriver-tip detail is not always fully resolvable; several 'screws in'/'holds' steps (11-18, 25-29) are given confidence medium since the precise object in hand is inferred from the repeated turning motion and the task context rather than a crisp close-up. The fine track ends at 149.21s but ffprobe duration is 150.267s; the uncovered ~1.06s tail shows the undisturbed dresser top from above with no hand activity, so no additional step was added.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 2.8,
+      "summary": "place the loose screw on the dresser",
+      "verb": "place",
+      "object": "screw",
+      "tool": null,
+      "target": "dresser",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand places screw on dresser",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 2.8,
+      "end": 5.29,
+      "summary": "pick the drawer knob screw back up",
+      "verb": "hold",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds drawer knob screw",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.29,
+      "end": 7.06,
+      "summary": "pull open the drawer",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pulls open drawer",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 7.06,
+      "end": 8.96,
+      "summary": "place the screw back on the dresser",
+      "verb": "place",
+      "object": "screw",
+      "tool": null,
+      "target": "dresser",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand places screw on dresser",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.96,
+      "end": 19.14,
+      "summary": "unscrew the old screw from the drawer knob",
+      "verb": "unscrew",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=9-19s removes the remaining old screw from the knob with a screwdriver.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand removes drawer knob screw with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 19.14,
+      "end": 25.53,
+      "summary": "retrieve a screw from another drawer",
+      "verb": "pick up",
+      "object": "screw",
+      "tool": null,
+      "target": "drawer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand retrieves a screw from a drawer",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.53,
+      "end": 29.08,
+      "summary": "pick up a screw from the storage bin",
+      "verb": "pick up",
+      "object": "screw",
+      "tool": null,
+      "target": "storage bin",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up screw from storage bin",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.08,
+      "end": 31.06,
+      "summary": "hold the screw up to inspect it",
+      "verb": "hold",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds screw",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.06,
+      "end": 37.56,
+      "summary": "continue holding the screw to inspect it",
+      "verb": "hold",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand holds screw",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.56,
+      "end": 44.89,
+      "summary": "pick up another screw from the storage bin",
+      "verb": "pick up",
+      "object": "screw",
+      "tool": null,
+      "target": "storage bin",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up a screw from the storage bin",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.89,
+      "end": 49.85,
+      "summary": "position the replacement screw in the knob hole",
+      "verb": "insert",
+      "object": "screw",
+      "tool": null,
+      "target": "drawer knob",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand places screw into drawer",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.85,
+      "end": 56.64,
+      "summary": "start turning the screw into the drawer knob",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "Screwdriver tip and small screw detail are hard to resolve in the dim, chest-mounted framing.",
+      "old_summary": "hand screws knob into drawer",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.64,
+      "end": 59.88,
+      "summary": "continue screwing the knob into the drawer",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand screws in drawer knob",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.88,
+      "end": 71.62,
+      "summary": "tighten the screw with the screwdriver",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=60-72s long continuous tightening pass.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand uses screwdriver to tighten screw in drawer",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.62,
+      "end": 82.25,
+      "summary": "keep screwing the knob into the drawer",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand screws knob into drawer",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 82.25,
+      "end": 89.77,
+      "summary": "continue screwing the knob into the drawer",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand screws in screw into drawer knob",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.77,
+      "end": 106.67,
+      "summary": "screw the knob into the drawer with the screwdriver",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=90-107s long continuous tightening pass.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand screws knob into drawer using screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.67,
+      "end": 111.2,
+      "summary": "keep turning the screwdriver into the drawer knob",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand screws in screwdriver into drawer knob",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 111.2,
+      "end": 115.25,
+      "summary": "finish screwing in the screw with the screwdriver",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand screws in screw with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.25,
+      "end": 116.31,
+      "summary": "hold the screwdriver after tightening the screw",
+      "verb": "hold",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 116.31,
+      "end": 118.12,
+      "summary": "close the drawer to test the knob",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand closes drawer",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 118.12,
+      "end": 120.99,
+      "summary": "open the drawer again to check the knob",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand opens drawer",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 120.99,
+      "end": 122.37,
+      "summary": "push the drawer shut",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pushes drawer shut",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 122.37,
+      "end": 124.5,
+      "summary": "idle",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "no hand activity",
+      "beyond_video_end": false,
+      "transition_in": "NONE"
+    },
+    {
+      "start": 124.5,
+      "end": 126.28,
+      "summary": "pick the screwdriver back up",
+      "verb": "pick up",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 126.28,
+      "end": 129.44,
+      "summary": "screw the replacement screw into the knob",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand screws in screw into drawer knob",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 129.44,
+      "end": 130.97,
+      "summary": "reattach the screw to the drawer knob",
+      "verb": "attach",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand reattaches screw to drawer knob",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.97,
+      "end": 134.0,
+      "summary": "reattach the replacement screw to the knob",
+      "verb": "attach",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand reattaches the replacement screw to the drawer knob",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.0,
+      "end": 138.88,
+      "summary": "keep screwing the screwdriver into the drawer knob",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand screws in screwdriver into drawer knob",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 138.88,
+      "end": 143.66,
+      "summary": "finish screwing the screwdriver into the drawer knob",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "drawer knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand screws in screwdriver into drawer knob",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 143.66,
+      "end": 145.92,
+      "summary": "close the drawer",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand closes drawer",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 145.92,
+      "end": 149.21,
+      "summary": "finish closing the drawer",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand closes drawer",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 19.14,
+      "fine_index_range": [
+        0,
+        4
+      ],
+      "instruction": "Remove the old screw from the drawer knob",
+      "description": "Picks up and inspects the loose knob screw, opens the drawer, and unscrews the old screw from the drawer knob with a screwdriver.",
+      "transition_in": null,
+      "goal_contribution": "Exposes the loose fastener for replacement.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 19.14,
+      "end": 44.89,
+      "fine_index_range": [
+        5,
+        9
+      ],
+      "instruction": "Search for a replacement screw in storage",
+      "description": "Rummages through another drawer and a small parts storage bin, picking up and inspecting several screws to find a matching replacement.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Finds a candidate replacement fastener.",
+      "predictability_level": "weak",
+      "predictability_reason": "After remove the old screw from the drawer knob, search for a replacement screw in storage is plausible for replace a missing screw on a dresser drawer knob, but several next steps fit."
+    },
+    {
+      "start": 44.89,
+      "end": 49.85,
+      "fine_index_range": [
+        10,
+        10
+      ],
+      "instruction": "Insert the new screw into the drawer knob",
+      "description": "Positions the replacement screw into the drawer knob's hole, ready to be driven in.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Positions the replacement for attachment.",
+      "predictability_level": "strong",
+      "predictability_reason": "After search for a replacement screw in storage, insert the new screw into the drawer knob is a natural next stage toward replace a missing screw on a dresser drawer knob."
+    },
+    {
+      "start": 49.85,
+      "end": 116.31,
+      "fine_index_range": [
+        11,
+        19
+      ],
+      "instruction": "Tighten the new screw into the knob",
+      "description": "Repeatedly turns the screwdriver to drive the replacement screw into the knob, working it in over several passes.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Works the screw into the knob attachment.",
+      "predictability_level": "strong",
+      "predictability_reason": "After insert the new screw into the drawer knob, tighten the new screw into the knob is a natural next stage toward replace a missing screw on a dresser drawer knob."
+    },
+    {
+      "start": 116.31,
+      "end": 124.5,
+      "fine_index_range": [
+        20,
+        23
+      ],
+      "instruction": "Open and close the drawer to test it",
+      "description": "Opens and closes the drawer a few times to check that the knob now holds, pausing briefly with no hand activity.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Checks the knob while operating the drawer.",
+      "predictability_level": "strong",
+      "predictability_reason": "After tighten the new screw into the knob, open and close the drawer to test it is a natural next stage toward replace a missing screw on a dresser drawer knob."
+    },
+    {
+      "start": 124.5,
+      "end": 143.66,
+      "fine_index_range": [
+        24,
+        29
+      ],
+      "instruction": "Reattach and finish tightening the replacement screw",
+      "description": "Picks the screwdriver back up, reattaches the replacement screw to the knob, and keeps turning it until it is secure.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Resumes securing the knob after the fit test.",
+      "predictability_level": "weak",
+      "predictability_reason": "After open and close the drawer to test it, reattach and finish tightening the replacement screw is plausible for replace a missing screw on a dresser drawer knob, but several next steps fit."
+    },
+    {
+      "start": 143.66,
+      "end": 149.21,
+      "fine_index_range": [
+        30,
+        31
+      ],
+      "instruction": "Close the drawer",
+      "description": "Pushes the drawer shut to finish the repair.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Returns the drawer to its closed position.",
+      "predictability_level": "strong",
+      "predictability_reason": "After reattach and finish tightening the replacement screw, close the drawer is a natural next stage toward replace a missing screw on a dresser drawer knob."
+    }
+  ]
+}

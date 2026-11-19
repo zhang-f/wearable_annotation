@@ -1,0 +1,26 @@
+{
+  "video_id": "01e536365b8b57ad",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After unpack and separate the cheese slices, prepare strips of deli meat is a natural next stage toward make cheese rolls filled with deli meat."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After prepare strips of deli meat, assemble and plate both cheese rolls is a natural next stage toward make cheese rolls filled with deli meat."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After assemble and plate both cheese rolls, carry the plated rolls to the table is a natural next stage toward make cheese rolls filled with deli meat."
+    }
+  ]
+}

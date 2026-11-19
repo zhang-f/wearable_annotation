@@ -1,0 +1,349 @@
+{
+  "video_id": "7d9f2cd50a0580a9",
+  "duration": 215.0,
+  "task": "Labeling water shutoff valves",
+  "domain": "Handyman",
+  "query": "How do I label water shutoff valves?",
+  "goal": {
+    "title": "Write and attach identification labels to basement water shutoff valves",
+    "description": "Inspect the exposed water lines and valve handles above a basement work area. Write identifying text on small adhesive labels using a black marker, then peel and attach the labels near overhead valves. Carry a remaining label to the plumbing behind the laundry shelf and attach it there before returning to the worktable.",
+    "final_state": "Written labels are visible by the overhead valve handles and a label has been pressed onto the plumbing behind the laundry shelf. The marker lies on the table when the person returns; no water-flow test or valve repair is shown.",
+    "procedure": [
+      "Look along the exposed basement pipes and point to the valve locations.",
+      "Write identifying text on several adhesive labels at the table.",
+      "Cap the marker and peel the first label.",
+      "Press labels onto successive overhead valve/pipe locations.",
+      "Carry a remaining label to the valves behind the laundry shelf and attach it.",
+      "Return to the table after checking the labeled plumbing."
+    ]
+  },
+  "object_inventory": [
+    "marker",
+    "marker cap",
+    "adhesive label",
+    "valve",
+    "pipe",
+    "table"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 33.9,
+      "description": "Look along the overhead pipes and point at the valve handles above the work area. Return attention to the labels on the table."
+    },
+    {
+      "start": 33.9,
+      "end": 109.8,
+      "description": "Use a black marker to write text on the small white labels, moving each completed label aside. Cap and put down the marker when writing is finished."
+    },
+    {
+      "start": 109.8,
+      "end": 214.7,
+      "description": "Peel labels at the table and press them near successive overhead valves. Carry another label across the laundry area to the plumbing behind the shelf, press it in place and return to the table."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 33.9,
+      "old_summary": "n",
+      "summary": "point to the overhead water valves",
+      "verb": "inspect",
+      "object": "valve",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0–5s table view; t=9–18s and 27–30s points to separate overhead valves; returns to table by t=33s. Compound survey segment.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "The marker is held during pointing; no actual valve opening or closing is visible.",
+      "transition_in": null
+    },
+    {
+      "start": 33.9,
+      "end": 58.95,
+      "old_summary": "hand writes on a label",
+      "summary": "write identifying text on an adhesive label",
+      "verb": "write",
+      "object": "adhesive label",
+      "tool": "marker",
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=36–38s picks and uncaps marker, then writes through t=58.9s; multiple operations share the segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.95,
+      "end": 68.75,
+      "old_summary": "hand writes on label",
+      "summary": "write on another adhesive label",
+      "verb": "write",
+      "object": "adhesive label",
+      "tool": "marker",
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=60–61s moves a finished label and starts another; description follows main writing action.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.75,
+      "end": 90.57,
+      "old_summary": "hand writes on a label",
+      "summary": "write identifying text on the next adhesive label",
+      "verb": "write",
+      "object": "adhesive label",
+      "tool": "marker",
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69s sets written label aside and positions the next, then writes through t=90.5s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.57,
+      "end": 109.8,
+      "old_summary": "hand writes on a label",
+      "summary": "write on the remaining adhesive label",
+      "verb": "write",
+      "object": "adhesive label",
+      "tool": "marker",
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=91–105s writes; t=106–109s caps marker and places it on table.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Marker and cap are released by the boundary.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.8,
+      "end": 129.59,
+      "old_summary": "hand attaches label to water shutoff valve",
+      "summary": "attach an adhesive label beside the overhead valve",
+      "verb": "attach",
+      "object": "adhesive label",
+      "tool": null,
+      "target": "valve",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=110–117s picks/peels label, t=122–128s presses it near valve; contains preparation and attachment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 129.59,
+      "end": 153.06,
+      "old_summary": "hand attaches label to water shutoff valve",
+      "summary": "attach another label beside the next valve",
+      "verb": "attach",
+      "object": "adhesive label",
+      "tool": null,
+      "target": "valve",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=129.6–135s withdraws and returns to table, t=136–146s picks/peels label, t=147–152s presses at next valve.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 153.06,
+      "end": 170.57,
+      "old_summary": "hand attaches label to water shutoff valve",
+      "summary": "press the next adhesive label beside the valve",
+      "verb": "press",
+      "object": "adhesive label",
+      "tool": null,
+      "target": "valve",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=153–158s returns to table and selects another label; t=164–169s presses it beside valve.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 170.57,
+      "end": 175.13,
+      "old_summary": "hand picks up a label",
+      "summary": "pick up a written adhesive label",
+      "verb": "pick up",
+      "object": "adhesive label",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "adhesive label"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "The written tag is in the right hand at t=175.067s.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 175.13,
+      "end": 202.49,
+      "old_summary": "hand attaches label to water shutoff valve",
+      "summary": "attach the label to the plumbing behind the shelf",
+      "verb": "attach",
+      "object": "adhesive label",
+      "tool": null,
+      "target": "pipe",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "adhesive label"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=175–194s walks across laundry area carrying tag, t=196–202s attaches it behind shelf.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Tag is partly occluded by shelf and fingers at t=202.467s; right-hand label contact remains visible but release uncertain.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 202.49,
+      "end": 214.7,
+      "old_summary": "no hand activity",
+      "summary": "idle: check the plumbing and return to the table",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Opening t=202.5–203s continues label attachment; most of remaining interval is hands-off inspection and walking.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "No task-object interaction after withdrawing hand; assigned idle based on the dominant interval.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 33.9,
+      "fine_index_range": [
+        0,
+        0
+      ],
+      "instruction": "Locate the basement water shutoff valves",
+      "description": "Look along the overhead pipes and point at the valve handles above the work area. Return attention to the labels on the table.",
+      "goal_contribution": "Identify where the prepared labels will be installed.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 33.9,
+      "end": 109.8,
+      "fine_index_range": [
+        1,
+        4
+      ],
+      "instruction": "Write the valve identification labels",
+      "description": "Use a black marker to write text on the small white labels, moving each completed label aside. Cap and put down the marker when writing is finished.",
+      "goal_contribution": "Create readable identification tags for the valve locations.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Located valves are ready for identification labels to be written."
+    },
+    {
+      "start": 109.8,
+      "end": 214.7,
+      "fine_index_range": [
+        5,
+        10
+      ],
+      "instruction": "Attach the labels to the valve locations",
+      "description": "Peel labels at the table and press them near successive overhead valves. Carry another label across the laundry area to the plumbing behind the shelf, press it in place and return to the table.",
+      "goal_contribution": "Make the basement water shutoffs identifiable at their physical locations.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Written labels can be attached near the corresponding valves."
+    }
+  ],
+  "notes": "All 7 overview pages, 11 complete 3fps dense digest pages and the native endpoint sheet were reviewed. Existing fine segments are broad: the first contains inspection and gestures; label-placement steps include picking/peeling/walking/pressing. Boundaries preserved, so this video cannot support fully atomic descriptions. Exact handwritten words and pipe destinations are not consistently legible; no invented room names or valve identities are supplied. Only three coarse groups are justified by the preserved boundaries; first is a one-step 33.9s survey subtask. Repetitive writing and successive labels remain grouped, not split into arbitrary coarse tasks."
+}

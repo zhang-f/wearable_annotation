@@ -1,0 +1,31 @@
+{
+  "video_id": "7c471a0376c4005b",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After fill the tortilla with cooked filling, add avocado pieces is plausible for assemble and taste a filled tortilla wrap, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After add avocado pieces, add cheese, yogurt and leafy garnish is plausible for assemble and taste a filled tortilla wrap, but several next steps fit."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After add cheese, yogurt and leafy garnish, close containers and fold the wrap is a natural next stage toward assemble and taste a filled tortilla wrap."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After close containers and fold the wrap, taste and set down the wrap is a natural next stage toward assemble and taste a filled tortilla wrap."
+    }
+  ]
+}

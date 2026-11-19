@@ -1,0 +1,51 @@
+{
+  "video_id": "24d95d2a6c9ceb33",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The retrieved peeler naturally leads to peeling the mango."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The peeled mango must be cut to obtain flesh for blending."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The cut mango chunks are ready to load into the blender."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "With mango in the blender, adding flavorings is plausible, though blending could begin directly."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "The loaded and seasoned blender is ready to blend the mixture."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "The blended mixture must be transferred for storage."
+    },
+    {
+      "index": 7,
+      "level": "strong",
+      "reason": "A container of mango mixture is ready to cover and freeze."
+    },
+    {
+      "index": 8,
+      "level": "weak",
+      "reason": "After freezing, stirring is a plausible sorbet step but other next actions are possible."
+    }
+  ]
+}

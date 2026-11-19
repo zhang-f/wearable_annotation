@@ -1,0 +1,1415 @@
+{
+  "video_id": "d95755db6e6f482f",
+  "duration": 202.467,
+  "task": "Cleaning and reattaching a bathroom fan cover",
+  "domain": "Handyman",
+  "query": "How do I clean and reattach a bathroom fan cover?",
+  "goal": {
+    "title": "Clean and reinstall the bathroom fan cover",
+    "description": "Open the breaker panel and operate a switch, then enter the bathroom and remove the blue grille cover by undoing its two fasteners. Wipe both sides and slats of the cover with a pink cloth and wipe the exposed housing. Prepare the cover screws and repeatedly attempt to realign the grille, set down the screwdriver and reseat the cover, then start the fasteners by hand and tighten the right fastener with the screwdriver. Press the mounted cover, set the tool on the step stool, return to the breaker panel, operate the switch again and close the panel.",
+    "final_state": "The blue cover is refitted over the wall housing and the breaker panel is closed. No audio or airflow evidence establishes fan operation.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 5.0,
+        "description": "Reach up, open the breaker panel, flip a switch and withdraw the hand. The switch label and direction cannot be established from the frames."
+      },
+      {
+        "start": 5.0,
+        "end": 37.46,
+        "description": "Move into the bathroom, steady the cover and unscrew its right and left fasteners by hand. Pull the cover away, take it to the sink counter and set down the cover and loose screws."
+      },
+      {
+        "start": 37.46,
+        "end": 67.31,
+        "description": "Take the pink cloth and wipe the front, rear, slats and edges of the cover. Set the cover down, raise the cloth to the open housing, wipe the accessible rim/interior, then return and set the cloth aside."
+      },
+      {
+        "start": 67.31,
+        "end": 115.46,
+        "description": "Take a fastener, position it in a cover hole, collect the screwdriver and bring the cover back to the wall. Try to align and thread the fastener, adjust the cover repeatedly, then remove it and set the screwdriver down."
+      },
+      {
+        "start": 115.46,
+        "end": 153.0,
+        "description": "Raise and reseat the cover repeatedly, turn the left screw by hand and then work the right screw. Retrieve the screwdriver after the cover is held in position."
+      },
+      {
+        "start": 153.0,
+        "end": 195.64,
+        "description": "Position the driver on the right screw and turn it repeatedly. Finish the visible tightening, press the cover, descend and place the screwdriver on the step stool."
+      },
+      {
+        "start": 195.64,
+        "end": 202.15,
+        "description": "Return to the open breaker panel, flip the switch and close the panel door."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "description": "Reach up, open the breaker panel, flip a switch and withdraw the hand. The switch label and direction cannot be established from the frames."
+    },
+    {
+      "start": 5.0,
+      "end": 37.46,
+      "description": "Move into the bathroom, steady the cover and unscrew its right and left fasteners by hand. Pull the cover away, take it to the sink counter and set down the cover and loose screws."
+    },
+    {
+      "start": 37.46,
+      "end": 67.31,
+      "description": "Take the pink cloth and wipe the front, rear, slats and edges of the cover. Set the cover down, raise the cloth to the open housing, wipe the accessible rim/interior, then return and set the cloth aside."
+    },
+    {
+      "start": 67.31,
+      "end": 115.46,
+      "description": "Take a fastener, position it in a cover hole, collect the screwdriver and bring the cover back to the wall. Try to align and thread the fastener, adjust the cover repeatedly, then remove it and set the screwdriver down."
+    },
+    {
+      "start": 115.46,
+      "end": 153.0,
+      "description": "Raise and reseat the cover repeatedly, turn the left screw by hand and then work the right screw. Retrieve the screwdriver after the cover is held in position."
+    },
+    {
+      "start": 153.0,
+      "end": 195.64,
+      "description": "Position the driver on the right screw and turn it repeatedly. Finish the visible tightening, press the cover, descend and place the screwdriver on the step stool."
+    },
+    {
+      "start": 195.64,
+      "end": 202.15,
+      "description": "Return to the open breaker panel, flip the switch and close the panel door."
+    }
+  ],
+  "object_inventory": [
+    "fan cover",
+    "screw",
+    "screwdriver",
+    "cleaning cloth",
+    "breaker panel",
+    "circuit breaker switch",
+    "fan housing",
+    "counter",
+    "step stool"
+  ],
+  "notes": "Only human fine boundaries trusted. All877 dense sampled frames, complete overview and49 native end frames inspected. Subtasks newly grouped from actual steps; repeated failed refitting is preserved in narrative. Circuit breaker switch direction and labels unreadable, so off/on state is not asserted. Fixed panel/cover counted as held only while fingers grip/support them. Original0.1s segment47 preserved. Tail202.15–202.467s shows closed panel with no further task interaction. Predictability pending independent prior-context assessment.",
+  "fine": [
+    {
+      "summary": "reach for the breaker panel",
+      "verb": "reach for",
+      "object": "breaker panel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 0,
+      "end": 2.19,
+      "old_summary": "hand unscrews and grasps the fan cover",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "summary": "open the breaker panel",
+      "verb": "open",
+      "object": "breaker panel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 2.19,
+      "end": 3.29,
+      "old_summary": "hand detaches the fan cover from the wall and reaches into the housing",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "flip a circuit breaker switch",
+      "verb": "adjust",
+      "object": "circuit breaker switch",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Switch direction and printed circuit identity cannot be read; no off/on state asserted.",
+      "confidence": "high",
+      "notes": "",
+      "start": 3.29,
+      "end": 4.5,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "withdraw the hand from the breaker panel",
+      "verb": "move",
+      "object": "breaker panel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 4.5,
+      "end": 5.0,
+      "old_summary": "hand touches the fan housing",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "move to the bathroom work area",
+      "verb": "move",
+      "object": "step stool",
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=5–10s enter bathroom and climb toward vent; no hand-held object at segment end.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 5.0,
+      "end": 11.23,
+      "old_summary": "Hand touches the fan grille",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "grasp the fan cover beside its screw",
+      "verb": "hold",
+      "object": "fan cover",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 11.23,
+      "end": 13.1,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "unscrew the right fan cover screw by hand",
+      "verb": "unscrew",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 13.1,
+      "end": 21.86,
+      "old_summary": "Left hand holds fan grille while right hand removes screws and detaches grille",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "unscrew the left fan cover screw by hand",
+      "verb": "unscrew",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 21.86,
+      "end": 27.57,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pull the fan cover away from the wall",
+      "verb": "remove",
+      "object": "fan cover",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 27.57,
+      "end": 29.92,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "carry the fan cover to the sink counter",
+      "verb": "move",
+      "object": "fan cover",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 29.92,
+      "end": 32.9,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "place the fan cover on the counter",
+      "verb": "place",
+      "object": "fan cover",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=33s lay cover down; hands still steady its edges at33.533s.",
+      "confidence": "high",
+      "notes": "",
+      "start": 32.9,
+      "end": 33.55,
+      "old_summary": "Hand holds fan grille then picks up screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "place a cover screw on the counter",
+      "verb": "place",
+      "object": "screw",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=34–35s handle loose screws beside the screwdriver; exact individual screw identity is indistinguishable.",
+      "confidence": "high",
+      "notes": "",
+      "start": 33.55,
+      "end": 35.39,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "transfer a cover screw between the hands",
+      "verb": "move",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=35.5–36.5s small fastener is partly hidden between fingertips; does not establish which of identical screws is held.",
+      "confidence": "medium",
+      "notes": "",
+      "start": 35.39,
+      "end": 36.6,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "put down the cover screw on the counter",
+      "verb": "put down",
+      "object": "screw",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 36.6,
+      "end": 37.46,
+      "old_summary": "Hand picks up screw then wipes fan grille with cloth",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pick up the cleaning cloth",
+      "verb": "pick up",
+      "object": "cleaning cloth",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cleaning cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 37.46,
+      "end": 38.17,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "wipe the front of the fan cover",
+      "verb": "wipe",
+      "object": "fan cover",
+      "tool": "cleaning cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "cleaning cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 38.17,
+      "end": 41.3,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "wipe the back and edges of the fan cover",
+      "verb": "wipe",
+      "object": "fan cover",
+      "tool": "cleaning cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "cleaning cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=41.4s flip cover, t=42–48s wipe rear slats and rim; boundaries preserved.",
+      "confidence": "high",
+      "notes": "",
+      "start": 41.3,
+      "end": 48.9,
+      "old_summary": "Hand flips fan grille then wipes it with cloth",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "place the fan cover on the counter",
+      "verb": "place",
+      "object": "fan cover",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cleaning cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 48.9,
+      "end": 50.84,
+      "old_summary": "Hand continues wiping fan grille with cloth",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "raise the cleaning cloth toward the fan housing",
+      "verb": "move",
+      "object": "cleaning cloth",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cleaning cloth"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=51–53s climb toward open housing while raising cloth.",
+      "confidence": "high",
+      "notes": "",
+      "start": 50.84,
+      "end": 53.41,
+      "old_summary": "Hand wipes inside wall opening with cloth",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "wipe around the exposed fan housing",
+      "verb": "wipe",
+      "object": "fan housing",
+      "tool": "cleaning cloth",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cleaning cloth"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=54–63s wipe housing rim and accessible interior; do not infer invisible wiring work.",
+      "confidence": "high",
+      "notes": "",
+      "start": 53.41,
+      "end": 63.88,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "carry the cleaning cloth back to the counter",
+      "verb": "move",
+      "object": "cleaning cloth",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cleaning cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 63.88,
+      "end": 65.7,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "put down the cleaning cloth on the counter",
+      "verb": "put down",
+      "object": "cleaning cloth",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=66.0s take cover, t=67s set cloth aside.",
+      "confidence": "high",
+      "notes": "",
+      "start": 65.7,
+      "end": 67.31,
+      "old_summary": "Hand holds fan grille then inserts and tightens first screw",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pick up a cover screw",
+      "verb": "pick up",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 67.31,
+      "end": 68.43,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "position the screw in the fan cover hole",
+      "verb": "insert",
+      "object": "screw",
+      "tool": null,
+      "target": "fan cover",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 68.43,
+      "end": 69.4,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "adjust the screw in the fan cover hole",
+      "verb": "adjust",
+      "object": "screw",
+      "tool": null,
+      "target": "fan cover",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 69.4,
+      "end": 71.3,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "steady the fan cover on the counter",
+      "verb": "hold",
+      "object": "fan cover",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 71.3,
+      "end": 72.48,
+      "old_summary": "Hand inserts and tightens second screw",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "pick up the screwdriver",
+      "verb": "pick up",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 72.48,
+      "end": 73.86,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "carry the fan cover and screwdriver toward the wall",
+      "verb": "move",
+      "object": "fan cover",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 73.86,
+      "end": 78.17,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "raise the fan cover toward the housing",
+      "verb": "move",
+      "object": "fan cover",
+      "tool": null,
+      "target": "fan housing",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 78.17,
+      "end": 82.3,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "align the fan cover with the housing",
+      "verb": "place",
+      "object": "fan cover",
+      "tool": null,
+      "target": "fan housing",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver",
+          "fan cover"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 82.3,
+      "end": 88.31,
+      "old_summary": "Hand inserts and tightens fourth screw",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "turn the cover screw by hand",
+      "verb": "screw",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver",
+          "fan cover"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 88.31,
+      "end": 93.3,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "adjust the cover screw and realign the fan cover",
+      "verb": "adjust",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver",
+          "fan cover"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=94–102s repeatedly try screw; t=103s change grip and steady cover.",
+      "confidence": "high",
+      "notes": "",
+      "start": 93.3,
+      "end": 103.34,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "try to seat the cover screw",
+      "verb": "screw",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=104–110s repeated fastener alignment; attachment is not yet successful.",
+      "confidence": "high",
+      "notes": "",
+      "start": 103.34,
+      "end": 110.67,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "remove the misaligned fan cover",
+      "verb": "remove",
+      "object": "fan cover",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 110.67,
+      "end": 112.91,
+      "old_summary": "hand places and presses the fan cover against the wall",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "put down the screwdriver on the counter",
+      "verb": "put down",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=113–115s lower cover and driver; driver is left on counter.",
+      "confidence": "high",
+      "notes": "",
+      "start": 112.91,
+      "end": 115.46,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "reposition the fan cover over the housing",
+      "verb": "place",
+      "object": "fan cover",
+      "tool": null,
+      "target": "fan housing",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=116–124s lift/reseat cover repeatedly; t=125–129s begin holding and turning left fastener.",
+      "confidence": "high",
+      "notes": "",
+      "start": 115.46,
+      "end": 129.56,
+      "old_summary": "hand places and presses the fan cover against the wall",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "turn the left cover screw by hand",
+      "verb": "screw",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 129.56,
+      "end": 137.0,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "adjust the left cover screw by hand",
+      "verb": "adjust",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screw"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 137.0,
+      "end": 140.0,
+      "old_summary": "hand holds the screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "screw the left fastener into the housing",
+      "verb": "screw",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "fan cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 140.0,
+      "end": 148.0,
+      "old_summary": "hand holds the screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "turn the right cover screw by hand",
+      "verb": "screw",
+      "object": "screw",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 148.0,
+      "end": 151.4,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "pick up the screwdriver from the counter",
+      "verb": "pick up",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 151.4,
+      "end": 153.0,
+      "old_summary": "hand picks up the screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "position the screwdriver on the right cover screw",
+      "verb": "place",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "screw",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=153–155s retrieve driver and rise; t=156–160s align tip on screw.",
+      "confidence": "high",
+      "notes": "",
+      "start": 153.0,
+      "end": 160.42,
+      "old_summary": "hand holds the screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "tighten the right cover screw with the screwdriver",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 160.42,
+      "end": 180.93,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "continue tightening the right cover screw",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "start": 180.93,
+      "end": 188.81,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "finish tightening and press the fan cover",
+      "verb": "press",
+      "object": "fan cover",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "fan cover"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=189–191s final driver turns then t=191.4s press cover with left palm.",
+      "confidence": "high",
+      "notes": "",
+      "start": 188.81,
+      "end": 191.71,
+      "old_summary": "hand touches the picture frame",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "put down the screwdriver on the step stool",
+      "verb": "put down",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "step stool",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=192s lower arms, t=193–195s descend, t=195.3s place driver on stool.",
+      "confidence": "high",
+      "notes": "",
+      "start": 191.71,
+      "end": 195.64,
+      "old_summary": "hand walks away from the bathroom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "summary": "return to the breaker panel",
+      "verb": "move",
+      "object": "breaker panel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=196–198s walk out; t=198.9s right hand reaches breaker.",
+      "confidence": "high",
+      "notes": "",
+      "start": 195.64,
+      "end": 199.0,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "flip the circuit breaker switch",
+      "verb": "adjust",
+      "object": "circuit breaker switch",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.1s source segment retained; boundary lies in visible breaker interaction, no switch direction inferred.",
+      "confidence": "high",
+      "notes": "",
+      "start": 199.0,
+      "end": 199.1,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "summary": "close the breaker panel",
+      "verb": "close",
+      "object": "breaker panel",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=199.1–199.6s finish breaker interaction, t=200.3–201.5s close panel door.",
+      "confidence": "high",
+      "notes": "",
+      "start": 199.1,
+      "end": 202.15,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "instruction": "Operate the breaker before removing the cover",
+      "description": "Reach up, open the breaker panel, flip a switch and withdraw the hand. The switch label and direction cannot be established from the frames.",
+      "goal_contribution": "Perform the observed initial breaker operation before approaching the bathroom vent.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 5.0,
+      "end": 37.46,
+      "fine_index_range": [
+        4,
+        13
+      ],
+      "instruction": "Remove the fan cover and set aside its screws",
+      "description": "Move into the bathroom, steady the cover and unscrew its right and left fasteners by hand. Pull the cover away, take it to the sink counter and set down the cover and loose screws.",
+      "goal_contribution": "Expose the housing and bring the removable cover to the cleaning surface.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_reason": "After operating the breaker, removing the fan cover enables cleaning."
+    },
+    {
+      "start": 37.46,
+      "end": 67.31,
+      "fine_index_range": [
+        14,
+        21
+      ],
+      "instruction": "Wipe the fan cover and exposed housing",
+      "description": "Take the pink cloth and wipe the front, rear, slats and edges of the cover. Set the cover down, raise the cloth to the open housing, wipe the accessible rim/interior, then return and set the cloth aside.",
+      "goal_contribution": "Clean the removable grille and exposed housing surfaces before reinstallation.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_reason": "The removed cover and open housing are ready to wipe."
+    },
+    {
+      "start": 67.31,
+      "end": 115.46,
+      "fine_index_range": [
+        22,
+        34
+      ],
+      "instruction": "Prepare the cover and attempt to refit it",
+      "description": "Take a fastener, position it in a cover hole, collect the screwdriver and bring the cover back to the wall. Try to align and thread the fastener, adjust the cover repeatedly, then remove it and set the screwdriver down.",
+      "goal_contribution": "Prepare the cleaned cover for mounting and record the first unsuccessful alignment attempt.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_reason": "After wiping, the cover must be refitted."
+    },
+    {
+      "start": 115.46,
+      "end": 153.0,
+      "fine_index_range": [
+        35,
+        40
+      ],
+      "instruction": "Reseat the cover and start the mounting screws",
+      "description": "Raise and reseat the cover repeatedly, turn the left screw by hand and then work the right screw. Retrieve the screwdriver after the cover is held in position.",
+      "goal_contribution": "Align the cover and start the fasteners before tightening with the tool.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_reason": "The initial fitting attempts naturally continue with reseating and starting screws."
+    },
+    {
+      "start": 153.0,
+      "end": 195.64,
+      "fine_index_range": [
+        41,
+        45
+      ],
+      "instruction": "Tighten the cover screws and lower the screwdriver",
+      "description": "Position the driver on the right screw and turn it repeatedly. Finish the visible tightening, press the cover, descend and place the screwdriver on the step stool.",
+      "goal_contribution": "Secure the reinstalled cover and set the tool aside.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_reason": "Started mounting screws need final tightening."
+    },
+    {
+      "start": 195.64,
+      "end": 202.15,
+      "fine_index_range": [
+        46,
+        48
+      ],
+      "instruction": "Operate the breaker and close the panel",
+      "description": "Return to the open breaker panel, flip the switch and close the panel door.",
+      "goal_contribution": "Finish the observed post-maintenance breaker operation; no fan sound or operation is inferred.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_reason": "After reinstalling the cover, the breaker can be operated again."
+    }
+  ]
+}

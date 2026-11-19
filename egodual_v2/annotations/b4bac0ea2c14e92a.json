@@ -1,0 +1,2227 @@
+{
+  "video_id": "b4bac0ea2c14e92a",
+  "duration": 183.4,
+  "task": "Making a pom-pom pencil topper (tying a pom-pom to a pencil)",
+  "domain": "Arts and Crafts",
+  "query": "How do I tie a pom-pom to a pencil to make a pom-pom pencil topper?",
+  "goal": {
+    "title": "Make a white yarn tassel on a pencil",
+    "description": "Pull and cut a length of white yarn, form loops around fingers while holding a pink pencil, gather and tie the loops into a tassel, then cut and trim the dangling yarn. The original fine track covers only the first portion of the craft.",
+    "final_state": "In the full video a trimmed white tassel hangs from the pink pencil; at the last annotated boundary trimming is still in progress.",
+    "procedure": [
+      "Pull out white yarn, cut a length and prepare a loop.",
+      "Position the yarn on the pink pencil and wrap multiple loops around left fingers.",
+      "Slide loops together, tie and tighten the yarn around the bundle.",
+      "Cut loop ends and trim the fringe, repeatedly checking the hanging tassel."
+    ]
+  },
+  "object_inventory": [
+    "white yarn",
+    "yarn ball",
+    "scissors",
+    "pink pencil",
+    "yarn bundle",
+    "yarn tassel"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 20.7,
+      "description": "Yarn is pulled from the ball, cut with scissors, folded and pinched into a loop before the pink pencil is picked up."
+    },
+    {
+      "start": 20.7,
+      "end": 41.0,
+      "description": "The pencil is held horizontally while repeated passes of white yarn form a bundle around the left fingers."
+    },
+    {
+      "start": 41.0,
+      "end": 54.0,
+      "description": "Hands pinch the loops, remove them from the fingers and pull yarn around the gathered bundle near the pencil."
+    },
+    {
+      "start": 54.0,
+      "end": 88.1,
+      "description": "The short preserved segments show repeated threading, pulling, pinching and tightening of yarn, then rotating the pencil and spreading the hanging loops."
+    },
+    {
+      "start": 88.1,
+      "end": 98.6,
+      "description": "Scissors are picked up, positioned around loops and used to snip yarn ends while the left hand rotates the bundle. Trimming continues beyond the source fine track."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.0,
+      "old_summary": "hand holds yarn taut between hands",
+      "summary": "both hands pull white yarn taut across the lap",
+      "verb": "pull",
+      "object": "white yarn",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.0,
+      "end": 6.5,
+      "old_summary": "hand holds yarn while adjusting its position",
+      "summary": "right hand reaches for scissors while left holds yarn",
+      "verb": "reach",
+      "object": "scissors",
+      "tool": null,
+      "target": "white yarn",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "white yarn"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.5,
+      "end": 8.2,
+      "old_summary": "hand cuts yarn with scissors",
+      "summary": "right hand cuts yarn held by left hand",
+      "verb": "cut",
+      "object": "white yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "white yarn"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.2,
+      "end": 9.9,
+      "old_summary": "hand drops scissors",
+      "summary": "right hand sets scissors beside the yarn ball",
+      "verb": "set down",
+      "object": "scissors",
+      "tool": null,
+      "target": "yarn ball",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "white yarn"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.9,
+      "end": 11.9,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "both hands draw out and separate the cut yarn strand",
+      "verb": "separate",
+      "object": "white yarn",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.9,
+      "end": 14.7,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "both hands fold and pinch a loop in the yarn",
+      "verb": "fold",
+      "object": "white yarn",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.7,
+      "end": 20.7,
+      "old_summary": "hand ties knot in yarn",
+      "summary": "both hands pull yarn ends then take the pink pencil",
+      "verb": "take",
+      "object": "pink pencil",
+      "tool": null,
+      "target": "white yarn",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes manipulating yarn, reaching for pencil near 19–20s and taking it; preserved interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 20.7,
+      "end": 27.1,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "both hands loop white yarn around the pink pencil",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 27.1,
+      "end": 30.3,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand winds yarn around left fingers beside pencil",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.3,
+      "end": 32.3,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand pulls yarn down while left holds pencil",
+      "verb": "pull",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 32.3,
+      "end": 33.3,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand brings yarn around left fingers",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.3,
+      "end": 34.3,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand draws yarn across the left palm",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 34.3,
+      "end": 35.3,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand pulls yarn upwards beside left-held pencil",
+      "verb": "pull",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.3,
+      "end": 36.3,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand wraps another yarn loop around left fingers",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.3,
+      "end": 37.3,
+      "old_summary": "hand pulls yarn end through loop",
+      "summary": "right hand guides yarn down across left fingers",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.3,
+      "end": 38.3,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand wraps yarn around the growing finger loops",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.3,
+      "end": 39.3,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand pulls yarn down beside the pencil",
+      "verb": "pull",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.3,
+      "end": 39.9,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand carries yarn over the left fingers",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.9,
+      "end": 40.0,
+      "old_summary": "hand wraps yarn around pencil",
+      "summary": "right hand guides yarn over the finger loops",
+      "verb": "wrap",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "0.1s preserved interval is part of the same visible yarn winding motion.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.0,
+      "end": 40.5,
+      "old_summary": "hand ties knot on yarn end",
+      "summary": "right hand pulls yarn across the left palm",
+      "verb": "pull",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.5,
+      "end": 41.0,
+      "old_summary": "hand pulls yarn end through loop",
+      "summary": "right hand wraps yarn beneath left fingers",
+      "verb": "pull",
+      "object": "white yarn",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "white yarn"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.0,
+      "end": 43.0,
+      "old_summary": "hand pulls yarn taut",
+      "summary": "both hands pinch the yarn loops around the pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.0,
+      "end": 44.0,
+      "old_summary": "hand tightens knot on yarn attached to pencil",
+      "summary": "right hand gathers loops while left holds pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.0,
+      "end": 45.0,
+      "old_summary": "hand pulls yarn ends to tighten knot on pencil",
+      "summary": "both hands slide yarn loops off left fingers",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 45.0,
+      "end": 46.0,
+      "old_summary": "hand pulls yarn taut",
+      "summary": "right hand draws yarn around the gathered loop bundle",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.0,
+      "end": 47.0,
+      "old_summary": "hand ties yarn around pencil",
+      "summary": "both hands pinch the gathered yarn beneath pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.0,
+      "end": 48.0,
+      "old_summary": "hand pulls yarn ends to tighten knot",
+      "summary": "right hand tugs a yarn strand through the bundle",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.0,
+      "end": 49.0,
+      "old_summary": "hand ties knot on yarn",
+      "summary": "right hand pulls a yarn end from the loop bundle",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.0,
+      "end": 50.0,
+      "old_summary": "hand ties knot in yarn",
+      "summary": "right hand draws a loose yarn end downward",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.0,
+      "end": 50.1,
+      "old_summary": "hand pulls yarn taut on pencil",
+      "summary": "right hand holds the loose yarn end beside bundle",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "0.1s preserved interval shows holding/pulling the same yarn end.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.1,
+      "end": 52.0,
+      "old_summary": "hand ties knot on yarn around pencil",
+      "summary": "right hand pulls yarn taut while left steadies bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.0,
+      "end": 53.0,
+      "old_summary": "hand pulls yarn taut",
+      "summary": "both hands pull apart yarn ends around the bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 53.0,
+      "end": 54.0,
+      "old_summary": "hand pulls yarn through loop on pencil",
+      "summary": "both hands tighten yarn beneath the pink pencil",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.0,
+      "end": 55.0,
+      "old_summary": "hand pulls yarn taut",
+      "summary": "right hand threads a yarn end around the bundle",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.0,
+      "end": 56.0,
+      "old_summary": "hand ties yarn around pencil",
+      "summary": "right hand pinches and draws yarn through a loop",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.0,
+      "end": 57.0,
+      "old_summary": "hand pulls yarn end tight on pencil",
+      "summary": "both hands tug yarn around the gathered bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 57.0,
+      "end": 58.5,
+      "old_summary": "hand ties knot on yarn bundle",
+      "summary": "right hand pulls a yarn end beside the pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.5,
+      "end": 59.0,
+      "old_summary": "hand ties yarn around pencil",
+      "summary": "right hand guides yarn through the gathered loops",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.0,
+      "end": 59.9,
+      "old_summary": "hand tightens knot on yarn",
+      "summary": "right hand pinches the yarn tie beneath pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.9,
+      "end": 61.0,
+      "old_summary": "hand ties knot on yarn",
+      "summary": "right hand pulls yarn end while left holds bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 61.0,
+      "end": 62.0,
+      "old_summary": "hand tightens knot on yarn",
+      "summary": "both hands tighten the yarn tie beside pencil",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.0,
+      "end": 63.0,
+      "old_summary": "hand tightens knot on yarn",
+      "summary": "right hand threads yarn around the bundle neck",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 63.0,
+      "end": 64.0,
+      "old_summary": "hand ties knot on yarn bundle",
+      "summary": "right hand pulls yarn strand down from the bundle",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 64.0,
+      "end": 65.0,
+      "old_summary": "hand ties knot in yarn",
+      "summary": "right hand tucks yarn into the bundle tie",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.0,
+      "end": 66.0,
+      "old_summary": "hand pulls yarn through loop on pencil",
+      "summary": "both hands pull yarn ends against the bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 66.0,
+      "end": 67.0,
+      "old_summary": "hand ties knot on yarn",
+      "summary": "right hand pulls yarn to tighten the tie",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 67.0,
+      "end": 68.0,
+      "old_summary": "hand ties knot on yarn",
+      "summary": "right hand repositions yarn end beside bundle neck",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.0,
+      "end": 69.0,
+      "old_summary": "hand pulls yarn tight on pencil",
+      "summary": "right hand works yarn around the gathered loops",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.0,
+      "end": 70.0,
+      "old_summary": "hand ties knot on yarn",
+      "summary": "right hand draws the yarn end through the tie",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 70.0,
+      "end": 71.0,
+      "old_summary": "hand pulls yarn taut",
+      "summary": "both hands pinch and tighten the gathered yarn",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.0,
+      "end": 72.0,
+      "old_summary": "hand pulls yarn to tighten knot on pencil",
+      "summary": "right hand pulls yarn downward from left-held bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 72.0,
+      "end": 73.0,
+      "old_summary": "hand pulls yarn taut",
+      "summary": "right hand draws yarn across the bundle neck",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.0,
+      "end": 74.0,
+      "old_summary": "hands tie yarn around pencil",
+      "summary": "both hands adjust yarn tie beside the pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.0,
+      "end": 75.0,
+      "old_summary": "hand pulls yarn to tighten knot",
+      "summary": "right hand tugs yarn end against the bundle",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.0,
+      "end": 76.0,
+      "old_summary": "hand tightens knot on yarn around pencil",
+      "summary": "both hands tighten yarn wrapped around bundle neck",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 76.0,
+      "end": 77.0,
+      "old_summary": "hand tightens knot on yarn",
+      "summary": "right hand pulls loose strand beneath the pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 77.0,
+      "end": 78.0,
+      "old_summary": "hand pulls yarn through knot on pencil",
+      "summary": "right hand tightens yarn tie while left holds bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.0,
+      "end": 79.0,
+      "old_summary": "hand pulls yarn taut",
+      "summary": "right hand tugs yarn then lifts pencil and bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 79.0,
+      "end": 80.0,
+      "old_summary": "hand pulls yarn taut",
+      "summary": "both hands rotate pencil and gathered yarn bundle",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 80.0,
+      "end": 81.0,
+      "old_summary": "hand pulls yarn through loop on pencil",
+      "summary": "right hand arranges yarn loops beneath the pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 81.0,
+      "end": 82.0,
+      "old_summary": "hand ties knot on yarn",
+      "summary": "both hands turn and flatten the yarn bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 82.0,
+      "end": 83.0,
+      "old_summary": "hand pulls yarn taut",
+      "summary": "right hand pulls loose yarn end away from bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.0,
+      "end": 84.0,
+      "old_summary": "hand pulls yarn from bundle",
+      "summary": "left hand holds bundle while right briefly withdraws",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.0,
+      "end": 85.0,
+      "old_summary": "hand ties knot on yarn around pencil",
+      "summary": "both hands pinch the yarn tie around pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 85.0,
+      "end": 86.5,
+      "old_summary": "hand ties knot in yarn around pencil",
+      "summary": "right hand tightens yarn near bundle neck",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.5,
+      "end": 87.1,
+      "old_summary": "hand tightens knot on yarn",
+      "summary": "right hand tugs a strand from the bundle",
+      "verb": "tighten",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.1,
+      "end": 88.0,
+      "old_summary": "hand ties knot on yarn bundle",
+      "summary": "right hand separates hanging yarn loops beneath pencil",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "white yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.0,
+      "end": 88.1,
+      "old_summary": "hand holds pencil with yarn attached",
+      "summary": "left hand holds pencil and loop bundle over lap",
+      "verb": "adjust",
+      "object": "yarn bundle",
+      "tool": null,
+      "target": "pink pencil",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "0.1s preserved hold interval.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.1,
+      "end": 90.6,
+      "old_summary": "hand holds pom-pom and pencil together",
+      "summary": "right hand reaches for scissors while left holds bundle",
+      "verb": "reach",
+      "object": "scissors",
+      "tool": null,
+      "target": "yarn bundle",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 90.6,
+      "end": 90.7,
+      "old_summary": "hand holds pencil with pom-pom attached",
+      "summary": "right hand brings scissors toward the yarn loops",
+      "verb": "position",
+      "object": "scissors",
+      "tool": null,
+      "target": "yarn bundle",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "0.1s preserved scissors positioning interval.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.7,
+      "end": 92.0,
+      "old_summary": "hand holds scissors near pom-pom",
+      "summary": "right hand positions scissors around looped yarn ends",
+      "verb": "position",
+      "object": "scissors",
+      "tool": null,
+      "target": "yarn bundle",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn bundle"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.0,
+      "end": 93.9,
+      "old_summary": "hand holds scissors near pom-pom",
+      "summary": "right hand cuts through the yarn loops",
+      "verb": "trim",
+      "object": "yarn tassel",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn tassel"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 93.9,
+      "end": 94.0,
+      "old_summary": "hand holds scissors",
+      "summary": "right hand holds scissors at the yarn fringe",
+      "verb": "trim",
+      "object": "yarn tassel",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn tassel"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "0.1s preserved scissors hold interval.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.0,
+      "end": 94.1,
+      "old_summary": "hand holds pencil with pom-pom attached",
+      "summary": "right hand opens scissors beside the yarn ends",
+      "verb": "trim",
+      "object": "yarn tassel",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn tassel"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "0.1s preserved scissors adjustment interval.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.1,
+      "end": 96.0,
+      "old_summary": "hand trims pom-pom with scissors",
+      "summary": "right hand snips yarn ends held by left hand",
+      "verb": "trim",
+      "object": "yarn tassel",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn tassel"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.0,
+      "end": 97.0,
+      "old_summary": "hand trims pom-pom with scissors",
+      "summary": "left hand rotates yarn tassel while right holds scissors",
+      "verb": "rotate",
+      "object": "yarn tassel",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn tassel"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.0,
+      "end": 97.9,
+      "old_summary": "hand trims pom-pom with scissors",
+      "summary": "right hand trims the rotated yarn fringe",
+      "verb": "trim",
+      "object": "yarn tassel",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn tassel"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.9,
+      "end": 98.6,
+      "old_summary": "hand trims pom-pom with scissors",
+      "summary": "right hand continues trimming yarn tassel ends",
+      "verb": "trim",
+      "object": "yarn tassel",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pink pencil",
+          "yarn tassel"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Fine track ends at 98.6s although the 183.4s video continues trimming, inspecting and adjusting the tassel. Missing tail requires new human boundaries, not extension by inference.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 20.7,
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "instruction": "Cut and prepare a length of yarn.",
+      "description": "Yarn is pulled from the ball, cut with scissors, folded and pinched into a loop before the pink pencil is picked up.",
+      "goal_contribution": "Prepare the strand and support used to make the tassel.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 20.7,
+      "end": 41.0,
+      "fine_index_range": [
+        7,
+        20
+      ],
+      "instruction": "Wrap loops of yarn around the fingers beside the pencil.",
+      "description": "The pencil is held horizontally while repeated passes of white yarn form a bundle around the left fingers.",
+      "goal_contribution": "Build multiple similarly sized loops that will become the fringe.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Prepared yarn is ready to wrap into tassel loops near the pencil."
+    },
+    {
+      "start": 41.0,
+      "end": 54.0,
+      "fine_index_range": [
+        21,
+        32
+      ],
+      "instruction": "Gather the loops and tighten the yarn bundle.",
+      "description": "Hands pinch the loops, remove them from the fingers and pull yarn around the gathered bundle near the pencil.",
+      "goal_contribution": "Secure the loop bundle together around its top.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The wrapped loops need gathering into a bundle."
+    },
+    {
+      "start": 54.0,
+      "end": 88.1,
+      "fine_index_range": [
+        33,
+        67
+      ],
+      "instruction": "Work and tighten the yarn tie around the bundle neck.",
+      "description": "The short preserved segments show repeated threading, pulling, pinching and tightening of yarn, then rotating the pencil and spreading the hanging loops.",
+      "goal_contribution": "Hold the loop bundle firmly in the tassel shape.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The gathered bundle needs its neck tied tight."
+    },
+    {
+      "start": 88.1,
+      "end": 98.6,
+      "fine_index_range": [
+        68,
+        77
+      ],
+      "instruction": "Begin cutting and trimming the tassel fringe.",
+      "description": "Scissors are picked up, positioned around loops and used to snip yarn ends while the left hand rotates the bundle. Trimming continues beyond the source fine track.",
+      "goal_contribution": "Open loop ends and begin shaping the fringe; this source coverage ends before finishing.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "A tied tassel needs its looped fringe cut and trimmed."
+    }
+  ],
+  "notes": "Complete overview including unannotated tail inspected, plus every 794 dense frame and native step endpoint. All fine boundaries retained. CRITICAL COVERAGE GAP: original fine ends at 98.6s, real duration183.4s. Tail includes trimming around100–117s, display119–126s, further trimming130–142s and153–162s, displaying and adjusting tassel through181s. These task actions need new human-approved fine boundaries. Coarse deliberately covers only provided fine, not invented tail. Fine intervals within33–88s subdivide repeated tie manipulation; summaries describe visible fingers/yarn motion without asserting exact knot types."
+}

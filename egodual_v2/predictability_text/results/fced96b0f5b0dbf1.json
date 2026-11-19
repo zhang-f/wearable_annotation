@@ -1,0 +1,46 @@
+{
+  "video_id": "fced96b0f5b0dbf1",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After place tortilla on a plate and spread sauce, cover the sauced tortilla with cheese is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After cover the sauced tortilla with cheese, add black olive pieces is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After add black olive pieces, put the pizza in the microwave and heat it is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After put the pizza in the microwave and heat it, retrieve the hot pizza and set out a cutting board is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "After retrieve the hot pizza and set out a cutting board, close ingredient containers and let the pizza rest is plausible for make a microwave tortilla pizza with cheese and olives, but several next steps fit."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "After close ingredient containers and let the pizza rest, move pizza to board and cut into quarters is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "index": 7,
+      "level": "strong",
+      "reason": "After move pizza to board and cut into quarters, return the pizza quarters to the plate is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    }
+  ]
+}

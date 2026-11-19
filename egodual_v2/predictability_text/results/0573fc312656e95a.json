@@ -1,0 +1,41 @@
+{
+  "video_id": "0573fc312656e95a",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The initial hook mark naturally leads to measuring and refining its position."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Marked mounting points are ready for drilled holes."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Drilled holes need anchors to hold the hook."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "With anchors fitted, the hook can be positioned and screwed on."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Started hook screws need tightening."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "The mounted holdback is ready to gather the curtain."
+    }
+  ]
+}

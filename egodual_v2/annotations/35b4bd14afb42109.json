@@ -1,0 +1,1180 @@
+{
+  "video_id": "35b4bd14afb42109",
+  "duration": 218.4,
+  "task": "Making banana, kiwi, and strawberry skewers",
+  "domain": "Chef",
+  "query": "How do I make banana, kiwi, and strawberry skewers?",
+  "goal": {
+    "title": "Make banana kiwi and strawberry skewers",
+    "description": "Rinse and prepare banana, kiwi and strawberries, cut the fruit into chunks and slices, and alternate the pieces on two long wooden skewers.",
+    "final_state": "Two loaded fruit skewers lie side by side on the amber plate at the end of the video.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 6.6,
+        "description": "Carry a banana and strawberries over the sink, operate the faucet and hold the fruit under running water. Put the strawberries on the amber plate and turn the faucet off."
+      },
+      {
+        "start": 6.6,
+        "end": 25,
+        "description": "Snap and pull the banana skin downward, briefly use the knife on the skin, then pull away the remaining peel. Put the peeled banana on the plate and move the peel aside while retrieving a kiwi."
+      },
+      {
+        "start": 25,
+        "end": 60.72,
+        "description": "Hold and rotate the kiwi while paring away long strips of brown skin with the knife. Repeatedly shave the remaining patches, then lower the peeled fruit to the plate."
+      },
+      {
+        "start": 60.72,
+        "end": 89.15,
+        "description": "Slice the kiwi into thick green rounds. Reposition the banana, crosscut it into chunks and rearrange pieces as cutting progresses."
+      },
+      {
+        "start": 89.15,
+        "end": 115.62,
+        "description": "Pick up the strawberries individually, cut off their leafy tops and move the caps aside. Halve the hulled berries and rearrange the prepared fruit on the plate."
+      },
+      {
+        "start": 115.62,
+        "end": 164.22,
+        "description": "Set the knife aside and retrieve a long wooden skewer. Alternately pierce banana chunks, strawberry halves and kiwi slices, sliding each down the stick. Finish loading the first skewer and place it to the right of the plate."
+      },
+      {
+        "start": 164.22,
+        "end": 169.6,
+        "description": "Retrieve another skewer and pierce a banana chunk, beginning the second fruit skewer. The supplied human fine divisions stop during this operation."
+      },
+      {
+        "start": 169.6,
+        "end": 205,
+        "description": "In the uncovered tail, slide the banana down the second stick, add kiwi, strawberry, more banana and further fruit pieces, and lay this second loaded skewer on the plate."
+      },
+      {
+        "start": 205,
+        "end": 218.4,
+        "description": "Retrieve the first skewer from the right, add a remaining banana piece, then lay both loaded fruit skewers side by side on the plate and adjust their arrangement."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 6.6,
+      "description": "Carry a banana and strawberries over the sink, operate the faucet and hold the fruit under running water. Put the strawberries on the amber plate and turn the faucet off."
+    },
+    {
+      "start": 6.6,
+      "end": 25,
+      "description": "Snap and pull the banana skin downward, briefly use the knife on the skin, then pull away the remaining peel. Put the peeled banana on the plate and move the peel aside while retrieving a kiwi."
+    },
+    {
+      "start": 25,
+      "end": 60.72,
+      "description": "Hold and rotate the kiwi while paring away long strips of brown skin with the knife. Repeatedly shave the remaining patches, then lower the peeled fruit to the plate."
+    },
+    {
+      "start": 60.72,
+      "end": 89.15,
+      "description": "Slice the kiwi into thick green rounds. Reposition the banana, crosscut it into chunks and rearrange pieces as cutting progresses."
+    },
+    {
+      "start": 89.15,
+      "end": 115.62,
+      "description": "Pick up the strawberries individually, cut off their leafy tops and move the caps aside. Halve the hulled berries and rearrange the prepared fruit on the plate."
+    },
+    {
+      "start": 115.62,
+      "end": 164.22,
+      "description": "Set the knife aside and retrieve a long wooden skewer. Alternately pierce banana chunks, strawberry halves and kiwi slices, sliding each down the stick. Finish loading the first skewer and place it to the right of the plate."
+    },
+    {
+      "start": 164.22,
+      "end": 169.6,
+      "description": "Retrieve another skewer and pierce a banana chunk, beginning the second fruit skewer. The supplied human fine divisions stop during this operation."
+    },
+    {
+      "start": 169.6,
+      "end": 205,
+      "description": "In the uncovered tail, slide the banana down the second stick, add kiwi, strawberry, more banana and further fruit pieces, and lay this second loaded skewer on the plate."
+    },
+    {
+      "start": 205,
+      "end": 218.4,
+      "description": "Retrieve the first skewer from the right, add a remaining banana piece, then lay both loaded fruit skewers side by side on the plate and adjust their arrangement."
+    }
+  ],
+  "object_inventory": [
+    "banana",
+    "kiwi",
+    "strawberry",
+    "knife",
+    "plate",
+    "wooden skewer",
+    "faucet",
+    "banana peel",
+    "kiwi peel",
+    "strawberry top"
+  ],
+  "notes": "All 39 human fine boundaries preserved. True duration 218.4s but fine stops at 169.6s: the 48.8s tail contains continued assembly of the second skewer, placement, adding one remaining banana piece to the first skewer and presentation of two skewers. Tail is described in goal.procedure but no invented fine interval is appended. All dense step pages, native end states, overview and 3fps tail reviewed. Coarse final partial subtask necessarily ends at last human fine boundary; it does not imply task completion at 169.6s.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 0.29,
+      "summary": "hold the banana above the sink",
+      "verb": "hold",
+      "object": "banana",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "strawberry"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds banana under running water",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 0.29,
+      "end": 5.4,
+      "summary": "rinse the banana and strawberries under the faucet",
+      "verb": "rinse",
+      "object": "banana",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0.4–1.8s operate faucet, t=2.1–3.8s rinse fruit, then set strawberries on plate at 4.3–5.3s; compound interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes banana and strawberries under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 5.4,
+      "end": 6.6,
+      "summary": "turn off the faucet",
+      "verb": "turn",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves strawberry under running water",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.6,
+      "end": 9.1,
+      "summary": "grip the banana stem with both hands",
+      "verb": "grip",
+      "object": "banana",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "banana"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=6.8–7.4s arrange strawberries before gripping banana stem.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places banana and strawberries on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.1,
+      "end": 11.4,
+      "summary": "pull down the banana peel",
+      "verb": "peel",
+      "object": "banana",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "banana peel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes banana under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.4,
+      "end": 12.5,
+      "summary": "adjust the grip on the banana",
+      "verb": "grip",
+      "object": "banana",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "banana"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand washes banana under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.5,
+      "end": 14.5,
+      "summary": "pull another strip of banana peel down",
+      "verb": "peel",
+      "object": "banana",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=14.47s right hand retrieves knife after pulling peel.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices banana with a knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.5,
+      "end": 15.77,
+      "summary": "cut the banana skin with the knife",
+      "verb": "cut",
+      "object": "banana",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices banana with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.77,
+      "end": 18.06,
+      "summary": "pull the banana peel down by hand",
+      "verb": "peel",
+      "object": "banana",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "banana"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels banana",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 18.06,
+      "end": 23.5,
+      "summary": "remove the banana peel and set the banana down",
+      "verb": "peel",
+      "object": "banana",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana peel"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=18.1–21.5s remove peel; t=22.1–23.1s place exposed banana on plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels banana",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.5,
+      "end": 25.0,
+      "summary": "set the banana peel aside and pick up the kiwi",
+      "verb": "pick up",
+      "object": "kiwi",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "kiwi"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=23.6s right hand retrieves kiwi; t=24.1–24.8s left hand lowers peel; kiwi transfers to left.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels kiwi",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 25.0,
+      "end": 44.14,
+      "summary": "pare the kiwi skin with the knife",
+      "verb": "peel",
+      "object": "kiwi",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "kiwi"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels kiwi with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.14,
+      "end": 49.8,
+      "summary": "pare another strip of kiwi skin",
+      "verb": "peel",
+      "object": "kiwi",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "kiwi"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices kiwi with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.8,
+      "end": 52.17,
+      "summary": "shave the remaining kiwi skin",
+      "verb": "peel",
+      "object": "kiwi",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "kiwi"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts kiwi with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.17,
+      "end": 57.89,
+      "summary": "trim small patches of kiwi skin",
+      "verb": "peel",
+      "object": "kiwi",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "kiwi"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts kiwi with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 57.89,
+      "end": 60.72,
+      "summary": "set the peeled kiwi on the plate",
+      "verb": "place",
+      "object": "kiwi",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "kiwi"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=58.1s final skin trimming precedes placing kiwi at 58.6s; then align knife.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts kiwi with knife on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.72,
+      "end": 68.64,
+      "summary": "slice the kiwi on the plate",
+      "verb": "slice",
+      "object": "kiwi",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices kiwi with knife on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.64,
+      "end": 75.38,
+      "summary": "slice the banana into chunks",
+      "verb": "slice",
+      "object": "banana",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=68.9s lift and reposition banana before cutting at 70–75s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices banana on a plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.38,
+      "end": 77.76,
+      "summary": "reposition the banana beside the kiwi slices",
+      "verb": "move",
+      "object": "banana",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices kiwi with knife on plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 77.76,
+      "end": 82.54,
+      "summary": "cut more banana chunks",
+      "verb": "slice",
+      "object": "banana",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices banana with knife on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 82.54,
+      "end": 86.13,
+      "summary": "slice the remaining banana",
+      "verb": "slice",
+      "object": "banana",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices banana with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.13,
+      "end": 89.15,
+      "summary": "finish slicing the banana and reach for a strawberry",
+      "verb": "slice",
+      "object": "banana",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=86.2–88.1s finish cuts; t=88.3–89.1s left hand reaches for strawberries.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices strawberry with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.15,
+      "end": 94.55,
+      "summary": "cut the leafy top off a strawberry",
+      "verb": "cut",
+      "object": "strawberry",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices strawberry with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.55,
+      "end": 99.24,
+      "summary": "cut the leafy top off another strawberry",
+      "verb": "cut",
+      "object": "strawberry",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "strawberry"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices strawberry with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.24,
+      "end": 103.23,
+      "summary": "trim the top off the third strawberry",
+      "verb": "cut",
+      "object": "strawberry",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "strawberry"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices strawberry with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.23,
+      "end": 106.96,
+      "summary": "halve a hulled strawberry",
+      "verb": "cut",
+      "object": "strawberry",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "strawberry"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices strawberry with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.96,
+      "end": 110.54,
+      "summary": "halve another hulled strawberry",
+      "verb": "cut",
+      "object": "strawberry",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "strawberry"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices strawberry with knife on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.54,
+      "end": 114.17,
+      "summary": "cut the remaining strawberry in half",
+      "verb": "cut",
+      "object": "strawberry",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices strawberry with knife on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 114.17,
+      "end": 115.62,
+      "summary": "rearrange the fruit pieces on the plate",
+      "verb": "move",
+      "object": "banana",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a skewer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 115.62,
+      "end": 121.23,
+      "summary": "thread a banana chunk onto the wooden skewer",
+      "verb": "thread",
+      "object": "banana",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "wooden skewer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=116.1s set knife aside; t=117.8–121.2s retrieve skewer and pierce banana.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand threads banana piece onto skewer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 121.23,
+      "end": 125.73,
+      "summary": "thread a strawberry half onto the skewer",
+      "verb": "thread",
+      "object": "strawberry",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "strawberry"
+        ],
+        "right": [
+          "wooden skewer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand threads banana piece onto skewer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 125.73,
+      "end": 129.79,
+      "summary": "thread a kiwi slice onto the skewer",
+      "verb": "thread",
+      "object": "kiwi",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wooden skewer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand threads kiwi piece onto skewer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 129.79,
+      "end": 134.31,
+      "summary": "thread another banana chunk onto the skewer",
+      "verb": "thread",
+      "object": "banana",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "wooden skewer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand threads banana piece onto skewer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.31,
+      "end": 137.96,
+      "summary": "thread another strawberry half onto the skewer",
+      "verb": "thread",
+      "object": "strawberry",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wooden skewer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand threads strawberry piece onto skewer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 137.96,
+      "end": 140.51,
+      "summary": "thread another banana piece onto the skewer",
+      "verb": "thread",
+      "object": "banana",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "wooden skewer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand threads a banana piece onto a skewer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 140.51,
+      "end": 146.61,
+      "summary": "thread another kiwi slice onto the skewer",
+      "verb": "thread",
+      "object": "kiwi",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "wooden skewer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand threads fruit pieces onto skewer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 146.61,
+      "end": 152.58,
+      "summary": "thread a strawberry half onto the fruit skewer",
+      "verb": "thread",
+      "object": "strawberry",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "strawberry"
+        ],
+        "right": [
+          "wooden skewer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand threads strawberry piece onto skewer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 152.58,
+      "end": 164.22,
+      "summary": "thread banana onto the skewer and set it aside",
+      "verb": "thread",
+      "object": "banana",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=153.5–161.8s select and push banana onto skewer; t=162.1–164s place completed skewer at counter right.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a banana piece and threads it onto a skewer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 164.22,
+      "end": 169.6,
+      "summary": "thread a banana chunk onto a second skewer",
+      "verb": "thread",
+      "object": "banana",
+      "tool": "wooden skewer",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "banana"
+        ],
+        "right": [
+          "wooden skewer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand threads banana piece onto skewer",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 25.0,
+      "instruction": "Rinse the fruit and peel the banana",
+      "description": "Rinse banana and strawberries, put berries on the plate, stop the water, peel the banana by hand with brief knife assistance, set it down and move the peel aside while retrieving kiwi.",
+      "fine_index_range": [
+        0,
+        10
+      ],
+      "transition_in": null,
+      "goal_contribution": "Cleans the fruit and exposes the banana flesh for cutting.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 25.0,
+      "end": 60.72,
+      "instruction": "Peel the kiwi",
+      "description": "Rotate the kiwi while paring long skin strips and shaving remaining patches, then place the peeled fruit on the plate.",
+      "fine_index_range": [
+        11,
+        15
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Removes the kiwi skin before slicing it into skewer pieces.",
+      "predictability_level": "strong",
+      "predictability_reason": "The kiwi still needs peeling before the fruit can be cut."
+    },
+    {
+      "start": 60.72,
+      "end": 115.62,
+      "instruction": "Cut the fruit into skewer pieces",
+      "description": "Slice the kiwi and banana, reposition pieces, trim all three strawberry tops, halve the berries and rearrange the cut fruit.",
+      "fine_index_range": [
+        16,
+        28
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Produces the separate fruit pieces that will be threaded onto sticks.",
+      "predictability_level": "strong",
+      "predictability_reason": "Washed and peeled fruit is ready to cut for skewers."
+    },
+    {
+      "start": 115.62,
+      "end": 164.22,
+      "instruction": "Assemble and set aside the first fruit skewer",
+      "description": "Retrieve a skewer after setting down the knife, alternately thread banana, strawberry and kiwi pieces, finish loading it and place it on the right side.",
+      "fine_index_range": [
+        29,
+        37
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Combines prepared fruit into the first assembled serving.",
+      "predictability_level": "strong",
+      "predictability_reason": "Prepared fruit pieces are ready to thread onto skewers."
+    },
+    {
+      "start": 164.22,
+      "end": 169.6,
+      "instruction": "Begin the second fruit skewer",
+      "description": "Pick up a second wooden skewer and push a banana chunk onto it; coverage stops before the next fruit is added.",
+      "fine_index_range": [
+        38,
+        38
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Starts the second serving, whose continuation is visible in the uncovered tail.",
+      "predictability_level": "strong",
+      "predictability_reason": "After the first skewer, making a second is a natural continuation."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/35b4bd14afb42109/20261106T225132533455Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

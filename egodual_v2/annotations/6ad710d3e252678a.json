@@ -1,0 +1,615 @@
+{
+  "video_id": "6ad710d3e252678a",
+  "duration": 150.8,
+  "task": "How to clean white sneakers at home",
+  "domain": "Tutorial",
+  "query": "How do I clean white sneakers at home?",
+  "goal": {
+    "title": "Clean a white sneaker at home",
+    "description": "Set up a bowl of soapy water, a scrub brush and a yellow cloth on a coffee table next to a white sneaker. Dip the brush into the soapy water and scrub the sneaker thoroughly in several long passes, re-dipping the brush in the bowl between rounds and briefly pausing to check a phone partway through. Finish by picking up the yellow cloth and wiping the sneaker dry for an extended time.",
+    "final_state": "The scrubbed sneaker sits on the coffee table next to its soapy bowl and brush, wiped down with the yellow cloth; a second, still-untouched sneaker remains on the table and has not been cleaned by the end of the video.",
+    "procedure": [
+      "Arrange the soapy-water bowl, brush, cloth, and sneaker.",
+      "Dip the brush and scrub the sneaker, with a brief phone interruption.",
+      "Re-dip the brush and continue scrubbing different areas of the sneaker.",
+      "Wipe the sneaker with the yellow cloth."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 16.2,
+      "description": "Set up the soapy water bowl, brush and cloth next to the sneaker."
+    },
+    {
+      "start": 16.2,
+      "end": 58.17,
+      "description": "Dip the brush in soapy water and scrub the sneaker, pausing once to check a phone."
+    },
+    {
+      "start": 58.17,
+      "end": 125.06,
+      "description": "Continue long rounds of scrubbing, re-dipping the brush in the soapy water between passes."
+    },
+    {
+      "start": 125.06,
+      "end": 149.55,
+      "description": "Pick up the yellow cloth and wipe the sneaker dry."
+    }
+  ],
+  "object_inventory": [
+    "sneaker",
+    "soapy water bowl",
+    "scrub brush",
+    "cloth",
+    "phone",
+    "coffee table"
+  ],
+  "notes": "Dense 3-8fps contact sheets (including four sparse long-step sheets for the extended scrubbing segments) and a full overview sheet were reviewed for all 20 fine steps. A second, unused sneaker and a phone, water bottle and soda can sit on the table throughout as background context; only the sneaker that is actually scrubbed is tracked in hand-state fields. Fine track ends 1.25s before ffprobe_duration (150.8s); the extra frames checked beyond the final step show the same wiping/final-placement action continuing past the human-cut boundary, with the second, unscrubbed sneaker still visible on the table.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 3.13,
+      "summary": "pick up the bowl of soapy water",
+      "verb": "pick up",
+      "object": "soapy water bowl",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "soapy water bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up the bowl of soapy water",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 3.13,
+      "end": 7.18,
+      "summary": "set the bowl down and touch the sneaker",
+      "verb": "place",
+      "object": "soapy water bowl",
+      "tool": null,
+      "target": "coffee table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "hand releases the bowl and brushes against the sneaker; exact grip at the boundary is unclear",
+      "confidence": "low",
+      "notes": "",
+      "old_summary": "hand picks up the bowl of soapy water",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.18,
+      "end": 9.91,
+      "summary": "dip the scrub brush into the soapy water",
+      "verb": "dip",
+      "object": "scrub brush",
+      "tool": null,
+      "target": "soapy water bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand dips brush into bowl of soapy water",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 9.91,
+      "end": 11.36,
+      "summary": "move the phone on the table",
+      "verb": "move",
+      "object": "phone",
+      "tool": null,
+      "target": "coffee table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "camera pans across the table past a candle, water bottle and soda can while the phone is nudged aside",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand moves phone on table",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.36,
+      "end": 12.73,
+      "summary": "pick up the sneaker",
+      "verb": "pick up",
+      "object": "sneaker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sneaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up the sneakers",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.73,
+      "end": 16.2,
+      "summary": "pick up the yellow cloth",
+      "verb": "pick up",
+      "object": "cloth",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cloth"
+        ],
+        "right": [
+          "sneaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up the yellow cloth",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 16.2,
+      "end": 19.11,
+      "summary": "hold and rotate the sneaker",
+      "verb": "hold",
+      "object": "sneaker",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cloth"
+        ],
+        "right": [
+          "sneaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds and rotates the sneaker",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.11,
+      "end": 21.9,
+      "summary": "lift the scrub brush from the soapy water",
+      "verb": "pick up",
+      "object": "scrub brush",
+      "tool": null,
+      "target": "soapy water bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "sneaker and cloth are now held in the left hand so the right hand can grip the brush",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand lifts brush from soapy water",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 21.9,
+      "end": 25.08,
+      "summary": "scrub the sneaker with the brush",
+      "verb": "scrub",
+      "object": "sneaker",
+      "tool": "scrub brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand scrubs white sneaker with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.08,
+      "end": 25.94,
+      "summary": "continue scrubbing the sneaker",
+      "verb": "scrub",
+      "object": "sneaker",
+      "tool": "scrub brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand scrubs sneaker with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.94,
+      "end": 44.36,
+      "summary": "scrub the sneaker thoroughly with the brush",
+      "verb": "scrub",
+      "object": "sneaker",
+      "tool": "scrub brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "continuous scrubbing motion for about 18 seconds",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand scrubs sneaker with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.36,
+      "end": 50.76,
+      "summary": "pick up the phone to check it",
+      "verb": "pick up",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "phone"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "checks the phone screen briefly mid-task",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up phone",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 50.76,
+      "end": 53.93,
+      "summary": "scrub the sneaker with the brush again",
+      "verb": "scrub",
+      "object": "sneaker",
+      "tool": "scrub brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand scrubs white sneaker with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 53.93,
+      "end": 58.17,
+      "summary": "dip the brush in the soapy water again",
+      "verb": "dip",
+      "object": "scrub brush",
+      "tool": null,
+      "target": "soapy water bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand scrubs brush in soapy water",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.17,
+      "end": 58.9,
+      "summary": "scrub the sneaker with the brush",
+      "verb": "scrub",
+      "object": "sneaker",
+      "tool": "scrub brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "very short 0.73s scrubbing segment",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand scrubs sneaker with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.9,
+      "end": 86.37,
+      "summary": "continue scrubbing the sneaker thoroughly",
+      "verb": "scrub",
+      "object": "sneaker",
+      "tool": "scrub brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "long continuous scrubbing motion for about 27 seconds",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand scrubs sneaker with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.37,
+      "end": 90.05,
+      "summary": "dip the brush into the soapy water",
+      "verb": "dip",
+      "object": "scrub brush",
+      "tool": null,
+      "target": "soapy water bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand dips brush into soapy water",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.05,
+      "end": 125.06,
+      "summary": "scrub the sneaker with the brush for an extended time",
+      "verb": "scrub",
+      "object": "sneaker",
+      "tool": "scrub brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sneaker"
+        ],
+        "right": [
+          "scrub brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "very long continuous scrubbing motion for about 35 seconds, occasionally adjusting grip near the laces",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand scrubs sneaker with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 125.06,
+      "end": 126.28,
+      "summary": "pick up the yellow cloth to wipe the sneaker",
+      "verb": "pick up",
+      "object": "cloth",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cloth"
+        ],
+        "right": [
+          "sneaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes sneaker with towel",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 126.28,
+      "end": 149.55,
+      "summary": "wipe the sneaker dry with the cloth",
+      "verb": "wipe",
+      "object": "sneaker",
+      "tool": "cloth",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cloth"
+        ],
+        "right": [
+          "sneaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "continuous wiping motion for about 23 seconds to dry the sneaker",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes sneaker with towel",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 19.11,
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "instruction": "Set up supplies and the sneaker",
+      "description": "Set out the bowl of soapy water, dip the brush, pick up the sneaker and the yellow cloth to get ready to clean.",
+      "transition_in": null,
+      "goal_contribution": "Places the shoe and cleaning supplies within reach.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 19.11,
+      "end": 50.76,
+      "fine_index_range": [
+        7,
+        11
+      ],
+      "instruction": "Begin scrubbing the sneaker",
+      "description": "Start scrubbing the sneaker with the soapy brush, pausing briefly to check a phone.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Starts removing dirt from the sneaker with the wet brush.",
+      "predictability_level": "strong",
+      "predictability_reason": "After set up supplies and the sneaker, begin scrubbing the sneaker is a natural next stage toward clean a white sneaker at home."
+    },
+    {
+      "start": 50.76,
+      "end": 125.06,
+      "fine_index_range": [
+        12,
+        17
+      ],
+      "instruction": "Keep scrubbing and re-dipping the brush",
+      "description": "Continue long rounds of scrubbing the sneaker, re-dipping the brush in the soapy water between passes.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Continues cleaning the shoe surface through repeated brush passes.",
+      "predictability_level": "strong",
+      "predictability_reason": "After begin scrubbing the sneaker, keep scrubbing and re-dipping the brush is a natural next stage toward clean a white sneaker at home."
+    },
+    {
+      "start": 125.06,
+      "end": 149.55,
+      "fine_index_range": [
+        18,
+        19
+      ],
+      "instruction": "Wipe the sneaker dry",
+      "description": "Pick up the yellow cloth and wipe the scrubbed sneaker dry.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Wipes moisture and residue from the scrubbed sneaker.",
+      "predictability_level": "strong",
+      "predictability_reason": "After keep scrubbing and re-dipping the brush, wipe the sneaker dry is a natural next stage toward clean a white sneaker at home."
+    }
+  ]
+}

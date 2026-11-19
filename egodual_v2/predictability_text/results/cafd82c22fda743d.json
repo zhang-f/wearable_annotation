@@ -1,0 +1,46 @@
+{
+  "video_id": "cafd82c22fda743d",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After heat and oil the frying pan, place four dumplings in the pan is a natural next stage toward pan-fry dumplings and serve with dressing."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After place four dumplings in the pan, move and turn the dumplings as they fry is plausible for pan-fry dumplings and serve with dressing, but several next steps fit."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After move and turn the dumplings as they fry, fetch dressing for serving is plausible for pan-fry dumplings and serve with dressing, but several next steps fit."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After fetch dressing for serving, finish browning and lift the first dumpling is a natural next stage toward pan-fry dumplings and serve with dressing."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After finish browning and lift the first dumpling, transfer all dumplings to the plate is a natural next stage toward pan-fry dumplings and serve with dressing."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "After transfer all dumplings to the plate, put away spatula and carry plate to table is a natural next stage toward pan-fry dumplings and serve with dressing."
+    },
+    {
+      "index": 7,
+      "level": "strong",
+      "reason": "After put away spatula and carry plate to table, add dressing and handle a dumpling with the fork is a natural next stage toward pan-fry dumplings and serve with dressing."
+    }
+  ]
+}

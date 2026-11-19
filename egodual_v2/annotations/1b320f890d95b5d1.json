@@ -1,0 +1,1613 @@
+{
+  "video_id": "1b320f890d95b5d1",
+  "duration": 202.2,
+  "task": "Making peanut butter oat bars (no-bake)",
+  "domain": "Chef",
+  "query": "How do I make peanut butter oat bars (no-bake)?",
+  "goal": {
+    "title": "Make peanut butter oat bars",
+    "description": "Measure oats and add an unlabelled brown dry ingredient, peanut butter and honey. Mix into a sticky mass, flatten it on parchment over a plate, briefly place it in the freezer, then cut it into four bars and carry the plate to a table.",
+    "final_state": "Four oat bars rest on parchment over a round plate. The plate is being lowered at a table; the knife has been left in the mixing bowl.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 18,
+        "description": "Flatten parchment over a round plate, open the wall cupboard and remove a white bowl. Close the cupboard, lower the bowl to the counter, pick up and open the oat canister. Retrieve the small spoon, transfer several spoonfuls of oats to the bowl, then press the canister lid on and return the canister."
+      },
+      {
+        "start": 18,
+        "end": 47.1,
+        "description": "Lift a small white dish of an unlabelled beige-brown crumbly ingredient. Spoon several portions into the oats, put the dish down and stir the dry ingredients repeatedly, briefly lifting the bowl. Scrape oats from the small spoon with a finger."
+      },
+      {
+        "start": 47.1,
+        "end": 73.7,
+        "description": "Pick up and unscrew the blue-lidded peanut butter jar. Scoop a large blob with the small spoon, set the jar down and use the left index finger to scrape peanut butter into the oats. Pick up the honey bottle, flip its yellow cap open, invert and squeeze honey over the bowl, close and return the bottle. Leave the small spoon on the sink drainer, open the drawer and retrieve a larger spoon."
+      },
+      {
+        "start": 73.7,
+        "end": 142.73,
+        "description": "Close the drawer and use the larger spoon to stir and press the oats, peanut butter and honey into a sticky mixture. Scrape the spoon with fingers and continue mixing. Transfer a large scoop to the parchment-lined plate, flatten it with the back of the spoon and shape its edges with the left fingers. Collect and add the remaining mixture, repeat the flattening and shaping, scrape residue from the spoon and leave it in the bowl."
+      },
+      {
+        "start": 142.73,
+        "end": 182.09,
+        "description": "Lift the parchment-lined plate and carry it to the upper freezer compartment. Open the door, slide the plate onto the wire shelf and close the door. Wait beside it with the right hand on the handle, then open the door again and remove the plate. Carry the plate back to the counter, set it down and retrieve a knife from the block."
+      },
+      {
+        "start": 182.09,
+        "end": 202.2,
+        "description": "Hold the slab steady with left fingertips while making repeated parallel knife cuts through it, separating it into four narrow bars. Lift and reposition the blade between cuts, then place the knife in the mixing bowl. Grasp the parchment-lined plate, carry it to the nearby table and lower it toward the tabletop as the clip ends."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 18,
+      "description": "Flatten parchment over a round plate, open the wall cupboard and remove a white bowl. Close the cupboard, lower the bowl to the counter, pick up and open the oat canister. Retrieve the small spoon, transfer several spoonfuls of oats to the bowl, then press the canister lid on and return the canister."
+    },
+    {
+      "start": 18,
+      "end": 47.1,
+      "description": "Lift a small white dish of an unlabelled beige-brown crumbly ingredient. Spoon several portions into the oats, put the dish down and stir the dry ingredients repeatedly, briefly lifting the bowl. Scrape oats from the small spoon with a finger."
+    },
+    {
+      "start": 47.1,
+      "end": 73.7,
+      "description": "Pick up and unscrew the blue-lidded peanut butter jar. Scoop a large blob with the small spoon, set the jar down and use the left index finger to scrape peanut butter into the oats. Pick up the honey bottle, flip its yellow cap open, invert and squeeze honey over the bowl, close and return the bottle. Leave the small spoon on the sink drainer, open the drawer and retrieve a larger spoon."
+    },
+    {
+      "start": 73.7,
+      "end": 142.73,
+      "description": "Close the drawer and use the larger spoon to stir and press the oats, peanut butter and honey into a sticky mixture. Scrape the spoon with fingers and continue mixing. Transfer a large scoop to the parchment-lined plate, flatten it with the back of the spoon and shape its edges with the left fingers. Collect and add the remaining mixture, repeat the flattening and shaping, scrape residue from the spoon and leave it in the bowl."
+    },
+    {
+      "start": 142.73,
+      "end": 182.09,
+      "description": "Lift the parchment-lined plate and carry it to the upper freezer compartment. Open the door, slide the plate onto the wire shelf and close the door. Wait beside it with the right hand on the handle, then open the door again and remove the plate. Carry the plate back to the counter, set it down and retrieve a knife from the block."
+    },
+    {
+      "start": 182.09,
+      "end": 202.2,
+      "description": "Hold the slab steady with left fingertips while making repeated parallel knife cuts through it, separating it into four narrow bars. Lift and reposition the blade between cuts, then place the knife in the mixing bowl. Grasp the parchment-lined plate, carry it to the nearby table and lower it toward the tabletop as the clip ends."
+    }
+  ],
+  "object_inventory": [
+    "bowl",
+    "parchment paper",
+    "plate",
+    "oat canister",
+    "oat lid",
+    "small spoon",
+    "large spoon",
+    "brown ingredient",
+    "ingredient dish",
+    "peanut butter jar",
+    "peanut butter lid",
+    "honey bottle",
+    "oat mixture",
+    "freezer",
+    "knife",
+    "oats",
+    "peanut butter",
+    "counter",
+    "sink drainer",
+    "cutlery drawer",
+    "table"
+  ],
+  "notes": "All58 human fine divisions preserved. Full overview, all dense pages and all native end states viewed; duplicate native end frame for steps54and55 is explicitly mapped, not shifted. Brown dry ingredient identity is unresolved rather than inferred from recipe. Source descriptions incorrectly call early dry ingredient peanut butter and label stirring and plate retrieval idle; rewritten from pictures. Freezer insertion and brief waiting are visible, not a claim that the bars became fully chilled. Last hand release at table is not shown. Predictability left to independent blind stage.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.42,
+      "summary": "flatten the parchment paper over the plate",
+      "verb": "flatten",
+      "object": "parchment paper",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0.5–2s flatten parchment; t=2.8–3.4s open wall cupboard. Compound interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand lays out parchment paper on countertop then retrieves and places bowl from cabinet",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.42,
+      "end": 5.63,
+      "summary": "take a bowl from the cupboard",
+      "verb": "pick up",
+      "object": "bowl",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.63,
+      "end": 7.5,
+      "summary": "place the bowl on the counter",
+      "verb": "place",
+      "object": "bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=5.8s right hand closes cupboard; t=6.5–7.2s lower bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds the mixing bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.5,
+      "end": 8.28,
+      "summary": "pick up the oat canister",
+      "verb": "pick up",
+      "object": "oat canister",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "oat canister"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes lid and scoops oats from container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.28,
+      "end": 9.13,
+      "summary": "remove the lid from the oat canister",
+      "verb": "open",
+      "object": "oat canister",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oat canister"
+        ],
+        "right": [
+          "oat lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=8.3s transfer canister into left hand; t=8.5s remove lid; t=9s lower lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.13,
+      "end": 10.39,
+      "summary": "pick up the small spoon",
+      "verb": "pick up",
+      "object": "small spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oat canister"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.39,
+      "end": 11.6,
+      "summary": "scoop oats from the canister",
+      "verb": "scoop",
+      "object": "oats",
+      "tool": "small spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oat canister"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.6,
+      "end": 13.54,
+      "summary": "transfer spoonfuls of oats into the bowl",
+      "verb": "place",
+      "object": "oats",
+      "tool": "small spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oat canister"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=11.8s deposit oats; t=12.4s scoop again and t=13.3s deposit again.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours oats into mixing bowl then places container down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.54,
+      "end": 15.09,
+      "summary": "transfer another spoonful of oats into the bowl",
+      "verb": "place",
+      "object": "oats",
+      "tool": "small spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oat canister"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.09,
+      "end": 16.42,
+      "summary": "reach for the oat canister lid",
+      "verb": "reach for",
+      "object": "oat lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oat canister"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 16.42,
+      "end": 18.0,
+      "summary": "replace the lid on the oat canister",
+      "verb": "close",
+      "object": "oat canister",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oat canister"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=16.8s retrieve lid; t=17.1–17.9s press it onto canister; canister set down at approximately18.1s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the jar of peanut butter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 18.0,
+      "end": 19.6,
+      "summary": "pick up the small ingredient dish",
+      "verb": "pick up",
+      "object": "ingredient dish",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "ingredient dish"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens the jar of peanut butter",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 19.6,
+      "end": 20.98,
+      "summary": "spoon the brown ingredient into the oats",
+      "verb": "place",
+      "object": "brown ingredient",
+      "tool": "small spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "ingredient dish"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand scoops and adds peanut butter to the bowl",
+      "notes": "Unlabelled beige-brown crumbly ingredient cannot be identified confidently from the picture.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.98,
+      "end": 22.45,
+      "summary": "spoon more brown ingredient into the oats",
+      "verb": "place",
+      "object": "brown ingredient",
+      "tool": "small spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "ingredient dish"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.45,
+      "end": 23.9,
+      "summary": "spoon another portion of brown ingredient into the oats",
+      "verb": "place",
+      "object": "brown ingredient",
+      "tool": "small spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "ingredient dish"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.9,
+      "end": 25.02,
+      "summary": "put down the ingredient dish",
+      "verb": "put down",
+      "object": "ingredient dish",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=24.2s dish released; t=24.8s right hand begins stirring while left steadies bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand repeatedly scoops and adds peanut butter to the bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.02,
+      "end": 41.2,
+      "summary": "stir the dry oats with the small spoon",
+      "verb": "stir",
+      "object": "oats",
+      "tool": "small spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs the mixture in the bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.2,
+      "end": 45.17,
+      "summary": "stir the dry oats in the bowl",
+      "verb": "stir",
+      "object": "oats",
+      "tool": "small spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=41.2s lift/jiggle bowl briefly, then continue stirring; visible interaction throughout the source idle interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no hand activity",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 45.17,
+      "end": 47.1,
+      "summary": "scrape oats off the small spoon",
+      "verb": "scrape",
+      "object": "small spoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=46s left index scrapes spoon; t=47s left hand begins reaching for peanut butter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.1,
+      "end": 48.21,
+      "summary": "pick up the peanut butter jar",
+      "verb": "pick up",
+      "object": "peanut butter jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops and adds peanut butter to the bowl",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 48.21,
+      "end": 50.93,
+      "summary": "unscrew the peanut butter jar lid",
+      "verb": "open",
+      "object": "peanut butter jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=49.3–50.2s unscrew blue lid; t=50.5s put lid on counter while retaining spoon.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.93,
+      "end": 55.9,
+      "summary": "scoop peanut butter from the jar",
+      "verb": "scoop",
+      "object": "peanut butter",
+      "tool": "small spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=51–54.5s scoop a large blob; t=55.4s left hand sets jar down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.9,
+      "end": 60.0,
+      "summary": "scrape peanut butter off the spoon into the bowl",
+      "verb": "scrape",
+      "object": "peanut butter",
+      "tool": "small spoon",
+      "target": "bowl",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=56–59s left index finger repeatedly pushes peanut butter off spoon. Source idle label is contradicted by visible food transfer.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.0,
+      "end": 60.87,
+      "summary": "pick up the honey bottle",
+      "verb": "pick up",
+      "object": "honey bottle",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "honey bottle"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up honey bottle, unscrews cap, pours honey into mixing bowl, then screws cap back on",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 60.87,
+      "end": 62.8,
+      "summary": "open the honey bottle flip cap",
+      "verb": "open",
+      "object": "honey bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "honey bottle"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=61.7s open yellow cap; t=62s invert bottle and begin squeezing.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.8,
+      "end": 66.04,
+      "summary": "squeeze honey into the bowl",
+      "verb": "squeeze",
+      "object": "honey bottle",
+      "tool": null,
+      "target": "bowl",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "honey bottle"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 66.04,
+      "end": 67.5,
+      "summary": "close the honey bottle flip cap",
+      "verb": "close",
+      "object": "honey bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "honey bottle"
+        ],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 67.5,
+      "end": 68.22,
+      "summary": "put down the honey bottle",
+      "verb": "put down",
+      "object": "honey bottle",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "small spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "reaches for drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.22,
+      "end": 70.0,
+      "summary": "put down the small spoon on the sink drainer",
+      "verb": "put down",
+      "object": "small spoon",
+      "tool": null,
+      "target": "sink drainer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 70.0,
+      "end": 71.49,
+      "summary": "open the cutlery drawer",
+      "verb": "open",
+      "object": "cutlery drawer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "opens drawer and picks up spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 71.49,
+      "end": 73.7,
+      "summary": "reach into the drawer for a large spoon",
+      "verb": "reach for",
+      "object": "large spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "large spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 73.7,
+      "end": 92.1,
+      "summary": "mix the oats with peanut butter and honey",
+      "verb": "stir",
+      "object": "oat mixture",
+      "tool": "large spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "large spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=74s close drawer; t=75–92s stir and press ingredients together; t=92s left fingers begin scraping spoon.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "stirs mixture in bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.1,
+      "end": 105.89,
+      "summary": "scrape and mix the oat mixture with the large spoon",
+      "verb": "stir",
+      "object": "oat mixture",
+      "tool": "large spoon",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "large spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=92.1–96s left fingers scrape sticky mixture from spoon; t=96–105.8s right hand resumes pressing and mixing.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "lifts spoon with mixture",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.89,
+      "end": 106.88,
+      "summary": "move a spoonful of oat mixture onto the parchment",
+      "verb": "move",
+      "object": "oat mixture",
+      "tool": "large spoon",
+      "target": "parchment paper",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "large spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads the mixture onto parchment paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.88,
+      "end": 121.5,
+      "summary": "press the oat mixture flat on the parchment",
+      "verb": "press",
+      "object": "oat mixture",
+      "tool": "large spoon",
+      "target": "parchment paper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "large spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 121.5,
+      "end": 124.07,
+      "summary": "scoop the remaining oat mixture from the bowl",
+      "verb": "scoop",
+      "object": "oat mixture",
+      "tool": "large spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "large spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.07,
+      "end": 139.6,
+      "summary": "add and flatten the remaining oat mixture",
+      "verb": "press",
+      "object": "oat mixture",
+      "tool": "large spoon",
+      "target": "parchment paper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "large spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=124.5s deposit second portion; t=124.8–139s press flat with spoon and shape edges with left fingers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 139.6,
+      "end": 142.2,
+      "summary": "scrape sticky oat mixture from the large spoon",
+      "verb": "scrape",
+      "object": "large spoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "large spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 142.2,
+      "end": 142.73,
+      "summary": "put down the large spoon in the bowl",
+      "verb": "put down",
+      "object": "large spoon",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand puts down the spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 142.73,
+      "end": 144.44,
+      "summary": "lift the parchment-lined plate",
+      "verb": "pick up",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 144.44,
+      "end": 147.2,
+      "summary": "carry the plate toward the freezer",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": "freezer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=144.6–146s carry plate; t=146.1s left hand pulls freezer handle, opening door by147.1s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand lifts the parchment paper with mixture",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.2,
+      "end": 148.01,
+      "summary": "open the freezer door",
+      "verb": "open",
+      "object": "freezer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens the fridge door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 148.01,
+      "end": 150.7,
+      "summary": "place the plate on the freezer shelf",
+      "verb": "place",
+      "object": "plate",
+      "tool": null,
+      "target": "freezer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 150.7,
+      "end": 155.2,
+      "summary": "close the freezer door",
+      "verb": "close",
+      "object": "freezer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=151s slide and release plate on shelf; t=152–154.8s close door.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand closes the fridge door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 155.2,
+      "end": 173.06,
+      "summary": "idle: wait beside the freezer",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Right fingers remain on fixed freezer handle during wait; door begins opening at approximately173s near interval end.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no hand activity",
+      "notes": "",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 173.06,
+      "end": 174.0,
+      "summary": "open the freezer door",
+      "verb": "open",
+      "object": "freezer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 174.0,
+      "end": 175.47,
+      "summary": "grasp the parchment-lined plate inside the freezer",
+      "verb": "grasp",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 175.47,
+      "end": 182.09,
+      "summary": "return the plate to the counter",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=175.5–176.5s remove plate; t=177–180.5s carry and place it on counter; t=181s take knife from block. No intervening fine cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "slices the chilled mixture into bars",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 182.09,
+      "end": 185.33,
+      "summary": "slice the oat mixture with the knife",
+      "verb": "cut",
+      "object": "oat mixture",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 185.33,
+      "end": 187.6,
+      "summary": "slice another strip of the oat mixture",
+      "verb": "cut",
+      "object": "oat mixture",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 187.6,
+      "end": 190.4,
+      "summary": "cut between the oat bars with the knife",
+      "verb": "cut",
+      "object": "oat mixture",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 190.4,
+      "end": 191.48,
+      "summary": "reposition the knife beside the oat bars",
+      "verb": "move",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 191.48,
+      "end": 194.02,
+      "summary": "cut another strip from the oat mixture",
+      "verb": "cut",
+      "object": "oat mixture",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.02,
+      "end": 194.87,
+      "summary": "finish cutting the oat mixture into bars",
+      "verb": "cut",
+      "object": "oat mixture",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=194.02–194.87s lies within the same last cutting and blade-lifting sequence as neighboring segments.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.87,
+      "end": 195.75,
+      "summary": "lift the knife away from the oat bars",
+      "verb": "move",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 195.75,
+      "end": 195.8,
+      "summary": "move the knife toward the bowl",
+      "verb": "move",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "195.75–195.8s is shorter than one15fps frame; both native end states map to195.733s. No independent hand-object event can be resolved.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 195.8,
+      "end": 197.6,
+      "summary": "put down the knife in the bowl",
+      "verb": "put down",
+      "object": "knife",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 197.6,
+      "end": 202.2,
+      "summary": "carry the plate of oat bars to the table",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=198s grasp and lift plate; t=199–202.1s carry to table. Right fingers still support edge at last visible frame; completed release is not established.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up plate with bars, carries it to table, and places it down",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 18.0,
+      "instruction": "Prepare the plate and measure oats",
+      "description": "Flatten parchment on the plate, retrieve and place a mixing bowl, open the oat canister, retrieve a small spoon, transfer spoonfuls of oats and close the canister.",
+      "fine_index_range": [
+        0,
+        10
+      ],
+      "transition_in": null,
+      "goal_contribution": "Provides the lined surface and measured oat base for the bars.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 18.0,
+      "end": 47.1,
+      "instruction": "Combine the dry ingredients",
+      "description": "Lift the ingredient dish, spoon its crumbly brown contents into the oats, return the dish, stir the dry mixture and scrape the small spoon.",
+      "fine_index_range": [
+        11,
+        18
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Distributes the additional dry ingredient throughout the oat base.",
+      "predictability_level": "strong",
+      "predictability_reason": "Measured oats are ready for remaining dry ingredients."
+    },
+    {
+      "start": 47.1,
+      "end": 73.7,
+      "instruction": "Add peanut butter and honey",
+      "description": "Retrieve and open the peanut butter jar, scoop and scrape peanut butter into the bowl, open and squeeze the honey bottle, return it, put the small spoon down and fetch a larger spoon.",
+      "fine_index_range": [
+        19,
+        30
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the visible sticky ingredients and obtains the utensil used to bind the mixture.",
+      "predictability_level": "strong",
+      "predictability_reason": "The dry mix needs peanut butter and honey to bind bars."
+    },
+    {
+      "start": 73.7,
+      "end": 142.73,
+      "instruction": "Mix and shape the oat slab",
+      "description": "Mix and press the ingredients with the large spoon, scrape it with fingers, transfer two portions to the parchment, flatten and shape the slab, then put the spoon down in the bowl.",
+      "fine_index_range": [
+        31,
+        38
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Forms a compact slab that can be chilled and divided into bars.",
+      "predictability_level": "strong",
+      "predictability_reason": "Combined ingredients are ready to mix and shape."
+    },
+    {
+      "start": 142.73,
+      "end": 182.09,
+      "instruction": "Chill the oat slab and return it",
+      "description": "Lift the lined plate, carry it to the freezer, open the door, place the plate inside, close and wait, reopen and retrieve it, return it to the counter and take a knife.",
+      "fine_index_range": [
+        39,
+        47
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Briefly chills the shaped slab and returns it to the cutting area.",
+      "predictability_level": "weak",
+      "predictability_reason": "A shaped oat slab may be chilled to firm it, though it could be cut directly."
+    },
+    {
+      "start": 182.09,
+      "end": 202.2,
+      "instruction": "Cut and carry the oat bars",
+      "description": "Steady the slab, make parallel knife cuts and reposition the blade to separate four bars, place the knife in the bowl, then lift and carry the lined plate toward the nearby table.",
+      "fine_index_range": [
+        48,
+        57
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Divides the slab into individual bars and moves them to the serving surface.",
+      "predictability_level": "strong",
+      "predictability_reason": "The chilled slab is ready to cut into bars."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames/1b320f890d95b5d1/native_v1",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

@@ -1,0 +1,1383 @@
+{
+  "video_id": "050e205b707d34c2",
+  "duration": 154.0,
+  "task": "Making microwave scrambled eggs with cheese and salsa",
+  "domain": "Chef",
+  "query": "How do I make microwave scrambled eggs with cheese and salsa?",
+  "goal": {
+    "title": "Prepare microwave eggs with cheese and salsa",
+    "description": "Crack two eggs into a bowl and beat them with milk. Microwave in two rounds, stirring and salting between rounds, then top the cooked eggs with shredded cheese and salsa.",
+    "final_state": "A yellow bowl of puffed cooked eggs topped with shredded cheese and a mound of salsa rests on the worktop. The fork lies beside it and the salsa jar is closed.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 27.36,
+        "description": "Pick up and tap an egg against the counter, split the shell over the yellow bowl, then repeat with a second egg. Move empty shells aside and pinch at a possible shell fragment inside the bowl. Unscrew the carton cap, pour milk into the raw eggs, recap and set down the carton, then beat the mixture with a fork while holding the bowl."
+      },
+      {
+        "start": 27.36,
+        "end": 58.46,
+        "description": "Lift the bowl, leave the fork on the counter and carry the bowl to the microwave. Open the door with the left hand, place the bowl inside with the right, close the door and press the control to start. Wait beside the running microwave, then open it before the displayed countdown has finished and retrieve the bowl."
+      },
+      {
+        "start": 58.46,
+        "end": 66.51,
+        "description": "Carry the bowl back to the worktop, take up the fork and stir the still-fluid, partly cooked eggs. Hold the fork in the right hand while the left picks up the salt shaker, shakes salt over the mixture and returns the shaker. Stir again and lift the bowl."
+      },
+      {
+        "start": 66.51,
+        "end": 124.13,
+        "description": "Set the fork down, carry the bowl to the still-open microwave and transfer it to the right hand. Place it on the turntable, close the door, set the controls and start a second heating period. Wait beside the appliance, open it with17seconds still displayed and remove the now puffed egg mixture. Carry the bowl back and lower it onto the worktop."
+      },
+      {
+        "start": 124.13,
+        "end": 154,
+        "description": "Pick up the fork and briefly pause beside the cooked eggs. Put the fork down, open the shredded-cheese bag and shake cheese directly over the eggs. Reseal and set aside the bag, open the salsa jar and put its lid down. Use the fork to scoop salsa from the tilted jar onto the cheese-topped eggs, lay the fork down, close the jar and leave the completed bowl on the counter."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 27.36,
+      "description": "Pick up and tap an egg against the counter, split the shell over the yellow bowl, then repeat with a second egg. Move empty shells aside and pinch at a possible shell fragment inside the bowl. Unscrew the carton cap, pour milk into the raw eggs, recap and set down the carton, then beat the mixture with a fork while holding the bowl."
+    },
+    {
+      "start": 27.36,
+      "end": 58.46,
+      "description": "Lift the bowl, leave the fork on the counter and carry the bowl to the microwave. Open the door with the left hand, place the bowl inside with the right, close the door and press the control to start. Wait beside the running microwave, then open it before the displayed countdown has finished and retrieve the bowl."
+    },
+    {
+      "start": 58.46,
+      "end": 66.51,
+      "description": "Carry the bowl back to the worktop, take up the fork and stir the still-fluid, partly cooked eggs. Hold the fork in the right hand while the left picks up the salt shaker, shakes salt over the mixture and returns the shaker. Stir again and lift the bowl."
+    },
+    {
+      "start": 66.51,
+      "end": 124.13,
+      "description": "Set the fork down, carry the bowl to the still-open microwave and transfer it to the right hand. Place it on the turntable, close the door, set the controls and start a second heating period. Wait beside the appliance, open it with17seconds still displayed and remove the now puffed egg mixture. Carry the bowl back and lower it onto the worktop."
+    },
+    {
+      "start": 124.13,
+      "end": 154,
+      "description": "Pick up the fork and briefly pause beside the cooked eggs. Put the fork down, open the shredded-cheese bag and shake cheese directly over the eggs. Reseal and set aside the bag, open the salsa jar and put its lid down. Use the fork to scoop salsa from the tilted jar onto the cheese-topped eggs, lay the fork down, close the jar and leave the completed bowl on the counter."
+    }
+  ],
+  "object_inventory": [
+    "egg",
+    "eggshell",
+    "bowl",
+    "fork",
+    "milk carton",
+    "milk cap",
+    "microwave",
+    "salt shaker",
+    "cheese bag",
+    "egg mixture",
+    "cooked eggs",
+    "milk",
+    "shredded cheese",
+    "salsa jar",
+    "salsa lid",
+    "salsa",
+    "counter"
+  ],
+  "notes": "Every fine boundary preserved and every description/coarse partition rewritten visually. Heating is interrupted before countdown reaches zero both times; no completed timer cycle inferred. Long human steps18and31 include both control pressing and waiting; recorded in boundary_note rather than recutting. Cheese is poured from bag, salsa transferred with the same fork rather than an inferred spoon. Whole task and all dense pages/native ends viewed. Exact native PTS burnt before fps. Milk is the visible white liquid poured from the cow-pattern carton; the tiny pinched item at11–14s is uncertain. Human summary text was not used to infer actions.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.4,
+      "summary": "pick up an egg from the bowl",
+      "verb": "pick up",
+      "object": "egg",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "cracks first egg (hand switch)",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 1.4,
+      "end": 2.2,
+      "summary": "tap the egg against the counter",
+      "verb": "tap",
+      "object": "egg",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "cracks second egg",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 2.2,
+      "end": 5.4,
+      "summary": "crack the egg into the bowl",
+      "verb": "crack",
+      "object": "egg",
+      "tool": null,
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "cracks third egg",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 5.4,
+      "end": 6.8,
+      "summary": "pick up the second egg",
+      "verb": "pick up",
+      "object": "egg",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=5.4s move first shell away; t=6.4s lift second egg from counter. Distinct shell disposal and egg pickup remain within segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "drops shell",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.8,
+      "end": 7.38,
+      "summary": "tap the second egg against the counter",
+      "verb": "tap",
+      "object": "egg",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "picks up fourth egg",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.38,
+      "end": 9.7,
+      "summary": "crack the second egg into the bowl",
+      "verb": "crack",
+      "object": "egg",
+      "tool": null,
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.7,
+      "end": 11.1,
+      "summary": "move the empty eggshells away from the bowl",
+      "verb": "move",
+      "object": "eggshell",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "drops shell",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.1,
+      "end": 15.17,
+      "summary": "remove an eggshell fragment from the bowl",
+      "verb": "remove",
+      "object": "eggshell",
+      "tool": null,
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "milk carton"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=11.1–14s fingertips pinch inside bowl; small fragment is partly occluded. t=14.4s withdraw hand; t=15.1s reach for milk carton.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand pours milk from the carton into the bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.17,
+      "end": 16.04,
+      "summary": "unscrew the milk carton cap",
+      "verb": "open",
+      "object": "milk carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "milk carton"
+        ],
+        "right": [
+          "milk cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.04,
+      "end": 17.64,
+      "summary": "pour milk into the bowl",
+      "verb": "pour",
+      "object": "milk",
+      "tool": "milk carton",
+      "target": "bowl",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "milk carton"
+        ],
+        "right": [
+          "milk cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.64,
+      "end": 19.0,
+      "summary": "screw the cap onto the milk carton",
+      "verb": "close",
+      "object": "milk carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "milk carton"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.0,
+      "end": 19.86,
+      "summary": "pick up the fork beside the bowl",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs the egg mixture with the fork",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 19.86,
+      "end": 27.36,
+      "summary": "beat the eggs and milk with the fork",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 27.36,
+      "end": 28.41,
+      "summary": "lift the bowl from the counter",
+      "verb": "pick up",
+      "object": "bowl",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.41,
+      "end": 29.7,
+      "summary": "carry the bowl toward the microwave",
+      "verb": "move",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=28.4s fork lowered onto counter; t=29.3s transfer bowl from left to right; human segment includes both object changes.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.7,
+      "end": 30.64,
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens the microwave",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.64,
+      "end": 31.9,
+      "summary": "place the bowl inside the microwave",
+      "verb": "place",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.9,
+      "end": 33.2,
+      "summary": "close the microwave door",
+      "verb": "close",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places bowl in microwave then closes it",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 33.2,
+      "end": 56.0,
+      "summary": "press the microwave start control",
+      "verb": "press",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=33.3–34.4s start microwave; t=34.8–55.5s wait without task interaction; t=55.9s right hand reaches door. Compound action and waiting interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand touches microwave handle",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 56.0,
+      "end": 57.06,
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes bowl from microwave and places it on counter",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 57.06,
+      "end": 58.46,
+      "summary": "remove the bowl from the microwave",
+      "verb": "remove",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 58.46,
+      "end": 60.21,
+      "summary": "carry the bowl back to the counter",
+      "verb": "move",
+      "object": "bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up fork and stirs eggs in bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.21,
+      "end": 60.86,
+      "summary": "pick up the fork beside the bowl",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 60.86,
+      "end": 62.0,
+      "summary": "stir the partly cooked eggs with the fork",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.0,
+      "end": 62.54,
+      "summary": "pick up the salt shaker",
+      "verb": "pick up",
+      "object": "salt shaker",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "salt shaker"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand sprinkles salt on eggs",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.54,
+      "end": 64.2,
+      "summary": "shake salt over the eggs",
+      "verb": "shake",
+      "object": "salt shaker",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "salt shaker"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 64.2,
+      "end": 65.11,
+      "summary": "put down the salt shaker on the counter",
+      "verb": "put down",
+      "object": "salt shaker",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs eggs in bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.11,
+      "end": 66.51,
+      "summary": "stir the salted eggs with the fork",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 66.51,
+      "end": 68.2,
+      "summary": "carry the bowl toward the open microwave",
+      "verb": "move",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=66.5s set fork down; t=67.8s transfer bowl left to right. Both interactions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.2,
+      "end": 69.45,
+      "summary": "place the bowl back inside the microwave",
+      "verb": "place",
+      "object": "bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand carries bowl to microwave and places it inside",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.45,
+      "end": 69.9,
+      "summary": "close the microwave door",
+      "verb": "close",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 69.9,
+      "end": 116.96,
+      "summary": "set the microwave timer and start heating",
+      "verb": "press",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=70.4–73.5s press controls and start heating; t=74–116.2s wait without interaction; t=116.5s reach for door. Long waiting period shares action segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand waits for microwave to finish heating",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 116.96,
+      "end": 119.1,
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens microwave door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 119.1,
+      "end": 119.5,
+      "summary": "lift the bowl from the microwave",
+      "verb": "pick up",
+      "object": "bowl",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes bowl from microwave",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 119.5,
+      "end": 122.6,
+      "summary": "carry the cooked eggs back to the counter",
+      "verb": "move",
+      "object": "bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand carries bowl to counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 122.6,
+      "end": 124.13,
+      "summary": "put down the bowl on the counter",
+      "verb": "put down",
+      "object": "bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=123.2s bowl rests on counter but fingers continue holding rim until approximately124.6s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places bowl on counter and picks up fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.13,
+      "end": 126.58,
+      "summary": "pick up the fork beside the cooked eggs",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 126.58,
+      "end": 129.6,
+      "summary": "idle: pause beside the cooked eggs",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 129.6,
+      "end": 130.9,
+      "summary": "pick up the shredded cheese bag",
+      "verb": "pick up",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up cheese bag and pours cheese into bowl",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 130.9,
+      "end": 132.91,
+      "summary": "pull open the cheese bag seal",
+      "verb": "open",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese bag"
+        ],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 132.91,
+      "end": 139.52,
+      "summary": "pour shredded cheese over the cooked eggs",
+      "verb": "pour",
+      "object": "shredded cheese",
+      "tool": "cheese bag",
+      "target": "cooked eggs",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cheese bag"
+        ],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 139.52,
+      "end": 141.5,
+      "summary": "close the cheese bag and return it to the counter",
+      "verb": "close",
+      "object": "cheese bag",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=139.5–140.5s press seal; t=140.8–141.2s place bag upright; distinct closure and placement retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.5,
+      "end": 142.61,
+      "summary": "pick up the salsa jar",
+      "verb": "pick up",
+      "object": "salsa jar",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salsa jar"
+        ],
+        "right": [
+          "salsa lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up salsa jar, scoops salsa with fork, and adds it to bowl",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 142.61,
+      "end": 144.08,
+      "summary": "unscrew the salsa jar lid",
+      "verb": "open",
+      "object": "salsa jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "salsa jar"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=142.7–143.5s unscrew lid; t=143.8s set lid down; t=144.0s grasp fork. Multiple hand-object changes retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 144.08,
+      "end": 144.8,
+      "summary": "lift the fork beside the salsa jar",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salsa jar"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 144.8,
+      "end": 147.25,
+      "summary": "scoop salsa from the jar with the fork",
+      "verb": "scoop",
+      "object": "salsa",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salsa jar"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.25,
+      "end": 149.6,
+      "summary": "place salsa onto the eggs with the fork",
+      "verb": "place",
+      "object": "salsa",
+      "tool": "fork",
+      "target": "cooked eggs",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salsa jar"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 149.6,
+      "end": 150.44,
+      "summary": "put down the fork beside the bowl",
+      "verb": "put down",
+      "object": "fork",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salsa jar"
+        ],
+        "right": [
+          "salsa lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=149.8s set fork down; t=150.1s pick up salsa lid. Boundary retained through object change.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand caps salsa jar and places it on counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 150.44,
+      "end": 152.68,
+      "summary": "screw the lid onto the salsa jar",
+      "verb": "close",
+      "object": "salsa jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=150.5–151.2s screw lid on; t=151.6–152.1s set jar down. Both interactions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 152.68,
+      "end": 154.0,
+      "summary": "idle: inspect the topped egg bowl",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 27.36,
+      "instruction": "Crack and beat the eggs with milk",
+      "description": "Retrieve and crack two eggs into the bowl, move shells aside, pinch inside the bowl, open and pour from the milk carton, recap it, pick up the fork and beat the mixture.",
+      "fine_index_range": [
+        0,
+        12
+      ],
+      "transition_in": null,
+      "goal_contribution": "Combines the raw egg and milk into a uniform mixture for cooking.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 27.36,
+      "end": 58.46,
+      "instruction": "Heat the egg mixture for the first time",
+      "description": "Lift and carry the bowl, set the fork aside, open and load the microwave, close and start it, wait, then open the door and retrieve the partly cooked mixture.",
+      "fine_index_range": [
+        13,
+        20
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Begins cooking while retaining the opportunity to stir before a second heating.",
+      "predictability_level": "strong",
+      "predictability_reason": "After crack and beat the eggs with milk, heat the egg mixture for the first time is a natural next stage toward prepare microwave eggs with cheese and salsa."
+    },
+    {
+      "start": 58.46,
+      "end": 66.51,
+      "instruction": "Stir and salt the partly cooked eggs",
+      "description": "Return the bowl to the counter, retrieve the fork, stir the eggs, pick up the salt shaker, season the mixture, set the shaker down and stir again.",
+      "fine_index_range": [
+        21,
+        27
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Redistributes the partly cooked mixture and incorporates salt before further heating.",
+      "predictability_level": "weak",
+      "predictability_reason": "After heat the egg mixture for the first time, stir and salt the partly cooked eggs is plausible for prepare microwave eggs with cheese and salsa, but several next steps fit."
+    },
+    {
+      "start": 66.51,
+      "end": 124.13,
+      "instruction": "Heat the eggs again and retrieve the bowl",
+      "description": "Leave the fork, carry and load the bowl into the open microwave, close the door, set and start the timer, wait, open and lift out the bowl, then carry it back and set it down.",
+      "fine_index_range": [
+        28,
+        35
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Finishes the visible heating sequence and returns the cooked eggs to the topping area.",
+      "predictability_level": "strong",
+      "predictability_reason": "After stir and salt the partly cooked eggs, heat the eggs again and retrieve the bowl is a natural next stage toward prepare microwave eggs with cheese and salsa."
+    },
+    {
+      "start": 124.13,
+      "end": 154.0,
+      "instruction": "Top the cooked eggs with cheese and salsa",
+      "description": "Pick up the fork and pause, then retrieve and open the cheese bag, pour cheese over the eggs, reseal and return the bag, open the salsa jar, scoop salsa onto the eggs with the fork, lay the fork down and close the jar.",
+      "fine_index_range": [
+        36,
+        49
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the visible cheese and salsa toppings to complete the egg bowl.",
+      "predictability_level": "strong",
+      "predictability_reason": "After heat the eggs again and retrieve the bowl, top the cooked eggs with cheese and salsa is a natural next stage toward prepare microwave eggs with cheese and salsa."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames/050e205b707d34c2/native_v1",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

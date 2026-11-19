@@ -1,0 +1,36 @@
+{
+  "video_id": "008a392f0747e13b",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After measure sour cream into the mixing bowl, measure and add the mayonnaise is a natural next stage toward make blue cheese dip and serve with crackers."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After measure and add the mayonnaise, measure and add the blue cheese is a natural next stage toward make blue cheese dip and serve with crackers."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After measure and add the blue cheese, mix and season the cheese dip is a natural next stage toward make blue cheese dip and serve with crackers."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "After mix and season the cheese dip, transfer the dip and place it in refrigerator is plausible for make blue cheese dip and serve with crackers, but several next steps fit."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After transfer the dip and place it in refrigerator, retrieve the dip and arrange crackers is a natural next stage toward make blue cheese dip and serve with crackers."
+    }
+  ]
+}

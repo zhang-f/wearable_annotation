@@ -1,0 +1,814 @@
+{
+  "video_id": "a121c30c39f9dc72",
+  "duration": 75.134,
+  "task": "How to enable app notifications",
+  "domain": "Tutorial",
+  "query": "How do I enable app notifications?",
+  "goal": {
+    "title": "Enable Amazon notifications on the phone",
+    "description": "Unlock the phone, locate Amazon in the Settings app list, open its Notifications page, enable Allow Notifications, and return to the app list.",
+    "final_state": "Amazon notification options are enabled and the app settings list is displayed. The phone is then locked in the unsegmented tail.",
+    "procedure": [
+      "Wake and unlock the phone with the passcode keypad.",
+      "Open Settings, scroll the app list, and select Amazon.",
+      "Open Notifications and turn on Allow Notifications.",
+      "Check the enabled alert options, then return through Amazon settings to the Apps list."
+    ]
+  },
+  "object_inventory": [
+    "phone"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 15.5,
+      "description": "The phone is woken, swiped to the passcode screen, unlocked, and Settings opened."
+    },
+    {
+      "start": 15.5,
+      "end": 40.3,
+      "description": "The Settings list is scrolled, Amazon selected, and its Notifications row opened."
+    },
+    {
+      "start": 40.3,
+      "end": 66.2,
+      "description": "After a pause on the disabled page, Allow Notifications is switched on near t=46s. The enabled alert options remain visible before the back buttons return to Amazon settings and the Apps list."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.0,
+      "old_summary": "hand picks up smartphone",
+      "summary": "right hand taps the dark phone screen",
+      "verb": "tap",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": null
+    },
+    {
+      "start": 3.0,
+      "end": 4.9,
+      "old_summary": "hand taps the smartphone screen",
+      "summary": "right hand swipes upward on the phone lock screen",
+      "verb": "swipe",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 4.9,
+      "end": 11.0,
+      "old_summary": "hand enters passcode on smartphone",
+      "summary": "right hand taps the phone passcode keypad",
+      "verb": "tap",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.0,
+      "end": 12.2,
+      "old_summary": "hand holds smartphone",
+      "summary": "right hand finishes unlocking the phone",
+      "verb": "tap",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.2,
+      "end": 12.5,
+      "old_summary": "hand taps the smartphone screen",
+      "summary": "idle while the phone home screen remains displayed",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited interval in a continuous screen interaction or pause; boundary preserved. No additional independent action inferred.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 12.5,
+      "end": 15.5,
+      "old_summary": "hand taps the Settings app icon on the smartphone",
+      "summary": "right hand taps the Settings icon on the phone",
+      "verb": "tap",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.5,
+      "end": 31.5,
+      "old_summary": "hand taps on the Settings app icon on the smartphone",
+      "summary": "right hand scrolls Settings and opens the Amazon app settings",
+      "verb": "scroll",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Compound interval: Settings opened near t=15.5s, app list scrolled t=18–29s, Amazon selected near t=30–31s.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 31.5,
+      "end": 36.9,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle while the Amazon app settings remain displayed",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 36.9,
+      "end": 37.0,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle with the right hand hovering beside the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited interval in a continuous screen interaction or pause; boundary preserved. No additional independent action inferred.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 37.0,
+      "end": 40.3,
+      "old_summary": "hand holds phone steady",
+      "summary": "right hand taps Notifications in the Amazon settings",
+      "verb": "tap",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 40.3,
+      "end": 45.5,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle while the disabled notification settings remain displayed",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 45.5,
+      "end": 46.3,
+      "old_summary": "hand taps the phone screen",
+      "summary": "right hand taps the Allow Notifications switch",
+      "verb": "tap",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.3,
+      "end": 46.4,
+      "old_summary": "hand taps the phone screen",
+      "summary": "right hand finishes pressing the notification switch",
+      "verb": "tap",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited interval in a continuous screen interaction or pause; boundary preserved. No additional independent action inferred.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.4,
+      "end": 46.7,
+      "old_summary": "hand taps on the phone screen",
+      "summary": "idle as the right hand withdraws from the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited interval in a continuous screen interaction or pause; boundary preserved. No additional independent action inferred.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 46.7,
+      "end": 49.1,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle while the enabled notification options remain displayed",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 49.1,
+      "end": 50.1,
+      "old_summary": "hand taps the screen of the phone",
+      "summary": "idle while the phone notification page remains displayed",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 50.1,
+      "end": 51.1,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle with no phone interaction",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 51.1,
+      "end": 52.1,
+      "old_summary": "hand taps the screen of the phone",
+      "summary": "idle with no phone interaction",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 52.1,
+      "end": 53.2,
+      "old_summary": "no hand activity",
+      "summary": "idle while the notification page remains displayed",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 53.2,
+      "end": 54.1,
+      "old_summary": "hand taps on the phone screen",
+      "summary": "idle as the left hand settles beside the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 54.1,
+      "end": 55.1,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle with the left hand beside the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 55.1,
+      "end": 56.1,
+      "old_summary": "hand taps on the phone screen",
+      "summary": "idle as the left index finger points near the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 56.1,
+      "end": 57.7,
+      "old_summary": "hand taps the phone screen",
+      "summary": "left hand taps the notification page back button",
+      "verb": "tap",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 57.7,
+      "end": 57.8,
+      "old_summary": "hand taps the phone screen",
+      "summary": "left hand lifts from the phone screen",
+      "verb": "release",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited interval in a continuous screen interaction or pause; boundary preserved. No additional independent action inferred.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 57.8,
+      "end": 58.0,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle while the Amazon settings page remains displayed",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited interval in a continuous screen interaction or pause; boundary preserved. No additional independent action inferred.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 58.0,
+      "end": 60.1,
+      "old_summary": "hand holds phone steady",
+      "summary": "idle with the left hand hovering beside the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 60.1,
+      "end": 61.1,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle as the left hand approaches the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 61.1,
+      "end": 62.1,
+      "old_summary": "hand taps on the phone screen",
+      "summary": "left hand taps back from the Amazon settings",
+      "verb": "tap",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.1,
+      "end": 62.2,
+      "old_summary": "hand taps the phone screen",
+      "summary": "left hand lifts from the phone screen",
+      "verb": "release",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited interval in a continuous screen interaction or pause; boundary preserved. No additional independent action inferred.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.2,
+      "end": 64.1,
+      "old_summary": "hand holds phone steady",
+      "summary": "idle while the Apps settings list remains displayed",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 64.1,
+      "end": 64.2,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle beside the phone Apps list",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited interval in a continuous screen interaction or pause; boundary preserved. No additional independent action inferred.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 64.2,
+      "end": 66.1,
+      "old_summary": "no hand activity",
+      "summary": "idle while the Apps settings list remains displayed",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 66.1,
+      "end": 66.2,
+      "old_summary": "hand taps the phone screen",
+      "summary": "idle as both hands approach the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Very short inherited interval in a continuous screen interaction or pause; boundary preserved. No additional independent action inferred.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "UI text checked against additional source-resolution frames at t=36,42,49,66s; no phone held at endpoint. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 15.5,
+      "fine_index_range": [
+        0,
+        5
+      ],
+      "instruction": "Unlock the phone and open Settings",
+      "description": "The phone is woken, swiped to the passcode screen, unlocked, and Settings opened.",
+      "goal_contribution": "Provides access to the system controls.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 15.5,
+      "end": 40.3,
+      "fine_index_range": [
+        6,
+        9
+      ],
+      "instruction": "Find Amazon notification settings",
+      "description": "The Settings list is scrolled, Amazon selected, and its Notifications row opened.",
+      "goal_contribution": "Reaches the app-specific notification permission.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After unlock the phone and open settings, find amazon notification settings is a natural next stage toward enable amazon notifications on the phone."
+    },
+    {
+      "start": 40.3,
+      "end": 66.2,
+      "fine_index_range": [
+        10,
+        32
+      ],
+      "instruction": "Enable notifications and return to the app list",
+      "description": "After a pause on the disabled page, Allow Notifications is switched on near t=46s. The enabled alert options remain visible before the back buttons return to Amazon settings and the Apps list.",
+      "goal_contribution": "Enables notification delivery for Amazon and confirms the changed page.",
+      "transition_in": "NONE",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After find amazon notification settings, enable notifications and return to the app list is a natural next stage toward enable amazon notifications on the phone."
+    }
+  ],
+  "notes": "Reviewed three overview sheets, all 470 dense frames, all 33 native endpoints, and additional original-resolution frames at t=36,42,49,66s. Those frames identify Amazon, not a messaging or accessibility page. Fine boundaries preserved. Tail t=66.2–75.134s is not covered by inherited fine: hands operate the phone near t=67s and screen is locked by t=68.9s, followed by view-only footage; requires an additional tail step if coverage is extended."
+}

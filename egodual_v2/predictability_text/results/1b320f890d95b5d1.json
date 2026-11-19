@@ -1,0 +1,36 @@
+{
+  "video_id": "1b320f890d95b5d1",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Measured oats are ready for remaining dry ingredients."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The dry mix needs peanut butter and honey to bind bars."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Combined ingredients are ready to mix and shape."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "A shaped oat slab may be chilled to firm it, though it could be cut directly."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "The chilled slab is ready to cut into bars."
+    }
+  ]
+}

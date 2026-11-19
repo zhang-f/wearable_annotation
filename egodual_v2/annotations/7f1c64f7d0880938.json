@@ -1,0 +1,972 @@
+{
+  "video_id": "7f1c64f7d0880938",
+  "duration": 212.4,
+  "task": "Making veggie and hummus pinwheels",
+  "domain": "Chef",
+  "query": "How do I make veggie and hummus pinwheels?",
+  "goal": {
+    "title": "Make cucumber and hummus tortilla pinwheels",
+    "description": "Spread hummus over a flour tortilla, shave lengthwise cucumber ribbons onto it with a peeler, roll the tortilla tightly and slice it into rounds for a green plate.",
+    "final_state": "A green plate holds the sliced tortilla pinwheels; cucumber and hummus remain beside the cutting board.",
+    "procedure": [
+      "Remove a tortilla from its bag and lay it flat on the board.",
+      "Open the hummus tub, peel off its seal and spread hummus across the tortilla with a blue spreader.",
+      "Shave thin cucumber ribbons directly over the hummus layer.",
+      "Roll the tortilla tightly around the cucumber.",
+      "Unsheath the knife, cut the roll into rounds and transfer the pieces to a green plate.",
+      "Lift the plate to show the pinwheels."
+    ]
+  },
+  "object_inventory": [
+    "tortilla bag",
+    "tortilla",
+    "cutting board",
+    "hummus tub",
+    "hummus lid",
+    "hummus seal",
+    "hummus",
+    "spreader",
+    "cucumber",
+    "peeler",
+    "knife",
+    "knife sheath",
+    "pinwheel",
+    "green plate",
+    "counter"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 7.3,
+      "description": "The tortilla bag is opened, one tortilla is removed and laid flat on the cutting board."
+    },
+    {
+      "start": 7.3,
+      "end": 68.2,
+      "description": "The hummus lid and inner seal are removed. A blue spreader repeatedly scoops and smooths hummus over the tortilla surface."
+    },
+    {
+      "start": 68.2,
+      "end": 107.76,
+      "description": "One hand holds the cucumber while the other draws a peeler lengthwise, dropping successive thin ribbons across the tortilla. The cucumber and peeler are set aside."
+    },
+    {
+      "start": 107.76,
+      "end": 141.4,
+      "description": "Both hands curl and tuck the tortilla edge, rolling the hummus and cucumber into a tight cylinder that is steadied on the board."
+    },
+    {
+      "start": 141.4,
+      "end": 207.22,
+      "description": "The blue-handled knife is unsheathed. One hand steadies the roll while the other repeatedly cuts rounds, sets down the knife and transfers each piece toward the plate."
+    },
+    {
+      "start": 207.22,
+      "end": 212.5,
+      "description": "The green plate is lifted into view with the arranged tortilla rounds. The last source segment extends 0.1s beyond the actual video."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 5.8,
+      "old_summary": "hand removes a tortilla from its package and places it on a cutting board",
+      "summary": "both hands open the tortilla bag and remove a tortilla",
+      "verb": "remove",
+      "object": "tortilla",
+      "tool": null,
+      "target": "tortilla bag",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 5.8,
+      "end": 7.3,
+      "old_summary": "hand scoops hummus from the container with a spoon",
+      "summary": "both hands lay the tortilla flat on the cutting board",
+      "verb": "place",
+      "object": "tortilla",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.3,
+      "end": 11.9,
+      "old_summary": "hand scoops hummus from the container with a spoon",
+      "summary": "right hand lifts the hummus tub lid",
+      "verb": "open",
+      "object": "hummus lid",
+      "tool": null,
+      "target": "hummus tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "hummus tub"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.9,
+      "end": 18.6,
+      "old_summary": "hand scoops hummus from a container with a spoon",
+      "summary": "both hands peel the seal from the hummus tub",
+      "verb": "peel",
+      "object": "hummus seal",
+      "tool": null,
+      "target": "hummus tub",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "hummus tub"
+        ],
+        "right": [
+          "hummus seal"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.6,
+      "end": 26.8,
+      "old_summary": "hand scoops hummus from container with spoon",
+      "summary": "right hand puts the seal aside and collects the spreader",
+      "verb": "pick up",
+      "object": "spreader",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spreader"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.8,
+      "end": 27.9,
+      "old_summary": "hand scoops hummus from the container with a spoon",
+      "summary": "left hand steadies the open hummus tub",
+      "verb": "hold",
+      "object": "hummus tub",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spreader"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.9,
+      "end": 44.22,
+      "old_summary": "hand spreads hummus across the tortilla using a knife",
+      "summary": "right hand scoops hummus and spreads it onto the tortilla",
+      "verb": "spread",
+      "object": "hummus",
+      "tool": "spreader",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spreader"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.22,
+      "end": 55.65,
+      "old_summary": "hand spreads hummus across the tortilla using a knife",
+      "summary": "right hand spreads another portion of hummus across the tortilla",
+      "verb": "spread",
+      "object": "hummus",
+      "tool": "spreader",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spreader"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.65,
+      "end": 68.2,
+      "old_summary": "hand spreads hummus across the tortilla using a knife",
+      "summary": "right hand smooths hummus across the tortilla surface",
+      "verb": "spread",
+      "object": "hummus",
+      "tool": "spreader",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cucumber"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "55.65–68.2s includes finishing the hummus spread and collecting cucumber/peeler.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.2,
+      "end": 72.94,
+      "old_summary": "hand places cucumber strip on hummus-covered tortilla",
+      "summary": "right hand shaves cucumber ribbons over the tortilla",
+      "verb": "shave",
+      "object": "cucumber",
+      "tool": "peeler",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cucumber"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 72.94,
+      "end": 78.0,
+      "old_summary": "hand slices cucumber with peeler",
+      "summary": "right hand shaves another cucumber ribbon onto the tortilla",
+      "verb": "shave",
+      "object": "cucumber",
+      "tool": "peeler",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cucumber"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.0,
+      "end": 82.93,
+      "old_summary": "hand places cucumber strip on hummus-covered tortilla",
+      "summary": "right hand pulls the peeler along the cucumber again",
+      "verb": "shave",
+      "object": "cucumber",
+      "tool": "peeler",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cucumber"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 82.93,
+      "end": 87.87,
+      "old_summary": "hand arranges cucumber strips on hummus-covered tortilla",
+      "summary": "right hand lays more shaved cucumber onto the hummus",
+      "verb": "shave",
+      "object": "cucumber",
+      "tool": "peeler",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cucumber"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.87,
+      "end": 93.39,
+      "old_summary": "hand arranges cucumber strips on hummus-covered tortilla",
+      "summary": "right hand shaves a further cucumber ribbon onto the tortilla",
+      "verb": "shave",
+      "object": "cucumber",
+      "tool": "peeler",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cucumber"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 93.39,
+      "end": 99.07,
+      "old_summary": "hand slices cucumber with peeler",
+      "summary": "right hand repeats lengthwise strokes with the cucumber peeler",
+      "verb": "shave",
+      "object": "cucumber",
+      "tool": "peeler",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cucumber"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.07,
+      "end": 103.88,
+      "old_summary": "hand slices cucumber with peeler",
+      "summary": "right hand shaves the final cucumber ribbons onto the tortilla",
+      "verb": "shave",
+      "object": "cucumber",
+      "tool": "peeler",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cucumber"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.88,
+      "end": 107.76,
+      "old_summary": "hand places cucumber strip onto hummus-covered tortilla",
+      "summary": "both hands set the cucumber and peeler aside",
+      "verb": "place",
+      "object": "cucumber",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.76,
+      "end": 138.5,
+      "old_summary": "hands roll the tortilla tightly around the cucumber strips",
+      "summary": "both hands tightly roll the cucumber-filled tortilla",
+      "verb": "roll",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "107.76–138.5s is prolonged rolling and tucking; source boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 138.5,
+      "end": 141.4,
+      "old_summary": "hand holds rolled pinwheel steady on cutting board",
+      "summary": "left hand steadies the rolled tortilla on the board",
+      "verb": "hold",
+      "object": "tortilla",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.4,
+      "end": 144.95,
+      "old_summary": "hand cuts the pinwheel with a knife",
+      "summary": "both hands remove the sheath from the blue-handled knife",
+      "verb": "unsheathe",
+      "object": "knife",
+      "tool": null,
+      "target": "knife sheath",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 144.95,
+      "end": 151.1,
+      "old_summary": "hand cuts the pinwheel with a knife",
+      "summary": "right hand cuts the first round from the tortilla roll",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 151.1,
+      "end": 155.24,
+      "old_summary": "hand cuts the rolled pinwheel with a knife",
+      "summary": "right hand transfers the first pinwheel off the board",
+      "verb": "place",
+      "object": "pinwheel",
+      "tool": null,
+      "target": "green plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 155.24,
+      "end": 160.2,
+      "old_summary": "hand cuts the pinwheel with a knife",
+      "summary": "right hand cuts another round from the tortilla roll",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 160.2,
+      "end": 162.65,
+      "old_summary": "hand cuts the rolled pinwheel with a knife",
+      "summary": "right hand transfers another pinwheel toward the plate",
+      "verb": "place",
+      "object": "pinwheel",
+      "tool": null,
+      "target": "green plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 162.65,
+      "end": 169.6,
+      "old_summary": "hand cuts the pinwheel with a knife",
+      "summary": "right hand cuts a further pinwheel from the roll",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 169.6,
+      "end": 177.2,
+      "old_summary": "hand cuts the rolled pinwheel with a knife",
+      "summary": "right hand cuts and transfers the next tortilla round",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "169.6–177.2s includes slicing, setting down the knife and moving a pinwheel to the plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 177.2,
+      "end": 183.89,
+      "old_summary": "hand cuts the rolled pinwheel with a knife",
+      "summary": "right hand slices another pinwheel from the tortilla roll",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 183.89,
+      "end": 190.59,
+      "old_summary": "hand cuts the rolled pinwheel with a knife",
+      "summary": "right hand cuts another round and moves it aside",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 190.59,
+      "end": 198.93,
+      "old_summary": "hand cuts the pinwheel with a knife",
+      "summary": "right hand slices and lifts another tortilla pinwheel",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 198.93,
+      "end": 204.7,
+      "old_summary": "hand cuts the pinwheel with a knife",
+      "summary": "right hand cuts and transfers the remaining tortilla rounds",
+      "verb": "cut",
+      "object": "tortilla",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "198.93–204.7s includes a cut and piece transfer; source boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.7,
+      "end": 207.22,
+      "old_summary": "hand cuts the pinwheel with a knife",
+      "summary": "right hand moves the final cut pinwheel toward the plate",
+      "verb": "place",
+      "object": "pinwheel",
+      "tool": null,
+      "target": "green plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 207.22,
+      "end": 212.1,
+      "old_summary": "hand places the plate down",
+      "summary": "left hand lifts the green plate of pinwheels",
+      "verb": "lift",
+      "object": "green plate",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "green plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 212.1,
+      "end": 212.5,
+      "old_summary": "hand adjusts position of plate",
+      "summary": null,
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "超出视频结尾",
+      "beyond_video_end": true,
+      "confidence": "low",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 7.3,
+      "fine_index_range": [
+        0,
+        1
+      ],
+      "instruction": "Lay out the tortilla",
+      "description": "The tortilla bag is opened, one tortilla is removed and laid flat on the cutting board.",
+      "goal_contribution": "Creates a flat base for the pinwheel filling.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 7.3,
+      "end": 68.2,
+      "fine_index_range": [
+        2,
+        8
+      ],
+      "instruction": "Open the hummus and coat the tortilla",
+      "description": "The hummus lid and inner seal are removed. A blue spreader repeatedly scoops and smooths hummus over the tortilla surface.",
+      "goal_contribution": "Provides the spread layer that surrounds the cucumber in the rolled tortilla.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The laid-out tortilla is ready for hummus spread."
+    },
+    {
+      "start": 68.2,
+      "end": 107.76,
+      "fine_index_range": [
+        9,
+        16
+      ],
+      "instruction": "Shave cucumber ribbons onto the hummus",
+      "description": "One hand holds the cucumber while the other draws a peeler lengthwise, dropping successive thin ribbons across the tortilla. The cucumber and peeler are set aside.",
+      "goal_contribution": "Builds a thin cucumber layer that can roll with the tortilla.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Hummus-coated tortilla needs cucumber for the stated filling."
+    },
+    {
+      "start": 107.76,
+      "end": 141.4,
+      "fine_index_range": [
+        17,
+        18
+      ],
+      "instruction": "Roll the filled tortilla",
+      "description": "Both hands curl and tuck the tortilla edge, rolling the hummus and cucumber into a tight cylinder that is steadied on the board.",
+      "goal_contribution": "Forms the cylinder whose cross-sections will become pinwheels.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The filled tortilla is ready to roll."
+    },
+    {
+      "start": 141.4,
+      "end": 207.22,
+      "fine_index_range": [
+        19,
+        30
+      ],
+      "instruction": "Slice and plate the pinwheels",
+      "description": "The blue-handled knife is unsheathed. One hand steadies the roll while the other repeatedly cuts rounds, sets down the knife and transfers each piece toward the plate.",
+      "goal_contribution": "Divides the filled roll into individual serving pieces.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The roll must be sliced to make pinwheels."
+    },
+    {
+      "start": 207.22,
+      "end": 212.5,
+      "fine_index_range": [
+        31,
+        32
+      ],
+      "instruction": "Display the finished pinwheels",
+      "description": "The green plate is lifted into view with the arranged tortilla rounds. The last source segment extends 0.1s beyond the actual video.",
+      "goal_contribution": "Shows the completed plated pinwheels.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Plated pinwheels may be displayed, though the task could end at plating."
+    }
+  ],
+  "notes": "Reviewed all overview sheets, all 747 dense sampled frames and native end frames. Pale green object is cucumber, shaved with a peeler; it is not a cheese block. Hummus label and appearance are visible. Original fine timing retained. Final fine#32 ends at212.5s versus212.4s true duration and is left undescribed under the strict overrun rule. Predictability pending independent testing."
+}

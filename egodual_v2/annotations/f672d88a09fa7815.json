@@ -1,0 +1,2008 @@
+{
+  "video_id": "f672d88a09fa7815",
+  "duration": 239.667,
+  "task": "Sewing on a button",
+  "domain": "Arts and Crafts",
+  "query": "How do I sew on a button?",
+  "goal": {
+    "title": "Sew a replacement button onto a trouser waistband",
+    "description": "Thread a needle, draw out and cut white thread, and knot its end. Position a small white button on a gray trouser waistband, pass the needle repeatedly through the button and fabric, then work thread loops on the reverse and cut the thread.",
+    "final_state": "The white button is stitched onto the gray waistband; final thread trimming occurs near the video end.",
+    "procedure": [
+      "Pass white thread through the needle eye.",
+      "Draw out a working length of thread and cut it from the spool.",
+      "Knot the thread end and position trousers and replacement button.",
+      "Hold the button on the waistband and make initial needle passes.",
+      "Repeat needle passes through button holes and fabric, pulling each thread loop taut.",
+      "Turn the waistband over and work small securing thread loops on its reverse.",
+      "Cut the loose thread with scissors and inspect the button."
+    ]
+  },
+  "object_inventory": [
+    "needle",
+    "thread",
+    "thread spool",
+    "scissors",
+    "button",
+    "trousers"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 14.5,
+      "description": "White thread is taken from the spool and carefully passed through the needle eye."
+    },
+    {
+      "start": 14.5,
+      "end": 42.5,
+      "description": "A length is drawn out, cut with scissors and the loose end looped and pinched repeatedly before the needle is placed on the table."
+    },
+    {
+      "start": 42.5,
+      "end": 56.1,
+      "description": "A small white button is picked up, gray trousers laid out and the button aligned at the waistband while the threaded needle is retrieved."
+    },
+    {
+      "start": 56.1,
+      "end": 200.5,
+      "description": "The waistband alternates between front and reverse views while the needle passes through the button and fabric, with long white loops pulled taut after each pass."
+    },
+    {
+      "start": 200.5,
+      "end": 232.0,
+      "description": "The waistband is turned over and small thread loops are worked around the needle beside the reverse stitch cluster, followed by repeated tensioning."
+    },
+    {
+      "start": 232.0,
+      "end": 236.0,
+      "description": "Scissors are picked up and closed beside the reverse stitches; the threaded needle is lowered just after the source fine endpoint."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.0,
+      "old_summary": "hand picks up the needle",
+      "summary": "both hands take needle and pinch white thread",
+      "verb": "take",
+      "object": "needle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.0,
+      "end": 6.9,
+      "old_summary": "hand holds needle and thread",
+      "summary": "right hand draws white thread from spool",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "thread spool",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "needle"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.9,
+      "end": 14.5,
+      "old_summary": "hand guides thread onto needle",
+      "summary": "both hands guide thread through needle eye",
+      "verb": "thread",
+      "object": "thread",
+      "tool": null,
+      "target": "needle",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "needle"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.5,
+      "end": 20.1,
+      "old_summary": "hand pulls thread from spool",
+      "summary": "right hand pulls thread farther from spool",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "thread spool",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "needle"
+        ],
+        "right": [
+          "thread spool"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.1,
+      "end": 24.1,
+      "old_summary": "hand pulls thread from spool",
+      "summary": "both hands measure and pinch loose thread",
+      "verb": "pinch",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 24.1,
+      "end": 26.9,
+      "old_summary": "hand cuts thread with scissors",
+      "summary": "right hand cuts measured thread with scissors",
+      "verb": "cut",
+      "object": "thread",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.9,
+      "end": 29.1,
+      "old_summary": "hand picks up thread spool",
+      "summary": "right hand puts scissors and spool back on table",
+      "verb": "set down",
+      "object": "scissors",
+      "tool": null,
+      "target": "thread spool",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.1,
+      "end": 40.3,
+      "old_summary": "hand ties knot in thread",
+      "summary": "both hands loop and pinch thread end into knot",
+      "verb": "knot",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.3,
+      "end": 42.5,
+      "old_summary": "hand picks up the button",
+      "summary": "left hand sets threaded needle down beside scissors",
+      "verb": "set down",
+      "object": "needle",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 42.5,
+      "end": 43.5,
+      "old_summary": "hand holds button",
+      "summary": "right hand picks up small white button",
+      "verb": "pick up",
+      "object": "button",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "button"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.5,
+      "end": 46.7,
+      "old_summary": "hand holds clothing in place",
+      "summary": "both hands bring gray trousers onto table",
+      "verb": "place",
+      "object": "trousers",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "button"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.7,
+      "end": 51.2,
+      "old_summary": "hand holds fabric steady while other hand manipulates thread",
+      "summary": "right hand retrieves needle while left holds waistband",
+      "verb": "take",
+      "object": "needle",
+      "tool": null,
+      "target": "trousers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 51.2,
+      "end": 56.1,
+      "old_summary": "hand sews button onto pants",
+      "summary": "both hands align button against trouser waistband",
+      "verb": "align",
+      "object": "button",
+      "tool": null,
+      "target": "trousers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 56.1,
+      "end": 60.1,
+      "old_summary": "hand pulls the thread through the button",
+      "summary": "right hand passes needle through button and waistband",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.1,
+      "end": 62.1,
+      "old_summary": "hand sews button onto clothing",
+      "summary": "right hand draws thread up from button",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.1,
+      "end": 66.1,
+      "old_summary": "hand sews button onto clothing",
+      "summary": "both hands turn waistband and push needle from reverse",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 66.1,
+      "end": 67.3,
+      "old_summary": "hand pulls thread through fabric",
+      "summary": "right hand pulls needle and thread through waistband",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 67.3,
+      "end": 70.1,
+      "old_summary": "hand sews button onto clothing",
+      "summary": "right hand guides needle back through button hole",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 70.1,
+      "end": 71.0,
+      "old_summary": "hand pulls thread through fabric",
+      "summary": "right hand pinches needle at button while left holds fabric",
+      "verb": "pinch",
+      "object": "needle",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.0,
+      "end": 73.0,
+      "old_summary": "hand pulls the thread through the buttonhole",
+      "summary": "right hand pulls white thread through button",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 73.0,
+      "end": 76.1,
+      "old_summary": "hand pushes needle through fabric",
+      "summary": "right hand passes needle through button and draws thread",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 76.1,
+      "end": 79.6,
+      "old_summary": "hand pulls thread through buttonhole",
+      "summary": "both hands turn waistband and guide needle from reverse",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 79.6,
+      "end": 82.1,
+      "old_summary": "hand sews button onto clothing",
+      "summary": "right hand pulls thread from reverse while left holds waistband",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "trousers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 82.1,
+      "end": 84.1,
+      "old_summary": "hand pulls the thread through",
+      "summary": "right hand retrieves needle from behind waistband",
+      "verb": "take",
+      "object": "needle",
+      "tool": null,
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.1,
+      "end": 88.1,
+      "old_summary": "hand holds button and fabric steady",
+      "summary": "right hand guides needle through button and tightens stitch",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.1,
+      "end": 90.1,
+      "old_summary": "hand pulls the thread through the button",
+      "summary": "right hand pushes needle through waistband behind button",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.1,
+      "end": 92.1,
+      "old_summary": "hand holds button in place on clothing",
+      "summary": "right hand draws needle and thread back through fabric",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.1,
+      "end": 94.1,
+      "old_summary": "hand pulls thread through button",
+      "summary": "right hand passes needle through visible button hole",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.1,
+      "end": 97.0,
+      "old_summary": "hand pulls thread through fabric",
+      "summary": "right hand pulls loose thread loop beside button",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 97.0,
+      "end": 102.1,
+      "old_summary": "hand holds button and fabric steady",
+      "summary": "right hand pushes needle through waistband behind button",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 102.1,
+      "end": 106.1,
+      "old_summary": "hand pulls thread through fabric",
+      "summary": "right hand returns needle toward button after pulling thread",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.1,
+      "end": 113.3,
+      "old_summary": "hand sews button onto clothing",
+      "summary": "right hand stitches through button and draws thread taut",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.3,
+      "end": 117.9,
+      "old_summary": "right hand manipulates thread through buttonhole",
+      "summary": "right hand pulls needle through another button stitch",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.9,
+      "end": 121.6,
+      "old_summary": "hand pulls thread taut on button",
+      "summary": "right hand tightens thread and pushes needle through waistband",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 121.6,
+      "end": 128.1,
+      "old_summary": "hand sews button onto clothing",
+      "summary": "right hand works needle behind waistband then draws thread",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 128.1,
+      "end": 131.4,
+      "old_summary": "hands sew the button onto the clothing",
+      "summary": "right hand returns needle through button hole",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 131.4,
+      "end": 135.2,
+      "old_summary": "hand holds button in place",
+      "summary": "right hand pulls thread across button and through fabric",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 135.2,
+      "end": 141.7,
+      "old_summary": "hand pulls thread through button",
+      "summary": "right hand stitches behind button and pulls thread taut",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.7,
+      "end": 145.8,
+      "old_summary": "hand pulls the needle through the fabric",
+      "summary": "right hand draws thread through button while left holds waistband",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 145.8,
+      "end": 145.9,
+      "old_summary": "hand pulls needle through fabric",
+      "summary": "right hand holds drawn thread beside stitched button",
+      "verb": "hold",
+      "object": "thread",
+      "tool": null,
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Source interval lasts0.10s; only1–2 native frames. Same needle/thread contact as adjacent action; no independent object switch resolvable. Boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 145.9,
+      "end": 148.1,
+      "old_summary": "hand holds button on clothing",
+      "summary": "right hand brings needle behind trouser waistband",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.1,
+      "end": 154.7,
+      "old_summary": "hand sews button onto clothing",
+      "summary": "right hand pushes needle through fabric and tightens thread",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.7,
+      "end": 158.7,
+      "old_summary": "hand pulls the thread through the button",
+      "summary": "right hand guides needle through another button stitch",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 158.7,
+      "end": 164.7,
+      "old_summary": "hand sews button onto clothing",
+      "summary": "right hand draws thread through waistband from reverse",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 164.7,
+      "end": 167.7,
+      "old_summary": "hand pushes the needle through the fabric",
+      "summary": "right hand brings needle through button and pulls loop",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 167.7,
+      "end": 169.4,
+      "old_summary": "hand holds button in place",
+      "summary": "right hand pulls thread behind waistband",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 169.4,
+      "end": 170.3,
+      "old_summary": "hand pulls the needle through the fabric",
+      "summary": "left hand steadies button while right holds fabric behind",
+      "verb": "hold",
+      "object": "trousers",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 170.3,
+      "end": 173.5,
+      "old_summary": "hand holds button and fabric steady",
+      "summary": "right hand works needle from reverse toward button",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 173.5,
+      "end": 176.7,
+      "old_summary": "hand pulls the needle through the fabric",
+      "summary": "right hand passes needle through button and draws thread",
+      "verb": "sew",
+      "object": "button",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 176.7,
+      "end": 180.7,
+      "old_summary": "hand pulls thread through fabric",
+      "summary": "right hand pulls another loop through button stitch",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 180.7,
+      "end": 184.7,
+      "old_summary": "hand holds button in place on clothing",
+      "summary": "right hand draws thread taut and returns needle behind waistband",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 184.7,
+      "end": 195.7,
+      "old_summary": "hand pulls the thread taut",
+      "summary": "right hand stitches from reverse and pulls long thread",
+      "verb": "sew",
+      "object": "trousers",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 195.7,
+      "end": 198.9,
+      "old_summary": "hands sew button onto clothing",
+      "summary": "right hand pulls needle and thread through button again",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 198.9,
+      "end": 200.5,
+      "old_summary": "hand pulls thread through button",
+      "summary": "right hand draws thread taut beside white button",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "button",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers",
+          "button"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 200.5,
+      "end": 202.3,
+      "old_summary": "hand pulls thread",
+      "summary": "both hands turn waistband to expose reverse stitches",
+      "verb": "turn",
+      "object": "trousers",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 202.3,
+      "end": 202.4,
+      "old_summary": "hand adjusts the button on the clothing",
+      "summary": "both hands hold turned waistband above reverse stitches",
+      "verb": "hold",
+      "object": "trousers",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Source interval lasts0.10s; only1–2 native frames. Same needle/thread contact as adjacent action; no independent object switch resolvable. Boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 202.4,
+      "end": 204.3,
+      "old_summary": "hand pulls thread through fabric",
+      "summary": "right hand pulls long thread from reverse stitching",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.3,
+      "end": 204.4,
+      "old_summary": "hand pulls thread taut",
+      "summary": "right hand lifts needle and thread above waistband",
+      "verb": "lift",
+      "object": "needle",
+      "tool": null,
+      "target": "thread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Source interval lasts0.10s; only1–2 native frames. Same needle/thread contact as adjacent action; no independent object switch resolvable. Boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.4,
+      "end": 216.1,
+      "old_summary": "hand pulls thread through button",
+      "summary": "both hands loop thread around needle near reverse stitches",
+      "verb": "loop",
+      "object": "thread",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 216.1,
+      "end": 217.9,
+      "old_summary": "hand pulls thread through buttonhole",
+      "summary": "right hand draws thread through small loop on reverse",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 217.9,
+      "end": 218.0,
+      "old_summary": "hand pushes needle through fabric",
+      "summary": "left hand holds waistband while right maintains thread tension",
+      "verb": "hold",
+      "object": "thread",
+      "tool": null,
+      "target": "trousers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Source interval lasts0.10s; only1–2 native frames. Same needle/thread contact as adjacent action; no independent object switch resolvable. Boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 218.0,
+      "end": 220.1,
+      "old_summary": "hand pulls thread",
+      "summary": "right hand pulls thread taut from reverse stitch",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 220.1,
+      "end": 220.2,
+      "old_summary": "hand holds button and thread",
+      "summary": "left hand holds reverse stitch while thread remains taut",
+      "verb": "hold",
+      "object": "thread",
+      "tool": null,
+      "target": "trousers",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Source interval lasts0.10s; only1–2 native frames. Same needle/thread contact as adjacent action; no independent object switch resolvable. Boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 220.2,
+      "end": 221.5,
+      "old_summary": "hand holds the thread taut",
+      "summary": "right hand returns needle toward reverse stitches",
+      "verb": "move",
+      "object": "needle",
+      "tool": null,
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 221.5,
+      "end": 221.6,
+      "old_summary": "hand pulls thread",
+      "summary": "right hand pinches thread beside reverse stitches",
+      "verb": "pinch",
+      "object": "thread",
+      "tool": null,
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Source interval lasts0.10s; only1–2 native frames. Same needle/thread contact as adjacent action; no independent object switch resolvable. Boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 221.6,
+      "end": 224.2,
+      "old_summary": "hands sew button onto clothing",
+      "summary": "right hand works needle through small thread loop",
+      "verb": "loop",
+      "object": "thread",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 224.2,
+      "end": 226.7,
+      "old_summary": "hands sew button onto clothing",
+      "summary": "both hands pinch loop near waistband reverse stitches",
+      "verb": "pinch",
+      "object": "thread",
+      "tool": null,
+      "target": "trousers",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 226.7,
+      "end": 229.0,
+      "old_summary": "hand pulls the thread through",
+      "summary": "right hand draws needle and tightens securing thread loop",
+      "verb": "pull",
+      "object": "thread",
+      "tool": "needle",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 229.0,
+      "end": 232.0,
+      "old_summary": "hand pulls thread through fabric",
+      "summary": "right hand pulls thread taut and reaches toward scissors",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 232.0,
+      "end": 236.0,
+      "old_summary": "hand cuts thread with scissors",
+      "summary": "right hand cuts thread beside waistband with scissors",
+      "verb": "cut",
+      "object": "thread",
+      "tool": "scissors",
+      "target": "trousers",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "trousers"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "232–236s combines scissors pickup233s and thread cutting234s; needle/thread lowering and button inspection continue236–239s after source fine coverage.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 14.5,
+      "fine_index_range": [
+        0,
+        2
+      ],
+      "instruction": "Thread the needle.",
+      "description": "White thread is taken from the spool and carefully passed through the needle eye.",
+      "goal_contribution": "Prepare a threaded needle for sewing.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 14.5,
+      "end": 42.5,
+      "fine_index_range": [
+        3,
+        8
+      ],
+      "instruction": "Cut the working thread and knot its end.",
+      "description": "A length is drawn out, cut with scissors and the loose end looped and pinched repeatedly before the needle is placed on the table.",
+      "goal_contribution": "Prepare a manageable length of secured sewing thread.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Threaded needle needs a usable length and end knot."
+    },
+    {
+      "start": 42.5,
+      "end": 56.1,
+      "fine_index_range": [
+        9,
+        12
+      ],
+      "instruction": "Position the button on the trouser waistband.",
+      "description": "A small white button is picked up, gray trousers laid out and the button aligned at the waistband while the threaded needle is retrieved.",
+      "goal_contribution": "Place the replacement button at the sewing point.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Prepared thread and needle are ready to position the replacement button."
+    },
+    {
+      "start": 56.1,
+      "end": 200.5,
+      "fine_index_range": [
+        13,
+        53
+      ],
+      "instruction": "Stitch the button repeatedly through the waistband.",
+      "description": "The waistband alternates between front and reverse views while the needle passes through the button and fabric, with long white loops pulled taut after each pass.",
+      "goal_contribution": "Attach the button with repeated reinforcing stitches.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The aligned button needs repeated stitches to attach it."
+    },
+    {
+      "start": 200.5,
+      "end": 232.0,
+      "fine_index_range": [
+        54,
+        68
+      ],
+      "instruction": "Secure the thread on the reverse of the waistband.",
+      "description": "The waistband is turned over and small thread loops are worked around the needle beside the reverse stitch cluster, followed by repeated tensioning.",
+      "goal_contribution": "Secure the stitch thread behind the button.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "A sewn button needs its thread secured on the reverse."
+    },
+    {
+      "start": 232.0,
+      "end": 236.0,
+      "fine_index_range": [
+        69,
+        69
+      ],
+      "instruction": "Trim the finishing thread.",
+      "description": "Scissors are picked up and closed beside the reverse stitches; the threaded needle is lowered just after the source fine endpoint.",
+      "goal_contribution": "Separate the loose sewing thread after securing the button.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Secured finishing thread is ready to trim."
+    }
+  ],
+  "notes": "Viewed all8 overview sheets, all1046 dense frames and all70 native endpoints. Fine boundaries preserved. Exact individual hole order and knot topology are partly hidden by fingertips and are not asserted. Short0.1s segments flagged when no independent object switch is resolvable. Task tail236–239s includes lowering needle and inspecting button outside fine coverage. Predictability pending independent testing."
+}

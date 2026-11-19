@@ -1,0 +1,805 @@
+{
+  "video_id": "4918e35d642df5a0",
+  "duration": 88.334,
+  "task": "Replacing batteries in smoke detector",
+  "domain": "Handyman",
+  "query": "How do I replace batteries in a smoke detector?",
+  "goal": {
+    "title": "Replace the smoke detector battery",
+    "description": "Detach a wall-mounted smoke detector and exchange its rectangular battery. Reopen the compartment to adjust the replacement, test the detector, then twist it back onto its mounting plate.",
+    "final_state": "The detector is back on its wall plate with the battery door closed. A red indicator is visible during button presses; the silent video cannot establish alarm sound or electrical performance.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 17.29,
+        "description": "Approach the wall-mounted detector. Grip and twist it several times, briefly releasing and trying again, until its body begins to detach from the circular mounting plate."
+      },
+      {
+        "start": 17.29,
+        "end": 33,
+        "description": "Lower and turn the detector, open its battery door, pull the tray outward and work the blue rectangular battery free. Move the removed battery away from the detector."
+      },
+      {
+        "start": 33,
+        "end": 54.31,
+        "description": "Lower the old battery and retrieve another from packaging on the nearby stool. Turn the new battery toward the compartment, slide it inside, close the door and press the front test button while holding the detector."
+      },
+      {
+        "start": 54.31,
+        "end": 71.8,
+        "description": "Open the battery door again, remove the same replacement battery, rotate it in the right hand and make several alignment attempts. Seat it again and press the compartment shut."
+      },
+      {
+        "start": 71.8,
+        "end": 88.4,
+        "description": "Press the test button again; a red indicator illuminates. Change grip, raise the detector to its mounting plate and twist it into place. Check its attachment with both hands, press the mounted test button and withdraw the hands. No audible test result is available."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 17.29,
+      "description": "Approach the wall-mounted detector. Grip and twist it several times, briefly releasing and trying again, until its body begins to detach from the circular mounting plate."
+    },
+    {
+      "start": 17.29,
+      "end": 33,
+      "description": "Lower and turn the detector, open its battery door, pull the tray outward and work the blue rectangular battery free. Move the removed battery away from the detector."
+    },
+    {
+      "start": 33,
+      "end": 54.31,
+      "description": "Lower the old battery and retrieve another from packaging on the nearby stool. Turn the new battery toward the compartment, slide it inside, close the door and press the front test button while holding the detector."
+    },
+    {
+      "start": 54.31,
+      "end": 71.8,
+      "description": "Open the battery door again, remove the same replacement battery, rotate it in the right hand and make several alignment attempts. Seat it again and press the compartment shut."
+    },
+    {
+      "start": 71.8,
+      "end": 88.4,
+      "description": "Press the test button again; a red indicator illuminates. Change grip, raise the detector to its mounting plate and twist it into place. Check its attachment with both hands, press the mounted test button and withdraw the hands. No audible test result is available."
+    }
+  ],
+  "object_inventory": [
+    "smoke detector",
+    "battery",
+    "mounting plate",
+    "battery package",
+    "stool"
+  ],
+  "notes": "All fine boundaries preserved. No soundtrack: button pressing and red light are visible, but successful audible alarm testing is not asserted. Replacement battery is distinguished from old one by the package retrieval; both use canonical battery as visually similar instances. Same battery is removed and reseated after first test. Fixed mounting plate is a target, never held. Hands holding detached detector support its body; button pressing alone on the mounted detector is not in_hand. Every dense page and native end frame reviewed; evidence uses PTS burn before fps.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.5,
+      "summary": "idle: approach the smoke detector",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.5,
+      "end": 7.6,
+      "summary": "twist the smoke detector on its mounting plate",
+      "verb": "twist",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "both hands remove the smoke detector from the wall",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 7.6,
+      "end": 11.5,
+      "summary": "twist the smoke detector on its mounting plate",
+      "verb": "twist",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=8.1–11.3s another twist attempt, release at t=11.5s; boundary at 7.6s interrupts repeated grip-and-twist attempts.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no hand activity",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.5,
+      "end": 17.29,
+      "summary": "twist the smoke detector off its mounting plate",
+      "verb": "twist",
+      "object": "smoke detector",
+      "tool": null,
+      "target": "mounting plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=11.5–13s hands release; t=13.3s regrasp and twist; t=17.267s body starts separating.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "right hand lifts the smoke detector off the wall",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 17.29,
+      "end": 22.24,
+      "summary": "lower the smoke detector from the wall",
+      "verb": "move",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes the old batteries from the compartment",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.24,
+      "end": 23.23,
+      "summary": "open the smoke detector battery compartment",
+      "verb": "open",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.23,
+      "end": 29.6,
+      "summary": "pull out the smoke detector battery tray",
+      "verb": "pull",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=23.5–29.5s repeated tray pulling and regripping; housing occludes exact electrical contact.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand transfers the old batteries to the other hand",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.6,
+      "end": 32.54,
+      "summary": "remove the battery from the smoke detector",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "smoke detector",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand inserts new batteries into the compartment",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 32.54,
+      "end": 33.0,
+      "summary": "move the battery away from the smoke detector",
+      "verb": "move",
+      "object": "battery",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.0,
+      "end": 36.52,
+      "summary": "pick up a replacement battery",
+      "verb": "pick up",
+      "object": "battery",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=33.2s lower old battery out of view; t=35.3–36.5s reach to battery package and retrieve replacement.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up the battery pack",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.52,
+      "end": 41.8,
+      "summary": "align the battery with the smoke detector compartment",
+      "verb": "align",
+      "object": "battery",
+      "tool": null,
+      "target": "smoke detector",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand inserts new battery into the smoke detector",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.8,
+      "end": 46.0,
+      "summary": "insert the battery into the smoke detector",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "smoke detector",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=42.1–45s insert battery; t=45.3–46s push compartment shut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand inserts new battery into the battery pack",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.0,
+      "end": 46.6,
+      "summary": "close the smoke detector battery compartment",
+      "verb": "close",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=46.0–46.6s continues preceding compartment closure; no new hand-object change.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes the smoke detector cover",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.6,
+      "end": 48.33,
+      "summary": "turn the smoke detector in both hands",
+      "verb": "turn",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand presses the reset button on the smoke detector",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.33,
+      "end": 54.31,
+      "summary": "press the smoke detector test button",
+      "verb": "press",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=48.3–53.8s right thumb presses test button; t=54.2s releases. Video has no audio, so no claim that alarm sounded.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.31,
+      "end": 56.9,
+      "summary": "open the smoke detector battery compartment",
+      "verb": "open",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.9,
+      "end": 59.4,
+      "summary": "remove the battery from the smoke detector",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "smoke detector",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens the smoke detector cover",
+      "notes": "differs_from_expectation: after first installation and test-button press, battery is removed again rather than immediately remounting detector.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 59.4,
+      "end": 60.8,
+      "summary": "turn the battery in the right hand",
+      "verb": "turn",
+      "object": "battery",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand removes old battery from the smoke detector",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.8,
+      "end": 65.28,
+      "summary": "align the battery with the smoke detector compartment",
+      "verb": "align",
+      "object": "battery",
+      "tool": null,
+      "target": "smoke detector",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand inserts new battery into the battery pack",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.28,
+      "end": 70.9,
+      "summary": "insert the battery into the smoke detector",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "smoke detector",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=65.3–68.7s seat battery after rotating it; t=69–70.9s close compartment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes the smoke detector cover",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 70.9,
+      "end": 71.8,
+      "summary": "close the smoke detector battery compartment",
+      "verb": "close",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=70.9–71.8s continues closing then rotates detector toward test button.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand presses the test button on the smoke detector",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.8,
+      "end": 73.5,
+      "summary": "press the smoke detector test button",
+      "verb": "press",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand presses the reset button on the smoke detector",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.5,
+      "end": 75.0,
+      "summary": "turn the smoke detector toward the mounting plate",
+      "verb": "turn",
+      "object": "smoke detector",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "smoke detector"
+        ],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand presses the reset button on the smoke detector",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.0,
+      "end": 78.2,
+      "summary": "raise the smoke detector toward the mounting plate",
+      "verb": "move",
+      "object": "smoke detector",
+      "tool": null,
+      "target": "mounting plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "smoke detector"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand reattaches the detector to the wall",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.2,
+      "end": 86.1,
+      "summary": "twist the smoke detector onto the mounting plate",
+      "verb": "twist",
+      "object": "smoke detector",
+      "tool": null,
+      "target": "mounting plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=78.5–83.4s align and twist detector into plate; t=83.8–84.6s both hands check attachment; t=85.1–86.1s press test button. Compound interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses the test button on the detector",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.1,
+      "end": 88.4,
+      "summary": null,
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": true,
+      "boundary_note": "超出视频结尾",
+      "beyond_video_end": true,
+      "confidence": "low",
+      "old_summary": "right hand releases the detector (hand switch)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 22.24,
+      "instruction": "Detach the smoke detector from its mounting plate",
+      "description": "Approach the detector, repeatedly grip and twist its body, release and retry, then lower it away from the exposed mounting plate.",
+      "fine_index_range": [
+        0,
+        4
+      ],
+      "transition_in": null,
+      "goal_contribution": "Makes the battery compartment accessible without the detector being mounted on the wall.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 22.24,
+      "end": 33.0,
+      "instruction": "Remove the existing smoke detector battery",
+      "description": "Open the battery door, pull the tray outward, free the rectangular battery and move it away from the detector.",
+      "fine_index_range": [
+        5,
+        8
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Removes the existing power source so it can be replaced.",
+      "predictability_level": "strong",
+      "predictability_reason": "Detached detector is ready for its old battery to be removed."
+    },
+    {
+      "start": 33.0,
+      "end": 54.31,
+      "instruction": "Install and check the replacement battery",
+      "description": "Set the removed battery aside, retrieve a replacement, align and insert it, close the compartment, turn the detector and press its test button.",
+      "fine_index_range": [
+        9,
+        14
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Places a replacement power source in the detector and performs an initial visible button check.",
+      "predictability_level": "strong",
+      "predictability_reason": "The empty battery compartment is ready for a replacement and check."
+    },
+    {
+      "start": 54.31,
+      "end": 73.5,
+      "instruction": "Reseat the replacement battery and test again",
+      "description": "Reopen the door, remove and rotate the battery, realign and seat it, close the compartment and press the front button again.",
+      "fine_index_range": [
+        15,
+        21
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Corrects the initial installation attempt before returning the detector to its mount.",
+      "predictability_level": "weak",
+      "predictability_reason": "A second reseating and test is plausible if the first check is uncertain."
+    },
+    {
+      "start": 73.5,
+      "end": 88.4,
+      "instruction": "Mount and check the smoke detector",
+      "description": "Turn and raise the detector, align it with the wall plate, twist it into position, check its attachment, press its button and inspect it after releasing.",
+      "fine_index_range": [
+        22,
+        25
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Restores the detector to its installed position and checks the mounted unit.",
+      "predictability_level": "strong",
+      "predictability_reason": "Once the battery is seated and tested, the detector can be mounted."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames/4918e35d642df5a0/native_v1",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

@@ -1,0 +1,2586 @@
+{
+  "video_id": "008a392f0747e13b",
+  "duration": 205.8,
+  "task": "Making creamy blue cheese dip",
+  "domain": "Chef",
+  "query": "How do I make creamy blue cheese dip?",
+  "goal": {
+    "title": "Make blue cheese dip and serve with crackers",
+    "description": "Measure sour cream, mayonnaise and blue cheese into a bowl, stir in a spoonful of white liquid and visible seasonings, then transfer the dip to a blue serving bowl and arrange crackers around it.",
+    "final_state": "The blue bowl of thick white cheese dip sits on a white plate surrounded by crackers. The bowl was briefly placed in and immediately retrieved from the refrigerator.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 34.69,
+        "description": "Open the wall cupboard, take a white mixing bowl and carry it to the counter. Reposition a cream-colored mug, lift and open the sour cream tub, set its lid beside the sink and pick up a teaspoon. Repeatedly spoon sour cream into the mug. Put the tub down, lift the mug and scrape its contents into the white bowl."
+      },
+      {
+        "start": 34.69,
+        "end": 71.5,
+        "description": "Set the mug and teaspoon down and open the blue-lidded mayonnaise jar. Turn and shake the jar over the mug, but no substantial flow is visible. Open the drawer, retrieve a tablespoon and repeatedly scoop mayonnaise into the mug instead. Set the jar aside, lift the mug and use the smaller spoon to scrape its contents into the mixing bowl. Set the mug down and release the spoon."
+      },
+      {
+        "start": 71.5,
+        "end": 106.9,
+        "description": "Lift and open a nearly empty blue cheese tub. Invert it over the cream mug and tap its base to release the remaining crumbles. Set it aside and open a second, fuller tub, removing its lid and peeling off the inner plastic seal. Pour more crumbles into the mug, set the tub down, then tip the mug over the white bowl. Use the teaspoon to scrape the remaining cheese and creamy residue into the bowl, then place the mug on the back counter."
+      },
+      {
+        "start": 106.9,
+        "end": 154.9,
+        "description": "Retrieve the tablespoon, transfer it to the right hand and pick up the teal cup with the left. Scoop a spoonful of opaque white liquid from the cup and add it to the mixing bowl; its exact identity is not established by visible packaging. Leave the tablespoon in the cup and set it down. Pick up the teaspoon and repeatedly stir the cheese and creamy ingredients. Open the pepper grinder, grind pepper over the mixture and set it down. Open a separate seasoning jar, shake orange-tan powder over the dip, close and set down that jar, then stir the seasonings through."
+      },
+      {
+        "start": 154.9,
+        "end": 181.12,
+        "description": "Bring a small blue serving bowl beside the mixture. Lift the white mixing bowl, tilt it over the blue bowl and repeatedly scrape the dip into it with the teaspoon. Put the white bowl and spoon in the sink, pick up the blue bowl and carry it to the refrigerator. Open the refrigerator, place the bowl on a shelf and close the door."
+      },
+      {
+        "start": 181.12,
+        "end": 205.8,
+        "description": "Pause briefly, reopen the refrigerator and retrieve the blue bowl almost immediately. Carry it back to the counter and set it on a white plate. Lift and open the rectangular cracker container, place its lid aside and repeatedly take crackers with both hands, arranging them on the plate around the blue bowl. Withdraw the hands, leaving the dip and crackers together. This is a brief refrigerator placement rather than evidence of a long chilling period."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 34.69,
+      "description": "Open the wall cupboard, take a white mixing bowl and carry it to the counter. Reposition a cream-colored mug, lift and open the sour cream tub, set its lid beside the sink and pick up a teaspoon. Repeatedly spoon sour cream into the mug. Put the tub down, lift the mug and scrape its contents into the white bowl."
+    },
+    {
+      "start": 34.69,
+      "end": 71.5,
+      "description": "Set the mug and teaspoon down and open the blue-lidded mayonnaise jar. Turn and shake the jar over the mug, but no substantial flow is visible. Open the drawer, retrieve a tablespoon and repeatedly scoop mayonnaise into the mug instead. Set the jar aside, lift the mug and use the smaller spoon to scrape its contents into the mixing bowl. Set the mug down and release the spoon."
+    },
+    {
+      "start": 71.5,
+      "end": 106.9,
+      "description": "Lift and open a nearly empty blue cheese tub. Invert it over the cream mug and tap its base to release the remaining crumbles. Set it aside and open a second, fuller tub, removing its lid and peeling off the inner plastic seal. Pour more crumbles into the mug, set the tub down, then tip the mug over the white bowl. Use the teaspoon to scrape the remaining cheese and creamy residue into the bowl, then place the mug on the back counter."
+    },
+    {
+      "start": 106.9,
+      "end": 154.9,
+      "description": "Retrieve the tablespoon, transfer it to the right hand and pick up the teal cup with the left. Scoop a spoonful of opaque white liquid from the cup and add it to the mixing bowl; its exact identity is not established by visible packaging. Leave the tablespoon in the cup and set it down. Pick up the teaspoon and repeatedly stir the cheese and creamy ingredients. Open the pepper grinder, grind pepper over the mixture and set it down. Open a separate seasoning jar, shake orange-tan powder over the dip, close and set down that jar, then stir the seasonings through."
+    },
+    {
+      "start": 154.9,
+      "end": 181.12,
+      "description": "Bring a small blue serving bowl beside the mixture. Lift the white mixing bowl, tilt it over the blue bowl and repeatedly scrape the dip into it with the teaspoon. Put the white bowl and spoon in the sink, pick up the blue bowl and carry it to the refrigerator. Open the refrigerator, place the bowl on a shelf and close the door."
+    },
+    {
+      "start": 181.12,
+      "end": 205.8,
+      "description": "Pause briefly, reopen the refrigerator and retrieve the blue bowl almost immediately. Carry it back to the counter and set it on a white plate. Lift and open the rectangular cracker container, place its lid aside and repeatedly take crackers with both hands, arranging them on the plate around the blue bowl. Withdraw the hands, leaving the dip and crackers together. This is a brief refrigerator placement rather than evidence of a long chilling period."
+    }
+  ],
+  "object_inventory": [
+    "mixing bowl",
+    "cream mug",
+    "sour cream tub",
+    "sour cream lid",
+    "teaspoon",
+    "tablespoon",
+    "mayonnaise jar",
+    "mayonnaise lid",
+    "cheese tub",
+    "cheese lid",
+    "plastic seal",
+    "teal cup",
+    "pepper grinder",
+    "pepper cap",
+    "seasoning jar",
+    "seasoning lid",
+    "serving bowl",
+    "cracker container",
+    "cracker lid",
+    "cracker",
+    "dip",
+    "white liquid",
+    "sour cream",
+    "mayonnaise",
+    "blue cheese",
+    "pepper",
+    "seasoning",
+    "cupboard door",
+    "cutlery drawer",
+    "refrigerator door",
+    "refrigerator",
+    "counter",
+    "plate",
+    "sink"
+  ],
+  "notes": "All95 human fine boundaries preserved. Full overview, every95 dense first page, all28 continuation pages and95 native end states viewed. Only human boundaries trusted. The white liquid and orange-tan seasoning cannot be conclusively identified from the visible labels, marked ambiguous. Two cheese tubs are used in sequence; the first is nearly empty and the second has an inner seal. A refrigerator placement is followed almost immediately by retrieval, so no long chilling is inferred. Native tail204.79–205.8s shows plated dip and withdrawn hands; no new step added. Predictability pending independent blind stage.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.8,
+      "summary": "reach for the cupboard handle",
+      "verb": "reach",
+      "object": "cupboard door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 1.8,
+      "end": 2.1,
+      "summary": "open the cupboard door",
+      "verb": "open",
+      "object": "cupboard door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens cabinet, retrieves mixing bowl, and places it on the counter",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 2.1,
+      "end": 3.35,
+      "summary": "grasp the mixing bowl in the cupboard",
+      "verb": "grasp",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 3.35,
+      "end": 4.9,
+      "summary": "carry the mixing bowl to the counter",
+      "verb": "move",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 4.9,
+      "end": 6.53,
+      "summary": "reposition the cream mug on the counter",
+      "verb": "move",
+      "object": "cream mug",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "cream mug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "left hand picks up the mug",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.53,
+      "end": 6.7,
+      "summary": "release the cream mug",
+      "verb": "release",
+      "object": "cream mug",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 6.7,
+      "end": 6.9,
+      "summary": "grasp the sour cream tub",
+      "verb": "grasp",
+      "object": "sour cream tub",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "sour cream tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "left hand places the mug on the counter",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.9,
+      "end": 7.08,
+      "summary": "lift the sour cream tub",
+      "verb": "pick up",
+      "object": "sour cream tub",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "sour cream tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "left hand picks up the cream cheese container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.08,
+      "end": 7.9,
+      "summary": "transfer the sour cream tub to the left hand",
+      "verb": "transfer",
+      "object": "sour cream tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sour cream tub"
+        ],
+        "right": [
+          "sour cream tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=7.1–7.7s left hand puts bowl down; t=7.8s left hand takes tub as right fingers start opening lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.9,
+      "end": 9.6,
+      "summary": "remove the sour cream lid",
+      "verb": "open",
+      "object": "sour cream tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sour cream tub"
+        ],
+        "right": [
+          "sour cream lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "left hand removes the lid from the cream cheese container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.6,
+      "end": 12.1,
+      "summary": "put down the lid and pick up the teaspoon",
+      "verb": "pick up",
+      "object": "teaspoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sour cream tub"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=10.0s put lid by sink; t=10.8–11.8s pick up teaspoon.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "left hand scoops cream cheese with a spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.1,
+      "end": 12.3,
+      "summary": "scoop sour cream from the tub",
+      "verb": "scoop",
+      "object": "sour cream",
+      "tool": "teaspoon",
+      "target": "sour cream tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sour cream tub"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "(hand switch)",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.3,
+      "end": 17.18,
+      "summary": "spoon sour cream into the cream mug",
+      "verb": "place",
+      "object": "sour cream",
+      "tool": "teaspoon",
+      "target": "cream mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sour cream tub"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated scoop-and-transfer cycles visible; source boundaries retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand transfers cream cheese from mug to mixing bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.18,
+      "end": 21.3,
+      "summary": "spoon sour cream into the cream mug",
+      "verb": "place",
+      "object": "sour cream",
+      "tool": "teaspoon",
+      "target": "cream mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sour cream tub"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated scoop-and-transfer cycles visible; source boundaries retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 21.3,
+      "end": 25.3,
+      "summary": "spoon sour cream into the cream mug",
+      "verb": "place",
+      "object": "sour cream",
+      "tool": "teaspoon",
+      "target": "cream mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=24.0–25.2s scrape spoon against mug rim; left hand lowers tub by t=25.267s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.3,
+      "end": 26.13,
+      "summary": "set the sour cream tub on the counter",
+      "verb": "put down",
+      "object": "sour cream tub",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.13,
+      "end": 26.73,
+      "summary": "lift the cream mug",
+      "verb": "pick up",
+      "object": "cream mug",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.73,
+      "end": 28.85,
+      "summary": "scrape sour cream into the mixing bowl",
+      "verb": "scrape",
+      "object": "sour cream",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=27.1–34.6s repeated scraping from the same mug into the bowl; the successive source divisions are retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.85,
+      "end": 30.79,
+      "summary": "scrape sour cream into the mixing bowl",
+      "verb": "scrape",
+      "object": "sour cream",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=27.1–34.6s repeated scraping from the same mug into the bowl; the successive source divisions are retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.79,
+      "end": 33.22,
+      "summary": "scrape sour cream into the mixing bowl",
+      "verb": "scrape",
+      "object": "sour cream",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=27.1–34.6s repeated scraping from the same mug into the bowl; the successive source divisions are retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.22,
+      "end": 34.69,
+      "summary": "scrape sour cream into the mixing bowl",
+      "verb": "scrape",
+      "object": "sour cream",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=27.1–34.6s repeated scraping from the same mug into the bowl; the successive source divisions are retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 34.69,
+      "end": 36.1,
+      "summary": "set down the mug and grasp the mayonnaise jar",
+      "verb": "grasp",
+      "object": "mayonnaise jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "mayonnaise jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=35s put mug down and rest teaspoon in bowl; t=35.8–36.1s grasp mayonnaise jar.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand scoops mayonnaise from jar",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 36.1,
+      "end": 37.2,
+      "summary": "unscrew the mayonnaise lid",
+      "verb": "open",
+      "object": "mayonnaise jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mayonnaise jar"
+        ],
+        "right": [
+          "mayonnaise lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes jar lid and picks up jar",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.2,
+      "end": 38.48,
+      "summary": "put down the lid and change jar hands",
+      "verb": "transfer",
+      "object": "mayonnaise jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mayonnaise jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand pulls out spoon from drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.48,
+      "end": 43.35,
+      "summary": "shake the mayonnaise jar over the cream mug",
+      "verb": "shake",
+      "object": "mayonnaise jar",
+      "tool": null,
+      "target": "cream mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mayonnaise jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=38.5–42.8s jar held inverted and shaken; no substantial mayonnaise stream visible. Left hand steadies mug then releases.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.35,
+      "end": 44.38,
+      "summary": "open the cutlery drawer",
+      "verb": "open",
+      "object": "cutlery drawer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mayonnaise jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 44.38,
+      "end": 45.4,
+      "summary": "pick up the tablespoon from the drawer",
+      "verb": "pick up",
+      "object": "tablespoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tablespoon"
+        ],
+        "right": [
+          "mayonnaise jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 45.4,
+      "end": 47.0,
+      "summary": "transfer the mayonnaise jar to the left hand",
+      "verb": "transfer",
+      "object": "mayonnaise jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mayonnaise jar"
+        ],
+        "right": [
+          "tablespoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand stirs mayonnaise in jar",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.0,
+      "end": 49.9,
+      "summary": "spoon mayonnaise into the cream mug",
+      "verb": "place",
+      "object": "mayonnaise",
+      "tool": "tablespoon",
+      "target": "cream mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mayonnaise jar"
+        ],
+        "right": [
+          "tablespoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated jar-to-mug scoop-and-transfer cycles; fine divisions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand scoops mayonnaise from jar",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.9,
+      "end": 51.21,
+      "summary": "spoon mayonnaise into the cream mug",
+      "verb": "place",
+      "object": "mayonnaise",
+      "tool": "tablespoon",
+      "target": "cream mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mayonnaise jar"
+        ],
+        "right": [
+          "tablespoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated jar-to-mug scoop-and-transfer cycles; fine divisions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand adds mayonnaise to mug",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.21,
+      "end": 52.91,
+      "summary": "spoon mayonnaise into the cream mug",
+      "verb": "place",
+      "object": "mayonnaise",
+      "tool": "tablespoon",
+      "target": "cream mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mayonnaise jar"
+        ],
+        "right": [
+          "tablespoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated jar-to-mug scoop-and-transfer cycles; fine divisions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.91,
+      "end": 55.3,
+      "summary": "spoon mayonnaise into the cream mug",
+      "verb": "place",
+      "object": "mayonnaise",
+      "tool": "tablespoon",
+      "target": "cream mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mayonnaise jar"
+        ],
+        "right": [
+          "tablespoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated jar-to-mug scoop-and-transfer cycles; fine divisions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.3,
+      "end": 55.4,
+      "summary": "lower the mayonnaise jar to the counter",
+      "verb": "put down",
+      "object": "mayonnaise jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "mayonnaise jar"
+        ],
+        "right": [
+          "tablespoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "The 55.3–55.4s boundary lies during lowering; jar is still gripped at t=55.333s and released later.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts jar down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.4,
+      "end": 56.92,
+      "summary": "lift the filled cream mug",
+      "verb": "pick up",
+      "object": "cream mug",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=55.5s release jar, rest tablespoon on lid; t=56s lift mug and retrieve teaspoon.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Right hand scoops blue cheese crumbles from the container with a spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 56.92,
+      "end": 59.98,
+      "summary": "scrape mayonnaise into the mixing bowl",
+      "verb": "scrape",
+      "object": "mayonnaise",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57–69.3s continuous repeated scraping from the same mug; no hand-object change at this internal source boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Right hand transfers blue cheese crumbles from the mug into the mixing bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.98,
+      "end": 62.26,
+      "summary": "scrape mayonnaise into the mixing bowl",
+      "verb": "scrape",
+      "object": "mayonnaise",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57–69.3s continuous repeated scraping from the same mug; no hand-object change at this internal source boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.26,
+      "end": 63.22,
+      "summary": "scrape mayonnaise into the mixing bowl",
+      "verb": "scrape",
+      "object": "mayonnaise",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57–69.3s continuous repeated scraping from the same mug; no hand-object change at this internal source boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 63.22,
+      "end": 65.78,
+      "summary": "scrape mayonnaise into the mixing bowl",
+      "verb": "scrape",
+      "object": "mayonnaise",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57–69.3s continuous repeated scraping from the same mug; no hand-object change at this internal source boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.78,
+      "end": 67.2,
+      "summary": "scrape mayonnaise into the mixing bowl",
+      "verb": "scrape",
+      "object": "mayonnaise",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57–69.3s continuous repeated scraping from the same mug; no hand-object change at this internal source boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 67.2,
+      "end": 68.29,
+      "summary": "scrape mayonnaise into the mixing bowl",
+      "verb": "scrape",
+      "object": "mayonnaise",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57–69.3s continuous repeated scraping from the same mug; no hand-object change at this internal source boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.29,
+      "end": 69.36,
+      "summary": "scrape mayonnaise into the mixing bowl",
+      "verb": "scrape",
+      "object": "mayonnaise",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57–69.3s continuous repeated scraping from the same mug; no hand-object change at this internal source boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.36,
+      "end": 71.4,
+      "summary": "set the cream mug on the counter",
+      "verb": "put down",
+      "object": "cream mug",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=70s set mug down; t=70.8–71.3s right hand rests teaspoon inside mug while left still steadies it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.4,
+      "end": 71.5,
+      "summary": "release the mug and teaspoon",
+      "verb": "release",
+      "object": "cream mug",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand sets down the mug",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.5,
+      "end": 73.4,
+      "summary": "open the nearly empty cheese tub",
+      "verb": "open",
+      "object": "cheese tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese tub"
+        ],
+        "right": [
+          "cheese lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up the blue cheese container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 73.4,
+      "end": 73.5,
+      "summary": "lower the cheese lid toward the counter",
+      "verb": "put down",
+      "object": "cheese lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cheese tub"
+        ],
+        "right": [
+          "cheese lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand removes lid from the blue cheese container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.5,
+      "end": 73.7,
+      "summary": "release the cheese lid on the counter",
+      "verb": "release",
+      "object": "cheese lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cheese tub"
+        ],
+        "right": [
+          "cheese lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Lid lowering continues across 73.4s; hand still contacts lid at t=73.667s, release follows.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand pours blue cheese crumbles into the mug",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.7,
+      "end": 77.6,
+      "summary": "tap cheese crumbles from the tub into the mug",
+      "verb": "pour",
+      "object": "blue cheese",
+      "tool": "cheese tub",
+      "target": "cream mug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese tub"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=74.3–77.4s invert tub and tap its base; residual crumbles fall into mug. A different fuller tub is opened next.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 77.6,
+      "end": 79.0,
+      "summary": "put down the empty tub and lift another",
+      "verb": "pick up",
+      "object": "cheese tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese tub"
+        ],
+        "right": [
+          "cheese tub"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand sets down the blue cheese container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 79.0,
+      "end": 81.9,
+      "summary": "remove the second cheese tub lid",
+      "verb": "open",
+      "object": "cheese tub",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese tub"
+        ],
+        "right": [
+          "cheese lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes the blue cheese container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 81.9,
+      "end": 88.0,
+      "summary": "peel the plastic seal off the cheese tub",
+      "verb": "peel",
+      "object": "plastic seal",
+      "tool": null,
+      "target": "cheese tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cheese tub"
+        ],
+        "right": [
+          "plastic seal"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "summary": "pour cheese crumbles into the cream mug",
+      "verb": "pour",
+      "object": "blue cheese",
+      "tool": "cheese tub",
+      "target": "cream mug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "cream mug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=88.2s set seal aside; t=89–94.8s pour and tap tub into mug; t=95.4s set tub down and change mug grip.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand pours blue cheese crumbles into the mug",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.0,
+      "end": 100.19,
+      "summary": "pour cheese crumbles into the mixing bowl",
+      "verb": "pour",
+      "object": "blue cheese",
+      "tool": "cream mug",
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=96.5–98.6s tip mug over bowl; t=99.5–100.1s retrieve teaspoon right.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours cream cheese from cup into bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 100.19,
+      "end": 101.06,
+      "summary": "move the teaspoon toward the cream mug",
+      "verb": "move",
+      "object": "teaspoon",
+      "tool": null,
+      "target": "cream mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 101.06,
+      "end": 103.94,
+      "summary": "scrape cheese residue into the mixing bowl",
+      "verb": "scrape",
+      "object": "blue cheese",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cream mug"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.94,
+      "end": 106.9,
+      "summary": "put the cream mug on the back counter",
+      "verb": "put down",
+      "object": "cream mug",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=104.7s rest teaspoon in bowl; t=105.5s change mug hands and place mug behind jars.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.9,
+      "end": 108.2,
+      "summary": "pick up the tablespoon",
+      "verb": "pick up",
+      "object": "tablespoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tablespoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=107.4s lift tablespoon left; t=107.8–108.1s pass it to right hand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up spoon and small cup",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 108.2,
+      "end": 108.91,
+      "summary": "pick up the teal cup",
+      "verb": "pick up",
+      "object": "teal cup",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "teal cup"
+        ],
+        "right": [
+          "tablespoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops salt from cup with spoon and adds it to bowl",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 108.91,
+      "end": 111.0,
+      "summary": "scoop white liquid from the teal cup",
+      "verb": "scoop",
+      "object": "white liquid",
+      "tool": "tablespoon",
+      "target": "teal cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "teal cup"
+        ],
+        "right": [
+          "tablespoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "Opaque white liquid is visible; no readable packaging proves milk identity.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 111.0,
+      "end": 113.0,
+      "summary": "add the spoonful of white liquid to the bowl",
+      "verb": "pour",
+      "object": "white liquid",
+      "tool": "tablespoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "teal cup"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=111.2–111.8s empty spoon into bowl; t=112.4s return tablespoon to teal cup.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand pours liquid from spoon into bowl",
+      "notes": "Liquid identity is visually uncertain.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.0,
+      "end": 113.8,
+      "summary": "set the teal cup on the counter",
+      "verb": "put down",
+      "object": "teal cup",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=113.1s put cup down with tablespoon inside; t=113.5s right hand takes teaspoon from mixing bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand mixes ingredients in bowl with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.8,
+      "end": 136.8,
+      "summary": "stir the cheese mixture in the mixing bowl",
+      "verb": "stir",
+      "object": "dip",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=114–136.6s continuous stirring with left hand steadying bowl; t=136.733s left withdraws and right lowers spoon.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stops mixing",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.8,
+      "end": 138.2,
+      "summary": "pick up the pepper grinder",
+      "verb": "pick up",
+      "object": "pepper grinder",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "pepper grinder"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "adds black pepper to the bowl using a shaker",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 138.2,
+      "end": 141.4,
+      "summary": "remove the pepper grinder cap",
+      "verb": "open",
+      "object": "pepper grinder",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pepper cap"
+        ],
+        "right": [
+          "pepper grinder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=138.4s change grip; t=140.6s pull cap off; t=141.1s move cap to counter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.4,
+      "end": 145.2,
+      "summary": "grind pepper over the mixing bowl",
+      "verb": "grind",
+      "object": "pepper",
+      "tool": "pepper grinder",
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pepper grinder"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=141.8–144.1s twist grinder above mixture; t=144.8s lower it upright.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 145.2,
+      "end": 146.44,
+      "summary": "set down the grinder and pick up seasoning",
+      "verb": "pick up",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning lid"
+        ],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=145.5s set grinder down; t=146s lift seasoning jar and begin unscrewing lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "adds paprika to the bowl using a shaker",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 146.44,
+      "end": 147.89,
+      "summary": "remove the seasoning jar lid",
+      "verb": "open",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning lid"
+        ],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.89,
+      "end": 148.96,
+      "summary": "shake seasoning into the mixing bowl",
+      "verb": "shake",
+      "object": "seasoning",
+      "tool": "seasoning jar",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning lid"
+        ],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "Orange-tan powder is visible; label insufficient to identify spice.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.96,
+      "end": 150.4,
+      "summary": "screw the lid onto the seasoning jar",
+      "verb": "close",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning jar"
+        ],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 150.4,
+      "end": 151.11,
+      "summary": "put down the seasoning jar and pick up teaspoon",
+      "verb": "pick up",
+      "object": "teaspoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "stirs the dip with a spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 151.11,
+      "end": 154.9,
+      "summary": "stir the seasonings into the dip",
+      "verb": "stir",
+      "object": "dip",
+      "tool": "teaspoon",
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.9,
+      "end": 157.0,
+      "summary": "move the serving bowl beside the mixing bowl",
+      "verb": "move",
+      "object": "serving bowl",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "serving bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=155.4s retrieve blue bowl; t=156.6s place teaspoon in mixing bowl; t=156.9s blue bowl remains in left hand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand holds the large mixing bowl",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 157.0,
+      "end": 161.17,
+      "summary": "scrape dip into the serving bowl",
+      "verb": "scrape",
+      "object": "dip",
+      "tool": "teaspoon",
+      "target": "serving bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=157.3s lift mixing bowl left; t=159.5–172.8s repeated scraping into blue bowl; source divisions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand transfers dip from large bowl to small bowl, scraping remaining dip",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 161.17,
+      "end": 162.84,
+      "summary": "scrape dip into the serving bowl",
+      "verb": "scrape",
+      "object": "dip",
+      "tool": "teaspoon",
+      "target": "serving bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continues the same bowl-to-bowl scraping with unchanged hand-object roles.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 162.84,
+      "end": 165.79,
+      "summary": "scrape dip into the serving bowl",
+      "verb": "scrape",
+      "object": "dip",
+      "tool": "teaspoon",
+      "target": "serving bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continues the same bowl-to-bowl scraping with unchanged hand-object roles.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 165.79,
+      "end": 168.45,
+      "summary": "scrape dip into the serving bowl",
+      "verb": "scrape",
+      "object": "dip",
+      "tool": "teaspoon",
+      "target": "serving bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continues the same bowl-to-bowl scraping with unchanged hand-object roles.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 168.45,
+      "end": 173.5,
+      "summary": "scrape dip into the serving bowl",
+      "verb": "scrape",
+      "object": "dip",
+      "tool": "teaspoon",
+      "target": "serving bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "teaspoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continues the same bowl-to-bowl scraping with unchanged hand-object roles.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 173.5,
+      "end": 174.7,
+      "summary": "place the mixing bowl in the sink",
+      "verb": "put down",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "sink",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=174s leave teaspoon in bowl and transfer bowl toward right hand; native t=174.667s still held, release follows.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand scoops dip from bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 174.7,
+      "end": 176.5,
+      "summary": "pick up the serving bowl",
+      "verb": "pick up",
+      "object": "serving bowl",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "serving bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand walks to refrigerator",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 176.5,
+      "end": 178.0,
+      "summary": "open the refrigerator door",
+      "verb": "open",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "serving bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens refrigerator door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 178.0,
+      "end": 179.8,
+      "summary": "place the serving bowl in the refrigerator",
+      "verb": "place",
+      "object": "serving bowl",
+      "tool": null,
+      "target": "refrigerator",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 179.8,
+      "end": 181.12,
+      "summary": "close the refrigerator door",
+      "verb": "close",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes refrigerator door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 181.12,
+      "end": 183.2,
+      "summary": "reach for the refrigerator handle",
+      "verb": "reach",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=181.1–182.8s no interaction; t=183s reach back toward handle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens refrigerator door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 183.2,
+      "end": 184.5,
+      "summary": "open the refrigerator door again",
+      "verb": "open",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 184.5,
+      "end": 185.7,
+      "summary": "retrieve the serving bowl from the refrigerator",
+      "verb": "pick up",
+      "object": "serving bowl",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "serving bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand takes out container from fridge",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 185.7,
+      "end": 188.3,
+      "summary": "place the serving bowl on the plate",
+      "verb": "place",
+      "object": "serving bowl",
+      "tool": null,
+      "target": "plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "serving bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=186–187.3s carry bowl back, t=187.4s lower onto plate; left hand still steadies bowl at t=188.267s. Refrigerator closure after retrieval is not visible.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand places plate on counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 188.3,
+      "end": 191.8,
+      "summary": "open the cracker container",
+      "verb": "open",
+      "object": "cracker container",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cracker container"
+        ],
+        "right": [
+          "cracker lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand removes lid from container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 191.8,
+      "end": 191.9,
+      "summary": "lift the cracker container lid",
+      "verb": "remove",
+      "object": "cracker lid",
+      "tool": null,
+      "target": "cracker container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cracker container"
+        ],
+        "right": [
+          "cracker lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand places lid down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 191.9,
+      "end": 193.5,
+      "summary": "put the cracker lid beside the container",
+      "verb": "put down",
+      "object": "cracker lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cracker container"
+        ],
+        "right": [
+          "cracker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=192.3s set lid down; t=193s grasp cracker inside container.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up crackers from container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 193.5,
+      "end": 194.6,
+      "summary": "take a cracker from the container",
+      "verb": "pick up",
+      "object": "cracker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cracker container"
+        ],
+        "right": [
+          "cracker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand places cracker on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.6,
+      "end": 195.59,
+      "summary": "place a cracker on the plate",
+      "verb": "place",
+      "object": "cracker",
+      "tool": null,
+      "target": "plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cracker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=194.6–195.5s left hand takes and places a cracker while right holds another; source boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 195.59,
+      "end": 197.34,
+      "summary": "arrange crackers around the serving bowl",
+      "verb": "place",
+      "object": "cracker",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cracker"
+        ],
+        "right": [
+          "cracker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated picking from container and placing crackers around blue bowl; interval contains multiple short transfers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 197.34,
+      "end": 199.51,
+      "summary": "arrange crackers around the serving bowl",
+      "verb": "place",
+      "object": "cracker",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cracker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated picking from container and placing crackers around blue bowl; interval contains multiple short transfers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 199.51,
+      "end": 201.25,
+      "summary": "arrange crackers around the serving bowl",
+      "verb": "place",
+      "object": "cracker",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated picking from container and placing crackers around blue bowl; interval contains multiple short transfers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 201.25,
+      "end": 202.63,
+      "summary": "arrange crackers around the serving bowl",
+      "verb": "place",
+      "object": "cracker",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cracker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated picking from container and placing crackers around blue bowl; interval contains multiple short transfers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 202.63,
+      "end": 204.79,
+      "summary": "arrange crackers around the serving bowl",
+      "verb": "place",
+      "object": "cracker",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=203.3–204.1s place last visible crackers; t=204.5s withdraw both hands.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 34.69,
+      "instruction": "Measure sour cream into the mixing bowl",
+      "description": "Open the wall cupboard, take a white mixing bowl and carry it to the counter. Reposition a cream-colored mug, lift and open the sour cream tub, set its lid beside the sink and pick up a teaspoon. Repeatedly spoon sour cream into the mug. Put the tub down, lift the mug and scrape its contents into the white bowl.",
+      "fine_index_range": [
+        0,
+        20
+      ],
+      "transition_in": null,
+      "goal_contribution": "Provides the sour cream base in the mixing bowl.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 34.69,
+      "end": 71.5,
+      "instruction": "Measure and add the mayonnaise",
+      "description": "Set the mug and teaspoon down and open the blue-lidded mayonnaise jar. Turn and shake the jar over the mug, but no substantial flow is visible. Open the drawer, retrieve a tablespoon and repeatedly scoop mayonnaise into the mug instead. Set the jar aside, lift the mug and use the smaller spoon to scrape its contents into the mixing bowl. Set the mug down and release the spoon.",
+      "fine_index_range": [
+        21,
+        42
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the mayonnaise component to the creamy base.",
+      "predictability_level": "strong",
+      "predictability_reason": "After measure sour cream into the mixing bowl, measure and add the mayonnaise is a natural next stage toward make blue cheese dip and serve with crackers."
+    },
+    {
+      "start": 71.5,
+      "end": 106.9,
+      "instruction": "Measure and add the blue cheese",
+      "description": "Lift and open a nearly empty blue cheese tub. Invert it over the cream mug and tap its base to release the remaining crumbles. Set it aside and open a second, fuller tub, removing its lid and peeling off the inner plastic seal. Pour more crumbles into the mug, set the tub down, then tip the mug over the white bowl. Use the teaspoon to scrape the remaining cheese and creamy residue into the bowl, then place the mug on the back counter.",
+      "fine_index_range": [
+        43,
+        54
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the crumbled blue cheese from two tubs to the dip base.",
+      "predictability_level": "strong",
+      "predictability_reason": "After measure and add the mayonnaise, measure and add the blue cheese is a natural next stage toward make blue cheese dip and serve with crackers."
+    },
+    {
+      "start": 106.9,
+      "end": 154.9,
+      "instruction": "Mix and season the cheese dip",
+      "description": "Retrieve the tablespoon, transfer it to the right hand and pick up the teal cup with the left. Scoop a spoonful of opaque white liquid from the cup and add it to the mixing bowl; its exact identity is not established by visible packaging. Leave the tablespoon in the cup and set it down. Pick up the teaspoon and repeatedly stir the cheese and creamy ingredients. Open the pepper grinder, grind pepper over the mixture and set it down. Open a separate seasoning jar, shake orange-tan powder over the dip, close and set down that jar, then stir the seasonings through.",
+      "fine_index_range": [
+        55,
+        69
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Combines the ingredients and incorporates the visible liquid, pepper and powdered seasoning.",
+      "predictability_level": "strong",
+      "predictability_reason": "After measure and add the blue cheese, mix and season the cheese dip is a natural next stage toward make blue cheese dip and serve with crackers."
+    },
+    {
+      "start": 154.9,
+      "end": 181.12,
+      "instruction": "Transfer the dip and place it in refrigerator",
+      "description": "Bring a small blue serving bowl beside the mixture. Lift the white mixing bowl, tilt it over the blue bowl and repeatedly scrape the dip into it with the teaspoon. Put the white bowl and spoon in the sink, pick up the blue bowl and carry it to the refrigerator. Open the refrigerator, place the bowl on a shelf and close the door.",
+      "fine_index_range": [
+        70,
+        80
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Moves the mixed dip to its serving bowl and briefly stores it in the refrigerator.",
+      "predictability_level": "weak",
+      "predictability_reason": "After mix and season the cheese dip, transfer the dip and place it in refrigerator is plausible for make blue cheese dip and serve with crackers, but several next steps fit."
+    },
+    {
+      "start": 181.12,
+      "end": 204.79,
+      "instruction": "Retrieve the dip and arrange crackers",
+      "description": "Pause briefly, reopen the refrigerator and retrieve the blue bowl almost immediately. Carry it back to the counter and set it on a white plate. Lift and open the rectangular cracker container, place its lid aside and repeatedly take crackers with both hands, arranging them on the plate around the blue bowl. Withdraw the hands, leaving the dip and crackers together. This is a brief refrigerator placement rather than evidence of a long chilling period.",
+      "fine_index_range": [
+        81,
+        94
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Completes the visible serving arrangement of dip and crackers.",
+      "predictability_level": "strong",
+      "predictability_reason": "After transfer the dip and place it in refrigerator, retrieve the dip and arrange crackers is a natural next stage toward make blue cheese dip and serve with crackers."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames/008a392f0747e13b/native_v1",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "video_id": "71da88e7ebab3c49",
+  "duration": 200.067,
+  "task": "Designing a custom sketchbook cover",
+  "domain": "Arts and Crafts",
+  "query": "How do I design a custom sketchbook cover?",
+  "goal": {
+    "title": "Make a gold paper bookmark with floral decoration",
+    "description": "Flatten a strip of gold paper over a notebook and fold its ends to size it. Cut away the excess with scissors, fold both long edges inward and crease the strip flat. Sketch a flower and curved stem in pencil, then trace them with a blue marker. Peel several small floral stickers from their clear backing and press them along the stem. Lay the decorated strip on the notebook, cover it with overlapping pieces of wide transparent tape and smooth the surface. Trim excess tape around the strip with scissors, lift the finished bookmark and set it down.",
+    "final_state": "A narrow gold bookmark with a blue flower outline and small floral stickers lies on the notebook beneath a shiny transparent covering.",
+    "procedure": [
+      "Size and cut a rectangular gold paper strip.",
+      "Fold its long edges inward and flatten the bookmark blank.",
+      "Sketch and trace a flower and stem.",
+      "Peel and attach small floral stickers.",
+      "Cover the decorated strip with transparent tape.",
+      "Trim the excess tape and set down the finished bookmark."
+    ]
+  },
+  "object_inventory": [
+    "gold paper",
+    "scissors",
+    "notebook",
+    "pencil",
+    "marker",
+    "marker cap",
+    "sticker sheet",
+    "floral sticker",
+    "tape roll",
+    "transparent tape",
+    "bookmark"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 28.46,
+      "description": "Flatten the gold strip over the notebook, fold its short ends to mark the length, cut away both excess ends and move the scraps aside."
+    },
+    {
+      "start": 28.46,
+      "end": 60.28,
+      "description": "Turn the paper strip over, fold both long edges inward and pinch and smooth its ends and creases."
+    },
+    {
+      "start": 60.28,
+      "end": 89.14,
+      "description": "Sketch the floral shape with pencil, then trace a blue flower outline and long curved stem with the marker before recapping it."
+    },
+    {
+      "start": 89.14,
+      "end": 132.25,
+      "description": "Pick up a clear-backed sticker sheet and repeatedly peel small flower clusters, press them onto the gold strip and smooth their edges."
+    },
+    {
+      "start": 132.25,
+      "end": 169.35,
+      "description": "Position the strip on the notebook, pull lengths of wide transparent tape, cut them and press overlapping strips over the decorated paper."
+    },
+    {
+      "start": 169.35,
+      "end": 199.4,
+      "description": "Rotate and lift the work over the notebook, cut projecting tape around its edges and set the finished bookmark down."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.94,
+      "old_summary": "hand holds scissors",
+      "summary": "idle: look over the craft materials",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 1.94,
+      "end": 6.49,
+      "old_summary": "hands fold gold foil over sketchbook",
+      "summary": "flatten and fold the upper end of the gold paper",
+      "verb": "fold",
+      "object": "gold paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "gold paper"
+        ],
+        "right": [
+          "gold paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.49,
+      "end": 10.45,
+      "old_summary": "hands cut gold foil with scissors",
+      "summary": "fold the lower end of the gold paper",
+      "verb": "fold",
+      "object": "gold paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "gold paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.45,
+      "end": 18.0,
+      "old_summary": "hand cuts gold foil with scissors",
+      "summary": "cut across the folded gold paper end",
+      "verb": "cut",
+      "object": "gold paper",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "gold paper"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 18.0,
+      "end": 26.7,
+      "old_summary": "hand cuts gold foil with scissors",
+      "summary": "trim the other end of the gold paper",
+      "verb": "cut",
+      "object": "gold paper",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "gold paper"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.7,
+      "end": 28.46,
+      "old_summary": "hand places scissors on the table",
+      "summary": "move the paper scraps aside",
+      "verb": "move",
+      "object": "gold paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "gold paper"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.46,
+      "end": 29.67,
+      "old_summary": "hands press down on a piece of gold foil",
+      "summary": "lay the gold paper strip flat",
+      "verb": "place",
+      "object": "gold paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.67,
+      "end": 31.13,
+      "old_summary": "hands fold gold foil",
+      "summary": "turn the paper strip over on the table",
+      "verb": "turn",
+      "object": "gold paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 31.13,
+      "end": 35.67,
+      "old_summary": "hands smooth out a piece of gold foil on a surface",
+      "summary": "fold one long paper edge inward",
+      "verb": "fold",
+      "object": "gold paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 35.67,
+      "end": 41.96,
+      "old_summary": "hands press down on a piece of gold foil",
+      "summary": "fold the other long edge inward and crease it",
+      "verb": "fold",
+      "object": "gold paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 41.96,
+      "end": 46.31,
+      "old_summary": "hand presses down on gold foil on sketchbook cover",
+      "summary": "turn and flatten the folded gold strip",
+      "verb": "flatten",
+      "object": "gold paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.31,
+      "end": 60.28,
+      "old_summary": "hands smooth out a strip of gold foil on a surface",
+      "summary": "pinch the short ends and smooth the paper folds",
+      "verb": "fold",
+      "object": "gold paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "The segment includes several end-fold and smoothing motions between 46.31s and 60.28s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 60.28,
+      "end": 68.64,
+      "old_summary": "right hand draws on gold foil with green pencil while left hand holds foil in place",
+      "summary": "sketch a flower on the gold strip with pencil",
+      "verb": "draw",
+      "object": "gold paper",
+      "tool": "pencil",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pencil"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 68.64,
+      "end": 70.98,
+      "old_summary": "hand applies adhesive tape to gold foil",
+      "summary": "finish the pencil stem and put down the pencil",
+      "verb": "draw",
+      "object": "gold paper",
+      "tool": "pencil",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 70.98,
+      "end": 85.76,
+      "old_summary": "hand draws on gold foil with marker",
+      "summary": "trace the flower and stem with the blue marker",
+      "verb": "draw",
+      "object": "gold paper",
+      "tool": "marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "marker cap"
+        ],
+        "right": [
+          "marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 85.76,
+      "end": 89.14,
+      "old_summary": "hand presses down on the gold foil",
+      "summary": "cap the marker and put it aside",
+      "verb": "close",
+      "object": "marker",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.14,
+      "end": 93.9,
+      "old_summary": "hand peels floral sticker from backing sheet",
+      "summary": "pick up the floral sticker sheet",
+      "verb": "pick up",
+      "object": "sticker sheet",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker sheet"
+        ],
+        "right": [
+          "sticker sheet"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 93.9,
+      "end": 104.18,
+      "old_summary": "hand places floral sticker onto gold foil",
+      "summary": "peel a floral sticker and press it onto the strip",
+      "verb": "attach",
+      "object": "floral sticker",
+      "tool": null,
+      "target": "gold paper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Peeling the sticker and placing it are both visible between 93.9s and 104.18s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 104.18,
+      "end": 114.16,
+      "old_summary": "hands apply floral sticker to gold foil",
+      "summary": "peel and attach another small floral sticker",
+      "verb": "attach",
+      "object": "floral sticker",
+      "tool": null,
+      "target": "gold paper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "This interval includes peeling and attaching more than one small floral piece.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 114.16,
+      "end": 132.25,
+      "old_summary": "hands apply floral sticker to gold foil",
+      "summary": "peel more floral stickers and press them along the stem",
+      "verb": "attach",
+      "object": "floral sticker",
+      "tool": null,
+      "target": "gold paper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Several sticker peel-and-press cycles occur between 114.16s and 132.25s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 132.25,
+      "end": 142.16,
+      "old_summary": "hand applies clear tape to the decorated cover",
+      "summary": "position the bookmark and pull out transparent tape",
+      "verb": "pull",
+      "object": "transparent tape",
+      "tool": null,
+      "target": "tape roll",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "transparent tape"
+        ],
+        "right": [
+          "tape roll"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "The interval changes from sticker smoothing to notebook positioning and tape retrieval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 142.16,
+      "end": 148.9,
+      "old_summary": "hand applies clear tape to the decorated sketchbook cover",
+      "summary": "lay transparent tape lengthwise over the bookmark",
+      "verb": "cover",
+      "object": "bookmark",
+      "tool": "transparent tape",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "transparent tape"
+        ],
+        "right": [
+          "tape roll"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.9,
+      "end": 153.65,
+      "old_summary": "hand cuts clear tape with scissors, then hand presses tape onto sketchbook cover",
+      "summary": "cut the tape and smooth it onto the bookmark",
+      "verb": "cut",
+      "object": "transparent tape",
+      "tool": "scissors",
+      "target": "bookmark",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape roll"
+        ],
+        "right": [
+          "tape roll"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "The scissors are used near 150–151s, then released; final fingers appear to hold the tape roll.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.65,
+      "end": 161.8,
+      "old_summary": "hand applies clear tape to the decorated sketchbook cover",
+      "summary": "pull another tape strip and press it over the bookmark",
+      "verb": "cover",
+      "object": "bookmark",
+      "tool": "transparent tape",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "transparent tape"
+        ],
+        "right": [
+          "tape roll"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 161.8,
+      "end": 164.95,
+      "old_summary": "hand cuts clear tape with scissors",
+      "summary": "pull out another length of tape",
+      "verb": "pull",
+      "object": "transparent tape",
+      "tool": null,
+      "target": "tape roll",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "transparent tape"
+        ],
+        "right": [
+          "tape roll"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 164.95,
+      "end": 169.35,
+      "old_summary": "hands press down on the decorated cover",
+      "summary": "cut the tape and smooth down the covered bookmark",
+      "verb": "cover",
+      "object": "bookmark",
+      "tool": "transparent tape",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "The interval includes cutting tape, returning the roll and smoothing the covering.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 169.35,
+      "end": 177.64,
+      "old_summary": "hand cuts clear tape with scissors",
+      "summary": "trim excess transparent tape along one bookmark edge",
+      "verb": "cut",
+      "object": "transparent tape",
+      "tool": "scissors",
+      "target": "bookmark",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "notebook"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 177.64,
+      "end": 178.92,
+      "old_summary": "hand applies clear tape to the decorated cover",
+      "summary": "put the scissors down beside the notebook",
+      "verb": "put down",
+      "object": "scissors",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "notebook"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 178.92,
+      "end": 186.97,
+      "old_summary": "hand cuts decorative paper with scissors",
+      "summary": "rotate the bookmark and trim another taped edge",
+      "verb": "cut",
+      "object": "transparent tape",
+      "tool": "scissors",
+      "target": "bookmark",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "notebook"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 186.97,
+      "end": 191.65,
+      "old_summary": "hand cuts decorative paper with scissors",
+      "summary": "finish trimming the tape around the bookmark",
+      "verb": "cut",
+      "object": "transparent tape",
+      "tool": "scissors",
+      "target": "bookmark",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "notebook"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 191.65,
+      "end": 197.33,
+      "old_summary": "hand presses down on a protective layer placed over the decorated sketchbook cover",
+      "summary": "lift the finished bookmark and put it on the notebook",
+      "verb": "place",
+      "object": "bookmark",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 197.33,
+      "end": 199.4,
+      "old_summary": "hand holds a cup on the table",
+      "summary": "idle: move hands away from the finished bookmark",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 28.46,
+      "fine_index_range": [
+        0,
+        5
+      ],
+      "instruction": "Size and trim the gold paper.",
+      "description": "Flatten the gold strip over the notebook, fold its short ends to mark the length, cut away both excess ends and move the scraps aside.",
+      "goal_contribution": "Produce a rectangular paper blank for the bookmark.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 28.46,
+      "end": 60.28,
+      "fine_index_range": [
+        6,
+        11
+      ],
+      "instruction": "Fold and flatten the bookmark blank.",
+      "description": "Turn the paper strip over, fold both long edges inward and pinch and smooth its ends and creases.",
+      "goal_contribution": "Make a narrower folded gold strip with neater edges.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "A sized gold strip is ready to fold into a bookmark blank."
+    },
+    {
+      "start": 60.28,
+      "end": 89.14,
+      "fine_index_range": [
+        12,
+        15
+      ],
+      "instruction": "Draw the flower and stem.",
+      "description": "Sketch the floral shape with pencil, then trace a blue flower outline and long curved stem with the marker before recapping it.",
+      "goal_contribution": "Create the large drawn decoration on the bookmark.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The folded blank is ready for floral drawing."
+    },
+    {
+      "start": 89.14,
+      "end": 132.25,
+      "fine_index_range": [
+        16,
+        19
+      ],
+      "instruction": "Add small floral stickers.",
+      "description": "Pick up a clear-backed sticker sheet and repeatedly peel small flower clusters, press them onto the gold strip and smooth their edges.",
+      "goal_contribution": "Add colored floral decoration around the drawn stem.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After drawing a flower, small stickers are a plausible decoration, not necessary."
+    },
+    {
+      "start": 132.25,
+      "end": 169.35,
+      "fine_index_range": [
+        20,
+        25
+      ],
+      "instruction": "Cover the decorated strip with transparent tape.",
+      "description": "Position the strip on the notebook, pull lengths of wide transparent tape, cut them and press overlapping strips over the decorated paper.",
+      "goal_contribution": "Cover and hold the paper decoration beneath a transparent surface.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The decorated strip may be covered with tape for durability, among several finishes."
+    },
+    {
+      "start": 169.35,
+      "end": 199.4,
+      "fine_index_range": [
+        26,
+        31
+      ],
+      "instruction": "Trim the tape and finish the bookmark.",
+      "description": "Rotate and lift the work over the notebook, cut projecting tape around its edges and set the finished bookmark down.",
+      "goal_contribution": "Leave the decorated bookmark trimmed around its outline.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Applied tape needs edge trimming to finish the bookmark."
+    }
+  ],
+  "notes": "Viewed all seven overview sheets, eleven dense contact sheets (697 frames) and two native endpoint sheets. At t=12–26s scissors trim paper ends; t=31–58s folds are creased; t=62–70s pencil sketch precedes blue tracing t=73–86s; t=94–132s floral stickers are peeled and pressed; t=137–168s tape is applied; t=172–191s tape edges are trimmed. Long source intervals combine peeling and placing stickers or drawing and changing tools; boundaries retained. The notebook serves as a support; the finished decorated strip is visibly lifted at t=191s."
+}

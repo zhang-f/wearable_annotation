@@ -1,0 +1,845 @@
+{
+  "video_id": "1ed4fd49e8e19860",
+  "duration": 246.934,
+  "task": "Decorating a pen holder with stickers",
+  "domain": "Arts and Crafts",
+  "query": "How do I decorate a pen holder with stickers?",
+  "goal": {
+    "title": "Decorate a pen holder with stickers",
+    "description": "Wipe a translucent cup, prepare and peel assorted graphic and text stickers, press them onto different faces and smooth the edges. Finish with smaller accents, then place two pens in the decorated cup.",
+    "final_state": "The decorated cup stands on the wooden desk holding teal and purple pens.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 10.2,
+        "description": "Lift the translucent cup and wipe its wall and base with a white tissue, turning it in the left hand before lowering it onto the wooden desk."
+      },
+      {
+        "start": 10.2,
+        "end": 39.3,
+        "description": "Fold and put the tissue aside, spread the die-cut stickers, and use large teal scissors to trim the straight bottom edge of a black-and-white text sticker. Put it down, sort several designs and select an orange outlined triangular graphic."
+      },
+      {
+        "start": 39.3,
+        "end": 64.39,
+        "description": "Repeatedly pick at the orange sticker edge until its white backing separates. Pick up the cup, align the graphic on its side, press it down and rub its edges while rotating the cup."
+      },
+      {
+        "start": 64.39,
+        "end": 96.24,
+        "description": "Set the cup down and choose the large conservation figure sticker. Work its edge and peel away the backing. Lift the cup, align then lift and realign the graphic on another face, and press its center and outline flat before putting the cup down."
+      },
+      {
+        "start": 96.24,
+        "end": 118.2,
+        "description": "Choose the green-and-orange text sticker, peel its backing and retrieve the cup. Turn a blank face toward the sticker, apply it diagonally and smooth the individual letters and edges."
+      },
+      {
+        "start": 118.2,
+        "end": 157.39,
+        "description": "Gather discarded backing paper and retrieve the trimmed black-and-white text sticker. Make repeated fingernail attempts before removing its backing. Lift the cup, position and reposition the label across another face, then smooth it and nearby overlapping edges."
+      },
+      {
+        "start": 157.39,
+        "end": 189,
+        "description": "Peel a small purple accent and press it near the upper rim; then peel a red heart and attach it below the text. Set the cup down, sort scraps and remaining stickers, briefly lift and return the scissors without visible cutting, and choose another small purple animal-shaped design."
+      },
+      {
+        "start": 189,
+        "end": 225.97,
+        "description": "Continue working the same small purple sticker edge for an extended time, finally separating its backing at about 223s. Lower the backing, grasp and lift the cup, and bring the sticker to the open area below the colored text."
+      },
+      {
+        "start": 225.97,
+        "end": 246.934,
+        "description": "Press the small purple graphic flat, rub its edges and rotate the cup to smooth the other attached stickers. Stand the decorated cup on the desk, retrieve the teal and purple pens, and lower both pens into it at about 245.1–245.5s. The final view shows the pen-filled decorated cup."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 10.2,
+      "description": "Lift the translucent cup and wipe its wall and base with a white tissue, turning it in the left hand before lowering it onto the wooden desk."
+    },
+    {
+      "start": 10.2,
+      "end": 39.3,
+      "description": "Fold and put the tissue aside, spread the die-cut stickers, and use large teal scissors to trim the straight bottom edge of a black-and-white text sticker. Put it down, sort several designs and select an orange outlined triangular graphic."
+    },
+    {
+      "start": 39.3,
+      "end": 64.39,
+      "description": "Repeatedly pick at the orange sticker edge until its white backing separates. Pick up the cup, align the graphic on its side, press it down and rub its edges while rotating the cup."
+    },
+    {
+      "start": 64.39,
+      "end": 96.24,
+      "description": "Set the cup down and choose the large conservation figure sticker. Work its edge and peel away the backing. Lift the cup, align then lift and realign the graphic on another face, and press its center and outline flat before putting the cup down."
+    },
+    {
+      "start": 96.24,
+      "end": 118.2,
+      "description": "Choose the green-and-orange text sticker, peel its backing and retrieve the cup. Turn a blank face toward the sticker, apply it diagonally and smooth the individual letters and edges."
+    },
+    {
+      "start": 118.2,
+      "end": 157.39,
+      "description": "Gather discarded backing paper and retrieve the trimmed black-and-white text sticker. Make repeated fingernail attempts before removing its backing. Lift the cup, position and reposition the label across another face, then smooth it and nearby overlapping edges."
+    },
+    {
+      "start": 157.39,
+      "end": 189,
+      "description": "Peel a small purple accent and press it near the upper rim; then peel a red heart and attach it below the text. Set the cup down, sort scraps and remaining stickers, briefly lift and return the scissors without visible cutting, and choose another small purple animal-shaped design."
+    },
+    {
+      "start": 189,
+      "end": 225.97,
+      "description": "Continue working the same small purple sticker edge for an extended time, finally separating its backing at about 223s. Lower the backing, grasp and lift the cup, and bring the sticker to the open area below the colored text."
+    },
+    {
+      "start": 225.97,
+      "end": 246.934,
+      "description": "Press the small purple graphic flat, rub its edges and rotate the cup to smooth the other attached stickers. Stand the decorated cup on the desk, retrieve the teal and purple pens, and lower both pens into it at about 245.1–245.5s. The final view shows the pen-filled decorated cup."
+    }
+  ],
+  "object_inventory": [
+    "cup",
+    "sticker",
+    "sticker backing",
+    "pens",
+    "tissue",
+    "scissors",
+    "desk"
+  ],
+  "notes": "All overview, dense interval pages and native end-state sheets reviewed. Fine boundaries retained including very short cup-grasp and positioning segments. Several intervals include multiple visible hand-object changes, recorded in boundary_note rather than recut. Long final purple-sticker peeling attempt is genuinely repeated handling of the same sticker. The final fine end 247.0 exceeds ffprobe 246.934: fine 24 semantic fields are null with beyond_video_end; actual final pen insertion is documented only in the observed goal procedure and coarse description. No adhesive liquid or glue tool is visible or inferred. Hands pressing attached designs do not thereby hold a separate sticker at the endpoint.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 10.2,
+      "summary": "wipe the cup with a tissue",
+      "verb": "wipe",
+      "object": "cup",
+      "tool": "tissue",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": [
+          "tissue"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0.4s lift cup; t=1–9.3s wipe wall and base while rotating; t=9.8s lower cup. Multiple interactions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand wipes the surface of a clear pen holder with a cloth",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 10.2,
+      "end": 20.19,
+      "summary": "spread the stickers across the desk",
+      "verb": "spread",
+      "object": "sticker",
+      "tool": null,
+      "target": "desk",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=10.8–12s fold and put down tissue; t=13.5–19.5s spread and sort stickers; t=20.1s reach for scissors.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands arrange stickers on the table",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 20.19,
+      "end": 25.96,
+      "summary": "trim the black and white sticker with scissors",
+      "verb": "cut",
+      "object": "sticker",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sticker"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=21.5–25.5s trim the straight bottom edge; scissors lowered at t=25.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts sticker with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.96,
+      "end": 39.3,
+      "summary": "select the orange outlined sticker",
+      "verb": "pick up",
+      "object": "sticker",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=26.5–28.5s put trimmed text sticker down; t=29–37s sort and inspect other stickers; t=38.8s select orange graphic.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand arranges stickers on the table",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.3,
+      "end": 55.55,
+      "summary": "peel the backing from the orange outlined sticker",
+      "verb": "peel",
+      "object": "sticker backing",
+      "tool": null,
+      "target": "sticker",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker backing"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=39.3–54.3s repeatedly work edge with fingernails; t=54.8–55.1s backing separates.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker from backing",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 55.55,
+      "end": 56.85,
+      "summary": "pick up the cup beside the stickers",
+      "verb": "pick up",
+      "object": "cup",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the pen holder",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 56.85,
+      "end": 64.39,
+      "summary": "press the orange outlined sticker onto the cup",
+      "verb": "press",
+      "object": "sticker",
+      "tool": null,
+      "target": "cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57.5s align graphic; t=58–63.8s press and smooth while rotating cup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand applies sticker to pen holder",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 64.39,
+      "end": 69.19,
+      "summary": "pick up the large conservation sticker",
+      "verb": "pick up",
+      "object": "sticker",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=64.8s set cup down; t=65.5–68.5s sort stickers; t=68.8s select large figure graphic.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand arranges stickers on the table",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 69.19,
+      "end": 79.42,
+      "summary": "peel the backing from the conservation sticker",
+      "verb": "peel",
+      "object": "sticker backing",
+      "tool": null,
+      "target": "sticker",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker backing"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker backing",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 79.42,
+      "end": 81.46,
+      "summary": "pick up the cup while holding the conservation sticker",
+      "verb": "pick up",
+      "object": "cup",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=79.8s lower discarded backing; t=81.1s lift cup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a sticker from the table",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 81.46,
+      "end": 96.24,
+      "summary": "press the conservation sticker onto the cup",
+      "verb": "press",
+      "object": "sticker",
+      "tool": null,
+      "target": "cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=81.8–84s align, lift and realign sticker; t=84–93.5s smooth outline; t=95.5s set cup down; t=96.2s pick another paper.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker from pen holder",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.24,
+      "end": 99.15,
+      "summary": "select the colored text sticker",
+      "verb": "pick up",
+      "object": "sticker",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand arranges stickers on the table",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.15,
+      "end": 104.81,
+      "summary": "peel the backing from the colored text sticker",
+      "verb": "peel",
+      "object": "sticker backing",
+      "tool": null,
+      "target": "sticker",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=102.8s backing separates; t=103.4s lower backing; t=104.467s lift cup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker from backing",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 104.81,
+      "end": 105.21,
+      "summary": "turn the cup toward the colored text sticker",
+      "verb": "turn",
+      "object": "cup",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand applies sticker to pen holder",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.21,
+      "end": 118.2,
+      "summary": "press the colored text sticker onto the cup",
+      "verb": "press",
+      "object": "sticker",
+      "tool": null,
+      "target": "cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=105.4–106.8s apply diagonally; t=107–116s rub letters and edges; t=118.1s lower cup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts position of sticker on pen holder",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.2,
+      "end": 134.54,
+      "summary": "peel the backing from the black and white sticker",
+      "verb": "peel",
+      "object": "sticker backing",
+      "tool": null,
+      "target": "sticker",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker backing"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=118.5s set cup down; t=119.3s gather backings; t=120.7s retrieve trimmed sticker; t=121.8–133.8s work edge and peel.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker from backing",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 134.54,
+      "end": 135.86,
+      "summary": "pick up the cup while holding the text sticker",
+      "verb": "pick up",
+      "object": "cup",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts position of pen holder",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 135.86,
+      "end": 157.39,
+      "summary": "press the black and white sticker onto the cup",
+      "verb": "press",
+      "object": "sticker",
+      "tool": null,
+      "target": "cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": [
+          "cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=136.8–138.4s align and reposition label; t=139–154.6s smooth label and adjacent overlapping edges; t=157.3s lower cup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts position of sticker on pen holder",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 157.39,
+      "end": 189.0,
+      "summary": "attach small accent stickers to the cup",
+      "verb": "press",
+      "object": "sticker",
+      "tool": null,
+      "target": "cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Compound interval: t=157.8s set cup down; t=160.8–165.8s peel and attach small purple sticker near rim; t=169.5–174.6s peel and attach red heart; t=177–184s sort scraps, briefly lift scissors without visible cutting; t=185–189s select and work edge of another purple sticker.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand applies sticker to pen holder",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 189.0,
+      "end": 190.0,
+      "summary": "work the edge of the small purple sticker",
+      "verb": "peel",
+      "object": "sticker backing",
+      "tool": null,
+      "target": "sticker",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=189–190s continues the same fingernail peeling attempt begun before the boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts position of sticker",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 190.0,
+      "end": 225.0,
+      "summary": "peel the backing from the small purple sticker",
+      "verb": "peel",
+      "object": "sticker backing",
+      "tool": null,
+      "target": "sticker",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=190–222.5s repeated attempts at the same edge; t=223s backing separates; t=223.4s lower backing; t=224.3s reach for cup. No different object inferred during long repeated attempt.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker backing",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 225.0,
+      "end": 225.1,
+      "summary": "grasp the cup beside the small purple sticker",
+      "verb": "grasp",
+      "object": "cup",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts position of pen holder",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 225.1,
+      "end": 225.97,
+      "summary": "position the small purple sticker against the cup",
+      "verb": "align",
+      "object": "sticker",
+      "tool": null,
+      "target": "cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cup"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand rotates pen holder",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 225.97,
+      "end": 244.8,
+      "summary": "smooth the stickers around the cup",
+      "verb": "smooth",
+      "object": "sticker",
+      "tool": null,
+      "target": "cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pens"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=226.1–229s attach purple graphic below colored text; t=229–240s rub edges and rotate cup to smooth other stickers; t=243s set cup down; t=244.7s pick up two pens.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts sticker on pen holder",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 244.8,
+      "end": 247.0,
+      "summary": null,
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "超出视频结尾",
+      "beyond_video_end": true,
+      "confidence": "low",
+      "old_summary": "hand places sticker on pen holder",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 39.3,
+      "instruction": "Prepare the cup and sticker designs",
+      "description": "Wipe the cup, put the tissue aside, sort the stickers, trim the black-and-white text label with scissors and select an orange graphic.",
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "transition_in": null,
+      "goal_contribution": "Provides a wiped surface and prepared sticker designs for decorating the pen holder.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 39.3,
+      "end": 64.39,
+      "instruction": "Attach the orange outlined graphic",
+      "description": "Work the graphic edge, peel its backing, lift the cup and press and smooth the sticker onto its side.",
+      "fine_index_range": [
+        4,
+        6
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the first newly applied large design to the cup.",
+      "predictability_level": "strong",
+      "predictability_reason": "After prepare the cup and sticker designs, attach the orange outlined graphic is a natural next stage toward decorate a pen holder with stickers."
+    },
+    {
+      "start": 64.39,
+      "end": 96.24,
+      "instruction": "Attach the conservation figure sticker",
+      "description": "Set the cup down, select and peel the large conservation design, retrieve the cup, realign the design and smooth its outline before putting the cup down.",
+      "fine_index_range": [
+        7,
+        10
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Decorates another face of the holder with the large figure graphic.",
+      "predictability_level": "strong",
+      "predictability_reason": "After attach the orange outlined graphic, attach the conservation figure sticker is a natural next stage toward decorate a pen holder with stickers."
+    },
+    {
+      "start": 96.24,
+      "end": 118.2,
+      "instruction": "Attach the colored text sticker",
+      "description": "Select the colored text, remove its backing, lift and turn the cup, then apply the text diagonally and smooth its edges.",
+      "fine_index_range": [
+        11,
+        14
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Adds the colored text design to another open area of the holder.",
+      "predictability_level": "strong",
+      "predictability_reason": "After attach the conservation figure sticker, attach the colored text sticker is a natural next stage toward decorate a pen holder with stickers."
+    },
+    {
+      "start": 118.2,
+      "end": 157.39,
+      "instruction": "Attach the black and white text sticker",
+      "description": "Gather backing scraps, retrieve and peel the trimmed label, lift the cup, reposition the label across another face and rub its edges flat.",
+      "fine_index_range": [
+        15,
+        17
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Uses the prepared label to cover another section of the holder.",
+      "predictability_level": "strong",
+      "predictability_reason": "After attach the colored text sticker, attach the black and white text sticker is a natural next stage toward decorate a pen holder with stickers."
+    },
+    {
+      "start": 157.39,
+      "end": 247.0,
+      "instruction": "Add accent stickers and fill the holder",
+      "description": "Attach a small purple accent and red heart, sort scraps and work a final purple sticker backing for an extended time. Lift the cup, apply and smooth the final accent, stand the cup upright and place the two pens inside in the actual final view.",
+      "fine_index_range": [
+        18,
+        24
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Completes the smaller decorative details and puts the decorated cup into use as a pen holder.",
+      "predictability_level": "strong",
+      "predictability_reason": "After attach the black and white text sticker, add accent stickers and fill the holder is a natural next stage toward decorate a pen holder with stickers."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/1ed4fd49e8e19860/20261106T083923550158Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

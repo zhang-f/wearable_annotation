@@ -1,0 +1,26 @@
+{
+  "video_id": "3a122ee7ff513956",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After arrange tortilla chips on a plate, cover the tortilla chips with shredded cheese is a natural next stage toward prepare microwave cheese tortilla chips."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After cover the tortilla chips with shredded cheese, heat the chips in the microwave is a natural next stage toward prepare microwave cheese tortilla chips."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After heat the chips in the microwave, season and check the cheese tortilla chips is plausible for prepare microwave cheese tortilla chips, but several next steps fit."
+    }
+  ]
+}

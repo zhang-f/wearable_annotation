@@ -1,0 +1,1682 @@
+{
+  "video_id": "35fd504c73586f05",
+  "duration": 233.934,
+  "task": "Making ants on a log with almond butter and raisins",
+  "domain": "Chef",
+  "query": "How do I make ants on a log with almond butter and raisins?",
+  "goal": {
+    "title": "Make celery snacks with peanut butter and raisins",
+    "description": "Wash and dry celery, trim and crosscut it, spread peanut butter into each piece, arrange raisins over the filling and transfer the snacks to a plate.",
+    "final_state": "Several short celery pieces filled with peanut butter and topped with raisins are arranged on the white plate.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 8.9,
+        "description": "Pull celery sticks out of a clear package, carry them over the sink, turn the faucet on and rub and turn them under running water. Stop the water and move the stalks onto a towel."
+      },
+      {
+        "start": 8.9,
+        "end": 15.4,
+        "description": "Fold the towel around the celery and press it dry. Carry the dried stalks to the small wooden cutting board and pick up the knife."
+      },
+      {
+        "start": 15.4,
+        "end": 43.5,
+        "description": "Trim stalk ends, moving each celery stalk across the board and setting cut ends near the discarded package. Reposition the trimmed stalks and cut them crosswise into shorter snack pieces. Rest the knife alongside the board."
+      },
+      {
+        "start": 43.5,
+        "end": 55.7,
+        "description": "Leave the worktop briefly, walk to an adjacent room and press a wall switch, then return. Move the package aside and pull open the utensil drawer."
+      },
+      {
+        "start": 55.7,
+        "end": 71.3,
+        "description": "Retrieve a spoon, lift the peanut butter jar and unscrew its lid. Scoop peanut butter, set the jar down, hold a celery piece in the left hand and spread the paste along its groove before returning it to the board."
+      },
+      {
+        "start": 71.3,
+        "end": 78.4,
+        "description": "Pause food preparation to tap several screens on the smartphone at the counter while keeping the spoon in the other hand."
+      },
+      {
+        "start": 78.4,
+        "end": 150.4,
+        "description": "Resume scooping peanut butter from the jar. Alternate between scraping its inner walls, setting the jar down, lifting successive celery pieces, smoothing peanut butter into their grooves and replacing them on the board. Scrape progressively lower inside the nearly empty jar."
+      },
+      {
+        "start": 150.4,
+        "end": 172.8,
+        "description": "Spread the last loaded spoonful along another celery piece, put the celery down and rest the spoon in the jar. Retrieve and pull open the red raisin bag."
+      },
+      {
+        "start": 172.8,
+        "end": 220.2,
+        "description": "Hold the bag in the left hand, take raisins with the right fingertips and place them in rows along the peanut butter in the celery pieces. Repeatedly return to the bag, press and reposition raisins, and recover loose raisins from the board and counter. Set the bag aside."
+      },
+      {
+        "start": 220.2,
+        "end": 233.9,
+        "description": "Lift the filled celery pieces in pairs and carry them from the cutting board to the white plate. Transfer the remaining pieces, adjust their spacing, then withdraw the hands and look at the finished plate."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 8.9,
+      "description": "Pull celery sticks out of a clear package, carry them over the sink, turn the faucet on and rub and turn them under running water. Stop the water and move the stalks onto a towel."
+    },
+    {
+      "start": 8.9,
+      "end": 15.4,
+      "description": "Fold the towel around the celery and press it dry. Carry the dried stalks to the small wooden cutting board and pick up the knife."
+    },
+    {
+      "start": 15.4,
+      "end": 43.5,
+      "description": "Trim stalk ends, moving each celery stalk across the board and setting cut ends near the discarded package. Reposition the trimmed stalks and cut them crosswise into shorter snack pieces. Rest the knife alongside the board."
+    },
+    {
+      "start": 43.5,
+      "end": 55.7,
+      "description": "Leave the worktop briefly, walk to an adjacent room and press a wall switch, then return. Move the package aside and pull open the utensil drawer."
+    },
+    {
+      "start": 55.7,
+      "end": 71.3,
+      "description": "Retrieve a spoon, lift the peanut butter jar and unscrew its lid. Scoop peanut butter, set the jar down, hold a celery piece in the left hand and spread the paste along its groove before returning it to the board."
+    },
+    {
+      "start": 71.3,
+      "end": 78.4,
+      "description": "Pause food preparation to tap several screens on the smartphone at the counter while keeping the spoon in the other hand."
+    },
+    {
+      "start": 78.4,
+      "end": 150.4,
+      "description": "Resume scooping peanut butter from the jar. Alternate between scraping its inner walls, setting the jar down, lifting successive celery pieces, smoothing peanut butter into their grooves and replacing them on the board. Scrape progressively lower inside the nearly empty jar."
+    },
+    {
+      "start": 150.4,
+      "end": 172.8,
+      "description": "Spread the last loaded spoonful along another celery piece, put the celery down and rest the spoon in the jar. Retrieve and pull open the red raisin bag."
+    },
+    {
+      "start": 172.8,
+      "end": 220.2,
+      "description": "Hold the bag in the left hand, take raisins with the right fingertips and place them in rows along the peanut butter in the celery pieces. Repeatedly return to the bag, press and reposition raisins, and recover loose raisins from the board and counter. Set the bag aside."
+    },
+    {
+      "start": 220.2,
+      "end": 233.9,
+      "description": "Lift the filled celery pieces in pairs and carry them from the cutting board to the white plate. Transfer the remaining pieces, adjust their spacing, then withdraw the hands and look at the finished plate."
+    }
+  ],
+  "object_inventory": [
+    "celery",
+    "knife",
+    "towel",
+    "faucet",
+    "peanut butter jar",
+    "peanut butter",
+    "spoon",
+    "raisin",
+    "raisin bag",
+    "plate",
+    "cutting board",
+    "drawer",
+    "celery package",
+    "jar lid"
+  ],
+  "notes": "All 58 human fine divisions preserved. All overview pages, every dense interval including extra pages and native end states reviewed. End holding states reflect actual grasps; fixed faucet, drawer and supported cutting board are not held objects. Celery is often only contacted on board after release. Idle interruptions at43.5–52.1 and71.3–78.4 retained, including wall switch and phone use. Repeated raisin placements follow fine divisions even where adjacent actions repeat; no boundary merging performed.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.2,
+      "summary": "remove celery sticks from the plastic package",
+      "verb": "remove",
+      "object": "celery",
+      "tool": null,
+      "target": "celery package",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "celery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes celery stalks from plastic packaging",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 2.2,
+      "end": 4.6,
+      "summary": "turn on the faucet",
+      "verb": "turn",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "celery"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand turns on faucet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 4.6,
+      "end": 7.8,
+      "summary": "rinse the celery under running water",
+      "verb": "rinse",
+      "object": "celery",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "celery"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=7.4–7.8s right hand reaches to stop water.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands wash celery stalks under running water",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.8,
+      "end": 8.9,
+      "summary": "move the rinsed celery to the towel",
+      "verb": "move",
+      "object": "celery",
+      "tool": null,
+      "target": "towel",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "celery"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up towel",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.9,
+      "end": 13.5,
+      "summary": "pat the celery dry with the towel",
+      "verb": "dry",
+      "object": "celery",
+      "tool": "towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "celery"
+        ],
+        "right": [
+          "towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand dries celery stalks with towel",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.5,
+      "end": 15.4,
+      "summary": "place celery on the board and pick up the knife",
+      "verb": "pick up",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds celery stalk steady on cutting board while other hand picks up knife",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.4,
+      "end": 22.63,
+      "summary": "trim the celery ends with the knife",
+      "verb": "cut",
+      "object": "celery",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=16–22.6s repeatedly trim and reposition stalks; several hand-object changes retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops celery stalk with knife on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.63,
+      "end": 24.59,
+      "summary": "trim the end of another celery stalk",
+      "verb": "cut",
+      "object": "celery",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops celery stalk with knife on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 24.59,
+      "end": 28.3,
+      "summary": "trim another celery stalk on the board",
+      "verb": "cut",
+      "object": "celery",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops celery stalk on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.3,
+      "end": 31.97,
+      "summary": "trim and reposition another celery stalk",
+      "verb": "cut",
+      "object": "celery",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops celery stalk with knife on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.97,
+      "end": 35.11,
+      "summary": "cut a celery stalk crosswise",
+      "verb": "cut",
+      "object": "celery",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops celery stalk with knife on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.11,
+      "end": 37.76,
+      "summary": "cut another celery stalk crosswise",
+      "verb": "cut",
+      "object": "celery",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops celery stalk with knife on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.76,
+      "end": 39.83,
+      "summary": "cut another celery stalk into shorter pieces",
+      "verb": "cut",
+      "object": "celery",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops celery stalk with knife on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.83,
+      "end": 42.03,
+      "summary": "cut the last celery stalk into shorter pieces",
+      "verb": "cut",
+      "object": "celery",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand chops celery stalk with knife on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 42.03,
+      "end": 43.5,
+      "summary": "set the knife beside the cutting board",
+      "verb": "place",
+      "object": "knife",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves chopped celery pieces on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.5,
+      "end": 47.45,
+      "summary": "idle: walk away from the food counter",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand walks through a doorway into another room",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 47.45,
+      "end": 48.13,
+      "summary": "idle: press the wall light switch",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand touches a light switch",
+      "notes": "Unrelated brief interruption at t=47.5–48s. Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 48.13,
+      "end": 52.1,
+      "summary": "idle: return to the food counter",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a celery piece",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 52.1,
+      "end": 55.7,
+      "summary": "open the utensil drawer",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=52.4–53s move celery package aside before opening drawer at 54.7s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens a drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 55.7,
+      "end": 59.34,
+      "summary": "retrieve a spoon and open the peanut butter jar",
+      "verb": "open",
+      "object": "peanut butter jar",
+      "tool": "spoon",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=55.8–56.2s retrieve spoon; t=57.3–58.8s lift jar and unscrew lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops almond butter with spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 59.34,
+      "end": 62.9,
+      "summary": "scoop peanut butter from the jar",
+      "verb": "scoop",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "peanut butter jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops almond butter from jar with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.9,
+      "end": 71.3,
+      "summary": "spread peanut butter inside a celery piece",
+      "verb": "spread",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=63.1s set jar down; t=63.4–70.1s hold celery and spread; t=70.2–71s return celery.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads almond butter onto a celery stick with a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.3,
+      "end": 78.4,
+      "summary": "idle: tap the smartphone screen",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand uses phone",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 78.4,
+      "end": 79.9,
+      "summary": "pick up the peanut butter jar again",
+      "verb": "pick up",
+      "object": "peanut butter jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds jar of almond butter",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 79.9,
+      "end": 82.7,
+      "summary": "scoop another spoonful of peanut butter",
+      "verb": "scoop",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "peanut butter jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops almond butter from jar with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 82.7,
+      "end": 89.7,
+      "summary": "spread peanut butter into another celery piece",
+      "verb": "spread",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads almond butter on celery with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.7,
+      "end": 97.9,
+      "summary": "scoop more peanut butter from the jar",
+      "verb": "scoop",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "peanut butter jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=89.9–96s scoop; t=96.7–97.9s set jar down and retrieve celery.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops almond butter from jar with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.9,
+      "end": 104.4,
+      "summary": "spread peanut butter along a celery groove",
+      "verb": "spread",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads almond butter on celery with a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.4,
+      "end": 107.9,
+      "summary": "scoop another portion of peanut butter",
+      "verb": "scoop",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "peanut butter jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops almond butter from jar with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.9,
+      "end": 117.9,
+      "summary": "spread peanut butter on another celery piece",
+      "verb": "spread",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=108.4–116.5s spread and return celery; t=117.2–117.9s retrieve jar.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads almond butter onto celery piece with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.9,
+      "end": 124.3,
+      "summary": "scrape peanut butter from the jar",
+      "verb": "scoop",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "peanut butter jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops almond butter from jar with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.3,
+      "end": 131.3,
+      "summary": "spread peanut butter on another celery piece",
+      "verb": "spread",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads almond butter onto a celery piece with a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 131.3,
+      "end": 150.4,
+      "summary": "scrape the remaining peanut butter from the jar",
+      "verb": "scoop",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "peanut butter jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "peanut butter jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops almond butter from jar with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 150.4,
+      "end": 169.1,
+      "summary": "spread peanut butter on the last celery piece",
+      "verb": "spread",
+      "object": "peanut butter",
+      "tool": "spoon",
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=151–166.8s spread; t=167s return celery; t=168.8–169.1s rest spoon in jar.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand spreads almond butter onto a celery piece with a spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 169.1,
+      "end": 172.8,
+      "summary": "pick up and open the raisin bag",
+      "verb": "open",
+      "object": "raisin bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours raisins from bag onto cutting board",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 172.8,
+      "end": 174.1,
+      "summary": "place raisins on a filled celery piece",
+      "verb": "place",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places raisin on celery piece",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 174.1,
+      "end": 175.83,
+      "summary": "press raisins into the peanut butter",
+      "verb": "press",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places raisin on celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 175.83,
+      "end": 177.37,
+      "summary": "arrange more raisins on the celery",
+      "verb": "place",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places raisin on celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 177.37,
+      "end": 179.69,
+      "summary": "place raisins on another celery piece",
+      "verb": "place",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery stick",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 179.69,
+      "end": 183.72,
+      "summary": "retrieve more raisins and place them on celery",
+      "verb": "place",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 183.72,
+      "end": 185.05,
+      "summary": "press a raisin into a celery groove",
+      "verb": "press",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 185.05,
+      "end": 185.91,
+      "summary": "adjust a raisin on the filled celery",
+      "verb": "move",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 185.91,
+      "end": 191.06,
+      "summary": "take more raisins from the bag",
+      "verb": "remove",
+      "object": "raisin",
+      "tool": null,
+      "target": "raisin bag",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=186.4–189.6s reach into bag; t=190s bring raisins over board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery stick",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 191.06,
+      "end": 192.17,
+      "summary": "place a raisin on another celery piece",
+      "verb": "place",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 192.17,
+      "end": 193.59,
+      "summary": "press the raisin into the peanut butter",
+      "verb": "press",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 193.59,
+      "end": 194.29,
+      "summary": "adjust raisins along the celery groove",
+      "verb": "move",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.29,
+      "end": 197.66,
+      "summary": "add more raisins to the filled celery",
+      "verb": "place",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places raisins on celery pieces",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 197.66,
+      "end": 199.95,
+      "summary": "move a loose raisin onto the celery",
+      "verb": "move",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 199.95,
+      "end": 204.13,
+      "summary": "retrieve more raisins for the remaining celery",
+      "verb": "remove",
+      "object": "raisin",
+      "tool": null,
+      "target": "raisin bag",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.13,
+      "end": 204.89,
+      "summary": "place a raisin on the remaining celery",
+      "verb": "place",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.89,
+      "end": 208.41,
+      "summary": "arrange raisins on another celery piece",
+      "verb": "place",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places raisins on celery pieces",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 208.41,
+      "end": 211.23,
+      "summary": "press the raisins into the peanut butter",
+      "verb": "press",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 211.23,
+      "end": 213.69,
+      "summary": "add a raisin to another celery piece",
+      "verb": "place",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 213.69,
+      "end": 216.19,
+      "summary": "adjust the final raisins on the celery",
+      "verb": "move",
+      "object": "raisin",
+      "tool": null,
+      "target": "celery",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "raisin bag"
+        ],
+        "right": [
+          "raisin"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places a raisin on a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 216.19,
+      "end": 220.2,
+      "summary": "pick up loose raisins and set the bag aside",
+      "verb": "place",
+      "object": "raisin bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=216.4–218.7s collect loose raisins; t=219.2–220.2s rest bag near jar.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a celery piece",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 220.2,
+      "end": 225.67,
+      "summary": "transfer filled celery pieces onto the plate",
+      "verb": "move",
+      "object": "celery",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "celery"
+        ],
+        "right": [
+          "celery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands place celery pieces with raisins onto a plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 225.67,
+      "end": 230.3,
+      "summary": "move the remaining celery pieces onto the plate",
+      "verb": "move",
+      "object": "celery",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places celery pieces on the plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 230.3,
+      "end": 233.9,
+      "summary": "idle: inspect the plated celery snacks",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts position of plate",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 15.4,
+      "instruction": "Wash and dry the celery",
+      "description": "Unpack the celery, turn on the faucet, rinse the stalks, stop the water, pat them dry with the towel, move them onto the cutting board and retrieve the knife.",
+      "fine_index_range": [
+        0,
+        5
+      ],
+      "transition_in": null,
+      "goal_contribution": "Provides clean dry celery for cutting and filling.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 15.4,
+      "end": 43.5,
+      "instruction": "Cut the celery into snack pieces",
+      "description": "Trim the stalk ends, move and rotate each stalk, crosscut them into short lengths and set the knife beside the board.",
+      "fine_index_range": [
+        6,
+        14
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Makes manageable celery portions with grooves that can hold filling.",
+      "predictability_level": "strong",
+      "predictability_reason": "After wash and dry the celery, cut the celery into snack pieces is a natural next stage toward make celery snacks with peanut butter and raisins."
+    },
+    {
+      "start": 43.5,
+      "end": 55.7,
+      "instruction": "Pause and retrieve preparation utensils",
+      "description": "Briefly leave the counter, press a wall switch and return, move packaging aside and open the utensil drawer.",
+      "fine_index_range": [
+        15,
+        18
+      ],
+      "transition_in": "NONE",
+      "goal_contribution": "Resumes preparation and provides access to the spoon, with the unrelated walk recorded as idle.",
+      "predictability_level": "weak",
+      "predictability_reason": "After cut the celery into snack pieces, pause and retrieve preparation utensils is plausible for make celery snacks with peanut butter and raisins, but several next steps fit."
+    },
+    {
+      "start": 55.7,
+      "end": 71.3,
+      "instruction": "Open the filling and fill the first celery piece",
+      "description": "Retrieve the spoon, open the peanut butter jar, scoop its contents and spread them along the first celery groove before putting it down.",
+      "fine_index_range": [
+        19,
+        21
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Establishes the peanut butter filling on the first snack.",
+      "predictability_level": "strong",
+      "predictability_reason": "After pause and retrieve preparation utensils, open the filling and fill the first celery piece is a natural next stage toward make celery snacks with peanut butter and raisins."
+    },
+    {
+      "start": 71.3,
+      "end": 78.4,
+      "instruction": "Pause to use the phone",
+      "description": "Tap through the smartphone screens while the celery and jar stay on the counter.",
+      "fine_index_range": [
+        22,
+        22
+      ],
+      "transition_in": "NONE",
+      "goal_contribution": "No direct contribution; records a visible interruption in preparation.",
+      "predictability_level": "no",
+      "predictability_reason": "After open the filling and fill the first celery piece, pause to use the phone is not suggested by make celery snacks with peanut butter and raisins or the preceding subtasks."
+    },
+    {
+      "start": 78.4,
+      "end": 169.1,
+      "instruction": "Fill the remaining celery with peanut butter",
+      "description": "Repeatedly pick up the jar, scrape spoonfuls from its walls and bottom, lift successive celery pieces and smooth peanut butter along their grooves, then rest the spoon in the jar.",
+      "fine_index_range": [
+        23,
+        33
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Fills the remaining celery portions so they can hold the raisin topping.",
+      "predictability_level": "strong",
+      "predictability_reason": "After pause to use the phone, fill the remaining celery with peanut butter is a natural next stage toward make celery snacks with peanut butter and raisins."
+    },
+    {
+      "start": 169.1,
+      "end": 220.2,
+      "instruction": "Top the celery with raisins",
+      "description": "Open the bag, repeatedly retrieve raisins, place and press them into the peanut butter, reposition the toppings and collect loose raisins, then set the bag down.",
+      "fine_index_range": [
+        34,
+        54
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Completes the characteristic raisin topping on the filled celery.",
+      "predictability_level": "strong",
+      "predictability_reason": "After fill the remaining celery with peanut butter, top the celery with raisins is a natural next stage toward make celery snacks with peanut butter and raisins."
+    },
+    {
+      "start": 220.2,
+      "end": 233.9,
+      "instruction": "Plate the finished celery snacks",
+      "description": "Transfer filled celery pieces from board to plate in several trips, adjust their positions and inspect the finished plate.",
+      "fine_index_range": [
+        55,
+        57
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Collects the assembled snacks on a serving plate.",
+      "predictability_level": "strong",
+      "predictability_reason": "After top the celery with raisins, plate the finished celery snacks is a natural next stage toward make celery snacks with peanut butter and raisins."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/35fd504c73586f05/20261106T225700881941Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

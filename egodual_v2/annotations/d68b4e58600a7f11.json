@@ -1,0 +1,1244 @@
+{
+  "video_id": "d68b4e58600a7f11",
+  "duration": 360.734,
+  "task": "Decorating a flower pot with acrylic paint",
+  "domain": "Arts and Crafts",
+  "query": "How do I decorate a flower pot with acrylic paint?",
+  "goal": {
+    "title": "Decorate a flower pot with black paint and a fine detail pattern",
+    "description": "Wipes down a plain flower pot and sets up a protective plastic sheet, a paper-plate palette, and small paint cups. Unscrews a bottle of black acrylic paint, pours it into a cup, and coats the entire pot with a sponge brush. Switches to a fine brush to paint a detailed vine-like pattern of mixed purple and green paint over the black base, rotating the pot and remixing colors on the palette throughout.",
+    "final_state": "The flower pot is fully coated in black with a hand-painted purple-and-green decorative pattern covering its sides; the finished pot is set down on the table next to the paint palette.",
+    "procedure": [
+      "Wipe the pot and cover the work surface.",
+      "Open and pour black paint, then prepare the foam brush.",
+      "Rotate the pot and brush on the black base coat.",
+      "Use a smaller brush to add colored decorative strokes.",
+      "Add and mix more paint on the palette.",
+      "Continue the colored pattern around the pot and put it down."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 29.86,
+      "description": "Wipe the pot and set up the plastic sheet, cup, and paint bottle."
+    },
+    {
+      "start": 29.86,
+      "end": 50.54,
+      "description": "Pour black paint into a cup and prepare the sponge brush."
+    },
+    {
+      "start": 50.54,
+      "end": 133.03,
+      "description": "Coat the flower pot in black paint with the sponge brush."
+    },
+    {
+      "start": 133.03,
+      "end": 209.5,
+      "description": "Paint a fine decorative pattern over the black base with a fine brush."
+    },
+    {
+      "start": 209.5,
+      "end": 234.6,
+      "description": "Squeeze out and mix more paint colors on the palette."
+    },
+    {
+      "start": 234.6,
+      "end": 360.53,
+      "description": "Finish painting the decorative pattern on the pot."
+    }
+  ],
+  "object_inventory": [
+    "flower pot",
+    "paper towel",
+    "cup",
+    "plastic sheet",
+    "paint bottle",
+    "foam brush",
+    "fine brush",
+    "paper plate",
+    "paint",
+    "plastic bag",
+    "table"
+  ],
+  "notes": "Only human fine boundaries trusted. Overview (0.5fps) covering the full 360.734s video reviewed. Two different brushes are used and tracked as distinct inventory objects: a round sponge 'foam brush' for the black base coat (steps 13-22) and a thin-handled 'fine brush' for the decorative pattern from step 23 onward, based on the visible tool change in the frames (old_summary alternates between 'brush' and 'fine brush' without being consistent about which). Verb 'color' (from the suggested list) is used for all painting actions instead of 'paint', which is not in the suggested verb list. Steps 16 (73.9-117.59s) and 42 (247.09-360.53s) are long compound continuations of the same coloring action and are summarized holistically with confidence medium/low and a boundary_note, since these long single human-cut segments cover many repeated brush strokes that 0.5fps overview sampling cannot individually resolve. The fine track ends at 360.53s and ffprobe duration is 360.734s; the uncovered ~0.2s tail is negligible and shows no new action.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 0.39,
+      "summary": "wipe the flower pot with a paper towel",
+      "verb": "wipe",
+      "object": "flower pot",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes flower pot with paper towel",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 0.39,
+      "end": 3.89,
+      "summary": "pull a paper towel from the roll",
+      "verb": "remove",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pulls paper towel from roll",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 3.89,
+      "end": 12.61,
+      "summary": "wipe the flower pot with the paper towel",
+      "verb": "wipe",
+      "object": "flower pot",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand wipes flower pot with paper towel",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.61,
+      "end": 13.78,
+      "summary": "move a cup on the table",
+      "verb": "move",
+      "object": "cup",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand moves a cup on the table",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 13.78,
+      "end": 15.18,
+      "summary": "hold a cup",
+      "verb": "hold",
+      "object": "cup",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds a cup",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.18,
+      "end": 22.38,
+      "summary": "spread the plastic sheet on the table",
+      "verb": "spread",
+      "object": "plastic sheet",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands spread out a blue plastic sheet on a wooden surface",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 22.38,
+      "end": 24.35,
+      "summary": "hold a cup again",
+      "verb": "hold",
+      "object": "cup",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand holds a cup",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 24.35,
+      "end": 29.86,
+      "summary": "unscrew the lid of the paint bottle",
+      "verb": "unscrew",
+      "object": "paint bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand unscrews lid of paint bottle",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 29.86,
+      "end": 34.68,
+      "summary": "pour black paint from the bottle into the cup",
+      "verb": "pour",
+      "object": "paint",
+      "tool": null,
+      "target": "cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint bottle"
+        ],
+        "right": [
+          "cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pours black paint from a bottle into a cup",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 34.68,
+      "end": 36.38,
+      "summary": "continue pouring black paint into the cup",
+      "verb": "pour",
+      "object": "paint",
+      "tool": null,
+      "target": "cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint bottle"
+        ],
+        "right": [
+          "cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pours black paint from bottle into cup",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 36.38,
+      "end": 41.07,
+      "summary": "finish pouring black paint into the cup",
+      "verb": "pour",
+      "object": "paint",
+      "tool": null,
+      "target": "cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pours black paint from bottle into cup",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 41.07,
+      "end": 47.31,
+      "summary": "remove the sponge brush from the plastic bag",
+      "verb": "remove",
+      "object": "foam brush",
+      "tool": null,
+      "target": "plastic bag",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand removes a paintbrush from a plastic bag",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 47.31,
+      "end": 50.54,
+      "summary": "dip the sponge brush into the black paint",
+      "verb": "insert",
+      "object": "foam brush",
+      "tool": null,
+      "target": "cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand dips brush into black paint",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.54,
+      "end": 54.71,
+      "summary": "color the flower pot with the sponge brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "foam brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand paints flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.71,
+      "end": 63.13,
+      "summary": "continue coloring the flower pot with the sponge brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "foam brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand paints flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 63.13,
+      "end": 73.9,
+      "summary": "keep coloring the flower pot with the sponge brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "foam brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand paints flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.9,
+      "end": 117.59,
+      "summary": "continue coloring the flower pot black",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "foam brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=74-118s is one long compound step: repeatedly re-dips the sponge brush and continues coating every side of the pot black.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.59,
+      "end": 120.71,
+      "summary": "stir the paint in the cup with the brush",
+      "verb": "stir",
+      "object": "paint",
+      "tool": "foam brush",
+      "target": "cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand stirs paint in cup with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 120.71,
+      "end": 122.06,
+      "summary": "hold the brush over the flower pot",
+      "verb": "hold",
+      "object": "foam brush",
+      "tool": null,
+      "target": "flower pot",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds paintbrush over flower pot",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 122.06,
+      "end": 125.46,
+      "summary": "rotate the flower pot on the table",
+      "verb": "adjust",
+      "object": "flower pot",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand rotates flower pot on table",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 125.46,
+      "end": 126.77,
+      "summary": "place the sponge brush on the paper plate",
+      "verb": "place",
+      "object": "foam brush",
+      "tool": null,
+      "target": "paper plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand places paintbrush on paper plate",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.77,
+      "end": 127.84,
+      "summary": "hold the flower pot",
+      "verb": "hold",
+      "object": "flower pot",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds flower pot",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.84,
+      "end": 133.03,
+      "summary": "dip the brush into the paint again",
+      "verb": "insert",
+      "object": "foam brush",
+      "tool": null,
+      "target": "cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "foam brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand dips brush into paint",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.03,
+      "end": 138.62,
+      "summary": "color the flower pot with a fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "Tool switches from the round sponge brush to a thin-handled fine brush here, based on the visible change in the frames; old_summary is inconsistent about naming the brush from this point on.",
+      "old_summary": "hand paints flower pot with fine brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 138.62,
+      "end": 154.33,
+      "summary": "continue coloring the flower pot with the fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.33,
+      "end": 156.12,
+      "summary": "hold the fine brush over the flower pot",
+      "verb": "hold",
+      "object": "fine brush",
+      "tool": null,
+      "target": "flower pot",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds brush over flower pot",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 156.12,
+      "end": 161.82,
+      "summary": "dip the fine brush into the paint",
+      "verb": "insert",
+      "object": "fine brush",
+      "tool": null,
+      "target": "cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand dips brush into paint",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 161.82,
+      "end": 165.37,
+      "summary": "color the flower pot with the fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with fine brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 165.37,
+      "end": 171.93,
+      "summary": "rotate the flower pot",
+      "verb": "adjust",
+      "object": "flower pot",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand rotates flower pot",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 171.93,
+      "end": 179.15,
+      "summary": "continue coloring the flower pot with the fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 179.15,
+      "end": 183.32,
+      "summary": "keep coloring the flower pot with the fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 183.32,
+      "end": 185.93,
+      "summary": "color more of the pattern with the fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with fine brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 185.93,
+      "end": 189.04,
+      "summary": "continue coloring the pattern with the fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with fine brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 189.04,
+      "end": 193.74,
+      "summary": "rotate the flower pot while coloring it",
+      "verb": "adjust",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Keeps the fine brush in contact while turning the pot to reach a new side.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand rotates flower pot while painting",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 193.74,
+      "end": 199.98,
+      "summary": "color a pattern onto the flower pot",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints pattern on flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 199.98,
+      "end": 204.77,
+      "summary": "rotate the flower pot again",
+      "verb": "adjust",
+      "object": "flower pot",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand rotates flower pot",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.77,
+      "end": 209.5,
+      "summary": "dip the fine brush into the paint",
+      "verb": "insert",
+      "object": "fine brush",
+      "tool": null,
+      "target": "cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand dips brush into paint",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 209.5,
+      "end": 220.74,
+      "summary": "squeeze paint from the bottle onto the palette",
+      "verb": "press",
+      "object": "paint bottle",
+      "tool": null,
+      "target": "paper plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint bottle"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand holds paint bottle and squeezes paint onto palette",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 220.74,
+      "end": 234.6,
+      "summary": "mix the paint on the palette with the brush",
+      "verb": "mix",
+      "object": "paint",
+      "tool": "fine brush",
+      "target": "paper plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "right hand mixes paint on a plate with a brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 234.6,
+      "end": 240.49,
+      "summary": "color the flower pot with the fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with fine brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 240.49,
+      "end": 242.97,
+      "summary": "continue coloring the flower pot with the fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with fine brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 242.97,
+      "end": 247.09,
+      "summary": "keep coloring the flower pot with the fine brush",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand paints flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 247.09,
+      "end": 360.53,
+      "summary": "continue coloring the flower pot's pattern to completion",
+      "verb": "color",
+      "object": "flower pot",
+      "tool": "fine brush",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flower pot"
+        ],
+        "right": [
+          "fine brush"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=247-360s is a single long compound step: continues painting, remixing colors, and rotating the pot to finish the decorative pattern over the remaining ~113s; individual brush strokes are not resolvable at 0.5fps overview sampling.",
+      "confidence": "low",
+      "notes": "",
+      "old_summary": "hand paints flower pot with brush",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 29.86,
+      "fine_index_range": [
+        0,
+        7
+      ],
+      "instruction": "Wipe the pot and set up the workspace",
+      "description": "Wipes the flower pot with a paper towel, spreads a plastic sheet over the table, and unscrews the black paint bottle.",
+      "transition_in": null,
+      "goal_contribution": "Prepares the pot and protects the surrounding work surface.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 29.86,
+      "end": 50.54,
+      "fine_index_range": [
+        8,
+        12
+      ],
+      "instruction": "Pour black paint and prepare the brush",
+      "description": "Pours black paint into a small cup, pulls a sponge brush from its bag, and dips it into the paint.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Readies the base-coat paint and applicator.",
+      "predictability_level": "strong",
+      "predictability_reason": "With the pot cleaned and paint opened, paint and brush can be readied."
+    },
+    {
+      "start": 50.54,
+      "end": 133.03,
+      "fine_index_range": [
+        13,
+        22
+      ],
+      "instruction": "Paint the flower pot with a black base coat",
+      "description": "Coats the flower pot in black paint with the sponge brush, rotating and re-dipping it repeatedly to cover every side.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Creates the black background for the colored decoration.",
+      "predictability_level": "strong",
+      "predictability_reason": "The loaded brush is ready for the black base coat."
+    },
+    {
+      "start": 133.03,
+      "end": 209.5,
+      "fine_index_range": [
+        23,
+        36
+      ],
+      "instruction": "Paint fine decorative patterns on the pot",
+      "description": "Switches to a fine brush to paint a detailed vine-like pattern over the black base, rotating the pot between strokes.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Adds the colored decorative pattern over the base coat.",
+      "predictability_level": "strong",
+      "predictability_reason": "A black base coat is ready for the stated fine detail pattern."
+    },
+    {
+      "start": 209.5,
+      "end": 234.6,
+      "fine_index_range": [
+        37,
+        38
+      ],
+      "instruction": "Mix more paint colors on the palette",
+      "description": "Squeezes more paint onto the paper-plate palette and mixes colors together with the brush.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Provides mixed colors for the remaining pattern.",
+      "predictability_level": "weak",
+      "predictability_reason": "The ongoing pattern may need mixed colors, but exact color mixing is optional."
+    },
+    {
+      "start": 234.6,
+      "end": 360.53,
+      "fine_index_range": [
+        39,
+        42
+      ],
+      "instruction": "Finish painting the decorative pattern on the pot",
+      "description": "Continues painting the fine decorative pattern on the pot with the mixed colors until the design is finished.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Extends the decoration around the pot and finishes the visible painting.",
+      "predictability_level": "strong",
+      "predictability_reason": "Mixed colors naturally continue the unfinished decorative pattern."
+    }
+  ]
+}

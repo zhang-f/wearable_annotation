@@ -1,0 +1,735 @@
+{
+  "video_id": "7d641f52d47eaf74",
+  "duration": 213.6,
+  "task": "Making avocado toast",
+  "domain": "Chef",
+  "query": "How do I make avocado toast?",
+  "goal": {
+    "title": "Make seasoned mashed-avocado bread",
+    "description": "Halve and pit an avocado, scoop its flesh onto a board, mash it with seasoning and bottled citrus juice, then spread it onto bread and add two shaker seasonings.",
+    "final_state": "Bread slices are covered with mashed avocado and visible seasoning flakes.",
+    "procedure": [
+      "Cut around the avocado and twist its halves apart.",
+      "Remove the pit and scrape flesh from both skins onto the board with a spoon.",
+      "Collect a fork and seasoning, then mash the avocado on the board.",
+      "Squeeze bottled citrus juice over the mash and mix it through.",
+      "Bring bread from the toaster, spread the avocado over it and shake seasonings over the top."
+    ]
+  },
+  "object_inventory": [
+    "avocado",
+    "avocado pit",
+    "avocado peel",
+    "knife",
+    "spoon",
+    "fork",
+    "cutting board",
+    "seasoning jar",
+    "seasoning lid",
+    "citrus juice bottle",
+    "bread",
+    "toaster",
+    "dark shaker",
+    "flake seasoning bottle",
+    "counter"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 22.68,
+      "description": "A knife cuts around the avocado, both hands twist it apart, and the pit is loosened and removed with the knife."
+    },
+    {
+      "start": 22.68,
+      "end": 60.57,
+      "description": "A spoon scrapes flesh from both halves onto the cutting board; the skins are repeatedly scraped clean and put aside."
+    },
+    {
+      "start": 60.57,
+      "end": 130.46,
+      "description": "Utensils are cleared, a fork is retrieved from a drawer, and a small seasoning jar is opened. The fork repeatedly presses and breaks up the avocado on the board."
+    },
+    {
+      "start": 130.46,
+      "end": 158.83,
+      "description": "A green citrus-juice bottle is retrieved; after further mashing its contents are squeezed over the avocado and stirred through with the fork."
+    },
+    {
+      "start": 158.83,
+      "end": 210.31,
+      "description": "Bread is lifted from the toaster area and covered with forkfuls of avocado. A dark shaker and then a white-capped flake-seasoning bottle are shaken over the bread."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 7.28,
+      "old_summary": "hand slices avocado with knife",
+      "summary": "right hand cuts around the avocado with a knife",
+      "verb": "cut",
+      "object": "avocado",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 7.28,
+      "end": 10.16,
+      "old_summary": "hand separates avocado halves",
+      "summary": "both hands twist the avocado halves apart",
+      "verb": "twist",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "avocado"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.16,
+      "end": 12.37,
+      "old_summary": "hand scoops avocado flesh from skin",
+      "summary": "right fingers try to loosen the avocado pit",
+      "verb": "loosen",
+      "object": "avocado pit",
+      "tool": null,
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.37,
+      "end": 15.0,
+      "old_summary": "hand scoops avocado flesh with a spoon",
+      "summary": "left hand holds the pitted avocado half",
+      "verb": "hold",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "12.37–15s hands reposition the half and reach for the knife; source split preserved.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.0,
+      "end": 22.68,
+      "old_summary": "hand scoops avocado flesh with spoon",
+      "summary": "right hand levers the pit out with the knife",
+      "verb": "remove",
+      "object": "avocado pit",
+      "tool": "knife",
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 22.68,
+      "end": 24.91,
+      "old_summary": "hand scoops avocado flesh with spoon",
+      "summary": "right hand picks up the spoon",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 24.91,
+      "end": 34.64,
+      "old_summary": "hand scoops avocado flesh with spoon",
+      "summary": "right hand scoops avocado flesh onto the board",
+      "verb": "scoop",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 34.64,
+      "end": 49.03,
+      "old_summary": "hand mashes avocado flesh with a fork",
+      "summary": "right hand scrapes flesh from the other avocado half",
+      "verb": "scrape",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.03,
+      "end": 54.46,
+      "old_summary": "hand mashes avocado flesh with a fork",
+      "summary": "right hand scrapes remaining avocado flesh from the peel",
+      "verb": "scrape",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado peel"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.46,
+      "end": 57.95,
+      "old_summary": "hand mashes avocado flesh with a fork",
+      "summary": "right hand clears the last avocado flesh from the skin",
+      "verb": "scrape",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado peel"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 57.95,
+      "end": 60.57,
+      "old_summary": "hand mashes avocado flesh with a fork",
+      "summary": "both hands put the emptied avocado skins aside",
+      "verb": "place",
+      "object": "avocado peel",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.57,
+      "end": 67.36,
+      "old_summary": "hand picks up spoon",
+      "summary": "both hands clear the spoon and nearby utensils",
+      "verb": "place",
+      "object": "spoon",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "60.57–67.36s spoon/nearby utensil handling is partly below the frame.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 67.36,
+      "end": 81.63,
+      "old_summary": "hand picks up avocado spoon",
+      "summary": "right hand retrieves a fork from the drawer",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 81.63,
+      "end": 86.12,
+      "old_summary": "hand mashes avocado flesh with a fork",
+      "summary": "right hand positions the fork beside the avocado",
+      "verb": "position",
+      "object": "fork",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.12,
+      "end": 93.44,
+      "old_summary": "hand seasons avocado flesh with spice from a shaker",
+      "summary": "both hands open a small seasoning jar",
+      "verb": "open",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning jar"
+        ],
+        "right": [
+          "seasoning lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "86.12–93.44s seasoning container is handled, but exact contents are unreadable.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 93.44,
+      "end": 94.42,
+      "old_summary": "hand mashes avocado flesh with a fork",
+      "summary": "left hand places the seasoning jar beside the board",
+      "verb": "place",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.42,
+      "end": 130.46,
+      "old_summary": "hand mashes avocado with a fork",
+      "summary": "right hand repeatedly mashes avocado with the fork",
+      "verb": "mash",
+      "object": "avocado",
+      "tool": "fork",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "94.42–130.46s is one sustained mashing sequence; original long segment preserved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.46,
+      "end": 133.35,
+      "old_summary": "hand picks up a green bottle",
+      "summary": "right hand retrieves the citrus juice bottle",
+      "verb": "pick up",
+      "object": "citrus juice bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "citrus juice bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.35,
+      "end": 139.36,
+      "old_summary": "hand mixes mashed avocado on cutting board with spoon",
+      "summary": "right hand mashes the avocado further with the fork",
+      "verb": "mash",
+      "object": "avocado",
+      "tool": "fork",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 139.36,
+      "end": 146.95,
+      "old_summary": "hand seasons mashed avocado with pepper from a green shaker",
+      "summary": "right hand squeezes citrus juice over the mashed avocado",
+      "verb": "squeeze",
+      "object": "citrus juice bottle",
+      "tool": null,
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 146.95,
+      "end": 158.83,
+      "old_summary": "hand spreads mashed avocado on a cutting board with a fork",
+      "summary": "right hand mixes the citrus juice into the avocado",
+      "verb": "mix",
+      "object": "avocado",
+      "tool": "fork",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 158.83,
+      "end": 176.53,
+      "old_summary": "hand spreads mashed avocado on bread",
+      "summary": "right hand spreads mashed avocado over the bread",
+      "verb": "spread",
+      "object": "avocado",
+      "tool": "fork",
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "158.83–176.53s includes bread retrieval and repeated mash transfer/spreading; original boundary preserved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 176.53,
+      "end": 191.03,
+      "old_summary": "hand seasons mashed avocado with pepper from shaker",
+      "summary": "right hand shakes seasoning over the avocado bread",
+      "verb": "sprinkle",
+      "object": "dark shaker",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "dark shaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 191.03,
+      "end": 210.31,
+      "old_summary": "hand seasons mashed avocado with spice from bottle",
+      "summary": "right hand adds flake seasoning to the avocado bread",
+      "verb": "sprinkle",
+      "object": "flake seasoning bottle",
+      "tool": null,
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "191.03–210.31s includes changing from the dark shaker to the flake-seasoning bottle; original boundary preserved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 22.68,
+      "fine_index_range": [
+        0,
+        4
+      ],
+      "instruction": "Halve the avocado and remove its pit",
+      "description": "A knife cuts around the avocado, both hands twist it apart, and the pit is loosened and removed with the knife.",
+      "goal_contribution": "Opens the avocado so its flesh can be extracted.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 22.68,
+      "end": 60.57,
+      "fine_index_range": [
+        5,
+        10
+      ],
+      "instruction": "Scoop the avocado flesh onto the board",
+      "description": "A spoon scrapes flesh from both halves onto the cutting board; the skins are repeatedly scraped clean and put aside.",
+      "goal_contribution": "Collects the edible avocado in one place for mashing.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After halve the avocado and remove its pit, scoop the avocado flesh onto the board is a natural next stage toward make seasoned mashed-avocado bread."
+    },
+    {
+      "start": 60.57,
+      "end": 130.46,
+      "fine_index_range": [
+        11,
+        16
+      ],
+      "instruction": "Collect a fork and mash the avocado",
+      "description": "Utensils are cleared, a fork is retrieved from a drawer, and a small seasoning jar is opened. The fork repeatedly presses and breaks up the avocado on the board.",
+      "goal_contribution": "Produces a spreadable avocado mash.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After scoop the avocado flesh onto the board, collect a fork and mash the avocado is a natural next stage toward make seasoned mashed-avocado bread."
+    },
+    {
+      "start": 130.46,
+      "end": 158.83,
+      "fine_index_range": [
+        17,
+        20
+      ],
+      "instruction": "Add bottled citrus juice and mix",
+      "description": "A green citrus-juice bottle is retrieved; after further mashing its contents are squeezed over the avocado and stirred through with the fork.",
+      "goal_contribution": "Distributes the added liquid through the mashed avocado.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After collect a fork and mash the avocado, add bottled citrus juice and mix is plausible for make seasoned mashed-avocado bread, but several next steps fit."
+    },
+    {
+      "start": 158.83,
+      "end": 210.31,
+      "fine_index_range": [
+        21,
+        23
+      ],
+      "instruction": "Spread avocado onto bread and season",
+      "description": "Bread is lifted from the toaster area and covered with forkfuls of avocado. A dark shaker and then a white-capped flake-seasoning bottle are shaken over the bread.",
+      "goal_contribution": "Finishes the avocado-covered bread with visible seasoning.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After add bottled citrus juice and mix, spread avocado onto bread and season is a natural next stage toward make seasoned mashed-avocado bread."
+    }
+  ],
+  "notes": "Reviewed all overview, 728 dense sampled frames and native end frames. Seasoning identities are not inferred from unreadable labels; green bottle described as bottled citrus juice. Bread is already in toaster area; insertion/toasting is not shown. Original fine endpoints retained. Final 3.29s shows holding/displaying the prepared bread outside the source fine coverage."
+}

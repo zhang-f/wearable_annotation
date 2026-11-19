@@ -1,0 +1,1566 @@
+{
+  "video_id": "fced96b0f5b0dbf1",
+  "duration": 191.267,
+  "task": "Making tortilla pizzas",
+  "domain": "Chef",
+  "query": "How do I make tortilla pizzas?",
+  "goal": {
+    "title": "Make a microwave tortilla pizza with cheese and olives",
+    "description": "Set a tortilla on a plate, spread red sauce over it, add cheese strips and black olive pieces, microwave the topped tortilla, then move it to a cutting board, cut into quarters and return pieces to the plate.",
+    "final_state": "Four small pizza quarters are arranged on the green plate.",
+    "procedure": [
+      "Place tortilla on plate and open sauce jar.",
+      "Spoon sauce onto tortilla and spread it evenly.",
+      "Scatter cheese strips and black olive pieces across sauce.",
+      "Microwave the topped tortilla, retrieve the hot plate using a pot holder and let it rest.",
+      "Transfer pizza from plate to cutting board, cut it into quarters and arrange pieces back on plate."
+    ]
+  },
+  "object_inventory": [
+    "tortilla",
+    "green plate",
+    "sauce jar",
+    "jar lid",
+    "spoon",
+    "red sauce",
+    "cheese",
+    "cheese container",
+    "olive container",
+    "container lid",
+    "black olives",
+    "pizza",
+    "microwave",
+    "microwave keypad",
+    "pot holder",
+    "cutting board",
+    "knife"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 30.46,
+      "description": "The tortilla is centered, the sauce jar opened and several spoonfuls spread over its surface with the back of the spoon."
+    },
+    {
+      "start": 30.46,
+      "end": 41.3,
+      "description": "Cheese strips are taken from the small container, separated and scattered across the tortilla."
+    },
+    {
+      "start": 41.3,
+      "end": 53.53,
+      "description": "The olive container is opened, pieces pinched and spread over the cheese, and the plate gripped for carrying."
+    },
+    {
+      "start": 53.53,
+      "end": 111.8,
+      "description": "The plate is carried to the microwave, inserted, the door closed and heating started; the wearer waits and readies a pot holder."
+    },
+    {
+      "start": 111.8,
+      "end": 130.32,
+      "description": "The hot plate is removed with a pot holder, carried back to the counter and set down; the cutting board is brought forward."
+    },
+    {
+      "start": 130.32,
+      "end": 149.68,
+      "description": "The sauce jar lid is screwed back on and olive container closed, followed by a wait beside the pizza."
+    },
+    {
+      "start": 149.68,
+      "end": 171.54,
+      "description": "A pot holder steadies the plate while pizza is loosened and slid to the cutting board; a knife cuts it in crossing directions."
+    },
+    {
+      "start": 171.54,
+      "end": 190.97,
+      "description": "Hands separate quarters and place them on the green plate, collect loose topping and move the plate beside the cutting board."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.79,
+      "old_summary": "",
+      "summary": "both hands center tortilla on the green plate",
+      "verb": "center",
+      "object": "tortilla",
+      "tool": null,
+      "target": "green plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 2.79,
+      "end": 4.39,
+      "old_summary": "n",
+      "summary": "right hand takes spoon while left reaches sauce jar",
+      "verb": "take",
+      "object": "spoon",
+      "tool": null,
+      "target": "sauce jar",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 4.39,
+      "end": 5.13,
+      "old_summary": "n",
+      "summary": "left hand removes sauce jar lid",
+      "verb": "remove",
+      "object": "jar lid",
+      "tool": null,
+      "target": "sauce jar",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "jar lid"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.13,
+      "end": 6.44,
+      "old_summary": "n",
+      "summary": "left hand sets lid down then lifts sauce jar",
+      "verb": "lift",
+      "object": "sauce jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "sauce jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.44,
+      "end": 10.56,
+      "old_summary": "n",
+      "summary": "right hand spoons sauce from jar onto tortilla",
+      "verb": "spoon",
+      "object": "red sauce",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sauce jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.56,
+      "end": 14.11,
+      "old_summary": "n",
+      "summary": "right hand adds another spoonful of sauce to tortilla",
+      "verb": "spoon",
+      "object": "red sauce",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sauce jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.11,
+      "end": 16.39,
+      "old_summary": "n",
+      "summary": "right hand scrapes spoon at jar mouth while left lowers jar",
+      "verb": "scrape",
+      "object": "spoon",
+      "tool": null,
+      "target": "sauce jar",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sauce jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.39,
+      "end": 29.95,
+      "old_summary": "n",
+      "summary": "right hand spreads sauce across tortilla using spoon",
+      "verb": "spread",
+      "object": "red sauce",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.95,
+      "end": 30.46,
+      "old_summary": "n",
+      "summary": "right hand lifts spoon toward cutting board",
+      "verb": "lift",
+      "object": "spoon",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.46,
+      "end": 32.66,
+      "old_summary": "n",
+      "summary": "right hand sets spoon down and takes cheese",
+      "verb": "take",
+      "object": "cheese",
+      "tool": null,
+      "target": "cheese container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cheese"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 32.66,
+      "end": 36.61,
+      "old_summary": "n",
+      "summary": "both hands break apart and scatter cheese over tortilla",
+      "verb": "scatter",
+      "object": "cheese",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cheese"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.61,
+      "end": 38.02,
+      "old_summary": "n",
+      "summary": "right hand takes more cheese from container",
+      "verb": "take",
+      "object": "cheese",
+      "tool": null,
+      "target": "cheese container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cheese"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.02,
+      "end": 41.3,
+      "old_summary": "n",
+      "summary": "right hand scatters remaining cheese across tortilla",
+      "verb": "scatter",
+      "object": "cheese",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.3,
+      "end": 43.04,
+      "old_summary": "n",
+      "summary": "both hands open the olive container",
+      "verb": "open",
+      "object": "olive container",
+      "tool": null,
+      "target": "container lid",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "container lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.04,
+      "end": 45.3,
+      "old_summary": "n",
+      "summary": "right hand picks olives from the open container",
+      "verb": "pick up",
+      "object": "black olives",
+      "tool": null,
+      "target": "olive container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "black olives"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 45.3,
+      "end": 50.01,
+      "old_summary": "n",
+      "summary": "right hand scatters olive pieces over cheese",
+      "verb": "scatter",
+      "object": "black olives",
+      "tool": null,
+      "target": "pizza",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "black olives"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.01,
+      "end": 51.01,
+      "old_summary": "n",
+      "summary": "right hand takes another pinch of olives",
+      "verb": "take",
+      "object": "black olives",
+      "tool": null,
+      "target": "olive container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "black olives"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.01,
+      "end": 52.77,
+      "old_summary": "n",
+      "summary": "right hand distributes olives across the pizza",
+      "verb": "distribute",
+      "object": "black olives",
+      "tool": null,
+      "target": "pizza",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.77,
+      "end": 53.53,
+      "old_summary": "n",
+      "summary": "both hands grip plate holding the topped tortilla",
+      "verb": "grip",
+      "object": "green plate",
+      "tool": null,
+      "target": "pizza",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "green plate"
+        ],
+        "right": [
+          "green plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 53.53,
+      "end": 58.3,
+      "old_summary": "n",
+      "summary": "right hand carries plate while left reaches microwave controls",
+      "verb": "carry",
+      "object": "green plate",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.3,
+      "end": 59.06,
+      "old_summary": "n",
+      "summary": "left hand opens microwave while right holds plate",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 59.06,
+      "end": 61.66,
+      "old_summary": "n",
+      "summary": "right hand places pizza plate inside microwave",
+      "verb": "place",
+      "object": "green plate",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 61.66,
+      "end": 63.02,
+      "old_summary": "n",
+      "summary": "right hand closes microwave door",
+      "verb": "close",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 63.02,
+      "end": 66.43,
+      "old_summary": "n",
+      "summary": "right hand presses microwave keypad to start heating",
+      "verb": "press",
+      "object": "microwave keypad",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 66.43,
+      "end": 111.8,
+      "old_summary": "n",
+      "summary": "idle (waiting for pizza heating, briefly handling pot holder)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pot holder"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Long preserved interval mostly waiting at 66.43–111.8s; pot holder is briefly handled near 103–104s and held by the end.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 111.8,
+      "end": 113.43,
+      "old_summary": "n",
+      "summary": "left hand opens microwave while right holds pot holder",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pot holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 113.43,
+      "end": 116.66,
+      "old_summary": "n",
+      "summary": "right hand lifts hot pizza plate using pot holder",
+      "verb": "lift",
+      "object": "green plate",
+      "tool": "pot holder",
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green plate",
+          "pot holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 116.66,
+      "end": 118.14,
+      "old_summary": "n",
+      "summary": "left hand closes microwave while right holds hot plate",
+      "verb": "close",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green plate",
+          "pot holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 118.14,
+      "end": 124.55,
+      "old_summary": "n",
+      "summary": "right hand carries hot pizza plate back to counter",
+      "verb": "carry",
+      "object": "green plate",
+      "tool": "pot holder",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green plate",
+          "pot holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.55,
+      "end": 126.26,
+      "old_summary": "n",
+      "summary": "left hand touches pizza while right sets down hot plate",
+      "verb": "touch",
+      "object": "pizza",
+      "tool": null,
+      "target": "green plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pot holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 126.26,
+      "end": 127.75,
+      "old_summary": "n",
+      "summary": "left hand moves cutting board while right holds pot holder",
+      "verb": "move",
+      "object": "cutting board",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pot holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 127.75,
+      "end": 129.08,
+      "old_summary": "n",
+      "summary": "both hands lift cutting board toward front of counter",
+      "verb": "lift",
+      "object": "cutting board",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cutting board"
+        ],
+        "right": [
+          "cutting board"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 129.08,
+      "end": 130.32,
+      "old_summary": "n",
+      "summary": "both hands place cutting board beside pizza plate",
+      "verb": "place",
+      "object": "cutting board",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.32,
+      "end": 131.17,
+      "old_summary": "n",
+      "summary": "right hand picks up sauce jar lid",
+      "verb": "pick up",
+      "object": "jar lid",
+      "tool": null,
+      "target": "sauce jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "jar lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 131.17,
+      "end": 133.04,
+      "old_summary": "n",
+      "summary": "both hands twist lid onto sauce jar",
+      "verb": "twist",
+      "object": "jar lid",
+      "tool": null,
+      "target": "sauce jar",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.04,
+      "end": 133.77,
+      "old_summary": "n",
+      "summary": "both hands place lid on olive container",
+      "verb": "close",
+      "object": "olive container",
+      "tool": null,
+      "target": "container lid",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.77,
+      "end": 135.12,
+      "old_summary": "n",
+      "summary": "left hand presses olive container lid closed",
+      "verb": "press",
+      "object": "container lid",
+      "tool": null,
+      "target": "olive container",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 135.12,
+      "end": 149.68,
+      "old_summary": "n",
+      "summary": "idle (waiting beside the pizza before cutting)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Mostly waiting at 135.12–149.68s; brief hand withdrawal after closing containers occurs at the start.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 149.68,
+      "end": 152.31,
+      "old_summary": "n",
+      "summary": "both hands pick up and unfold pot holder",
+      "verb": "unfold",
+      "object": "pot holder",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pot holder"
+        ],
+        "right": [
+          "pot holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 152.31,
+      "end": 154.56,
+      "old_summary": "n",
+      "summary": "left hand holds pot holder while right touches plate rim",
+      "verb": "touch",
+      "object": "green plate",
+      "tool": "pot holder",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pot holder"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 154.56,
+      "end": 158.1,
+      "old_summary": "n",
+      "summary": "right hand loosens pizza edge while left steadies hot plate",
+      "verb": "loosen",
+      "object": "pizza",
+      "tool": "pot holder",
+      "target": "green plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pot holder"
+        ],
+        "right": [
+          "pizza"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 158.1,
+      "end": 160.35,
+      "old_summary": "n",
+      "summary": "right hand slides pizza from plate onto cutting board",
+      "verb": "slide",
+      "object": "pizza",
+      "tool": "pot holder",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pot holder"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 160.35,
+      "end": 162.51,
+      "old_summary": "n",
+      "summary": "right hand moves empty plate above cutting board",
+      "verb": "move",
+      "object": "green plate",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 162.51,
+      "end": 163.26,
+      "old_summary": "n",
+      "summary": "right hand picks up knife beside cutting board",
+      "verb": "pick up",
+      "object": "knife",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 163.26,
+      "end": 166.38,
+      "old_summary": "n",
+      "summary": "right hand cuts pizza while left steadies cutting board",
+      "verb": "cut",
+      "object": "pizza",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 166.38,
+      "end": 170.53,
+      "old_summary": "n",
+      "summary": "right hand turns cutting board and cuts pizza again",
+      "verb": "cut",
+      "object": "pizza",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes rotating the cutting board near 166–167s followed by a second knife cut through 170s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 170.53,
+      "end": 171.54,
+      "old_summary": "n",
+      "summary": "right hand sets knife beside cutting board",
+      "verb": "set down",
+      "object": "knife",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 171.54,
+      "end": 174.54,
+      "old_summary": "n",
+      "summary": "both hands separate pizza quarters and lift two pieces",
+      "verb": "separate",
+      "object": "pizza",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pizza"
+        ],
+        "right": [
+          "pizza"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 174.54,
+      "end": 175.96,
+      "old_summary": "n",
+      "summary": "both hands place pizza pieces onto green plate",
+      "verb": "place",
+      "object": "pizza",
+      "tool": null,
+      "target": "green plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 175.96,
+      "end": 177.93,
+      "old_summary": "n",
+      "summary": "both hands pick up another pizza quarter",
+      "verb": "pick up",
+      "object": "pizza",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pizza"
+        ],
+        "right": [
+          "pizza"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 177.93,
+      "end": 178.47,
+      "old_summary": "n",
+      "summary": "both hands place pizza quarter on plate",
+      "verb": "place",
+      "object": "pizza",
+      "tool": null,
+      "target": "green plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 178.47,
+      "end": 180.16,
+      "old_summary": "n",
+      "summary": "both hands lift the final pizza piece from board",
+      "verb": "lift",
+      "object": "pizza",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pizza"
+        ],
+        "right": [
+          "pizza"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 180.16,
+      "end": 181.23,
+      "old_summary": "n",
+      "summary": "both hands place final pizza piece on plate",
+      "verb": "place",
+      "object": "pizza",
+      "tool": null,
+      "target": "green plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 181.23,
+      "end": 182.61,
+      "old_summary": "n",
+      "summary": "right hand gathers loose topping from cutting board",
+      "verb": "gather",
+      "object": "black olives",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "black olives"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small dark topping gathered from board; exact piece is difficult to distinguish. Canonical black olives used from visible topping set.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 182.61,
+      "end": 185.54,
+      "old_summary": "n",
+      "summary": "right hand moves plate while left shifts cutting board",
+      "verb": "move",
+      "object": "green plate",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cutting board"
+        ],
+        "right": [
+          "green plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 185.54,
+      "end": 188.18,
+      "old_summary": "n",
+      "summary": "right hand places plate beside cutting board",
+      "verb": "place",
+      "object": "green plate",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 188.18,
+      "end": 190.97,
+      "old_summary": "n",
+      "summary": "idle (hands withdraw from the plated pizza quarters)",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 30.46,
+      "fine_index_range": [
+        0,
+        8
+      ],
+      "instruction": "Place tortilla on a plate and spread sauce.",
+      "description": "The tortilla is centered, the sauce jar opened and several spoonfuls spread over its surface with the back of the spoon.",
+      "goal_contribution": "Create the sauced pizza base.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 30.46,
+      "end": 41.3,
+      "fine_index_range": [
+        9,
+        12
+      ],
+      "instruction": "Cover the sauced tortilla with cheese.",
+      "description": "Cheese strips are taken from the small container, separated and scattered across the tortilla.",
+      "goal_contribution": "Add the cheese topping before heating.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After place tortilla on a plate and spread sauce, cover the sauced tortilla with cheese is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "start": 41.3,
+      "end": 53.53,
+      "fine_index_range": [
+        13,
+        18
+      ],
+      "instruction": "Add black olive pieces.",
+      "description": "The olive container is opened, pieces pinched and spread over the cheese, and the plate gripped for carrying.",
+      "goal_contribution": "Complete the visible pizza toppings.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After cover the sauced tortilla with cheese, add black olive pieces is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "start": 53.53,
+      "end": 111.8,
+      "fine_index_range": [
+        19,
+        24
+      ],
+      "instruction": "Put the pizza in the microwave and heat it.",
+      "description": "The plate is carried to the microwave, inserted, the door closed and heating started; the wearer waits and readies a pot holder.",
+      "goal_contribution": "Heat the topped tortilla and melt the cheese.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After add black olive pieces, put the pizza in the microwave and heat it is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "start": 111.8,
+      "end": 130.32,
+      "fine_index_range": [
+        25,
+        32
+      ],
+      "instruction": "Retrieve the hot pizza and set out a cutting board.",
+      "description": "The hot plate is removed with a pot holder, carried back to the counter and set down; the cutting board is brought forward.",
+      "goal_contribution": "Make the heated pizza accessible for cutting.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After put the pizza in the microwave and heat it, retrieve the hot pizza and set out a cutting board is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "start": 130.32,
+      "end": 149.68,
+      "fine_index_range": [
+        33,
+        37
+      ],
+      "instruction": "Close ingredient containers and let the pizza rest.",
+      "description": "The sauce jar lid is screwed back on and olive container closed, followed by a wait beside the pizza.",
+      "goal_contribution": "Clear loose ingredients while the hot pizza rests.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After retrieve the hot pizza and set out a cutting board, close ingredient containers and let the pizza rest is plausible for make a microwave tortilla pizza with cheese and olives, but several next steps fit."
+    },
+    {
+      "start": 149.68,
+      "end": 171.54,
+      "fine_index_range": [
+        38,
+        46
+      ],
+      "instruction": "Move pizza to board and cut into quarters.",
+      "description": "A pot holder steadies the plate while pizza is loosened and slid to the cutting board; a knife cuts it in crossing directions.",
+      "goal_contribution": "Divide the heated pizza into serving pieces.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After close ingredient containers and let the pizza rest, move pizza to board and cut into quarters is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    },
+    {
+      "start": 171.54,
+      "end": 190.97,
+      "fine_index_range": [
+        47,
+        56
+      ],
+      "instruction": "Return the pizza quarters to the plate.",
+      "description": "Hands separate quarters and place them on the green plate, collect loose topping and move the plate beside the cutting board.",
+      "goal_contribution": "Leave the prepared pizza pieces ready to serve.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After move pizza to board and cut into quarters, return the pizza quarters to the plate is a natural next stage toward make a microwave tortilla pizza with cheese and olives."
+    }
+  ],
+  "notes": "Every overview, dense 3/15fps step frame and native endpoint sheet inspected. Original fine boundaries retained. Source objects named from visible round thin flatbread, sauce, pale cheese strips and recognizable sliced black olives. Short leftover tail under 0.3s does not show a new action."
+}

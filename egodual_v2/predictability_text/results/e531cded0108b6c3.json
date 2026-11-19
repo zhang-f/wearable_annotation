@@ -1,0 +1,16 @@
+{
+  "video_id": "e531cded0108b6c3",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After prepare the paper and heart mask, tape and paint around the heart mask is a natural next stage toward create a spray-painted heart resist on paper."
+    }
+  ]
+}

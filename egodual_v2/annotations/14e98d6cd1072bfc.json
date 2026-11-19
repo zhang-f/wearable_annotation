@@ -1,0 +1,1984 @@
+{
+  "video_id": "14e98d6cd1072bfc",
+  "duration": 240.2,
+  "task": "Making microwave egg and smoked salmon bowl",
+  "domain": "Chef",
+  "query": "How do I make a microwave egg and smoked salmon bowl?",
+  "goal": {
+    "title": "Microwave eggs with pink fish pieces",
+    "description": "Crack and beat one egg, add seasonings and pink fish-like pieces, microwave in repeated short cycles with stirring between them, then plate the curds and garnish with chopped green onion.",
+    "final_state": "A white plate holds set egg curds containing pink pieces and topped with green onion. The plate is held up with the fork resting on it; no eating or temperature verification is visible.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 6.9,
+        "description": "Open cupboard doors, retrieve a pink-rimmed bowl, close the doors and set the bowl beside the cutting board."
+      },
+      {
+        "start": 6.9,
+        "end": 29.5,
+        "description": "Open the egg carton and retrieve one egg. Transfer it to the left hand, tap the shell repeatedly with a fork, pry the shell apart and empty the yolk and white into the bowl. Place the shell in the carton, retrieve the fork and beat the egg."
+      },
+      {
+        "start": 29.5,
+        "end": 68.52,
+        "description": "Open a blue salt container and shake it over the bowl. Open the small pepper jar, tilt and tap it over the egg and put it down. Beat the seasoned egg, reposition the board and bowl, add several pinches of the pink fish-like pieces, then stir them into the egg."
+      },
+      {
+        "start": 68.52,
+        "end": 96.9,
+        "description": "Set the fork down and carry the bowl to the microwave. Open the door, place the bowl on the turntable, close it and select cooking controls including PL5. Wait briefly, stop the running microwave, open it and retrieve the bowl. Close the door, return to the counter and stir the still-fluid mixture."
+      },
+      {
+        "start": 96.9,
+        "end": 134.73,
+        "description": "Rest the fork, reopen the microwave and replace the bowl. Close the door, enter 15 seconds and PL5, and wait for the countdown to reach End. Remove the bowl and stir the partly set egg with the fork, then change grip for another return to the microwave."
+      },
+      {
+        "start": 134.73,
+        "end": 170.14,
+        "description": "Return the bowl, close the microwave, select 15 seconds and PL5 again, and wait for End. Open the door, lift out the bowl with the left hand and stir the increasingly firm curds with the right-hand fork. Lower the fork and bring the bowl back toward the open microwave."
+      },
+      {
+        "start": 170.14,
+        "end": 208,
+        "description": "Place the bowl inside for a fourth cycle, close the door, set another 15 seconds at PL5 and wait. Open the microwave, retrieve the bowl, lower it to the counter, take the fork and break up the visibly set egg curds."
+      },
+      {
+        "start": 208,
+        "end": 240.2,
+        "description": "Set the fork down, approach the open dishwasher, pull its rack and retrieve a white plate. Carry it to the counter, lift the mixing bowl and scrape the cooked curds onto the plate with the fork. Set the bowl aside, sprinkle several pinches of chopped green onion, retrieve the fork, lift the plate and display the garnished eggs. A small forkful is lifted but eating is not visible."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 6.9,
+      "description": "Open cupboard doors, retrieve a pink-rimmed bowl, close the doors and set the bowl beside the cutting board."
+    },
+    {
+      "start": 6.9,
+      "end": 29.5,
+      "description": "Open the egg carton and retrieve one egg. Transfer it to the left hand, tap the shell repeatedly with a fork, pry the shell apart and empty the yolk and white into the bowl. Place the shell in the carton, retrieve the fork and beat the egg."
+    },
+    {
+      "start": 29.5,
+      "end": 68.52,
+      "description": "Open a blue salt container and shake it over the bowl. Open the small pepper jar, tilt and tap it over the egg and put it down. Beat the seasoned egg, reposition the board and bowl, add several pinches of the pink fish-like pieces, then stir them into the egg."
+    },
+    {
+      "start": 68.52,
+      "end": 96.9,
+      "description": "Set the fork down and carry the bowl to the microwave. Open the door, place the bowl on the turntable, close it and select cooking controls including PL5. Wait briefly, stop the running microwave, open it and retrieve the bowl. Close the door, return to the counter and stir the still-fluid mixture."
+    },
+    {
+      "start": 96.9,
+      "end": 134.73,
+      "description": "Rest the fork, reopen the microwave and replace the bowl. Close the door, enter 15 seconds and PL5, and wait for the countdown to reach End. Remove the bowl and stir the partly set egg with the fork, then change grip for another return to the microwave."
+    },
+    {
+      "start": 134.73,
+      "end": 170.14,
+      "description": "Return the bowl, close the microwave, select 15 seconds and PL5 again, and wait for End. Open the door, lift out the bowl with the left hand and stir the increasingly firm curds with the right-hand fork. Lower the fork and bring the bowl back toward the open microwave."
+    },
+    {
+      "start": 170.14,
+      "end": 208,
+      "description": "Place the bowl inside for a fourth cycle, close the door, set another 15 seconds at PL5 and wait. Open the microwave, retrieve the bowl, lower it to the counter, take the fork and break up the visibly set egg curds."
+    },
+    {
+      "start": 208,
+      "end": 240.2,
+      "description": "Set the fork down, approach the open dishwasher, pull its rack and retrieve a white plate. Carry it to the counter, lift the mixing bowl and scrape the cooked curds onto the plate with the fork. Set the bowl aside, sprinkle several pinches of chopped green onion, retrieve the fork, lift the plate and display the garnished eggs. A small forkful is lifted but eating is not visible."
+    }
+  ],
+  "object_inventory": [
+    "mixing bowl",
+    "fork",
+    "egg",
+    "salt container",
+    "pepper jar",
+    "microwave",
+    "egg carton",
+    "pepper jar lid",
+    "plate",
+    "salmon pieces",
+    "green onion",
+    "egg mixture",
+    "eggshell",
+    "cupboard",
+    "cutting board",
+    "dishwasher rack"
+  ],
+  "notes": "All 73 human fine intervals preserved. Overview, all dense pages including continuations and all native end frames reviewed. Pink pieces visually resemble salmon but package identity unavailable, so those steps are ambiguous. Microwave is a fixed appliance, never handheld; holding its attached door handle is excluded from in_hand. Initial selected cooking time is uncertain; subsequent three cycles visibly select 15 seconds and PL5. The source ends at 238.5s while true duration is 240.2s; the remaining tail continues holding the completed plate, and no new fine interval was invented. Predictability remains pending independent blind assessment.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.84,
+      "summary": "open the cupboard door",
+      "verb": "open",
+      "object": "cupboard",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens cabinet doors",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 1.84,
+      "end": 3.8,
+      "summary": "open the adjacent cupboard doors",
+      "verb": "open",
+      "object": "cupboard",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 3.8,
+      "end": 4.5,
+      "summary": "take the mixing bowl from the cupboard",
+      "verb": "take",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand retrieves white bowl from cabinet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 4.5,
+      "end": 6.9,
+      "summary": "close the cupboard and set down the mixing bowl",
+      "verb": "set down",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=4.6–5.3s left closes doors while right holds bowl; t=6.1s bowl set on counter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places white bowl on countertop",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 6.9,
+      "end": 8.89,
+      "summary": "open the egg carton",
+      "verb": "open",
+      "object": "egg carton",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand retrieves an egg from a carton",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.89,
+      "end": 10.5,
+      "summary": "pick up an egg from the carton",
+      "verb": "pick up",
+      "object": "egg",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.5,
+      "end": 12.1,
+      "summary": "transfer the egg and pick up the fork",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "egg"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=10.8s transfer egg to left; t=11.8s right takes fork.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the egg",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.1,
+      "end": 14.1,
+      "summary": "tap the egg with the fork",
+      "verb": "tap",
+      "object": "egg",
+      "tool": "fork",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "egg"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places egg on the bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.1,
+      "end": 16.7,
+      "summary": "tap the eggshell and put down the fork",
+      "verb": "tap",
+      "object": "egg",
+      "tool": "fork",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "egg"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=14.1–16.3s continued tapping; t=16.5s fork placed on board; right begins grasping shell.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.7,
+      "end": 21.0,
+      "summary": "pry apart the eggshell over the mixing bowl",
+      "verb": "open",
+      "object": "egg",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "egg"
+        ],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand puts down the fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 21.0,
+      "end": 24.9,
+      "summary": "empty the egg into the mixing bowl",
+      "verb": "pour",
+      "object": "egg",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=21s boundary falls within opening and emptying the same egg; white continues dripping until t=24s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cracks the egg",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 24.9,
+      "end": 26.34,
+      "summary": "put the eggshell in the egg carton",
+      "verb": "set down",
+      "object": "eggshell",
+      "tool": null,
+      "target": "egg carton",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.34,
+      "end": 27.4,
+      "summary": "pick up the fork beside the mixing bowl",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.4,
+      "end": 29.5,
+      "summary": "beat the egg with the fork",
+      "verb": "beat",
+      "object": "egg",
+      "tool": "fork",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=27.4–29.1s beat; t=29.3s rest fork across bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "whisks the egg in the bowl with a fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.5,
+      "end": 30.96,
+      "summary": "pick up the salt container",
+      "verb": "pick up",
+      "object": "salt container",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salt container"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.96,
+      "end": 32.75,
+      "summary": "open the salt container spout",
+      "verb": "open",
+      "object": "salt container",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salt container"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 32.75,
+      "end": 37.0,
+      "summary": "shake salt into the mixing bowl",
+      "verb": "shake",
+      "object": "salt container",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "fork"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=32.9–36.1s salt shaken partly beyond right edge; t=36.4s container set aside; t=36.9s fork rests in bowl.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "Salt container is visible but falling grains and exact dose are not resolved.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.0,
+      "end": 38.19,
+      "summary": "pick up the pepper jar",
+      "verb": "pick up",
+      "object": "pepper jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pepper jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adds salt to the egg mixture from a jar, then stirs",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 38.19,
+      "end": 39.25,
+      "summary": "remove the pepper jar lid",
+      "verb": "remove",
+      "object": "pepper jar lid",
+      "tool": null,
+      "target": "pepper jar",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pepper jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 39.25,
+      "end": 42.57,
+      "summary": "shake pepper into the mixing bowl",
+      "verb": "shake",
+      "object": "pepper jar",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pepper jar"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=39.2–42.3s tilt jar with left and tap it with right; t=42.5s right picks up fork while left returns jar.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 42.57,
+      "end": 43.5,
+      "summary": "put the pepper jar back on the counter",
+      "verb": "set down",
+      "object": "pepper jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "pepper jar"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=42.57–43.5s left lowers jar, right begins beating at t=43.2s; left releases jar at t=43.87s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.5,
+      "end": 54.1,
+      "summary": "beat the seasoned egg with the fork",
+      "verb": "beat",
+      "object": "egg",
+      "tool": "fork",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand mixes egg with a fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.1,
+      "end": 56.6,
+      "summary": "move the cutting board and pick up salmon pieces",
+      "verb": "pick up",
+      "object": "salmon pieces",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "salmon pieces"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=54.8s move cutting board under bowl; t=56.1s take pink pieces from board.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": "Pink fish-like pieces are consistent with salmon; no package label visible. Type changed based on visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 56.6,
+      "end": 58.69,
+      "summary": "drop salmon pieces into the mixing bowl",
+      "verb": "add",
+      "object": "salmon pieces",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "right hand adds chopped smoked salmon to the egg mixture and mixes it in with a fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.69,
+      "end": 60.41,
+      "summary": "add more salmon pieces to the egg",
+      "verb": "add",
+      "object": "salmon pieces",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "salmon pieces"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 60.41,
+      "end": 61.58,
+      "summary": "add the remaining salmon pieces and grasp the fork",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=60.5s drop last small piece; t=61.2s take fork.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 61.58,
+      "end": 68.52,
+      "summary": "stir the egg and salmon with the fork",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places the bowl on the counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.52,
+      "end": 70.1,
+      "summary": "put down the fork and lift the mixing bowl",
+      "verb": "lift",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69.1s fork set down; bowl lifted toward microwave.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 70.1,
+      "end": 72.7,
+      "summary": "open the microwave and carry the bowl inside",
+      "verb": "move",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=71.3s left opens door; right carries bowl into cavity at t=72.1s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the bowl and opens the microwave door",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 72.7,
+      "end": 73.9,
+      "summary": "set the mixing bowl inside the microwave",
+      "verb": "set down",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=73.1s release bowl; left begins closing door at t=73.4s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places the bowl inside the microwave and closes the door",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.9,
+      "end": 75.28,
+      "summary": "close the microwave and press its controls",
+      "verb": "press",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand sets microwave timer to 15 seconds and starts microwave",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 75.28,
+      "end": 78.5,
+      "summary": "set the microwave cooking time and power level",
+      "verb": "press",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "Visible power selection changes from PL10 to PL5; initial time is not asserted precisely.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 78.5,
+      "end": 84.1,
+      "summary": "idle: wait while the microwave runs",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": "",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 84.1,
+      "end": 85.6,
+      "summary": "stop the microwave and open its door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=84.3s right presses stop; left opens door at t=85.2s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "left hand opens microwave door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 85.6,
+      "end": 87.47,
+      "summary": "take the mixing bowl out of the microwave",
+      "verb": "take",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes bowl from microwave",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 87.47,
+      "end": 90.0,
+      "summary": "close the microwave and pick up the fork",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=87.8s close door, t=88.8s carry bowl to counter, t=89.5s pick up fork.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up fork",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 90.0,
+      "end": 96.9,
+      "summary": "stir the partially cooked egg mixture",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs egg mixture with fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.9,
+      "end": 98.6,
+      "summary": "set down the fork and reopen the microwave",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=97s set fork down; transfer bowl right; t=98.3s left opens door.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 98.6,
+      "end": 99.7,
+      "summary": "carry the mixing bowl into the microwave",
+      "verb": "move",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.7,
+      "end": 100.6,
+      "summary": "set the mixing bowl on the microwave turntable",
+      "verb": "set down",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=99.7–100.6s continues placement begun in previous interval; no new object change.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand closes microwave door",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 100.6,
+      "end": 102.91,
+      "summary": "close the microwave and press its control panel",
+      "verb": "press",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=100.8s close door; t=101.1–102.9s control presses.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "right hand sets microwave timer to 15 seconds (hand switch)",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 102.91,
+      "end": 108.5,
+      "summary": "set fifteen seconds and power level five",
+      "verb": "press",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 108.5,
+      "end": 122.3,
+      "summary": "idle: wait for the microwave cycle to end",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=108.5s final control press precedes withdrawal; display counts down and shows End at t=121.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": "",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 122.3,
+      "end": 123.42,
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand checks and stirs egg mixture with fork",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 123.42,
+      "end": 126.5,
+      "summary": "retrieve the mixing bowl from the microwave",
+      "verb": "take",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 126.5,
+      "end": 134.73,
+      "summary": "stir the egg mixture with the fork",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=127.1s transfer bowl left; pick up fork and stir t=128–133s; t=134s put fork down and transfer bowl right.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand closes microwave door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 134.73,
+      "end": 136.1,
+      "summary": "put the mixing bowl back inside the microwave",
+      "verb": "set down",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.1,
+      "end": 137.24,
+      "summary": "close the microwave door",
+      "verb": "close",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand sets microwave timer to 15 seconds (hand switch)",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 137.24,
+      "end": 142.6,
+      "summary": "set fifteen seconds and power level five",
+      "verb": "press",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 142.6,
+      "end": 156.76,
+      "summary": "idle: wait for another microwave cycle",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=142.6s final control press; left remains on fixed door handle until t=149.2s; no detached object held.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs egg mixture with fork",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 156.76,
+      "end": 158.34,
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 158.34,
+      "end": 160.57,
+      "summary": "lift the mixing bowl out of the microwave",
+      "verb": "take",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=159.1s reach for bowl; right fork already held as it enters view at t=160.1s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 160.57,
+      "end": 170.14,
+      "summary": "stir the egg curds with the fork",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=161–168.5s stir; then lower fork out of view and raise bowl toward microwave at t=169.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 170.14,
+      "end": 171.76,
+      "summary": "set the mixing bowl inside the microwave",
+      "verb": "set down",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places bowl in microwave, closes door, and sets timer to 15 seconds",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 171.76,
+      "end": 179.3,
+      "summary": "close the microwave and select another short cycle",
+      "verb": "press",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=172.5s close door; t=173–179.3s set 15 seconds and PL5.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 179.3,
+      "end": 193.2,
+      "summary": "idle: wait for the final microwave cycle",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses the microwave button",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 193.2,
+      "end": 195.24,
+      "summary": "open the microwave after the cycle ends",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens the microwave door and removes the bowl",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 195.24,
+      "end": 197.48,
+      "summary": "remove the cooked egg bowl from the microwave",
+      "verb": "take",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 197.48,
+      "end": 198.8,
+      "summary": "set the mixing bowl down beside the cutting board",
+      "verb": "set down",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bowl descends at t=198s, right still supports rim at final native frame t=198.733s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 198.8,
+      "end": 199.8,
+      "summary": "pick up the fork beside the mixing bowl",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places the bowl on the counter",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 199.8,
+      "end": 208.0,
+      "summary": "break up the cooked egg curds with the fork",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs the egg mixture with the fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 208.0,
+      "end": 211.8,
+      "summary": "put down the fork and approach the dishwasher",
+      "verb": "set down",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=208.8s rest fork, t=209.3s briefly regrasp and replace it; t=210s turn toward dishwasher.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand holds the bowl",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 211.8,
+      "end": 213.06,
+      "summary": "pull out the dishwasher rack",
+      "verb": "pull",
+      "object": "dishwasher rack",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand retrieves a white plate from the dishwasher",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 213.06,
+      "end": 214.34,
+      "summary": "lift a plate from the dishwasher rack",
+      "verb": "take",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 214.34,
+      "end": 216.7,
+      "summary": "carry the plate to the counter",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=214.5s push rack inward; t=216.5s lower plate onto counter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand places the plate on the counter and picks up the fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 216.7,
+      "end": 218.04,
+      "summary": "pick up the fork and lift the mixing bowl",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand plates the egg mixture using a fork, scraping and spreading repeatedly until finished",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 218.04,
+      "end": 226.43,
+      "summary": "scrape the cooked eggs from the bowl onto the plate",
+      "verb": "transfer",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 226.43,
+      "end": 227.1,
+      "summary": "set down the mixing bowl and rest the fork",
+      "verb": "set down",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=226.43–227.1s continue lowering emptied bowl and lay fork inside.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 227.1,
+      "end": 230.47,
+      "summary": "sprinkle chopped green onion over the plated eggs",
+      "verb": "sprinkle",
+      "object": "green onion",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "green onion"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=227.5s pinch greens from board; several transfers to plate through t=230.47s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand sprinkles chopped green herbs on the food in the plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 230.47,
+      "end": 231.3,
+      "summary": "add another pinch of green onion to the eggs",
+      "verb": "sprinkle",
+      "object": "green onion",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 231.3,
+      "end": 232.55,
+      "summary": "pick up the fork from the mixing bowl",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs the food in the plate with fork",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 232.55,
+      "end": 236.9,
+      "summary": "lift the plate and move the fork through the eggs",
+      "verb": "move",
+      "object": "fork",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=233.4s lift plate; t=234.7–235.8s fork lifts a little food, then rests on plate. Mouth contact not visible.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 236.9,
+      "end": 238.5,
+      "summary": "hold up the plate of garnished eggs",
+      "verb": "hold",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stops stirring the food in the plate with fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 6.9,
+      "instruction": "Retrieve a mixing bowl",
+      "description": "Open cupboard doors, take the bowl, close the doors and lower the bowl onto the counter.",
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "transition_in": null,
+      "goal_contribution": "Provides the vessel used to combine and microwave the egg.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 6.9,
+      "end": 29.5,
+      "instruction": "Crack and beat the egg",
+      "description": "Open the carton, retrieve an egg and fork, tap and open the shell over the bowl, empty it, put the shell aside and beat the egg.",
+      "fine_index_range": [
+        4,
+        13
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Turns the whole egg into a beaten mixture ready for seasoning.",
+      "predictability_level": "strong",
+      "predictability_reason": "The bowl is ready to receive and beat an egg."
+    },
+    {
+      "start": 29.5,
+      "end": 68.52,
+      "instruction": "Season the egg and mix in salmon pieces",
+      "description": "Open and shake salt, open and tap pepper into the bowl, beat the seasoned egg, reposition the board, add pink fish pieces in several pinches and stir.",
+      "fine_index_range": [
+        14,
+        26
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Combines the visible seasonings and pink pieces with the egg before heating.",
+      "predictability_level": "strong",
+      "predictability_reason": "The beaten egg needs fish pieces for the stated dish."
+    },
+    {
+      "start": 68.52,
+      "end": 96.9,
+      "instruction": "Microwave briefly and stir the egg mixture",
+      "description": "Set down the fork, load the bowl, close the door and choose controls, wait briefly, stop and open the microwave, retrieve the bowl and fork and stir.",
+      "fine_index_range": [
+        27,
+        36
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Begins heating while the following stir redistributes the still-fluid mixture.",
+      "predictability_level": "strong",
+      "predictability_reason": "The seasoned egg and fish mixture is ready to microwave."
+    },
+    {
+      "start": 96.9,
+      "end": 134.73,
+      "instruction": "Heat and stir the egg mixture again",
+      "description": "Rest the fork, reopen and reload the microwave, close it, select 15 seconds at PL5, wait for End, retrieve the bowl and stir.",
+      "fine_index_range": [
+        37,
+        45
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Advances cooking and mixes the partly set contents before further heating.",
+      "predictability_level": "strong",
+      "predictability_reason": "After the brief microwave cycle and stir, further heating is a natural continuation."
+    },
+    {
+      "start": 134.73,
+      "end": 170.14,
+      "instruction": "Heat and stir the forming egg curds",
+      "description": "Replace the bowl, close and program another 15-second PL5 cycle, wait, open the door, retrieve the bowl and stir the thickening mixture.",
+      "fine_index_range": [
+        46,
+        52
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Further sets the egg and separates the forming curds.",
+      "predictability_level": "strong",
+      "predictability_reason": "The egg mixture remains in repeated heat-and-stir cooking."
+    },
+    {
+      "start": 170.14,
+      "end": 208.0,
+      "instruction": "Finish heating and break up the egg curds",
+      "description": "Load the bowl once more, close and program 15 seconds at PL5, wait, open the door, retrieve and lower the bowl, take the fork and stir the set curds.",
+      "fine_index_range": [
+        53,
+        60
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Produces visibly firm curds that can be transferred to a serving plate.",
+      "predictability_level": "strong",
+      "predictability_reason": "The forming curds naturally need a final heating and stir."
+    },
+    {
+      "start": 208.0,
+      "end": 238.5,
+      "instruction": "Plate and garnish the cooked eggs",
+      "description": "Rest the fork, retrieve a plate from the dishwasher, carry it to the counter, take the fork and bowl, scrape out the eggs, put the bowl aside, sprinkle green onion and lift the plate.",
+      "fine_index_range": [
+        61,
+        72
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Moves the cooked egg from its heating vessel to a garnished serving presentation.",
+      "predictability_level": "strong",
+      "predictability_reason": "Cooked egg curds are ready to plate and garnish."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames/14e98d6cd1072bfc/native_v1",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

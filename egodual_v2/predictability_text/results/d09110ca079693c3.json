@@ -1,0 +1,21 @@
+{
+  "video_id": "d09110ca079693c3",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Emptied mixed materials are ready to sort by type."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Separated object categories are ready to count and tally."
+    }
+  ]
+}

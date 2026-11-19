@@ -1,0 +1,73 @@
+{
+  "video_id": "8c791c95ffbd8c11",
+  "duration": 179.2,
+  "task": "How to set a recurring calendar event",
+  "domain": "Tutorial",
+  "query": "How do I set a recurring calendar event?",
+  "goal": {
+    "title": "Create and adjust a calendar event on a smartphone",
+    "description": "Open a mobile calendar, enter an event title, adjust its settings and notes, save it, and browse the calendar and event details to check the entry.",
+    "final_state": "The calendar shows the saved event among dated entries while the phone remains held in the left hand.",
+    "procedure": [
+      "Unlock the phone, search for the calendar application and open its colored agenda view.",
+      "Open the event editor and type an event title beginning with finishing the working week.",
+      "Tap date/time and other event settings, scroll through the form and open selection lists.",
+      "Edit the location or related text and add notes in the event form.",
+      "Save the entry, return to the calendar, and repeatedly open its details while scrolling through nearby dates."
+    ]
+  },
+  "object_inventory": [
+    "smartphone"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 169.1,
+      "description": "The phone is unlocked and its calendar opened around10s. An event form appears around18s; the title is typed through42s, settings are adjusted through99s, and notes are edited around120–144s. The agenda and event details are then revisited."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 169.1,
+      "old_summary": "hand operates smartphone",
+      "summary": "right fingers type and tap calendar settings on the smartphone",
+      "verb": "tap",
+      "object": "smartphone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "smartphone"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "One source fine spans unlock/app search (~1–10s), event title typing (~18–42s), settings selection (~44–99s), note editing (~120–144s) and agenda checking (~145–169s). Multiple interaction changes are visible; original boundary preserved.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Phone remains held and manipulated throughout, but small UI labels and exact settings are not reliably legible.",
+      "transition_in": null
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 169.1,
+      "fine_index_range": [
+        0,
+        0
+      ],
+      "instruction": "Create and check a calendar entry",
+      "description": "The phone is unlocked and its calendar opened around10s. An event form appears around18s; the title is typed through42s, settings are adjusted through99s, and notes are edited around120–144s. The agenda and event details are then revisited.",
+      "goal_contribution": "Records an event in the phone calendar and checks its visible placement.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    }
+  ],
+  "notes": "Reviewed all six overview sheets, all509dense sampled frames and native end frame. Original fine contains only one0–169.1s segment, so separate coarse operations cannot be represented without changing trusted fine boundaries. Detailed goal procedure records the visible stages instead. Mobile text is small; exact date/time, location and note contents are not claimed. The unsegmented169.1–179.2s tail continues agenda browsing and event checking. Predictability pending independent testing."
+}

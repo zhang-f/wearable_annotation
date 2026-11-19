@@ -1,0 +1,654 @@
+{
+  "video_id": "d6cb618bb700b7c0",
+  "duration": 196.2,
+  "task": "Sewing on a button",
+  "domain": "Arts and Crafts",
+  "query": "How do I sew on a button?",
+  "goal": {
+    "title": "Sew a button onto a plaid shirt",
+    "description": "Picks up scissors, threads a needle with white thread, and cuts it to length before re-threading the needle. Lays a black-and-white plaid shirt on a sewing mat and repeatedly passes the threaded needle through the buttonhole and fabric to stitch a button onto the shirt, continuing the in-and-out stitching motion until the button is securely attached.",
+    "final_state": "The button is fully sewn onto the plaid shirt with multiple secure stitches through its buttonholes.",
+    "procedure": [
+      "Handle the needle and white thread, cutting and threading the working length.",
+      "Lay the plaid shirt on the mat and position the button area.",
+      "Pass the needle repeatedly through the button and fabric, pulling the thread through.",
+      "Continue stitching while holding the fabric and button in position.",
+      "Finish the visible needle and thread work and inspect the shirt area."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 47.83,
+      "description": "Thread the needle with white thread, cutting and re-threading it."
+    },
+    {
+      "start": 47.83,
+      "end": 99.19,
+      "description": "Lay the shirt on the mat and start sewing the button onto it."
+    },
+    {
+      "start": 99.19,
+      "end": 134.87,
+      "description": "Continue stitching the needle through the buttonhole and fabric."
+    },
+    {
+      "start": 134.87,
+      "end": 196.2,
+      "description": "Finish stitching until the button is securely sewn on."
+    }
+  ],
+  "object_inventory": [
+    "scissors",
+    "needle",
+    "thread",
+    "button",
+    "shirt",
+    "sewing mat"
+  ],
+  "notes": "Only human fine boundaries trusted. Overview (0.5fps) covering the full 196.2s video reviewed. The entire video after t=47.83s is one continuous button-sewing motion (needle in and out of the buttonhole and fabric); individual stitches are not separately distinguishable at 0.5fps overview sampling, so steps 5-20 are grouped into subtasks by rough position in the process rather than by visually distinct sub-actions, and are given confidence medium throughout. No step exceeds the video duration and no uncovered tail remains; the fine track ends exactly at the ffprobe duration (196.2s).",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 4.35,
+      "summary": "pick up the scissors",
+      "verb": "pick up",
+      "object": "scissors",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up scissors",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 4.35,
+      "end": 17.86,
+      "summary": "thread the needle with white thread",
+      "verb": "insert",
+      "object": "thread",
+      "tool": null,
+      "target": "needle",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "needle"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand threads needle with thread",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 17.86,
+      "end": 38.42,
+      "summary": "cut the thread with scissors",
+      "verb": "cut",
+      "object": "thread",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "needle"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts thread with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.42,
+      "end": 47.83,
+      "summary": "thread the needle again",
+      "verb": "insert",
+      "object": "thread",
+      "tool": null,
+      "target": "needle",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "needle"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand threads needle",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 47.83,
+      "end": 70.4,
+      "summary": "position the plaid shirt on the sewing mat",
+      "verb": "place",
+      "object": "shirt",
+      "tool": null,
+      "target": "sewing mat",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "shirt"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand positions plaid shirt on a mat",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 70.4,
+      "end": 80.68,
+      "summary": "attach the button to the plaid shirt",
+      "verb": "attach",
+      "object": "button",
+      "tool": "needle",
+      "target": "shirt",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand sews button onto plaid shirt",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 80.68,
+      "end": 87.88,
+      "summary": "continue sewing the button onto the shirt",
+      "verb": "attach",
+      "object": "button",
+      "tool": "needle",
+      "target": "shirt",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand sews button onto shirt",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.88,
+      "end": 95.05,
+      "summary": "thread the needle through the buttonhole",
+      "verb": "insert",
+      "object": "needle",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads needle through buttonhole",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.05,
+      "end": 99.19,
+      "summary": "sew the button onto the shirt with both hands",
+      "verb": "attach",
+      "object": "button",
+      "tool": "needle",
+      "target": "shirt",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hands sew button onto shirt",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.19,
+      "end": 104.86,
+      "summary": "continue sewing the button onto the shirt",
+      "verb": "attach",
+      "object": "button",
+      "tool": "needle",
+      "target": "shirt",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand sews button onto shirt",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.86,
+      "end": 109.62,
+      "summary": "thread the needle through the buttonhole again",
+      "verb": "insert",
+      "object": "needle",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads needle through buttonhole",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.62,
+      "end": 119.21,
+      "summary": "keep sewing the button onto the shirt",
+      "verb": "attach",
+      "object": "button",
+      "tool": "needle",
+      "target": "shirt",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hands sew button onto shirt",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.21,
+      "end": 123.05,
+      "summary": "thread the needle through the buttonhole",
+      "verb": "insert",
+      "object": "needle",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads needle through buttonhole",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.05,
+      "end": 131.19,
+      "summary": "thread the needle through another buttonhole",
+      "verb": "insert",
+      "object": "needle",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads needle through buttonhole",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 131.19,
+      "end": 134.87,
+      "summary": "continue threading the needle through the buttonhole",
+      "verb": "insert",
+      "object": "needle",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=123-135s is a pair of repeated buttonhole passes.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads needle through buttonhole",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.87,
+      "end": 145.89,
+      "summary": "sew the button onto the shirt",
+      "verb": "attach",
+      "object": "button",
+      "tool": "needle",
+      "target": "shirt",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=135-146s long continuous stitching pass.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand sews button onto shirt",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 145.89,
+      "end": 161.26,
+      "summary": "thread the needle through the buttonhole once more",
+      "verb": "insert",
+      "object": "needle",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=146-161s long continuous stitching pass.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads needle through buttonhole",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 161.26,
+      "end": 173.77,
+      "summary": "sew the button onto the shirt with both hands",
+      "verb": "attach",
+      "object": "button",
+      "tool": "needle",
+      "target": "shirt",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=161-174s long continuous stitching pass.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hands sew button onto shirt",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 173.77,
+      "end": 185.71,
+      "summary": "continue sewing the button onto the shirt",
+      "verb": "attach",
+      "object": "button",
+      "tool": "needle",
+      "target": "shirt",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand sews button onto shirt",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 185.71,
+      "end": 185.8,
+      "summary": "keep sewing the button onto the shirt",
+      "verb": "attach",
+      "object": "button",
+      "tool": "needle",
+      "target": "shirt",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hands sew button onto shirt",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 185.8,
+      "end": 196.2,
+      "summary": "finish threading the needle through the buttonhole",
+      "verb": "insert",
+      "object": "needle",
+      "tool": null,
+      "target": "button",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "shirt"
+        ],
+        "right": [
+          "needle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=186-196s final continuous stitching pass to the end of the clip.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads needle through buttonhole",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 47.83,
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "instruction": "Thread the needle and prepare to sew",
+      "description": "Picks up scissors, threads a needle with white thread, cuts it to length, and re-threads the needle.",
+      "transition_in": null,
+      "goal_contribution": "Prepares the needle and thread for attaching the button.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 47.83,
+      "end": 99.19,
+      "fine_index_range": [
+        4,
+        8
+      ],
+      "instruction": "Position the shirt and start sewing the button",
+      "description": "Lays the plaid shirt on the sewing mat and begins stitching the button onto the fabric with the threaded needle.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Positions the shirt and starts joining the button to the fabric.",
+      "predictability_level": "strong",
+      "predictability_reason": "A threaded needle is ready to attach the button to the shirt."
+    },
+    {
+      "start": 99.19,
+      "end": 134.87,
+      "fine_index_range": [
+        9,
+        14
+      ],
+      "instruction": "Continue sewing the button onto the shirt",
+      "description": "Keeps passing the needle through the buttonhole and the fabric, repeatedly stitching the button in place.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Adds further stitches through the button and fabric.",
+      "predictability_level": "strong",
+      "predictability_reason": "Started button stitches naturally continue until secure."
+    },
+    {
+      "start": 134.87,
+      "end": 196.2,
+      "fine_index_range": [
+        15,
+        20
+      ],
+      "instruction": "Finish and secure the sewn button",
+      "description": "Continues stitching through the buttonhole until the button is fully and securely sewn onto the shirt.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Continues the button attachment through the final visible stitching.",
+      "predictability_level": "strong",
+      "predictability_reason": "The repeated stitches need securing to finish the button."
+    }
+  ]
+}

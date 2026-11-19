@@ -1,0 +1,2677 @@
+{
+  "video_id": "3c1d649e2700fae3",
+  "duration": 172.334,
+  "task": "Making stuffed dates with goat cheese and almonds",
+  "domain": "Chef",
+  "query": "How do I make stuffed dates with goat cheese and almonds?",
+  "goal": {
+    "title": "Prepare stuffed dates with white filling and sliced nuts",
+    "description": "Open six dates by hand, spoon white filling into their cavities, transfer them to a plate and press sliced nuts into the filling.",
+    "final_state": "Six dates containing white filling and pale sliced-nut toppings remain arranged on a plate; both hands withdraw.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 17.9,
+        "description": "Open the upper cupboard and take out the orange date bag. Pull its opening apart and remove dates one at a time, placing six on the cutting board. Press the bag closed."
+      },
+      {
+        "start": 17.9,
+        "end": 31.9,
+        "description": "Set the bag on the counter, retrieve the hanging dark cloth and wipe the work surface. Return the cloth to its hook. Turn on the faucet, rub both hands under running water, turn the faucet off and dry hands on a hanging towel."
+      },
+      {
+        "start": 31.9,
+        "end": 62.36,
+        "description": "Return to the board and pick up each date in turn. Pull the sides apart with fingers to widen its opening, then place it back on the board. Repeat until six opened dates are aligned in a row. Removal of individual pits is not clearly visible."
+      },
+      {
+        "start": 62.36,
+        "end": 75.93,
+        "description": "Open the utensil drawer, lift a spoon with the left hand and pass it to the right. Scoop white soft filling from an already-open foil wrapper, pick up the first opened date in the left hand and repeatedly spread filling into its cavity. Put the filled date and spoon down."
+      },
+      {
+        "start": 75.93,
+        "end": 86.7,
+        "description": "Leave the kitchen counter and walk into the adjoining room. Press a wall switch; the ceiling light illuminates. Walk back to the dates and retrieve the spoon."
+      },
+      {
+        "start": 86.7,
+        "end": 146.2,
+        "description": "Load the spoon repeatedly from the white filling in its foil wrapper. Pick up the next date with the left hand, spread filling into it and replace it on the board. Repeat for the remaining dates; one date is pulled wider with the left fingers before filling. Finish filling the last date while still holding it."
+      },
+      {
+        "start": 146.2,
+        "end": 153.2,
+        "description": "Return the spoon to the foil wrapper. Use both hands to carry two filled dates to the nearby plate, then transfer the others singly and in a final pair. Adjust the six dates on the plate."
+      },
+      {
+        "start": 153.2,
+        "end": 172.334,
+        "description": "Pick up pale nut slices from the plate with the right fingertips. Hold each date steady with the left hand while pressing slices into the exposed white filling. Repeat across the dates, adjust the arrangement and release the food. The video ends with six garnished dates on the plate; no eating is shown."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 17.9,
+      "description": "Open the upper cupboard and take out the orange date bag. Pull its opening apart and remove dates one at a time, placing six on the cutting board. Press the bag closed."
+    },
+    {
+      "start": 17.9,
+      "end": 31.9,
+      "description": "Set the bag on the counter, retrieve the hanging dark cloth and wipe the work surface. Return the cloth to its hook. Turn on the faucet, rub both hands under running water, turn the faucet off and dry hands on a hanging towel."
+    },
+    {
+      "start": 31.9,
+      "end": 62.36,
+      "description": "Return to the board and pick up each date in turn. Pull the sides apart with fingers to widen its opening, then place it back on the board. Repeat until six opened dates are aligned in a row. Removal of individual pits is not clearly visible."
+    },
+    {
+      "start": 62.36,
+      "end": 75.93,
+      "description": "Open the utensil drawer, lift a spoon with the left hand and pass it to the right. Scoop white soft filling from an already-open foil wrapper, pick up the first opened date in the left hand and repeatedly spread filling into its cavity. Put the filled date and spoon down."
+    },
+    {
+      "start": 75.93,
+      "end": 86.7,
+      "description": "Leave the kitchen counter and walk into the adjoining room. Press a wall switch; the ceiling light illuminates. Walk back to the dates and retrieve the spoon."
+    },
+    {
+      "start": 86.7,
+      "end": 146.2,
+      "description": "Load the spoon repeatedly from the white filling in its foil wrapper. Pick up the next date with the left hand, spread filling into it and replace it on the board. Repeat for the remaining dates; one date is pulled wider with the left fingers before filling. Finish filling the last date while still holding it."
+    },
+    {
+      "start": 146.2,
+      "end": 153.2,
+      "description": "Return the spoon to the foil wrapper. Use both hands to carry two filled dates to the nearby plate, then transfer the others singly and in a final pair. Adjust the six dates on the plate."
+    },
+    {
+      "start": 153.2,
+      "end": 172.334,
+      "description": "Pick up pale nut slices from the plate with the right fingertips. Hold each date steady with the left hand while pressing slices into the exposed white filling. Repeat across the dates, adjust the arrangement and release the food. The video ends with six garnished dates on the plate; no eating is shown."
+    }
+  ],
+  "object_inventory": [
+    "date",
+    "date bag",
+    "spoon",
+    "white filling",
+    "filling wrapper",
+    "sliced nut",
+    "plate",
+    "cloth",
+    "towel",
+    "cutting board",
+    "cupboard",
+    "counter",
+    "faucet",
+    "water",
+    "sink",
+    "hands",
+    "utensil drawer"
+  ],
+  "notes": "All 99 human fine divisions preserved. Every overview, dense interval and continuation page reviewed, followed by all 99 native end frames selected from measured source PTS. Evidence: frames_v2/3c1d649e2700fae3/20261106T074405757721Z and frames/3c1d649e2700fae3/native_v1/ends_verified. White filling resembles soft cheese and pale nut slices resemble almonds, but unreadable packaging does not establish exact ingredient identities; neutral visual names used. No pit extraction clearly visible. Drawer already-open foil package is not described as newly unwrapped. Lighting interruption is retained as idle within filling subtask. Very short release intervals and repeated filling cuts retained without merging. Tail 171.86–172.334s shows hands withdrawing from the completed plate, with no additional fine interval invented. Predictability pending independent blind assessment.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.0,
+      "summary": "open the cupboard",
+      "verb": "open",
+      "object": "cupboard",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens cabinet",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 1.0,
+      "end": 2.8,
+      "summary": "take the date bag from the cupboard",
+      "verb": "pick up",
+      "object": "date bag",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=1.4s take bag; t=2.3s right hand closes cupboard.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pulls out bag of dates",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 2.8,
+      "end": 4.93,
+      "summary": "pull open the date bag",
+      "verb": "open",
+      "object": "date bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": [
+          "date bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand tears open bag of dates",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 4.93,
+      "end": 6.0,
+      "summary": "reach into the open date bag",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": "date bag",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.0,
+      "end": 8.31,
+      "summary": "place a date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places dates on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.31,
+      "end": 10.56,
+      "summary": "take another date from the bag",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": "date bag",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.56,
+      "end": 11.25,
+      "summary": "place a date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.25,
+      "end": 12.96,
+      "summary": "take another date from the bag",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": "date bag",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.96,
+      "end": 13.55,
+      "summary": "place a date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.55,
+      "end": 15.97,
+      "summary": "take and place another date on the board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=14.3s reach into bag; t=15.3s place date; next date is retrieved before t=15.97s. Several hand-object changes retained in source interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.97,
+      "end": 17.0,
+      "summary": "place the remaining dates on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.0,
+      "end": 17.9,
+      "summary": "press the date bag closed",
+      "verb": "close",
+      "object": "date bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date bag"
+        ],
+        "right": [
+          "date bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand seals bag of dates",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.9,
+      "end": 18.98,
+      "summary": "put down the date bag and take the cloth",
+      "verb": "pick up",
+      "object": "cloth",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=18.0s release bag on counter; t=18.8s take hanging dark cloth.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.98,
+      "end": 20.7,
+      "summary": "carry the cloth to the counter",
+      "verb": "move",
+      "object": "cloth",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cloth"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up towel",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.7,
+      "end": 24.16,
+      "summary": "wipe the counter with the cloth",
+      "verb": "wipe",
+      "object": "counter",
+      "tool": "cloth",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=20.7–23.2s wipe surface, then return cloth to its hook at t=24.1s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand wipes counter",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 24.16,
+      "end": 26.2,
+      "summary": "turn on the faucet",
+      "verb": "turn on",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.2,
+      "end": 26.7,
+      "summary": "put both hands under running water",
+      "verb": "move",
+      "object": "water",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand turns on faucet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.7,
+      "end": 28.9,
+      "summary": "rub both hands under running water",
+      "verb": "wash",
+      "object": "hands",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand rinses cutting board",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 28.9,
+      "end": 29.9,
+      "summary": "turn off the faucet",
+      "verb": "turn off",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand turns off faucet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 29.9,
+      "end": 30.3,
+      "summary": "take hold of the hanging towel",
+      "verb": "hold",
+      "object": "towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "towel"
+        ],
+        "right": [
+          "towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand grabs towel",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.3,
+      "end": 31.9,
+      "summary": "dry both hands on the towel",
+      "verb": "wipe",
+      "object": "hands",
+      "tool": "towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=30.3–31.2s rub hands in towel, then release it and return toward board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pulls out towel",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.9,
+      "end": 34.28,
+      "summary": "pick up a date and pull it open",
+      "verb": "open",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=33.7s pick up date; t=34.0s start opening with fingers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand splits multiple dates open",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 34.28,
+      "end": 36.26,
+      "summary": "pull the date open with both hands",
+      "verb": "open",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=34.28–36.26s continues opening the same date across preserved boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.26,
+      "end": 36.94,
+      "summary": "place the opened date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.94,
+      "end": 37.32,
+      "summary": "pick up the next date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.32,
+      "end": 39.37,
+      "summary": "pull the date open with both hands",
+      "verb": "open",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.37,
+      "end": 39.92,
+      "summary": "place the opened date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.92,
+      "end": 42.26,
+      "summary": "open another date and place it on the board",
+      "verb": "open",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=40.1s pick up date, t=41.3s open it, t=41.7s lower it onto board. Compound interval preserved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 42.26,
+      "end": 43.04,
+      "summary": "pick up the next date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.04,
+      "end": 48.8,
+      "summary": "pull the date open with both hands",
+      "verb": "open",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.8,
+      "end": 49.42,
+      "summary": "place the opened date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.42,
+      "end": 50.12,
+      "summary": "pick up the next date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.12,
+      "end": 57.38,
+      "summary": "pull the date open with both hands",
+      "verb": "open",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 57.38,
+      "end": 58.3,
+      "summary": "place the opened date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.3,
+      "end": 59.04,
+      "summary": "pick up the last unopened date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.04,
+      "end": 60.74,
+      "summary": "pull the date open with both hands",
+      "verb": "open",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.74,
+      "end": 62.2,
+      "summary": "place and align the opened dates on the board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.2,
+      "end": 62.36,
+      "summary": "release the date on the cutting board",
+      "verb": "release",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=62.2–62.36s fingers withdraw after arranging the date; no separate intermediate goal.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.36,
+      "end": 63.6,
+      "summary": "open the utensil drawer",
+      "verb": "open",
+      "object": "utensil drawer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 63.6,
+      "end": 64.8,
+      "summary": "reach into the utensil drawer for a spoon",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "spoon"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "At t=64.733s fingers obscure the spoon handle; spoon becomes clear when lifted in next interval.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 64.8,
+      "end": 66.2,
+      "summary": "lift the spoon and pass it to the right hand",
+      "verb": "move",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=65.0s lift spoon in left hand; t=65.8s pass it right while returning to counter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up spoon from drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 66.2,
+      "end": 66.7,
+      "summary": "move the spoon toward the white filling",
+      "verb": "move",
+      "object": "spoon",
+      "tool": null,
+      "target": "white filling",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand closes drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 66.7,
+      "end": 68.2,
+      "summary": "scoop white filling from its wrapper",
+      "verb": "scoop",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "filling wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filling wrapper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand scoops goat cheese with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.2,
+      "end": 69.2,
+      "summary": "pick up an opened date beside the loaded spoon",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up date",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 69.2,
+      "end": 73.63,
+      "summary": "spoon white filling into the opened date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stuffs goat cheese into date",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.63,
+      "end": 74.1,
+      "summary": "spoon white filling into the opened date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69.2–75.25s repeatedly spread filling into the same held date; this boundary divides the ongoing filling action.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.1,
+      "end": 74.82,
+      "summary": "spoon white filling into the opened date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69.2–75.25s repeatedly spread filling into the same held date; this boundary divides the ongoing filling action.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.82,
+      "end": 75.25,
+      "summary": "spoon white filling into the opened date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69.2–75.25s repeatedly spread filling into the same held date; this boundary divides the ongoing filling action.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.25,
+      "end": 75.93,
+      "summary": "put down the spoon and filled date",
+      "verb": "put down",
+      "object": "spoon",
+      "tool": null,
+      "target": "filling wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=75.5s return spoon to wrapper; t=75.7s release date on board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no hand activity",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.93,
+      "end": 81.76,
+      "summary": "idle: walk away and switch on the room light",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "t=80.2s right hand presses wall switch; t=80.4s ceiling light turns on. No food interaction. Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 81.76,
+      "end": 86.7,
+      "summary": "return to the counter and pick up the spoon",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=81.76–86.2s walk back; t=86.5s retrieve spoon.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 86.7,
+      "end": 87.51,
+      "summary": "scoop white filling from its wrapper",
+      "verb": "scoop",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "filling wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filling wrapper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand scoops goat cheese with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.51,
+      "end": 88.97,
+      "summary": "scoop white filling from its wrapper",
+      "verb": "scoop",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "filling wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filling wrapper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=86.7–88.97s ongoing spoon-loading action across preserved cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.97,
+      "end": 89.2,
+      "summary": "release the wrapper beside the loaded spoon",
+      "verb": "release",
+      "object": "filling wrapper",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.2,
+      "end": 90.31,
+      "summary": "pick up an opened date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand stuffs goat cheese into date",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 90.31,
+      "end": 92.56,
+      "summary": "spoon white filling into the date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.56,
+      "end": 93.3,
+      "summary": "place the filled date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 93.3,
+      "end": 94.39,
+      "summary": "scoop white filling from its wrapper",
+      "verb": "scoop",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "filling wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filling wrapper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.39,
+      "end": 95.44,
+      "summary": "scoop white filling from its wrapper",
+      "verb": "scoop",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "filling wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filling wrapper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=93.3–95.44s ongoing spoon-loading action across preserved cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.44,
+      "end": 96.3,
+      "summary": "pick up another opened date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts date down",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 96.3,
+      "end": 102.99,
+      "summary": "open the date further and add white filling",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=96–101.7s left fingers widen date while right holds spoon; t=101.9s begin spreading filling. Compound interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand stuffs goat cheese into date",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 102.99,
+      "end": 105.2,
+      "summary": "spread white filling inside the date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.2,
+      "end": 105.7,
+      "summary": "place the filled date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts date down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.7,
+      "end": 106.5,
+      "summary": "move the spoon back toward the filling",
+      "verb": "move",
+      "object": "spoon",
+      "tool": null,
+      "target": "white filling",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filling wrapper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up date",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.5,
+      "end": 109.82,
+      "summary": "scoop more white filling from the wrapper",
+      "verb": "scoop",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "filling wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filling wrapper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.82,
+      "end": 110.53,
+      "summary": "pick up another opened date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 110.53,
+      "end": 116.82,
+      "summary": "spoon white filling into the date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand scoops goat cheese with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 116.82,
+      "end": 117.3,
+      "summary": "place the filled date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.3,
+      "end": 121.66,
+      "summary": "scoop more white filling from the wrapper",
+      "verb": "scoop",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "filling wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filling wrapper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand stuffs goat cheese into date",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 121.66,
+      "end": 122.15,
+      "summary": "pick up another opened date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 122.15,
+      "end": 127.2,
+      "summary": "spoon white filling into the date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up date",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.2,
+      "end": 128.2,
+      "summary": "spoon white filling into the date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=123.4–131.69s continues filling the same held date; no new tool or food object is acquired at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand scoops goat cheese with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 128.2,
+      "end": 131.69,
+      "summary": "spoon white filling into the date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=123.4–131.69s continues filling the same held date; no new tool or food object is acquired at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand stuffs goat cheese into date",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 131.69,
+      "end": 132.23,
+      "summary": "place the filled date on the cutting board",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 132.23,
+      "end": 136.7,
+      "summary": "scoop more white filling from the wrapper",
+      "verb": "scoop",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "filling wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filling wrapper"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts date down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.7,
+      "end": 137.3,
+      "summary": "pick up the last unfilled date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand scoops goat cheese with spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 137.3,
+      "end": 145.2,
+      "summary": "spoon white filling into the last date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand stuffs goat cheese into date",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 145.2,
+      "end": 146.2,
+      "summary": "finish spreading filling inside the date",
+      "verb": "spread",
+      "object": "white filling",
+      "tool": "spoon",
+      "target": "date",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=145.2–146.2s continues filling from previous interval without a hand-object change.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts date down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 146.2,
+      "end": 147.2,
+      "summary": "put down the spoon and pick up another date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=146.8s return spoon to wrapper, t=147.1s right picks up another filled date; left retains last filled date.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up date",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.2,
+      "end": 148.2,
+      "summary": "place two filled dates on the plate",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts date on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.2,
+      "end": 149.3,
+      "summary": "pick up another filled date",
+      "verb": "pick up",
+      "object": "date",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up date",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 149.3,
+      "end": 150.2,
+      "summary": "place the filled date on the plate",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts date on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 150.2,
+      "end": 151.4,
+      "summary": "transfer another filled date to the plate",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=150.3s pick date from board; t=150.8s lower it onto plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up date",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 151.4,
+      "end": 151.5,
+      "summary": "release the date on the plate",
+      "verb": "release",
+      "object": "date",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=151.4–151.5s is a brief withdrawal between transfers; one native frame at 151.467s shows fingers leaving food.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts date on plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 151.5,
+      "end": 152.59,
+      "summary": "transfer the last two dates to the plate",
+      "verb": "place",
+      "object": "date",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "date"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up date",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 152.59,
+      "end": 153.2,
+      "summary": "arrange the filled dates on the plate",
+      "verb": "adjust",
+      "object": "date",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=152.59–153.2s adjust positions; right starts reaching toward sliced nuts.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.2,
+      "end": 154.0,
+      "summary": "pick up a sliced nut from the plate",
+      "verb": "pick up",
+      "object": "sliced nut",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts date on plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 154.0,
+      "end": 155.55,
+      "summary": "press the sliced nut into a filled date",
+      "verb": "press",
+      "object": "sliced nut",
+      "tool": null,
+      "target": "date",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 155.55,
+      "end": 156.43,
+      "summary": "pick up another sliced nut",
+      "verb": "pick up",
+      "object": "sliced nut",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 156.43,
+      "end": 157.79,
+      "summary": "press the sliced nut into a filled date",
+      "verb": "press",
+      "object": "sliced nut",
+      "tool": null,
+      "target": "date",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 157.79,
+      "end": 159.4,
+      "summary": "finish the garnish and pick up another sliced nut",
+      "verb": "pick up",
+      "object": "sliced nut",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=157.8s release preceding garnish; t=158.9s take next nut slice.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 159.4,
+      "end": 160.19,
+      "summary": "press the sliced nut into a filled date",
+      "verb": "press",
+      "object": "sliced nut",
+      "tool": null,
+      "target": "date",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 160.19,
+      "end": 161.16,
+      "summary": "pick up another sliced nut",
+      "verb": "pick up",
+      "object": "sliced nut",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 161.16,
+      "end": 163.93,
+      "summary": "press sliced nuts into another filled date",
+      "verb": "press",
+      "object": "sliced nut",
+      "tool": null,
+      "target": "date",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 163.93,
+      "end": 164.51,
+      "summary": "pick up another sliced nut",
+      "verb": "pick up",
+      "object": "sliced nut",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 164.51,
+      "end": 165.92,
+      "summary": "press the sliced nut into a filled date",
+      "verb": "press",
+      "object": "sliced nut",
+      "tool": null,
+      "target": "date",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 165.92,
+      "end": 167.2,
+      "summary": "adjust a sliced nut on the filled date",
+      "verb": "adjust",
+      "object": "sliced nut",
+      "tool": null,
+      "target": "date",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": [
+          "sliced nut"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 167.2,
+      "end": 169.2,
+      "summary": "press sliced nuts into the remaining filled date",
+      "verb": "press",
+      "object": "sliced nut",
+      "tool": null,
+      "target": "date",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "date"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=167.2–169.2s press the last garnish and release it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 169.2,
+      "end": 171.86,
+      "summary": "arrange the garnished dates and withdraw both hands",
+      "verb": "adjust",
+      "object": "date",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=169.2–171.4s reposition dates; t=171.8s hands withdraw, leaving six filled dates on plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 17.9,
+      "instruction": "Take six dates from the bag",
+      "description": "Open the cupboard and retrieve the date bag, open its seal, take dates out individually and place six on the cutting board, then reseal the bag.",
+      "fine_index_range": [
+        0,
+        11
+      ],
+      "transition_in": null,
+      "goal_contribution": "Portions the dates that will receive the filling.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 17.9,
+      "end": 31.9,
+      "instruction": "Clean the counter and wash both hands",
+      "description": "Set aside the date bag, take a dark cloth, wipe the counter and return the cloth. Turn on the faucet, wash both hands, stop the water and dry hands on the hanging towel.",
+      "fine_index_range": [
+        12,
+        20
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Prepares the work surface and hands before handling the opened dates.",
+      "predictability_level": "weak",
+      "predictability_reason": "After take six dates from the bag, clean the counter and wash both hands is plausible for prepare stuffed dates with white filling and sliced nuts, but several next steps fit."
+    },
+    {
+      "start": 31.9,
+      "end": 62.36,
+      "instruction": "Open and arrange the dates",
+      "description": "Pick up each date, pull its sides apart with both hands and place it back on the board. Repeat for all six, then align them with their cavities exposed.",
+      "fine_index_range": [
+        21,
+        37
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Creates accessible cavities for spooning in filling.",
+      "predictability_level": "strong",
+      "predictability_reason": "After clean the counter and wash both hands, open and arrange the dates is a natural next stage toward prepare stuffed dates with white filling and sliced nuts."
+    },
+    {
+      "start": 62.36,
+      "end": 146.2,
+      "instruction": "Fill the opened dates",
+      "description": "Retrieve a spoon from the utensil drawer, pass it right and repeatedly scoop white filling from an open foil wrapper into dates held in the left hand. After the first date, briefly leave to switch on a room light, return and fill the remaining dates.",
+      "fine_index_range": [
+        38,
+        77
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the soft white filling to each prepared date.",
+      "predictability_level": "strong",
+      "predictability_reason": "After open and arrange the dates, fill the opened dates is a natural next stage toward prepare stuffed dates with white filling and sliced nuts."
+    },
+    {
+      "start": 146.2,
+      "end": 153.2,
+      "instruction": "Transfer the filled dates onto the plate",
+      "description": "Set the spoon onto the wrapper, pick up filled dates from the cutting board, carry them to the plate in pairs and singly, and arrange all six.",
+      "fine_index_range": [
+        78,
+        85
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Collects the filled dates on their serving plate before garnishing.",
+      "predictability_level": "weak",
+      "predictability_reason": "After fill the opened dates, transfer the filled dates onto the plate is plausible for prepare stuffed dates with white filling and sliced nuts, but several next steps fit."
+    },
+    {
+      "start": 153.2,
+      "end": 171.86,
+      "instruction": "Garnish and arrange the stuffed dates",
+      "description": "Pick up pale nut slices from the plate and press them into the white filling while the left hand steadies each date. Repeat across the dates, adjust their positions and withdraw both hands.",
+      "fine_index_range": [
+        86,
+        98
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Finishes the stuffed dates with sliced-nut toppings and leaves them arranged for serving.",
+      "predictability_level": "strong",
+      "predictability_reason": "After transfer the filled dates onto the plate, garnish and arrange the stuffed dates is a natural next stage toward prepare stuffed dates with white filling and sliced nuts."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/3c1d649e2700fae3/20261106T074405757721Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

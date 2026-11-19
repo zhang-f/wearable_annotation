@@ -1,0 +1,2084 @@
+{
+  "video_id": "8a24481ff511dc25",
+  "duration": 221.534,
+  "task": "Making olive tapenade bruschetta",
+  "domain": "Chef",
+  "query": "How do I make olive tapenade bruschetta?",
+  "goal": {
+    "title": "Make olive and caper spread for toasted bread",
+    "description": "Retrieve a jar from the refrigerator and spoon capers and green olives into a blender cup. Squeeze in lemon juice, add olive oil and screw on the blade assembly. Slice two pieces of bread, drizzle them with oil and toast them in the countertop oven, turning and checking them. Pulse the olive mixture in the blender, remove the blade lid and spoon the chopped spread over both toast slices. Transfer them to a white plate.",
+    "final_state": "Two toasted bread slices covered with coarse olive and caper spread are on a white plate.",
+    "procedure": [
+      "Collect capers and green olives in the blender cup.",
+      "Add lemon juice and olive oil, then close the cup with the blade assembly.",
+      "Slice and oil two bread pieces and toast them in the countertop oven.",
+      "Pulse the olive mixture into a coarse spread.",
+      "Spoon the spread over both toasted slices and serve them on a plate."
+    ]
+  },
+  "object_inventory": [
+    "refrigerator door",
+    "olive jar",
+    "caper jar",
+    "spoon",
+    "blender cup",
+    "capers",
+    "olives",
+    "lemon",
+    "olive oil bottle",
+    "bottle cap",
+    "blade assembly",
+    "blender base",
+    "bread",
+    "knife",
+    "baking tray",
+    "oven door",
+    "oven control",
+    "phone",
+    "charging cable",
+    "olive spread",
+    "plate",
+    "counter",
+    "blinds",
+    "blind cord"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 36.0,
+      "description": "Retrieve the olive jar from the refrigerator. Spoon capers and then successive spoonfuls of green olives into the clear blender cup and put the jar and spoon down."
+    },
+    {
+      "start": 36.0,
+      "end": 72.33,
+      "description": "After briefly moving a shopping bag, return to the counter. Squeeze the lemon into the cup, pour olive oil, replace the bottle cap and screw the blade assembly onto the cup."
+    },
+    {
+      "start": 72.33,
+      "end": 105.2,
+      "description": "Cut two bread slices from the loaf, drizzle them with olive oil, place them on the baking tray and load the tray into the countertop oven."
+    },
+    {
+      "start": 105.2,
+      "end": 140.6,
+      "description": "Briefly attend to the phone and charging cable while the bread heats. Open the oven, turn and adjust the slices, remove the tray to the oven top, close the door and turn the control."
+    },
+    {
+      "start": 140.6,
+      "end": 171.0,
+      "description": "Invert the cup onto the blender base and press it down in repeated pulses. Lift the cup, remove the blade assembly and put it aside."
+    },
+    {
+      "start": 171.0,
+      "end": 194.9,
+      "description": "Scoop from the cup with the spoon, deposit and smooth spread over the first slice, then repeat for the second. Put the cup and spoon down."
+    },
+    {
+      "start": 194.9,
+      "end": 221.26,
+      "description": "Carry one slice to the white plate, pause to lower the window blinds, then move the other toast slice to the plate. Arrange both and lift the plate."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.24,
+      "old_summary": "hand retrieves jar of olives and closes refrigerator door",
+      "summary": "open the refrigerator door",
+      "verb": "open",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Refrigerator door opens and reaching into shelf begins before t=2.24s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 2.24,
+      "end": 3.85,
+      "old_summary": "n",
+      "summary": "retrieve the olive jar from the refrigerator",
+      "verb": "pick up",
+      "object": "olive jar",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "olive jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 3.85,
+      "end": 5.91,
+      "old_summary": "n",
+      "summary": "close the refrigerator door",
+      "verb": "close",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "olive jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Closes fridge while carrying jar; carried hand intermittently off-frame.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.91,
+      "end": 8.9,
+      "old_summary": "n",
+      "summary": "put the olive jar beside the sink",
+      "verb": "put down",
+      "object": "olive jar",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "caper jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Jar placed and caper jar taken by t=8.9s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.9,
+      "end": 10.9,
+      "old_summary": "n",
+      "summary": "pick up the spoon",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "caper jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.9,
+      "end": 15.7,
+      "old_summary": "hand scoops olives from jar and transfers them into a small bowl",
+      "summary": "scoop capers from the jar into the blender cup",
+      "verb": "scoop",
+      "object": "capers",
+      "tool": "spoon",
+      "target": "blender cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "caper jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Multiple spoon transfers capers between jar and cup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.7,
+      "end": 19.8,
+      "old_summary": "n",
+      "summary": "add another spoonful of capers to the cup",
+      "verb": "scoop",
+      "object": "capers",
+      "tool": "spoon",
+      "target": "blender cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "caper jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuation of caper transfer loop; no clear new object at t=15.7s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.8,
+      "end": 20.57,
+      "old_summary": "hand scoops and transfers liquid from jar into small bowl (three times)",
+      "summary": "put the caper jar down and take the olive jar",
+      "verb": "pick up",
+      "object": "olive jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "olive jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Brief jar exchange at t=19.8–20.57s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 20.57,
+      "end": 23.8,
+      "old_summary": "n",
+      "summary": "scoop green olives into the blender cup",
+      "verb": "scoop",
+      "object": "olives",
+      "tool": "spoon",
+      "target": "blender cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "olive jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Larger green olives visible on spoon.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.8,
+      "end": 26.65,
+      "old_summary": "n",
+      "summary": "add more green olives to the cup",
+      "verb": "scoop",
+      "object": "olives",
+      "tool": "spoon",
+      "target": "blender cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "olive jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated olive scoops, same objects.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.65,
+      "end": 30.39,
+      "old_summary": "n",
+      "summary": "scoop another spoonful of olives into the cup",
+      "verb": "scoop",
+      "object": "olives",
+      "tool": "spoon",
+      "target": "blender cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "olive jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated olive scoops, same objects.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.39,
+      "end": 32.93,
+      "old_summary": "hand picks up jar lid and sets it down",
+      "summary": "scrape remaining olives from the jar into the cup",
+      "verb": "scoop",
+      "object": "olives",
+      "tool": "spoon",
+      "target": "blender cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "olive jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Same spoon/jar transfer sequence continues.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 32.93,
+      "end": 34.14,
+      "old_summary": "n",
+      "summary": "put the olive jar down",
+      "verb": "put down",
+      "object": "olive jar",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 34.14,
+      "end": 36.0,
+      "old_summary": "n",
+      "summary": "put the spoon down beside the blender cup",
+      "verb": "put down",
+      "object": "spoon",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.0,
+      "end": 43.4,
+      "old_summary": "hand picks up lemon half",
+      "summary": "idle: move a shopping bag beside the side table",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Shopping bag moved from floor to side of cart; unrelated to preparation. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 43.4,
+      "end": 47.68,
+      "old_summary": "n",
+      "summary": "idle: return to the food preparation counter",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Walking back; no task object interaction. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 47.68,
+      "end": 48.6,
+      "old_summary": "n",
+      "summary": "pick up the lemon half",
+      "verb": "pick up",
+      "object": "lemon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "lemon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 48.6,
+      "end": 56.1,
+      "old_summary": "hand squeezes lemon half over bowl",
+      "summary": "squeeze the lemon into the blender cup",
+      "verb": "squeeze",
+      "object": "lemon",
+      "tool": null,
+      "target": "blender cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Lemon squeezed directly over cup.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.1,
+      "end": 56.7,
+      "old_summary": "n",
+      "summary": "reach for the olive oil bottle",
+      "verb": "reach",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "olive oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Starts grasping oil bottle during brief 0.6s segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 56.7,
+      "end": 58.19,
+      "old_summary": "hand pours olive oil into bowl",
+      "summary": "unscrew the olive oil bottle cap",
+      "verb": "open",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "olive oil bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.19,
+      "end": 63.55,
+      "old_summary": "n",
+      "summary": "pour olive oil into the blender cup",
+      "verb": "pour",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": "blender cup",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "olive oil bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Oil bottle label and pouring into cup visible.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 63.55,
+      "end": 64.99,
+      "old_summary": "n",
+      "summary": "close the olive oil bottle",
+      "verb": "close",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "olive oil bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 64.99,
+      "end": 66.3,
+      "old_summary": "n",
+      "summary": "put the olive oil bottle down",
+      "verb": "put down",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 66.3,
+      "end": 66.93,
+      "old_summary": "hand shakes spice into bowl",
+      "summary": "pick up the blender blade assembly",
+      "verb": "pick up",
+      "object": "blade assembly",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blade assembly"
+        ],
+        "right": [
+          "blade assembly"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Obtains blade assembly while cup nearby; subsecond cut inside pickup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 66.93,
+      "end": 72.33,
+      "old_summary": "hand cuts bread on cutting board",
+      "summary": "screw the blade assembly onto the blender cup",
+      "verb": "screw",
+      "object": "blade assembly",
+      "tool": null,
+      "target": "blender cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "blade assembly"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Screws blade cap onto cup; blender has not yet been run.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 72.33,
+      "end": 75.68,
+      "old_summary": "n",
+      "summary": "pick up the bread knife",
+      "verb": "pick up",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Moves bread/tray and picks up knife by t=75.7s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 75.68,
+      "end": 80.78,
+      "old_summary": "n",
+      "summary": "cut the first slice from the bread loaf",
+      "verb": "cut",
+      "object": "bread",
+      "tool": "knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Repeated sawing strokes through loaf.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 80.78,
+      "end": 83.4,
+      "old_summary": "n",
+      "summary": "cut the second slice from the bread loaf",
+      "verb": "cut",
+      "object": "bread",
+      "tool": "knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.4,
+      "end": 84.31,
+      "old_summary": "hand pours olive oil onto bread slice",
+      "summary": "finish the cut through the bread",
+      "verb": "cut",
+      "object": "bread",
+      "tool": "knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.91s split during final cut through second bread slice.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.31,
+      "end": 85.69,
+      "old_summary": "n",
+      "summary": "put the knife down and reach for olive oil",
+      "verb": "pick up",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "olive oil bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Knife laid down then oil bottle retrieved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 85.69,
+      "end": 87.0,
+      "old_summary": "n",
+      "summary": "open the olive oil bottle",
+      "verb": "open",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "olive oil bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.0,
+      "end": 94.0,
+      "old_summary": "n",
+      "summary": "drizzle olive oil over the bread slices",
+      "verb": "pour",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": "bread",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "olive oil bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Drizzles oil over both cut faces.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.0,
+      "end": 94.82,
+      "old_summary": "hand screws olive oil cap back on",
+      "summary": "close the olive oil bottle cap",
+      "verb": "close",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "olive oil bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Cap replacement begins before end of pouring interval; same bottle interaction.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.82,
+      "end": 96.0,
+      "old_summary": "n",
+      "summary": "put the olive oil bottle down",
+      "verb": "put down",
+      "object": "olive oil bottle",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.0,
+      "end": 96.9,
+      "old_summary": "hand picks up bread slice",
+      "summary": "place a bread slice on the baking tray",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "baking tray",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Places first bread slice and grasps next.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 96.9,
+      "end": 97.47,
+      "old_summary": "hand places bread slice in toaster and closes door",
+      "summary": "place the other bread slice on the tray",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "baking tray",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.57s cut within tray-loading bread handling.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.47,
+      "end": 98.28,
+      "old_summary": "n",
+      "summary": "open the countertop oven door",
+      "verb": "open",
+      "object": "oven door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Open oven at same time tray is readied.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 98.28,
+      "end": 99.9,
+      "old_summary": "n",
+      "summary": "lift the tray of bread toward the oven",
+      "verb": "move",
+      "object": "baking tray",
+      "tool": null,
+      "target": "oven door",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "baking tray"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 99.9,
+      "end": 102.01,
+      "old_summary": "hand toasts bread in toaster",
+      "summary": "slide the bread tray into the oven",
+      "verb": "insert",
+      "object": "baking tray",
+      "tool": null,
+      "target": "oven door",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Tray pushed inside oven; bread still adjusted afterward.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 102.01,
+      "end": 103.95,
+      "old_summary": "n",
+      "summary": "adjust the bread on the oven tray",
+      "verb": "adjust",
+      "object": "bread",
+      "tool": null,
+      "target": "baking tray",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Moves slices and pushes tray, multiple changes.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 103.95,
+      "end": 105.2,
+      "old_summary": "n",
+      "summary": "close the oven door",
+      "verb": "close",
+      "object": "oven door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 105.2,
+      "end": 108.7,
+      "old_summary": "hand holds phone",
+      "summary": "idle: walk away holding the phone",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "phone"
+        ],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Phone visible while walking, unrelated idle. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 108.7,
+      "end": 113.2,
+      "old_summary": "hand plugs and unplugs cable into/out of wall outlet",
+      "summary": "idle: connect the phone charging cable",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "phone"
+        ],
+        "right": [
+          "charging cable"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Connects phone cable at side table, unrelated idle. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 113.2,
+      "end": 124.6,
+      "old_summary": "hand puts phone down",
+      "summary": "idle: set the phone down and wait beside the oven",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Phone put down t=113–114s, waits/walks, then starts opening oven by t=124.6s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 124.6,
+      "end": 125.74,
+      "old_summary": "hand reinserts bread into toaster then removes it again",
+      "summary": "open the countertop oven door",
+      "verb": "open",
+      "object": "oven door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 125.74,
+      "end": 128.55,
+      "old_summary": "n",
+      "summary": "turn one bread slice on the baking tray",
+      "verb": "flip",
+      "object": "bread",
+      "tool": null,
+      "target": "baking tray",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Turns first slice with fingertips, does not assume oven temperature.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 128.55,
+      "end": 130.9,
+      "old_summary": "n",
+      "summary": "turn the other bread slice on the baking tray",
+      "verb": "flip",
+      "object": "bread",
+      "tool": null,
+      "target": "baking tray",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Checks/turns second slice in same bread handling sequence.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.9,
+      "end": 133.99,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "adjust the bread and pull the tray forward",
+      "verb": "move",
+      "object": "baking tray",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "baking tray"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bread adjusted, then tray drawn forward.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.99,
+      "end": 135.38,
+      "old_summary": "n",
+      "summary": "remove the tray from the oven",
+      "verb": "remove",
+      "object": "baking tray",
+      "tool": null,
+      "target": "oven door",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "baking tray"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Tray pulled out and placed on oven top.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 135.38,
+      "end": 136.7,
+      "old_summary": "n",
+      "summary": "put the bread tray on top of the oven",
+      "verb": "put down",
+      "object": "baking tray",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.7,
+      "end": 137.9,
+      "old_summary": "hand removes tray from toaster",
+      "summary": "close the oven door",
+      "verb": "close",
+      "object": "oven door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Closes door and starts control adjustment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 137.9,
+      "end": 139.6,
+      "old_summary": "hand places tray on counter",
+      "summary": "turn the oven control knob",
+      "verb": "turn",
+      "object": "oven control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 139.6,
+      "end": 140.6,
+      "old_summary": "hand adjusts toaster settings",
+      "summary": "release the oven control knob",
+      "verb": "adjust",
+      "object": "oven control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Short continuation of oven knob operation.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 140.6,
+      "end": 143.9,
+      "old_summary": "hand picks up spice grinder",
+      "summary": "invert the blender cup onto the blender base",
+      "verb": "place",
+      "object": "blender cup",
+      "tool": null,
+      "target": "blender base",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender base"
+        ],
+        "right": [
+          "blender cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Cup inverted and fitted into base before pressing.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 143.9,
+      "end": 151.5,
+      "old_summary": "hand attaches grinder to base",
+      "summary": "press the cup down to blend the olive mixture",
+      "verb": "press",
+      "object": "blender cup",
+      "tool": null,
+      "target": "blender base",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender base"
+        ],
+        "right": [
+          "blender cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Repeated pressing pulses t=144–151.5s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 151.5,
+      "end": 153.9,
+      "old_summary": "hand grinds spices",
+      "summary": "lift and reseat the blender cup",
+      "verb": "adjust",
+      "object": "blender cup",
+      "tool": null,
+      "target": "blender base",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender base"
+        ],
+        "right": [
+          "blender cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Cup briefly lifted/reseated before next pulse.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.9,
+      "end": 163.14,
+      "old_summary": "hand removes lid from grinder",
+      "summary": "press the blender cup to continue blending",
+      "verb": "press",
+      "object": "blender cup",
+      "tool": null,
+      "target": "blender base",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender base"
+        ],
+        "right": [
+          "blender cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Repeated pressing until t=163s; coarse texture visible afterward.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 163.14,
+      "end": 165.9,
+      "old_summary": "n",
+      "summary": "lift the blended cup off the base",
+      "verb": "remove",
+      "object": "blender cup",
+      "tool": null,
+      "target": "blender base",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender base"
+        ],
+        "right": [
+          "blender cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Removes cup and transfers grip before blade cap unscrewed.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 165.9,
+      "end": 170.37,
+      "old_summary": "hand reattaches lid to grinder",
+      "summary": "unscrew the blade assembly from the cup",
+      "verb": "unscrew",
+      "object": "blade assembly",
+      "tool": null,
+      "target": "blender cup",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "blade assembly"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Unscrews and lifts blade assembly.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 170.37,
+      "end": 171.0,
+      "old_summary": "n",
+      "summary": "put the blade assembly down",
+      "verb": "put down",
+      "object": "blade assembly",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 171.0,
+      "end": 172.75,
+      "old_summary": "hand places grinder down",
+      "summary": "pick up the spoon beside the cup",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Gets spoon and brings it toward open cup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 172.75,
+      "end": 175.7,
+      "old_summary": "n",
+      "summary": "scoop olive spread from the blender cup",
+      "verb": "scoop",
+      "object": "olive spread",
+      "tool": "spoon",
+      "target": "blender cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 175.7,
+      "end": 176.9,
+      "old_summary": "hand picks up spoon",
+      "summary": "put the spread on the first toast slice",
+      "verb": "place",
+      "object": "olive spread",
+      "tool": "spoon",
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continued spoon deposit/spread across 1.2s cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 176.9,
+      "end": 179.98,
+      "old_summary": "hand scoops tapenade",
+      "summary": "spread the olive mixture over the toast",
+      "verb": "spread",
+      "object": "olive spread",
+      "tool": "spoon",
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 179.98,
+      "end": 183.25,
+      "old_summary": "n",
+      "summary": "scoop another spoonful of olive spread",
+      "verb": "scoop",
+      "object": "olive spread",
+      "tool": "spoon",
+      "target": "blender cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Dips spoon back in cup before topping other slice.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 183.25,
+      "end": 186.1,
+      "old_summary": "hand spreads tapenade on bread",
+      "summary": "put olive spread onto the other toast slice",
+      "verb": "place",
+      "object": "olive spread",
+      "tool": "spoon",
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 186.1,
+      "end": 187.91,
+      "old_summary": "hand scoops more tapenade",
+      "summary": "smooth the spread over the second toast slice",
+      "verb": "spread",
+      "object": "olive spread",
+      "tool": "spoon",
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Repeated smoothing of topping on second slice.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 187.91,
+      "end": 189.66,
+      "old_summary": "n",
+      "summary": "scoop more spread from the blender cup",
+      "verb": "scoop",
+      "object": "olive spread",
+      "tool": "spoon",
+      "target": "blender cup",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 189.66,
+      "end": 191.84,
+      "old_summary": "n",
+      "summary": "add the last spoonful to the toast",
+      "verb": "place",
+      "object": "olive spread",
+      "tool": "spoon",
+      "target": "bread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender cup"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Scoops and deposits another spoonful within interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 191.84,
+      "end": 194.9,
+      "old_summary": "n",
+      "summary": "put the cup and spoon down",
+      "verb": "put down",
+      "object": "blender cup",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Finishes topping and puts utensils down t=192–194.9s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.9,
+      "end": 196.8,
+      "old_summary": "hand picks up bread slice",
+      "summary": "carry one topped toast slice to the plate",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "First slice placed on white plate at t=196.8s.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 196.8,
+      "end": 209.5,
+      "old_summary": "hand opens blinds",
+      "summary": "idle: lower and adjust the window blinds",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Lowers blinds and operates cords; unrelated idle. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 209.5,
+      "end": 210.1,
+      "old_summary": "hand closes blinds",
+      "summary": "idle: finish adjusting the blind cord",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "Continues same blind handling across subsecond cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 210.1,
+      "end": 212.78,
+      "old_summary": "n",
+      "summary": "idle: return to the toast tray",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Walking back to tray; hands empty/out of frame. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 212.78,
+      "end": 215.96,
+      "old_summary": "n",
+      "summary": "carry the other topped toast slice to the plate",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Grasps other toast then carries to plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 215.96,
+      "end": 217.82,
+      "old_summary": "n",
+      "summary": "place and arrange both toast slices on the plate",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Both slices rest on plate by t=217.8s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 217.82,
+      "end": 218.56,
+      "old_summary": "n",
+      "summary": "pick up the plate of olive toast",
+      "verb": "pick up",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Plate pickup begins in 0.74s segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 218.56,
+      "end": 221.26,
+      "old_summary": "n",
+      "summary": "hold up the plate of finished toast",
+      "verb": "hold",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Plate lifted for final presentation; no eating shown.",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 36.0,
+      "fine_index_range": [
+        0,
+        13
+      ],
+      "instruction": "Portion capers and olives into the blender cup",
+      "description": "Retrieve the olive jar from the refrigerator. Spoon capers and then successive spoonfuls of green olives into the clear blender cup and put the jar and spoon down.",
+      "goal_contribution": "Collect the solid ingredients of the coarse olive topping.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 36.0,
+      "end": 72.33,
+      "fine_index_range": [
+        14,
+        24
+      ],
+      "instruction": "Add lemon and olive oil and close the cup",
+      "description": "After briefly moving a shopping bag, return to the counter. Squeeze the lemon into the cup, pour olive oil, replace the bottle cap and screw the blade assembly onto the cup.",
+      "goal_contribution": "Prepare the seasoned olive mixture for blending.",
+      "transition_in": "NONE",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After portion capers and olives into the blender cup, add lemon and olive oil and close the cup is a natural next stage toward make olive and caper spread for toasted bread."
+    },
+    {
+      "start": 72.33,
+      "end": 105.2,
+      "fine_index_range": [
+        25,
+        40
+      ],
+      "instruction": "Slice, oil and toast the bread",
+      "description": "Cut two bread slices from the loaf, drizzle them with olive oil, place them on the baking tray and load the tray into the countertop oven.",
+      "goal_contribution": "Prepare the toasted bread base for the spread.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After add lemon and olive oil and close the cup, slice, oil and toast the bread is plausible for make olive and caper spread for toasted bread, but several next steps fit."
+    },
+    {
+      "start": 105.2,
+      "end": 140.6,
+      "fine_index_range": [
+        41,
+        52
+      ],
+      "instruction": "Wait, turn and remove the toast",
+      "description": "Briefly attend to the phone and charging cable while the bread heats. Open the oven, turn and adjust the slices, remove the tray to the oven top, close the door and turn the control.",
+      "goal_contribution": "Finish the visible toasting stage and make the slices accessible for topping.",
+      "transition_in": "NONE",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After slice, oil and toast the bread, wait, turn and remove the toast is a natural next stage toward make olive and caper spread for toasted bread."
+    },
+    {
+      "start": 140.6,
+      "end": 171.0,
+      "fine_index_range": [
+        53,
+        59
+      ],
+      "instruction": "Blend the olive mixture",
+      "description": "Invert the cup onto the blender base and press it down in repeated pulses. Lift the cup, remove the blade assembly and put it aside.",
+      "goal_contribution": "Chop the ingredients into a coarse olive spread.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After wait, turn and remove the toast, blend the olive mixture is plausible for make olive and caper spread for toasted bread, but several next steps fit."
+    },
+    {
+      "start": 171.0,
+      "end": 194.9,
+      "fine_index_range": [
+        60,
+        69
+      ],
+      "instruction": "Cover both toast slices with olive spread",
+      "description": "Scoop from the cup with the spoon, deposit and smooth spread over the first slice, then repeat for the second. Put the cup and spoon down.",
+      "goal_contribution": "Cover both bread slices with the prepared topping.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After blend the olive mixture, cover both toast slices with olive spread is a natural next stage toward make olive and caper spread for toasted bread."
+    },
+    {
+      "start": 194.9,
+      "end": 221.26,
+      "fine_index_range": [
+        70,
+        77
+      ],
+      "instruction": "Plate and present the olive toast",
+      "description": "Carry one slice to the white plate, pause to lower the window blinds, then move the other toast slice to the plate. Arrange both and lift the plate.",
+      "goal_contribution": "Leave both finished toast slices together on the serving plate.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After cover both toast slices with olive spread, plate and present the olive toast is a natural next stage toward make olive and caper spread for toasted bread."
+    }
+  ],
+  "notes": "All 7 overview sheets, all 19 compact dense pages (1159 frames) and all 5 native endpoint sheets reviewed. Actual t=11–19s capers and t=20–33s olives spooned into cup; t=49–56s lemon squeezed; t=59–63s olive oil added. t=144–153s unrelated phone charging; t=197–210s unrelated blind adjustment marked idle despite hand activity. t=143.9–163.1s blender cup held down in repeated pulses. Fine boundaries preserved."
+}

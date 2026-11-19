@@ -1,0 +1,36 @@
+{
+  "video_id": "93369104441c8bdd",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After portion the pretzels, melt the white coating is plausible for make white-coated star pretzels, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After melt the white coating, coat the first pretzels is a natural next stage toward make white-coated star pretzels."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After coat the first pretzels, coat and transfer another pretzel is a natural next stage toward make white-coated star pretzels."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After coat and transfer another pretzel, finish coating the batch is a natural next stage toward make white-coated star pretzels."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "After finish coating the batch, move the tray into and out of the freezer is plausible for make white-coated star pretzels, but several next steps fit."
+    }
+  ]
+}

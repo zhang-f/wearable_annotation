@@ -1,0 +1,1450 @@
+{
+  "video_id": "c271543bd097924a",
+  "duration": 284.734,
+  "task": "Making rolled paper beads for earrings",
+  "domain": "Arts and Crafts",
+  "query": "How do I make rolled paper beads for earrings?",
+  "goal": {
+    "title": "Roll a pink paper bead and secure its thread",
+    "description": "Position triangular paper and thread, roll the pink strip tightly into an elongated bead, glue down its tip and repeatedly loop and tighten thread beside the bead. The video continues with trimming and displaying the small threaded paper ornament after the source fine coverage ends.",
+    "final_state": "A narrow pink rolled-paper bead hangs from a small thread loop; excess thread is trimmed and the ornament displayed after258.4s.",
+    "procedure": [
+      "Arrange the pink and teal triangular paper pieces and thread.",
+      "Roll the pink triangle into a narrow bead around the thread.",
+      "Apply glue and press the paper tip closed.",
+      "Adjust the thread and form successive loops beside the bead.",
+      "Pull the thread taut and tighten the small looped join.",
+      "Trim excess thread with scissors and display the ornament; this tail lacks source fine segments."
+    ]
+  },
+  "object_inventory": [
+    "pink paper",
+    "teal paper",
+    "thread",
+    "glue bottle",
+    "paper bead"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 18.8,
+      "description": "The two colored paper triangles are smoothed and thread brought across the pink paper edge."
+    },
+    {
+      "start": 18.8,
+      "end": 135.8,
+      "description": "Both hands repeatedly pinch and turn the pink triangle, winding it into a narrow tapered roll around the thread."
+    },
+    {
+      "start": 135.8,
+      "end": 166.4,
+      "description": "The glue bottle is picked up and used at the narrow paper tip; fingers press and roll the glued end."
+    },
+    {
+      "start": 166.4,
+      "end": 209.0,
+      "description": "Fingertips are rubbed, then the thread and bead repeatedly pinched, crossed, drawn through and tightened. The bead is lowered as the thread is stretched."
+    },
+    {
+      "start": 209.0,
+      "end": 233.5,
+      "description": "The thread is drawn across the table, its ends aligned, and a loose loop gathered and lifted again."
+    },
+    {
+      "start": 233.5,
+      "end": 258.4,
+      "description": "The bead is held up while thread ends pass around the crossing and are pulled repeatedly. The last annotated interval ends as the right hand reaches aside."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 6.4,
+      "old_summary": "hand picks up pink paper triangle, hand picks up teal paper triangle",
+      "summary": "both hands smooth triangular paper pieces on table",
+      "verb": "smooth",
+      "object": "pink paper",
+      "tool": null,
+      "target": "teal paper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 6.4,
+      "end": 15.0,
+      "old_summary": "hand picks up pink paper triangle",
+      "summary": "right hand lifts thread then adjusts pink paper",
+      "verb": "adjust",
+      "object": "thread",
+      "tool": null,
+      "target": "pink paper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.0,
+      "end": 18.8,
+      "old_summary": "hand rolls pink paper triangle around string",
+      "summary": "both hands align thread against pink paper edge",
+      "verb": "align",
+      "object": "thread",
+      "tool": null,
+      "target": "pink paper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.8,
+      "end": 135.8,
+      "old_summary": "hands roll pink paper triangle tightly around string",
+      "summary": "both hands tightly roll pink paper around thread",
+      "verb": "roll",
+      "object": "pink paper",
+      "tool": null,
+      "target": "thread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "paper bead"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "18.8–135.8s is a long sustained roll of the pink triangle, with repeated regrips and thread adjustments; fine retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 135.8,
+      "end": 137.6,
+      "old_summary": "right hand picks up glue bottle and applies glue to rolled paper bead",
+      "summary": "right hand picks up glue bottle beside paper bead",
+      "verb": "pick up",
+      "object": "glue bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "glue bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 137.6,
+      "end": 148.5,
+      "old_summary": "hand applies glue to the rolled paper bead",
+      "summary": "right hand applies glue to paper tip and lowers bottle",
+      "verb": "apply",
+      "object": "paper bead",
+      "tool": "glue bottle",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "137.6–148.5s includes glue application around139–141s and145s, bottle placement around147s and return to paper.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.5,
+      "end": 166.4,
+      "old_summary": "hands tie a knot in the string attached to the bead",
+      "summary": "both hands press and roll glued paper tip closed",
+      "verb": "press",
+      "object": "paper bead",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "paper bead"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 166.4,
+      "end": 170.2,
+      "old_summary": "hand trims string with scissors",
+      "summary": "both hands release bead then rub fingertips together",
+      "verb": "rub",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "166.4–170.2s includes release of bead, rubbing fingertips and return toward thread.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 170.2,
+      "end": 171.2,
+      "old_summary": "hand holds the bead while the other hand pulls the string tight",
+      "summary": "left hand retrieves thread beside pink bead",
+      "verb": "take",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 171.2,
+      "end": 180.5,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "both hands pinch thread beside the paper bead",
+      "verb": "pinch",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 180.5,
+      "end": 183.5,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "both hands turn small thread loop beside bead",
+      "verb": "turn",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 183.5,
+      "end": 184.0,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "left hand pinches thread while right steadies bead",
+      "verb": "pinch",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "paper bead"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 184.0,
+      "end": 185.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "left hand pulls thread end away from bead",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "paper bead"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 185.0,
+      "end": 186.0,
+      "old_summary": "hand pulls string taut",
+      "summary": "left hand lowers thread end then returns toward bead",
+      "verb": "move",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "paper bead"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 186.0,
+      "end": 190.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "both hands loop thread alongside paper bead",
+      "verb": "loop",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "paper bead"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 190.0,
+      "end": 193.0,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "both hands pinch and twist thread near bead",
+      "verb": "twist",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 193.0,
+      "end": 194.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand pulls thread end while left holds bead",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.0,
+      "end": 195.0,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "right hand brings thread end back toward bead",
+      "verb": "move",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 195.0,
+      "end": 196.0,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "both hands pinch thread crossing beside bead",
+      "verb": "pinch",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 196.0,
+      "end": 200.5,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "both hands wrap thread around the small crossing",
+      "verb": "wrap",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 200.5,
+      "end": 203.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "both hands tighten thread loop beside paper bead",
+      "verb": "tighten",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 203.0,
+      "end": 204.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "left hand pinches loop while right draws thread through",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "paper bead"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.0,
+      "end": 205.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand slides paper bead along the thread",
+      "verb": "slide",
+      "object": "paper bead",
+      "tool": null,
+      "target": "thread",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "paper bead"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 205.0,
+      "end": 206.2,
+      "old_summary": "hand holds the string",
+      "summary": "both hands pull thread ends around bead",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "paper bead"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 206.2,
+      "end": 209.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "both hands stretch thread and lower paper bead",
+      "verb": "stretch",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 209.0,
+      "end": 213.0,
+      "old_summary": "hand pulls string taut",
+      "summary": "both hands spread long thread across the table",
+      "verb": "spread",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 213.0,
+      "end": 214.5,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand draws thread across tabletop",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 214.5,
+      "end": 215.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand stretches thread while left pinches its end",
+      "verb": "stretch",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 215.0,
+      "end": 216.0,
+      "old_summary": "hand holds the string with the bead",
+      "summary": "left hand holds thread as right reaches back toward it",
+      "verb": "hold",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 216.0,
+      "end": 220.4,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "both hands pinch thread ends together above table",
+      "verb": "pinch",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 220.4,
+      "end": 223.0,
+      "old_summary": "hand pulls string taut",
+      "summary": "right hand pulls thread upward through fingers",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 223.0,
+      "end": 224.5,
+      "old_summary": "hand pulls string taut",
+      "summary": "both hands stretch thread with bead resting below",
+      "verb": "stretch",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 224.5,
+      "end": 225.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand draws thread taut across table",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 225.0,
+      "end": 225.4,
+      "old_summary": "hand holds the bead and string",
+      "summary": "right hand releases and returns toward thread",
+      "verb": "release",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 225.4,
+      "end": 229.5,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "both hands adjust thread crossing on tabletop",
+      "verb": "adjust",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thread"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 229.5,
+      "end": 233.0,
+      "old_summary": "hand pulls string taut",
+      "summary": "both hands lay thread down then gather its loop",
+      "verb": "gather",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 233.0,
+      "end": 233.5,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand lifts thread loop from table",
+      "verb": "lift",
+      "object": "thread",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 233.5,
+      "end": 235.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "both hands bring thread and paper bead upward",
+      "verb": "lift",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 235.0,
+      "end": 236.0,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "both hands pinch thread crossing beside bead",
+      "verb": "pinch",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 236.0,
+      "end": 239.9,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand draws thread through loop beside bead",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 239.9,
+      "end": 243.0,
+      "old_summary": "hand pulls string taut",
+      "summary": "right hand pulls thread upward while left holds bead",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 243.0,
+      "end": 244.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "both hands pinch and adjust thread loop",
+      "verb": "adjust",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 244.0,
+      "end": 245.0,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "right hand threads loose end around loop",
+      "verb": "loop",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 245.0,
+      "end": 246.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "both hands tighten small thread crossing near bead",
+      "verb": "tighten",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 246.0,
+      "end": 250.5,
+      "old_summary": "hands tie a knot in the string",
+      "summary": "both hands work thread through loop beside pink bead",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 250.5,
+      "end": 253.0,
+      "old_summary": "hand pulls string taut",
+      "summary": "right hand pulls thread outward while left pinches join",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 253.0,
+      "end": 254.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand returns loose thread end toward bead",
+      "verb": "move",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 254.0,
+      "end": 255.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "both hands pinch and twist thread at bead end",
+      "verb": "twist",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 255.0,
+      "end": 256.0,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand draws thread through small loop",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 256.0,
+      "end": 257.4,
+      "old_summary": "hand ties a knot in the string",
+      "summary": "right hand pulls thread away from paper bead",
+      "verb": "pull",
+      "object": "thread",
+      "tool": null,
+      "target": "paper bead",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": [
+          "thread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 257.4,
+      "end": 258.4,
+      "old_summary": "hand holds string with bead",
+      "summary": "left hand holds paper bead while right reaches aside",
+      "verb": "hold",
+      "object": "paper bead",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paper bead"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Fine ends258.4s before actual video end. Visible missing task tail: scissors cut thread around260–271s; bead/loop displayed273–280s and placed down282s. Requires additional fine coverage, not boundary stretching.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 18.8,
+      "fine_index_range": [
+        0,
+        2
+      ],
+      "instruction": "Arrange paper and thread.",
+      "description": "The two colored paper triangles are smoothed and thread brought across the pink paper edge.",
+      "goal_contribution": "Align the materials before rolling a threaded paper bead.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 18.8,
+      "end": 135.8,
+      "fine_index_range": [
+        3,
+        3
+      ],
+      "instruction": "Roll the pink paper into a bead.",
+      "description": "Both hands repeatedly pinch and turn the pink triangle, winding it into a narrow tapered roll around the thread.",
+      "goal_contribution": "Form the pink paper body of the ornament.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After arrange paper and thread, roll the pink paper into a bead is a natural next stage toward roll a pink paper bead and secure its thread."
+    },
+    {
+      "start": 135.8,
+      "end": 166.4,
+      "fine_index_range": [
+        4,
+        6
+      ],
+      "instruction": "Glue and press the paper tip closed.",
+      "description": "The glue bottle is picked up and used at the narrow paper tip; fingers press and roll the glued end.",
+      "goal_contribution": "Keep the rolled paper bead from unwinding.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After roll the pink paper into a bead, glue and press the paper tip closed is a natural next stage toward roll a pink paper bead and secure its thread."
+    },
+    {
+      "start": 166.4,
+      "end": 209.0,
+      "fine_index_range": [
+        7,
+        24
+      ],
+      "instruction": "Adjust the thread and form a loop beside the bead.",
+      "description": "Fingertips are rubbed, then the thread and bead repeatedly pinched, crossed, drawn through and tightened. The bead is lowered as the thread is stretched.",
+      "goal_contribution": "Secure and position the thread next to the paper bead.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After glue and press the paper tip closed, adjust the thread and form a loop beside the bead is plausible for roll a pink paper bead and secure its thread, but several next steps fit."
+    },
+    {
+      "start": 209.0,
+      "end": 233.5,
+      "fine_index_range": [
+        25,
+        36
+      ],
+      "instruction": "Spread and gather the long thread.",
+      "description": "The thread is drawn across the table, its ends aligned, and a loose loop gathered and lifted again.",
+      "goal_contribution": "Arrange the remaining thread for the small looped attachment.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After adjust the thread and form a loop beside the bead, spread and gather the long thread is plausible for roll a pink paper bead and secure its thread, but several next steps fit."
+    },
+    {
+      "start": 233.5,
+      "end": 258.4,
+      "fine_index_range": [
+        37,
+        50
+      ],
+      "instruction": "Tighten the small thread loops beside the bead.",
+      "description": "The bead is held up while thread ends pass around the crossing and are pulled repeatedly. The last annotated interval ends as the right hand reaches aside.",
+      "goal_contribution": "Finish tightening the threaded join; trimming and final display remain outside fine coverage.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After spread and gather the long thread, tighten the small thread loops beside the bead is plausible for roll a pink paper bead and secure its thread, but several next steps fit."
+    }
+  ],
+  "notes": "Viewed all9 overview sheets, all1017 dense frames and all51 native endpoints. Only fine boundaries retained. Paper rolling and detailed thread manipulation described from images; exact knot topology is not asserted because fingertips obscure it. Fine coverage ends258.4s; task-related scissors trimming260–271s and final display273–280s remain unannotated. Predictability pending independent testing."
+}

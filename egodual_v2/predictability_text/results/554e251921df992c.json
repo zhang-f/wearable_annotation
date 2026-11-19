@@ -1,0 +1,36 @@
+{
+  "video_id": "554e251921df992c",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After remove the hood filters and round covers, wash and rinse the first round filter cover is a natural next stage toward clean and reinstall the range hood filter assembly."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After wash and rinse the first round filter cover, wash and rinse the second round filter cover is a natural next stage toward clean and reinstall the range hood filter assembly."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After wash and rinse the second round filter cover, dry the covers and clear the sink area is a natural next stage toward clean and reinstall the range hood filter assembly."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After dry the covers and clear the sink area, reinstall the covers and metal baffle filters is a natural next stage toward clean and reinstall the range hood filter assembly."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After reinstall the covers and metal baffle filters, reconnect power and check the hood controls is a natural next stage toward clean and reinstall the range hood filter assembly."
+    }
+  ]
+}

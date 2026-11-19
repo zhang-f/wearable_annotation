@@ -1,0 +1,2312 @@
+{
+  "video_id": "00735eddaeaaff4a",
+  "duration": 303.067,
+  "task": "Making classic hummus with lemon and garlic",
+  "domain": "Chef",
+  "query": "How do I make classic hummus with lemon and garlic?",
+  "goal": {
+    "title": "Make hummus in a food processor",
+    "description": "Rinse canned chickpeas, combine them with tahini, oil, trimmed garlic and squeezed lemon in a processor, then blend in several passes with additional tahini, oil and white seasoning between passes.",
+    "final_state": "A beige chickpea paste remains around the blade in the open processor jug. It has been stirred and sampled with a spoon; mouth contact and serving are not visible.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 31.1,
+        "description": "Pull open the chickpea can, carry it to the sink and retrieve a mesh strainer. Pour and shake the chickpeas into the strainer, set the can aside and rinse the chickpeas under running water while shaking them. Move the processor jug beside the sink, lift it and tip the drained chickpeas inside. Put the strainer in the sink and return the filled jug to the counter."
+      },
+      {
+        "start": 31.1,
+        "end": 79.34,
+        "description": "Open the tahini jar and stir its contents with a spoon, but then put the jar down and rinse and rub the spoon under the tap. Shut off the water, lift the jar again and scrape a spoonful of tahini onto the chickpeas. Put the jar aside, change the spoon to the left hand, uncap the oil bottle and fill the spoon with oil. Tip the oil into the processor, return the bottle, wipe the spoon and put it in the small bowl in the sink. Briefly withdraw and inspect the hands."
+      },
+      {
+        "start": 79.34,
+        "end": 148.87,
+        "description": "Adjust the processor blade by its central shaft, briefly move between garlic on the board and the jug, then take a knife. Hold and trim garlic cloves on the board, repeatedly repositioning them and scraping their skins. Put the knife down to pull away papery skin with the fingertips, pick it up for additional trimming, then peel again. Drop the peeled clove into the jug, retrieve another piece, cut it into smaller pieces and drop those into the jug too."
+      },
+      {
+        "start": 148.87,
+        "end": 186,
+        "description": "Put the knife down and lift a previously cut lemon half. Separate the lemon pieces, hold the half above the processor and repeatedly squeeze and work its pulp with the fingertips. Put the squeezed half on the board, pick up and fit the processor lid, seat the motor on it, then extend and untangle the power cord and plug it into the wall outlet."
+      },
+      {
+        "start": 186,
+        "end": 239,
+        "description": "Reposition the processor and press its motor button to blend the ingredients. Remove and set down the motor and lid, retrieve a spoon from the drawer and stir and lift a sample of the coarse chickpea mixture. Exchange spoons at the drawer, retrieve the tahini jar and scrape another spoonful into the processor. Put the spoon in the sink, pour additional oil directly from its bottle, return the jar and fit the lid and motor again."
+      },
+      {
+        "start": 239,
+        "end": 281.45,
+        "description": "Hold the processor button for a longer blend, producing a finer beige paste. Remove and set down the motor and lid, retrieve the spoon, scrape the walls and stir and lift another sample. Mouth contact is out of view. Retrieve the small shaker, shake white seasoning into the jug and return the shaker to the counter."
+      },
+      {
+        "start": 281.45,
+        "end": 303.067,
+        "description": "Replace the lid and motor, run a final short blend, remove and set down the motor and uncover the jug. Retrieve the spoon, stir and scrape the paste and lift another sample before lowering the spoon near the sink. Pick up the processor lid again at the very end. The paste remains in the processor jug; transfer to a serving bowl is not shown."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 31.1,
+      "description": "Pull open the chickpea can, carry it to the sink and retrieve a mesh strainer. Pour and shake the chickpeas into the strainer, set the can aside and rinse the chickpeas under running water while shaking them. Move the processor jug beside the sink, lift it and tip the drained chickpeas inside. Put the strainer in the sink and return the filled jug to the counter."
+    },
+    {
+      "start": 31.1,
+      "end": 79.34,
+      "description": "Open the tahini jar and stir its contents with a spoon, but then put the jar down and rinse and rub the spoon under the tap. Shut off the water, lift the jar again and scrape a spoonful of tahini onto the chickpeas. Put the jar aside, change the spoon to the left hand, uncap the oil bottle and fill the spoon with oil. Tip the oil into the processor, return the bottle, wipe the spoon and put it in the small bowl in the sink. Briefly withdraw and inspect the hands."
+    },
+    {
+      "start": 79.34,
+      "end": 148.87,
+      "description": "Adjust the processor blade by its central shaft, briefly move between garlic on the board and the jug, then take a knife. Hold and trim garlic cloves on the board, repeatedly repositioning them and scraping their skins. Put the knife down to pull away papery skin with the fingertips, pick it up for additional trimming, then peel again. Drop the peeled clove into the jug, retrieve another piece, cut it into smaller pieces and drop those into the jug too."
+    },
+    {
+      "start": 148.87,
+      "end": 186,
+      "description": "Put the knife down and lift a previously cut lemon half. Separate the lemon pieces, hold the half above the processor and repeatedly squeeze and work its pulp with the fingertips. Put the squeezed half on the board, pick up and fit the processor lid, seat the motor on it, then extend and untangle the power cord and plug it into the wall outlet."
+    },
+    {
+      "start": 186,
+      "end": 239,
+      "description": "Reposition the processor and press its motor button to blend the ingredients. Remove and set down the motor and lid, retrieve a spoon from the drawer and stir and lift a sample of the coarse chickpea mixture. Exchange spoons at the drawer, retrieve the tahini jar and scrape another spoonful into the processor. Put the spoon in the sink, pour additional oil directly from its bottle, return the jar and fit the lid and motor again."
+    },
+    {
+      "start": 239,
+      "end": 281.45,
+      "description": "Hold the processor button for a longer blend, producing a finer beige paste. Remove and set down the motor and lid, retrieve the spoon, scrape the walls and stir and lift another sample. Mouth contact is out of view. Retrieve the small shaker, shake white seasoning into the jug and return the shaker to the counter."
+    },
+    {
+      "start": 281.45,
+      "end": 303.067,
+      "description": "Replace the lid and motor, run a final short blend, remove and set down the motor and uncover the jug. Retrieve the spoon, stir and scrape the paste and lift another sample before lowering the spoon near the sink. Pick up the processor lid again at the very end. The paste remains in the processor jug; transfer to a serving bowl is not shown."
+    }
+  ],
+  "object_inventory": [
+    "chickpea can",
+    "can lid",
+    "strainer",
+    "processor jug",
+    "processor lid",
+    "processor motor",
+    "spoon",
+    "tahini jar",
+    "tahini lid",
+    "oil bottle",
+    "garlic clove",
+    "knife",
+    "lemon half",
+    "salt shaker",
+    "processor blade",
+    "power cord",
+    "chickpeas",
+    "tahini",
+    "oil",
+    "chickpea mixture",
+    "faucet control",
+    "faucet",
+    "sink",
+    "counter",
+    "small bowl",
+    "cutting board",
+    "cutlery drawer",
+    "wall outlet"
+  ],
+  "notes": "All84 human fine divisions preserved. Full ten-page overview, all84 dense first pages, all33 continuation pages and all84 native end states reviewed. Mouth contact during lifted spoon samples is outside camera view, so tasting is not asserted. The clip has an unannotated tail301.72–303.067s: left hand picks up processor lid at approximately302.2–303s; no new fine boundary added. Garlic prep includes repeated trimming and peeling, retained in actual order. Predictability is pending independent blind workers.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.4,
+      "summary": "pull the lid off the chickpea can",
+      "verb": "open",
+      "object": "chickpea can",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chickpea can"
+        ],
+        "right": [
+          "can lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up can and opens it",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.4,
+      "end": 5.45,
+      "summary": "pick up the strainer beside the sink",
+      "verb": "pick up",
+      "object": "strainer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "chickpea can"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=3.7s carry can toward sink and change hands; t=5.2s grasp strainer.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours chickpeas from can into strainer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.45,
+      "end": 6.05,
+      "summary": "move the strainer over the sink",
+      "verb": "move",
+      "object": "strainer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "chickpea can"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 6.05,
+      "end": 9.94,
+      "summary": "pour the chickpeas into the strainer",
+      "verb": "pour",
+      "object": "chickpeas",
+      "tool": "chickpea can",
+      "target": "strainer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "chickpea can"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.94,
+      "end": 11.9,
+      "summary": "shake remaining chickpeas out of the can",
+      "verb": "shake",
+      "object": "chickpea can",
+      "tool": null,
+      "target": "strainer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=10–10.8s finish shaking; t=11.3s set can down; t=11.8s reach for tap.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.9,
+      "end": 13.25,
+      "summary": "turn on the faucet",
+      "verb": "turn",
+      "object": "faucet control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand turns on and off faucet to rinse chickpeas",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 13.25,
+      "end": 16.2,
+      "summary": "rinse the chickpeas under running water",
+      "verb": "rinse",
+      "object": "chickpeas",
+      "tool": "strainer",
+      "target": "faucet",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "strainer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=13.3–15.8s rinse and shake chickpeas; t=16s transfer strainer to right hand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.2,
+      "end": 18.97,
+      "summary": "move the processor jug beside the sink",
+      "verb": "move",
+      "object": "processor jug",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "strainer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.97,
+      "end": 25.6,
+      "summary": "shake the strainer and lift the processor jug",
+      "verb": "shake",
+      "object": "strainer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "processor jug"
+        ],
+        "right": [
+          "strainer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=19–24s shake strainer over sink; t=24.8s lift processor jug with left hand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.6,
+      "end": 28.6,
+      "summary": "tip the chickpeas into the processor jug",
+      "verb": "pour",
+      "object": "chickpeas",
+      "tool": "strainer",
+      "target": "processor jug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "processor jug"
+        ],
+        "right": [
+          "strainer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand places strainer down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.6,
+      "end": 29.93,
+      "summary": "put the strainer in the sink",
+      "verb": "put down",
+      "object": "strainer",
+      "tool": null,
+      "target": "sink",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "processor jug"
+        ],
+        "right": [
+          "processor jug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=28.9s set strainer down; t=29.4s change grip on processor jug.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand removes lid from blender and reaches for jar",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.93,
+      "end": 31.1,
+      "summary": "place the processor jug on the counter",
+      "verb": "place",
+      "object": "processor jug",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "processor jug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.1,
+      "end": 32.36,
+      "summary": "pick up the tahini jar",
+      "verb": "pick up",
+      "object": "tahini jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tahini jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up spoon, opens jar, scoops tahini, pours it into sink, then places jar down",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 32.36,
+      "end": 33.65,
+      "summary": "unscrew the tahini jar lid",
+      "verb": "open",
+      "object": "tahini jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tahini jar"
+        ],
+        "right": [
+          "tahini lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.65,
+      "end": 34.42,
+      "summary": "put down the tahini lid and pick up the spoon",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tahini jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 34.42,
+      "end": 38.9,
+      "summary": "stir the tahini in its jar",
+      "verb": "stir",
+      "object": "tahini",
+      "tool": "spoon",
+      "target": "tahini jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tahini jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.9,
+      "end": 39.74,
+      "summary": "put the tahini jar on the counter",
+      "verb": "put down",
+      "object": "tahini jar",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand turns on faucet and rinses spoon under tap",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.74,
+      "end": 40.92,
+      "summary": "adjust the faucet control",
+      "verb": "turn",
+      "object": "faucet control",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 40.92,
+      "end": 46.0,
+      "summary": "rinse the spoon under the faucet",
+      "verb": "rinse",
+      "object": "spoon",
+      "tool": null,
+      "target": "faucet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.0,
+      "end": 53.0,
+      "summary": "rub the spoon under running water",
+      "verb": "rub",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=46.5–51.8s fingers rub spoon bowl under water; t=52s shut tap off; t=52.8s return to jar.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand turns off faucet",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 53.0,
+      "end": 54.15,
+      "summary": "pick up the tahini jar",
+      "verb": "pick up",
+      "object": "tahini jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tahini jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up jar, scoops tahini with spoon, adds tahini to blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 54.15,
+      "end": 58.85,
+      "summary": "spoon tahini into the processor jug",
+      "verb": "place",
+      "object": "tahini",
+      "tool": "spoon",
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tahini jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=54.2–55.8s scoop from jar; t=56.4–58.8s scrape spoonful onto chickpeas.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand places jar down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.85,
+      "end": 61.1,
+      "summary": "put the tahini jar on the counter",
+      "verb": "put down",
+      "object": "tahini jar",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 61.1,
+      "end": 63.55,
+      "summary": "pick up the oil bottle",
+      "verb": "pick up",
+      "object": "oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "spoon"
+        ],
+        "right": [
+          "oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=61.4s transfer spoon to left hand; t=62.5s lift oil bottle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up oil bottle, unscrews cap, pours oil onto spoon, adds oil to blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 63.55,
+      "end": 71.2,
+      "summary": "pour oil into the spoon",
+      "verb": "pour",
+      "object": "oil",
+      "tool": "oil bottle",
+      "target": "spoon",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "spoon"
+        ],
+        "right": [
+          "oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=65.8–66.4s loosen bottle cap; t=67.1–71.2s fill spoon held above jug.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.2,
+      "end": 73.5,
+      "summary": "tip the spoonful of oil into the processor jug",
+      "verb": "pour",
+      "object": "oil",
+      "tool": "spoon",
+      "target": "processor jug",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "spoon"
+        ],
+        "right": [
+          "oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=71.5s tip oil from spoon; t=72.5–73.5s lower bottle to counter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand places oil bottle down, screws cap back on",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.5,
+      "end": 75.5,
+      "summary": "wipe the spoon with a fingertip",
+      "verb": "wipe",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=73.7s transfer spoon to right hand and wipe its surface with left fingertip.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand places spoon down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.5,
+      "end": 76.81,
+      "summary": "put the spoon in the small bowl",
+      "verb": "put down",
+      "object": "spoon",
+      "tool": null,
+      "target": "small bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up and puts down knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 76.81,
+      "end": 77.99,
+      "summary": "idle: withdraw the hands from the sink",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 77.99,
+      "end": 79.34,
+      "summary": "idle: inspect the hands beside the counter",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 79.34,
+      "end": 84.4,
+      "summary": "adjust the processor blade inside the jug",
+      "verb": "adjust",
+      "object": "processor blade",
+      "tool": null,
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "garlic clove"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=81–84.2s right fingers grip and shift central blade shaft; t=84.3s reach to garlic clove on board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens tahini jar and pours tahini into blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 84.4,
+      "end": 85.57,
+      "summary": "move a garlic clove toward the processor jug",
+      "verb": "move",
+      "object": "garlic clove",
+      "tool": null,
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "processor blade"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "Hand prepares first garlic clove by placing on board, picking up knife, cutting, and peeling",
+      "notes": "Small clove and blade shaft are partially occluded by right hand; exact placement of clove is unclear.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 85.57,
+      "end": 89.15,
+      "summary": "adjust the blade and pick up the knife",
+      "verb": "adjust",
+      "object": "processor blade",
+      "tool": null,
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=85.6–87.8s adjust central blade; t=88.5s move clove to cutting board; t=89s pick up knife.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.15,
+      "end": 90.4,
+      "summary": "trim the garlic clove with the knife",
+      "verb": "cut",
+      "object": "garlic clove",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.4,
+      "end": 94.65,
+      "summary": "cut the end off the garlic clove",
+      "verb": "cut",
+      "object": "garlic clove",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand prepares second garlic clove by picking up, cutting, and peeling",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.65,
+      "end": 97.5,
+      "summary": "trim another end of the garlic clove",
+      "verb": "cut",
+      "object": "garlic clove",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.5,
+      "end": 98.8,
+      "summary": "reposition the garlic clove beside the knife",
+      "verb": "move",
+      "object": "garlic clove",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.8,
+      "end": 100.32,
+      "summary": "scrape the garlic skin with the knife",
+      "verb": "scrape",
+      "object": "garlic clove",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand prepares third garlic clove by picking up, cutting, and peeling",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 100.32,
+      "end": 103.48,
+      "summary": "trim the garlic clove on the cutting board",
+      "verb": "cut",
+      "object": "garlic clove",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.48,
+      "end": 110.64,
+      "summary": "peel the garlic clove with both hands",
+      "verb": "peel",
+      "object": "garlic clove",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "garlic clove"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=104.1s put knife down; t=104.5–110.6s pinch and pull papery skin.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand prepares fourth garlic clove by picking up, cutting, and peeling",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.64,
+      "end": 118.18,
+      "summary": "peel more skin from the garlic clove",
+      "verb": "peel",
+      "object": "garlic clove",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continues preceding peeling until t=117.7s; t=118s pick up knife.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand prepares fifth garlic clove by picking up, cutting, and peeling",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.18,
+      "end": 122.9,
+      "summary": "peel the garlic clove with the fingertips",
+      "verb": "peel",
+      "object": "garlic clove",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "garlic clove"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=118.3s put knife down without cutting; resume finger peeling.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 122.9,
+      "end": 127.15,
+      "summary": "trim remaining skin from the garlic clove",
+      "verb": "cut",
+      "object": "garlic clove",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand prepares sixth garlic clove by picking up, cutting, and peeling",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.15,
+      "end": 134.43,
+      "summary": "pull the loosened skin off the garlic clove",
+      "verb": "peel",
+      "object": "garlic clove",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "garlic clove"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand prepares seventh garlic clove by picking up, cutting, and peeling",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.43,
+      "end": 137.32,
+      "summary": "drop the peeled garlic into the processor jug",
+      "verb": "place",
+      "object": "garlic clove",
+      "tool": null,
+      "target": "processor jug",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=134.4–136.2s finish peeling; t=136.7s drop clove into jug; t=137.2s retrieve remaining garlic and knife.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 137.32,
+      "end": 138.9,
+      "summary": "trim another garlic clove on the board",
+      "verb": "cut",
+      "object": "garlic clove",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 138.9,
+      "end": 143.72,
+      "summary": "cut the garlic clove into smaller pieces",
+      "verb": "cut",
+      "object": "garlic clove",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand prepares eighth garlic clove by picking up, cutting, and peeling",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 143.72,
+      "end": 146.9,
+      "summary": "cut more pieces from the garlic clove",
+      "verb": "cut",
+      "object": "garlic clove",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "garlic clove"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=143.7–146.9s continues same clove cutting; human boundary does not introduce a new tool.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 146.9,
+      "end": 148.87,
+      "summary": "drop the garlic pieces into the processor jug",
+      "verb": "place",
+      "object": "garlic clove",
+      "tool": null,
+      "target": "processor jug",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand prepares ninth garlic clove by picking up, cutting, and peeling",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.87,
+      "end": 151.71,
+      "summary": "pick up the lemon half",
+      "verb": "pick up",
+      "object": "lemon half",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "lemon half"
+        ],
+        "right": [
+          "lemon half"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=149s wipe clove residue off knife onto board; t=150.1s put knife down and lift previously cut lemon half.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand squeezes lemon juice into food processor",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 151.71,
+      "end": 168.0,
+      "summary": "squeeze the lemon half over the processor jug",
+      "verb": "squeeze",
+      "object": "lemon half",
+      "tool": null,
+      "target": "processor jug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "lemon half"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=152.5s separate nested lemon pieces; t=153.5–167.8s squeeze repeatedly, with left fingertips working into pulp.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 168.0,
+      "end": 169.59,
+      "summary": "put down the lemon and pick up the processor lid",
+      "verb": "pick up",
+      "object": "processor lid",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "processor lid"
+        ],
+        "right": [
+          "processor lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand prepares food processor by placing lid and attaching blender base",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 169.59,
+      "end": 173.76,
+      "summary": "fit the lid onto the processor jug",
+      "verb": "close",
+      "object": "processor jug",
+      "tool": "processor lid",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "processor motor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=170.2–173.3s align and press lid onto jug; t=173.7s reach toward motor.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 173.76,
+      "end": 174.68,
+      "summary": "pick up the processor motor",
+      "verb": "pick up",
+      "object": "processor motor",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "processor motor"
+        ],
+        "right": [
+          "processor motor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 174.68,
+      "end": 176.85,
+      "summary": "place the motor on the processor lid",
+      "verb": "place",
+      "object": "processor motor",
+      "tool": null,
+      "target": "processor lid",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=174.8–176.2s seat motor; t=176.6s start untangling cord.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand disconnects blender base and unplugs cord",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 176.85,
+      "end": 186.0,
+      "summary": "untangle and plug in the processor power cord",
+      "verb": "plug in",
+      "object": "power cord",
+      "tool": null,
+      "target": "wall outlet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "processor jug"
+        ],
+        "right": [
+          "processor jug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=177–179.5s extend cord; t=180–185s insert plug at wall outlet; t=185.8s grasp processor jug.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand reconnects blender cord",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 186.0,
+      "end": 200.32,
+      "summary": "press the processor button to blend the chickpeas",
+      "verb": "press",
+      "object": "processor motor",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "processor motor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=186–187s reposition jug; t=187.5–199s hold button, then lift motor off at t=200.1s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand re-covers food processor with lid",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 200.32,
+      "end": 202.1,
+      "summary": "put down the motor and remove the processor lid",
+      "verb": "remove",
+      "object": "processor lid",
+      "tool": null,
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "processor jug"
+        ],
+        "right": [
+          "processor lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 202.1,
+      "end": 203.25,
+      "summary": "set the processor lid beside the jug",
+      "verb": "put down",
+      "object": "processor lid",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand stirs hummus with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 203.25,
+      "end": 205.42,
+      "summary": "open the cutlery drawer and reach for a spoon",
+      "verb": "open",
+      "object": "cutlery drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 205.42,
+      "end": 206.25,
+      "summary": "take the spoon out of the drawer",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 206.25,
+      "end": 207.97,
+      "summary": "stir the chickpea mixture with the spoon",
+      "verb": "stir",
+      "object": "chickpea mixture",
+      "tool": "spoon",
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 207.97,
+      "end": 213.0,
+      "summary": "lift a spoonful of chickpea mixture",
+      "verb": "scoop",
+      "object": "chickpea mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=208.5s spoon rises out of camera view; t=211.5s returns toward sink. Possible tasting cannot be observed directly.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 213.0,
+      "end": 215.57,
+      "summary": "take another spoon from the cutlery drawer",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "spoon"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand retrieves spoon and closes drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 215.57,
+      "end": 216.9,
+      "summary": "change spoons and close the cutlery drawer",
+      "verb": "put down",
+      "object": "spoon",
+      "tool": null,
+      "target": "cutlery drawer",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=215.6–216.3s return one spoon and retain another; t=216.5s close drawer.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 216.9,
+      "end": 226.25,
+      "summary": "scoop more tahini from the jar",
+      "verb": "scoop",
+      "object": "tahini",
+      "tool": "spoon",
+      "target": "tahini jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tahini jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=217.8s retrieve jar; t=219–224s scrape and scoop; t=224.8–226.2s transfer loaded spoon into processor jug.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand scoops tahini from jar and adds it to food processor",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 226.25,
+      "end": 229.08,
+      "summary": "scrape the tahini into the chickpea mixture",
+      "verb": "scrape",
+      "object": "tahini",
+      "tool": "spoon",
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tahini jar"
+        ],
+        "right": [
+          "oil bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=226.3–227.8s scrape spoon inside jug; t=228.4s put spoon in sink bowl and retrieve oil bottle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand pours olive oil into food processor",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 229.08,
+      "end": 233.0,
+      "summary": "pour more oil directly into the processor jug",
+      "verb": "pour",
+      "object": "oil",
+      "tool": "oil bottle",
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tahini jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=230.1–232.2s free pour oil; t=232.8s return bottle and t=233s lower jar.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 233.0,
+      "end": 236.26,
+      "summary": "set down the jar and replace the processor lid",
+      "verb": "close",
+      "object": "processor jug",
+      "tool": "processor lid",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "processor motor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=233.4s jar released; t=234.3–236s fit lid; t=236.2s reach for motor.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand secures food processor lid and attaches blender base",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 236.26,
+      "end": 239.0,
+      "summary": "place the processor motor on the lid",
+      "verb": "place",
+      "object": "processor motor",
+      "tool": null,
+      "target": "processor lid",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "processor motor"
+        ],
+        "right": [
+          "processor motor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 239.0,
+      "end": 265.8,
+      "summary": "press the processor button to blend the mixture",
+      "verb": "press",
+      "object": "processor motor",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "processor motor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=239.8–265.7s continuous button hold; mixture becomes a finer beige paste.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand blends ingredients thoroughly",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 265.8,
+      "end": 269.0,
+      "summary": "remove the motor and open the processor jug",
+      "verb": "remove",
+      "object": "processor motor",
+      "tool": null,
+      "target": "processor lid",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "processor lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=266.1s lift motor; t=267.4s set it down; t=268.9s lift lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand re-covers food processor with lid",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 269.0,
+      "end": 269.88,
+      "summary": "put down the processor lid and retrieve the spoon",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand stirs hummus with spoon",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 269.88,
+      "end": 271.53,
+      "summary": "scrape chickpea paste down the processor walls",
+      "verb": "scrape",
+      "object": "chickpea mixture",
+      "tool": "spoon",
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 271.53,
+      "end": 273.0,
+      "summary": "stir the chickpea paste with the spoon",
+      "verb": "stir",
+      "object": "chickpea mixture",
+      "tool": "spoon",
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 273.0,
+      "end": 277.11,
+      "summary": "lift a spoonful of the chickpea paste",
+      "verb": "scoop",
+      "object": "chickpea mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=274.2s loaded spoon leaves view and returns at t=276.5s; mouth contact is outside the image.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 277.11,
+      "end": 278.52,
+      "summary": "pick up the salt shaker",
+      "verb": "pick up",
+      "object": "salt shaker",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salt shaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 278.52,
+      "end": 280.64,
+      "summary": "shake salt into the processor jug",
+      "verb": "shake",
+      "object": "salt shaker",
+      "tool": null,
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salt shaker"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "White granules from transparent shaker; salt identity follows visible appearance, label is not readable.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 280.64,
+      "end": 281.45,
+      "summary": "put the salt shaker on the counter",
+      "verb": "put down",
+      "object": "salt shaker",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 281.45,
+      "end": 284.32,
+      "summary": "replace the processor lid",
+      "verb": "close",
+      "object": "processor jug",
+      "tool": "processor lid",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "processor motor"
+        ],
+        "right": [
+          "processor motor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=281.5–283.8s align lid; t=284.2s retrieve motor.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 284.32,
+      "end": 287.18,
+      "summary": "seat the motor on the processor lid",
+      "verb": "place",
+      "object": "processor motor",
+      "tool": null,
+      "target": "processor lid",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "processor motor"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 287.18,
+      "end": 293.05,
+      "summary": "press the button for a final short blend",
+      "verb": "press",
+      "object": "processor motor",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "processor motor"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=287.3–290.8s press button; t=291.8s lift motor and t=293s put it down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 293.05,
+      "end": 295.73,
+      "summary": "remove the processor lid and pick up the spoon",
+      "verb": "remove",
+      "object": "processor lid",
+      "tool": null,
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 295.73,
+      "end": 301.72,
+      "summary": "stir and lift the finished chickpea paste",
+      "verb": "stir",
+      "object": "chickpea mixture",
+      "tool": "spoon",
+      "target": "processor jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=296.2–299s stir and scrape; t=299.2–300.8s loaded spoon leaves view and returns. Possible tasting remains unconfirmed.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 31.1,
+      "instruction": "Drain and rinse the chickpeas",
+      "description": "Pull open the chickpea can, carry it to the sink and retrieve a mesh strainer. Pour and shake the chickpeas into the strainer, set the can aside and rinse the chickpeas under running water while shaking them. Move the processor jug beside the sink, lift it and tip the drained chickpeas inside. Put the strainer in the sink and return the filled jug to the counter.",
+      "fine_index_range": [
+        0,
+        11
+      ],
+      "transition_in": null,
+      "goal_contribution": "Loads rinsed chickpeas into the processor as the base of the dip.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 31.1,
+      "end": 79.34,
+      "instruction": "Add tahini and measured oil",
+      "description": "Open the tahini jar and stir its contents with a spoon, but then put the jar down and rinse and rub the spoon under the tap. Shut off the water, lift the jar again and scrape a spoonful of tahini onto the chickpeas. Put the jar aside, change the spoon to the left hand, uncap the oil bottle and fill the spoon with oil. Tip the oil into the processor, return the bottle, wipe the spoon and put it in the small bowl in the sink. Briefly withdraw and inspect the hands.",
+      "fine_index_range": [
+        12,
+        29
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the visible sesame paste and oil to the chickpea base before preparing the aromatics.",
+      "predictability_level": "strong",
+      "predictability_reason": "After drain and rinse the chickpeas, add tahini and measured oil is a natural next stage toward make hummus in a food processor."
+    },
+    {
+      "start": 79.34,
+      "end": 148.87,
+      "instruction": "Prepare and add the garlic",
+      "description": "Adjust the processor blade by its central shaft, briefly move between garlic on the board and the jug, then take a knife. Hold and trim garlic cloves on the board, repeatedly repositioning them and scraping their skins. Put the knife down to pull away papery skin with the fingertips, pick it up for additional trimming, then peel again. Drop the peeled clove into the jug, retrieve another piece, cut it into smaller pieces and drop those into the jug too.",
+      "fine_index_range": [
+        30,
+        48
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Removes garlic skin and adds garlic pieces to the processor ingredients.",
+      "predictability_level": "weak",
+      "predictability_reason": "After add tahini and measured oil, prepare and add the garlic is plausible for make hummus in a food processor, but several next steps fit."
+    },
+    {
+      "start": 148.87,
+      "end": 186.0,
+      "instruction": "Add lemon and assemble the processor",
+      "description": "Put the knife down and lift a previously cut lemon half. Separate the lemon pieces, hold the half above the processor and repeatedly squeeze and work its pulp with the fingertips. Put the squeezed half on the board, pick up and fit the processor lid, seat the motor on it, then extend and untangle the power cord and plug it into the wall outlet.",
+      "fine_index_range": [
+        49,
+        55
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds lemon juice and prepares the closed, powered processor for blending.",
+      "predictability_level": "strong",
+      "predictability_reason": "After prepare and add the garlic, add lemon and assemble the processor is a natural next stage toward make hummus in a food processor."
+    },
+    {
+      "start": 186.0,
+      "end": 239.0,
+      "instruction": "Blend and add more tahini and oil",
+      "description": "Reposition the processor and press its motor button to blend the ingredients. Remove and set down the motor and lid, retrieve a spoon from the drawer and stir and lift a sample of the coarse chickpea mixture. Exchange spoons at the drawer, retrieve the tahini jar and scrape another spoonful into the processor. Put the spoon in the sink, pour additional oil directly from its bottle, return the jar and fit the lid and motor again.",
+      "fine_index_range": [
+        56,
+        69
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Breaks down the first mixture, redistributes it and adds more paste and oil before the next blend.",
+      "predictability_level": "weak",
+      "predictability_reason": "After add lemon and assemble the processor, blend and add more tahini and oil is plausible for make hummus in a food processor, but several next steps fit."
+    },
+    {
+      "start": 239.0,
+      "end": 281.45,
+      "instruction": "Blend the paste and add salt",
+      "description": "Hold the processor button for a longer blend, producing a finer beige paste. Remove and set down the motor and lid, retrieve the spoon, scrape the walls and stir and lift another sample. Mouth contact is out of view. Retrieve the small shaker, shake white seasoning into the jug and return the shaker to the counter.",
+      "fine_index_range": [
+        70,
+        78
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Refines the paste and adds the visible white seasoning after inspection.",
+      "predictability_level": "weak",
+      "predictability_reason": "After blend and add more tahini and oil, blend the paste and add salt is plausible for make hummus in a food processor, but several next steps fit."
+    },
+    {
+      "start": 281.45,
+      "end": 301.72,
+      "instruction": "Blend again and inspect the chickpea paste",
+      "description": "Replace the lid and motor, run a final short blend, remove and set down the motor and uncover the jug. Retrieve the spoon, stir and scrape the paste and lift another sample before lowering the spoon near the sink. Pick up the processor lid again at the very end. The paste remains in the processor jug; transfer to a serving bowl is not shown.",
+      "fine_index_range": [
+        79,
+        83
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Incorporates the final seasoning and leaves the blended dip in its processor jug.",
+      "predictability_level": "weak",
+      "predictability_reason": "After blend the paste and add salt, blend again and inspect the chickpea paste is plausible for make hummus in a food processor, but several next steps fit."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames/00735eddaeaaff4a/native_v1",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

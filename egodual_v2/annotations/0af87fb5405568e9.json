@@ -1,0 +1,880 @@
+{
+  "video_id": "0af87fb5405568e9",
+  "duration": 90.667,
+  "task": "Tightening loose drawer handles",
+  "domain": "Handyman",
+  "query": "How do I tighten loose drawer handles?",
+  "goal": {
+    "title": "Tighten and check a desk drawer handle",
+    "description": "Open a desk drawer, adjust the inner handle fastener by hand and with two screwdrivers, then repeatedly operate the drawer by the knob and make a final fingertip adjustment.",
+    "final_state": "The drawer is closed and the hands have released the knob. The handle remains attached throughout repeated opening and closing; its actual fastening torque cannot be measured visually.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 11.1,
+        "description": "Pull the desk drawer outward. Hold the outside handle with the right hand while reaching inside with the left and repeatedly turning the inside fastener with fingertips."
+      },
+      {
+        "start": 11.1,
+        "end": 26.35,
+        "description": "Reach onto the desk for a black-handled screwdriver, carry it to the open drawer, seat its tip against the inner handle screw and rotate it using both hands. Withdraw it and return it to the desktop."
+      },
+      {
+        "start": 26.35,
+        "end": 62.78,
+        "description": "Pick up the slimmer blue-handled screwdriver and position it at the same inside drawer-front fastener. Rotate it repeatedly with the left hand while stabilizing it, briefly withdraw and reposition it, transfer it into the right hand and continue turning. Withdraw the tool and set it on the desk."
+      },
+      {
+        "start": 62.78,
+        "end": 89.6,
+        "description": "Grip the outer knob with the right hand and repeatedly push the drawer closed and pull it open, leaving it open briefly between trials. Reach inside with the left hand for a final fingertip turn on the handle screw while the right holds the knob. Close the drawer and release it."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 11.1,
+      "description": "Pull the desk drawer outward. Hold the outside handle with the right hand while reaching inside with the left and repeatedly turning the inside fastener with fingertips."
+    },
+    {
+      "start": 11.1,
+      "end": 26.35,
+      "description": "Reach onto the desk for a black-handled screwdriver, carry it to the open drawer, seat its tip against the inner handle screw and rotate it using both hands. Withdraw it and return it to the desktop."
+    },
+    {
+      "start": 26.35,
+      "end": 62.78,
+      "description": "Pick up the slimmer blue-handled screwdriver and position it at the same inside drawer-front fastener. Rotate it repeatedly with the left hand while stabilizing it, briefly withdraw and reposition it, transfer it into the right hand and continue turning. Withdraw the tool and set it on the desk."
+    },
+    {
+      "start": 62.78,
+      "end": 89.6,
+      "description": "Grip the outer knob with the right hand and repeatedly push the drawer closed and pull it open, leaving it open briefly between trials. Reach inside with the left hand for a final fingertip turn on the handle screw while the right holds the knob. Close the drawer and release it."
+    }
+  ],
+  "object_inventory": [
+    "drawer handle",
+    "drawer",
+    "drawer handle screw",
+    "black screwdriver",
+    "blue screwdriver",
+    "desk"
+  ],
+  "notes": "Only human fine boundaries retained. All descriptions and coarse groupings independently rewritten from frames. Left and right gray-sleeved hands belong to the wearer; the large foreground left hand is not treated as another person. The same screw area is worked repeatedly; the obscured tip prevents a reliable clockwise/counterclockwise or second-screw assertion, so descriptions say turn. Drawer handle is recorded held only while gripped; no detached screws are inferred. Native PTS burnt before resampling. All dense pages and31 native end frames inspected.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.0,
+      "summary": "pull the drawer open",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand reaches for and picks up a small tool from the drawer",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.0,
+      "end": 6.86,
+      "summary": "turn the drawer handle screw with the left fingers",
+      "verb": "turn",
+      "object": "drawer handle screw",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand transfers the tool to the right hand",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.86,
+      "end": 11.1,
+      "summary": "turn the drawer handle screw with the left fingers",
+      "verb": "turn",
+      "object": "drawer handle screw",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=3–11s repeated finger turning; cut at6.86s interrupts the same fastener adjustment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand transfers the tool to the right hand then holds it while searching inside",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.1,
+      "end": 13.66,
+      "summary": "reach for the black screwdriver",
+      "verb": "reach for",
+      "object": "black screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "black screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand touches the drawer handle",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 13.66,
+      "end": 15.2,
+      "summary": "pick up the black screwdriver",
+      "verb": "pick up",
+      "object": "black screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "black screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.2,
+      "end": 22.17,
+      "summary": "turn the drawer handle screw with the black screwdriver",
+      "verb": "turn",
+      "object": "drawer handle screw",
+      "tool": "black screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "black screwdriver"
+        ],
+        "right": [
+          "black screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up the screwdriver",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.17,
+      "end": 25.59,
+      "summary": "move the black screwdriver onto the desk",
+      "verb": "move",
+      "object": "black screwdriver",
+      "tool": null,
+      "target": "desk",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "black screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.59,
+      "end": 26.35,
+      "summary": "put down the black screwdriver on the desk",
+      "verb": "put down",
+      "object": "black screwdriver",
+      "tool": null,
+      "target": "desk",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=25.6–26.2s release black screwdriver; t=26.267s grasp blue screwdriver. Tool change crosses this short interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand tightens the screw (hand switch)",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.35,
+      "end": 26.98,
+      "summary": "pick up the blue screwdriver",
+      "verb": "pick up",
+      "object": "blue screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.98,
+      "end": 28.53,
+      "summary": "position the blue screwdriver against the drawer handle screw",
+      "verb": "position",
+      "object": "blue screwdriver",
+      "tool": null,
+      "target": "drawer handle screw",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blue screwdriver"
+        ],
+        "right": [
+          "blue screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.53,
+      "end": 40.5,
+      "summary": "turn the drawer handle screw with the blue screwdriver",
+      "verb": "turn",
+      "object": "drawer handle screw",
+      "tool": "blue screwdriver",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blue screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.5,
+      "end": 42.38,
+      "summary": "reposition the blue screwdriver at the drawer handle screw",
+      "verb": "position",
+      "object": "blue screwdriver",
+      "tool": null,
+      "target": "drawer handle screw",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blue screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand tightens the screw",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 42.38,
+      "end": 49.28,
+      "summary": "turn the drawer handle screw with the blue screwdriver",
+      "verb": "turn",
+      "object": "drawer handle screw",
+      "tool": "blue screwdriver",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blue screwdriver"
+        ],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand tightens the screw (hand switch)",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.28,
+      "end": 50.72,
+      "summary": "withdraw the blue screwdriver from the drawer handle screw",
+      "verb": "remove",
+      "object": "blue screwdriver",
+      "tool": null,
+      "target": "drawer handle screw",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blue screwdriver"
+        ],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.72,
+      "end": 52.29,
+      "summary": "transfer the blue screwdriver to the right hand",
+      "verb": "transfer",
+      "object": "blue screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.29,
+      "end": 60.64,
+      "summary": "turn the drawer handle screw with the blue screwdriver",
+      "verb": "turn",
+      "object": "drawer handle screw",
+      "tool": "blue screwdriver",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "blue screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand switches to right hand to pick up the screwdriver",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.64,
+      "end": 62.78,
+      "summary": "put down the blue screwdriver on the desk",
+      "verb": "put down",
+      "object": "blue screwdriver",
+      "tool": null,
+      "target": "desk",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=60.6–61.3s withdraw screwdriver; t=61.8–62.3s place on desk. Both motions retained in human interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens the drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.78,
+      "end": 64.63,
+      "summary": "push the drawer closed by its handle",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 64.63,
+      "end": 66.68,
+      "summary": "pull the drawer open by its handle",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes the drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 66.68,
+      "end": 68.12,
+      "summary": "push the drawer closed by its handle",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 68.12,
+      "end": 69.41,
+      "summary": "pull the drawer open by its handle",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 69.41,
+      "end": 70.97,
+      "summary": "push the drawer closed by its handle",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens the drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 70.97,
+      "end": 73.3,
+      "summary": "pull the drawer open by its handle",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes the drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 73.3,
+      "end": 74.69,
+      "summary": "push the drawer closed by its handle",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens the drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 74.69,
+      "end": 76.22,
+      "summary": "pull the drawer open by its handle",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 76.22,
+      "end": 77.7,
+      "summary": "push the drawer closed by its handle",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes the drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 77.7,
+      "end": 80.93,
+      "summary": "pull the drawer open by its handle",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=77.8s pull open; t=78.8–80s drawer remains open while right hand holds knob.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes the drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 80.93,
+      "end": 84.37,
+      "summary": "push and pull the drawer by its handle",
+      "verb": "move",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=81.3–81.8s push closed; t=83.6–84.2s pull open. Interval contains both drawer directions.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens the drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 84.37,
+      "end": 86.23,
+      "summary": "turn the drawer handle screw with the left fingers",
+      "verb": "turn",
+      "object": "drawer handle screw",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 86.23,
+      "end": 88.2,
+      "summary": "push the drawer closed by its handle",
+      "verb": "close",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "drawer handle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 88.2,
+      "end": 89.6,
+      "summary": "release the drawer handle",
+      "verb": "release",
+      "object": "drawer handle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes the drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 11.1,
+      "instruction": "Inspect and adjust the drawer handle by hand",
+      "description": "Open the drawer, hold the outside handle and repeatedly turn its inside fastener using the left fingers.",
+      "fine_index_range": [
+        0,
+        2
+      ],
+      "transition_in": null,
+      "goal_contribution": "Exposes the loose handle attachment and makes an initial manual adjustment.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 11.1,
+      "end": 26.35,
+      "instruction": "Tighten the handle screw with the black screwdriver",
+      "description": "Fetch the black-handled screwdriver, seat it against the inside handle screw, turn it using both hands, then withdraw it and return it to the desk.",
+      "fine_index_range": [
+        3,
+        7
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adjusts the screw securing the handle to the drawer front.",
+      "predictability_level": "strong",
+      "predictability_reason": "Hand adjustment of a loose handle naturally leads to screwdriver tightening."
+    },
+    {
+      "start": 26.35,
+      "end": 62.78,
+      "instruction": "Adjust the screw with the blue screwdriver",
+      "description": "Pick up the blue screwdriver, align it against the fastener, turn it repeatedly with the left hand, reposition and change hands, continue turning with the right, then return the tool to the desk.",
+      "fine_index_range": [
+        8,
+        16
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Continues fastening with a different screwdriver until the tool work is finished.",
+      "predictability_level": "weak",
+      "predictability_reason": "Trying a second screwdriver is plausible if the first fit is poor."
+    },
+    {
+      "start": 62.78,
+      "end": 89.6,
+      "instruction": "Check drawer movement and handle stability",
+      "description": "Repeatedly close and open the drawer by the knob, hold it open for a final fingertip adjustment inside, close it and release the knob.",
+      "fine_index_range": [
+        17,
+        30
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Checks whether the adjusted handle remains attached during repeated drawer movement.",
+      "predictability_level": "strong",
+      "predictability_reason": "After screw adjustment, drawer movement and handle stability should be checked."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames/0af87fb5405568e9/native_v1",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

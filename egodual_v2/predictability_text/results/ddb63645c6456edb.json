@@ -1,0 +1,51 @@
+{
+  "video_id": "ddb63645c6456edb",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After crack the egg and add water, beat the egg in the bowl is a natural next stage toward make a microwave-cooked egg sandwich."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After beat the egg in the bowl, cover the bowl and start microwaving is a natural next stage toward make a microwave-cooked egg sandwich."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After cover the bowl and start microwaving, stir the egg and resume heating is plausible for make a microwave-cooked egg sandwich, but several next steps fit."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "After stir the egg and resume heating, inspect the egg and heat it again is plausible for make a microwave-cooked egg sandwich, but several next steps fit."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "After inspect the egg and heat it again, remove bowl and loosen the partly cooked egg is plausible for make a microwave-cooked egg sandwich, but several next steps fit."
+    },
+    {
+      "index": 6,
+      "level": "weak",
+      "reason": "After remove bowl and loosen the partly cooked egg, return egg for a final short heating cycle is plausible for make a microwave-cooked egg sandwich, but several next steps fit."
+    },
+    {
+      "index": 7,
+      "level": "strong",
+      "reason": "After return egg for a final short heating cycle, loosen and transfer the cooked egg onto bread is a natural next stage toward make a microwave-cooked egg sandwich."
+    },
+    {
+      "index": 8,
+      "level": "strong",
+      "reason": "After loosen and transfer the cooked egg onto bread, close the sandwich and tidy its paper base is a natural next stage toward make a microwave-cooked egg sandwich."
+    }
+  ]
+}

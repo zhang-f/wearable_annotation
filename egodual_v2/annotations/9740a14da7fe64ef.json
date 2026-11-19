@@ -1,0 +1,1068 @@
+{
+  "video_id": "9740a14da7fe64ef",
+  "duration": 213.534,
+  "task": "Replacing a light switch plate cover",
+  "domain": "Handyman",
+  "query": "How do I replace a light switch plate cover?",
+  "goal": {
+    "title": "Replace a plain light-switch plate with a patterned plate",
+    "description": "Collect the patterned replacement plate and screwdriver, operate a breaker at the electrical panel and illuminate the work area with a phone. Unscrew and remove the plain switch plate, then position the patterned cover, repeatedly adjust its fit and tighten the mounting screws. Return to the breaker panel, then test the wall switch by watching the ceiling light turn on and off.",
+    "final_state": "The sports-patterned plate is attached around the switch. After revisiting the electrical panel, the person toggles the switch and the ceiling light visibly changes between on and off.",
+    "procedure": [
+      "Collect the replacement switch plate and screwdriver.",
+      "Operate the circuit breaker and use the phone light at the wall switch.",
+      "Loosen both mounting screws and remove the old plain plate.",
+      "Align the patterned replacement plate and try fitting its mounting screw.",
+      "Remove and reposition the cover, then tighten its mounting screws.",
+      "Return to the breaker panel and test the switch with the room light."
+    ]
+  },
+  "object_inventory": [
+    "replacement switch plate",
+    "old switch plate",
+    "screwdriver",
+    "screw",
+    "circuit breaker",
+    "phone",
+    "wall switch",
+    "door",
+    "counter"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 24.15,
+      "description": "Pick up the patterned plate, operate the breaker and approach the switch using light from the phone."
+    },
+    {
+      "start": 24.15,
+      "end": 63.09,
+      "description": "Use a screwdriver and the fingertips to loosen the plate screws. Pull the plain plate off the wall and place it aside."
+    },
+    {
+      "start": 63.09,
+      "end": 142.64,
+      "description": "Adjust the phone, collect the replacement plate and start fitting its mounting screws. Remove and tilt the plate during repeated alignment attempts, then reseat it around the switch."
+    },
+    {
+      "start": 142.64,
+      "end": 179.84,
+      "description": "Tighten the remaining mounting screw, release the plate and make further turns on the lower fastener."
+    },
+    {
+      "start": 179.84,
+      "end": 213.14,
+      "description": "Return to the breaker panel and operate the breaker, walk back and open the door. Toggle the new plate’s switch and inspect the ceiling light as it changes state."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.9,
+      "old_summary": "hand picks up screwdriver and decorative light switch plate cover",
+      "summary": "pick up the replacement switch plate",
+      "verb": "pick up",
+      "object": "replacement switch plate",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "replacement switch plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=1–2.9s picks up plate and screwdriver; multiple objects change.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 2.9,
+      "end": 3.0,
+      "old_summary": "hand picks up the screwdriver",
+      "summary": "turn the replacement switch plate over",
+      "verb": "flip",
+      "object": "replacement switch plate",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "replacement switch plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.1s split within continuous plate handling at t=2.9–3s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 3.0,
+      "end": 10.96,
+      "old_summary": "hand holds the screwdriver and the switch plate",
+      "summary": "idle: walk toward the electrical panel",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "low",
+      "notes": "Hands outside frame while walking; carried tool state cannot be verified at t=10.933s. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 10.96,
+      "end": 11.74,
+      "old_summary": "n",
+      "summary": "flip the circuit breaker",
+      "verb": "adjust",
+      "object": "circuit breaker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Breaker switch movement visible t=11–11.7s; electrical safety status not inferred.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.74,
+      "end": 17.24,
+      "old_summary": "hand walks towards a door",
+      "summary": "idle: walk away from the electrical panel",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "low",
+      "notes": "Walking with tools below image; endpoint grip not observable. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 17.24,
+      "end": 20.1,
+      "old_summary": "n",
+      "summary": "operate the phone light",
+      "verb": "adjust",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "phone"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Phone light and controls visible t=17.5–20s; task-related illumination.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 20.1,
+      "end": 24.15,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "idle: approach the room doorway",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "low",
+      "notes": "Hands below frame during approach, unknown endpoint grip.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 24.15,
+      "end": 30.5,
+      "old_summary": "uses a screwdriver to loosen the first screw",
+      "summary": "raise the screwdriver toward the old switch plate",
+      "verb": "move",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "old switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=24–28s approaches switch; t=29–30.5s readies screwdriver.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.5,
+      "end": 40.2,
+      "old_summary": "hand unscrews and removes the first screw from the light switch plate cover",
+      "summary": "loosen the mounting screw with the screwdriver",
+      "verb": "unscrew",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "old switch plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Continuous screw turning and repeated screwdriver regrips t=30.5–40s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.2,
+      "end": 43.1,
+      "old_summary": "n",
+      "summary": "turn the loosened screw with the fingertips",
+      "verb": "unscrew",
+      "object": "screw",
+      "tool": null,
+      "target": "old switch plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=40–41s fingers manipulate loosened screw; t=42s brief reach aside.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.1,
+      "end": 51.27,
+      "old_summary": "hand unscrews and removes the second screw from the light switch plate cover",
+      "summary": "loosen the other switch-plate screw",
+      "verb": "unscrew",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "old switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Driver stays in right hand; left catches/steadies screw near plate.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.27,
+      "end": 58.93,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "finish unscrewing the plate screw by hand",
+      "verb": "unscrew",
+      "object": "screw",
+      "tool": null,
+      "target": "old switch plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=51–54s tool removed and repositioned, t=55–58.9s fingers turn screw.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 58.93,
+      "end": 61.11,
+      "old_summary": "hand removes the old light switch plate cover and retrieves a new decorative one from a box",
+      "summary": "remove the old switch plate from the wall",
+      "verb": "remove",
+      "object": "old switch plate",
+      "tool": null,
+      "target": "wall switch",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "old switch plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Plate visibly separates from wall at t=60–61s.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 61.11,
+      "end": 63.09,
+      "old_summary": "n",
+      "summary": "put down the old switch plate",
+      "verb": "put down",
+      "object": "old switch plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Plate lowered toward cluttered side surface; endpoint release partly obscured.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 63.09,
+      "end": 70.14,
+      "old_summary": "n",
+      "summary": "adjust the phone light beside the switch",
+      "verb": "adjust",
+      "object": "phone",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "phone"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=64–66s phone/lighting adjustment; t=68–70s phone visible in right hand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 70.14,
+      "end": 78.75,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "pick up the replacement switch plate",
+      "verb": "pick up",
+      "object": "replacement switch plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=70–77s phone lowered/reaches aside; t=78s decorative plate returns to view.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 78.75,
+      "end": 82.24,
+      "old_summary": "hand positions the new decorative light switch plate cover over the switch",
+      "summary": "position a screw in the replacement plate",
+      "verb": "insert",
+      "object": "screw",
+      "tool": null,
+      "target": "replacement switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Small screw near plate is intermittently obscured by fingers.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 82.24,
+      "end": 83.99,
+      "old_summary": "n",
+      "summary": "hold the replacement plate around the wall switch",
+      "verb": "place",
+      "object": "replacement switch plate",
+      "tool": null,
+      "target": "wall switch",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "replacement switch plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Cover is still held, not secured, at endpoint.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.99,
+      "end": 86.74,
+      "old_summary": "right hand screws the plate cover in place",
+      "summary": "adjust the screw in the replacement plate",
+      "verb": "adjust",
+      "object": "screw",
+      "tool": null,
+      "target": "replacement switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screw"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 86.74,
+      "end": 88.29,
+      "old_summary": "n",
+      "summary": "pick up the screwdriver beside the switch",
+      "verb": "pick up",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=86.7s plate held left; t=87s right retrieves screwdriver; first turns by t=88.2s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 88.29,
+      "end": 104.84,
+      "old_summary": "n",
+      "summary": "turn the mounting screw with the screwdriver",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "replacement switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=88–104.8s repeated screw turns/regrips; plate alignment remains provisional.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.84,
+      "end": 110.44,
+      "old_summary": "n",
+      "summary": "pull the replacement plate away from the switch",
+      "verb": "remove",
+      "object": "replacement switch plate",
+      "tool": null,
+      "target": "wall switch",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=105–110s fingers manipulate fastener then plate comes off the wall.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.44,
+      "end": 115.47,
+      "old_summary": "n",
+      "summary": "realign the replacement plate over the switch",
+      "verb": "adjust",
+      "object": "replacement switch plate",
+      "tool": null,
+      "target": "wall switch",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=110–115.4s several plate repositions; not a successful permanent attachment yet.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.47,
+      "end": 118.69,
+      "old_summary": "n",
+      "summary": "tilt the replacement plate to inspect its underside",
+      "verb": "inspect",
+      "object": "replacement switch plate",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "The back/edge of the plate is visible at t=115.8–117.5s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.69,
+      "end": 123.59,
+      "old_summary": "n",
+      "summary": "turn the plate screw with the screwdriver",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "replacement switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Plate is returned over switch and screw turning resumes.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.59,
+      "end": 133.34,
+      "old_summary": "n",
+      "summary": "continue tightening the plate mounting screw",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "replacement switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuation of screw turning through t=133.3s; no distinct object change at previous cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.34,
+      "end": 142.64,
+      "old_summary": "n",
+      "summary": "adjust the screw with the fingertips",
+      "verb": "adjust",
+      "object": "screw",
+      "tool": null,
+      "target": "replacement switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "replacement switch plate"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=133–142s screwdriver held while fingers adjust fastener; contains repeated tool/finger changes.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 142.64,
+      "end": 159.64,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "tighten the remaining mounting screw",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "replacement switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Plate remains on wall after hands withdraw near t=159.7s. Type re-evaluated from visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 159.64,
+      "end": 161.8,
+      "old_summary": "holds the light switch plate cover",
+      "summary": "release the replacement switch plate",
+      "verb": "put down",
+      "object": "replacement switch plate",
+      "tool": null,
+      "target": "wall switch",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=159.6–161.8s hand withdraws then driver transfers to left before re-engagement.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 161.8,
+      "end": 165.69,
+      "old_summary": "holds the screwdriver",
+      "summary": "position the screwdriver on the lower mounting screw",
+      "verb": "move",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "screw",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "screwdriver"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Fingers position screw and driver near t=162–165.7s; continuation of fastening.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 165.69,
+      "end": 179.84,
+      "old_summary": "hand turns off light",
+      "summary": "tighten the lower mounting screw",
+      "verb": "screw",
+      "object": "screw",
+      "tool": "screwdriver",
+      "target": "replacement switch plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Long continuous lower-screw tightening interval t=165.7–179.8s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 179.84,
+      "end": 192.1,
+      "old_summary": "hand enters living room",
+      "summary": "idle: return to the electrical panel",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": true,
+      "boundary_note": "Starts with withdrawing driver then walking; reaches breaker panel by t=192s.",
+      "beyond_video_end": false,
+      "confidence": "low",
+      "notes": "Endpoint tool grip is off-frame. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 192.1,
+      "end": 193.43,
+      "old_summary": "hand opens electrical panel, flips breaker, and closes panel",
+      "summary": "flip the circuit breaker back",
+      "verb": "adjust",
+      "object": "circuit breaker",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Breaker operated at t=192–193.4s.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 193.43,
+      "end": 203.03,
+      "old_summary": "hand opens door",
+      "summary": "idle: return to the room",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "low",
+      "notes": "Walking and approaching door, hands mostly off-frame. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 203.03,
+      "end": 205.23,
+      "old_summary": "n",
+      "summary": "push the door open",
+      "verb": "open",
+      "object": "door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Left palm pushes door open; not counted as holding the door.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 205.23,
+      "end": 206.42,
+      "old_summary": "n",
+      "summary": "flip the wall switch",
+      "verb": "press",
+      "object": "wall switch",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Toggles wall switch and ceiling light comes on t=205–206s.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 206.42,
+      "end": 208.12,
+      "old_summary": "hand tests light switch",
+      "summary": "inspect the ceiling light",
+      "verb": "inspect",
+      "object": "wall switch",
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "No sustained hand interaction; visual check of room light.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 208.12,
+      "end": 211.2,
+      "old_summary": "n",
+      "summary": "flip the wall switch again",
+      "verb": "press",
+      "object": "wall switch",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=208.2s observes light, t=209–211s returns hand to switch and changes light state.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 211.2,
+      "end": 213.14,
+      "old_summary": "n",
+      "summary": "inspect the ceiling light after toggling the switch",
+      "verb": "inspect",
+      "object": "wall switch",
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Final light visibly on after another switch change; hand mostly outside view.",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 24.15,
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "instruction": "Collect the replacement cover and prepare the work area",
+      "description": "Pick up the patterned plate, operate the breaker and approach the switch using light from the phone.",
+      "goal_contribution": "Bring the replacement cover and illumination to the repair location.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 24.15,
+      "end": 63.09,
+      "fine_index_range": [
+        7,
+        13
+      ],
+      "instruction": "Remove the plain switch plate",
+      "description": "Use a screwdriver and the fingertips to loosen the plate screws. Pull the plain plate off the wall and place it aside.",
+      "goal_contribution": "Expose the switch so that the new decorative plate can be fitted.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The replacement cover is ready and the plain plate must be removed."
+    },
+    {
+      "start": 63.09,
+      "end": 142.64,
+      "fine_index_range": [
+        14,
+        26
+      ],
+      "instruction": "Fit and align the patterned replacement plate",
+      "description": "Adjust the phone, collect the replacement plate and start fitting its mounting screws. Remove and tilt the plate during repeated alignment attempts, then reseat it around the switch.",
+      "goal_contribution": "Align the patterned cover and engage its fasteners despite the initial fitting difficulty.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After removing the plain plate, the patterned one can be fitted."
+    },
+    {
+      "start": 142.64,
+      "end": 179.84,
+      "fine_index_range": [
+        27,
+        30
+      ],
+      "instruction": "Secure the replacement switch plate",
+      "description": "Tighten the remaining mounting screw, release the plate and make further turns on the lower fastener.",
+      "goal_contribution": "Leave the replacement plate secured around the switch.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "A positioned replacement plate needs secure screws."
+    },
+    {
+      "start": 179.84,
+      "end": 213.14,
+      "fine_index_range": [
+        31,
+        38
+      ],
+      "instruction": "Restore the circuit and test the wall switch",
+      "description": "Return to the breaker panel and operate the breaker, walk back and open the door. Toggle the new plate’s switch and inspect the ceiling light as it changes state.",
+      "goal_contribution": "Check that the switch remains usable after the cover replacement.",
+      "transition_in": "NONE",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After installation, the circuit and switch can be checked."
+    }
+  ],
+  "notes": "All 7 overview sheets, all 13 dense 3/15fps digest pages and 3 native endpoint sheets reviewed. The replacement is visibly retried: t=109–117s the plate is pulled away and tilted before being returned to the wall. No wiring work is shown or inferred. Many walking intervals have hands outside the image: unknown endpoint grip is flagged ambiguous rather than claiming observed empty hands. Old and replacement plates are distinct inventory objects; screw and tool changes are preserved at existing boundaries."
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "6ad710d3e252678a",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After set up supplies and the sneaker, begin scrubbing the sneaker is a natural next stage toward clean a white sneaker at home."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After begin scrubbing the sneaker, keep scrubbing and re-dipping the brush is a natural next stage toward clean a white sneaker at home."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After keep scrubbing and re-dipping the brush, wipe the sneaker dry is a natural next stage toward clean a white sneaker at home."
+    }
+  ]
+}

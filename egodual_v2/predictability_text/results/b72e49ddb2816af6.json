@@ -1,0 +1,41 @@
+{
+  "video_id": "b72e49ddb2816af6",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The egg in the glass needs salsa for the stated dish."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After salsa, the named hot sauce is the next likely ingredient."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The mixed egg, salsa and hot sauce is ready to cook."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After microwaving, checking and continuing heat is a natural cooking step."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "Once the egg is cooked, adding more hot sauce is possible but optional."
+    },
+    {
+      "index": 6,
+      "level": "weak",
+      "reason": "The cooked egg mixture is ready to eat, though serving could end first."
+    }
+  ]
+}

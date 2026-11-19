@@ -1,0 +1,2084 @@
+{
+  "video_id": "09608c5b07b02b7d",
+  "duration": 283.0,
+  "task": "Making stovetop cheese pasta",
+  "domain": "Chef",
+  "query": "How do I make stovetop cheese pasta?",
+  "goal": {
+    "title": "Make stovetop macaroni with cheese sauce",
+    "description": "Drain already-cooked macaroni, make a milk, butter and shredded mozzarella sauce in the emptied pan, combine and season the pasta, then scrape it into a white serving bowl.",
+    "final_state": "Macaroni in pale cheese sauce rests in a white bowl with a fork. The pan is back on the stove with some sauce left inside.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 51.4,
+        "description": "The clip begins with pasta already boiling in a covered pan. Adjust the stove, hold the lid knob briefly, grip the hot pan with a red oven mitt, remove the lid and set it on the rear pan. Carry the hot pan to the sink, move a cup out of the way and retrieve a mesh strainer. Pour out cooking water, then tip the pasta into the strainer. Return both to the stove and cover the pasta-filled strainer on the rear pan."
+      },
+      {
+        "start": 51.4,
+        "end": 95.19,
+        "description": "Adjust the front burner, fetch a glass from the sink and set it on the counter. Retrieve wrapped butter and a knife, cut off butter into the emptied front pan and set the wrapper aside. Adjust the burner again, move the milk carton near the stove, pick up a fork and push the butter around the pan; a solid chunk remains at the end of this phase."
+      },
+      {
+        "start": 95.19,
+        "end": 155.49,
+        "description": "Lift and uncap the milk carton while setting the fork aside, pour milk into the pan, recap and return the carton. Open a bag of shredded mozzarella and pour it into the milk in two passes. Set the bag aside, move the carton, retrieve the fork and repeatedly stir the milk, cheese and butter into a pale sauce."
+      },
+      {
+        "start": 155.49,
+        "end": 203.91,
+        "description": "Remove the lid from the pasta-filled strainer, lift the strainer and tip the pasta into the cheese sauce, scraping remaining pieces out with the fork. Put the empty strainer on the rear pan and stir the pasta thoroughly. Replace the lid over the strainer, move a white serving bowl beside the stove and continue stirring before leaving the fork in the pan."
+      },
+      {
+        "start": 203.91,
+        "end": 239,
+        "description": "Open the green-lidded seasoning jar, shake pale granules over the pasta, close and return the jar. Stir with the fork, open the white salt container, shake it over the pasta, close and put it down. Stir again and grasp the hot pan handle through the oven mitt."
+      },
+      {
+        "start": 239,
+        "end": 282.26,
+        "description": "Lift and tilt the pan over the white bowl. Keep holding its handle with the left mitt while repeatedly scraping macaroni and sauce into the bowl with the right-hand fork. Stop pouring while some pale sauce remains in the pan, return the pan to the stove and stir the macaroni in the bowl. Briefly lift the bowl, lower it to the counter and release it with the fork left inside."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 51.4,
+      "description": "The clip begins with pasta already boiling in a covered pan. Adjust the stove, hold the lid knob briefly, grip the hot pan with a red oven mitt, remove the lid and set it on the rear pan. Carry the hot pan to the sink, move a cup out of the way and retrieve a mesh strainer. Pour out cooking water, then tip the pasta into the strainer. Return both to the stove and cover the pasta-filled strainer on the rear pan."
+    },
+    {
+      "start": 51.4,
+      "end": 95.19,
+      "description": "Adjust the front burner, fetch a glass from the sink and set it on the counter. Retrieve wrapped butter and a knife, cut off butter into the emptied front pan and set the wrapper aside. Adjust the burner again, move the milk carton near the stove, pick up a fork and push the butter around the pan; a solid chunk remains at the end of this phase."
+    },
+    {
+      "start": 95.19,
+      "end": 155.49,
+      "description": "Lift and uncap the milk carton while setting the fork aside, pour milk into the pan, recap and return the carton. Open a bag of shredded mozzarella and pour it into the milk in two passes. Set the bag aside, move the carton, retrieve the fork and repeatedly stir the milk, cheese and butter into a pale sauce."
+    },
+    {
+      "start": 155.49,
+      "end": 203.91,
+      "description": "Remove the lid from the pasta-filled strainer, lift the strainer and tip the pasta into the cheese sauce, scraping remaining pieces out with the fork. Put the empty strainer on the rear pan and stir the pasta thoroughly. Replace the lid over the strainer, move a white serving bowl beside the stove and continue stirring before leaving the fork in the pan."
+    },
+    {
+      "start": 203.91,
+      "end": 239,
+      "description": "Open the green-lidded seasoning jar, shake pale granules over the pasta, close and return the jar. Stir with the fork, open the white salt container, shake it over the pasta, close and put it down. Stir again and grasp the hot pan handle through the oven mitt."
+    },
+    {
+      "start": 239,
+      "end": 282.26,
+      "description": "Lift and tilt the pan over the white bowl. Keep holding its handle with the left mitt while repeatedly scraping macaroni and sauce into the bowl with the right-hand fork. Stop pouring while some pale sauce remains in the pan, return the pan to the stove and stir the macaroni in the bowl. Briefly lift the bowl, lower it to the counter and release it with the fork left inside."
+    }
+  ],
+  "object_inventory": [
+    "pan",
+    "glass lid",
+    "oven mitt",
+    "strainer",
+    "fork",
+    "bowl",
+    "knife",
+    "butter package",
+    "milk carton",
+    "milk cap",
+    "cheese bag",
+    "seasoning jar",
+    "seasoning lid",
+    "salt container",
+    "butter",
+    "pasta",
+    "pasta water",
+    "milk",
+    "shredded mozzarella",
+    "cheese sauce",
+    "seasoning",
+    "salt",
+    "stove control",
+    "glass",
+    "rear pan",
+    "sink",
+    "counter",
+    "stove"
+  ],
+  "notes": "All75 human fine boundaries preserved and every dense page and native end-state frame reviewed. Clip starts after pasta cooking has already begun. Fine60–72 subdivide continuous tipping and fork scraping without new held objects; notes flag this without moving boundaries. Seasoning identity is not inferred from the recipe. Pale sauce visibly remains in the pan after serving. Predictability remains pending independent blind workers.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.85,
+      "summary": "adjust the stove control",
+      "verb": "turn",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand turns stove knob",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 2.85,
+      "end": 3.7,
+      "summary": "grasp the glass lid knob",
+      "verb": "grasp",
+      "object": "glass lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 3.7,
+      "end": 10.06,
+      "summary": "hold the glass lid knob",
+      "verb": "hold",
+      "object": "glass lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=3.7–10s grasp the knob without lifting the lid; the pasta remains covered.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand lifts lid slightly then fully removes it and places it on adjacent burner",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.06,
+      "end": 13.7,
+      "summary": "grasp the hot pan handle with the oven mitt",
+      "verb": "grasp",
+      "object": "pan",
+      "tool": "oven mitt",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "oven mitt",
+          "pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 13.7,
+      "end": 16.6,
+      "summary": "reach for the glass lid knob",
+      "verb": "reach for",
+      "object": "glass lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 16.6,
+      "end": 17.89,
+      "summary": "lift the glass lid off the pan",
+      "verb": "remove",
+      "object": "glass lid",
+      "tool": null,
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.89,
+      "end": 20.08,
+      "summary": "move the glass lid toward the rear pan",
+      "verb": "move",
+      "object": "glass lid",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.08,
+      "end": 21.78,
+      "summary": "put the lid on the rear pan",
+      "verb": "place",
+      "object": "glass lid",
+      "tool": null,
+      "target": "rear pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "oven mitt",
+          "pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=20–21.5s lower lid onto rear pan; t=21.7s grasp main pan handle with mitt.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand grasps pot handle and tilts pot slightly",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 21.78,
+      "end": 29.0,
+      "summary": "hold the pan handle with the oven mitt",
+      "verb": "hold",
+      "object": "pan",
+      "tool": "oven mitt",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "oven mitt",
+          "pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.0,
+      "end": 33.0,
+      "summary": "carry the pan to the sink",
+      "verb": "carry",
+      "object": "pan",
+      "tool": "oven mitt",
+      "target": "sink",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "oven mitt",
+          "pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=29.5–32.5s carry hot pan; left hand moves a metal cup near the sink at approximately33s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.0,
+      "end": 36.1,
+      "summary": "pick up the strainer beside the sink",
+      "verb": "pick up",
+      "object": "strainer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "oven mitt",
+          "pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places strainer in sink",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 36.1,
+      "end": 40.26,
+      "summary": "drain the pasta water through the strainer",
+      "verb": "pour",
+      "object": "pasta water",
+      "tool": "pan",
+      "target": "strainer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "oven mitt",
+          "pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours pasta into strainer then sets pot down",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.26,
+      "end": 43.8,
+      "summary": "tip the pasta into the strainer",
+      "verb": "pour",
+      "object": "pasta",
+      "tool": "pan",
+      "target": "strainer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "oven mitt",
+          "pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.8,
+      "end": 46.0,
+      "summary": "carry the pan and strainer toward the stove",
+      "verb": "carry",
+      "object": "pan",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "oven mitt",
+          "pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.0,
+      "end": 49.47,
+      "summary": "put the pan and strainer on the stove",
+      "verb": "place",
+      "object": "strainer",
+      "tool": null,
+      "target": "rear pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "glass lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=46–47s lower empty pan on front burner; t=49s begin arranging filled strainer and lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "right hand removes lid from pot",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.47,
+      "end": 51.4,
+      "summary": "cover the strainer with the glass lid",
+      "verb": "cover",
+      "object": "strainer",
+      "tool": "glass lid",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=50s lower filled strainer onto rear pan; t=50.8–51.4s cover it with lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.4,
+      "end": 54.4,
+      "summary": "adjust the stove control",
+      "verb": "turn",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "oven mitt",
+          "pan"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 54.4,
+      "end": 58.36,
+      "summary": "pick up a glass from the sink",
+      "verb": "pick up",
+      "object": "glass",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "glass"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=54.4–55s finish adjusting stove; t=58s reach into sink for glass.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 58.36,
+      "end": 62.2,
+      "summary": "put the glass on the counter",
+      "verb": "place",
+      "object": "glass",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.2,
+      "end": 64.83,
+      "summary": "pick up the wrapped butter and knife",
+      "verb": "pick up",
+      "object": "butter package",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "butter package"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts and places butter in the pan",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 64.83,
+      "end": 66.2,
+      "summary": "cut a piece of butter",
+      "verb": "cut",
+      "object": "butter",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "butter package"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 66.2,
+      "end": 72.14,
+      "summary": "push the butter into the pan",
+      "verb": "place",
+      "object": "butter",
+      "tool": "knife",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "butter package"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=66.2–71.8s cut and push butter from the wrapper into pan; multiple small knife motions retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand melts butter in the pan",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 72.14,
+      "end": 73.18,
+      "summary": "put down the butter package",
+      "verb": "put down",
+      "object": "butter package",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.18,
+      "end": 75.0,
+      "summary": "turn the stove control",
+      "verb": "turn",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 75.0,
+      "end": 77.07,
+      "summary": "pick up the milk carton",
+      "verb": "pick up",
+      "object": "milk carton",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "milk carton"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours and stirs milk into the melted butter",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 77.07,
+      "end": 78.73,
+      "summary": "move the milk carton beside the stove",
+      "verb": "move",
+      "object": "milk carton",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "milk carton"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.73,
+      "end": 80.8,
+      "summary": "pick up the fork",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=78.8s put carton down; t=80s retrieve fork.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 80.8,
+      "end": 95.19,
+      "summary": "spread the butter around the pan with the fork",
+      "verb": "spread",
+      "object": "butter",
+      "tool": "fork",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "A distinct butter chunk remains visible at t=95s; complete melting is not asserted.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.19,
+      "end": 97.98,
+      "summary": "pick up the milk carton",
+      "verb": "pick up",
+      "object": "milk carton",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "milk carton"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=96.5s lift carton; t=97.3s right hand leaves fork on butter wrapper.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 97.98,
+      "end": 101.2,
+      "summary": "transfer the milk carton and loosen its cap",
+      "verb": "open",
+      "object": "milk carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "milk cap"
+        ],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 101.2,
+      "end": 102.8,
+      "summary": "unscrew the milk carton cap",
+      "verb": "open",
+      "object": "milk carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "milk cap"
+        ],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours additional milk into the pan",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 102.8,
+      "end": 109.47,
+      "summary": "pour milk into the pan",
+      "verb": "pour",
+      "object": "milk",
+      "tool": "milk carton",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "milk cap"
+        ],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.47,
+      "end": 111.52,
+      "summary": "screw the cap onto the milk carton",
+      "verb": "close",
+      "object": "milk carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "milk carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 111.52,
+      "end": 112.55,
+      "summary": "put the milk carton on the counter",
+      "verb": "put down",
+      "object": "milk carton",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.55,
+      "end": 116.7,
+      "summary": "pick up and open the shredded cheese bag",
+      "verb": "open",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adds cheese to the pan",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 116.7,
+      "end": 123.11,
+      "summary": "pour shredded mozzarella into the pan",
+      "verb": "pour",
+      "object": "shredded mozzarella",
+      "tool": "cheese bag",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.11,
+      "end": 127.19,
+      "summary": "shake more shredded mozzarella into the pan",
+      "verb": "pour",
+      "object": "shredded mozzarella",
+      "tool": "cheese bag",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=123.2–124.8s lower and adjust bag; t=125–127s tip it over pan again.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.19,
+      "end": 131.4,
+      "summary": "put the cheese bag aside",
+      "verb": "put down",
+      "object": "cheese bag",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "milk carton"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=128–130s bag set down; t=131s left hand moves milk carton.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 131.4,
+      "end": 133.2,
+      "summary": "pick up the fork",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.2,
+      "end": 134.56,
+      "summary": "move the fork into the pan",
+      "verb": "move",
+      "object": "fork",
+      "tool": null,
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs cheese into the sauce",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.56,
+      "end": 155.49,
+      "summary": "stir the cheese and milk in the pan",
+      "verb": "stir",
+      "object": "cheese sauce",
+      "tool": "fork",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 155.49,
+      "end": 157.2,
+      "summary": "grasp the glass lid knob",
+      "verb": "grasp",
+      "object": "glass lid",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "glass lid"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 157.2,
+      "end": 160.1,
+      "summary": "remove the lid and grasp the strainer",
+      "verb": "remove",
+      "object": "glass lid",
+      "tool": null,
+      "target": "strainer",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=157.8s lift lid; t=158.5s set it aside; t=160s grasp strainer handle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand lifts the lid off the pasta pot",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 160.1,
+      "end": 161.2,
+      "summary": "lift the strainer of pasta",
+      "verb": "lift",
+      "object": "strainer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the strainer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 161.2,
+      "end": 164.89,
+      "summary": "tip the pasta into the cheese sauce",
+      "verb": "pour",
+      "object": "pasta",
+      "tool": "strainer",
+      "target": "pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "strainer"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=162–164.8s tip strainer while fork scrapes remaining pasta into sauce.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adds pasta to the cheese sauce and stirs",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 164.89,
+      "end": 166.35,
+      "summary": "put the empty strainer on the rear pan",
+      "verb": "put down",
+      "object": "strainer",
+      "tool": null,
+      "target": "rear pan",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 166.35,
+      "end": 182.6,
+      "summary": "stir the pasta into the cheese sauce",
+      "verb": "stir",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs pasta in pot",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 182.6,
+      "end": 184.6,
+      "summary": "replace the lid over the strainer",
+      "verb": "cover",
+      "object": "strainer",
+      "tool": "glass lid",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "glass lid"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "left hand covers pot with lid",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 184.6,
+      "end": 190.17,
+      "summary": "stir the pasta and move the empty bowl",
+      "verb": "stir",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=184.6–190s continue stirring; t=190s left hand moves empty white bowl beside stove.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no hand activity",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 190.17,
+      "end": 203.91,
+      "summary": "stir the pasta in the cheese sauce",
+      "verb": "stir",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=190.2–190.5s set bowl down; stir until t=203.2s, then leave fork in pan.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 203.91,
+      "end": 205.08,
+      "summary": "pick up the seasoning jar",
+      "verb": "pick up",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning lid"
+        ],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the spice bottle",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 205.08,
+      "end": 206.5,
+      "summary": "unscrew the seasoning jar lid",
+      "verb": "open",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning lid"
+        ],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 206.5,
+      "end": 208.4,
+      "summary": "shake seasoning over the pasta",
+      "verb": "pour",
+      "object": "seasoning",
+      "tool": "seasoning jar",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning lid"
+        ],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand sprinkles spice onto the pasta",
+      "notes": "Pale granules visible; jar label is not legible enough to identify the seasoning.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 208.4,
+      "end": 210.8,
+      "summary": "close the seasoning jar",
+      "verb": "close",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand puts down the spice bottle",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 210.8,
+      "end": 216.4,
+      "summary": "stir the pasta with the fork",
+      "verb": "stir",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salt container"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=211s put jar down; t=211.6–216s stir; t=216s left hand picks up white salt container.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens the cheese container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 216.4,
+      "end": 220.0,
+      "summary": "open the salt container spout",
+      "verb": "open",
+      "object": "salt container",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "salt container"
+        ],
+        "right": [
+          "salt container"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 220.0,
+      "end": 223.1,
+      "summary": "shake salt over the pasta",
+      "verb": "pour",
+      "object": "salt",
+      "tool": "salt container",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salt container"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand puts down the cheese container",
+      "notes": "White container with teal pouring top is visible; label partly occluded.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 223.1,
+      "end": 224.7,
+      "summary": "close and put down the salt container",
+      "verb": "close",
+      "object": "salt container",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=223.7–224.2s close flip spout; t=224.6s set container on counter.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no hand activity",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 224.7,
+      "end": 239.0,
+      "summary": "stir the seasoned pasta",
+      "verb": "stir",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=224.7–238.5s stir; t=239s left hand grips pan handle with oven mitt.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 239.0,
+      "end": 243.22,
+      "summary": "tip the pan and scrape pasta into the bowl",
+      "verb": "pour",
+      "object": "pasta",
+      "tool": "pan",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=239.3s lift pan; t=240s move over bowl; t=241.5s begin pouring and fork scraping.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand combines pasta with cheese sauce and stirs",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 243.22,
+      "end": 245.94,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#60: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 245.94,
+      "end": 247.22,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#61: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 247.22,
+      "end": 248.78,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#62: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 248.78,
+      "end": 250.2,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#63: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 250.2,
+      "end": 252.48,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#64: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 252.48,
+      "end": 255.3,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#65: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 255.3,
+      "end": 256.89,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#66: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 256.89,
+      "end": 261.73,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#67: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 261.73,
+      "end": 263.81,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#68: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 263.81,
+      "end": 266.61,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#69: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 266.61,
+      "end": 269.59,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#70: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 269.59,
+      "end": 271.2,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#71: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 271.2,
+      "end": 272.19,
+      "summary": "scrape pasta from the tilted pan into the bowl",
+      "verb": "scrape",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oven mitt",
+          "pan"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "fine#72: continues the same left-hand pan hold and right-hand fork scraping as adjacent steps; no new hand-object change at this human boundary. Pasta transfer visible within t=243.2–271.8s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 272.19,
+      "end": 274.71,
+      "summary": "put the pan back on the stove",
+      "verb": "put down",
+      "object": "pan",
+      "tool": null,
+      "target": "stove",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "A pool of pale sauce remains in the pan; it is not emptied completely.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 274.71,
+      "end": 282.26,
+      "summary": "stir the macaroni and lower the serving bowl",
+      "verb": "stir",
+      "object": "pasta",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=275–278s stir bowl; t=279s lift bowl, t=280.8–281.3s lower it to counter; t=281.9s release bowl and fork. Compound final interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 51.4,
+      "instruction": "Drain the cooked pasta and set it aside",
+      "description": "The clip begins with pasta already boiling in a covered pan. Adjust the stove, hold the lid knob briefly, grip the hot pan with a red oven mitt, remove the lid and set it on the rear pan. Carry the hot pan to the sink, move a cup out of the way and retrieve a mesh strainer. Pour out cooking water, then tip the pasta into the strainer. Return both to the stove and cover the pasta-filled strainer on the rear pan.",
+      "fine_index_range": [
+        0,
+        15
+      ],
+      "transition_in": null,
+      "goal_contribution": "Removes cooking water and keeps the cooked pasta aside while the emptied pan is reused for sauce.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 51.4,
+      "end": 95.19,
+      "instruction": "Prepare the pan and add butter",
+      "description": "Adjust the front burner, fetch a glass from the sink and set it on the counter. Retrieve wrapped butter and a knife, cut off butter into the emptied front pan and set the wrapper aside. Adjust the burner again, move the milk carton near the stove, pick up a fork and push the butter around the pan; a solid chunk remains at the end of this phase.",
+      "fine_index_range": [
+        16,
+        27
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Prepares the heated pan and butter base for the cheese sauce.",
+      "predictability_level": "strong",
+      "predictability_reason": "Drained pasta awaits a prepared pan and butter for cheese sauce."
+    },
+    {
+      "start": 95.19,
+      "end": 155.49,
+      "instruction": "Combine milk and cheese into a sauce",
+      "description": "Lift and uncap the milk carton while setting the fork aside, pour milk into the pan, recap and return the carton. Open a bag of shredded mozzarella and pour it into the milk in two passes. Set the bag aside, move the carton, retrieve the fork and repeatedly stir the milk, cheese and butter into a pale sauce.",
+      "fine_index_range": [
+        28,
+        40
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Creates the pale cheese sauce that will coat the drained pasta.",
+      "predictability_level": "strong",
+      "predictability_reason": "Butter in the pan naturally leads to milk and cheese for the sauce."
+    },
+    {
+      "start": 155.49,
+      "end": 203.91,
+      "instruction": "Combine the pasta and cheese sauce",
+      "description": "Remove the lid from the pasta-filled strainer, lift the strainer and tip the pasta into the cheese sauce, scraping remaining pieces out with the fork. Put the empty strainer on the rear pan and stir the pasta thoroughly. Replace the lid over the strainer, move a white serving bowl beside the stove and continue stirring before leaving the fork in the pan.",
+      "fine_index_range": [
+        41,
+        49
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Returns the pasta to the sauce and distributes the coating before seasoning.",
+      "predictability_level": "strong",
+      "predictability_reason": "Prepared pasta and cheese sauce are ready to combine."
+    },
+    {
+      "start": 203.91,
+      "end": 239.0,
+      "instruction": "Season and stir the pasta",
+      "description": "Open the green-lidded seasoning jar, shake pale granules over the pasta, close and return the jar. Stir with the fork, open the white salt container, shake it over the pasta, close and put it down. Stir again and grasp the hot pan handle through the oven mitt.",
+      "fine_index_range": [
+        50,
+        58
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds visible seasonings and mixes them through the coated pasta before serving.",
+      "predictability_level": "weak",
+      "predictability_reason": "Combined macaroni may be seasoned, though the sauce could already be sufficient."
+    },
+    {
+      "start": 239.0,
+      "end": 282.26,
+      "instruction": "Transfer the macaroni to the serving bowl",
+      "description": "Lift and tilt the pan over the white bowl. Keep holding its handle with the left mitt while repeatedly scraping macaroni and sauce into the bowl with the right-hand fork. Stop pouring while some pale sauce remains in the pan, return the pan to the stove and stir the macaroni in the bowl. Briefly lift the bowl, lower it to the counter and release it with the fork left inside.",
+      "fine_index_range": [
+        59,
+        74
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Moves the prepared macaroni from the cooking pan to its final serving bowl.",
+      "predictability_level": "strong",
+      "predictability_reason": "Finished macaroni is ready for the serving bowl."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames/09608c5b07b02b7d/native_v1",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "video_id": "d2037e676003fddb",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After marking primary consumers, labeling producers and secondary consumers continues the food web."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The partly labeled web is ready for flow lines and top consumers."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "A labeled food web supports explaining energy transfer and drawing the pyramid."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "The drawn energy pyramid needs its trophic levels labeled."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "After labeling the pyramid, returning to the web for recap is plausible but optional."
+    }
+  ]
+}

@@ -1,0 +1,1760 @@
+{
+  "video_id": "554e251921df992c",
+  "duration": 181.334,
+  "task": "Cleaning and reinstalling a range hood filter",
+  "domain": "Handyman",
+  "query": "How do I clean and reinstall a range hood filter?",
+  "goal": {
+    "title": "Clean and reinstall the range hood filter assembly",
+    "description": "Disconnect the hood, remove two metal baffle filters and two round black filter covers, and carry the round covers to the sink. Wash both round covers with dish soap and a sponge, rinse and dry them, then reinstall the covers and metal filters. Reconnect power and operate the hood controls.",
+    "final_state": "Both metal filters are fitted under the hood and the cord is reconnected. The final frames show the assembled hood with its illuminated display after the controls are tested.",
+    "procedure": [
+      "Disconnect the range hood power cord.",
+      "Remove both metal baffle filters and the two round filter covers.",
+      "Wash and rinse each round cover using dish soap and a sponge.",
+      "Dry the washed covers with paper towels.",
+      "Reinstall the round covers, then seat and secure the metal filters.",
+      "Reconnect the cord and test the hood controls."
+    ]
+  },
+  "object_inventory": [
+    "range hood",
+    "power cord",
+    "baffle filter",
+    "filter cover",
+    "sink",
+    "counter",
+    "faucet",
+    "sprayer",
+    "sponge",
+    "dish soap bottle",
+    "paper towel"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 23.6,
+      "description": "Disconnect the cord, release both metal filters and remove both round covers. Carry the round covers to the sink."
+    },
+    {
+      "start": 23.6,
+      "end": 61.08,
+      "description": "Rinse the first cover, obtain a sponge and dish soap, scrub its surfaces and rinse away the soap. Set it back in the sink."
+    },
+    {
+      "start": 61.08,
+      "end": 95.72,
+      "description": "Apply fresh soap to the sponge and scrub the other cover. Rinse it while turning it, then set both washed covers on the counter."
+    },
+    {
+      "start": 95.72,
+      "end": 123.74,
+      "description": "Obtain paper towels, dry both covers and briefly wipe the counter. Collect a dried cover and move back toward the hood."
+    },
+    {
+      "start": 123.74,
+      "end": 155.85,
+      "description": "Attach both round covers inside the hood and fit each metal baffle filter back into its opening. Secure their front edges."
+    },
+    {
+      "start": 155.85,
+      "end": 181.19,
+      "description": "Reconnect the hood power cord and press several controls on the illuminated front panel."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.48,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "unplug the range hood power cord",
+      "verb": "remove",
+      "object": "power cord",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Cord movement is visible t=2.1s; end grip is outside the view. Type re-evaluated from visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 2.48,
+      "end": 4.9,
+      "old_summary": "n",
+      "summary": "idle: turn toward the range hood",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 4.9,
+      "end": 7.29,
+      "old_summary": "hands remove and place both range hood filters on the stovetop",
+      "summary": "remove the baffle filter from the range hood",
+      "verb": "remove",
+      "object": "baffle filter",
+      "tool": null,
+      "target": "range hood",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "baffle filter"
+        ],
+        "right": [
+          "baffle filter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 7.29,
+      "end": 8.64,
+      "old_summary": "n",
+      "summary": "put down the baffle filter on the stove",
+      "verb": "put down",
+      "object": "baffle filter",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.64,
+      "end": 10.99,
+      "old_summary": "n",
+      "summary": "remove the second baffle filter from the range hood",
+      "verb": "remove",
+      "object": "baffle filter",
+      "tool": null,
+      "target": "range hood",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "baffle filter"
+        ],
+        "right": [
+          "baffle filter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.99,
+      "end": 12.0,
+      "old_summary": "n",
+      "summary": "put down the second baffle filter",
+      "verb": "put down",
+      "object": "baffle filter",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "baffle filter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=11–12.0s lowers filter; it is still supported at the boundary before release.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.0,
+      "end": 15.4,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "unscrew the filter cover beneath the range hood",
+      "verb": "unscrew",
+      "object": "filter cover",
+      "tool": null,
+      "target": "range hood",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=13.3–15.4s cover removal includes a second reach; exact hand assignment partly obscured.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.4,
+      "end": 19.2,
+      "old_summary": "hand removes the filter from the range hood",
+      "summary": "remove the second filter cover",
+      "verb": "remove",
+      "object": "filter cover",
+      "tool": null,
+      "target": "range hood",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.2,
+      "end": 23.6,
+      "old_summary": "hand places one filter in the sink",
+      "summary": "carry the filter covers to the sink",
+      "verb": "move",
+      "object": "filter cover",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.6,
+      "end": 30.0,
+      "old_summary": "hand places the second filter under water",
+      "summary": "pick up the sponge beside the sink",
+      "verb": "pick up",
+      "object": "sponge",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=24.5s cover moves aside, t=27–29.9s right hand retrieves sponge; multiple interactions.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.0,
+      "end": 36.68,
+      "old_summary": "hand uses a brush to clean the first filter",
+      "summary": "rinse the filter cover with the sprayer",
+      "verb": "rinse",
+      "object": "filter cover",
+      "tool": "sprayer",
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sprayer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=30–32s positions cover and sprayer; t=33–36s turns/rinses cover.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.68,
+      "end": 38.1,
+      "old_summary": "n",
+      "summary": "turn the faucet handle",
+      "verb": "adjust",
+      "object": "faucet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 38.1,
+      "end": 38.68,
+      "old_summary": "hand rinses the first filter",
+      "summary": "hold the filter cover beneath the faucet",
+      "verb": "hold",
+      "object": "filter cover",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.68,
+      "end": 42.99,
+      "old_summary": "n",
+      "summary": "rinse the filter cover beneath running water",
+      "verb": "rinse",
+      "object": "filter cover",
+      "tool": "sprayer",
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sprayer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 42.99,
+      "end": 44.2,
+      "old_summary": "n",
+      "summary": "place the filter cover in the sink",
+      "verb": "place",
+      "object": "filter cover",
+      "tool": null,
+      "target": "sink",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.2,
+      "end": 46.24,
+      "old_summary": "hand scrubs the first filter with a soapy sponge",
+      "summary": "pick up the sponge from its holder",
+      "verb": "pick up",
+      "object": "sponge",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.24,
+      "end": 47.48,
+      "old_summary": "n",
+      "summary": "pick up the dish soap bottle",
+      "verb": "pick up",
+      "object": "dish soap bottle",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "dish soap bottle"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 47.48,
+      "end": 48.95,
+      "old_summary": "n",
+      "summary": "squeeze dish soap onto the sponge",
+      "verb": "pour",
+      "object": "dish soap bottle",
+      "tool": null,
+      "target": "sponge",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "dish soap bottle"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.95,
+      "end": 49.93,
+      "old_summary": "n",
+      "summary": "return the dish soap bottle to the counter",
+      "verb": "put down",
+      "object": "dish soap bottle",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "dish soap bottle"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bottle remains in left hand at t=49.867s and is released near t=50.0s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.93,
+      "end": 50.8,
+      "old_summary": "n",
+      "summary": "pick up the filter cover from the sink",
+      "verb": "pick up",
+      "object": "filter cover",
+      "tool": null,
+      "target": "sink",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=50.1s reaches for cover while right holds sponge; continuation from soap return.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 50.8,
+      "end": 56.6,
+      "old_summary": "n",
+      "summary": "scrub the filter cover with the sponge",
+      "verb": "wipe",
+      "object": "filter cover",
+      "tool": "sponge",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.6,
+      "end": 57.7,
+      "old_summary": "hand rinses the first filter again",
+      "summary": "turn the filter cover in the left hand",
+      "verb": "flip",
+      "object": "filter cover",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuous scrubbing/cover rotation t=56.6–57.7s, with rinsing beginning afterward.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 57.7,
+      "end": 61.08,
+      "old_summary": "n",
+      "summary": "rinse the scrubbed filter cover with the sprayer",
+      "verb": "rinse",
+      "object": "filter cover",
+      "tool": "sprayer",
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=58–60s rinses then t=61s sets cover down, more than one interaction.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 61.08,
+      "end": 62.6,
+      "old_summary": "n",
+      "summary": "pick up the other filter cover",
+      "verb": "pick up",
+      "object": "filter cover",
+      "tool": null,
+      "target": "sink",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.6,
+      "end": 64.58,
+      "old_summary": "hand picks up the second filter",
+      "summary": "pick up the dish soap bottle",
+      "verb": "pick up",
+      "object": "dish soap bottle",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "dish soap bottle"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 64.58,
+      "end": 65.7,
+      "old_summary": "n",
+      "summary": "squeeze dish soap onto the sponge",
+      "verb": "pour",
+      "object": "dish soap bottle",
+      "tool": null,
+      "target": "sponge",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "dish soap bottle"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.7,
+      "end": 75.34,
+      "old_summary": "hand scrubs the second filter with a soapy sponge",
+      "summary": "scrub the other filter cover with the sponge",
+      "verb": "wipe",
+      "object": "filter cover",
+      "tool": "sponge",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sponge"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=66s returns bottle, then t=67–74s scrubs cover; multiple hand-object changes.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.34,
+      "end": 76.25,
+      "old_summary": "hand rinses the second filter",
+      "summary": "pick up the sprayer",
+      "verb": "pick up",
+      "object": "sprayer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sprayer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 76.25,
+      "end": 82.4,
+      "old_summary": "n",
+      "summary": "rinse the other filter cover",
+      "verb": "rinse",
+      "object": "filter cover",
+      "tool": "sprayer",
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sprayer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 82.4,
+      "end": 83.22,
+      "old_summary": "n",
+      "summary": "turn the filter cover beneath the sprayer",
+      "verb": "flip",
+      "object": "filter cover",
+      "tool": "sprayer",
+      "target": "sink",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sprayer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Short split within one continuous rinse/rotation t=82–83.2s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.22,
+      "end": 86.8,
+      "old_summary": "n",
+      "summary": "rinse the remaining surface of the filter cover",
+      "verb": "rinse",
+      "object": "filter cover",
+      "tool": "sprayer",
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "sprayer"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.8,
+      "end": 88.0,
+      "old_summary": "hand places the second filter on the counter",
+      "summary": "return the sprayer to its holder",
+      "verb": "place",
+      "object": "sprayer",
+      "tool": null,
+      "target": "faucet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.0,
+      "end": 91.93,
+      "old_summary": "hand picks up the second filter",
+      "summary": "place the washed filter covers beside the sink",
+      "verb": "place",
+      "object": "filter cover",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Moves both covers to counter across t=89–91.9s; multiple grasps.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 91.93,
+      "end": 95.09,
+      "old_summary": "hand puts down the second filter",
+      "summary": "adjust the filter covers on the counter",
+      "verb": "adjust",
+      "object": "filter cover",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.09,
+      "end": 95.72,
+      "old_summary": "n",
+      "summary": "put down the filter covers",
+      "verb": "put down",
+      "object": "filter cover",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=95.1–95.7s is continuous cover placement/moving away.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.72,
+      "end": 97.81,
+      "old_summary": "hand picks up the first filter",
+      "summary": "idle: turn toward the stove",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "No task-object interaction while turning toward stove. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 97.81,
+      "end": 99.06,
+      "old_summary": "n",
+      "summary": "idle: look at the removed baffle filters",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "No hand-object interaction in this interval. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 99.06,
+      "end": 101.18,
+      "old_summary": "hand grabs a towel",
+      "summary": "reach for paper towels",
+      "verb": "reach for",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 101.18,
+      "end": 102.4,
+      "old_summary": "n",
+      "summary": "pick up the paper towels",
+      "verb": "pick up",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 102.4,
+      "end": 103.4,
+      "old_summary": "hand grabs a paper towel",
+      "summary": "carry the paper towels back to the sink",
+      "verb": "move",
+      "object": "paper towel",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.4,
+      "end": 109.5,
+      "old_summary": "n",
+      "summary": "wipe the filter cover with a paper towel",
+      "verb": "wipe",
+      "object": "filter cover",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=104–109s dries cover; t=109.4s begins setting it down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.5,
+      "end": 109.6,
+      "old_summary": "hand wipes the filter with the paper towel",
+      "summary": "turn the dried filter cover",
+      "verb": "flip",
+      "object": "filter cover",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.1s cut divides continuing cover handling, no separate completed action.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.6,
+      "end": 109.95,
+      "old_summary": "hand picks up the second filter",
+      "summary": "put down the dried filter cover",
+      "verb": "put down",
+      "object": "filter cover",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.35s cut falls during cover placement/release.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.95,
+      "end": 110.4,
+      "old_summary": "n",
+      "summary": "pick up the other filter cover",
+      "verb": "pick up",
+      "object": "filter cover",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=110.0–110.4s regrasp cover; wiping starts at t=110.5s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 110.4,
+      "end": 116.07,
+      "old_summary": "hand wipes the second filter with the paper towel",
+      "summary": "wipe the other filter cover with the paper towel",
+      "verb": "wipe",
+      "object": "filter cover",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 116.07,
+      "end": 117.08,
+      "old_summary": "n",
+      "summary": "turn the filter cover while drying it",
+      "verb": "flip",
+      "object": "filter cover",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=116.1–117.1s includes towel reposition and cover rotation.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.08,
+      "end": 118.7,
+      "old_summary": "hand puts down the second filter",
+      "summary": "put down the dried filter cover",
+      "verb": "put down",
+      "object": "filter cover",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.7,
+      "end": 119.09,
+      "old_summary": "n",
+      "summary": "pick up the dried filter cover again",
+      "verb": "pick up",
+      "object": "filter cover",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.39s cut at t=118.7–119.09s splits cover regrasp.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.09,
+      "end": 123.31,
+      "old_summary": "hand picks up the first filter",
+      "summary": "wipe the counter beside the sink",
+      "verb": "wipe",
+      "object": "counter",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=119–120s wipes counter then moves towel aside; right retains cover.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.31,
+      "end": 123.74,
+      "old_summary": "n",
+      "summary": "carry the filter cover toward the range hood",
+      "verb": "move",
+      "object": "filter cover",
+      "tool": null,
+      "target": "range hood",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.43s slice during walking/carrying; no independent hand-object change.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.74,
+      "end": 126.0,
+      "old_summary": "n",
+      "summary": "raise the filter cover beneath the hood",
+      "verb": "move",
+      "object": "filter cover",
+      "tool": null,
+      "target": "range hood",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.0,
+      "end": 132.1,
+      "old_summary": "hand inserts the first filter into the range hood",
+      "summary": "screw the filter cover back onto the hood",
+      "verb": "screw",
+      "object": "filter cover",
+      "tool": null,
+      "target": "range hood",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "filter cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Cover attachment t=127–132s is partly hidden by forearm; final released/held state uncertain.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 132.1,
+      "end": 133.4,
+      "old_summary": "hand picks up the second filter",
+      "summary": "pick up the other dried filter cover",
+      "verb": "pick up",
+      "object": "filter cover",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "filter cover"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.4,
+      "end": 144.6,
+      "old_summary": "hand removes the metal filter from the stove",
+      "summary": "screw the other filter cover onto the hood",
+      "verb": "screw",
+      "object": "filter cover",
+      "tool": null,
+      "target": "range hood",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Attachment is partly hidden under hood, release visible by t=142.5s.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 144.6,
+      "end": 145.09,
+      "old_summary": "hand places the metal filter under the range hood",
+      "summary": "pick up the baffle filter from the stove",
+      "verb": "pick up",
+      "object": "baffle filter",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "baffle filter"
+        ],
+        "right": [
+          "baffle filter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.49s split during lifting the baffle filter from stove.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 145.09,
+      "end": 147.5,
+      "old_summary": "n",
+      "summary": "insert the baffle filter into the hood",
+      "verb": "insert",
+      "object": "baffle filter",
+      "tool": null,
+      "target": "range hood",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "baffle filter"
+        ],
+        "right": [
+          "baffle filter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.5,
+      "end": 149.0,
+      "old_summary": "hand secures the metal filter under the range hood",
+      "summary": "secure the baffle filter beneath the hood",
+      "verb": "attach",
+      "object": "baffle filter",
+      "tool": null,
+      "target": "range hood",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 149.0,
+      "end": 150.2,
+      "old_summary": "hand removes the metal filter from the stove",
+      "summary": "pick up the second baffle filter",
+      "verb": "pick up",
+      "object": "baffle filter",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "baffle filter"
+        ],
+        "right": [
+          "baffle filter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 150.2,
+      "end": 153.5,
+      "old_summary": "hand places the metal filter under the range hood",
+      "summary": "insert the second baffle filter into the hood",
+      "verb": "insert",
+      "object": "baffle filter",
+      "tool": null,
+      "target": "range hood",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "baffle filter"
+        ],
+        "right": [
+          "baffle filter"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.5,
+      "end": 155.85,
+      "old_summary": "hand secures the metal filter under the range hood",
+      "summary": "secure the second baffle filter",
+      "verb": "attach",
+      "object": "baffle filter",
+      "tool": null,
+      "target": "range hood",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 155.85,
+      "end": 158.0,
+      "old_summary": "hand unplugs the range hood power cord",
+      "summary": "reach for the range hood power cord",
+      "verb": "reach for",
+      "object": "power cord",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "power cord"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 158.0,
+      "end": 160.2,
+      "old_summary": "hand plugs the range hood power cord back in",
+      "summary": "plug the range hood power cord into the outlet",
+      "verb": "insert",
+      "object": "power cord",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 160.2,
+      "end": 173.18,
+      "old_summary": "n",
+      "summary": "press the range hood control buttons",
+      "verb": "press",
+      "object": "range hood",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 173.18,
+      "end": 173.44,
+      "old_summary": "n",
+      "summary": "release the range hood control button",
+      "verb": "remove",
+      "object": "range hood",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.26s release slice after repeated control presses; no held object.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 173.44,
+      "end": 181.19,
+      "old_summary": "n",
+      "summary": "press the range hood controls again",
+      "verb": "press",
+      "object": "range hood",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=173.5–176s no interaction, t=177–180s presses controls again.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 23.6,
+      "fine_index_range": [
+        0,
+        8
+      ],
+      "instruction": "Remove the hood filters and round covers",
+      "description": "Disconnect the cord, release both metal filters and remove both round covers. Carry the round covers to the sink.",
+      "goal_contribution": "Expose and remove the components that will be cleaned.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 23.6,
+      "end": 61.08,
+      "fine_index_range": [
+        9,
+        22
+      ],
+      "instruction": "Wash and rinse the first round filter cover",
+      "description": "Rinse the first cover, obtain a sponge and dish soap, scrub its surfaces and rinse away the soap. Set it back in the sink.",
+      "goal_contribution": "Remove visible residue from the first round cover.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After remove the hood filters and round covers, wash and rinse the first round filter cover is a natural next stage toward clean and reinstall the range hood filter assembly."
+    },
+    {
+      "start": 61.08,
+      "end": 95.72,
+      "fine_index_range": [
+        23,
+        34
+      ],
+      "instruction": "Wash and rinse the second round filter cover",
+      "description": "Apply fresh soap to the sponge and scrub the other cover. Rinse it while turning it, then set both washed covers on the counter.",
+      "goal_contribution": "Finish washing the two removable round covers.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After wash and rinse the first round filter cover, wash and rinse the second round filter cover is a natural next stage toward clean and reinstall the range hood filter assembly."
+    },
+    {
+      "start": 95.72,
+      "end": 123.74,
+      "fine_index_range": [
+        35,
+        49
+      ],
+      "instruction": "Dry the covers and clear the sink area",
+      "description": "Obtain paper towels, dry both covers and briefly wipe the counter. Collect a dried cover and move back toward the hood.",
+      "goal_contribution": "Prepare the washed parts for reinstallation without dripping.",
+      "transition_in": "NONE",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After wash and rinse the second round filter cover, dry the covers and clear the sink area is a natural next stage toward clean and reinstall the range hood filter assembly."
+    },
+    {
+      "start": 123.74,
+      "end": 155.85,
+      "fine_index_range": [
+        50,
+        59
+      ],
+      "instruction": "Reinstall the covers and metal baffle filters",
+      "description": "Attach both round covers inside the hood and fit each metal baffle filter back into its opening. Secure their front edges.",
+      "goal_contribution": "Restore the assembled filter system.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After dry the covers and clear the sink area, reinstall the covers and metal baffle filters is a natural next stage toward clean and reinstall the range hood filter assembly."
+    },
+    {
+      "start": 155.85,
+      "end": 181.19,
+      "fine_index_range": [
+        60,
+        64
+      ],
+      "instruction": "Reconnect power and check the hood controls",
+      "description": "Reconnect the hood power cord and press several controls on the illuminated front panel.",
+      "goal_contribution": "Return the cleaned hood to use and check its controls.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After reinstall the covers and metal baffle filters, reconnect power and check the hood controls is a natural next stage toward clean and reinstall the range hood filter assembly."
+    }
+  ],
+  "notes": "Overview, every dense step sheet, and native endpoint sheets reviewed from the evidence manifest. The task name suggests washing the metal filter, but the visible washing is of two round black covers; the rectangular baffle filters remain on the stove before reinstallation. Boundaries preserved. Short splits at 109.5–110.4s divide cover placement/regrasp; 173.18–173.44s divides button release. Physical stove surface is represented as counter in the common destination vocabulary. No new boundaries or tails added. Semantic predictability remains pending independent assessment."
+}

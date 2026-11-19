@@ -1,0 +1,46 @@
+{
+  "video_id": "14e98d6cd1072bfc",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The bowl is ready to receive and beat an egg."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The beaten egg needs fish pieces for the stated dish."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The seasoned egg and fish mixture is ready to microwave."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After the brief microwave cycle and stir, further heating is a natural continuation."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "The egg mixture remains in repeated heat-and-stir cooking."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "The forming curds naturally need a final heating and stir."
+    },
+    {
+      "index": 7,
+      "level": "strong",
+      "reason": "Cooked egg curds are ready to plate and garnish."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "video_id": "050e205b707d34c2",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After crack and beat the eggs with milk, heat the egg mixture for the first time is a natural next stage toward prepare microwave eggs with cheese and salsa."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After heat the egg mixture for the first time, stir and salt the partly cooked eggs is plausible for prepare microwave eggs with cheese and salsa, but several next steps fit."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After stir and salt the partly cooked eggs, heat the eggs again and retrieve the bowl is a natural next stage toward prepare microwave eggs with cheese and salsa."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After heat the eggs again and retrieve the bowl, top the cooked eggs with cheese and salsa is a natural next stage toward prepare microwave eggs with cheese and salsa."
+    }
+  ]
+}

@@ -207,3 +207,7 @@ vllm serve Qwen/Qwen3-VL-8B-Instruct \
 # 4. smoke test on one video
 python3 annotate.py --granularity coarse --out /tmp/smoke_coarse.jsonl --limit 1
 ```
+
+## EgoDual v2 final annotations (93 videos)
+
+The [EgoDual v2 release](egodual_v2/README.md) contains 93 per-video final annotation JSONs (4,020 human-bounded fine steps and 506 rewritten coarse subtasks), a JSONL export, the annotation/review code, and a standalone validator. Video media and extracted frames are not included.

@@ -1,0 +1,31 @@
+{
+  "video_id": "7ba0ff671b9b7693",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After rinse and dry the tumbler, wipe the tumbler again with fresh towel is plausible for decorate a metal tumbler with three stickers, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After wipe the tumbler again with fresh towel, apply and smooth the first sticker is a natural next stage toward decorate a metal tumbler with three stickers."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After apply and smooth the first sticker, apply and smooth the second sticker is a natural next stage toward decorate a metal tumbler with three stickers."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After apply and smooth the second sticker, apply the third sticker and inspect the cup is a natural next stage toward decorate a metal tumbler with three stickers."
+    }
+  ]
+}

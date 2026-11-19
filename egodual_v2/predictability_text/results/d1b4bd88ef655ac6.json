@@ -1,0 +1,21 @@
+{
+  "video_id": "d1b4bd88ef655ac6",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After hinge adjustment, opening and closing tests the door fit."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "If the door is still being checked, further hinge adjustment is a natural continuation."
+    }
+  ]
+}

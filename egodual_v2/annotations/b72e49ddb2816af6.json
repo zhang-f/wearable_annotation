@@ -1,0 +1,1562 @@
+{
+  "video_id": "b72e49ddb2816af6",
+  "duration": 172.867,
+  "task": "Making eggs in a mug with salsa",
+  "domain": "Chef",
+  "query": "How do I make eggs in a mug with salsa?",
+  "goal": {
+    "title": "Make eggs in a mug with salsa and hot sauce",
+    "description": "Crack an egg into a glass, stir in salsa from a jar and hot sauce from a bottle, then microwave the mixture in the glass. Check on it partway through and reset the cook time, then use a towel to lift the hot glass out, add more hot sauce, and carry it to the dining table to eat with a spoon.",
+    "final_state": "The cooked egg and salsa mixture has been eaten from the glass at the dining table; only a few spoonfuls remain visible toward the end.",
+    "procedure": [
+      "Crack an egg and transfer its contents into a glass.",
+      "Open the salsa jar, add salsa, and stir.",
+      "Fetch the hot sauce, pour some into the glass, and stir again.",
+      "Place the glass in the microwave and start heating.",
+      "Open the microwave to inspect the contents and set more cooking time.",
+      "Remove the hot glass with a towel and add more sauce.",
+      "Carry the glass to the table and eat with a spoon."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 20.1,
+      "description": "Get a glass, crack an egg into it, and discard the shell."
+    },
+    {
+      "start": 20.1,
+      "end": 40.6,
+      "description": "Open a salsa jar, pour salsa into the egg, and stir."
+    },
+    {
+      "start": 40.6,
+      "end": 55.9,
+      "description": "Get hot sauce from a cabinet and stir it into the egg mixture."
+    },
+    {
+      "start": 55.9,
+      "end": 108.6,
+      "description": "Place the glass in the microwave, set the timer, and start cooking."
+    },
+    {
+      "start": 108.6,
+      "end": 127.6,
+      "description": "Open the microwave to check the egg, close it, and set additional cook time."
+    },
+    {
+      "start": 127.6,
+      "end": 144.5,
+      "description": "Use a towel to remove the hot glass and add more hot sauce."
+    },
+    {
+      "start": 144.5,
+      "end": 172.57,
+      "description": "Carry the glass to the dining table and eat the egg mixture with a spoon."
+    }
+  ],
+  "object_inventory": [
+    "egg carton",
+    "egg",
+    "glass",
+    "knife",
+    "salsa jar",
+    "salsa",
+    "egg mixture",
+    "cabinet",
+    "hot sauce",
+    "microwave",
+    "towel",
+    "spoon",
+    "counter",
+    "table"
+  ],
+  "notes": "Overview and six grouped dense contact sheets reviewed (roughly 2-2.5fps for active segments, plus a targeted 4fps recheck of 106-124s), with full-resolution single-frame spot checks where the thumbnail grids were ambiguous (e.g. confirming the jar label and hot sauce bottle). Step 38 (109.2-114.04s): old_summary says the microwave door is closed here, but frames clearly show the door held open while a hand reaches in and adjusts the glass; differs_from_expectation noted on that step. Step 41 (116.38-123.25s): old_summary says the door opens here, but frames show the door closed the entire time with repeated keypad presses; differs_from_expectation noted on that step. Verbs \"eat\" and \"rinse\" are used for a couple of steps even though they are not on the suggested verb list, since they are the clearest match for what the frames show. Only one egg from the carton is actually used; the remaining eggs in the carton are never touched again after the first one. Tail after the last step (172.57s to ffprobe duration 172.867s) is 0.297s, under the 1s reporting threshold, so no separate tail note is given.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 1.64,
+      "old_summary": "hand picks up the egg carton",
+      "beyond_video_end": false,
+      "summary": "pick up the egg carton",
+      "verb": "pick up",
+      "object": "egg carton",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 1.64,
+      "end": 2.74,
+      "old_summary": "hand opens the egg carton and picks an egg from it",
+      "beyond_video_end": false,
+      "summary": "take an egg from the carton",
+      "verb": "pick up",
+      "object": "egg",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 2.74,
+      "end": 7.15,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "retrieve a glass from the cabinet",
+      "verb": "pick up",
+      "object": "glass",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes opening the cabinet door before grasping the glass.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 7.15,
+      "end": 9.18,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "carry the glass back to the counter",
+      "verb": "move",
+      "object": "glass",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.18,
+      "end": 10.09,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "set the glass on the counter",
+      "verb": "place",
+      "object": "glass",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.09,
+      "end": 11.4,
+      "old_summary": "hand cracks the egg with a knife",
+      "beyond_video_end": false,
+      "summary": "crack the egg with a knife",
+      "verb": "crack",
+      "object": "egg",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "egg"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.4,
+      "end": 13.05,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "pass the egg yolk between the shell halves",
+      "verb": "pour",
+      "object": "egg",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "egg"
+        ],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "Verb \"pour\" used for the yolk-separating technique; not an exact match on the suggested verb list.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.05,
+      "end": 14.66,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "continue separating the egg yolk into the glass",
+      "verb": "pour",
+      "object": "egg",
+      "tool": null,
+      "target": "glass",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "egg"
+        ],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.66,
+      "end": 20.1,
+      "old_summary": "hand cracks an egg into a glass, discards shell, then picks up another egg",
+      "beyond_video_end": false,
+      "summary": "drop the egg into the glass and discard the shell",
+      "verb": "pour",
+      "object": "egg",
+      "tool": null,
+      "target": "glass",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Ends with picking up a new egg from the carton, continuing the cracking sequence.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.1,
+      "end": 21.9,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "beyond_video_end": false,
+      "summary": "idle after cracking the egg",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 21.9,
+      "end": 32.13,
+      "old_summary": "hand opens jar lid",
+      "beyond_video_end": false,
+      "summary": "unscrew the salsa jar lid",
+      "verb": "open",
+      "object": "salsa jar",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salsa jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 32.13,
+      "end": 32.62,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "remove the lid from the salsa jar",
+      "verb": "open",
+      "object": "salsa jar",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salsa jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Very short (0.49s) continuation of opening the jar.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 32.62,
+      "end": 33.2,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "scoop salsa from the jar",
+      "verb": "scoop",
+      "object": "salsa",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Very short (0.6s) segment.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 33.2,
+      "end": 33.9,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "add the scooped salsa to the egg mixture",
+      "verb": "pour",
+      "object": "salsa",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Very short (0.7s) segment.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 33.9,
+      "end": 34.91,
+      "old_summary": "hand pours salsa into egg mixture",
+      "beyond_video_end": false,
+      "summary": "pour salsa into the egg mixture",
+      "verb": "pour",
+      "object": "salsa jar",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salsa jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 34.91,
+      "end": 35.91,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "stir the salsa into the egg mixture",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 35.91,
+      "end": 37.3,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "continue stirring the egg and salsa mixture",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.3,
+      "end": 37.9,
+      "old_summary": "hand closes jar lid",
+      "beyond_video_end": false,
+      "summary": "close the salsa jar lid",
+      "verb": "close",
+      "object": "salsa jar",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salsa jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 37.9,
+      "end": 38.2,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "set the salsa jar down",
+      "verb": "put down",
+      "object": "salsa jar",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Very short (0.3s) segment.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.2,
+      "end": 40.6,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "beyond_video_end": false,
+      "summary": "idle before adding hot sauce",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 40.6,
+      "end": 41.3,
+      "old_summary": "hand stirs egg mixture",
+      "beyond_video_end": false,
+      "summary": "stir the egg mixture",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 41.3,
+      "end": 43.5,
+      "old_summary": "hand reaches for cabinet",
+      "beyond_video_end": false,
+      "summary": "reach for the pantry cabinet",
+      "verb": "reach for",
+      "object": "cabinet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.5,
+      "end": 45.0,
+      "old_summary": "hand opens cabinet door",
+      "beyond_video_end": false,
+      "summary": "open the cabinet door",
+      "verb": "open",
+      "object": "cabinet",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 45.0,
+      "end": 46.1,
+      "old_summary": "hand grabs bottle from cabinet",
+      "beyond_video_end": false,
+      "summary": "grab the hot sauce bottle from the cabinet",
+      "verb": "pick up",
+      "object": "hot sauce",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hot sauce"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.1,
+      "end": 47.6,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "carry the hot sauce bottle back to the counter",
+      "verb": "move",
+      "object": "hot sauce",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hot sauce"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.6,
+      "end": 47.9,
+      "old_summary": "hand unscrews bottle cap",
+      "beyond_video_end": false,
+      "summary": "unscrew the hot sauce bottle cap",
+      "verb": "open",
+      "object": "hot sauce",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hot sauce"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.9,
+      "end": 49.0,
+      "old_summary": "hand pours hot sauce into egg mixture",
+      "beyond_video_end": false,
+      "summary": "pour hot sauce into the egg mixture",
+      "verb": "pour",
+      "object": "hot sauce",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hot sauce"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 49.0,
+      "end": 50.05,
+      "old_summary": "hand stirs egg mixture",
+      "beyond_video_end": false,
+      "summary": "stir the egg mixture",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 50.05,
+      "end": 53.9,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "stir the egg mixture near the sink",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Brief movement toward the sink visible; exact purpose unclear.",
+      "confidence": "low",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 53.9,
+      "end": 55.9,
+      "old_summary": "hand stirs the egg mixture",
+      "beyond_video_end": false,
+      "summary": "stir the egg mixture again",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.9,
+      "end": 56.75,
+      "old_summary": "hand carries the glass to the microwave and removes the microwave lid",
+      "beyond_video_end": false,
+      "summary": "lift the glass toward the microwave",
+      "verb": "move",
+      "object": "glass",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Also lifts a plate-style splatter cover out of the microwave.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 56.75,
+      "end": 58.7,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "position the glass at the microwave opening",
+      "verb": "move",
+      "object": "glass",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.7,
+      "end": 60.66,
+      "old_summary": "hand places the glass with egg mixture inside the microwave",
+      "beyond_video_end": false,
+      "summary": "place the glass with egg mixture inside the microwave",
+      "verb": "place",
+      "object": "glass",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 60.66,
+      "end": 64.86,
+      "old_summary": "hand presses buttons on the microwave and sets the timer",
+      "beyond_video_end": false,
+      "summary": "press buttons on the microwave and set the timer",
+      "verb": "adjust",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 64.86,
+      "end": 65.55,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "press the microwave start button",
+      "verb": "adjust",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Short (0.69s) segment.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 65.55,
+      "end": 69.5,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "close the microwave door",
+      "verb": "close",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 69.5,
+      "end": 108.6,
+      "old_summary": "hand starts the microwave",
+      "beyond_video_end": false,
+      "summary": "start the microwave and let the egg mixture cook",
+      "verb": "adjust",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Most of this interval (~38s) is the microwave running unattended with the turntable rotating; no hands visible after the initial start.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 108.6,
+      "end": 109.2,
+      "old_summary": "hand opens the microwave door",
+      "beyond_video_end": false,
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 109.2,
+      "end": 114.04,
+      "old_summary": "hand closes microwave door",
+      "beyond_video_end": false,
+      "summary": "reach into the microwave and adjust the glass",
+      "verb": "adjust",
+      "object": "glass",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Exact action partly occluded by the open door edge.",
+      "confidence": "medium",
+      "notes": "differs_from_expectation: old_summary says the door is closed here, but frames show it held open for about 5s while a hand repeatedly reaches in.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 114.04,
+      "end": 114.99,
+      "old_summary": "right hand operates microwave",
+      "beyond_video_end": false,
+      "summary": "close the microwave door",
+      "verb": "close",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 114.99,
+      "end": 116.38,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "press the microwave keypad again",
+      "verb": "adjust",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Short (1.39s) segment.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 116.38,
+      "end": 123.25,
+      "old_summary": "hand opens microwave door",
+      "beyond_video_end": false,
+      "summary": "set a new cook time on the microwave keypad",
+      "verb": "adjust",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "differs_from_expectation: old_summary says the door opens here, but frames show it closed throughout with repeated keypad presses.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 123.25,
+      "end": 123.52,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "press the microwave start button",
+      "verb": "adjust",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Very short (0.27s) segment.",
+      "confidence": "low",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 123.52,
+      "end": 125.51,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "continue pressing the microwave keypad",
+      "verb": "adjust",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 125.51,
+      "end": 127.6,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "finish setting the microwave and step back",
+      "verb": "adjust",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 127.6,
+      "end": 131.3,
+      "old_summary": "hand grabs towel",
+      "beyond_video_end": false,
+      "summary": "grab a towel",
+      "verb": "pick up",
+      "object": "towel",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 131.3,
+      "end": 136.2,
+      "old_summary": "hand uses towel to remove mug from microwave",
+      "beyond_video_end": false,
+      "summary": "use the towel to remove the glass from the microwave",
+      "verb": "remove",
+      "object": "glass",
+      "tool": "towel",
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass",
+          "towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.2,
+      "end": 138.6,
+      "old_summary": "hand places mug on counter",
+      "beyond_video_end": false,
+      "summary": "place the glass on the counter",
+      "verb": "place",
+      "object": "glass",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 138.6,
+      "end": 139.5,
+      "old_summary": "hand picks up hot sauce bottle",
+      "beyond_video_end": false,
+      "summary": "pick up the hot sauce bottle",
+      "verb": "pick up",
+      "object": "hot sauce",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hot sauce"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 139.5,
+      "end": 144.5,
+      "old_summary": "hand pours hot sauce onto egg",
+      "beyond_video_end": false,
+      "summary": "pour hot sauce onto the cooked egg",
+      "verb": "pour",
+      "object": "hot sauce",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hot sauce"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 144.5,
+      "end": 147.45,
+      "old_summary": "hand scoops egg from sink strainer with spoon, walks to table, places bowl down, stirs egg, then eats it",
+      "beyond_video_end": false,
+      "summary": "carry the glass of cooked egg to the dining table",
+      "verb": "move",
+      "object": "glass",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "glass"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Compound step per old_summary: also scoops with a spoon near the sink, sets the glass down at the table, stirs, and takes a first bite.",
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 147.45,
+      "end": 148.66,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "stir the egg mixture with the spoon",
+      "verb": "stir",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 148.66,
+      "end": 152.2,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "eat the egg mixture with the spoon",
+      "verb": "eat",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "Verb \"eat\" used; not on the suggested verb list but the clearest match.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 152.2,
+      "end": 153.02,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "scoop more egg mixture with the spoon",
+      "verb": "scoop",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.02,
+      "end": 157.77,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "continue eating the egg mixture with the spoon",
+      "verb": "eat",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 157.77,
+      "end": 158.07,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "scoop the egg mixture with the spoon",
+      "verb": "scoop",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Short (0.3s) segment.",
+      "confidence": "low",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 158.07,
+      "end": 164.06,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "keep eating the egg mixture with the spoon",
+      "verb": "eat",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 164.06,
+      "end": 165.02,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "scoop the last of the egg mixture with the spoon",
+      "verb": "scoop",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 165.02,
+      "end": 172.57,
+      "old_summary": "n",
+      "beyond_video_end": false,
+      "summary": "finish eating the egg mixture with the spoon",
+      "verb": "eat",
+      "object": "egg mixture",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 21.9,
+      "fine_index_range": [
+        0,
+        9
+      ],
+      "instruction": "Crack an egg into a glass",
+      "description": "Get an egg and a glass, crack the egg with a knife, separate the yolk, and drop it into the glass.",
+      "transition_in": null,
+      "goal_contribution": "Provides the egg base in its cooking vessel.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 21.9,
+      "end": 40.6,
+      "fine_index_range": [
+        10,
+        19
+      ],
+      "instruction": "Mix salsa into the egg",
+      "description": "Open a salsa jar, pour salsa into the egg, and stir the mixture together.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Combines salsa with the egg.",
+      "predictability_level": "strong",
+      "predictability_reason": "The egg in the glass needs salsa for the stated dish."
+    },
+    {
+      "start": 40.6,
+      "end": 55.9,
+      "fine_index_range": [
+        20,
+        29
+      ],
+      "instruction": "Add hot sauce and stir",
+      "description": "Get a hot sauce bottle from a cabinet, pour it into the egg mixture, and stir.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds and mixes the hot-sauce seasoning.",
+      "predictability_level": "strong",
+      "predictability_reason": "After salsa, the named hot sauce is the next likely ingredient."
+    },
+    {
+      "start": 55.9,
+      "end": 108.6,
+      "fine_index_range": [
+        30,
+        36
+      ],
+      "instruction": "Microwave the egg mixture",
+      "description": "Place the glass of egg mixture in the microwave, set the timer, and start cooking.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Begins cooking the egg mixture.",
+      "predictability_level": "strong",
+      "predictability_reason": "The mixed egg, salsa and hot sauce is ready to cook."
+    },
+    {
+      "start": 108.6,
+      "end": 127.6,
+      "fine_index_range": [
+        37,
+        44
+      ],
+      "instruction": "Check and reset the microwave",
+      "description": "Open the microwave to check the egg, close it again, and set additional cook time on the keypad.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Checks the egg and resumes heating.",
+      "predictability_level": "strong",
+      "predictability_reason": "After microwaving, checking and continuing heat is a natural cooking step."
+    },
+    {
+      "start": 127.6,
+      "end": 144.5,
+      "fine_index_range": [
+        45,
+        49
+      ],
+      "instruction": "Remove the egg and add more hot sauce",
+      "description": "Use a towel to lift the hot glass out of the microwave and pour on more hot sauce.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Retrieves the heated mixture and adds finishing sauce.",
+      "predictability_level": "weak",
+      "predictability_reason": "Once the egg is cooked, adding more hot sauce is possible but optional."
+    },
+    {
+      "start": 144.5,
+      "end": 172.57,
+      "fine_index_range": [
+        50,
+        58
+      ],
+      "instruction": "Eat the egg mixture at the table",
+      "description": "Carry the glass to the dining table and eat the cooked egg and salsa mixture with a spoon.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Serves and eats the prepared egg mixture.",
+      "predictability_level": "weak",
+      "predictability_reason": "The cooked egg mixture is ready to eat, though serving could end first."
+    }
+  ]
+}

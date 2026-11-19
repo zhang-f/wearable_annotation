@@ -1,0 +1,933 @@
+{
+  "video_id": "e243dd75d82b5ef5",
+  "duration": 190.467,
+  "task": "Tightening loose toilet seat bolts",
+  "domain": "Handyman",
+  "query": "How do I tighten loose toilet seat bolts?",
+  "goal": {
+    "title": "Tighten loose toilet seat bolts",
+    "description": "Lifts the toilet seat and lid to access its hinge bolts, then picks up a screwdriver from a toolbox and repeatedly tightens the loose bolt. Picks up a pair of pliers partway through and later switches to them to turn the bolt from underneath, then returns to the screwdriver to finish tightening it, finally setting both tools down on the closed seat.",
+    "final_state": "The toilet seat bolt is fully tightened, the screwdriver and pliers rest on the closed toilet seat, and the person steps away from the toilet.",
+    "procedure": [
+      "Lift the toilet seat and access its hinge fasteners.",
+      "Retrieve the screwdriver and repeatedly turn the seat fastener.",
+      "Switch to pliers to work on the fastener from another angle.",
+      "Return to the screwdriver for further tightening.",
+      "Set the tools on the lowered seat and step away."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 19.6,
+      "description": "Lift the toilet seat and pick up a screwdriver from the toolbox."
+    },
+    {
+      "start": 19.6,
+      "end": 123.91,
+      "description": "Repeatedly tighten the toilet seat bolt with the screwdriver."
+    },
+    {
+      "start": 123.91,
+      "end": 158.36,
+      "description": "Switch to pliers to turn and tighten the bolt."
+    },
+    {
+      "start": 158.36,
+      "end": 190.09,
+      "description": "Return to the screwdriver and finish tightening the bolt."
+    }
+  ],
+  "object_inventory": [
+    "toilet seat",
+    "screwdriver",
+    "pliers",
+    "toolbox",
+    "toilet seat bolt"
+  ],
+  "notes": "Only human fine boundaries trusted. Overview (0.5fps) covering the full 190.467s video reviewed. Step 25 (135.51-158.36s) differs from its old_summary ('tightens toilet seat bolt with screwdriver'): the frames continuously show the pliers in use throughout this range (matching steps 23-24 and the visible tool in hand), not the screwdriver; recorded as differs_from_expectation and the tool field corrected to pliers. Steps 6-17, 20-21, and 27-29 are repeated/long screwdriver-tightening passes; several are given confidence medium with a boundary_note where the segment is unusually long, since individual turns are not resolvable at 0.5fps overview sampling. The fine track ends at 190.09s but ffprobe duration is 190.467s; the uncovered ~0.38s tail shows the person already turning away from the toilet with no further task action.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 1.35,
+      "summary": "lift the toilet seat",
+      "verb": "move",
+      "object": "toilet seat",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "toilet seat"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand lifts toilet seat",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 1.35,
+      "end": 3.74,
+      "summary": "continue lifting the toilet seat",
+      "verb": "move",
+      "object": "toilet seat",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "toilet seat"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand lifts toilet seat",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 3.74,
+      "end": 7.15,
+      "summary": "lift the toilet seat again",
+      "verb": "move",
+      "object": "toilet seat",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "toilet seat"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand lifts toilet seat",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 7.15,
+      "end": 13.1,
+      "summary": "lift the toilet seat fully up",
+      "verb": "move",
+      "object": "toilet seat",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "toilet seat"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand lifts toilet seat",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.1,
+      "end": 16.03,
+      "summary": "pick up a screwdriver from the toolbox",
+      "verb": "pick up",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "toolbox",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up a screwdriver from a toolbox",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 16.03,
+      "end": 19.6,
+      "summary": "adjust the grip on the screwdriver",
+      "verb": "pick up",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.6,
+      "end": 30.77,
+      "summary": "tighten the toilet seat bolt with the screwdriver",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.77,
+      "end": 33.84,
+      "summary": "continue tightening the bolt with the screwdriver",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.84,
+      "end": 35.53,
+      "summary": "keep tightening the toilet seat bolt",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.53,
+      "end": 37.06,
+      "summary": "tighten the bolt further with the screwdriver",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.06,
+      "end": 40.86,
+      "summary": "continue tightening the toilet seat bolt",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.86,
+      "end": 54.02,
+      "summary": "keep turning the screwdriver on the bolt",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=41-54s long continuous tightening pass.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.02,
+      "end": 61.33,
+      "summary": "continue tightening the toilet seat bolt",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 61.33,
+      "end": 67.06,
+      "summary": "keep tightening the bolt with the screwdriver",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 67.06,
+      "end": 68.99,
+      "summary": "continue turning the screwdriver on the bolt",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.99,
+      "end": 80.08,
+      "summary": "keep tightening the toilet seat bolt",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69-80s long continuous tightening pass.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 80.08,
+      "end": 84.82,
+      "summary": "continue tightening the bolt with the screwdriver",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.82,
+      "end": 87.98,
+      "summary": "keep turning the screwdriver on the toilet seat bolt",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.98,
+      "end": 90.0,
+      "summary": "pick up pliers from the toolbox",
+      "verb": "pick up",
+      "object": "pliers",
+      "tool": null,
+      "target": "toolbox",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up pliers from toolbox",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 90.0,
+      "end": 91.32,
+      "summary": "pick the screwdriver back up",
+      "verb": "pick up",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 91.32,
+      "end": 103.08,
+      "summary": "tighten the bolt with the screwdriver",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand tightens bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.08,
+      "end": 123.91,
+      "summary": "continue tightening the bolt with the screwdriver",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=103-124s long continuous tightening pass while still holding the pliers in the other hand.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.91,
+      "end": 127.4,
+      "summary": "reach for the pliers at the toilet",
+      "verb": "reach for",
+      "object": "pliers",
+      "tool": null,
+      "target": "toilet seat",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand moves toward the toilet",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.4,
+      "end": 130.32,
+      "summary": "use the pliers to adjust the toilet seat bolt",
+      "verb": "adjust",
+      "object": "toilet seat bolt",
+      "tool": "pliers",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand uses pliers to adjust bolt on toilet seat",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.32,
+      "end": 135.51,
+      "summary": "tighten the toilet seat bolt with the pliers",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "pliers",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with pliers",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 135.51,
+      "end": 158.36,
+      "summary": "continue tightening the bolt with the pliers",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "pliers",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toilet seat"
+        ],
+        "right": [
+          "pliers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=136-158s long continuous pass; the pliers remain visibly in hand throughout.",
+      "confidence": "medium",
+      "notes": "differs_from_expectation: old_summary says 'tightens toilet seat bolt with screwdriver' here, but the frames continuously show the pliers in use for this entire range, matching the tool already in hand from steps 23-24; tool corrected to pliers.",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 158.36,
+      "end": 158.4,
+      "summary": "hold the screwdriver",
+      "verb": "hold",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.04s micro-segment: hand-off moment switching back from pliers to screwdriver.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand holds screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 158.4,
+      "end": 161.64,
+      "summary": "tighten the toilet seat bolt with the screwdriver",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 161.64,
+      "end": 165.5,
+      "summary": "continue tightening the bolt with the screwdriver",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 165.5,
+      "end": 173.34,
+      "summary": "keep tightening the toilet seat bolt",
+      "verb": "screw",
+      "object": "toilet seat bolt",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand tightens toilet seat bolt with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 173.34,
+      "end": 184.11,
+      "summary": "hold the screwdriver after tightening the bolt",
+      "verb": "hold",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "pliers"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds screwdriver",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 184.11,
+      "end": 190.09,
+      "summary": "pick the screwdriver up from the toilet seat",
+      "verb": "pick up",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "toilet seat",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up screwdriver from toilet seat",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 19.6,
+      "fine_index_range": [
+        0,
+        5
+      ],
+      "instruction": "Lift the toilet seat and get the screwdriver",
+      "description": "Lifts the toilet seat and lid to access the hinge bolts, then picks up a screwdriver from a toolbox.",
+      "transition_in": null,
+      "goal_contribution": "Exposes the hinge fastening and prepares the screwdriver.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 19.6,
+      "end": 123.91,
+      "fine_index_range": [
+        6,
+        21
+      ],
+      "instruction": "Tighten the toilet seat bolt with the screwdriver",
+      "description": "Repeatedly tightens the loose toilet seat bolt with the screwdriver, briefly picking up pliers partway through without yet using them.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Works the loose seat fastening with the screwdriver.",
+      "predictability_level": "strong",
+      "predictability_reason": "The exposed bolt and screwdriver are ready for tightening."
+    },
+    {
+      "start": 123.91,
+      "end": 158.36,
+      "fine_index_range": [
+        22,
+        25
+      ],
+      "instruction": "Switch to pliers to adjust the bolt",
+      "description": "Reaches for the pliers and uses them instead of the screwdriver to turn and tighten the bolt from a different angle.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Uses pliers for the part of the fastening reached from another angle.",
+      "predictability_level": "weak",
+      "predictability_reason": "After screwdriver work, switching to pliers is plausible if access is difficult."
+    },
+    {
+      "start": 158.36,
+      "end": 190.09,
+      "fine_index_range": [
+        26,
+        31
+      ],
+      "instruction": "Finish tightening the bolt with the screwdriver",
+      "description": "Picks the screwdriver back up, finishes tightening the bolt, and sets both tools down on the closed toilet seat.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Completes the visible adjustment and puts the tools down.",
+      "predictability_level": "strong",
+      "predictability_reason": "A partially adjusted bolt needs final tightening and tools put away."
+    }
+  ]
+}

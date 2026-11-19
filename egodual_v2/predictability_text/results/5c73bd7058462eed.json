@@ -1,0 +1,36 @@
+{
+  "video_id": "5c73bd7058462eed",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Halved avocado is ready to hollow into cups."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "Hollowed cups may be seasoned before filling, but this is optional."
+    },
+    {
+      "index": 3,
+      "level": "no",
+      "reason": "Cleaning a floor spill is not implied by seasoning the avocado cups."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Hollowed cups and scooped flesh are ready for plating and mashing."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Mashed avocado and plated cups are ready to combine."
+    }
+  ]
+}

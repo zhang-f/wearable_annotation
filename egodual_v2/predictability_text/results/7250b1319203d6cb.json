@@ -1,0 +1,26 @@
+{
+  "video_id": "7250b1319203d6cb",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After make the paper center crease, fold the nose and narrow both sides is a natural next stage toward fold a white paper airplane."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After fold the nose and narrow both sides, fold back the point and form the body is a natural next stage toward fold a white paper airplane."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After fold back the point and form the body, crease both wings and open the airplane is a natural next stage toward fold a white paper airplane."
+    }
+  ]
+}

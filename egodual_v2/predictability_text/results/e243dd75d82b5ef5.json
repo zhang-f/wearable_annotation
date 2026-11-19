@@ -1,0 +1,26 @@
+{
+  "video_id": "e243dd75d82b5ef5",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The exposed bolt and screwdriver are ready for tightening."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After screwdriver work, switching to pliers is plausible if access is difficult."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "A partially adjusted bolt needs final tightening and tools put away."
+    }
+  ]
+}

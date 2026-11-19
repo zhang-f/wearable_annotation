@@ -1,0 +1,31 @@
+{
+  "video_id": "cfeb935f46cb7112",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After cut the cardboard into a weaving loom, thread the warp yarn onto the loom is a natural next stage toward weave a yarn coaster on a cardboard loom."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After thread the warp yarn onto the loom, weave the blue weft across the warp is a natural next stage toward weave a yarn coaster on a cardboard loom."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After weave the blue weft across the warp, trim excess yarn and cardboard tabs is a natural next stage toward weave a yarn coaster on a cardboard loom."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After trim excess yarn and cardboard tabs, cut the coaster free from the loom is a natural next stage toward weave a yarn coaster on a cardboard loom."
+    }
+  ]
+}

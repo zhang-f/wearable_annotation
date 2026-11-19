@@ -1,0 +1,810 @@
+{
+  "video_id": "2590c2cacdf4a6c2",
+  "duration": 262.067,
+  "task": "Making baked wonton chips",
+  "domain": "Chef",
+  "query": "How do I make baked wonton chips?",
+  "goal": {
+    "title": "Bake seasoned wonton wrapper squares",
+    "description": "Open and separate square wonton wrappers, cut them into smaller squares and arrange them on a tray. Spray with oil, heat in the toaster oven with repeated inspections, remove with a towel, sprinkle salt and transfer the pieces to a small plate.",
+    "final_state": "Pale square wrapper pieces are piled on a small plate after heating and salting; the tray is moved away. Texture and doneness cannot be verified from the silent image alone.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 18.46,
+        "description": "Bring the wonton wrapper package to the cutting board and try pulling its sealed edge apart. Retrieve the chef knife, slit the plastic seam and put the knife down. Pull the opening wider, remove a square stack and move the package aside."
+      },
+      {
+        "start": 18.46,
+        "end": 29.89,
+        "description": "Separate the stuck wrapper sheets by lifting and peeling their edges apart. Lay the individual square wrappers flat in a two-by-two arrangement on the board."
+      },
+      {
+        "start": 29.89,
+        "end": 61.61,
+        "description": "Retrieve the knife and steady each wrapper with the left hand. Saw across the wrappers in one direction, reposition the blade and cut across them again in the perpendicular direction to make smaller square pieces."
+      },
+      {
+        "start": 61.61,
+        "end": 89.96,
+        "description": "Put the knife down. Repeatedly pick up and separate the small wrapper pieces and spread them in a single layer on the metal baking tray. Lift the tray and pump the oil dispenser nozzle across the pieces, then return the dispenser and carry the tray toward the toaster oven."
+      },
+      {
+        "start": 89.96,
+        "end": 102.35,
+        "description": "Open the toaster oven, slide the tray onto its rack and close the door. Turn the control dial and press the start control; the interior light illuminates."
+      },
+      {
+        "start": 102.35,
+        "end": 224.45,
+        "description": "Wait facing the lit oven. Briefly open and close the door at about 158s, adjust the control dial at about 165–172s as the light cycles, then resume waiting. Open and close the door for another inspection at about 199–202s and again at about 216–221s without visibly handling the food."
+      },
+      {
+        "start": 224.45,
+        "end": 241.04,
+        "description": "Open the door again. Use a folded towel to grip and remove the hot tray, carry it back to the cutting board and keep supporting it. Remove the lid from the salt crock and repeatedly sprinkle pinches of salt across the wrapper squares."
+      },
+      {
+        "start": 241.04,
+        "end": 262.067,
+        "description": "Retrieve the small plate and put it beside the tray. After the preserved fine track ends at 245s, use a teal-handled fork to loosen and push the wrapper pieces while tilting the tray over the plate at about 245.5–251.5s. Scrape remaining pieces free and transfer the final piece by hand at about 255s. Move the tray away; the final view shows the pale seasoned squares on the plate. Crispness is not established by the silent video."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 18.46,
+      "description": "Bring the wonton wrapper package to the cutting board and try pulling its sealed edge apart. Retrieve the chef knife, slit the plastic seam and put the knife down. Pull the opening wider, remove a square stack and move the package aside."
+    },
+    {
+      "start": 18.46,
+      "end": 29.89,
+      "description": "Separate the stuck wrapper sheets by lifting and peeling their edges apart. Lay the individual square wrappers flat in a two-by-two arrangement on the board."
+    },
+    {
+      "start": 29.89,
+      "end": 61.61,
+      "description": "Retrieve the knife and steady each wrapper with the left hand. Saw across the wrappers in one direction, reposition the blade and cut across them again in the perpendicular direction to make smaller square pieces."
+    },
+    {
+      "start": 61.61,
+      "end": 89.96,
+      "description": "Put the knife down. Repeatedly pick up and separate the small wrapper pieces and spread them in a single layer on the metal baking tray. Lift the tray and pump the oil dispenser nozzle across the pieces, then return the dispenser and carry the tray toward the toaster oven."
+    },
+    {
+      "start": 89.96,
+      "end": 102.35,
+      "description": "Open the toaster oven, slide the tray onto its rack and close the door. Turn the control dial and press the start control; the interior light illuminates."
+    },
+    {
+      "start": 102.35,
+      "end": 224.45,
+      "description": "Wait facing the lit oven. Briefly open and close the door at about 158s, adjust the control dial at about 165–172s as the light cycles, then resume waiting. Open and close the door for another inspection at about 199–202s and again at about 216–221s without visibly handling the food."
+    },
+    {
+      "start": 224.45,
+      "end": 241.04,
+      "description": "Open the door again. Use a folded towel to grip and remove the hot tray, carry it back to the cutting board and keep supporting it. Remove the lid from the salt crock and repeatedly sprinkle pinches of salt across the wrapper squares."
+    },
+    {
+      "start": 241.04,
+      "end": 262.067,
+      "description": "Retrieve the small plate and put it beside the tray. After the preserved fine track ends at 245s, use a teal-handled fork to loosen and push the wrapper pieces while tilting the tray over the plate at about 245.5–251.5s. Scrape remaining pieces free and transfer the final piece by hand at about 255s. Move the tray away; the final view shows the pale seasoned squares on the plate. Crispness is not established by the silent video."
+    }
+  ],
+  "object_inventory": [
+    "wonton wrappers",
+    "knife",
+    "wrapper package",
+    "cutting board",
+    "baking tray",
+    "oil dispenser",
+    "toaster oven",
+    "salt",
+    "salt crock",
+    "salt crock lid",
+    "plate",
+    "towel",
+    "fork"
+  ],
+  "notes": "All overview sheets, every dense interval page including the entire long heating interval, both native-end sheets and 3 fps uncovered tail reviewed. Only fine boundaries trusted and preserved. Coverage gap: fine stops at 245.0s, ffprobe 262.067s; t=245.5–251.5s fork-assisted tray-to-plate transfer, t=252–255s remaining pieces removed, t=256s tray moved away, then final presentation. Do not silently extend or invent fine steps. Source step 21 is compound despite mostly waiting; actual door checks and control changes listed rather than claiming continuous idle. Oil is pumped from a nozzle, not poured. Salt is pinched from the ceramic crock, not shaken from a bottle. No inferred flipping, frying, browning, crunch or tasting.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 6.61,
+      "summary": "pull open the wonton wrapper package",
+      "verb": "open",
+      "object": "wrapper package",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wrapper package"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0.1–1.5s bring package onto board; t=2–6.6s pull repeatedly at sealed edge without full opening.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands open wonton wrapper package",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 6.61,
+      "end": 10.18,
+      "summary": "slit the wrapper package with the knife",
+      "verb": "cut",
+      "object": "wrapper package",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "wrapper package"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=7.5–9.1s slit plastic seam; t=9.5s put knife down; t=10.1s return fingers to package.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts open wonton wrapper package with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.18,
+      "end": 17.67,
+      "summary": "remove a stack of wonton wrappers from the package",
+      "verb": "remove",
+      "object": "wonton wrappers",
+      "tool": null,
+      "target": "wrapper package",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "wrapper package"
+        ],
+        "right": [
+          "wonton wrappers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes wonton wrapper from package",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 17.67,
+      "end": 18.46,
+      "summary": "put the wrappers onto the cutting board",
+      "verb": "place",
+      "object": "wonton wrappers",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "wrapper package"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=17.8–18.2s move package aside and set square stack on board; t=18.4s reach knife.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places wonton wrapper on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 18.46,
+      "end": 22.35,
+      "summary": "separate the stacked wonton wrappers",
+      "verb": "separate",
+      "object": "wonton wrappers",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wonton wrappers"
+        ],
+        "right": [
+          "wonton wrappers"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=18.5–19.5s briefly lift and return knife; t=19.8–22.3s pull adjacent square sheets apart and place first sheet.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands separate pieces from a wonton wrapper",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 22.35,
+      "end": 23.94,
+      "summary": "place a wonton wrapper on the cutting board",
+      "verb": "place",
+      "object": "wonton wrappers",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "wonton wrappers"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wonton wrapper with other hand",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.94,
+      "end": 29.08,
+      "summary": "separate another wonton wrapper from the stack",
+      "verb": "separate",
+      "object": "wonton wrappers",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wonton wrappers"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=24.1–26.5s tease layers apart; t=26.8–28.1s place another sheet; t=28.8s smooth the sheet on board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands fold and separate wonton wrapper pieces",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.08,
+      "end": 29.89,
+      "summary": "place the last separated wrapper on the cutting board",
+      "verb": "place",
+      "object": "wonton wrappers",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=29.1–29.8s lower square sheet; t=29.867s right hand approaches knife.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands separate wonton wrapper pieces on cutting board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.89,
+      "end": 34.34,
+      "summary": "cut across a wonton wrapper with the knife",
+      "verb": "cut",
+      "object": "wonton wrappers",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=30.8–31.5s retrieve knife and position it; t=31.8–33.5s saw across first wrapper; t=34.1s change position.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wonton wrapper with knife",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 34.34,
+      "end": 36.71,
+      "summary": "cut across the next wonton wrapper",
+      "verb": "cut",
+      "object": "wonton wrappers",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wonton wrapper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.71,
+      "end": 40.12,
+      "summary": "cut across another wonton wrapper",
+      "verb": "cut",
+      "object": "wonton wrappers",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=37.3s move blade to adjacent square; t=37.8–39.9s saw across it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wonton wrapper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.12,
+      "end": 42.98,
+      "summary": "cut across the remaining wonton wrapper",
+      "verb": "cut",
+      "object": "wonton wrappers",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wonton wrapper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 42.98,
+      "end": 47.29,
+      "summary": "turn toward the wrappers while holding the knife",
+      "verb": "move",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=43.3–44.1s shift viewpoint and steady adjacent wrapper; t=46.1–47.2s begin perpendicular cut. The fixed boundary includes preparation and cutting.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wonton wrapper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.29,
+      "end": 52.62,
+      "summary": "cut the wrappers into smaller squares",
+      "verb": "cut",
+      "object": "wonton wrappers",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=47.3–48.9s finish one perpendicular cut; t=49.1s move to another sheet; t=49.5–52.1s cut it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wonton wrapper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.62,
+      "end": 55.15,
+      "summary": "cut the next wrapper into smaller squares",
+      "verb": "cut",
+      "object": "wonton wrappers",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wonton wrapper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.15,
+      "end": 61.61,
+      "summary": "cut the final wrapper into smaller squares",
+      "verb": "cut",
+      "object": "wonton wrappers",
+      "tool": "knife",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=55.8–57.1s lift and reposition blade; t=58.4–61.6s saw through last sheet.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts wonton wrapper with knife",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 61.61,
+      "end": 84.66,
+      "summary": "arrange the wrapper squares on the baking tray",
+      "verb": "place",
+      "object": "wonton wrappers",
+      "tool": null,
+      "target": "baking tray",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=62.1s set knife down; t=63.4–84.6s repeatedly separate pieces and transfer them to tray in a single layer. Multiple pickups and releases remain inside this human interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands arrange wonton pieces on a baking tray",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 84.66,
+      "end": 89.96,
+      "summary": "spray oil over the wrapper squares",
+      "verb": "spray",
+      "object": "wonton wrappers",
+      "tool": "oil dispenser",
+      "target": "baking tray",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "baking tray"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=85.3s pick oil dispenser; t=86.1s lift tray; t=86.5–88.8s pump nozzle across pieces; t=89.3s return dispenser; t=89.9s carry tray.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand drizzles oil over wonton pieces on tray",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 89.96,
+      "end": 95.72,
+      "summary": "load the baking tray into the toaster oven",
+      "verb": "insert",
+      "object": "baking tray",
+      "tool": null,
+      "target": "toaster oven",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=90–91s carry tray; t=91.7s open oven; t=92.8–94.1s insert tray; t=94.8–95.6s close door.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places tray of wonton pieces into toaster oven",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.72,
+      "end": 99.04,
+      "summary": "adjust the toaster oven controls",
+      "verb": "adjust",
+      "object": "toaster oven",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses buttons on toaster oven",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 99.04,
+      "end": 102.35,
+      "summary": "press the toaster oven start control",
+      "verb": "press",
+      "object": "toaster oven",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=100.0–100.5s press button; interior light illuminates at t=100.8s; withdraw hand and wait.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses button on toaster oven",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 102.35,
+      "end": 216.1,
+      "summary": "open and close the toaster oven while checking the wrappers",
+      "verb": "open",
+      "object": "toaster oven",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Most of t=102.35–216.1s is hands-off waiting. Distinct interactions retained: t=157.5–159s open and close door; t=165.4–171.8s adjust controls and light cycles; t=198.8–201.6s open and close door again. No food manipulation is visible in those checks. At end hands reach handle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts oven temperature dial",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 216.1,
+      "end": 224.45,
+      "summary": "open the toaster oven to inspect the wrappers",
+      "verb": "open",
+      "object": "toaster oven",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=216.5s open door; inspect without reaching tray; t=220.1–220.8s close door and wait.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens toaster oven door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 224.45,
+      "end": 231.08,
+      "summary": "remove the baking tray using a towel",
+      "verb": "remove",
+      "object": "baking tray",
+      "tool": "towel",
+      "target": "toaster oven",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "baking tray",
+          "towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=225.5s open door; t=226.5–228.9s towel-covered right hand grips and withdraws tray; t=229–231s carry it to board. Endpoint tray remains supported.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes tray of wonton pieces from toaster oven",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 231.08,
+      "end": 241.04,
+      "summary": "sprinkle salt over the wrapper squares",
+      "verb": "sprinkle",
+      "object": "salt",
+      "tool": null,
+      "target": "wonton wrappers",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "baking tray",
+          "towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=231.5–232.5s remove salt crock lid and put it on board; t=233.3–240s repeatedly pinch salt and sprinkle over tray; t=241s left reaches plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand sprinkles seasoning onto baked wonton chips",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 241.04,
+      "end": 245.0,
+      "summary": "place the plate beside the baking tray",
+      "verb": "place",
+      "object": "plate",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "baking tray",
+          "towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=241.8–243.1s lift and place plate; t=244.7–245s reach for teal-handled fork. Plating food occurs after the final fine boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves tray of baked wonton chips",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 29.89,
+      "instruction": "Open and separate the wonton wrappers",
+      "description": "Bring the package onto the board, try its seal, cut it open with the knife, remove a square stack and move the package aside. Separate and flatten the individual wrapper sheets.",
+      "fine_index_range": [
+        0,
+        7
+      ],
+      "transition_in": null,
+      "goal_contribution": "Provides individual sheets that can be cut into snack-sized pieces.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 29.89,
+      "end": 61.61,
+      "instruction": "Cut the wrappers into small squares",
+      "description": "Retrieve and reposition the knife, steady the sheets with the left hand and saw across them in perpendicular directions to divide them into smaller squares.",
+      "fine_index_range": [
+        8,
+        15
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Creates the smaller pieces that will become the baked wrapper snack.",
+      "predictability_level": "strong",
+      "predictability_reason": "Separated wrappers must be cut into squares for the stated snack."
+    },
+    {
+      "start": 61.61,
+      "end": 89.96,
+      "instruction": "Arrange and oil the wrapper squares",
+      "description": "Put down the knife, separate and transfer the cut pieces to a single layer on the tray, lift the tray, pump oil over the pieces and carry it toward the oven.",
+      "fine_index_range": [
+        16,
+        17
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Prepares an oiled, spaced batch for heating.",
+      "predictability_level": "strong",
+      "predictability_reason": "Cut squares are ready to spread on a tray and oil."
+    },
+    {
+      "start": 89.96,
+      "end": 224.45,
+      "instruction": "Bake and inspect the wrapper squares",
+      "description": "Load the tray into the toaster oven, shut the door, adjust the controls and start it. Wait while the oven is lit, occasionally open and close the door to inspect the pieces, and adjust the controls once more.",
+      "fine_index_range": [
+        18,
+        22
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Heats the wrapper pieces while checking their visible progress.",
+      "predictability_level": "strong",
+      "predictability_reason": "The prepared squares are ready to bake."
+    },
+    {
+      "start": 224.45,
+      "end": 245.0,
+      "instruction": "Remove and season the wrappers beside a plate",
+      "description": "Open the oven and withdraw the tray with a towel, carry it to the board, uncover the salt crock and sprinkle salt across the pieces. Retrieve and place a small plate beside the tray. Actual food transfer starts after the covered fine track ends.",
+      "fine_index_range": [
+        23,
+        25
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Makes the heated, seasoned pieces ready for the subsequent visible plating operation.",
+      "predictability_level": "strong",
+      "predictability_reason": "Baked wrappers can be removed and seasoned."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/2590c2cacdf4a6c2/20261106T084921825949Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

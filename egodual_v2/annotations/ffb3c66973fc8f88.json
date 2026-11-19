@@ -1,0 +1,544 @@
+{
+  "video_id": "ffb3c66973fc8f88",
+  "duration": 296.267,
+  "task": "Making a braided friendship bracelet",
+  "domain": "Arts and Crafts",
+  "query": "How do I make a braided friendship bracelet?",
+  "goal": {
+    "title": "Make a black yarn friendship bracelet",
+    "description": "Draw black yarn from a skein and cut several matching lengths. Gather and knot the strands, trim their ends, and tape the knotted end to the tabletop. Repeatedly cross and tighten the loose strands into a braid, tie the free end, trim excess yarn, and remove the bracelet from the tape.",
+    "final_state": "A finished black braided loop with short loose ends is lifted and placed on the table near the video end.",
+    "procedure": [
+      "Pull yarn from the skein and cut the first length.",
+      "Match and cut additional yarn lengths.",
+      "Gather the strands and knot one end.",
+      "Trim loose ends and tape the knot to the table.",
+      "Cross the loose strands repeatedly and pull the braid taut.",
+      "Knot the free end and trim excess yarn.",
+      "Peel the bracelet from its tape anchor, inspect it, and set it down."
+    ]
+  },
+  "object_inventory": [
+    "yarn skein",
+    "yarn",
+    "scissors",
+    "tape",
+    "tape dispenser",
+    "table"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 26.0,
+      "description": "Unwind black yarn, stretch it against the cut strand, and use scissors to prepare matching lengths."
+    },
+    {
+      "start": 26.0,
+      "end": 75.6,
+      "description": "Measure the strands together, cut them, gather their ends into a knot, and trim protruding yarn."
+    },
+    {
+      "start": 75.6,
+      "end": 83.5,
+      "description": "Retrieve the dispenser, pull out clear tape, and press the gathered yarn end against the tabletop."
+    },
+    {
+      "start": 83.5,
+      "end": 268.47,
+      "description": "Alternately cross black strands over the center and pull them taut, repeatedly shifting the grip down the growing braid."
+    },
+    {
+      "start": 268.47,
+      "end": 287.5,
+      "description": "Tie the yarn at the braid end, cut excess strands, and begin loosening the taped anchor."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 8.07,
+      "old_summary": "hand pulls a black yarn strand from a skein",
+      "summary": "both hands unwind black yarn from skein",
+      "verb": "unwind",
+      "object": "yarn",
+      "tool": null,
+      "target": "yarn skein",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "yarn skein"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 8.07,
+      "end": 12.9,
+      "old_summary": "hand cuts black yarn with scissors",
+      "summary": "right hand cuts yarn while left holds its end",
+      "verb": "cut",
+      "object": "yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.9,
+      "end": 16.5,
+      "old_summary": "hand pulls yarn from a bundle",
+      "summary": "both hands align cut yarn with another length",
+      "verb": "align",
+      "object": "yarn",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": [
+          "yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.5,
+      "end": 19.0,
+      "old_summary": "hand separates yarn strands",
+      "summary": "right hand stretches yarn across table",
+      "verb": "stretch",
+      "object": "yarn",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.0,
+      "end": 22.3,
+      "old_summary": "hand separates yarn strands",
+      "summary": "right hand cuts another yarn length with scissors",
+      "verb": "cut",
+      "object": "yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.3,
+      "end": 26.0,
+      "old_summary": "hand cuts yarn with scissors",
+      "summary": "right hand cuts yarn while left pinches strands",
+      "verb": "cut",
+      "object": "yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.0,
+      "end": 39.5,
+      "old_summary": "hands braid black yarn strands",
+      "summary": "both hands measure yarn strands before right retrieves scissors",
+      "verb": "measure",
+      "object": "yarn",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.5,
+      "end": 46.1,
+      "old_summary": "hand cuts black yarn with scissors",
+      "summary": "right hand cuts matching yarn lengths with scissors",
+      "verb": "cut",
+      "object": "yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.1,
+      "end": 52.3,
+      "old_summary": "hand holds and adjusts black yarn strands",
+      "summary": "both hands align and pinch yarn ends",
+      "verb": "align",
+      "object": "yarn",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": [
+          "yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 52.3,
+      "end": 75.6,
+      "old_summary": "hands braid black yarn strands",
+      "summary": "both hands knot yarn ends and right trims loose strands",
+      "verb": "knot",
+      "object": "yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.6,
+      "end": 75.89,
+      "old_summary": "hand holds black yarn strands",
+      "summary": "right hand reaches for green tape dispenser",
+      "verb": "reach",
+      "object": "tape dispenser",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "0.29s interval: at t=75.6–75.9s the right hand begins reaching toward the tape; dispenser pickup continues in the following step.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 75.89,
+      "end": 79.5,
+      "old_summary": "hands tape the black yarn strands together",
+      "summary": "both hands pull clear tape from dispenser",
+      "verb": "pull",
+      "object": "tape",
+      "tool": "tape dispenser",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape"
+        ],
+        "right": [
+          "tape"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 79.5,
+      "end": 83.5,
+      "old_summary": "hand presses tape onto black yarn strands",
+      "summary": "both hands press taped yarn end onto table",
+      "verb": "press",
+      "object": "yarn",
+      "tool": "tape",
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": [
+          "yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.5,
+      "end": 268.47,
+      "old_summary": "hand braids black yarn strands",
+      "summary": "both hands repeatedly cross yarn strands and tighten braid",
+      "verb": "braid",
+      "object": "yarn",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": [
+          "yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Preserved 184.97s interval contains many visible hand–strand switches, e.g. t=91–99s, 120–128s and 180–188s; braiding is not an atomic step.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 268.47,
+      "end": 281.22,
+      "old_summary": "hand braids black yarn strands",
+      "summary": "both hands knot loose yarn ends below braid",
+      "verb": "knot",
+      "object": "yarn",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "yarn"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 281.22,
+      "end": 287.5,
+      "old_summary": "hand cuts black yarn with scissors",
+      "summary": "right hand trims yarn and both hands loosen taped end",
+      "verb": "trim",
+      "object": "yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tape"
+        ],
+        "right": [
+          "yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "At t=281–285s right hand takes scissors and trims yarn; t=286–287.5s hands begin releasing tape. Multiple hand-object changes occur in this retained interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 26.0,
+      "fine_index_range": [
+        0,
+        5
+      ],
+      "instruction": "Cut matching black yarn lengths",
+      "description": "Unwind black yarn, stretch it against the cut strand, and use scissors to prepare matching lengths.",
+      "goal_contribution": "Provides strands of similar length for the bracelet.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 26.0,
+      "end": 75.6,
+      "fine_index_range": [
+        6,
+        9
+      ],
+      "instruction": "Align, knot, and trim the yarn bundle",
+      "description": "Measure the strands together, cut them, gather their ends into a knot, and trim protruding yarn.",
+      "goal_contribution": "Creates a joined end from which to braid.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Cut yarn lengths are ready to align and knot together."
+    },
+    {
+      "start": 75.6,
+      "end": 83.5,
+      "fine_index_range": [
+        10,
+        12
+      ],
+      "instruction": "Tape the joined yarn end to the table",
+      "description": "Retrieve the dispenser, pull out clear tape, and press the gathered yarn end against the tabletop.",
+      "goal_contribution": "Anchors the strands while their loose ends are braided.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The joined end needs anchoring for braiding."
+    },
+    {
+      "start": 83.5,
+      "end": 268.47,
+      "fine_index_range": [
+        13,
+        13
+      ],
+      "instruction": "Braid and tighten the loose yarn strands",
+      "description": "Alternately cross black strands over the center and pull them taut, repeatedly shifting the grip down the growing braid.",
+      "goal_contribution": "Forms the long braided body of the bracelet.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Anchored strands are ready to braid."
+    },
+    {
+      "start": 268.47,
+      "end": 287.5,
+      "fine_index_range": [
+        14,
+        15
+      ],
+      "instruction": "Knot and trim the free end",
+      "description": "Tie the yarn at the braid end, cut excess strands, and begin loosening the taped anchor.",
+      "goal_contribution": "Secures the braid and removes excess yarn; final release and display occur beyond the retained fine track.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "A finished braid needs an end knot and trim."
+    }
+  ],
+  "notes": "All 16 fine intervals were visually reviewed at 3fps (15fps for the subsecond interval), with native end frames. Fine boundaries are preserved. The fine track stops at 287.5s, before ffprobe duration 296.267s: at t=288–290s the hands release the taped end, t=290–293s lift and inspect the bracelet, and t=294–295s place it down. This task tail needs additional annotation; no fabricated fine boundaries were added. Predictability remains pending independent past-only testing."
+}

@@ -1,0 +1,998 @@
+{
+  "video_id": "7343f3bdddacab20",
+  "duration": 332.267,
+  "task": "Making garlic toast",
+  "domain": "Chef",
+  "query": "How do I make garlic toast?",
+  "goal": {
+    "title": "Make pan-toasted garlic bread",
+    "description": "Slice a short bread roll into two pieces and set them aside. Crush, slice and repeatedly mince a garlic clove on the board. Put butter in a small bowl, scrape the minced garlic into it and mash and stir the mixture with a spoon. Wipe the board, spread the garlic butter over the cut surfaces of both bread pieces and heat a frying pan on the gas burner. Lay both pieces buttered side down in the pan, wait while adjusting the burner and checking a piece with a spatula, then lift the browned pieces onto a plate and move the pan away.",
+    "final_state": "Two garlic-buttered bread pieces with browned toasted faces lie on a white plate on the cutting board. No eating is shown.",
+    "procedure": [
+      "Cut the bread roll into two pieces.",
+      "Crush and mince the garlic.",
+      "Combine the garlic and butter in a small bowl.",
+      "Spread the garlic butter on both bread pieces.",
+      "Heat the pan and place the coated bread faces against it.",
+      "Toast, check and transfer the browned bread to a plate."
+    ]
+  },
+  "object_inventory": [
+    "bread",
+    "knife",
+    "garlic",
+    "cutting board",
+    "butter",
+    "spoon",
+    "small bowl",
+    "butter dish",
+    "garlic butter",
+    "paper towel",
+    "frying pan",
+    "burner knob",
+    "spatula",
+    "plate",
+    "drawer"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 11.61,
+      "description": "Cut the short roll into two pieces and move both to the upper side of the board."
+    },
+    {
+      "start": 11.61,
+      "end": 69.02,
+      "description": "Press the garlic under the knife, cut it smaller, gather it and repeatedly mince it."
+    },
+    {
+      "start": 69.02,
+      "end": 128.65,
+      "description": "Put butter portions into the small bowl, scrape in the minced garlic and mash and stir them with a spoon."
+    },
+    {
+      "start": 128.65,
+      "end": 186.64,
+      "description": "Set utensils aside, tear a paper towel and wipe the board, then spread garlic butter across the cut face of each piece."
+    },
+    {
+      "start": 186.64,
+      "end": 310.94,
+      "description": "Move and heat the frying pan, place both pieces coated side down, wait, adjust the burner and lift an edge to check the toasting."
+    },
+    {
+      "start": 310.94,
+      "end": 330.91,
+      "description": "Use the spatula and a supporting hand to move each browned piece onto the plate, move the pan away and reposition the plate."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 9.8,
+      "old_summary": "hand slices loaf of bread with knife on cutting board",
+      "summary": "slice the bread roll into two pieces",
+      "verb": "cut",
+      "object": "bread",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 9.8,
+      "end": 11.61,
+      "old_summary": "hand moves bread piece on cutting board",
+      "summary": "set the two bread pieces aside",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.61,
+      "end": 16.29,
+      "old_summary": "hand minces garlic on a wooden cutting board using a knife",
+      "summary": "crush the garlic beneath the flat knife blade",
+      "verb": "crush",
+      "object": "garlic",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "garlic"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.29,
+      "end": 35.87,
+      "old_summary": "hand minces garlic on a wooden cutting board using a knife",
+      "summary": "slice and chop the garlic on the board",
+      "verb": "chop",
+      "object": "garlic",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "garlic"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.87,
+      "end": 38.53,
+      "old_summary": "hand chops garlic on cutting board with knife",
+      "summary": "gather the garlic pieces with the knife",
+      "verb": "gather",
+      "object": "garlic",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "garlic"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.53,
+      "end": 69.02,
+      "old_summary": "hand chops garlic on a wooden cutting board with a knife",
+      "summary": "continue mincing the garlic with the knife",
+      "verb": "mince",
+      "object": "garlic",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.02,
+      "end": 73.47,
+      "old_summary": "hand scoops butter into bowl",
+      "summary": "put butter into the small bowl with a spoon",
+      "verb": "scoop",
+      "object": "butter",
+      "tool": "spoon",
+      "target": "small bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "small bowl"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Interval includes bowl retrieval, spoon pickup and transfer of the first butter portion.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 73.47,
+      "end": 77.09,
+      "old_summary": "hand scoops butter with spoon and puts it in bowl",
+      "summary": "cut another butter portion into the bowl",
+      "verb": "cut",
+      "object": "butter",
+      "tool": "knife",
+      "target": "small bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "small bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Spoon-to-knife change and cutting butter are both inside this interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 77.09,
+      "end": 80.49,
+      "old_summary": "hand scrapes butter from knife into bowl",
+      "summary": "scrape garlic onto the knife and into the bowl",
+      "verb": "transfer",
+      "object": "garlic",
+      "tool": "knife",
+      "target": "small bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "small bowl"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 80.49,
+      "end": 84.6,
+      "old_summary": "hand uses knife to move butter into bowl",
+      "summary": "scrape more minced garlic into the butter bowl",
+      "verb": "transfer",
+      "object": "garlic",
+      "tool": "knife",
+      "target": "small bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "small bowl"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.6,
+      "end": 94.66,
+      "old_summary": "hand scrapes minced garlic from knife into bowl",
+      "summary": "gather the remaining garlic and scrape it into the bowl",
+      "verb": "transfer",
+      "object": "garlic",
+      "tool": "knife",
+      "target": "small bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "small bowl"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Garlic scraping finishes, knife is set down and spoon is picked up near 93s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.66,
+      "end": 128.65,
+      "old_summary": "hand mixes minced garlic with butter in a bowl using a spoon",
+      "summary": "mash and stir the garlic and butter with the spoon",
+      "verb": "mix",
+      "object": "garlic butter",
+      "tool": "spoon",
+      "target": "small bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "small bowl"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 128.65,
+      "end": 130.75,
+      "old_summary": "hand stirs garlic butter mixture in bowl with spoon",
+      "summary": "put the bowl and spoon beside the plate",
+      "verb": "put down",
+      "object": "small bowl",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.75,
+      "end": 133.18,
+      "old_summary": "hand picks up a knife from a drawer",
+      "summary": "put down the knife and open the drawer",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Knife release and opening the utensil drawer both occur inside the interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.18,
+      "end": 137.59,
+      "old_summary": "hand pulls out a paper towel from under the cabinet",
+      "summary": "tear a paper towel sheet from the roll",
+      "verb": "tear",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 137.59,
+      "end": 141.28,
+      "old_summary": "hand stirs garlic-butter mixture with a spoon",
+      "summary": "wipe the cutting board with the paper towel",
+      "verb": "wipe",
+      "object": "cutting board",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.28,
+      "end": 158.23,
+      "old_summary": "hand spreads garlic-butter mixture onto slice of bread using knife",
+      "summary": "spread garlic butter across the first bread piece",
+      "verb": "spread",
+      "object": "garlic butter",
+      "tool": "knife",
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Paper towel and spoon are released, then bread and knife are picked up before spreading.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 158.23,
+      "end": 169.61,
+      "old_summary": "hand spreads garlic-butter mixture onto slice of bread using knife",
+      "summary": "set down the first piece and coat the second",
+      "verb": "spread",
+      "object": "garlic butter",
+      "tool": "knife",
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bread"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "First bread is set down, more mixture retrieved and the second bread picked up.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 169.61,
+      "end": 184.57,
+      "old_summary": "hand spreads garlic-butter mixture onto slice of bread using knife",
+      "summary": "smooth garlic butter across the second bread piece",
+      "verb": "spread",
+      "object": "garlic butter",
+      "tool": "knife",
+      "target": "bread",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 184.57,
+      "end": 186.64,
+      "old_summary": "hand spreads garlic-butter mixture onto bread slice with knife",
+      "summary": "put down the coated bread and spreading knife",
+      "verb": "put down",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 186.64,
+      "end": 197.27,
+      "old_summary": "hand adjusts stove burner knob",
+      "summary": "move the pan onto the burner and ignite it",
+      "verb": "heat",
+      "object": "frying pan",
+      "tool": null,
+      "target": "burner knob",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "This segment combines moving the pan, igniting/adjusting the burner and briefly holding a hand above the pan.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 197.27,
+      "end": 199.45,
+      "old_summary": "hand places bread slice into frying pan",
+      "summary": "place the first bread piece buttered side down",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 199.45,
+      "end": 201.8,
+      "old_summary": "hand places bread slice into frying pan",
+      "summary": "place the second bread piece buttered side down",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 201.8,
+      "end": 211.86,
+      "old_summary": "hand adjusts position of bread slices in pan",
+      "summary": "idle: watch the bread start toasting",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 211.86,
+      "end": 214.11,
+      "old_summary": "hand holds spatula over frying pan",
+      "summary": "pick up the spatula and put it beside the pan",
+      "verb": "move",
+      "object": "spatula",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 214.11,
+      "end": 247.06,
+      "old_summary": "hand adjusts stove knob",
+      "summary": "adjust the burner and wait beside the toasting bread",
+      "verb": "adjust",
+      "object": "burner knob",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Interval contains waiting, paper-towel hand wiping near 217s and burner adjustments near 225s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 247.06,
+      "end": 252.19,
+      "old_summary": "hand places plate on cutting board",
+      "summary": "set the plate on the board beside the pan",
+      "verb": "place",
+      "object": "plate",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 252.19,
+      "end": 275.92,
+      "old_summary": "hand adjusts stove burner knob",
+      "summary": "idle: wait while the bread toasts in the pan",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 275.92,
+      "end": 283.49,
+      "old_summary": "hand presses down on bread slice in frying pan with spatula",
+      "summary": "lift a bread edge with the spatula to check it",
+      "verb": "check",
+      "object": "bread",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Spatula pickup, lifting/checking a bread edge and spatula release occur within this interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 283.49,
+      "end": 310.94,
+      "old_summary": "hand adjusts stove knob",
+      "summary": "adjust the burner and continue waiting",
+      "verb": "adjust",
+      "object": "burner knob",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 310.94,
+      "end": 315.0,
+      "old_summary": "hand adjusts bread in pan with spatula",
+      "summary": "pick up the spatula beside the plate",
+      "verb": "pick up",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Spatula changes hands before the lifting action; right hand holds it at the endpoint.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 315.0,
+      "end": 318.64,
+      "old_summary": "hand flips bread slice in frying pan",
+      "summary": "lift the first toasted bread piece onto the plate",
+      "verb": "transfer",
+      "object": "bread",
+      "tool": "spatula",
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 318.64,
+      "end": 323.18,
+      "old_summary": "hand places toast on plate",
+      "summary": "lift the second toasted bread piece onto the plate",
+      "verb": "transfer",
+      "object": "bread",
+      "tool": "spatula",
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 323.18,
+      "end": 325.33,
+      "old_summary": "hand holds pan handle",
+      "summary": "move the frying pan away from the burner",
+      "verb": "move",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 325.33,
+      "end": 330.91,
+      "old_summary": "hand picks up the plate with the garlic-butter bread slices",
+      "summary": "put down the spatula and reposition the finished plate",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 11.61,
+      "fine_index_range": [
+        0,
+        1
+      ],
+      "instruction": "Slice and set aside the bread.",
+      "description": "Cut the short roll into two pieces and move both to the upper side of the board.",
+      "goal_contribution": "Prepare the bread surfaces that will receive garlic butter.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 11.61,
+      "end": 69.02,
+      "fine_index_range": [
+        2,
+        5
+      ],
+      "instruction": "Crush and mince the garlic.",
+      "description": "Press the garlic under the knife, cut it smaller, gather it and repeatedly mince it.",
+      "goal_contribution": "Prepare small garlic pieces to distribute through the butter.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Bread cut for garlic bread naturally leads to preparing garlic."
+    },
+    {
+      "start": 69.02,
+      "end": 128.65,
+      "fine_index_range": [
+        6,
+        11
+      ],
+      "instruction": "Mix the garlic butter.",
+      "description": "Put butter portions into the small bowl, scrape in the minced garlic and mash and stir them with a spoon.",
+      "goal_contribution": "Produce the garlic-butter mixture for coating the bread.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Minced garlic is ready to mix into butter."
+    },
+    {
+      "start": 128.65,
+      "end": 186.64,
+      "fine_index_range": [
+        12,
+        19
+      ],
+      "instruction": "Clean the board and coat both bread pieces.",
+      "description": "Set utensils aside, tear a paper towel and wipe the board, then spread garlic butter across the cut face of each piece.",
+      "goal_contribution": "Leave both bread pieces evenly coated for pan toasting.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Garlic butter and sliced bread are ready to combine."
+    },
+    {
+      "start": 186.64,
+      "end": 310.94,
+      "fine_index_range": [
+        20,
+        29
+      ],
+      "instruction": "Toast the coated bread in the pan.",
+      "description": "Move and heat the frying pan, place both pieces coated side down, wait, adjust the burner and lift an edge to check the toasting.",
+      "goal_contribution": "Brown the garlic-buttered faces of the bread.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Coated bread is ready to toast."
+    },
+    {
+      "start": 310.94,
+      "end": 330.91,
+      "fine_index_range": [
+        30,
+        34
+      ],
+      "instruction": "Plate the toasted garlic bread.",
+      "description": "Use the spatula and a supporting hand to move each browned piece onto the plate, move the pan away and reposition the plate.",
+      "goal_contribution": "Leave two finished toasted bread pieces on the serving plate.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Toasted garlic bread is ready to plate."
+    }
+  ],
+  "notes": "Viewed all 11 overview, 18 dense sheets (1101 frames) and 3 native endpoint sheets. Anchors: bread sliced t=2–9s; garlic crushed t=14s and minced t=17–68s; butter added t=71–77s; garlic scraped into bowl t=79–94s; mixing t=95–128s; bread coated t=144–184s; burner ignited t=189s; bread laid coated face down t=199–202s; underside checked t=278–282s; browned pieces plated t=316–322s. The bread is toasted as two separate pieces rather than closed into a sandwich. Source long intervals include multiple knife/spoon pickups and hand-object changes, retained without changing boundaries."
+}

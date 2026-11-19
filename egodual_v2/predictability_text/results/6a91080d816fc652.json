@@ -1,0 +1,41 @@
+{
+  "video_id": "6a91080d816fc652",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After heat the pan and crack two eggs, add fresh herbs and beat the eggs is plausible for cook and portion a herb and cheese omelet, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After add fresh herbs and beat the eggs, oil the pan and pour in the egg mixture is a natural next stage toward cook and portion a herb and cheese omelet."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After oil the pan and pour in the egg mixture, prepare cheese while the egg layer sets is plausible for cook and portion a herb and cheese omelet, but several next steps fit."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After prepare cheese while the egg layer sets, place sliced cheese on the egg layer is a natural next stage toward cook and portion a herb and cheese omelet."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After place sliced cheese on the egg layer, loosen, fold and transfer the omelet is a natural next stage toward cook and portion a herb and cheese omelet."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "After loosen, fold and transfer the omelet, shape, garnish and portion the omelet is a natural next stage toward cook and portion a herb and cheese omelet."
+    }
+  ]
+}

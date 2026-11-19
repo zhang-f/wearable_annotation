@@ -1,0 +1,31 @@
+{
+  "video_id": "aac31709beff7418",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The cleaned furniture corners are ready for adhesive guard preparation."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Peeled guards are ready to apply."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After initial guards, additional corners still need coverage."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Remaining corners naturally receive the final guards."
+    }
+  ]
+}

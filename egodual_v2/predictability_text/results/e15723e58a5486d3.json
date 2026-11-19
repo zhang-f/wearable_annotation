@@ -1,0 +1,26 @@
+{
+  "video_id": "e15723e58a5486d3",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The opened flashlight without old batteries is ready for replacements."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After trial fitting, the battery can be seated and cap closed."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "Reopening to recheck is plausible if fit remains uncertain, but not required."
+    }
+  ]
+}

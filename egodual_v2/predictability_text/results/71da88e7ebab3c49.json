@@ -1,0 +1,36 @@
+{
+  "video_id": "71da88e7ebab3c49",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "A sized gold strip is ready to fold into a bookmark blank."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The folded blank is ready for floral drawing."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After drawing a flower, small stickers are a plausible decoration, not necessary."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "The decorated strip may be covered with tape for durability, among several finishes."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Applied tape needs edge trimming to finish the bookmark."
+    }
+  ]
+}

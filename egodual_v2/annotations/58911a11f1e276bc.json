@@ -1,0 +1,572 @@
+{
+  "video_id": "58911a11f1e276bc",
+  "duration": 166.667,
+  "task": "Making toast with cream cheese and smoked paprika",
+  "domain": "Chef",
+  "query": "How do I make toast with cream cheese and smoked paprika?",
+  "goal": {
+    "title": "Make toast with cream cheese and smoked paprika",
+    "description": "Place a slice of bread in the toaster and toast it, then remove it and spread cream cheese over the toast with a knife in several strokes. Sprinkle smoked paprika from a shaker onto the cream cheese, blending a little of it in with the knife, before finishing with additional sprinkles of paprika held directly over the toast.",
+    "final_state": "The toasted bread is covered in cream cheese topped with smoked paprika and is held in hand near the counter; it has not been plated separately or eaten by the end of the video.",
+    "procedure": [
+      "Put a bread slice into the toaster, lower the lever, and wait.",
+      "Remove the toast and spread cream cheese with repeated knife strokes.",
+      "Shake the reddish seasoning over the toast and finish spreading and sprinkling."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 5.4,
+      "description": "Load a bread slice into the toaster and press the lever to start toasting."
+    },
+    {
+      "start": 5.4,
+      "end": 91.55,
+      "description": "Wait for the toast to finish toasting."
+    },
+    {
+      "start": 91.55,
+      "end": 145.0,
+      "description": "Remove the toast and spread cream cheese over it with a knife."
+    },
+    {
+      "start": 145.0,
+      "end": 166.09,
+      "description": "Sprinkle smoked paprika over the cream cheese to finish the toast."
+    }
+  ],
+  "object_inventory": [
+    "bread",
+    "toast",
+    "toaster",
+    "knife",
+    "cream cheese",
+    "smoked paprika",
+    "plate",
+    "counter"
+  ],
+  "notes": "Video is dimly lit throughout; dense 3-8fps contact sheets and two overview sheets were reviewed for all 20 fine steps. Steps 5-13 are nine human-cut segments of visually similar repeated knife strokes spreading cream cheese; they are described with varied wording per the format rules but could not be visually distinguished stroke-by-stroke in the dim lighting, so some consecutive summaries are close in meaning (flagged, not an error). The interleaved order at steps 14-15 (a brief paprika sprinkle followed by one more cream-cheese spread that blends it in) and 16-19 (paprika shaker, then paprika while holding the toast directly) was confirmed from the frames rather than assumed from the recipe name. Fine track ends 0.58s before ffprobe_duration (166.667s), under the 1s tail-note threshold.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 2.8,
+      "summary": "move the bread package on the counter",
+      "verb": "move",
+      "object": "bread",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "bread"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand moves bread package on counter",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 2.8,
+      "end": 3.9,
+      "summary": "place a slice of bread into the toaster",
+      "verb": "place",
+      "object": "bread",
+      "tool": null,
+      "target": "toaster",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand places slice of bread into toaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 3.9,
+      "end": 5.4,
+      "summary": "push down the toaster lever",
+      "verb": "press",
+      "object": "toaster",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds toaster lever",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.4,
+      "end": 91.55,
+      "summary": "idle: wait for the toast",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "86s wait while the toaster heats; the red indicator light stays on the whole time",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand waits for toast to finish toasting in toaster",
+      "beyond_video_end": false,
+      "transition_in": "NONE"
+    },
+    {
+      "start": 91.55,
+      "end": 94.49,
+      "summary": "take the toast out and set it on the plate",
+      "verb": "remove",
+      "object": "toast",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "lifts the toast out of the toaster around t=93 and sets it on the plate before the boundary",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand removes toast from toaster",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 94.49,
+      "end": 98.32,
+      "summary": "pick up the knife, scoop and spread cream cheese on the toast",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "compound: picks up the knife, scoops cream cheese from the tub, and makes the first spreading stroke",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 98.32,
+      "end": 104.05,
+      "summary": "spread more cream cheese across the toast",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "repetitive knife stroke, visually similar to the previous step",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.05,
+      "end": 107.02,
+      "summary": "continue spreading cream cheese toward the edges",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "repetitive knife stroke, visually similar to the previous step",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.02,
+      "end": 109.54,
+      "summary": "smooth the cream cheese layer with the knife",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "repetitive knife stroke, visually similar to the previous step",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.54,
+      "end": 113.71,
+      "summary": "spread cream cheese over another corner of the toast",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "repetitive knife stroke, visually similar to the previous step",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.71,
+      "end": 120.63,
+      "summary": "keep spreading cream cheese across the toast",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "repetitive knife stroke, visually similar to the previous step",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 120.63,
+      "end": 124.82,
+      "summary": "spread cream cheese closer to the crust",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "repetitive knife stroke, visually similar to the previous step",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.82,
+      "end": 131.76,
+      "summary": "continue working cream cheese into the toast",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "repetitive knife stroke, visually similar to the previous step",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 131.76,
+      "end": 145.0,
+      "summary": "spread the cream cheese layer evenly over the toast",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "longest spreading segment (13.2s), finishing even coverage of the toast",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 145.0,
+      "end": 145.36,
+      "summary": "sprinkle smoked paprika on the toast",
+      "verb": "sprinkle",
+      "object": "smoked paprika",
+      "tool": null,
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "smoked paprika"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "very short 0.36s sprinkle before returning to the knife",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand sprinkles smoked paprika on toast",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 145.36,
+      "end": 148.61,
+      "summary": "spread the cream cheese and paprika together",
+      "verb": "spread",
+      "object": "cream cheese",
+      "tool": "knife",
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "knife blends the sprinkled paprika into the cream cheese layer",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand spreads cream cheese on toast with knife",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 148.61,
+      "end": 152.19,
+      "summary": "sprinkle smoked paprika from the shaker onto the toast",
+      "verb": "sprinkle",
+      "object": "smoked paprika",
+      "tool": null,
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "smoked paprika"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "picks up the dark shaker jar to sprinkle paprika",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand sprinkles smoked paprika from a shaker onto the toast",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 152.19,
+      "end": 156.61,
+      "summary": "continue sprinkling smoked paprika on the toast",
+      "verb": "sprinkle",
+      "object": "smoked paprika",
+      "tool": null,
+      "target": "toast",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "smoked paprika"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand sprinkles smoked paprika on toast",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 156.61,
+      "end": 163.26,
+      "summary": "hold the toast up while sprinkling more paprika",
+      "verb": "sprinkle",
+      "object": "smoked paprika",
+      "tool": null,
+      "target": "toast",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toast"
+        ],
+        "right": [
+          "smoked paprika"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "toast is now held directly in the left hand, no plate visible",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand sprinkles smoked paprika on toast",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 163.26,
+      "end": 166.09,
+      "summary": "give the toast a final sprinkle of smoked paprika",
+      "verb": "sprinkle",
+      "object": "smoked paprika",
+      "tool": null,
+      "target": "toast",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "toast"
+        ],
+        "right": [
+          "smoked paprika"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand sprinkles smoked paprika on toast",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 91.55,
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "instruction": "Toast a slice of bread",
+      "description": "Take a slice of bread from the bag, load it into the toaster, press the lever and wait for it to finish toasting.",
+      "transition_in": null,
+      "goal_contribution": "Prepares the toasted bread base.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 91.55,
+      "end": 145.36,
+      "fine_index_range": [
+        4,
+        14
+      ],
+      "instruction": "Spread cream cheese on the toast",
+      "description": "Remove the toast from the toaster, set it on a plate and spread cream cheese over it with a knife in repeated strokes.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Covers the toast with its cream cheese topping.",
+      "predictability_level": "strong",
+      "predictability_reason": "After toast a slice of bread, spread cream cheese on the toast is a natural next stage toward make toast with cream cheese and smoked paprika."
+    },
+    {
+      "start": 145.36,
+      "end": 166.09,
+      "fine_index_range": [
+        15,
+        19
+      ],
+      "instruction": "Top the toast with smoked paprika",
+      "description": "Sprinkle smoked paprika onto the cream cheese, blending a touch of it in with the knife, then add more sprinkles directly over the toast to finish.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the final seasoning over the cream cheese.",
+      "predictability_level": "strong",
+      "predictability_reason": "After spread cream cheese on the toast, top the toast with smoked paprika is a natural next stage toward make toast with cream cheese and smoked paprika."
+    }
+  ]
+}

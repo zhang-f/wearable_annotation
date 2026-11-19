@@ -1,0 +1,2735 @@
+{
+  "video_id": "24d95d2a6c9ceb33",
+  "duration": 274.734,
+  "task": "Making mango sorbet",
+  "domain": "Chef",
+  "query": "How do I make mango sorbet?",
+  "goal": {
+    "title": "Prepare and store a blended mango mixture",
+    "description": "Peel and cut a mango, blend its flesh with lemon juice and sugar, scrape the mixture into a covered storage box and place it in the freezer. Reopen the box and stir it with a spoon.",
+    "final_state": "A coarse yellow mango mixture sits in an uncovered box at the open freezer. The green lid and spoon remain held; successful freezing, serving and eating are not shown.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 33.9,
+        "description": "Hold the whole unpeeled mango and take a knife. Make repeated cutting attempts while rotating the fruit, but no cheek separates. Put down the knife, pick at the surface sticker, move to the utensil drawer and retrieve a black Y-shaped peeler before returning to the board."
+      },
+      {
+        "start": 33.9,
+        "end": 79.9,
+        "description": "Peel successive sides of the mango with repeated downward strokes, turning it in the left hand between strokes. Skin strips accumulate on the cutting board. Put the peeler down when most of the yellow flesh is exposed."
+      },
+      {
+        "start": 79.9,
+        "end": 128.02,
+        "description": "Take the knife and slice alongside the pit to separate broad cheeks and smaller side strips. Rotate and reposition the remaining fruit for further cuts. Set the exposed flattened pit to the left, then cut the flesh into chunks and lower the knife onto the board."
+      },
+      {
+        "start": 128.02,
+        "end": 142.6,
+        "description": "Lift several handfuls of chopped mango into the open blender jug. Adjust the jug on its base, briefly turn the black central blade shaft, and continue picking up and dropping the remaining chunks."
+      },
+      {
+        "start": 142.6,
+        "end": 153.5,
+        "description": "Take the green lemon juice bottle, unscrew its cap and pour liquid into the mango-filled jug. Replace the cap and set the bottle down. Take the clear sugar shaker, pour white granules into the jug, set the shaker down and fit the black lid."
+      },
+      {
+        "start": 153.5,
+        "end": 203.4,
+        "description": "Hold the lid with the left hand and operate the blender buttons with the right. Stop and lift the lid, take the blue spatula and scrape mixture from the jug walls. Replace the lid and run the blender again. Remove the lid, pull out the central blade assembly and lay it on the cutting board."
+      },
+      {
+        "start": 203.4,
+        "end": 218.1,
+        "description": "Lift the jug by its handle, tilt it over a clear rectangular storage box and scrape the coarse yellow mixture into the box using the spatula. Return the nearly empty jug to its base and spread the mixture inside the box."
+      },
+      {
+        "start": 218.1,
+        "end": 235.23,
+        "description": "Pick up the green lid and lift the box. Carry it to the freezer and pull the door open while keeping the spatula. Set the box at the opening, smooth the mixture further, press the lid on and place the covered box on an upper shelf. Shift another food package to make room, withdraw and close the door."
+      },
+      {
+        "start": 235.23,
+        "end": 274.734,
+        "description": "Carry the spatula to the dish rack and put it down. Open the utensil drawer and fetch a spoon. Return directly to the freezer, reopen it, bring the box to the opening and remove its green lid. Stir and scrape the mixture with the spoon while holding the lid in the other hand. Finish paused beside the uncovered box; no serving or visibly frozen result is shown."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 33.9,
+      "description": "Hold the whole unpeeled mango and take a knife. Make repeated cutting attempts while rotating the fruit, but no cheek separates. Put down the knife, pick at the surface sticker, move to the utensil drawer and retrieve a black Y-shaped peeler before returning to the board."
+    },
+    {
+      "start": 33.9,
+      "end": 79.9,
+      "description": "Peel successive sides of the mango with repeated downward strokes, turning it in the left hand between strokes. Skin strips accumulate on the cutting board. Put the peeler down when most of the yellow flesh is exposed."
+    },
+    {
+      "start": 79.9,
+      "end": 128.02,
+      "description": "Take the knife and slice alongside the pit to separate broad cheeks and smaller side strips. Rotate and reposition the remaining fruit for further cuts. Set the exposed flattened pit to the left, then cut the flesh into chunks and lower the knife onto the board."
+    },
+    {
+      "start": 128.02,
+      "end": 142.6,
+      "description": "Lift several handfuls of chopped mango into the open blender jug. Adjust the jug on its base, briefly turn the black central blade shaft, and continue picking up and dropping the remaining chunks."
+    },
+    {
+      "start": 142.6,
+      "end": 153.5,
+      "description": "Take the green lemon juice bottle, unscrew its cap and pour liquid into the mango-filled jug. Replace the cap and set the bottle down. Take the clear sugar shaker, pour white granules into the jug, set the shaker down and fit the black lid."
+    },
+    {
+      "start": 153.5,
+      "end": 203.4,
+      "description": "Hold the lid with the left hand and operate the blender buttons with the right. Stop and lift the lid, take the blue spatula and scrape mixture from the jug walls. Replace the lid and run the blender again. Remove the lid, pull out the central blade assembly and lay it on the cutting board."
+    },
+    {
+      "start": 203.4,
+      "end": 218.1,
+      "description": "Lift the jug by its handle, tilt it over a clear rectangular storage box and scrape the coarse yellow mixture into the box using the spatula. Return the nearly empty jug to its base and spread the mixture inside the box."
+    },
+    {
+      "start": 218.1,
+      "end": 235.23,
+      "description": "Pick up the green lid and lift the box. Carry it to the freezer and pull the door open while keeping the spatula. Set the box at the opening, smooth the mixture further, press the lid on and place the covered box on an upper shelf. Shift another food package to make room, withdraw and close the door."
+    },
+    {
+      "start": 235.23,
+      "end": 274.734,
+      "description": "Carry the spatula to the dish rack and put it down. Open the utensil drawer and fetch a spoon. Return directly to the freezer, reopen it, bring the box to the opening and remove its green lid. Stir and scrape the mixture with the spoon while holding the lid in the other hand. Finish paused beside the uncovered box; no serving or visibly frozen result is shown."
+    }
+  ],
+  "object_inventory": [
+    "mango",
+    "knife",
+    "peeler",
+    "cutting board",
+    "mango sticker",
+    "mango pit",
+    "blender jug",
+    "blender lid",
+    "blender",
+    "blade assembly",
+    "spatula",
+    "storage container",
+    "container lid",
+    "spoon",
+    "freezer",
+    "lemon juice bottle",
+    "bottle cap",
+    "lemon juice",
+    "sugar shaker",
+    "sugar",
+    "mango mixture",
+    "utensil drawer",
+    "dish rack",
+    "counter",
+    "food package"
+  ],
+  "notes": "All 97 human fine intervals preserved. No previous descriptions or coarse divisions used as evidence. Every overview, dense continuation page and native end state reviewed. Native end frames were regenerated from measured PTS in native_v1/ends_verified after incomplete old end-frame output was detected; 97 selected frames verified. 128.00–128.02s has only one source frame and cannot establish a separate action. Peeling and chopping cuts often divide repeated operations; no merging performed. Bottle label supports lemon juice; white granular ingredient is described as sugar consistent with shaker appearance, not a measured quantity. Immediate return to freezer shows no meaningful freezing period or solidified sorbet; goal describes the observed mixture. Last 0.234s contains the same paused open-box view; no additional fine interval invented. Predictability left for independent blind stage.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.6,
+      "summary": "pick up the knife beside the mango",
+      "verb": "pick up",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 1.6,
+      "end": 19.91,
+      "summary": "try cutting through the unpeeled mango",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=1.6–19.5s repeated knife cuts and rotations leave the fruit intact; t=19.8s lower knife. Repeated regrips occur within preserved interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels the sticker backing off the mango",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.91,
+      "end": 20.56,
+      "summary": "put down the knife beside the mango",
+      "verb": "put down",
+      "object": "knife",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "mango"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=19.9–20.1s place knife, then fingertips pick at sticker t=20.2s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.56,
+      "end": 27.53,
+      "summary": "pick at the sticker on the mango",
+      "verb": "pick",
+      "object": "mango sticker",
+      "tool": null,
+      "target": "mango",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=20.6–27.1s fingernails repeatedly pick at sticker; t=27.3s turn toward drawer. Sticker removal is not clearly visible.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand peels the mango with a peeler",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.53,
+      "end": 29.3,
+      "summary": "open the utensil drawer",
+      "verb": "open",
+      "object": "utensil drawer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mango"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "Mango carried partly below view; end frame shows left hand on drawer and right hand out of view.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 29.3,
+      "end": 32.3,
+      "summary": "retrieve the peeler from the utensil drawer",
+      "verb": "pick up",
+      "object": "peeler",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens and pulls out the drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 32.3,
+      "end": 33.9,
+      "summary": "carry the mango and peeler to the cutting board",
+      "verb": "move",
+      "object": "mango",
+      "tool": "peeler",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a peeler from the drawer and closes the drawer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.9,
+      "end": 38.49,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels the mango with the peeler",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.49,
+      "end": 40.65,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=38.49–40.65s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.65,
+      "end": 43.51,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.51,
+      "end": 45.55,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=43.51–45.55s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 45.55,
+      "end": 48.64,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.64,
+      "end": 51.02,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=48.64–51.02s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.02,
+      "end": 53.23,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 53.23,
+      "end": 54.98,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=53.23–54.98s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 54.98,
+      "end": 56.51,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.51,
+      "end": 58.87,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=56.51–58.87s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 58.87,
+      "end": 61.06,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 61.06,
+      "end": 64.41,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=61.06–64.41s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 64.41,
+      "end": 67.31,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 67.31,
+      "end": 69.2,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=67.31–69.2s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.2,
+      "end": 70.91,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 70.91,
+      "end": 72.95,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=70.91–72.95s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 72.95,
+      "end": 74.26,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.26,
+      "end": 75.4,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=74.26–75.4s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.4,
+      "end": 77.26,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 77.26,
+      "end": 78.3,
+      "summary": "peel the mango with the peeler",
+      "verb": "peel",
+      "object": "mango",
+      "tool": "peeler",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "peeler"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=77.26–78.3s peeling strokes alternate with turning the same mango; no new object is picked up at this cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.3,
+      "end": 79.9,
+      "summary": "put down the peeler beside the peeled mango",
+      "verb": "put down",
+      "object": "peeler",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=78.3–79.0s finish peeling; t=79.8s set peeler on board.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stops peeling the mango",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 79.9,
+      "end": 80.4,
+      "summary": "pick up the knife beside the peeled mango",
+      "verb": "pick up",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand slices the mango",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 80.4,
+      "end": 85.58,
+      "summary": "slice into the peeled mango",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 85.58,
+      "end": 92.37,
+      "summary": "cut a cheek from the mango",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=85.6–92.1s continue slicing; t=92.3s left hand lifts detached cheek.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.37,
+      "end": 93.24,
+      "summary": "place the mango cheek on the cutting board",
+      "verb": "place",
+      "object": "mango",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 93.24,
+      "end": 96.01,
+      "summary": "turn the mango and start another cut",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.01,
+      "end": 104.05,
+      "summary": "slice another cheek from the mango",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=96–102.5s slice fruit; t=103–104s reposition remaining mango for next cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.05,
+      "end": 107.01,
+      "summary": "cut flesh from the side of the mango",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.01,
+      "end": 108.76,
+      "summary": "slice a strip of mango flesh",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 108.76,
+      "end": 113.47,
+      "summary": "trim mango flesh from around the pit",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.47,
+      "end": 115.01,
+      "summary": "slice the remaining mango flesh beside the pit",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.01,
+      "end": 117.33,
+      "summary": "cut the last strip of mango from the pit",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango pit"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.33,
+      "end": 118.86,
+      "summary": "set aside the mango pit and cut a cheek",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=117.5s place pit on left of board; t=117.9s take cheek; t=118.2s begin chopping. Compound interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.86,
+      "end": 119.58,
+      "summary": "cut the mango flesh into chunks",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.58,
+      "end": 120.9,
+      "summary": "cut the mango flesh into chunks",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 120.9,
+      "end": 121.96,
+      "summary": "cut the mango flesh into chunks",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 121.96,
+      "end": 122.83,
+      "summary": "cut the mango flesh into chunks",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 122.83,
+      "end": 123.53,
+      "summary": "cut the mango flesh into chunks",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.53,
+      "end": 125.25,
+      "summary": "cut the mango flesh into chunks",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 125.25,
+      "end": 126.77,
+      "summary": "cut the mango flesh into chunks",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.77,
+      "end": 128.0,
+      "summary": "cut the mango flesh into chunks",
+      "verb": "cut",
+      "object": "mango",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=126.8–127.6s finish chopping, then lower knife onto board and gather fruit.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 128.0,
+      "end": 128.02,
+      "summary": "hold the mango pieces on the cutting board",
+      "verb": "hold",
+      "object": "mango",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "128.00–128.02s is shorter than one native frame interval. Native frame at 128.000s shows fingertips on mango; no distinct new action can be established.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "no interaction (hands not yet engaged)",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 128.02,
+      "end": 130.0,
+      "summary": "gather and lift mango chunks from the cutting board",
+      "verb": "pick up",
+      "object": "mango",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "mango"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.0,
+      "end": 130.84,
+      "summary": "drop mango chunks into the blender jug",
+      "verb": "put",
+      "object": "mango",
+      "tool": null,
+      "target": "blender jug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands transfer mango chunks into the blender",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.84,
+      "end": 132.7,
+      "summary": "adjust the blender jug on its base",
+      "verb": "adjust",
+      "object": "blender jug",
+      "tool": null,
+      "target": "blender",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender jug"
+        ],
+        "right": [
+          "blender jug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 132.7,
+      "end": 132.8,
+      "summary": "release the blender jug",
+      "verb": "release",
+      "object": "blender jug",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=132.70–132.80s withdraw hands after preceding jug adjustment; preserved 0.1s interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "left hand removes the lid from the blender (hand switch)",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 132.8,
+      "end": 134.3,
+      "summary": "pick up more mango chunks for the blender",
+      "verb": "pick up",
+      "object": "mango",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "mango"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adds mango pieces to blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 134.3,
+      "end": 134.98,
+      "summary": "drop mango chunks into the blender jug",
+      "verb": "put",
+      "object": "mango",
+      "tool": null,
+      "target": "blender jug",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "mango"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.98,
+      "end": 136.4,
+      "summary": "add mango and reach for the blade assembly",
+      "verb": "put",
+      "object": "mango",
+      "tool": null,
+      "target": "blender jug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender jug"
+        ],
+        "right": [
+          "blade assembly"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=135–135.8s right hand drops mango; t=136.1s grips central black blade shaft.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.4,
+      "end": 138.3,
+      "summary": "adjust the blade assembly inside the blender jug",
+      "verb": "adjust",
+      "object": "blade assembly",
+      "tool": null,
+      "target": "blender jug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender jug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=136.4–138.0s turn central shaft while left grips jug; t=138.2s hands withdraw.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 138.3,
+      "end": 140.1,
+      "summary": "gather the remaining mango chunks",
+      "verb": "pick up",
+      "object": "mango",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mango"
+        ],
+        "right": [
+          "mango"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 140.1,
+      "end": 142.6,
+      "summary": "drop the remaining mango chunks into the blender jug",
+      "verb": "put",
+      "object": "mango",
+      "tool": null,
+      "target": "blender jug",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "lemon juice bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=140.1–141.3s transfer fruit; t=142.1s right hand reaches for green bottle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adds mango pieces to blender",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 142.6,
+      "end": 144.03,
+      "summary": "pick up the lemon juice bottle",
+      "verb": "pick up",
+      "object": "lemon juice bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "bottle cap"
+        ],
+        "right": [
+          "lemon juice bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=142.6s grasp bottle; t=143.1s left drops last fruit and moves to cap.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours liquid from green bottle into blender",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 144.03,
+      "end": 145.9,
+      "summary": "unscrew the lemon juice bottle cap",
+      "verb": "unscrew",
+      "object": "bottle cap",
+      "tool": null,
+      "target": "lemon juice bottle",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bottle cap"
+        ],
+        "right": [
+          "lemon juice bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 145.9,
+      "end": 147.38,
+      "summary": "pour lemon juice over the mango",
+      "verb": "pour",
+      "object": "lemon juice",
+      "tool": "lemon juice bottle",
+      "target": "blender jug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bottle cap"
+        ],
+        "right": [
+          "lemon juice bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.38,
+      "end": 148.7,
+      "summary": "recap and put down the lemon juice bottle",
+      "verb": "close",
+      "object": "lemon juice bottle",
+      "tool": "bottle cap",
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "lemon juice bottle"
+        ],
+        "right": [
+          "sugar shaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=147.8s replace cap; t=148.4s set bottle down; t=148.6s right reaches sugar shaker.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.7,
+      "end": 149.39,
+      "summary": "pick up the sugar shaker",
+      "verb": "pick up",
+      "object": "sugar shaker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sugar shaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours liquid from glass jar into blender",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 149.39,
+      "end": 152.0,
+      "summary": "pour sugar into the blender jug",
+      "verb": "pour",
+      "object": "sugar",
+      "tool": "sugar shaker",
+      "target": "blender jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": [
+          "sugar shaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=149.4–151.3s pour white granules; t=150.2s left lifts blender lid; t=151.8s lower shaker.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 152.0,
+      "end": 153.5,
+      "summary": "fit the lid onto the blender jug",
+      "verb": "place",
+      "object": "blender lid",
+      "tool": null,
+      "target": "blender jug",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand secures blender lid and presses button on blender base",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.5,
+      "end": 176.8,
+      "summary": "blend the mango mixture",
+      "verb": "turn on",
+      "object": "blender",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=153.5–175.1s left holds lid while right operates buttons; t=175.8–176.7s stop and begin lifting lid. Later lid removal begins before preserved cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses button on blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 176.8,
+      "end": 177.95,
+      "summary": "lift the blender lid and pick up the spatula",
+      "verb": "pick up",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=176.8s left holds raised lid; t=177.2s right takes spatula and starts toward jug.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs sorbet in blender",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 177.95,
+      "end": 180.6,
+      "summary": "scrape mango mixture from the blender jug walls",
+      "verb": "scrape",
+      "object": "mango mixture",
+      "tool": "spatula",
+      "target": "blender jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 180.6,
+      "end": 182.22,
+      "summary": "replace the blender lid",
+      "verb": "place",
+      "object": "blender lid",
+      "tool": null,
+      "target": "blender jug",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=180.6s lower spatula; t=180.9–182.0s replace lid and reach toward controls.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand operates blender",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 182.22,
+      "end": 198.9,
+      "summary": "blend the mango mixture again",
+      "verb": "turn on",
+      "object": "blender",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=182.2–197.4s blend with left holding lid and right on buttons; t=198.3s begin lifting lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 198.9,
+      "end": 200.39,
+      "summary": "remove the blender lid",
+      "verb": "remove",
+      "object": "blender lid",
+      "tool": null,
+      "target": "blender jug",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blender lid"
+        ],
+        "right": [
+          "blade assembly"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=199–200.1s move lid to board; t=200.3s right grips blade shaft.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand lifts blender jar after blending",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 200.39,
+      "end": 202.16,
+      "summary": "remove the blade assembly from the blender jug",
+      "verb": "remove",
+      "object": "blade assembly",
+      "tool": null,
+      "target": "blender jug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender jug"
+        ],
+        "right": [
+          "blade assembly"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 202.16,
+      "end": 203.4,
+      "summary": "set the blade assembly on the cutting board",
+      "verb": "put down",
+      "object": "blade assembly",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "blender jug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=202.8s set blade assembly down; t=203.3s left begins lifting jug.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 203.4,
+      "end": 204.48,
+      "summary": "lift and tilt the blender jug above the container",
+      "verb": "move",
+      "object": "blender jug",
+      "tool": null,
+      "target": "storage container",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "blender jug"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=203.4s lift jug; t=204.0s tilt above box and t=204.4s take spatula.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand transfers and scrapes sorbet from jar into container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.48,
+      "end": 207.63,
+      "summary": "scrape mango mixture into the storage container",
+      "verb": "scrape",
+      "object": "mango mixture",
+      "tool": "spatula",
+      "target": "storage container",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender jug"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 207.63,
+      "end": 213.5,
+      "summary": "scrape the remaining mango mixture into the container",
+      "verb": "scrape",
+      "object": "mango mixture",
+      "tool": "spatula",
+      "target": "storage container",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "blender jug"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=207.6–212.8s continues preceding scraping without object change; t=213.3s lift emptied jug upright.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand transfers remaining sorbet into container",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 213.5,
+      "end": 214.61,
+      "summary": "put the blender jug back on its base",
+      "verb": "put down",
+      "object": "blender jug",
+      "tool": null,
+      "target": "blender",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs the sorbet",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 214.61,
+      "end": 218.1,
+      "summary": "spread mango mixture inside the storage container",
+      "verb": "spread",
+      "object": "mango mixture",
+      "tool": "spatula",
+      "target": "storage container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "container lid"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=214.6–217.8s level mixture; t=218.0s left picks up green lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand puts down the spatula",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 218.1,
+      "end": 219.69,
+      "summary": "lift the storage container with its lid",
+      "verb": "pick up",
+      "object": "storage container",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "storage container",
+          "container lid"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the lid",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 219.69,
+      "end": 222.28,
+      "summary": "carry the container and open the freezer",
+      "verb": "open",
+      "object": "freezer",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "storage container",
+          "container lid"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=219.7–221.5s carry container; t=221.8–222.3s pull freezer door while retaining spatula.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places the container in the fridge",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 222.28,
+      "end": 223.97,
+      "summary": "set the container at the freezer opening",
+      "verb": "place",
+      "object": "storage container",
+      "tool": null,
+      "target": "freezer",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "container lid"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=222.9s set box down; t=223.5s right begins leveling mixture again.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 223.97,
+      "end": 225.1,
+      "summary": "smooth mango mixture with the spatula",
+      "verb": "spread",
+      "object": "mango mixture",
+      "tool": "spatula",
+      "target": "storage container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "container lid"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 225.1,
+      "end": 228.14,
+      "summary": "press the green lid onto the storage container",
+      "verb": "close",
+      "object": "storage container",
+      "tool": "container lid",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "storage container"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand pushes container back in freezer",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 228.14,
+      "end": 231.58,
+      "summary": "place the covered container on a freezer shelf",
+      "verb": "place",
+      "object": "storage container",
+      "tool": null,
+      "target": "freezer",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=228.2–229s put box on upper shelf; t=229.5–231.2s shift adjacent food package to make space.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 231.58,
+      "end": 233.5,
+      "summary": "idle: withdraw the hands from the freezer",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "Spatula was retained during storage; right hand is below view at final frame, exact grip not visible. Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 233.5,
+      "end": 235.23,
+      "summary": "close the freezer door",
+      "verb": "close",
+      "object": "freezer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand closes freezer door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 235.23,
+      "end": 240.89,
+      "summary": "carry the spatula to the dish rack",
+      "verb": "move",
+      "object": "spatula",
+      "tool": null,
+      "target": "dish rack",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=235.3–240s walk without another interaction; t=240.8s lower spatula toward rack.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand picks up spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 240.89,
+      "end": 242.2,
+      "summary": "put the spatula in the dish rack",
+      "verb": "put down",
+      "object": "spatula",
+      "tool": null,
+      "target": "dish rack",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=240.9–241.4s release spatula; t=242.1s left begins opening utensil drawer.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 242.2,
+      "end": 243.5,
+      "summary": "open the utensil drawer",
+      "verb": "open",
+      "object": "utensil drawer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens drawer",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 243.5,
+      "end": 247.2,
+      "summary": "take a spoon from the utensil drawer",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand opens fridge door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 247.2,
+      "end": 254.07,
+      "summary": "carry the spoon back to the freezer",
+      "verb": "move",
+      "object": "spoon",
+      "tool": null,
+      "target": "freezer",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=247.2–251.5s walk; t=252.1–254.1s left pulls freezer handle. Compound interval retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 254.07,
+      "end": 255.7,
+      "summary": "open the freezer door",
+      "verb": "open",
+      "object": "freezer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 255.7,
+      "end": 257.86,
+      "summary": "bring the covered container to the freezer opening",
+      "verb": "move",
+      "object": "storage container",
+      "tool": null,
+      "target": "freezer",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "storage container"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=255.8–257.5s move box from upper shelf to lower opening while retaining spoon; t=257.8s grip green lid.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand pulls out container",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 257.86,
+      "end": 259.7,
+      "summary": "remove the green lid from the storage container",
+      "verb": "remove",
+      "object": "container lid",
+      "tool": null,
+      "target": "storage container",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "container lid"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 259.7,
+      "end": 273.0,
+      "summary": "stir the mango mixture with the spoon",
+      "verb": "stir",
+      "object": "mango mixture",
+      "tool": "spoon",
+      "target": "storage container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "container lid"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=259.7–270.3s stir and scrape mixture; t=270.8–273s pause, adjust lid grip and lift spoon.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand stirs sorbet with spoon",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 273.0,
+      "end": 274.5,
+      "summary": "idle: hold the spoon and lid beside the open container",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "container lid"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "Hand puts spoon down",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 33.9,
+      "instruction": "Prepare the mango and retrieve a peeler",
+      "description": "Take the knife, attempt cuts through the unpeeled mango, put the knife down and pick at its sticker. Carry the mango to an utensil drawer, open it, retrieve a peeler and return to the cutting board.",
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "transition_in": null,
+      "goal_contribution": "Obtains a peeling tool after initial cutting attempts leave the whole mango intact.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 33.9,
+      "end": 79.9,
+      "instruction": "Peel the mango",
+      "description": "Hold and repeatedly rotate the mango in the left hand while scraping its skin with the right-hand peeler. Remove skin from successive sides and put the peeler on the board.",
+      "fine_index_range": [
+        7,
+        27
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Exposes mango flesh before cutting pieces for blending.",
+      "predictability_level": "strong",
+      "predictability_reason": "The retrieved peeler naturally leads to peeling the mango."
+    },
+    {
+      "start": 79.9,
+      "end": 128.02,
+      "instruction": "Cut mango flesh away from the pit",
+      "description": "Take the knife, slice cheeks and narrow strips from the peeled mango, turn the fruit between cuts, set the exposed pit aside and chop the flesh into smaller pieces.",
+      "fine_index_range": [
+        28,
+        48
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Separates edible mango flesh from the pit and makes chunks that can be loaded into the blender.",
+      "predictability_level": "strong",
+      "predictability_reason": "The peeled mango must be cut to obtain flesh for blending."
+    },
+    {
+      "start": 128.02,
+      "end": 142.6,
+      "instruction": "Load mango chunks into the blender",
+      "description": "Gather successive handfuls of mango and drop them into the jug. Adjust the jug on its base, turn its central blade assembly, then add the remaining pieces.",
+      "fine_index_range": [
+        49,
+        58
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Places the prepared fruit in the blender and adjusts the components before operating it.",
+      "predictability_level": "strong",
+      "predictability_reason": "The cut mango chunks are ready to load into the blender."
+    },
+    {
+      "start": 142.6,
+      "end": 153.5,
+      "instruction": "Add lemon juice and sugar",
+      "description": "Pick up and uncap the green lemon juice bottle, pour liquid over the fruit, recap and set it down. Take the sugar shaker, pour white granules into the jug and fit the blender lid.",
+      "fine_index_range": [
+        59,
+        65
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Combines the fruit with the visible added ingredients and covers the jug for blending.",
+      "predictability_level": "weak",
+      "predictability_reason": "With mango in the blender, adding flavorings is plausible, though blending could begin directly."
+    },
+    {
+      "start": 153.5,
+      "end": 203.4,
+      "instruction": "Blend and scrape the mango mixture",
+      "description": "Operate the blender while holding its lid. Lift the lid, take a spatula and scrape the jug walls, replace the lid and blend again. Remove the lid and central blade assembly and set the assembly on the board.",
+      "fine_index_range": [
+        66,
+        73
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Breaks the mango into a coarse yellow mixture and removes the blade assembly for transfer.",
+      "predictability_level": "strong",
+      "predictability_reason": "The loaded and seasoned blender is ready to blend the mixture."
+    },
+    {
+      "start": 203.4,
+      "end": 218.1,
+      "instruction": "Transfer mango mixture to the storage container",
+      "description": "Lift and tilt the jug over the rectangular container, scrape its contents out with the spatula, return the emptied jug to its base and spread the transferred mixture in the box.",
+      "fine_index_range": [
+        74,
+        78
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Collects and levels the blended mixture in a container suitable for freezer storage.",
+      "predictability_level": "strong",
+      "predictability_reason": "The blended mixture must be transferred for storage."
+    },
+    {
+      "start": 218.1,
+      "end": 235.23,
+      "instruction": "Cover and place the mixture in the freezer",
+      "description": "Lift the container and green lid, carry them to the freezer and open its door while retaining the spatula. Set the box at the opening, smooth the mixture again, press on the lid, place the box on an upper shelf, rearrange a food package and close the door.",
+      "fine_index_range": [
+        79,
+        86
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Covers the prepared mixture and briefly puts it inside the freezer; a frozen result is not established.",
+      "predictability_level": "strong",
+      "predictability_reason": "A container of mango mixture is ready to cover and freeze."
+    },
+    {
+      "start": 235.23,
+      "end": 274.5,
+      "instruction": "Fetch a spoon and stir the stored mango mixture",
+      "description": "Carry the spatula to the dish rack and release it. Open the utensil drawer, retrieve a spoon, return to the freezer and open it. Bring the container forward, remove its green lid, stir and scrape the yellow mixture and pause with the lid and spoon still held.",
+      "fine_index_range": [
+        87,
+        96
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Checks and redistributes the stored mixture; ends with the container uncovered rather than demonstrating a finished frozen dessert.",
+      "predictability_level": "weak",
+      "predictability_reason": "After freezing, stirring is a plausible sorbet step but other next actions are possible."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames/24d95d2a6c9ceb33/native_v1",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

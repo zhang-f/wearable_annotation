@@ -1,0 +1,16 @@
+{
+  "video_id": "733c295802e59c9a",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After show the website-security checklist, search for a website and inspect its connection information is a natural next stage toward inspect website security information on a phone and record observations."
+    }
+  ]
+}

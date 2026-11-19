@@ -1,0 +1,36 @@
+{
+  "video_id": "09608c5b07b02b7d",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Drained pasta awaits a prepared pan and butter for cheese sauce."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Butter in the pan naturally leads to milk and cheese for the sauce."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Prepared pasta and cheese sauce are ready to combine."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "Combined macaroni may be seasoned, though the sauce could already be sufficient."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Finished macaroni is ready for the serving bowl."
+    }
+  ]
+}

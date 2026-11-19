@@ -1,0 +1,1012 @@
+{
+  "video_id": "e15723e58a5486d3",
+  "duration": 166.534,
+  "task": "Replacing a flashlight battery",
+  "domain": "Handyman",
+  "query": "How do I replace a flashlight battery?",
+  "goal": {
+    "title": "Replace the batteries in a flashlight",
+    "description": "Picks up a flashlight from a hardware organizer full of spare batteries, unscrews its cap, and removes the old batteries from the body and a cylindrical battery holder. Repeatedly tries to seat a new battery correctly in the holder and flashlight body, removing and reinserting it several times, before pressing it firmly into place and screwing the cap back on. Unscrews the cap once more to recheck the battery, reassembles it, and switches the flashlight on to confirm it lights up.",
+    "final_state": "The flashlight is fully reassembled with a fresh battery, switched on to show a working light beam, and set down on the table.",
+    "procedure": [
+      "Unscrew the flashlight cap and remove the batteries and holder.",
+      "Try inserting and seating replacement batteries in the holder and body.",
+      "Press the battery assembly into position and screw the cap on.",
+      "Reopen the cap to recheck the battery, then close it again.",
+      "Switch on the flashlight to test its beam and set it down."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 35.17,
+      "description": "Unscrew the cap and remove the old batteries from the flashlight."
+    },
+    {
+      "start": 35.17,
+      "end": 107.9,
+      "description": "Repeatedly try to seat a new battery correctly in the flashlight."
+    },
+    {
+      "start": 107.9,
+      "end": 139.17,
+      "description": "Seat the battery firmly and screw the cap back on."
+    },
+    {
+      "start": 139.17,
+      "end": 165.85,
+      "description": "Recheck the cap, finish reassembly, and test the flashlight."
+    }
+  ],
+  "object_inventory": [
+    "flashlight",
+    "flashlight cap",
+    "battery",
+    "battery holder",
+    "storage bin",
+    "table"
+  ],
+  "notes": "Only human fine boundaries trusted. Overview (0.5fps) covering the full 166.534s video reviewed. Steps 7-23 are a long sequence of repeated battery-insertion attempts (old_summary repeats 'inserts battery into flashlight' for most of them); summaries are varied slightly to reflect the repeated trial-and-error while keeping the same verb/object/tool fields, and confidence is medium throughout since individual hand micro-adjustments are not resolvable at 0.5fps overview sampling. Step 34 ('places flashlight on table') is preceded by the flashlight being switched on to show a working light beam around t=158s, noted in its boundary_note since the fine boundary itself is unchanged. The fine track ends at 165.85s but ffprobe duration is 166.534s; the uncovered ~0.68s tail shows the flashlight already resting on the table with no further action.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 10.22,
+      "summary": "pick up the flashlight",
+      "verb": "pick up",
+      "object": "flashlight",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand picks up flashlight",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 10.22,
+      "end": 20.1,
+      "summary": "unscrew the cap of the flashlight",
+      "verb": "unscrew",
+      "object": "flashlight cap",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flashlight cap"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand unscrews cap of flashlight",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 20.1,
+      "end": 22.0,
+      "summary": "set the flashlight cap aside",
+      "verb": "put down",
+      "object": "flashlight cap",
+      "tool": null,
+      "target": "table",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand sets cap of flashlight aside",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.0,
+      "end": 28.0,
+      "summary": "extract the old batteries from the flashlight",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand extracts batteries from flashlight",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 28.0,
+      "end": 28.1,
+      "summary": "continue pulling the old batteries out",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.1s micro-segment continuing the same battery removal.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls out old batteries from flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.1,
+      "end": 30.5,
+      "summary": "extract another battery from the flashlight",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand extracts battery from flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.5,
+      "end": 35.17,
+      "summary": "sort batteries in the battery holder",
+      "verb": "adjust",
+      "object": "battery",
+      "tool": null,
+      "target": "battery holder",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "battery holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand manipulates batteries in a battery holder",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.17,
+      "end": 41.06,
+      "summary": "insert a battery into the flashlight",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.06,
+      "end": 43.54,
+      "summary": "insert the battery further into the flashlight",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 43.54,
+      "end": 45.5,
+      "summary": "remove a battery from the battery holder",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "battery holder",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "battery holder"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand removes battery from battery holder",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 45.5,
+      "end": 51.66,
+      "summary": "insert a battery into the flashlight again",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=46-52s picks a battery back up and tries seating it again.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.66,
+      "end": 56.2,
+      "summary": "try inserting the battery once more",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.2,
+      "end": 59.26,
+      "summary": "continue inserting the battery into the flashlight",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.26,
+      "end": 62.5,
+      "summary": "adjust the battery inside the flashlight",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.5,
+      "end": 65.45,
+      "summary": "keep trying to seat the battery",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.45,
+      "end": 68.5,
+      "summary": "insert the battery into the flashlight again",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 68.5,
+      "end": 77.5,
+      "summary": "continue adjusting the battery in the flashlight",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69-78s repeated battery seating attempts.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 77.5,
+      "end": 83.1,
+      "summary": "try seating the battery once more",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.1,
+      "end": 87.35,
+      "summary": "insert the battery further into the flashlight",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.35,
+      "end": 90.79,
+      "summary": "keep adjusting the battery in the flashlight",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.79,
+      "end": 95.0,
+      "summary": "try inserting the battery again",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.0,
+      "end": 99.31,
+      "summary": "continue trying to seat the battery",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.31,
+      "end": 103.79,
+      "summary": "insert the battery into the flashlight once more",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.79,
+      "end": 107.9,
+      "summary": "keep trying to insert the battery",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=68-108s is a long sequence of repeated battery-seating attempts; exact hand micro-adjustments are not individually resolvable at overview sampling.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.9,
+      "end": 114.2,
+      "summary": "remove the battery from the flashlight",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand removes battery from flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 114.2,
+      "end": 118.6,
+      "summary": "insert the battery into the flashlight again",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand inserts battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.6,
+      "end": 120.63,
+      "summary": "push the battery firmly into the flashlight",
+      "verb": "press",
+      "object": "battery",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand pushes battery into flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 120.63,
+      "end": 122.6,
+      "summary": "screw the cap onto the flashlight",
+      "verb": "screw",
+      "object": "flashlight cap",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flashlight cap"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand screws cap onto flashlight",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 122.6,
+      "end": 133.0,
+      "summary": "reassemble the flashlight by securing the cap",
+      "verb": "screw",
+      "object": "flashlight cap",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flashlight cap"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=123-133s continuous cap-tightening pass.",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand reassembles flashlight by replacing cap and securing it",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.0,
+      "end": 136.62,
+      "summary": "continue screwing the cap onto the flashlight",
+      "verb": "screw",
+      "object": "flashlight cap",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flashlight cap"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand screws the cap onto the flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.62,
+      "end": 139.17,
+      "summary": "finish screwing the cap onto the flashlight",
+      "verb": "screw",
+      "object": "flashlight cap",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flashlight cap"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand screws the cap onto the flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 139.17,
+      "end": 142.28,
+      "summary": "unscrew the cap to recheck the battery",
+      "verb": "unscrew",
+      "object": "flashlight cap",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flashlight cap"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand unscrews the cap from the flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 142.28,
+      "end": 146.41,
+      "summary": "screw the cap back onto the flashlight",
+      "verb": "screw",
+      "object": "flashlight cap",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flashlight cap"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand screws cap onto flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 146.41,
+      "end": 157.01,
+      "summary": "continue screwing the cap onto the flashlight",
+      "verb": "screw",
+      "object": "flashlight cap",
+      "tool": null,
+      "target": "flashlight",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "flashlight cap"
+        ],
+        "right": [
+          "flashlight"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=146-157s continuous final tightening pass.",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand screws cap onto flashlight",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 157.01,
+      "end": 165.85,
+      "summary": "place the flashlight on the table",
+      "verb": "place",
+      "object": "flashlight",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=158s the flashlight is switched on showing a working light beam just before being set down; the fine boundary is unchanged.",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand places flashlight on table",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 35.17,
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "instruction": "Open the flashlight and remove the old batteries",
+      "description": "Picks up the flashlight, unscrews and sets aside its cap, and pulls the old batteries out of the body and battery holder.",
+      "transition_in": null,
+      "goal_contribution": "Opens the battery compartment and removes the old cells.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 35.17,
+      "end": 107.9,
+      "fine_index_range": [
+        7,
+        23
+      ],
+      "instruction": "Try fitting the new batteries into the flashlight",
+      "description": "Repeatedly inserts and adjusts a battery in the battery holder, trying several times to seat it correctly inside the flashlight.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Attempts to fit the replacement cells into the flashlight assembly.",
+      "predictability_level": "strong",
+      "predictability_reason": "The opened flashlight without old batteries is ready for replacements."
+    },
+    {
+      "start": 107.9,
+      "end": 139.17,
+      "fine_index_range": [
+        24,
+        30
+      ],
+      "instruction": "Seat the battery and screw the cap on",
+      "description": "Removes and reinserts the battery once more, presses it firmly into place, and screws the cap back onto the flashlight.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Seats the assembly and closes the battery compartment.",
+      "predictability_level": "strong",
+      "predictability_reason": "After trial fitting, the battery can be seated and cap closed."
+    },
+    {
+      "start": 139.17,
+      "end": 165.85,
+      "fine_index_range": [
+        31,
+        34
+      ],
+      "instruction": "Recheck the cap and finish reassembling the flashlight",
+      "description": "Unscrews the cap once more to recheck the battery, screws it back on, switches the flashlight on to confirm it lights up, and sets it on the table.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Rechecks the assembly and verifies that the flashlight produces a beam.",
+      "predictability_level": "weak",
+      "predictability_reason": "Reopening to recheck is plausible if fit remains uncertain, but not required."
+    }
+  ]
+}

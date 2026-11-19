@@ -1,0 +1,31 @@
+{
+  "video_id": "ed3bb632400de4bf",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After select tools and fit the screwdriver bit, work the first side mounting point is a natural next stage toward adjust the mailbox mounting fasteners."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After work the first side mounting point, work the opposite lower side mounting point is a natural next stage toward adjust the mailbox mounting fasteners."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After work the opposite lower side mounting point, work underside hardware and revisit the side is plausible for adjust the mailbox mounting fasteners, but several next steps fit."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After work underside hardware and revisit the side, check the mailbox front and door is a natural next stage toward adjust the mailbox mounting fasteners."
+    }
+  ]
+}

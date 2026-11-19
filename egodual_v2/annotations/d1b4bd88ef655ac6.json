@@ -1,0 +1,253 @@
+{
+  "video_id": "d1b4bd88ef655ac6",
+  "duration": 140.4,
+  "task": "Adjusting a bifold door",
+  "domain": "Handyman",
+  "query": "How do I adjust a bifold door?",
+  "goal": {
+    "title": "Adjust a bifold closet door's hinge so it closes flush",
+    "description": "Runs a hand along a wooden bifold closet door to check its fit in the frame, then crouches repeatedly at the bottom hinge to turn its screw with a screwdriver. Swings the door open and closed between adjustments to test whether it now closes flush, pausing once to move a basket aside on a nearby desk, before a final extended adjustment while holding the door steady.",
+    "final_state": "The bifold door hangs flush and closed in its frame at the end of the clip, after repeated hinge-screw adjustments and swing tests.",
+    "procedure": [
+      "Feel along the bifold door edge and inspect its fit.",
+      "Work at the bottom hinge, briefly moving a basket aside.",
+      "Swing the door open and closed to test the fit.",
+      "Return to the lower hinge, make further adjustments, and test the door again."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 49.86,
+      "description": "Inspect the door and crouch at the bottom hinge to turn its screw."
+    },
+    {
+      "start": 49.86,
+      "end": 62.63,
+      "description": "Open and close the door to test whether the hinge fix worked."
+    },
+    {
+      "start": 62.63,
+      "end": 140.4,
+      "description": "Continue adjusting the hinge and testing the door until it closes flush."
+    }
+  ],
+  "object_inventory": [
+    "bifold door",
+    "door hinge",
+    "screwdriver",
+    "basket",
+    "desk"
+  ],
+  "notes": "Only human fine boundaries trusted. Overview (0.5fps) covering the full 140.4s video reviewed; lighting is very dark in the close, downward-angled shots of the bottom hinge, and the screwdriver referenced in several old_summary entries is not clearly resolvable at this sampling rate, so steps 1, 3, 5 and 6 are marked ambiguous with confidence low; tool identity there is inferred from the task context ('Adjusting a bifold door') and the original annotation rather than direct visual confirmation. Step 0 differs from its old_summary ('hand adjusts bifold door hinge with screwdriver'): the frames show only a hand running along the door's edge with no visible tool; recorded as differs_from_expectation. Step 2 ('hand moves a basket on a desk') is an off-task glance and is marked idle, nested inside subtask 1 per the idle-placement rule.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 24.77,
+      "summary": "run a hand along the bifold door edge",
+      "verb": "inspect",
+      "object": "bifold door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "differs_from_expectation: old_summary says the hand adjusts the hinge with a screwdriver here, but the frames show only a hand running along the door's edge with no tool visible.",
+      "old_summary": "hand adjusts bifold door hinge with screwdriver",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 24.77,
+      "end": 32.08,
+      "summary": "turn the screwdriver in the bottom hinge screw",
+      "verb": "screw",
+      "object": "door hinge",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "Crouches at the bottom hinge near the carpet; the small tool is not clearly resolved in the dark, close-up framing.",
+      "confidence": "low",
+      "notes": "Tool identity follows the task context ('Adjusting a bifold door') and the original annotation; not directly confirmed in frame.",
+      "old_summary": "hand uses screwdriver to adjust bottom hinge screw of door",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 32.08,
+      "end": 33.87,
+      "summary": "idle: moves a basket aside on the desk",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": "desk",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand moves a basket on a desk",
+      "beyond_video_end": false,
+      "transition_in": "NONE"
+    },
+    {
+      "start": 33.87,
+      "end": 49.86,
+      "summary": "continue turning the screwdriver in the bottom hinge screw",
+      "verb": "screw",
+      "object": "door hinge",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=36-48s repeated crouching and reaching to the bottom hinge; tool not clearly resolved in low light.",
+      "confidence": "low",
+      "notes": "",
+      "old_summary": "hand uses screwdriver to adjust screw on bottom hinge of door",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 49.86,
+      "end": 62.63,
+      "summary": "open and close the bifold door to test the hinge",
+      "verb": "adjust",
+      "object": "bifold door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bifold door"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=52-58s swings the door open and closed to check the fit.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand adjusts bifold door",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.63,
+      "end": 70.03,
+      "summary": "turn the screwdriver in the bottom hinge screw again",
+      "verb": "screw",
+      "object": "door hinge",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "confidence": "low",
+      "notes": "",
+      "old_summary": "hand turns screwdriver in bottom hinge screw of door",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 70.03,
+      "end": 140.4,
+      "summary": "continue adjusting the hinge while holding the door steady",
+      "verb": "screw",
+      "object": "door hinge",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=70-140s is a long compound interval: crouches at the hinge again (~70-84s), swings the door open to test it (~84-90s), holds the door edge steady for an extended fine adjustment (~96-122s), then opens and closes it once more until it sits flush (~130-140s); exact hand/tool detail is not resolvable at this sampling rate in the dark, close-up framing.",
+      "confidence": "low",
+      "notes": "",
+      "old_summary": "hand turns screwdriver in bottom hinge screw of door",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 49.86,
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "instruction": "Inspect the door and adjust the bottom hinge",
+      "description": "Runs a hand along the door edge, then crouches at the bottom hinge to turn its screw, pausing briefly to move a basket aside on a nearby desk.",
+      "transition_in": null,
+      "goal_contribution": "Inspects the fit and begins working on the lower hinge; the tool is obscured.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 49.86,
+      "end": 62.63,
+      "fine_index_range": [
+        4,
+        4
+      ],
+      "instruction": "Open and close the door to test it",
+      "description": "Swings the bifold door open and closed to check whether the hinge adjustment fixed its fit in the frame.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Tests the door movement after the initial hinge work.",
+      "predictability_level": "strong",
+      "predictability_reason": "After hinge adjustment, opening and closing tests the door fit."
+    },
+    {
+      "start": 62.63,
+      "end": 140.4,
+      "fine_index_range": [
+        5,
+        6
+      ],
+      "instruction": "Keep adjusting the hinge until the door closes",
+      "description": "Crouches at the hinge again to keep turning the screw, swings the door open once more to test it, then holds it steady for an extended final adjustment until it closes flush.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Continues adjusting and retesting the door fit.",
+      "predictability_level": "strong",
+      "predictability_reason": "If the door is still being checked, further hinge adjustment is a natural continuation."
+    }
+  ]
+}

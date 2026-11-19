@@ -1,0 +1,802 @@
+{
+  "video_id": "3522c7b5cbdbe25d",
+  "duration": 131.4,
+  "task": "Creating a paper windmill",
+  "domain": "Arts and Crafts",
+  "query": "How do I create a paper windmill?",
+  "goal": {
+    "title": "Make a paper pinwheel on a wooden rod",
+    "description": "Trim a paper square, crease both diagonals and cut four inward slits. Fold alternating corners to the center, secure them with a tiny fastener and attach the center to a thin wooden rod.",
+    "final_state": "A four-bladed pale paper pinwheel is attached at its center to a thin wooden rod and laid on the table. The video does not establish free rotation under airflow.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 12.5,
+        "description": "Hold the pale paper sheet in the left hand and use scissors in the right to trim a narrow strip and remaining edge, producing a square. Put the scissors beside the sheet and lay the square on the table."
+      },
+      {
+        "start": 12.5,
+        "end": 24.5,
+        "description": "Bring opposite corners together diagonally to form a triangle. Smooth the fold, lift its edge and pinch along the crease, then unfold the square."
+      },
+      {
+        "start": 24.5,
+        "end": 41.3,
+        "description": "Bring the other pair of corners together, align the layers and crease the second diagonal by pressing and pinching it. Open the sheet again, revealing crossing diagonal creases."
+      },
+      {
+        "start": 41.3,
+        "end": 73.1,
+        "description": "Pick up the scissors, cut from one corner along a diagonal toward but short of the center, rotate the sheet and repeat at the remaining three corners. Leave an uncut central area and put the scissors down."
+      },
+      {
+        "start": 73.1,
+        "end": 103.1,
+        "description": "Lay the slit square flat. Bring one cut corner inward and press it, rotate the paper as needed and repeat with alternating corners, gathering four tips at the center to make four angled blades."
+      },
+      {
+        "start": 103.1,
+        "end": 111.7,
+        "description": "Lift and steady the gathered blades, retrieve a tiny fastener from the table and push it through or into the overlapping center with the right fingers. Its exact type and connection are too small to resolve."
+      },
+      {
+        "start": 111.7,
+        "end": 125.56,
+        "description": "Retrieve a thin wooden rod, align its tip behind the pinwheel center and work the central fastener while holding the paper and rod together. Turn the assembly forward and adjust the center until the four blades remain gathered on the rod."
+      },
+      {
+        "start": 125.56,
+        "end": 131.4,
+        "description": "Hold and turn the assembled paper pinwheel by its rod, inspect the center and blades, then lay it on the table. A free spin under wind is not demonstrated."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 12.5,
+      "description": "Hold the pale paper sheet in the left hand and use scissors in the right to trim a narrow strip and remaining edge, producing a square. Put the scissors beside the sheet and lay the square on the table."
+    },
+    {
+      "start": 12.5,
+      "end": 24.5,
+      "description": "Bring opposite corners together diagonally to form a triangle. Smooth the fold, lift its edge and pinch along the crease, then unfold the square."
+    },
+    {
+      "start": 24.5,
+      "end": 41.3,
+      "description": "Bring the other pair of corners together, align the layers and crease the second diagonal by pressing and pinching it. Open the sheet again, revealing crossing diagonal creases."
+    },
+    {
+      "start": 41.3,
+      "end": 73.1,
+      "description": "Pick up the scissors, cut from one corner along a diagonal toward but short of the center, rotate the sheet and repeat at the remaining three corners. Leave an uncut central area and put the scissors down."
+    },
+    {
+      "start": 73.1,
+      "end": 103.1,
+      "description": "Lay the slit square flat. Bring one cut corner inward and press it, rotate the paper as needed and repeat with alternating corners, gathering four tips at the center to make four angled blades."
+    },
+    {
+      "start": 103.1,
+      "end": 111.7,
+      "description": "Lift and steady the gathered blades, retrieve a tiny fastener from the table and push it through or into the overlapping center with the right fingers. Its exact type and connection are too small to resolve."
+    },
+    {
+      "start": 111.7,
+      "end": 125.56,
+      "description": "Retrieve a thin wooden rod, align its tip behind the pinwheel center and work the central fastener while holding the paper and rod together. Turn the assembly forward and adjust the center until the four blades remain gathered on the rod."
+    },
+    {
+      "start": 125.56,
+      "end": 131.4,
+      "description": "Hold and turn the assembled paper pinwheel by its rod, inspect the center and blades, then lay it on the table. A free spin under wind is not demonstrated."
+    }
+  ],
+  "object_inventory": [
+    "paper",
+    "scissors",
+    "center fastener",
+    "wooden rod",
+    "paper pinwheel",
+    "table"
+  ],
+  "notes": "All five overview sheets, every dense page and both native endpoint sheets inspected. Fine boundaries unchanged. Final fine23 ends131.5s beyond true131.4s and is therefore null/beyond_video_end under strict rule; its visible in-range finishing behavior is described in procedure. Tiny center fastener and rod connection around106–125s are partly occluded and marked ambiguous, without asserting a particular pin or pivot design. No glue, measurement with ruler or wind test is shown. Repeated crease subdivisions retained.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.98,
+      "summary": "cut a strip from the edge of the paper",
+      "verb": "cut",
+      "object": "paper",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Initial cut is partly beyond right edge; t=2.8–3.2s narrow strip separates and falls onto table.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds paper",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.98,
+      "end": 9.37,
+      "summary": "trim the paper into a square",
+      "verb": "cut",
+      "object": "paper",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.37,
+      "end": 12.5,
+      "summary": "put the scissors down and lay the paper flat",
+      "verb": "put down",
+      "object": "scissors",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places scissors on the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.5,
+      "end": 16.1,
+      "summary": "fold the paper diagonally into a triangle",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.1,
+      "end": 22.4,
+      "summary": "press and pinch the first diagonal crease",
+      "verb": "crease",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=16.5–18s smooth fold; t=18.8–22.3s lift folded edge and repeatedly pinch crease.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.4,
+      "end": 24.5,
+      "summary": "unfold the paper square",
+      "verb": "unfold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 24.5,
+      "end": 26.6,
+      "summary": "bring the other paper corners together",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.6,
+      "end": 28.9,
+      "summary": "align the second diagonal paper fold",
+      "verb": "align",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds paper steady",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.9,
+      "end": 37.6,
+      "summary": "crease the second diagonal fold",
+      "verb": "crease",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands fold the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 37.6,
+      "end": 41.3,
+      "summary": "unfold the paper to expose the crossed creases",
+      "verb": "unfold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands fold paper to create creases",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 41.3,
+      "end": 43.14,
+      "summary": "pick up scissors beside the creased paper",
+      "verb": "pick up",
+      "object": "scissors",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds paper while other hand picks up scissors",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.14,
+      "end": 48.29,
+      "summary": "cut inward along the first paper diagonal",
+      "verb": "cut",
+      "object": "paper",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts slits along folded edges of paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.29,
+      "end": 56.59,
+      "summary": "rotate the paper and cut the second diagonal slit",
+      "verb": "cut",
+      "object": "paper",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts slit in folded paper with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 56.59,
+      "end": 64.1,
+      "summary": "rotate the paper and cut the third diagonal slit",
+      "verb": "cut",
+      "object": "paper",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts slits along the folded edges of the paper with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 64.1,
+      "end": 70.5,
+      "summary": "rotate the paper and cut the fourth diagonal slit",
+      "verb": "cut",
+      "object": "paper",
+      "tool": "scissors",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts slits along the folded edges of the paper with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 70.5,
+      "end": 73.1,
+      "summary": "put the scissors down beside the slit paper",
+      "verb": "put down",
+      "object": "scissors",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand unfolds the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.1,
+      "end": 80.58,
+      "summary": "fold the first cut paper corner toward the center",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands fold and press down on the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 80.58,
+      "end": 85.1,
+      "summary": "fold another paper corner toward the center",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands fold the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 85.1,
+      "end": 87.77,
+      "summary": "press the folded paper corner flat",
+      "verb": "press",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the folded paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.77,
+      "end": 96.43,
+      "summary": "rotate the paper and fold the third corner inward",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands fold the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.43,
+      "end": 103.1,
+      "summary": "fold the remaining paper corner toward the center",
+      "verb": "fold",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the folded paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.1,
+      "end": 111.7,
+      "summary": "secure the gathered paper corners at the center",
+      "verb": "insert",
+      "object": "center fastener",
+      "tool": null,
+      "target": "paper",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paper"
+        ],
+        "right": [
+          "center fastener"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=104.7–105.4s retrieve tiny fastener; t=106–111.6s right fingers push it at the gathered center. Exact fastener construction is too small to identify as a specific pin type.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand adjusts the paper windmill",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 111.7,
+      "end": 125.56,
+      "summary": "attach the paper pinwheel center to the wooden rod",
+      "verb": "attach",
+      "object": "paper pinwheel",
+      "tool": null,
+      "target": "wooden rod",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper pinwheel"
+        ],
+        "right": [
+          "center fastener"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=112.3–114.1s left picks up thin rod; t=114.7–121.8s align rod behind center and work fastener with right fingers; t=122–125.5s turn front upward and continue center adjustment. Tiny connection is partly occluded.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand attaches stick to center of paper windmill",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 125.56,
+      "end": 131.5,
+      "summary": null,
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "超出视频结尾",
+      "beyond_video_end": true,
+      "confidence": "low",
+      "old_summary": "hand adjusts the stick in the windmill",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 12.5,
+      "instruction": "Trim the paper into a square",
+      "description": "Hold the paper while cutting away an edge strip and trimming the remaining side. Put the scissors down and arrange the square on the table.",
+      "fine_index_range": [
+        0,
+        2
+      ],
+      "transition_in": null,
+      "goal_contribution": "Produces the square blank for the pinwheel.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 12.5,
+      "end": 41.3,
+      "instruction": "Crease both paper diagonals",
+      "description": "Fold opposite corners together, align and press the first diagonal, unfold, then repeat with the other pair of corners. Open the sheet to reveal crossed creases.",
+      "fine_index_range": [
+        3,
+        9
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Marks the center and cutting directions while keeping one sheet intact.",
+      "predictability_level": "strong",
+      "predictability_reason": "The square paper needs diagonal creases for the pinwheel shape."
+    },
+    {
+      "start": 41.3,
+      "end": 73.1,
+      "instruction": "Cut the four corner slits",
+      "description": "Retrieve scissors and cut inward from each corner along its diagonal, rotating the sheet between cuts and stopping before the central intersection. Put the scissors down.",
+      "fine_index_range": [
+        10,
+        15
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Separates the corner sections that can be folded into blades.",
+      "predictability_level": "strong",
+      "predictability_reason": "Creased diagonals guide the corner slits."
+    },
+    {
+      "start": 73.1,
+      "end": 103.1,
+      "instruction": "Fold the four pinwheel blades",
+      "description": "Bring alternating cut corners into the center one after another, press each tip and rotate the paper between corners.",
+      "fine_index_range": [
+        16,
+        20
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Forms four angled blades whose tips meet at the center.",
+      "predictability_level": "strong",
+      "predictability_reason": "Cut corner slits are ready to fold into blades."
+    },
+    {
+      "start": 103.1,
+      "end": 131.5,
+      "instruction": "Secure the blades and attach the rod",
+      "description": "Retrieve and work a tiny center fastener through the gathered tips, pick up a wooden rod and attach the center to its end. Turn and adjust the assembly, then hold and lay down the finished pinwheel.",
+      "fine_index_range": [
+        21,
+        23
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Keeps the folded blades together and provides a handle for the paper pinwheel.",
+      "predictability_level": "strong",
+      "predictability_reason": "Gathered blades need fastening and a rod."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/3522c7b5cbdbe25d/20261106T224821574309Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

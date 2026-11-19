@@ -1,0 +1,41 @@
+{
+  "video_id": "effe0fc95c21d897",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After remove the old dispenser and put it aside, try mounting and adjusting the replacement holder is a natural next stage toward replace the toilet paper dispenser with a wall holder."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After try mounting and adjusting the replacement holder, undo the initial attachment and remove the holder is plausible for replace the toilet paper dispenser with a wall holder, but several next steps fit."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After undo the initial attachment and remove the holder, drill the mounting hole and prepare a wall anchor is plausible for replace the toilet paper dispenser with a wall holder, but several next steps fit."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After drill the mounting hole and prepare a wall anchor, insert the wall anchor and position the holder is a natural next stage toward replace the toilet paper dispenser with a wall holder."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After insert the wall anchor and position the holder, fasten the holder and check its joint is a natural next stage toward replace the toilet paper dispenser with a wall holder."
+    },
+    {
+      "index": 6,
+      "level": "weak",
+      "reason": "After fasten the holder and check its joint, rework the holder screws and check the final mounting is plausible for replace the toilet paper dispenser with a wall holder, but several next steps fit."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "video_id": "b10afe8715607c52",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The toasted muffin halves need a tray for topping and baking."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "Oil and spoon preparation is plausible before sauce, but not essential to pizza assembly."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The tray-held muffins are ready for sauce and cheese."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Sauced and cheesed muffins are ready for pepperoni topping."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Assembled muffin pizzas are ready to bake."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "Baked pizzas are ready to check and remove."
+    }
+  ]
+}

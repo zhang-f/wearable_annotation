@@ -1,0 +1,41 @@
+{
+  "video_id": "90aab2dafc749e5c",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Heating oats leaves time to wash the apple for the topping."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The washed apple needs cutting before warming."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "Diced apple may be trimmed further, though it could be warmed directly."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Prepared apple pieces are ready to warm."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After warming apple, the oats need finishing and serving."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "Served oats are ready for the named apple and nut butter toppings."
+    }
+  ]
+}

@@ -1,0 +1,1120 @@
+{
+  "video_id": "3a122ee7ff513956",
+  "duration": 124.667,
+  "task": "Making microwave nacho cheese tortilla chips",
+  "domain": "Chef",
+  "query": "How do I make microwave nacho cheese tortilla chips?",
+  "goal": {
+    "title": "Prepare microwave cheese tortilla chips",
+    "description": "Pick a plate off the dish rack and spread tortilla chips across it, then fetch a second plate to catch overflow while a bag of shredded cheese is opened and poured over the chips. Load the plate into the microwave, heat it until the cheese melts, and remove it. Taste a chip, then shake seasoning and salt over the melted-cheese chips before reaching for a fork to mix and eat them.",
+    "final_state": "The seasoned cheese-topped tortilla chips remain on the counter. The person handles and rearranges them with a fork and fingers through the visible end; no mouth contact is shown.",
+    "procedure": [
+      "Fetch a plate and spread tortilla chips across it.",
+      "Open the shredded-cheese bag and pour cheese over the chips.",
+      "Put the plate in the microwave and heat it.",
+      "Remove the plate, sample a chip, add seasoning and salt, and use a fork on the chips."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 12.1,
+      "description": "Collect a plate and arrange tortilla chips."
+    },
+    {
+      "start": 12.1,
+      "end": 40.9,
+      "description": "Fetch another plate and add shredded cheese."
+    },
+    {
+      "start": 40.9,
+      "end": 80.97,
+      "description": "Heat the chips and remove the plate."
+    },
+    {
+      "start": 80.97,
+      "end": 124.667,
+      "description": "Check, season and separate the chips."
+    }
+  ],
+  "object_inventory": [
+    "plate",
+    "counter",
+    "tortilla chip bag",
+    "tortilla chips",
+    "cheese bag",
+    "shredded cheese",
+    "microwave",
+    "seasoning jar",
+    "seasoning cap",
+    "salt shaker",
+    "fork"
+  ],
+  "notes": "Strict beyond-video rule: final step 115.0–124.7 exceeds ffprobe 124.667 by 0.033s, so description and object fields are null and beyond_video_end=true; boundary not clipped. No uncovered tail. Repeated open-cheese-bag instruction reflects two separate bag handling episodes with a spare-plate fetch in between. Physical dish rack is not a tool. Holding means grasping/supporting, not merely resting fingers on the counter. Heating wait and tasting are idle, attributed to preceding subtask. Fine steps shorter than one second examined at 15 fps. Verb pour used for cheese shaken directly from bag; no spoon inferred. In-hand vocabulary uses packaging as the held object, loose food as the transferred object. Visual correction from timestamped step_042 dense sheets: t=115–124.333s fork and fingers rearrange chips; no mouth contact is visible. The old final-state claim of merely reaching for a fork understated the visible action.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.8,
+      "summary": "idle: walk to the dish rack",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up plate from counter",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 1.8,
+      "end": 3.52,
+      "summary": "pick up the plate from the dish rack",
+      "verb": "pick up",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pours tortilla chips from bag onto plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 3.52,
+      "end": 5.64,
+      "summary": "place the plate beside the microwave",
+      "verb": "place",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 5.64,
+      "end": 6.42,
+      "summary": "pick up the tortilla chip bag",
+      "verb": "pick up",
+      "object": "tortilla chip bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tortilla chip bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.42,
+      "end": 9.47,
+      "summary": "place tortilla chips on the plate",
+      "verb": "place",
+      "object": "tortilla chips",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=6.7s change grip on bag; t=7.3–8.7s retrieve chips and place on plate; hand–object changes within segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 9.47,
+      "end": 12.1,
+      "summary": "spread the tortilla chips across the plate",
+      "verb": "spread",
+      "object": "tortilla chips",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.1,
+      "end": 13.7,
+      "summary": "pick up the cheese bag",
+      "verb": "pick up",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cheese bag"
+        ],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand tears open cheese bag",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 13.7,
+      "end": 15.9,
+      "summary": "open the cheese bag",
+      "verb": "open",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=13.7–14.7s open cheese bag, then t=15.3s set it aside. Both interactions occur within segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand tears open cheese bag",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.9,
+      "end": 20.26,
+      "summary": "pick up another plate from the dish rack",
+      "verb": "pick up",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=15.9–18s walking without interaction; t=18.7–19.3s retrieve plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand tears open cheese bag",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 20.26,
+      "end": 23.29,
+      "summary": "place the plate beneath the tortilla chip plate",
+      "verb": "place",
+      "object": "plate",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=21.7s grasp chip plate, t=22.7s set spare plate down, t=23s stack plates; multiple interactions.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.29,
+      "end": 24.8,
+      "summary": "move the plate beside the tortilla chips",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 24.8,
+      "end": 26.37,
+      "summary": "put down the plate on the counter",
+      "verb": "put down",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=25s place spare plate; t=25.7s pick up cheese bag.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.37,
+      "end": 27.75,
+      "summary": "hold the cheese bag above the tortilla chips",
+      "verb": "hold",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cheese bag"
+        ],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 27.75,
+      "end": 31.24,
+      "summary": "open the cheese bag",
+      "verb": "open",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese bag"
+        ],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand sprinkles cheese from bag onto tortilla chips on plate",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.24,
+      "end": 38.1,
+      "summary": "pour shredded cheese over the tortilla chips",
+      "verb": "pour",
+      "object": "shredded cheese",
+      "tool": "cheese bag",
+      "target": "tortilla chips",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.1,
+      "end": 40.9,
+      "summary": "close the cheese bag",
+      "verb": "close",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=38.3–40.3s close bag; t=40.7s move bag off to side.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands tear open cheese bag",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.9,
+      "end": 42.96,
+      "summary": "pick up the plate of tortilla chips",
+      "verb": "pick up",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=41.3s press microwave control; t=42.3s grasp plate.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses buttons on microwave",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 42.96,
+      "end": 43.5,
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 43.5,
+      "end": 45.1,
+      "summary": "place the plate inside the microwave",
+      "verb": "place",
+      "object": "plate",
+      "tool": null,
+      "target": "microwave",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places plate into microwave",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 45.1,
+      "end": 45.2,
+      "summary": "close the microwave door",
+      "verb": "close",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "45.10–45.20s lies inside the ongoing door-closing motion visible t=45.0–45.6s; no separate interaction at cut.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 45.2,
+      "end": 47.5,
+      "summary": "turn on the microwave",
+      "verb": "turn on",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand presses buttons on microwave",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 47.5,
+      "end": 76.5,
+      "summary": "idle: wait beside the microwave",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand grasps plate of melted cheese tortilla chips inside microwave",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 76.5,
+      "end": 77.47,
+      "summary": "reach for the microwave handle",
+      "verb": "reach for",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 77.47,
+      "end": 78.2,
+      "summary": "open the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 78.2,
+      "end": 79.7,
+      "summary": "remove the plate from the microwave",
+      "verb": "remove",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "plate"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand closes the microwave door",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 79.7,
+      "end": 80.97,
+      "summary": "put down the plate beside the microwave",
+      "verb": "put down",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=79.3s left hand closes microwave while right hand places plate at t=80.1s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand mixes cheese tortilla chips on plate with fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 80.97,
+      "end": 83.08,
+      "summary": "pick up a tortilla chip from the plate",
+      "verb": "pick up",
+      "object": "tortilla chips",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tortilla chips"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 83.08,
+      "end": 84.32,
+      "summary": "put down the tortilla chip on the plate",
+      "verb": "put down",
+      "object": "tortilla chips",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.32,
+      "end": 86.4,
+      "summary": "idle: pause beside the plate",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 86.4,
+      "end": 87.28,
+      "summary": "reach for the seasoning jar",
+      "verb": "reach for",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand sprinkles spice from bottle onto chips on plate",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 87.28,
+      "end": 89.8,
+      "summary": "open the seasoning jar",
+      "verb": "open",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning cap"
+        ],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.8,
+      "end": 94.6,
+      "summary": "shake seasoning over the tortilla chips",
+      "verb": "shake",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": "tortilla chips",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning cap"
+        ],
+        "right": [
+          "seasoning jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 94.6,
+      "end": 95.9,
+      "summary": "close the seasoning jar",
+      "verb": "close",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning jar"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand twists spice bottle cap",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.9,
+      "end": 97.4,
+      "summary": "put down the seasoning jar",
+      "verb": "put down",
+      "object": "seasoning jar",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand stirs cheese tortilla chips on plate with fork",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.4,
+      "end": 99.0,
+      "summary": "pick up a tortilla chip from the plate",
+      "verb": "pick up",
+      "object": "tortilla chips",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "tortilla chips"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand mixes nacho cheese tortilla chips on plate with fork",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 99.0,
+      "end": 105.07,
+      "summary": "idle: taste the tortilla chip",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a fork",
+      "notes": "Eating is treated as idle because this step is consumption rather than preparation. Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 105.07,
+      "end": 105.78,
+      "summary": "move the spare plate to the left",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 105.78,
+      "end": 110.0,
+      "summary": "put down the fork on the spare plate",
+      "verb": "put down",
+      "object": "fork",
+      "tool": null,
+      "target": "plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salt shaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=106s place spare plate; t=108.7s pick up fork; t=109.3s put fork down; t=109.7s pick up salt shaker.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 110.0,
+      "end": 110.83,
+      "summary": "hold the salt shaker over the tortilla chips",
+      "verb": "hold",
+      "object": "salt shaker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "salt shaker"
+        ],
+        "right": [
+          "salt shaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand sprinkles salt from a shaker onto the cheese tortilla chips",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.83,
+      "end": 113.0,
+      "summary": "shake salt over the tortilla chips",
+      "verb": "shake",
+      "object": "salt shaker",
+      "tool": null,
+      "target": "tortilla chips",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "salt shaker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=110.9–112.6s shake salt; still holds salt shaker immediately before t=113s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.0,
+      "end": 114.5,
+      "summary": "put down the salt shaker",
+      "verb": "put down",
+      "object": "salt shaker",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=113.0s close or regrasp shaker; t=113.3s put down; then pause until t=114.5s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand sprinkles salt onto the cheese tortilla chips",
+      "notes": "Type changed from idle because closing and placing shaker are visible at start.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 114.5,
+      "end": 115.0,
+      "summary": "reach for the fork",
+      "verb": "reach for",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up fork",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 115.0,
+      "end": 124.7,
+      "summary": null,
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": true,
+      "boundary_note": "超出视频结尾",
+      "beyond_video_end": true,
+      "confidence": "low",
+      "old_summary": "hand mixes melted cheese tortilla chips on plate with fork",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 12.1,
+      "instruction": "Arrange tortilla chips on a plate",
+      "description": "Pick a plate up from the dish rack, carry it to the counter, open the tortilla chip bag, and place and spread the chips evenly across the plate.",
+      "fine_index_range": [
+        0,
+        5
+      ],
+      "transition_in": null,
+      "goal_contribution": "Provides the chip base on a plate for the cheese topping.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 12.1,
+      "end": 40.9,
+      "instruction": "Cover the tortilla chips with shredded cheese",
+      "description": "Pick up the cheese bag, fetch a second plate from the dish rack to stack beneath the chip plate, then open the cheese bag, pour shredded cheese over the chips, and close the bag.",
+      "fine_index_range": [
+        6,
+        15
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Adds the cheese that will melt over the chips.",
+      "predictability_level": "strong",
+      "predictability_reason": "After arrange tortilla chips on a plate, cover the tortilla chips with shredded cheese is a natural next stage toward prepare microwave cheese tortilla chips."
+    },
+    {
+      "start": 40.9,
+      "end": 80.97,
+      "instruction": "Heat the chips in the microwave",
+      "description": "Pick up the chip-and-cheese plate, open the microwave door, place the plate inside, close the door, start the microwave and wait, then reopen the door and remove the plate.",
+      "fine_index_range": [
+        16,
+        25
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Heats the cheese-covered chips.",
+      "predictability_level": "strong",
+      "predictability_reason": "After cover the tortilla chips with shredded cheese, heat the chips in the microwave is a natural next stage toward prepare microwave cheese tortilla chips."
+    },
+    {
+      "start": 80.97,
+      "end": 124.7,
+      "instruction": "Season and check the cheese tortilla chips",
+      "description": "Pick up and taste a chip, open a seasoning jar and shake it over the plate, then shake salt from a shaker over the chips and reach for a fork to begin separating and eating them.",
+      "fine_index_range": [
+        26,
+        42
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Checks the heated chips and adds the final seasonings.",
+      "predictability_level": "weak",
+      "predictability_reason": "After heat the chips in the microwave, season and check the cheese tortilla chips is plausible for prepare microwave cheese tortilla chips, but several next steps fit."
+    }
+  ]
+}

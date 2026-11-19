@@ -1,0 +1,21 @@
+{
+  "video_id": "58911a11f1e276bc",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After toast a slice of bread, spread cream cheese on the toast is a natural next stage toward make toast with cream cheese and smoked paprika."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After spread cream cheese on the toast, top the toast with smoked paprika is a natural next stage toward make toast with cream cheese and smoked paprika."
+    }
+  ]
+}

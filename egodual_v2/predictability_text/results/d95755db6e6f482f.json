@@ -1,0 +1,41 @@
+{
+  "video_id": "d95755db6e6f482f",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After operating the breaker, removing the fan cover enables cleaning."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The removed cover and open housing are ready to wipe."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After wiping, the cover must be refitted."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "The initial fitting attempts naturally continue with reseating and starting screws."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Started mounting screws need final tightening."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "After reinstalling the cover, the breaker can be operated again."
+    }
+  ]
+}

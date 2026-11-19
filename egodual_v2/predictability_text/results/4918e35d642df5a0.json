@@ -1,0 +1,31 @@
+{
+  "video_id": "4918e35d642df5a0",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Detached detector is ready for its old battery to be removed."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The empty battery compartment is ready for a replacement and check."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "A second reseating and test is plausible if the first check is uncertain."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Once the battery is seated and tested, the detector can be mounted."
+    }
+  ]
+}

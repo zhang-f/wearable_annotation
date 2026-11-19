@@ -1,0 +1,46 @@
+{
+  "video_id": "ccb5d74c42da3d7d",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After start toasting the bread, rinse, dry and slice the tomato is plausible for make an egg and tomato toast sandwich, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After rinse, dry and slice the tomato, heat and oil the frying pan is plausible for make an egg and tomato toast sandwich, but several next steps fit."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After heat and oil the frying pan, crack egg into bowl and pour into pan is a natural next stage toward make an egg and tomato toast sandwich."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After crack egg into bowl and pour into pan, spread the egg and begin cooking it is a natural next stage toward make an egg and tomato toast sandwich."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "After spread the egg and begin cooking it, set out a plate and let the egg finish cooking is plausible for make an egg and tomato toast sandwich, but several next steps fit."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "After set out a plate and let the egg finish cooking, plate the toast and cover one slice with tomato is a natural next stage toward make an egg and tomato toast sandwich."
+    },
+    {
+      "index": 7,
+      "level": "strong",
+      "reason": "After plate the toast and cover one slice with tomato, transfer the egg and close the sandwich is a natural next stage toward make an egg and tomato toast sandwich."
+    }
+  ]
+}

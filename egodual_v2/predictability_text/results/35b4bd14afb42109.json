@@ -1,0 +1,31 @@
+{
+  "video_id": "35b4bd14afb42109",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The kiwi still needs peeling before the fruit can be cut."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Washed and peeled fruit is ready to cut for skewers."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Prepared fruit pieces are ready to thread onto skewers."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After the first skewer, making a second is a natural continuation."
+    }
+  ]
+}

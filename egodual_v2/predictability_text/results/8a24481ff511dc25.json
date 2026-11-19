@@ -1,0 +1,41 @@
+{
+  "video_id": "8a24481ff511dc25",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After portion capers and olives into the blender cup, add lemon and olive oil and close the cup is a natural next stage toward make olive and caper spread for toasted bread."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After add lemon and olive oil and close the cup, slice, oil and toast the bread is plausible for make olive and caper spread for toasted bread, but several next steps fit."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After slice, oil and toast the bread, wait, turn and remove the toast is a natural next stage toward make olive and caper spread for toasted bread."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "After wait, turn and remove the toast, blend the olive mixture is plausible for make olive and caper spread for toasted bread, but several next steps fit."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After blend the olive mixture, cover both toast slices with olive spread is a natural next stage toward make olive and caper spread for toasted bread."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "After cover both toast slices with olive spread, plate and present the olive toast is a natural next stage toward make olive and caper spread for toasted bread."
+    }
+  ]
+}

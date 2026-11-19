@@ -1,0 +1,2050 @@
+{
+  "video_id": "90aab2dafc749e5c",
+  "duration": 483.2,
+  "task": "Making apple and almond butter oatmeal bowl",
+  "domain": "Chef",
+  "query": "How do I make an apple and almond butter oatmeal bowl?",
+  "goal": {
+    "title": "Prepare oatmeal with warmed apple and nut butter",
+    "description": "Measure oats and water into a saucepan, heat them on the stove, wash and dice an apple, trim its skin from individual pieces and microwave the prepared fruit. Serve the cooked oats, add the warmed apple and nut butter, and stir together.",
+    "final_state": "A bowl contains stirred oatmeal with apple pieces and nut butter; the emptied saucepan and apple trimmings remain nearby.",
+    "procedure": [
+      "Measure dry oats into the saucepan, fill a clear jug at the sink and add water.",
+      "Turn on and adjust the stove, briefly stir, and leave the oats heating.",
+      "Wash the apple, cut sections away from its core and dice them on the board.",
+      "Trim peel from individual apple chunks and collect the prepared pieces in a bowl.",
+      "Microwave the apple pieces and wait for the heating cycle.",
+      "Remove the apple, stir the oats until thickened and turn off the burner.",
+      "Scrape the cooked oats into a serving bowl, add apple and nut butter, and stir until combined."
+    ]
+  },
+  "object_inventory": [
+    "oat container",
+    "oats",
+    "measuring cup",
+    "water jug",
+    "faucet",
+    "saucepan",
+    "spoon",
+    "stove control",
+    "apple",
+    "knife",
+    "cutting board",
+    "apple bowl",
+    "microwave",
+    "serving bowl",
+    "nut butter jar",
+    "nut butter"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 37.26,
+      "description": "Dry oats are measured into a saucepan. Water is collected at the sink and poured in, the stove is switched on and adjusted, and the oats briefly stirred."
+    },
+    {
+      "start": 37.26,
+      "end": 97.54,
+      "description": "The pot is watched without hand contact, the burner is adjusted, and an apple is picked up and washed at the sink."
+    },
+    {
+      "start": 97.54,
+      "end": 140.74,
+      "description": "A knife cuts sections from around the apple core; the core is set aside and successive pieces are cut into smaller chunks on the board."
+    },
+    {
+      "start": 140.74,
+      "end": 270.22,
+      "description": "Individual apple chunks are held and pared with the knife. Skin trimmings stay on the board while prepared pieces are collected in a bowl."
+    },
+    {
+      "start": 270.22,
+      "end": 343.43,
+      "description": "The apple bowl is carried to the microwave, placed inside and heated while the person waits. The door is opened and the warmed bowl removed."
+    },
+    {
+      "start": 343.43,
+      "end": 422.18,
+      "description": "The oats are stirred, with a pause between stirring bouts. The burner is turned off and the saucepan tipped while a spoon scrapes the cooked oats into a bowl."
+    },
+    {
+      "start": 422.18,
+      "end": 482.93,
+      "description": "The warmed apple pieces are tipped into the oatmeal and the empty bowl set aside. Nut butter is spooned in, residue is scraped off utensils, and the bowl is repeatedly stirred."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 6.82,
+      "old_summary": "hand pours rolled oats from a measuring cup into a pot",
+      "summary": "right hand measures oats and tips them into the saucepan",
+      "verb": "measure",
+      "object": "oats",
+      "tool": "measuring cup",
+      "target": "saucepan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "measuring cup"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 6.82,
+      "end": 12.1,
+      "old_summary": "hand picks up measuring cup",
+      "summary": "right hand sets the measure aside and takes a water jug",
+      "verb": "pick up",
+      "object": "water jug",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "water jug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "6.82–12.1s includes clearing the measure, picking up the jug and walking to the faucet.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.1,
+      "end": 19.23,
+      "old_summary": "hand fills measuring cup with water from faucet",
+      "summary": "right hand fills the jug beneath the faucet",
+      "verb": "fill",
+      "object": "water jug",
+      "tool": null,
+      "target": "faucet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "water jug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.23,
+      "end": 25.16,
+      "old_summary": "hand pours water from a measuring cup into a pot on the stove",
+      "summary": "right hand pours water into the saucepan",
+      "verb": "pour",
+      "object": "water jug",
+      "tool": null,
+      "target": "saucepan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.16,
+      "end": 27.44,
+      "old_summary": "hand turns stove burner knob",
+      "summary": "right hand turns the stove control",
+      "verb": "turn",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.44,
+      "end": 31.57,
+      "old_summary": "hand stirs oats in pot with spoon",
+      "summary": "right hand adjusts the burner and pauses",
+      "verb": "turn",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 31.57,
+      "end": 33.92,
+      "old_summary": "hand stirs oats in pot with spoon",
+      "summary": "right hand briefly stirs the oats with a spoon",
+      "verb": "stir",
+      "object": "oats",
+      "tool": "spoon",
+      "target": "saucepan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 33.92,
+      "end": 37.26,
+      "old_summary": "hand adjusts stove burner heat setting",
+      "summary": "right hand adjusts the stove control again",
+      "verb": "turn",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 37.26,
+      "end": 86.83,
+      "old_summary": "no hand activity",
+      "summary": "idle hands remain away while the oats heat",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 86.83,
+      "end": 90.31,
+      "old_summary": "hand turns stove knob",
+      "summary": "right hand adjusts the burner setting",
+      "verb": "turn",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 90.31,
+      "end": 92.84,
+      "old_summary": "hand picks up apple",
+      "summary": "right hand picks up the apple",
+      "verb": "pick up",
+      "object": "apple",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 92.84,
+      "end": 97.54,
+      "old_summary": "hand washes apple under running water",
+      "summary": "both hands wash the apple under running water",
+      "verb": "wash",
+      "object": "apple",
+      "tool": null,
+      "target": "faucet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.54,
+      "end": 104.53,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand cuts an apple section on the board",
+      "verb": "cut",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 104.53,
+      "end": 106.66,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand cuts another section away from the apple core",
+      "verb": "cut",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 106.66,
+      "end": 108.52,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand separates another apple section",
+      "verb": "cut",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 108.52,
+      "end": 110.3,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "left hand moves the apple core aside",
+      "verb": "place",
+      "object": "apple",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.3,
+      "end": 112.89,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.89,
+      "end": 114.33,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 114.33,
+      "end": 115.37,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.37,
+      "end": 119.11,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.11,
+      "end": 120.8,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 120.8,
+      "end": 122.45,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 122.45,
+      "end": 123.45,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 123.45,
+      "end": 126.76,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 126.76,
+      "end": 127.75,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.75,
+      "end": 129.31,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 129.31,
+      "end": 130.3,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.3,
+      "end": 134.08,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 134.08,
+      "end": 136.87,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.87,
+      "end": 138.46,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 138.46,
+      "end": 140.74,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand dices the apple while left steadies it",
+      "verb": "dice",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 140.74,
+      "end": 149.35,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 149.35,
+      "end": 153.03,
+      "old_summary": "hand chops apple with knife on cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.03,
+      "end": 158.91,
+      "old_summary": "hand drops apple piece into bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 158.91,
+      "end": 163.25,
+      "old_summary": "hand drops apple piece into bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 163.25,
+      "end": 166.57,
+      "old_summary": "hand picks up chopped apple piece, hand places chopped apple piece into bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 166.57,
+      "end": 170.85,
+      "old_summary": "hand picks up chopped apple pieces from cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 170.85,
+      "end": 174.25,
+      "old_summary": "hand drops apple piece into bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 174.25,
+      "end": 178.51,
+      "old_summary": "hand picks up chopped apple piece",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 178.51,
+      "end": 181.57,
+      "old_summary": "hand picks up chopped apple pieces from cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 181.57,
+      "end": 185.5,
+      "old_summary": "hand gathers chopped apple pieces on cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 185.5,
+      "end": 188.81,
+      "old_summary": "hand picks up chopped apple pieces from cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 188.81,
+      "end": 191.72,
+      "old_summary": "hand transfers chopped apple pieces into a bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 191.72,
+      "end": 193.44,
+      "old_summary": "hand gathers chopped apple pieces on cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 193.44,
+      "end": 197.05,
+      "old_summary": "hand picks up chopped apple pieces from cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 197.05,
+      "end": 201.26,
+      "old_summary": "hand picks up chopped apple piece",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 201.26,
+      "end": 205.12,
+      "old_summary": "hand drops apple piece into bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 205.12,
+      "end": 209.75,
+      "old_summary": "hand transfers chopped apple pieces into a bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 209.75,
+      "end": 213.38,
+      "old_summary": "hand transfers chopped apple pieces into a bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 213.38,
+      "end": 215.67,
+      "old_summary": "hand drops chopped apple piece into bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 215.67,
+      "end": 222.15,
+      "old_summary": "hand transfers chopped apple pieces into a bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 222.15,
+      "end": 225.19,
+      "old_summary": "hand places apple piece in bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 225.19,
+      "end": 228.07,
+      "old_summary": "hand cuts apple piece with knife",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 228.07,
+      "end": 231.29,
+      "old_summary": "hand cuts apple piece with knife",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 231.29,
+      "end": 235.04,
+      "old_summary": "hand moves apple pieces with knife",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 235.04,
+      "end": 239.16,
+      "old_summary": "hand places apple piece in bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 239.16,
+      "end": 244.0,
+      "old_summary": "hand slices apple piece on cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 244.0,
+      "end": 250.32,
+      "old_summary": "hand slices apple piece on cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 250.32,
+      "end": 253.44,
+      "old_summary": "hand places apple piece into bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 253.44,
+      "end": 256.79,
+      "old_summary": "hand moves chopped apple pieces with knife",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 256.79,
+      "end": 259.88,
+      "old_summary": "hand moves apple pieces with knife",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 259.88,
+      "end": 262.5,
+      "old_summary": "hand places apple piece into bowl",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 262.5,
+      "end": 266.66,
+      "old_summary": "hand moves chopped apple pieces with knife",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 266.66,
+      "end": 270.22,
+      "old_summary": "hand chops apple piece on cutting board",
+      "summary": "right hand trims peel from an apple chunk",
+      "verb": "trim",
+      "object": "apple",
+      "tool": "knife",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "apple"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 270.22,
+      "end": 277.07,
+      "old_summary": "hand places bowl of apple pieces into microwave",
+      "summary": "both hands carry the apple bowl into the microwave",
+      "verb": "place",
+      "object": "apple bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 277.07,
+      "end": 280.32,
+      "old_summary": "hand presses buttons on microwave",
+      "summary": "right hand starts the microwave heating cycle",
+      "verb": "press",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 280.32,
+      "end": 339.7,
+      "old_summary": "hand operates microwave",
+      "summary": "idle hands wait while the apple heats in the microwave",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 339.7,
+      "end": 341.14,
+      "old_summary": "hand opens microwave door",
+      "summary": "right hand opens the microwave door",
+      "verb": "open",
+      "object": "microwave",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 341.14,
+      "end": 343.43,
+      "old_summary": "hand removes bowl from microwave",
+      "summary": "left hand removes the warm apple bowl",
+      "verb": "remove",
+      "object": "apple bowl",
+      "tool": null,
+      "target": "microwave",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "apple bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 343.43,
+      "end": 412.14,
+      "old_summary": "hand stirs oats in pot",
+      "summary": "right hand stirs the oats in the saucepan",
+      "verb": "stir",
+      "object": "oats",
+      "tool": "spoon",
+      "target": "saucepan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "saucepan"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "343.43–412.14s includes collecting the spoon, stirring343–374s, pausing374–389s and stirring389–412s; source segment retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 412.14,
+      "end": 414.08,
+      "old_summary": "hand stirs oats in pot",
+      "summary": "left hand turns off the burner",
+      "verb": "turn off",
+      "object": "stove control",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 414.08,
+      "end": 422.18,
+      "old_summary": "hand pours cooked oats from pot into bowl",
+      "summary": "both hands tip and scrape oatmeal into the serving bowl",
+      "verb": "pour",
+      "object": "oats",
+      "tool": "spoon",
+      "target": "serving bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 422.18,
+      "end": 430.43,
+      "old_summary": "hand scoops chopped apple pieces from a bowl and adds them to the oatmeal bowl",
+      "summary": "left hand tips warmed apple pieces into the oatmeal",
+      "verb": "pour",
+      "object": "apple",
+      "tool": null,
+      "target": "serving bowl",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 430.43,
+      "end": 431.4,
+      "old_summary": "hand holds oatmeal bowl",
+      "summary": "right hand sets the empty apple bowl aside",
+      "verb": "place",
+      "object": "apple bowl",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 431.4,
+      "end": 482.93,
+      "old_summary": "hand mixes almond butter and apple pieces in the oatmeal bowl",
+      "summary": "right hand adds nut butter and stirs the oatmeal",
+      "verb": "mix",
+      "object": "oats",
+      "tool": "spoon",
+      "target": "serving bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "serving bowl"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "431.4–482.93s includes taking the nut-butter jar, adding butter, scraping utensils, prolonged stirring and adding a final apple piece near480s; original boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 37.26,
+      "fine_index_range": [
+        0,
+        7
+      ],
+      "instruction": "Measure and start the oats",
+      "description": "Dry oats are measured into a saucepan. Water is collected at the sink and poured in, the stove is switched on and adjusted, and the oats briefly stirred.",
+      "goal_contribution": "Combines oats and water and starts their cooking.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 37.26,
+      "end": 97.54,
+      "fine_index_range": [
+        8,
+        11
+      ],
+      "instruction": "Let the oats heat and wash the apple",
+      "description": "The pot is watched without hand contact, the burner is adjusted, and an apple is picked up and washed at the sink.",
+      "goal_contribution": "Allows the oats to heat while preparing clean fruit for the topping.",
+      "transition_in": "NONE",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Heating oats leaves time to wash the apple for the topping."
+    },
+    {
+      "start": 97.54,
+      "end": 140.74,
+      "fine_index_range": [
+        12,
+        30
+      ],
+      "instruction": "Cut and dice the apple",
+      "description": "A knife cuts sections from around the apple core; the core is set aside and successive pieces are cut into smaller chunks on the board.",
+      "goal_contribution": "Reduces the apple to pieces suitable for warming and stirring into oatmeal.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The washed apple needs cutting before warming."
+    },
+    {
+      "start": 140.74,
+      "end": 270.22,
+      "fine_index_range": [
+        31,
+        63
+      ],
+      "instruction": "Trim the apple pieces and collect them",
+      "description": "Individual apple chunks are held and pared with the knife. Skin trimmings stay on the board while prepared pieces are collected in a bowl.",
+      "goal_contribution": "Removes the remaining peel from the diced fruit.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Diced apple may be trimmed further, though it could be warmed directly."
+    },
+    {
+      "start": 270.22,
+      "end": 343.43,
+      "fine_index_range": [
+        64,
+        68
+      ],
+      "instruction": "Microwave the prepared apple",
+      "description": "The apple bowl is carried to the microwave, placed inside and heated while the person waits. The door is opened and the warmed bowl removed.",
+      "goal_contribution": "Warms the prepared fruit before it is added to the oatmeal.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Prepared apple pieces are ready to warm."
+    },
+    {
+      "start": 343.43,
+      "end": 422.18,
+      "fine_index_range": [
+        69,
+        71
+      ],
+      "instruction": "Finish cooking and serve the oatmeal",
+      "description": "The oats are stirred, with a pause between stirring bouts. The burner is turned off and the saucepan tipped while a spoon scrapes the cooked oats into a bowl.",
+      "goal_contribution": "Produces and serves the cooked oatmeal base.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After warming apple, the oats need finishing and serving."
+    },
+    {
+      "start": 422.18,
+      "end": 482.93,
+      "fine_index_range": [
+        72,
+        74
+      ],
+      "instruction": "Combine apple and nut butter with the oats",
+      "description": "The warmed apple pieces are tipped into the oatmeal and the empty bowl set aside. Nut butter is spooned in, residue is scraped off utensils, and the bowl is repeatedly stirred.",
+      "goal_contribution": "Combines the cooked oats, warmed fruit and nut butter into the finished bowl.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Served oats are ready for the named apple and nut butter toppings."
+    }
+  ],
+  "notes": "Reviewed all16overview sheets,1751dense sampled frames and75native boundary frames. Nut-butter variety is not asserted from its label. Original fine boundaries and all short apple cuts retained. The large idle intervals37.26–86.83s and280.32–339.7s show no hand-object contact. Source fine extends to482.93s within483.2s true duration. Predictability remains pending independent testing."
+}

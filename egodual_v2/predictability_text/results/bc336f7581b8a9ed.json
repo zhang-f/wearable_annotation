@@ -1,0 +1,41 @@
+{
+  "video_id": "bc336f7581b8a9ed",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Aligned clothespin pieces are ready to bind with yarn."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Initial yarn wraps naturally lead to completing the wrapped body."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "After wrapping the body, marking the head is plausible but details could be added differently."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "The marked exposed head may be painted, though other decorations are possible."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "A painted head may receive yarn and detail work, but the exact finish is optional."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "The finished figure is ready for its hat and display."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "video_id": "51858592483eb035",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After set up the blender and measuring cup, find and stage the drink ingredients is plausible for blend a peanut butter milk drink, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After find and stage the drink ingredients, measure milk and add it to the pitcher is a natural next stage toward blend a peanut butter milk drink."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After measure milk and add it to the pitcher, add peanut butter to the milk is a natural next stage toward blend a peanut butter milk drink."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "After add peanut butter to the milk, put ingredients away and add supplement powder is plausible for blend a peanut butter milk drink, but several next steps fit."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After put ingredients away and add supplement powder, secure the blender and blend the drink is a natural next stage toward blend a peanut butter milk drink."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "After secure the blender and blend the drink, transfer the blended drink into a glass is a natural next stage toward blend a peanut butter milk drink."
+    },
+    {
+      "index": 7,
+      "level": "weak",
+      "reason": "After transfer the blended drink into a glass, rinse the equipment and tidy the blender station is plausible for blend a peanut butter milk drink, but several next steps fit."
+    },
+    {
+      "index": 8,
+      "level": "weak",
+      "reason": "After rinse the equipment and tidy the blender station, drink from the glass and set it down is plausible for blend a peanut butter milk drink, but several next steps fit."
+    }
+  ]
+}

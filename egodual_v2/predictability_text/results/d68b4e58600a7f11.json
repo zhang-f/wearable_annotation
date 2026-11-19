@@ -1,0 +1,36 @@
+{
+  "video_id": "d68b4e58600a7f11",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "With the pot cleaned and paint opened, paint and brush can be readied."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The loaded brush is ready for the black base coat."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "A black base coat is ready for the stated fine detail pattern."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "The ongoing pattern may need mixed colors, but exact color mixing is optional."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Mixed colors naturally continue the unfinished decorative pattern."
+    }
+  ]
+}

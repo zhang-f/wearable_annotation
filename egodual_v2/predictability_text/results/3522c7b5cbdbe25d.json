@@ -1,0 +1,31 @@
+{
+  "video_id": "3522c7b5cbdbe25d",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The square paper needs diagonal creases for the pinwheel shape."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Creased diagonals guide the corner slits."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Cut corner slits are ready to fold into blades."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Gathered blades need fastening and a rod."
+    }
+  ]
+}

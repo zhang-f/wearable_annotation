@@ -1,0 +1,1444 @@
+{
+  "video_id": "b7a97c9f635d686c",
+  "duration": 300.067,
+  "task": "Creating a simple finger painting",
+  "domain": "Arts and Crafts",
+  "query": "How do I create a simple finger painting?",
+  "goal": {
+    "title": "Finger-paint small orange flowers on paper",
+    "description": "Prepare orange, green and brown paint in separate dishes, dilute it with a brush, then use fingertips to stamp orange petal clusters, brown centers and green leaf marks on textured paper. Clean fingertips and a paint dish while adding final green marks.",
+    "final_state": "The paper carries several orange flowers with brown centers and green leaves; the brown paint dish is mostly wiped clean.",
+    "procedure": [
+      "Place paper and dispense orange paint onto a plastic palette.",
+      "Wet a brush and test the paint, then wipe the palette and set out three small dishes.",
+      "Dispense orange, green and brown paints into separate dishes and mix each with water.",
+      "Dip fingertips into orange paint and stamp petal clusters across the paper.",
+      "Add brown flower centers and green leaf marks with fingertips, wiping fingers between colors.",
+      "Wipe out the brown paint dish and add finishing green marks to the picture."
+    ]
+  },
+  "object_inventory": [
+    "paper",
+    "plastic palette",
+    "orange paint tube",
+    "green paint tube",
+    "brown paint tube",
+    "paint cap",
+    "orange paint",
+    "green paint",
+    "brown paint",
+    "paintbrush",
+    "water tray",
+    "tissue",
+    "orange paint dish",
+    "green paint dish",
+    "brown paint dish"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 35.12,
+      "description": "Paper is positioned, orange paint dispensed, and a wetted brush used on a plastic palette before the palette is wiped clean and moved aside."
+    },
+    {
+      "start": 35.12,
+      "end": 74.54,
+      "description": "Three small dishes are set out and orange, green and brown paints squeezed into them, with tubes recapped after each color."
+    },
+    {
+      "start": 74.54,
+      "end": 100.08,
+      "description": "The brush alternates between the water tray and orange, green and brown dishes, stirring the paint before being rested across the tray."
+    },
+    {
+      "start": 100.08,
+      "end": 159.65,
+      "description": "A fingertip is dipped in orange paint and pressed repeatedly onto paper; more orange is added before several groups of petal marks are built."
+    },
+    {
+      "start": 159.65,
+      "end": 194.6,
+      "description": "Brown paint is replenished and a fingertip touches the centers of orange petal groups, with wiping between dabs."
+    },
+    {
+      "start": 194.6,
+      "end": 257.33,
+      "description": "Green paint is replenished, fingertip marks added between the flowers and near their edges, and the painting briefly lifted and moved aside."
+    },
+    {
+      "start": 257.33,
+      "end": 283.1,
+      "description": "A tissue is wetted and used on fingertips, then repeatedly rubbed inside the brown dish. Cleaner tissue is taken and dishes repositioned."
+    },
+    {
+      "start": 283.1,
+      "end": 300.07,
+      "description": "The paper is brought forward, green marks added, the sheet lifted for inspection and fingertips wiped again."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.24,
+      "old_summary": "hand holds a piece of paper",
+      "summary": "both hands lay textured paper on the table",
+      "verb": "lay",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.24,
+      "end": 5.83,
+      "old_summary": "hand picks up a paint tube",
+      "summary": "both hands take and open orange paint tube",
+      "verb": "open",
+      "object": "orange paint tube",
+      "tool": null,
+      "target": "paint cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint cap"
+        ],
+        "right": [
+          "orange paint tube"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.83,
+      "end": 8.1,
+      "old_summary": "hand squeezes paint from tube onto paper",
+      "summary": "both hands adjust open orange paint tube",
+      "verb": "adjust",
+      "object": "orange paint tube",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint cap"
+        ],
+        "right": [
+          "orange paint tube"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.1,
+      "end": 10.76,
+      "old_summary": "hand squeezes paint from tube onto palette",
+      "summary": "right hand squeezes orange paint onto plastic palette",
+      "verb": "squeeze",
+      "object": "orange paint tube",
+      "tool": null,
+      "target": "plastic palette",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "paint cap"
+        ],
+        "right": [
+          "orange paint tube"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.76,
+      "end": 15.29,
+      "old_summary": "hand squeezes paint from tube onto paper",
+      "summary": "both hands recap orange paint tube and set it down",
+      "verb": "close",
+      "object": "orange paint tube",
+      "tool": null,
+      "target": "paint cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.29,
+      "end": 19.13,
+      "old_summary": "hand picks up a paintbrush from a holder",
+      "summary": "left hand picks up paintbrush and dips it in water tray",
+      "verb": "dip",
+      "object": "paintbrush",
+      "tool": null,
+      "target": "water tray",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 19.13,
+      "end": 21.02,
+      "old_summary": "hand mixes paint on a palette",
+      "summary": "left hand brushes water across plastic palette",
+      "verb": "brush",
+      "object": "plastic palette",
+      "tool": "paintbrush",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 21.02,
+      "end": 25.63,
+      "old_summary": "hand mixes paint on a palette",
+      "summary": "left hand mixes orange paint on palette with wet brush",
+      "verb": "mix",
+      "object": "orange paint",
+      "tool": "paintbrush",
+      "target": "plastic palette",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.63,
+      "end": 28.48,
+      "old_summary": "hand dips brush into paint",
+      "summary": "left hand rinses orange paintbrush in water tray",
+      "verb": "rinse",
+      "object": "paintbrush",
+      "tool": null,
+      "target": "water tray",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.48,
+      "end": 33.65,
+      "old_summary": "hand wipes paint from palette with tissue",
+      "summary": "left hand wipes paint from plastic palette with tissue",
+      "verb": "wipe",
+      "object": "plastic palette",
+      "tool": "tissue",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 33.65,
+      "end": 35.12,
+      "old_summary": "hand dips cloth into orange paint",
+      "summary": "right hand moves cleaned palette aside while left holds tissue",
+      "verb": "move",
+      "object": "plastic palette",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 35.12,
+      "end": 36.66,
+      "old_summary": "hand places a small plate on the table",
+      "summary": "right hand places first small paint dish on table",
+      "verb": "place",
+      "object": "orange paint dish",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 36.66,
+      "end": 38.49,
+      "old_summary": "hand moves a small dish on the table",
+      "summary": "right hand sets second small paint dish beside first",
+      "verb": "place",
+      "object": "green paint dish",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 38.49,
+      "end": 39.64,
+      "old_summary": "hand touches a paint dish",
+      "summary": "right hand lays third small paint dish below others",
+      "verb": "place",
+      "object": "brown paint dish",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 39.64,
+      "end": 44.75,
+      "old_summary": "hand squeezes orange paint from tube into dish",
+      "summary": "both hands open orange tube and dispense paint into dish",
+      "verb": "squeeze",
+      "object": "orange paint tube",
+      "tool": null,
+      "target": "orange paint dish",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint cap"
+        ],
+        "right": [
+          "orange paint tube"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 44.75,
+      "end": 47.14,
+      "old_summary": "hands squeeze orange paint from tube onto paper",
+      "summary": "both hands close orange paint tube",
+      "verb": "close",
+      "object": "orange paint tube",
+      "tool": null,
+      "target": "paint cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "orange paint tube"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.14,
+      "end": 54.44,
+      "old_summary": "hand squeezes paint from tube into dish",
+      "summary": "both hands set orange tube aside and open green tube",
+      "verb": "open",
+      "object": "green paint tube",
+      "tool": null,
+      "target": "paint cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint cap"
+        ],
+        "right": [
+          "green paint tube"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 54.44,
+      "end": 59.82,
+      "old_summary": "hand squeezes green paint from tube onto paper",
+      "summary": "right hand dispenses green paint then recaps tube",
+      "verb": "squeeze",
+      "object": "green paint tube",
+      "tool": null,
+      "target": "green paint dish",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green paint tube"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.82,
+      "end": 68.53,
+      "old_summary": "hand squeezes orange paint from tube onto paper",
+      "summary": "both hands set green tube aside and open brown tube",
+      "verb": "open",
+      "object": "brown paint tube",
+      "tool": null,
+      "target": "paint cap",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paint cap"
+        ],
+        "right": [
+          "brown paint tube"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 68.53,
+      "end": 74.54,
+      "old_summary": "hand squeezes paint from tube onto paper",
+      "summary": "right hand dispenses brown paint and recaps tube",
+      "verb": "squeeze",
+      "object": "brown paint tube",
+      "tool": null,
+      "target": "brown paint dish",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.54,
+      "end": 83.83,
+      "old_summary": "hand mixes orange paint in a palette with a brush",
+      "summary": "left hand mixes orange paint with water using brush",
+      "verb": "mix",
+      "object": "orange paint",
+      "tool": "paintbrush",
+      "target": "orange paint dish",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Includes brush pickup and several alternating dips between water tray and orange dish during74.54–83.83s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 83.83,
+      "end": 86.39,
+      "old_summary": "hand mixes green paint in a bowl",
+      "summary": "left hand stirs green paint with wet paintbrush",
+      "verb": "stir",
+      "object": "green paint",
+      "tool": "paintbrush",
+      "target": "green paint dish",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.39,
+      "end": 88.59,
+      "old_summary": "hand mixes green paint in a dish",
+      "summary": "left hand rinses brush then returns to green paint",
+      "verb": "rinse",
+      "object": "paintbrush",
+      "tool": null,
+      "target": "water tray",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.59,
+      "end": 90.39,
+      "old_summary": "hand mixes green paint in a bowl with a brush",
+      "summary": "left hand mixes green paint in dish",
+      "verb": "mix",
+      "object": "green paint",
+      "tool": "paintbrush",
+      "target": "green paint dish",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.39,
+      "end": 92.7,
+      "old_summary": "hand stirs paint in a palette",
+      "summary": "left hand swirls paintbrush through water tray",
+      "verb": "rinse",
+      "object": "paintbrush",
+      "tool": null,
+      "target": "water tray",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.7,
+      "end": 96.07,
+      "old_summary": "hand mixes paint in a bowl with a brush",
+      "summary": "left hand stirs brown paint while right steadies dish",
+      "verb": "stir",
+      "object": "brown paint",
+      "tool": "paintbrush",
+      "target": "brown paint dish",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": [
+          "brown paint dish"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.07,
+      "end": 98.37,
+      "old_summary": "hand stirs orange paint in a bowl with a brush",
+      "summary": "left hand rinses brush then mixes brown paint again",
+      "verb": "mix",
+      "object": "brown paint",
+      "tool": "paintbrush",
+      "target": "brown paint dish",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": [
+          "brown paint dish"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 98.37,
+      "end": 99.24,
+      "old_summary": "hand stirs orange paint in a container",
+      "summary": "left hand rinses brown paintbrush in water tray",
+      "verb": "rinse",
+      "object": "paintbrush",
+      "tool": null,
+      "target": "water tray",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "paintbrush"
+        ],
+        "right": [
+          "brown paint dish"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.24,
+      "end": 100.08,
+      "old_summary": "hand dips brush into orange paint",
+      "summary": "left hand rests paintbrush across tray while right lowers dish",
+      "verb": "set down",
+      "object": "paintbrush",
+      "tool": null,
+      "target": "water tray",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 100.08,
+      "end": 103.58,
+      "old_summary": "hand mixes paint in a bowl",
+      "summary": "right hand dips fingertip in orange paint",
+      "verb": "dip",
+      "object": "orange paint",
+      "tool": null,
+      "target": "orange paint dish",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 103.58,
+      "end": 113.49,
+      "old_summary": "hand mixes orange paint on paper with finger",
+      "summary": "right hand stamps orange petal marks on paper",
+      "verb": "stamp",
+      "object": "orange paint",
+      "tool": null,
+      "target": "paper",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 113.49,
+      "end": 119.56,
+      "old_summary": "hand squeezes paint from tube onto paper",
+      "summary": "both hands add orange paint to dish then close tube",
+      "verb": "squeeze",
+      "object": "orange paint tube",
+      "tool": null,
+      "target": "orange paint dish",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 119.56,
+      "end": 159.65,
+      "old_summary": "hand applies orange paint to paper with finger",
+      "summary": "right hand repeatedly stamps orange flower clusters on paper",
+      "verb": "stamp",
+      "object": "orange paint",
+      "tool": null,
+      "target": "paper",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "119.56–159.65s contains repeated fingertip dipping/stamping and tissue pickup/wiping near144–148s and157–159s. Several hand-object changes lie within preserved fine.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 159.65,
+      "end": 168.94,
+      "old_summary": "hand squeezes paint from tube onto paper",
+      "summary": "both hands add brown paint to dish and recap tube",
+      "verb": "squeeze",
+      "object": "brown paint tube",
+      "tool": null,
+      "target": "brown paint dish",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 168.94,
+      "end": 194.6,
+      "old_summary": "hand applies paint to paper with fingers",
+      "summary": "right hand stamps brown flower centers and wipes fingertip",
+      "verb": "stamp",
+      "object": "brown paint",
+      "tool": null,
+      "target": "paper",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "168.94–194.6s alternates brown dipping/center stamping and wiping near183–186s and190s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 194.6,
+      "end": 203.65,
+      "old_summary": "hand applies green paint to paper with finger",
+      "summary": "both hands add green paint to dish and recap tube",
+      "verb": "squeeze",
+      "object": "green paint tube",
+      "tool": null,
+      "target": "green paint dish",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 203.65,
+      "end": 249.06,
+      "old_summary": "hand applies paint to paper with fingers",
+      "summary": "right hand stamps green leaf marks between orange flowers",
+      "verb": "stamp",
+      "object": "green paint",
+      "tool": null,
+      "target": "paper",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "203.65–249.06s alternates green dipping/stamping, tissue rinse/wipe near219–222s and paper lifting near229–231s. Original long fine retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 249.06,
+      "end": 255.34,
+      "old_summary": "hand wipes paint from paper with tissue",
+      "summary": "both hands inspect paper then take stained tissue",
+      "verb": "take",
+      "object": "tissue",
+      "tool": null,
+      "target": "paper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 255.34,
+      "end": 257.33,
+      "old_summary": "hand moves paper",
+      "summary": "right hand moves painting aside while left holds tissue",
+      "verb": "move",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 257.33,
+      "end": 262.44,
+      "old_summary": "hand mixes paint on a paper towel",
+      "summary": "right hand lifts brown paint dish while left holds tissue",
+      "verb": "lift",
+      "object": "brown paint dish",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": [
+          "brown paint dish"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 262.44,
+      "end": 266.92,
+      "old_summary": "hand mixes paint on a cloth",
+      "summary": "right hand wets fingertips then wipes them on tissue",
+      "verb": "wipe",
+      "object": "green paint",
+      "tool": "tissue",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 266.92,
+      "end": 268.04,
+      "old_summary": "hand wipes paint from a cloth",
+      "summary": "right hand picks up brown paint dish",
+      "verb": "pick up",
+      "object": "brown paint dish",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": [
+          "brown paint dish"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 268.04,
+      "end": 274.01,
+      "old_summary": "hand mixes paint in a bowl with a cloth",
+      "summary": "left hand wipes brown paint from dish with tissue",
+      "verb": "wipe",
+      "object": "brown paint dish",
+      "tool": "tissue",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": [
+          "brown paint dish"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 274.01,
+      "end": 278.29,
+      "old_summary": "hand squeezes paint from tube onto paper",
+      "summary": "both hands refold stained tissue beside cleaned dish",
+      "verb": "fold",
+      "object": "tissue",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 278.29,
+      "end": 280.43,
+      "old_summary": "hands wipe paint from a cloth",
+      "summary": "both hands take clean tissue and wipe fingertips",
+      "verb": "wipe",
+      "object": "green paint",
+      "tool": "tissue",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 280.43,
+      "end": 281.43,
+      "old_summary": "hand picks up a bowl of paint",
+      "summary": "right hand puts cleaned brown paint dish down",
+      "verb": "set down",
+      "object": "brown paint dish",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 281.43,
+      "end": 283.1,
+      "old_summary": "hand mixes green paint in a dish with finger",
+      "summary": "right hand shifts green and orange paint dishes",
+      "verb": "move",
+      "object": "green paint dish",
+      "tool": null,
+      "target": "orange paint dish",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 283.1,
+      "end": 285.06,
+      "old_summary": "hand holds paper steady with one hand while the other hand wipes paint off the paper",
+      "summary": "right hand slides painting back toward center",
+      "verb": "slide",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 285.06,
+      "end": 288.74,
+      "old_summary": "hand blends paint on paper with a cloth",
+      "summary": "right hand adds green fingertip marks near top flowers",
+      "verb": "stamp",
+      "object": "green paint",
+      "tool": null,
+      "target": "paper",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 288.74,
+      "end": 292.43,
+      "old_summary": "hand holds paper steady with fingers",
+      "summary": "right hand lifts and tilts painting to inspect marks",
+      "verb": "lift",
+      "object": "paper",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": [
+          "paper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 292.43,
+      "end": 296.87,
+      "old_summary": "hand mixes green paint in a dish with finger",
+      "summary": "right hand dips fingertip in green paint and adds final marks",
+      "verb": "stamp",
+      "object": "green paint",
+      "tool": null,
+      "target": "paper",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 296.87,
+      "end": 300.07,
+      "old_summary": "hand uses cloth to dab paint on paper",
+      "summary": null,
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "超出视频结尾",
+      "beyond_video_end": true,
+      "confidence": "low",
+      "notes": "Source end300.07s exceeds ffprobe300.067s by0.003s; helper keeps prescribed strict beyond-end null description rule.",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 35.12,
+      "fine_index_range": [
+        0,
+        10
+      ],
+      "instruction": "Prepare paper and test orange paint on the palette.",
+      "description": "Paper is positioned, orange paint dispensed, and a wetted brush used on a plastic palette before the palette is wiped clean and moved aside.",
+      "goal_contribution": "Set up the working surface and test the paint consistency.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 35.12,
+      "end": 74.54,
+      "fine_index_range": [
+        11,
+        19
+      ],
+      "instruction": "Dispense three colors into separate dishes.",
+      "description": "Three small dishes are set out and orange, green and brown paints squeezed into them, with tubes recapped after each color.",
+      "goal_contribution": "Keep the petal, leaf and center colors separately available.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After the palette test, setting up separate paint dishes is plausible but not required."
+    },
+    {
+      "start": 74.54,
+      "end": 100.08,
+      "fine_index_range": [
+        20,
+        28
+      ],
+      "instruction": "Dilute and mix each paint with a brush.",
+      "description": "The brush alternates between the water tray and orange, green and brown dishes, stirring the paint before being rested across the tray.",
+      "goal_contribution": "Prepare fluid paint for fingertip stamping.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The dispensed paints need mixing before finger painting."
+    },
+    {
+      "start": 100.08,
+      "end": 159.65,
+      "fine_index_range": [
+        29,
+        32
+      ],
+      "instruction": "Stamp orange petal clusters.",
+      "description": "A fingertip is dipped in orange paint and pressed repeatedly onto paper; more orange is added before several groups of petal marks are built.",
+      "goal_contribution": "Create the flower shapes distributed over the paper.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Prepared orange paint is ready for the flower petals."
+    },
+    {
+      "start": 159.65,
+      "end": 194.6,
+      "fine_index_range": [
+        33,
+        34
+      ],
+      "instruction": "Add brown flower centers.",
+      "description": "Brown paint is replenished and a fingertip touches the centers of orange petal groups, with wiping between dabs.",
+      "goal_contribution": "Give the orange clusters defined flower centers.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Orange petal clusters naturally call for flower centers."
+    },
+    {
+      "start": 194.6,
+      "end": 257.33,
+      "fine_index_range": [
+        35,
+        38
+      ],
+      "instruction": "Stamp green leaves and inspect the picture.",
+      "description": "Green paint is replenished, fingertip marks added between the flowers and near their edges, and the painting briefly lifted and moved aside.",
+      "goal_contribution": "Complete the green leaf accents around the flowers.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Centered flowers naturally call for green leaves."
+    },
+    {
+      "start": 257.33,
+      "end": 283.1,
+      "fine_index_range": [
+        39,
+        46
+      ],
+      "instruction": "Clean fingers and wipe out the brown paint dish.",
+      "description": "A tissue is wetted and used on fingertips, then repeatedly rubbed inside the brown dish. Cleaner tissue is taken and dishes repositioned.",
+      "goal_contribution": "Clear paint from the hands and the used brown mixing dish.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After painting, cleaning fingers and a dish is plausible among finishing tasks."
+    },
+    {
+      "start": 283.1,
+      "end": 300.07,
+      "fine_index_range": [
+        47,
+        51
+      ],
+      "instruction": "Inspect the painting and add final green marks.",
+      "description": "The paper is brought forward, green marks added, the sheet lifted for inspection and fingertips wiped again.",
+      "goal_contribution": "Finish the green accents and leave the floral picture on the table.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After cleaning, extra green marks are possible but not strongly implied."
+    }
+  ],
+  "notes": "Viewed all ten overview sheets, all1103 dense frames and all native endpoint sheets. Fine boundaries untouched; coarse groups rewritten to match visible material preparation, petal stamping, centers, leaves and cleanup. The three long painting intervals have multiple material interactions recorded in boundary notes. Transitions remain endpoint-object-derived; independent predictability pending."
+}

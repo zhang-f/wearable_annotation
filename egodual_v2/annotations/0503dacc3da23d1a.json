@@ -1,0 +1,665 @@
+{
+  "video_id": "0503dacc3da23d1a",
+  "duration": 209.867,
+  "task": "Decorating a sketchbook with stickers",
+  "domain": "Arts and Crafts",
+  "query": "How do I decorate a sketchbook with stickers?",
+  "goal": {
+    "title": "Decorate a notebook page with stickers",
+    "description": "Open a spiral notebook, arrange a selection of decorative stickers on its right page, then peel their backings and press them into the planned layout.",
+    "final_state": "The notebook remains open on the tray. Its right page holds lettering, flower, illustrated and cactus stickers; the left page is blank. Spare stickers and discarded white backings remain beside it.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 12.11,
+        "description": "Open the spiral notebook to a blank lined spread on the wooden lap tray. Retrieve a stack of die-cut stickers from the right, thumb through designs and lay a small lettering design on the right page, moving it upward. Place a larger black script design below it. The stickers are initially laid out with their backing papers still attached."
+      },
+      {
+        "start": 12.11,
+        "end": 37.5,
+        "description": "Flip through further designs in the left hand and set aside one green lettering piece. Place an illustrated design at the upper right, red lettering at the lower right, a small lettering design beside the spiral and a green cactus along the right edge. Add a flower near the upper lettering and adjust nearby pieces."
+      },
+      {
+        "start": 37.5,
+        "end": 62.63,
+        "description": "Select a brown lettering design and place it near the middle right. Continue sorting the remaining stack, move unused designs aside and rearrange the loose stickers on the page to refine their spacing. Put the spare stack on the right side of the tray."
+      },
+      {
+        "start": 62.63,
+        "end": 95.04,
+        "description": "Lift the small lettering piece from the layout, work a fingernail under its white backing, peel it off and return the adhesive sticker to the upper part of the page. Press it down and put the backing on a growing pile at the tray upper right. Repeat for the illustrated upper-right design, then move the nearby loose pieces around the flower."
+      },
+      {
+        "start": 95.04,
+        "end": 127.92,
+        "description": "Lift the flower, pick and peel its backing and smooth it onto the page. Peel and attach the black lettering piece next. Lift the cactus from the layout, repeatedly work at its edge, pull off its backing, align it near the right edge and press it flat. Put the removed papers on the upper-right pile."
+      },
+      {
+        "start": 127.92,
+        "end": 162.67,
+        "description": "Move loose designs aside to reach an oval lettering sticker, peel away its backing and stick it in the central-left space. Peel and attach the large black script below it. Remove the red lettering design backing, place it on the center-right and rub it flat. Separate white backings are discarded onto the tray pile after these placements."
+      },
+      {
+        "start": 162.67,
+        "end": 189.34,
+        "description": "Take the brown lettering design from beside the notebook. Spend repeated fingernail attempts lifting its backing while holding the small piece near the bottom of view. Once separated, align it at the lower right, smooth its edges and discard the backing. Retrieve the spare sticker stack."
+      },
+      {
+        "start": 189.34,
+        "end": 209.867,
+        "description": "Select a final small design from the spare stack and work at its backing edge near the lap, with the exact edge partly hidden by the fingertips. Put its white backing on the upper-right pile, align the small sticker along the bottom of the right page and press it down. Withdraw the hands, leaving the decorated right page open beside a blank left page."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 12.11,
+      "description": "Open the spiral notebook to a blank lined spread on the wooden lap tray. Retrieve a stack of die-cut stickers from the right, thumb through designs and lay a small lettering design on the right page, moving it upward. Place a larger black script design below it. The stickers are initially laid out with their backing papers still attached."
+    },
+    {
+      "start": 12.11,
+      "end": 37.5,
+      "description": "Flip through further designs in the left hand and set aside one green lettering piece. Place an illustrated design at the upper right, red lettering at the lower right, a small lettering design beside the spiral and a green cactus along the right edge. Add a flower near the upper lettering and adjust nearby pieces."
+    },
+    {
+      "start": 37.5,
+      "end": 62.63,
+      "description": "Select a brown lettering design and place it near the middle right. Continue sorting the remaining stack, move unused designs aside and rearrange the loose stickers on the page to refine their spacing. Put the spare stack on the right side of the tray."
+    },
+    {
+      "start": 62.63,
+      "end": 95.04,
+      "description": "Lift the small lettering piece from the layout, work a fingernail under its white backing, peel it off and return the adhesive sticker to the upper part of the page. Press it down and put the backing on a growing pile at the tray upper right. Repeat for the illustrated upper-right design, then move the nearby loose pieces around the flower."
+    },
+    {
+      "start": 95.04,
+      "end": 127.92,
+      "description": "Lift the flower, pick and peel its backing and smooth it onto the page. Peel and attach the black lettering piece next. Lift the cactus from the layout, repeatedly work at its edge, pull off its backing, align it near the right edge and press it flat. Put the removed papers on the upper-right pile."
+    },
+    {
+      "start": 127.92,
+      "end": 162.67,
+      "description": "Move loose designs aside to reach an oval lettering sticker, peel away its backing and stick it in the central-left space. Peel and attach the large black script below it. Remove the red lettering design backing, place it on the center-right and rub it flat. Separate white backings are discarded onto the tray pile after these placements."
+    },
+    {
+      "start": 162.67,
+      "end": 189.34,
+      "description": "Take the brown lettering design from beside the notebook. Spend repeated fingernail attempts lifting its backing while holding the small piece near the bottom of view. Once separated, align it at the lower right, smooth its edges and discard the backing. Retrieve the spare sticker stack."
+    },
+    {
+      "start": 189.34,
+      "end": 209.867,
+      "description": "Select a final small design from the spare stack and work at its backing edge near the lap, with the exact edge partly hidden by the fingertips. Put its white backing on the upper-right pile, align the small sticker along the bottom of the right page and press it down. Withdraw the hands, leaving the decorated right page open beside a blank left page."
+    }
+  ],
+  "object_inventory": [
+    "notebook",
+    "sticker",
+    "sticker stack",
+    "sticker backing",
+    "wooden tray"
+  ],
+  "notes": "All 22 human fine divisions unchanged. All seven overview sheets, all dense interval sheets and 22 native end frames inspected with native PTS burned before sampling. Initial placements are trial layout, not unsupported claims that backing was already removed. Small printed phrases are not transcribed where resolution does not support exact text. One canonical sticker object denotes individual selected designs, stack denotes the bundle; notebook contact for stabilization is not a grasp. Multiple source fine intervals include retrieval, peeling, attachment and backing disposal; boundary notes record these compound actions without changing boundaries. Two coarse subtasks reflect the two visible intermediate goals, rather than artificially dividing repeated attachment cycles. Predictability pending blind stage.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.66,
+      "summary": "open the spiral notebook on the wooden tray",
+      "verb": "open",
+      "object": "notebook",
+      "tool": null,
+      "target": "wooden tray",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand turns sketchbook page",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 2.66,
+      "end": 8.95,
+      "summary": "place a small lettering sticker on the right page",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=3.8s take stack; t=4–7s separate designs; t=7.5s place lettering low on page; t=8.3–8.9s lift and move it upward. No backing removed yet.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook page",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.95,
+      "end": 12.11,
+      "summary": "place a large black lettering sticker below the first",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook page",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.11,
+      "end": 16.78,
+      "summary": "sort the stickers in the left hand",
+      "verb": "sort",
+      "object": "sticker stack",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=12.3–15s flip through designs; t=15.1–15.7s put green lettering design beside page, then select another.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook page",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.78,
+      "end": 19.42,
+      "summary": "place an illustrated sticker at the top right",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "right hand places sticker on sketchbook page",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.42,
+      "end": 24.73,
+      "summary": "place a red lettering sticker at the lower right",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=20–22.5s choose red design; t=22.8–24s place at lower right; t=24.6s take next sticker.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 24.73,
+      "end": 27.87,
+      "summary": "place a small lettering sticker beside the spiral binding",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 27.87,
+      "end": 33.01,
+      "summary": "place the green cactus sticker along the page edge",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook page",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.01,
+      "end": 37.5,
+      "summary": "place a flower sticker near the lettering",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=33–34s adjust cactus; t=34.5–36s select flower; t=36.2–37.5s place and rearrange flower and nearby lettering.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook page",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 37.5,
+      "end": 46.6,
+      "summary": "arrange a brown lettering sticker on the right page",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=39–41s sort designs; t=42–44s place brown design; t=45–46s adjust surrounding stickers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 46.6,
+      "end": 62.63,
+      "summary": "rearrange the loose stickers on the notebook page",
+      "verb": "move",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker stack"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=47–58s sort and reject further designs; t=59–61.8s move several loose designs to space them; t=62.4s set remaining stack beside notebook. Layout still retains backing papers.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook page",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 62.63,
+      "end": 74.5,
+      "summary": "peel the backing from the small lettering sticker",
+      "verb": "remove",
+      "object": "sticker backing",
+      "tool": null,
+      "target": "sticker",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=63s lift small upper-left lettering; t=64–69s pick and peel backing edge; t=70–72s press sticker back onto page; t=73.3s discard backing at tray upper right; t=74.5s lift next design.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker from sheet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 74.5,
+      "end": 90.64,
+      "summary": "peel and attach the illustrated sticker at the top",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=75–84s separate illustrated sticker from its white backing; t=84.8–87.8s position and smooth it at upper right; t=89s reach for another loose piece; t=90.1s add backing to tray pile.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.64,
+      "end": 95.04,
+      "summary": "reposition the loose stickers around the flower",
+      "verb": "move",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=91–95s shift lettering and illustrated pieces on the center of page; no new tool used.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 95.04,
+      "end": 105.4,
+      "summary": "peel and attach the flower sticker",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=96–101s pick and peel flower backing; t=101.5–104s position and smooth flower; t=104.7–105.4s take backing to tray pile.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker and places it on sketchbook",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 105.4,
+      "end": 115.17,
+      "summary": "peel and attach the black lettering sticker",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=106–111.5s pick backing edge and peel; t=112–114.2s align and smooth lettering; t=114.7–115.2s discard backing.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker and places it on sketchbook",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 115.17,
+      "end": 127.92,
+      "summary": "peel and attach the green cactus sticker",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=115.8s lift cactus; t=116.5–122.5s work backing loose; t=123.1–126s place and smooth at right edge; t=127s discard backing.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker and places it on sketchbook",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 127.92,
+      "end": 142.62,
+      "summary": "peel and attach the oval lettering sticker",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sticker backing"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=128–130s move remaining loose designs aside; t=131–138s peel oval design backing; t=139–141.5s place and smooth it; t=142s carry backing to tray pile.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands peel and place a sticker on the sketchbook",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 142.62,
+      "end": 154.22,
+      "summary": "peel and attach the large black script sticker",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sticker backing"
+        ],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=143–148s peel large black script; t=149–152s position and smooth at lower left of decorated page; t=153.7s left moves backing to pile while right selects red design.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker and places it on sketchbook",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 154.22,
+      "end": 162.67,
+      "summary": "peel and attach the red lettering sticker",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sticker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=154.5–158.5s peel backing; t=159–161s align and press red design; t=161.7–162.2s discard backing; t=162.7s right reaches brown design.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 162.67,
+      "end": 189.34,
+      "summary": "peel and attach the brown lettering sticker",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sticker stack"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=163–184s repeated fingernail attempts separate the small backing; t=185–187.8s align and smooth brown sticker at lower right; t=188.5s discard backing; t=189s right takes spare stack.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels sticker and places it on sketchbook",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 189.34,
+      "end": 209.8,
+      "summary": "peel and attach one final small sticker",
+      "verb": "place",
+      "object": "sticker",
+      "tool": null,
+      "target": "notebook",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=190–204s select a small design and repeatedly pick at its backing near the lower frame edge; t=205s place backing on tray pile; t=206–208s press small sticker along bottom of decorated page; t=209s hands withdraw.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places sticker on sketchbook",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 62.63,
+      "instruction": "Plan the sticker layout on the notebook page",
+      "description": "Open the notebook, retrieve and sort the sticker stack, choose lettering, flower, illustrated and cactus designs, lay them across the right page and repeatedly reposition them before setting the remaining stack beside the notebook.",
+      "fine_index_range": [
+        0,
+        10
+      ],
+      "transition_in": null,
+      "goal_contribution": "Establishes the visual arrangement before the adhesive backings are removed.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 62.63,
+      "end": 209.8,
+      "instruction": "Peel and adhere the arranged stickers",
+      "description": "Lift designs individually from the trial layout, use fingernails to separate their white backings, return each adhesive sticker to the page and press it flat. Adjust surrounding loose designs and accumulate the removed papers at the tray upper right; add a final small sticker at the page bottom.",
+      "fine_index_range": [
+        11,
+        21
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Secures the selected designs to create the finished decorated notebook page.",
+      "predictability_level": "strong",
+      "predictability_reason": "The planned sticker layout is ready to adhere to the page."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/0503dacc3da23d1a/20261106T075928365059Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

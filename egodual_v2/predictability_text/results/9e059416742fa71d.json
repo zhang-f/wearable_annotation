@@ -1,0 +1,46 @@
+{
+  "video_id": "9e059416742fa71d",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After removing cooking tools, the remaining cutlery should be emptied."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The empty drawer is ready to wipe clean."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The cleaned drawer is ready for its organizer."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "With compartments fitted, the removed tools can be returned."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Remaining measuring and serving pieces need their places."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "The table cutlery still needs sorting into compartments."
+    },
+    {
+      "index": 7,
+      "level": "strong",
+      "reason": "The remaining chopsticks can be placed before closing the drawer."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "video_id": "a121c30c39f9dc72",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After unlock the phone and open settings, find amazon notification settings is a natural next stage toward enable amazon notifications on the phone."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After find amazon notification settings, enable notifications and return to the app list is a natural next stage toward enable amazon notifications on the phone."
+    }
+  ]
+}

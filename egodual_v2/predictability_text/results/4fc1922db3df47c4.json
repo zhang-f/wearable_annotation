@@ -1,0 +1,31 @@
+{
+  "video_id": "4fc1922db3df47c4",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After prepare tools and loosen the hose coupling, check the spray and disconnect the hose is plausible for replace the sealing washer in a garden hose coupling, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After check the spray and disconnect the hose, remove the washer from the hose coupling is a natural next stage toward replace the sealing washer in a garden hose coupling."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After remove the washer from the hose coupling, seat the replacement washer inside the coupling is a natural next stage toward replace the sealing washer in a garden hose coupling."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After seat the replacement washer inside the coupling, reconnect the hose and test water flow is a natural next stage toward replace the sealing washer in a garden hose coupling."
+    }
+  ]
+}

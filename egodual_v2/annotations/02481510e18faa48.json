@@ -1,0 +1,1038 @@
+{
+  "video_id": "02481510e18faa48",
+  "duration": 351.867,
+  "task": "Creating a quick washi tape design on paper",
+  "domain": "Arts and Crafts",
+  "query": "How do I create a quick washi tape design on paper?",
+  "goal": {
+    "title": "Draw a face on a patterned tape panel",
+    "description": "Align strips of patterned adhesive tape across a white sheet, trim the excess, then draw a face on the taped area with a green marker and display it.",
+    "final_state": "A green face is visible on a rectangular panel of patterned tape adhered to the white paper. The paper is displayed and then returned toward the desk.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 29.34,
+        "description": "Clear space on the desk, center the white paper and place the semicircular protractor across it. Retrieve and uncap the green marker, hold the protractor against the paper and draw a horizontal line along its straight edge. Move the protractor below the line."
+      },
+      {
+        "start": 29.34,
+        "end": 91.96,
+        "description": "Put the marker aside and take the patterned adhesive tape roll. Spend several attempts locating and lifting its edge, pull a strip across the paper to gauge its length, then cut it with scissors. Put the scissors down and move the protractor and roll out of the working area. Straighten the loose strip, align it with the guideline, lower it onto the paper and smooth it flat."
+      },
+      {
+        "start": 91.96,
+        "end": 167.04,
+        "description": "Unroll and cut a second strip. Set the roll aside, straighten the curling strip and align it adjacent to the first. Press it onto the paper, lift the sheet to inspect, then use scissors to trim the tape extending beyond each paper edge. Rotate the sheet between cuts, peel away the offcuts and attach them to the front edge of the desk. Lay the paper down and press the strips flat."
+      },
+      {
+        "start": 167.04,
+        "end": 228.83,
+        "description": "Take the roll again, pull out a third strip, raise it and cut across it. Set the roll aside, straighten the cut strip, carefully align it above the existing tape and smooth it down. Lift the paper edge, trim the projecting tape and remove the offcut to the desk front before lowering the scissors."
+      },
+      {
+        "start": 228.83,
+        "end": 295.79,
+        "description": "Pull out and cut a fourth strip of the same tape. Straighten it, align it beside the other strips and press it onto the paper to widen the patterned panel. Lift and rotate the sheet to trim both projecting ends, peel away the offcuts and press the completed tape panel flat."
+      },
+      {
+        "start": 295.79,
+        "end": 332.98,
+        "description": "Retrieve the green marker and draw a large oval outline across the taped area while the other hand steadies the sheet. Add two eyes, a central nose and a wide rectangular mouth. Retrace the eyes and add short lines around the mouth. The left fingers press the supported paper rather than lifting it during drawing."
+      },
+      {
+        "start": 332.98,
+        "end": 351.867,
+        "description": "Move the cap from the back of the marker onto its tip using both hands and set the capped marker beside the marker box. Lift the paper with both hands to display the face drawn on the patterned tape panel. After the final human fine boundary at 342.7s the sheet continues to be displayed and is lowered onto the desk near the end; no additional drawing is visible."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 29.34,
+      "description": "Clear space on the desk, center the white paper and place the semicircular protractor across it. Retrieve and uncap the green marker, hold the protractor against the paper and draw a horizontal line along its straight edge. Move the protractor below the line."
+    },
+    {
+      "start": 29.34,
+      "end": 91.96,
+      "description": "Put the marker aside and take the patterned adhesive tape roll. Spend several attempts locating and lifting its edge, pull a strip across the paper to gauge its length, then cut it with scissors. Put the scissors down and move the protractor and roll out of the working area. Straighten the loose strip, align it with the guideline, lower it onto the paper and smooth it flat."
+    },
+    {
+      "start": 91.96,
+      "end": 167.04,
+      "description": "Unroll and cut a second strip. Set the roll aside, straighten the curling strip and align it adjacent to the first. Press it onto the paper, lift the sheet to inspect, then use scissors to trim the tape extending beyond each paper edge. Rotate the sheet between cuts, peel away the offcuts and attach them to the front edge of the desk. Lay the paper down and press the strips flat."
+    },
+    {
+      "start": 167.04,
+      "end": 228.83,
+      "description": "Take the roll again, pull out a third strip, raise it and cut across it. Set the roll aside, straighten the cut strip, carefully align it above the existing tape and smooth it down. Lift the paper edge, trim the projecting tape and remove the offcut to the desk front before lowering the scissors."
+    },
+    {
+      "start": 228.83,
+      "end": 295.79,
+      "description": "Pull out and cut a fourth strip of the same tape. Straighten it, align it beside the other strips and press it onto the paper to widen the patterned panel. Lift and rotate the sheet to trim both projecting ends, peel away the offcuts and press the completed tape panel flat."
+    },
+    {
+      "start": 295.79,
+      "end": 332.98,
+      "description": "Retrieve the green marker and draw a large oval outline across the taped area while the other hand steadies the sheet. Add two eyes, a central nose and a wide rectangular mouth. Retrace the eyes and add short lines around the mouth. The left fingers press the supported paper rather than lifting it during drawing."
+    },
+    {
+      "start": 332.98,
+      "end": 351.867,
+      "description": "Move the cap from the back of the marker onto its tip using both hands and set the capped marker beside the marker box. Lift the paper with both hands to display the face drawn on the patterned tape panel. After the final human fine boundary at 342.7s the sheet continues to be displayed and is lowered onto the desk near the end; no additional drawing is visible."
+    }
+  ],
+  "object_inventory": [
+    "paper sheet",
+    "patterned tape",
+    "tape roll",
+    "scissors",
+    "green marker",
+    "marker cap",
+    "protractor",
+    "tape offcut",
+    "desk",
+    "marker box"
+  ],
+  "notes": "All 37 human fine boundaries preserved; all overview pages, every dense interval sheet and all 37 native end frames inspected. Native PTS burned before fps. The adhesive tape is described generically; no unsupported claim of removable backing or material type. Supported paper/protractor contact is not in_hand unless grasped for lifting/trimming. Long coarse interval 29.34–295.79s intentionally groups four repetitions of one intermediate goal rather than splitting the repeated tape application cycle arbitrarily. Some source intervals contain several object changes; specific instances recorded without changing divisions. Source fine ends at 342.7s but video continues to 351.867s; tail displays completed paper and lowers it, without further drawing. No extra fine interval added. Predictability pending independent blind assessment.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 4.95,
+      "summary": "center the paper sheet on the desk",
+      "verb": "move",
+      "object": "paper sheet",
+      "tool": null,
+      "target": "desk",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0–4.9s move tools aside and position paper; hands rest on paper at end, without a grasp.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand positions ruler on paper",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 4.95,
+      "end": 6.41,
+      "summary": "position the protractor on the paper",
+      "verb": "place",
+      "object": "protractor",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places ruler on paper",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 6.41,
+      "end": 15.92,
+      "summary": "uncap the green marker beside the protractor",
+      "verb": "open",
+      "object": "green marker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=7–15.9s retrieve marker, remove cap and position marker beside straight edge; left fingers press the supported protractor.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a marker from a box",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.92,
+      "end": 26.99,
+      "summary": "draw a straight guideline across the paper",
+      "verb": "draw",
+      "object": "paper sheet",
+      "tool": "green marker",
+      "target": "protractor",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws a straight line on paper using a marker and ruler",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 26.99,
+      "end": 29.34,
+      "summary": "move the protractor below the drawn guideline",
+      "verb": "move",
+      "object": "protractor",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves marker away from paper",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 29.34,
+      "end": 67.32,
+      "summary": "pull patterned tape from the roll",
+      "verb": "pull",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "tape roll",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=30–32s pick up roll and put marker aside; t=36–59s repeatedly pick at tape edge; t=60–66s unroll tape and measure it across paper; t=67s reach for scissors. End grip partly below view.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hands unroll washi tape from its roll",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 67.32,
+      "end": 74.82,
+      "summary": "cut a strip of patterned tape from the roll",
+      "verb": "cut",
+      "object": "patterned tape",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=68–73s cut across tape; t=74s put scissors down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts washi tape with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.82,
+      "end": 78.28,
+      "summary": "set the protractor and tape roll aside",
+      "verb": "put down",
+      "object": "tape roll",
+      "tool": null,
+      "target": "desk",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=75.7s move protractor to rear of desk; t=77.6s release roll at upper right. Cut tape remains in left hand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places washi tape roll on table",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 78.28,
+      "end": 91.96,
+      "summary": "apply the first tape strip along the guideline",
+      "verb": "place",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=79–81s straighten curled tape; t=81–86s align and lower strip; t=86–91s press it flat.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands press down the washi tape on paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 91.96,
+      "end": 104.81,
+      "summary": "unroll a second strip of patterned tape",
+      "verb": "pull",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "tape roll",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": [
+          "tape roll"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels tape from roll",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 104.81,
+      "end": 111.33,
+      "summary": "cut the second strip of patterned tape",
+      "verb": "cut",
+      "object": "patterned tape",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": [
+          "tape roll"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=105–110.5s cut strip; t=111s lower scissors and handle roll beside the cut tape.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts washi tape with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 111.33,
+      "end": 112.93,
+      "summary": "put the tape roll beside the paper",
+      "verb": "put down",
+      "object": "tape roll",
+      "tool": null,
+      "target": "desk",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places washi tape on paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 112.93,
+      "end": 131.73,
+      "summary": "apply the second strip beside the first",
+      "verb": "place",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper sheet"
+        ],
+        "right": [
+          "paper sheet"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=113.5–116s separate and straighten curled tape; t=117–127s align strip beside first; t=127–129s press down; t=130–131.7s lift paper to inspect.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands apply a strip of washi tape parallel to the first strip on the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 131.73,
+      "end": 143.89,
+      "summary": "trim tape extending beyond one paper edge",
+      "verb": "cut",
+      "object": "patterned tape",
+      "tool": "scissors",
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper sheet"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=134–139.5s trim edge; t=141–142.5s remove offcut and press it onto desk front; t=143.7s rotate paper.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts washi tape with scissors",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 143.89,
+      "end": 158.41,
+      "summary": "trim tape extending beyond the opposite edge",
+      "verb": "cut",
+      "object": "patterned tape",
+      "tool": "scissors",
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=144–151.5s trim opposite edge; t=152–157s peel offcut away and place it at desk front; t=158s lower paper.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts washi tape with scissors",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 158.41,
+      "end": 167.04,
+      "summary": "smooth the tape strips against the paper",
+      "verb": "press",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands press down on a strip of washi tape on paper",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 167.04,
+      "end": 186.28,
+      "summary": "pull a third strip from the tape roll",
+      "verb": "pull",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "tape roll",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=169–182s pull tape and stretch it across paper; t=183.8s raise strip; t=186s take scissors.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand applies second strip of washi tape parallel to first",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 186.28,
+      "end": 192.93,
+      "summary": "cut the third strip of patterned tape",
+      "verb": "cut",
+      "object": "patterned tape",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": [
+          "tape roll"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=186.8–190.2s cut across tape; t=191.4s trim a short remaining connection then lower scissors.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts washi tape with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 192.93,
+      "end": 194.11,
+      "summary": "put the tape roll aside while retaining the strip",
+      "verb": "put down",
+      "object": "tape roll",
+      "tool": null,
+      "target": "desk",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds a strip of washi tape",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.11,
+      "end": 213.64,
+      "summary": "apply the third strip above the existing tape",
+      "verb": "place",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=194–196.5s straighten strip; t=196.8–209s align along existing strips; t=209.7–213.6s press it down.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand applies second strip of washi tape parallel to first strip on paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 213.64,
+      "end": 228.83,
+      "summary": "trim excess tape from the paper edge",
+      "verb": "cut",
+      "object": "patterned tape",
+      "tool": "scissors",
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=215.8–222.1s cut projecting tape; t=223.4–226.1s remove offcut and stick it to desk front; t=227s lower scissors.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts washi tape with scissors",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 228.83,
+      "end": 240.49,
+      "summary": "pull a fourth strip from the tape roll",
+      "verb": "pull",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "tape roll",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=230–234s locate and lift tape edge; t=235.7–238.5s extend strip; t=239–240.5s raise it and reach scissors.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand peels tape from roll",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 240.49,
+      "end": 248.23,
+      "summary": "cut the fourth strip of patterned tape",
+      "verb": "cut",
+      "object": "patterned tape",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "patterned tape"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=241–247s cut across tape; t=248s lower scissors and roll.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts washi tape with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 248.23,
+      "end": 267.56,
+      "summary": "apply the fourth strip to the taped panel",
+      "verb": "place",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper sheet"
+        ],
+        "right": [
+          "paper sheet"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=249–253s straighten tape; t=254–265s align and press fourth strip; t=267s lift paper edge for trimming.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand applies a strip of washi tape parallel to the first strip on the paper",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 267.56,
+      "end": 278.21,
+      "summary": "trim one edge of the fourth tape strip",
+      "verb": "cut",
+      "object": "patterned tape",
+      "tool": "scissors",
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=269–274s cut projecting tape; t=275.5–276s remove offcut; t=278s lower scissors.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts washi tape with scissors",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 278.21,
+      "end": 292.86,
+      "summary": "trim the opposite edge of the fourth tape strip",
+      "verb": "cut",
+      "object": "patterned tape",
+      "tool": "scissors",
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=279.5–282s rotate paper; t=283–285.3s trim edge; t=287–290.9s remove offcut; t=292.5s lower and smooth sheet.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts washi tape with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 292.86,
+      "end": 295.79,
+      "summary": "press the tape panel flat on the paper",
+      "verb": "press",
+      "object": "patterned tape",
+      "tool": null,
+      "target": "paper sheet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands press down on paper with washi tape design",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 295.79,
+      "end": 299.98,
+      "summary": "pick up the green marker beside the paper",
+      "verb": "pick up",
+      "object": "green marker",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws over washi tape with marker",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 299.98,
+      "end": 309.03,
+      "summary": "draw a large oval on the taped panel",
+      "verb": "draw",
+      "object": "patterned tape",
+      "tool": "green marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws over washi tape with marker",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 309.03,
+      "end": 310.15,
+      "summary": "draw an eye inside the oval",
+      "verb": "draw",
+      "object": "patterned tape",
+      "tool": "green marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws over washi tape with marker",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 310.15,
+      "end": 311.1,
+      "summary": "draw the second eye inside the oval",
+      "verb": "draw",
+      "object": "patterned tape",
+      "tool": "green marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=310–311.1s drawing continues from eyes toward the central facial detail; same marker and surface across this short boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws over washi tape with marker",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 311.1,
+      "end": 323.77,
+      "summary": "draw the nose and wide mouth on the face",
+      "verb": "draw",
+      "object": "patterned tape",
+      "tool": "green marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=311–314s add central nose detail; t=314–323s outline and retrace wide rectangular mouth. Same marker retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws over washi tape with marker",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 323.77,
+      "end": 326.29,
+      "summary": "darken one eye with the green marker",
+      "verb": "draw",
+      "object": "patterned tape",
+      "tool": "green marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws over washi tape with marker",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 326.29,
+      "end": 328.19,
+      "summary": "darken the other eye with the green marker",
+      "verb": "draw",
+      "object": "patterned tape",
+      "tool": "green marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws over washi tape with marker",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 328.19,
+      "end": 332.98,
+      "summary": "add short details around the drawn mouth",
+      "verb": "draw",
+      "object": "patterned tape",
+      "tool": "green marker",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "green marker"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=328–332s add and retrace short mouth lines; t=332.9s lift marker away.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws over washi tape with marker",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 332.98,
+      "end": 340.28,
+      "summary": "cap the marker and put it beside the paper",
+      "verb": "put down",
+      "object": "green marker",
+      "tool": null,
+      "target": "desk",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=334–338.5s use both hands to remove rear cap and fit it over tip; t=339–339.8s set marker beside marker box.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand draws over washi tape with marker",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 340.28,
+      "end": 342.7,
+      "summary": "lift the paper to display the drawn face",
+      "verb": "lift",
+      "object": "paper sheet",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper sheet"
+        ],
+        "right": [
+          "paper sheet"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts paper on desk",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 29.34,
+      "instruction": "Draw a guideline on the paper",
+      "description": "Move tools aside, center the paper, position a protractor, retrieve and uncap the marker, draw a horizontal line along its straight edge and shift the protractor downward.",
+      "fine_index_range": [
+        0,
+        4
+      ],
+      "transition_in": null,
+      "goal_contribution": "Establishes an alignment reference for the patterned tape panel.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 29.34,
+      "end": 295.79,
+      "instruction": "Cover the paper with aligned patterned tape strips",
+      "description": "Locate the roll edge, pull and cut four strips in successive cycles, straighten each strip and press it beside the previous one. Move tools aside as needed, lift and rotate the sheet to trim projecting tape, discard offcuts onto the desk front and smooth the completed panel.",
+      "fine_index_range": [
+        5,
+        26
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Builds the continuous patterned surface on which the face will be drawn.",
+      "predictability_level": "weak",
+      "predictability_reason": "After a paper guideline, laying patterned tape is plausible but not directly necessary for drawing."
+    },
+    {
+      "start": 295.79,
+      "end": 342.7,
+      "instruction": "Draw and display the face on the tape",
+      "description": "Retrieve the green marker, draw an oval outline, eyes, nose and wide mouth on the tape, retrace facial details, cap and set down the marker, then lift the sheet for display.",
+      "fine_index_range": [
+        27,
+        36
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Produces and presents the completed face drawing on the taped paper.",
+      "predictability_level": "strong",
+      "predictability_reason": "The patterned tape panel is ready for the stated face drawing."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/02481510e18faa48/20261106T075829267555Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

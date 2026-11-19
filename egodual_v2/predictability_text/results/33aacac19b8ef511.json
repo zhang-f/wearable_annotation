@@ -1,0 +1,31 @@
+{
+  "video_id": "33aacac19b8ef511",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After arrange and open the smoothie ingredients, load the fruit and spinach into the beaker is a natural next stage toward prepare a blueberry banana spinach protein smoothie."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After load the fruit and spinach into the beaker, add milk and powder to the smoothie ingredients is a natural next stage toward prepare a blueberry banana spinach protein smoothie."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After add milk and powder to the smoothie ingredients, assemble and operate the immersion blender is a natural next stage toward prepare a blueberry banana spinach protein smoothie."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After assemble and operate the immersion blender, pour and present the finished smoothie is a natural next stage toward prepare a blueberry banana spinach protein smoothie."
+    }
+  ]
+}

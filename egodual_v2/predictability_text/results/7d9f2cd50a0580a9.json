@@ -1,0 +1,21 @@
+{
+  "video_id": "7d9f2cd50a0580a9",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Located valves are ready for identification labels to be written."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Written labels can be attached near the corresponding valves."
+    }
+  ]
+}

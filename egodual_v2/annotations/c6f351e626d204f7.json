@@ -1,0 +1,1711 @@
+{
+  "video_id": "c6f351e626d204f7",
+  "duration": 300.067,
+  "task": "Making white chocolate-dipped pretzels",
+  "domain": "Chef",
+  "query": "How do I make white chocolate-dipped pretzels?",
+  "goal": {
+    "title": "Make white-chocolate-dipped pretzels with sprinkles",
+    "description": "Arrange small pretzels on parchment, microwave white chocolate chips in a mug in repeated short cycles with stirring, then dip the pretzels in the melted coating. Add colored sprinkles, briefly put the parchment of pretzels in the refrigerator, retrieve it and transfer several pretzels to a plate.",
+    "final_state": "Three decorated white-chocolate pretzels are on the plate, with the remaining decorated pretzels on parchment.",
+    "procedure": [
+      "Arrange pretzels on parchment.",
+      "Heat white chocolate chips in a mug, stirring between microwave cycles.",
+      "Stir the softened chocolate until smooth.",
+      "Dip each pretzel into chocolate and return it to parchment.",
+      "Shake colored sprinkles over the coated pretzels.",
+      "Briefly refrigerate and retrieve the decorated pretzels.",
+      "Transfer several finished pretzels to a plate."
+    ]
+  },
+  "object_inventory": [
+    "pretzel",
+    "pretzel bowl",
+    "parchment",
+    "chocolate mug",
+    "white chocolate",
+    "spoon",
+    "microwave door",
+    "microwave controls",
+    "sprinkles jar",
+    "plate",
+    "refrigerator door"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 11.76,
+      "description": "Individual small pretzels are taken from the bowl and spaced on the parchment."
+    },
+    {
+      "start": 11.76,
+      "end": 43.49,
+      "description": "The chocolate-chip mug is placed in the microwave, controls pressed, spoon taken and sprinkles jar handled while the mug heats."
+    },
+    {
+      "start": 43.49,
+      "end": 135.78,
+      "description": "The mug is repeatedly removed, stirred with a spoon, returned and heated in short cycles, with pauses facing the running microwave."
+    },
+    {
+      "start": 135.78,
+      "end": 157.48,
+      "description": "The mug is carried to the preparation counter while the spoon repeatedly stirs and scrapes the pale melted chocolate."
+    },
+    {
+      "start": 157.48,
+      "end": 246.07,
+      "description": "Each pretzel is turned through the chocolate, lifted and returned to parchment. The mug is steadied and the sprinkles jar opened near the last dip."
+    },
+    {
+      "start": 246.07,
+      "end": 264.97,
+      "description": "The sprinkles container is adjusted and shaken over the coated pretzels, then put down as the plate is moved aside."
+    },
+    {
+      "start": 264.97,
+      "end": 293.86,
+      "description": "The parchment is lifted and placed on a refrigerator shelf. After the door closes and a short pause, it is reopened and the parchment brought back to the counter."
+    },
+    {
+      "start": 293.86,
+      "end": 299.86,
+      "description": "The right hand moves three finished pretzels from the parchment to the two-tone plate."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.71,
+      "old_summary": "hand picks up pretzel from bowl",
+      "summary": "right hand places first pretzel on parchment",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 1.71,
+      "end": 3.09,
+      "old_summary": "hand places pretzel on parchment paper",
+      "summary": "right hand places second pretzel beside first",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 3.09,
+      "end": 5.17,
+      "old_summary": "hand places pretzel on parchment paper",
+      "summary": "right hand transfers another pretzel from bowl to parchment",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.17,
+      "end": 7.48,
+      "old_summary": "hand places pretzel on parchment paper",
+      "summary": "right hand adds another pretzel to parchment",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 7.48,
+      "end": 8.89,
+      "old_summary": "hand places pretzel on parchment paper",
+      "summary": "right hand places fifth pretzel on parchment",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.89,
+      "end": 10.19,
+      "old_summary": "hand places pretzel on parchment paper",
+      "summary": "right hand transfers another pretzel onto parchment",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.19,
+      "end": 11.76,
+      "old_summary": "hand places pretzel on parchment paper",
+      "summary": "right hand arranges last pretzel beside the others",
+      "verb": "arrange",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 11.76,
+      "end": 15.43,
+      "old_summary": "hand stirs white chocolate chips in a cup",
+      "summary": "both hands lift chocolate mug from counter",
+      "verb": "lift",
+      "object": "chocolate mug",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "chocolate mug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 15.43,
+      "end": 17.53,
+      "old_summary": "hand presses microwave button",
+      "summary": "left hand opens microwave while right holds chocolate mug",
+      "verb": "open",
+      "object": "microwave door",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "chocolate mug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 17.53,
+      "end": 19.03,
+      "old_summary": "hand places cup into microwave",
+      "summary": "right hand places chocolate mug inside microwave",
+      "verb": "place",
+      "object": "chocolate mug",
+      "tool": null,
+      "target": "microwave door",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.03,
+      "end": 19.92,
+      "old_summary": "hand holds microwave door",
+      "summary": "left hand closes microwave door",
+      "verb": "close",
+      "object": "microwave door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 19.92,
+      "end": 21.07,
+      "old_summary": "hand presses buttons on microwave",
+      "summary": "right hand presses microwave controls",
+      "verb": "press",
+      "object": "microwave controls",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 21.07,
+      "end": 22.8,
+      "old_summary": "hand presses buttons on microwave",
+      "summary": "right hand presses more microwave buttons then turns aside",
+      "verb": "press",
+      "object": "microwave controls",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 22.8,
+      "end": 25.76,
+      "old_summary": "hand moves pretzels on paper",
+      "summary": "left hand touches chocolate bag while right lifts spoon",
+      "verb": "take",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 25.76,
+      "end": 28.12,
+      "old_summary": "hand picks up a bottle",
+      "summary": "left hand picks up sprinkles jar",
+      "verb": "pick up",
+      "object": "sprinkles jar",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "sprinkles jar"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 28.12,
+      "end": 31.58,
+      "old_summary": "hand holds white chocolate container",
+      "summary": "both hands turn and adjust sprinkles jar",
+      "verb": "adjust",
+      "object": "sprinkles jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sprinkles jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.58,
+      "end": 43.49,
+      "old_summary": "hand presses microwave buttons",
+      "summary": "idle waiting in front of running microwave",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "31.58–43.49s begins with jar release and is mostly no interaction, then hand reaches microwave at42s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 43.49,
+      "end": 45.9,
+      "old_summary": "hand removes cup from microwave",
+      "summary": "left hand opens microwave and right removes chocolate mug",
+      "verb": "remove",
+      "object": "chocolate mug",
+      "tool": null,
+      "target": "microwave door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 45.9,
+      "end": 50.64,
+      "old_summary": "hand stirs white chocolate in a mug with a spoon",
+      "summary": "right hand stirs white chocolate chips inside mug",
+      "verb": "stir",
+      "object": "white chocolate",
+      "tool": "spoon",
+      "target": "chocolate mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.64,
+      "end": 53.17,
+      "old_summary": "hand presses buttons on microwave",
+      "summary": "left hand returns chocolate mug to microwave",
+      "verb": "place",
+      "object": "chocolate mug",
+      "tool": null,
+      "target": "microwave door",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 53.17,
+      "end": 56.77,
+      "old_summary": "hand presses buttons on microwave",
+      "summary": "left hand closes microwave while right presses controls",
+      "verb": "press",
+      "object": "microwave controls",
+      "tool": null,
+      "target": "microwave door",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 56.77,
+      "end": 77.08,
+      "old_summary": "hand holds spoon near microwave",
+      "summary": "idle waiting with spoon before opening microwave again",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "56.77–77.08s mostly waiting with spoon; left hand opens door around76s within retained fine.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 77.08,
+      "end": 82.58,
+      "old_summary": "hand stirs white chocolate in bowl",
+      "summary": "left hand removes mug while right stirs white chocolate",
+      "verb": "stir",
+      "object": "white chocolate",
+      "tool": "spoon",
+      "target": "chocolate mug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 82.58,
+      "end": 101.87,
+      "old_summary": "hand presses buttons on microwave",
+      "summary": "left hand returns mug and restarts microwave",
+      "verb": "place",
+      "object": "chocolate mug",
+      "tool": null,
+      "target": "microwave controls",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "82.58–101.87s combines mug return, door closure, button press and waiting, ending with door opening.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 101.87,
+      "end": 103.76,
+      "old_summary": "hand holds bowl of white chocolate chips",
+      "summary": "left hand opens microwave and removes mug",
+      "verb": "remove",
+      "object": "chocolate mug",
+      "tool": null,
+      "target": "microwave door",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 103.76,
+      "end": 110.41,
+      "old_summary": "hand stirs white chocolate in a cup",
+      "summary": "right hand stirs softened white chocolate in mug",
+      "verb": "stir",
+      "object": "white chocolate",
+      "tool": "spoon",
+      "target": "chocolate mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.41,
+      "end": 115.38,
+      "old_summary": "hand presses buttons on microwave",
+      "summary": "left hand returns mug then closes microwave door",
+      "verb": "place",
+      "object": "chocolate mug",
+      "tool": null,
+      "target": "microwave door",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.38,
+      "end": 135.78,
+      "old_summary": "hand operates microwave",
+      "summary": "idle waiting while chocolate mug heats again",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "115.38–135.78s mostly waiting; left hand reaches and opens microwave near135s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 135.78,
+      "end": 138.27,
+      "old_summary": "hand picks up a small bowl",
+      "summary": "left hand removes chocolate mug from microwave",
+      "verb": "remove",
+      "object": "chocolate mug",
+      "tool": null,
+      "target": "microwave door",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 138.27,
+      "end": 157.48,
+      "old_summary": "hand stirs melted chocolate in a cup",
+      "summary": "right hand stirs melted chocolate while left carries mug",
+      "verb": "stir",
+      "object": "white chocolate",
+      "tool": "spoon",
+      "target": "chocolate mug",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "138.27–157.48s includes carrying mug, spoon stirring, mug placement and pretzel pickup near157s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 157.48,
+      "end": 159.65,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand picks up pretzel and lowers it into chocolate",
+      "verb": "dip",
+      "object": "pretzel",
+      "tool": null,
+      "target": "chocolate mug",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 159.65,
+      "end": 170.18,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand turns first pretzel through melted white chocolate",
+      "verb": "coat",
+      "object": "pretzel",
+      "tool": null,
+      "target": "white chocolate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 170.18,
+      "end": 172.16,
+      "old_summary": "hand places pretzel on parchment paper",
+      "summary": "right hand places coated pretzel onto parchment",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 172.16,
+      "end": 184.11,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand dips and turns second pretzel in chocolate",
+      "verb": "coat",
+      "object": "pretzel",
+      "tool": null,
+      "target": "white chocolate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 184.11,
+      "end": 185.36,
+      "old_summary": "hand picks up a pretzel",
+      "summary": "right hand sets second coated pretzel onto parchment",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 185.36,
+      "end": 197.36,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand dips third pretzel into white chocolate",
+      "verb": "coat",
+      "object": "pretzel",
+      "tool": null,
+      "target": "white chocolate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 197.36,
+      "end": 198.17,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand places third coated pretzel and picks another",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 198.17,
+      "end": 204.95,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand coats fourth pretzel in white chocolate",
+      "verb": "coat",
+      "object": "pretzel",
+      "tool": null,
+      "target": "white chocolate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.95,
+      "end": 206.26,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand returns coated pretzel to parchment",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 206.26,
+      "end": 215.39,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand coats fifth pretzel in chocolate",
+      "verb": "coat",
+      "object": "pretzel",
+      "tool": null,
+      "target": "white chocolate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 215.39,
+      "end": 220.27,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand coats another pretzel and lifts it from mug",
+      "verb": "coat",
+      "object": "pretzel",
+      "tool": null,
+      "target": "white chocolate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "215.39–220.27s includes returning one coated pretzel, taking another and dipping it; source boundaries preserved.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 220.27,
+      "end": 220.95,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand returns to parchment and takes next pretzel",
+      "verb": "take",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 220.95,
+      "end": 230.89,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand turns another pretzel through melted chocolate",
+      "verb": "coat",
+      "object": "pretzel",
+      "tool": null,
+      "target": "white chocolate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 230.89,
+      "end": 232.47,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand places coated pretzel and takes remaining pretzel",
+      "verb": "take",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "chocolate mug"
+        ],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 232.47,
+      "end": 246.07,
+      "old_summary": "hand dips pretzel into melted chocolate",
+      "summary": "right hand coats last pretzel while left opens sprinkles jar",
+      "verb": "coat",
+      "object": "pretzel",
+      "tool": null,
+      "target": "white chocolate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sprinkles jar"
+        ],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "232.47–246.07s includes final dipping plus mug placement and sprinkles jar pickup/opening around237–241s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 246.07,
+      "end": 246.92,
+      "old_summary": "hand sprinkles toppings onto pretzels",
+      "summary": "both hands adjust sprinkles jar over parchment",
+      "verb": "adjust",
+      "object": "sprinkles jar",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sprinkles jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 246.92,
+      "end": 259.95,
+      "old_summary": "hand sprinkles sprinkles on pretzels",
+      "summary": "right hand shakes colored sprinkles over coated pretzels",
+      "verb": "shake",
+      "object": "sprinkles jar",
+      "tool": null,
+      "target": "pretzel",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "sprinkles jar"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 259.95,
+      "end": 264.97,
+      "old_summary": "hand holds plate",
+      "summary": "right hand sets sprinkles jar down and moves plate aside",
+      "verb": "move",
+      "object": "plate",
+      "tool": null,
+      "target": "sprinkles jar",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 264.97,
+      "end": 269.69,
+      "old_summary": "hand moves parchment paper with chocolate-dipped pretzels",
+      "summary": "both hands lift parchment with decorated pretzels",
+      "verb": "lift",
+      "object": "parchment",
+      "tool": null,
+      "target": "pretzel",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "parchment"
+        ],
+        "right": [
+          "parchment"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 269.69,
+      "end": 272.29,
+      "old_summary": "hand opens refrigerator door",
+      "summary": "left hand opens refrigerator while right supports parchment",
+      "verb": "open",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": "parchment",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "parchment"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 272.29,
+      "end": 273.26,
+      "old_summary": "hand places tray of pretzels into refrigerator",
+      "summary": "both hands hold parchment beside open refrigerator shelf",
+      "verb": "hold",
+      "object": "parchment",
+      "tool": null,
+      "target": "pretzel",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "parchment"
+        ],
+        "right": [
+          "parchment"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 273.26,
+      "end": 276.82,
+      "old_summary": "hand places tray of pretzels into refrigerator",
+      "summary": "both hands place parchment of pretzels on refrigerator shelf",
+      "verb": "place",
+      "object": "parchment",
+      "tool": null,
+      "target": "pretzel",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 276.82,
+      "end": 278.77,
+      "old_summary": "hand closes refrigerator door",
+      "summary": "left hand closes refrigerator door",
+      "verb": "close",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 278.77,
+      "end": 281.96,
+      "old_summary": "hand closes refrigerator door",
+      "summary": "idle waiting beside closed refrigerator",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 281.96,
+      "end": 283.48,
+      "old_summary": "hand opens refrigerator door",
+      "summary": "left hand pulls refrigerator door open again",
+      "verb": "open",
+      "object": "refrigerator door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 283.48,
+      "end": 288.8,
+      "old_summary": "hand adjusts position of paper with dipped pretzels inside refrigerator",
+      "summary": "both hands lift parchment of pretzels from refrigerator",
+      "verb": "lift",
+      "object": "parchment",
+      "tool": null,
+      "target": "pretzel",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "parchment"
+        ],
+        "right": [
+          "parchment"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 288.8,
+      "end": 288.81,
+      "old_summary": "hand places tray of dipped pretzels into refrigerator",
+      "summary": "both hands support parchment beside open refrigerator",
+      "verb": "hold",
+      "object": "parchment",
+      "tool": null,
+      "target": "pretzel",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "parchment"
+        ],
+        "right": [
+          "parchment"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "288.8–288.81s is shorter than one15fps frame. Native endpoint repeats288.8s; no separate hand-object event resolvable. Boundary retained.",
+      "beyond_video_end": false,
+      "confidence": "low",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 288.81,
+      "end": 293.86,
+      "old_summary": "hand adjusts position of parchment paper with dipped pretzels",
+      "summary": "both hands carry parchment back and set it on counter",
+      "verb": "place",
+      "object": "parchment",
+      "tool": null,
+      "target": "pretzel",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "288.81–293.86s includes carrying parchment, placing it on counter and picking up first pretzel.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 293.86,
+      "end": 296.4,
+      "old_summary": "hand picks up a white chocolate-dipped pretzel",
+      "summary": "right hand transfers first decorated pretzel onto plate",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 296.4,
+      "end": 297.13,
+      "old_summary": "hand moves a pretzel from parchment paper to a plate",
+      "summary": "right hand picks up next decorated pretzel from parchment",
+      "verb": "pick up",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 297.13,
+      "end": 297.88,
+      "old_summary": "hand moves a pretzel with a stick",
+      "summary": "right hand places second decorated pretzel on plate",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 297.88,
+      "end": 298.7,
+      "old_summary": "hand adjusts position of a chocolate-dipped pretzel on parchment paper",
+      "summary": "right hand picks up third decorated pretzel from parchment",
+      "verb": "pick up",
+      "object": "pretzel",
+      "tool": null,
+      "target": "parchment",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pretzel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 298.7,
+      "end": 299.86,
+      "old_summary": "hand moves dipped pretzels from parchment paper to plate",
+      "summary": "right hand places third decorated pretzel onto plate",
+      "verb": "place",
+      "object": "pretzel",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 11.76,
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "instruction": "Arrange pretzels on parchment.",
+      "description": "Individual small pretzels are taken from the bowl and spaced on the parchment.",
+      "goal_contribution": "Prepare the pretzels for coating without stacking them.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 11.76,
+      "end": 43.49,
+      "fine_index_range": [
+        7,
+        16
+      ],
+      "instruction": "Start heating the white chocolate and ready decorations.",
+      "description": "The chocolate-chip mug is placed in the microwave, controls pressed, spoon taken and sprinkles jar handled while the mug heats.",
+      "goal_contribution": "Begin melting the coating and bring the spoon and decorations within reach.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Arranged pretzels need melted white chocolate for dipping."
+    },
+    {
+      "start": 43.49,
+      "end": 135.78,
+      "fine_index_range": [
+        17,
+        27
+      ],
+      "instruction": "Stir and reheat the white chocolate.",
+      "description": "The mug is repeatedly removed, stirred with a spoon, returned and heated in short cycles, with pauses facing the running microwave.",
+      "goal_contribution": "Gradually soften the chocolate chips into a usable coating.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Heating chocolate often requires stirring and reheating until melted."
+    },
+    {
+      "start": 135.78,
+      "end": 157.48,
+      "fine_index_range": [
+        28,
+        29
+      ],
+      "instruction": "Remove the mug and finish stirring smooth chocolate.",
+      "description": "The mug is carried to the preparation counter while the spoon repeatedly stirs and scrapes the pale melted chocolate.",
+      "goal_contribution": "Finish smoothing the melted coating before dipping.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After heating and stirring, final smoothing before dipping is natural."
+    },
+    {
+      "start": 157.48,
+      "end": 246.07,
+      "fine_index_range": [
+        30,
+        44
+      ],
+      "instruction": "Dip the pretzels in white chocolate.",
+      "description": "Each pretzel is turned through the chocolate, lifted and returned to parchment. The mug is steadied and the sprinkles jar opened near the last dip.",
+      "goal_contribution": "Coat the pretzels with white chocolate.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Smooth melted chocolate is ready for the pretzels."
+    },
+    {
+      "start": 246.07,
+      "end": 264.97,
+      "fine_index_range": [
+        45,
+        47
+      ],
+      "instruction": "Scatter sprinkles and clear space.",
+      "description": "The sprinkles container is adjusted and shaken over the coated pretzels, then put down as the plate is moved aside.",
+      "goal_contribution": "Add colored decorations while leaving the pretzels on parchment.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Chocolate-coated pretzels are ready for sprinkles."
+    },
+    {
+      "start": 264.97,
+      "end": 293.86,
+      "fine_index_range": [
+        48,
+        57
+      ],
+      "instruction": "Briefly refrigerate and retrieve the pretzels.",
+      "description": "The parchment is lifted and placed on a refrigerator shelf. After the door closes and a short pause, it is reopened and the parchment brought back to the counter.",
+      "goal_contribution": "Briefly chill the coated pretzels and return them for serving.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After decorating, chilling to set chocolate is plausible among several next steps."
+    },
+    {
+      "start": 293.86,
+      "end": 299.86,
+      "fine_index_range": [
+        58,
+        62
+      ],
+      "instruction": "Transfer decorated pretzels to the plate.",
+      "description": "The right hand moves three finished pretzels from the parchment to the two-tone plate.",
+      "goal_contribution": "Plate a small serving of finished pretzels.",
+      "transition_in": "STRONG",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "The chilled pretzels can be plated, though they could stay on parchment."
+    }
+  ],
+  "notes": "Viewed all10 overview sheets, all1284 dense frames and all63 native endpoints. Only source fine boundaries retained; coarse groups rebuilt from actual setup, microwave/stir cycles, dipping, sprinkles, refrigerator placement/retrieval and plating. Fine56 lasts0.01s with no separate resolvable event and is flagged low confidence. Predictability pending independent test."
+}

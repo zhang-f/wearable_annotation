@@ -1,0 +1,1752 @@
+{
+  "video_id": "5c73bd7058462eed",
+  "duration": 210.4,
+  "task": "Making everything bagel seasoned avocado cups",
+  "domain": "Chef",
+  "query": "How do I make everything bagel seasoned avocado cups?",
+  "goal": {
+    "title": "Prepare seasoned avocado cups with mashed avocado filling",
+    "description": "Cut an avocado around the pit, twist the halves apart and remove the pit with the knife. Scoop the flesh into a bowl while keeping the skins as cups. Season the hollowed halves, clean a small floor spill, place the cups on a plate and mash the avocado with a fork. Spoon the mash back into the cups, smooth it and add more seasoning.",
+    "final_state": "Two avocado skins on a plate hold mashed avocado topped with visible seasoning.",
+    "procedure": [
+      "Cut the avocado and separate its halves.",
+      "Remove the pit and scoop the flesh into a bowl.",
+      "Season the hollowed avocado cups and wipe the floor spill.",
+      "Arrange the cups on a plate and mash the flesh with a fork.",
+      "Fill the cups with the mashed avocado, smooth and season the filling."
+    ]
+  },
+  "object_inventory": [
+    "avocado",
+    "avocado pit",
+    "knife",
+    "bowl",
+    "spoon",
+    "fork",
+    "seasoning bottle",
+    "plate",
+    "drawer",
+    "paper towel",
+    "floor",
+    "trash bin",
+    "counter",
+    "sweater"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 28.75,
+      "description": "Cut around the avocado, separate its halves and use the knife to remove and discard the pit. Put the knife down and take a spoon."
+    },
+    {
+      "start": 28.75,
+      "end": 85.43,
+      "description": "Scoop the flesh into the bowl, pause to put on a sweater, then finish scooping both halves. Set the hollowed skins aside."
+    },
+    {
+      "start": 85.43,
+      "end": 110.28,
+      "description": "Retrieve the seasoning bottle and shake seasoning into each hollowed half, revisiting the first cup before closing the bottle."
+    },
+    {
+      "start": 110.28,
+      "end": 122.77,
+      "description": "Take a paper towel, wipe the floor beside the counter and discard the towel."
+    },
+    {
+      "start": 122.77,
+      "end": 165.27,
+      "description": "Fetch a plate, arrange both skins on it and obtain a fork. Put the spoon aside and mash the avocado flesh in the bowl."
+    },
+    {
+      "start": 165.27,
+      "end": 210.13,
+      "description": "Use the spoon to transfer the mash into the skins, scrape out the bowl and smooth the filling. Shake more seasoning over both cups and put the bottle down."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 1.25,
+      "old_summary": "",
+      "summary": "pick up the avocado",
+      "verb": "pick up",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 1.25,
+      "end": 8.34,
+      "old_summary": "n",
+      "summary": "cut around the avocado pit",
+      "verb": "cut",
+      "object": "avocado",
+      "tool": "knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 8.34,
+      "end": 9.59,
+      "old_summary": "n",
+      "summary": "put the knife on the counter",
+      "verb": "put down",
+      "object": "knife",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.59,
+      "end": 12.5,
+      "old_summary": "n",
+      "summary": "twist the avocado halves apart",
+      "verb": "twist",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "avocado"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 12.5,
+      "end": 13.75,
+      "old_summary": "n",
+      "summary": "set one avocado half on the counter",
+      "verb": "put down",
+      "object": "avocado",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=12.5–13.75s sets one half down and starts reaching for the knife.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 13.75,
+      "end": 14.46,
+      "old_summary": "n",
+      "summary": "pick up the knife",
+      "verb": "pick up",
+      "object": "knife",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.46,
+      "end": 16.37,
+      "old_summary": "n",
+      "summary": "tap the knife against the avocado pit",
+      "verb": "tap",
+      "object": "avocado pit",
+      "tool": "knife",
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.37,
+      "end": 18.28,
+      "old_summary": "n",
+      "summary": "tap the knife blade into the avocado pit",
+      "verb": "tap",
+      "object": "avocado pit",
+      "tool": "knife",
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 18.28,
+      "end": 20.98,
+      "old_summary": "n",
+      "summary": "twist the pit out with the knife",
+      "verb": "remove",
+      "object": "avocado pit",
+      "tool": "knife",
+      "target": "avocado",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.98,
+      "end": 21.9,
+      "old_summary": "n",
+      "summary": "set the avocado half down",
+      "verb": "put down",
+      "object": "avocado",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 21.9,
+      "end": 23.73,
+      "old_summary": "n",
+      "summary": "scrape the pit off the knife over the bin",
+      "verb": "remove",
+      "object": "avocado pit",
+      "tool": "knife",
+      "target": "trash bin",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.73,
+      "end": 26.57,
+      "old_summary": "n",
+      "summary": "put the knife down and open the drawer",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drawer"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=23.7–26.6s knife put down then drawer opened; multiple object changes.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.57,
+      "end": 28.75,
+      "old_summary": "n",
+      "summary": "take a spoon from the drawer",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "spoon"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Spoon transferred between hands before t=30.3s; endpoint grip partly occluded.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 28.75,
+      "end": 30.28,
+      "old_summary": "n",
+      "summary": "pick up an avocado half",
+      "verb": "pick up",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 30.28,
+      "end": 40.11,
+      "old_summary": "n",
+      "summary": "scoop avocado flesh into the bowl",
+      "verb": "scoop",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=30–40s repeated scoops from skin to bowl; no separate object change encoded for each scoop.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 40.11,
+      "end": 44.76,
+      "old_summary": "n",
+      "summary": "idle: put down utensils and fetch a sweater",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "sweater"
+        ],
+        "right": [
+          "sweater"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=40–42s utensil/half put down; t=42–44.8s fetches unrelated sweater.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 44.76,
+      "end": 58.92,
+      "old_summary": "n",
+      "summary": "idle: put on the sweater",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Clothing adjustment, not food preparation. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 58.92,
+      "end": 60.21,
+      "old_summary": "n",
+      "summary": "pick up the avocado half and spoon",
+      "verb": "pick up",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 60.21,
+      "end": 69.5,
+      "old_summary": "n",
+      "summary": "scoop avocado flesh out of the skin",
+      "verb": "scoop",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 69.5,
+      "end": 74.27,
+      "old_summary": "n",
+      "summary": "scrape the spoon into the bowl",
+      "verb": "scrape",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=69.5–74.3s spoon scraped into bowl then other avocado half taken.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.27,
+      "end": 83.77,
+      "old_summary": "n",
+      "summary": "scoop flesh from the other avocado half",
+      "verb": "scoop",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 83.77,
+      "end": 85.43,
+      "old_summary": "n",
+      "summary": "put the hollowed avocado cup down",
+      "verb": "put down",
+      "object": "avocado",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 85.43,
+      "end": 88.61,
+      "old_summary": "n",
+      "summary": "reach toward the seasoning rack",
+      "verb": "reach",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=85–88.6s turns to rack and reaches for bottle.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 88.61,
+      "end": 90.57,
+      "old_summary": "n",
+      "summary": "take and open the seasoning bottle",
+      "verb": "open",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Bottle retrieved and flip cap opened within one segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 90.57,
+      "end": 92.37,
+      "old_summary": "n",
+      "summary": "pick up an avocado cup",
+      "verb": "pick up",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 92.37,
+      "end": 96.76,
+      "old_summary": "n",
+      "summary": "shake seasoning into the avocado cup",
+      "verb": "shake",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.76,
+      "end": 97.97,
+      "old_summary": "n",
+      "summary": "put the seasoned avocado cup down",
+      "verb": "put down",
+      "object": "avocado",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.97,
+      "end": 99.21,
+      "old_summary": "n",
+      "summary": "pick up the other avocado cup",
+      "verb": "pick up",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 99.21,
+      "end": 103.85,
+      "old_summary": "n",
+      "summary": "shake seasoning into the other cup",
+      "verb": "shake",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 103.85,
+      "end": 105.51,
+      "old_summary": "n",
+      "summary": "exchange the avocado cups on the counter",
+      "verb": "pick up",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=103.9–105.5s exchanges avocado halves; more than one pickup/release.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.51,
+      "end": 107.58,
+      "old_summary": "n",
+      "summary": "shake more seasoning into the avocado cup",
+      "verb": "shake",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 107.58,
+      "end": 108.25,
+      "old_summary": "n",
+      "summary": "put the avocado cup down",
+      "verb": "put down",
+      "object": "avocado",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 108.25,
+      "end": 110.28,
+      "old_summary": "n",
+      "summary": "close and put down the seasoning bottle",
+      "verb": "close",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Cap closes and bottle released by t=110.3s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 110.28,
+      "end": 114.41,
+      "old_summary": "n",
+      "summary": "tear off a paper towel",
+      "verb": "tear",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 114.41,
+      "end": 119.68,
+      "old_summary": "n",
+      "summary": "wipe the floor with the paper towel",
+      "verb": "wipe",
+      "object": "floor",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 119.68,
+      "end": 121.77,
+      "old_summary": "n",
+      "summary": "carry the paper towel to the bin",
+      "verb": "move",
+      "object": "paper towel",
+      "tool": null,
+      "target": "trash bin",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 121.77,
+      "end": 122.77,
+      "old_summary": "n",
+      "summary": "discard the paper towel",
+      "verb": "discard",
+      "object": "paper towel",
+      "tool": null,
+      "target": "trash bin",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 122.77,
+      "end": 126.09,
+      "old_summary": "n",
+      "summary": "take a plate from the cabinet",
+      "verb": "pick up",
+      "object": "plate",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=122.8–126.1s opens cabinet and retrieves plate.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 126.09,
+      "end": 128.35,
+      "old_summary": "n",
+      "summary": "put the plate on the counter",
+      "verb": "put down",
+      "object": "plate",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "avocado"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 128.35,
+      "end": 129.32,
+      "old_summary": "n",
+      "summary": "place one avocado cup on the plate",
+      "verb": "place",
+      "object": "avocado",
+      "tool": null,
+      "target": "plate",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "avocado"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 129.32,
+      "end": 130.72,
+      "old_summary": "n",
+      "summary": "place the other avocado cup on the plate",
+      "verb": "place",
+      "object": "avocado",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Halves rest on plate at endpoint; contact is not counted as holding.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 130.72,
+      "end": 133.75,
+      "old_summary": "n",
+      "summary": "arrange the avocado cups and open the drawer",
+      "verb": "open",
+      "object": "drawer",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "drawer"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Arranges skins before reaching into drawer at t=133s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.75,
+      "end": 134.96,
+      "old_summary": "n",
+      "summary": "take a fork from the drawer",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "fork"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 134.96,
+      "end": 137.19,
+      "old_summary": "n",
+      "summary": "pick up the spoon beside the bowl",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "spoon"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 137.19,
+      "end": 141.81,
+      "old_summary": "n",
+      "summary": "put the spoon beside the sink",
+      "verb": "put down",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=137–141.8s spoon put aside then fork brought to bowl.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 141.81,
+      "end": 163.44,
+      "old_summary": "n",
+      "summary": "mash the avocado in the bowl with the fork",
+      "verb": "mash",
+      "object": "avocado",
+      "tool": "fork",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Repeated mashing strokes throughout interval; same bowl/fork interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 163.44,
+      "end": 165.27,
+      "old_summary": "n",
+      "summary": "put the fork down beside the sink",
+      "verb": "put down",
+      "object": "fork",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 165.27,
+      "end": 168.94,
+      "old_summary": "n",
+      "summary": "pick up the spoon",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 168.94,
+      "end": 170.48,
+      "old_summary": "n",
+      "summary": "scoop mashed avocado from the bowl",
+      "verb": "scoop",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 170.48,
+      "end": 176.47,
+      "old_summary": "n",
+      "summary": "spoon mashed avocado into an avocado cup",
+      "verb": "fill",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "avocado",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=170.5–176.5s filling transferred repeatedly between bowl and avocado cup.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 176.47,
+      "end": 181.16,
+      "old_summary": "n",
+      "summary": "smooth the filling in the avocado cup",
+      "verb": "smooth",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "plate"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 181.16,
+      "end": 182.4,
+      "old_summary": "n",
+      "summary": "scoop more mashed avocado from the bowl",
+      "verb": "scoop",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 182.4,
+      "end": 186.53,
+      "old_summary": "n",
+      "summary": "scrape the remaining avocado into the cup",
+      "verb": "scrape",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "avocado",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "bowl"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 186.53,
+      "end": 188.05,
+      "old_summary": "n",
+      "summary": "put the emptied bowl aside",
+      "verb": "put down",
+      "object": "bowl",
+      "tool": null,
+      "target": "counter",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 188.05,
+      "end": 189.44,
+      "old_summary": "n",
+      "summary": "pick up the filled avocado cup",
+      "verb": "pick up",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 189.44,
+      "end": 194.46,
+      "old_summary": "n",
+      "summary": "smooth the avocado filling with the spoon",
+      "verb": "smooth",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Smooths cup filling then lowers spoon into bowl near t=194.4s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 194.46,
+      "end": 195.63,
+      "old_summary": "n",
+      "summary": "pick up the seasoning bottle",
+      "verb": "pick up",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning bottle"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 195.63,
+      "end": 197.0,
+      "old_summary": "n",
+      "summary": "open the seasoning bottle cap",
+      "verb": "open",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning bottle"
+        ],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 197.0,
+      "end": 200.8,
+      "old_summary": "n",
+      "summary": "shake seasoning over one filled avocado cup",
+      "verb": "shake",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 200.8,
+      "end": 204.72,
+      "old_summary": "n",
+      "summary": "shake seasoning over the other filled cup",
+      "verb": "shake",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": "avocado",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 204.72,
+      "end": 206.25,
+      "old_summary": "n",
+      "summary": "close the seasoning bottle",
+      "verb": "close",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "seasoning bottle"
+        ],
+        "right": [
+          "seasoning bottle"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 206.25,
+      "end": 207.5,
+      "old_summary": "n",
+      "summary": "put the seasoning bottle aside",
+      "verb": "put down",
+      "object": "seasoning bottle",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 207.5,
+      "end": 208.47,
+      "old_summary": "n",
+      "summary": "idle: no interaction with the plated avocado cups",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Finished cups remain on plate; no hand-object interaction. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 208.47,
+      "end": 210.13,
+      "old_summary": "n",
+      "summary": "idle: no interaction while looking at the finished dish",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "Final view of prepared cups. Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 28.75,
+      "fine_index_range": [
+        0,
+        12
+      ],
+      "instruction": "Halve and pit the avocado",
+      "description": "Cut around the avocado, separate its halves and use the knife to remove and discard the pit. Put the knife down and take a spoon.",
+      "goal_contribution": "Prepare the avocado halves for removing their flesh.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 28.75,
+      "end": 85.43,
+      "fine_index_range": [
+        13,
+        21
+      ],
+      "instruction": "Hollow the avocado cups",
+      "description": "Scoop the flesh into the bowl, pause to put on a sweater, then finish scooping both halves. Set the hollowed skins aside.",
+      "goal_contribution": "Retain two skins as cups and collect the flesh for the filling.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Halved avocado is ready to hollow into cups."
+    },
+    {
+      "start": 85.43,
+      "end": 110.28,
+      "fine_index_range": [
+        22,
+        32
+      ],
+      "instruction": "Season the avocado cups",
+      "description": "Retrieve the seasoning bottle and shake seasoning into each hollowed half, revisiting the first cup before closing the bottle.",
+      "goal_contribution": "Add seasoning to the surfaces that will hold the filling.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Hollowed cups may be seasoned before filling, but this is optional."
+    },
+    {
+      "start": 110.28,
+      "end": 122.77,
+      "fine_index_range": [
+        33,
+        36
+      ],
+      "instruction": "Clean the floor spill",
+      "description": "Take a paper towel, wipe the floor beside the counter and discard the towel.",
+      "goal_contribution": "Clear the visible spill before continuing food preparation.",
+      "transition_in": "WEAK",
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Cleaning a floor spill is not implied by seasoning the avocado cups."
+    },
+    {
+      "start": 122.77,
+      "end": 165.27,
+      "fine_index_range": [
+        37,
+        46
+      ],
+      "instruction": "Plate the cups and mash the filling",
+      "description": "Fetch a plate, arrange both skins on it and obtain a fork. Put the spoon aside and mash the avocado flesh in the bowl.",
+      "goal_contribution": "Produce mashed filling and position the cups for filling.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Hollowed cups and scooped flesh are ready for plating and mashing."
+    },
+    {
+      "start": 165.27,
+      "end": 210.13,
+      "fine_index_range": [
+        47,
+        63
+      ],
+      "instruction": "Fill and finish the avocado cups",
+      "description": "Use the spoon to transfer the mash into the skins, scrape out the bowl and smooth the filling. Shake more seasoning over both cups and put the bottle down.",
+      "goal_contribution": "Leave two filled, seasoned avocado cups on the plate.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "Mashed avocado and plated cups are ready to combine."
+    }
+  ],
+  "notes": "Reviewed all 7 overview sheets, all 15 compact dense pages (941 frames) and all 4 native endpoint sheets. Actual t=44.8–58.9s sweater dressing is unrelated idle. t=141.8–163.4s shows continuous mashing; t=170–195s the mash is spooned back into preserved avocado skins, rather than discarded. No additional unseen ingredients inferred."
+}

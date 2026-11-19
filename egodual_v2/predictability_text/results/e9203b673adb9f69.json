@@ -1,0 +1,31 @@
+{
+  "video_id": "e9203b673adb9f69",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "A stuck zipper may be lubricated, among several possible fixes."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "An oiled swab is ready to lubricate the slider and work the fabric loose."
+    },
+    {
+      "index": 3,
+      "level": "weak",
+      "reason": "Continued resistance may call for a tool, but it is not a necessary step."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After freeing fabric, zipper movement should be tested."
+    }
+  ]
+}

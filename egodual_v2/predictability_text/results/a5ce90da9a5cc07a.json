@@ -1,0 +1,31 @@
+{
+  "video_id": "a5ce90da9a5cc07a",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "The central motif is laid out, so surrounding purple pieces can be arranged."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After arranging pieces, the clear center can be glued in place."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Glued center pieces naturally lead to securing the purple surround."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "The glued decoration is ready to press, tidy, and display."
+    }
+  ]
+}

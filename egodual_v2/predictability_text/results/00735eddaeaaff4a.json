@@ -1,0 +1,41 @@
+{
+  "video_id": "00735eddaeaaff4a",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After drain and rinse the chickpeas, add tahini and measured oil is a natural next stage toward make hummus in a food processor."
+    },
+    {
+      "index": 2,
+      "level": "weak",
+      "reason": "After add tahini and measured oil, prepare and add the garlic is plausible for make hummus in a food processor, but several next steps fit."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After prepare and add the garlic, add lemon and assemble the processor is a natural next stage toward make hummus in a food processor."
+    },
+    {
+      "index": 4,
+      "level": "weak",
+      "reason": "After add lemon and assemble the processor, blend and add more tahini and oil is plausible for make hummus in a food processor, but several next steps fit."
+    },
+    {
+      "index": 5,
+      "level": "weak",
+      "reason": "After blend and add more tahini and oil, blend the paste and add salt is plausible for make hummus in a food processor, but several next steps fit."
+    },
+    {
+      "index": 6,
+      "level": "weak",
+      "reason": "After blend the paste and add salt, blend again and inspect the chickpea paste is plausible for make hummus in a food processor, but several next steps fit."
+    }
+  ]
+}

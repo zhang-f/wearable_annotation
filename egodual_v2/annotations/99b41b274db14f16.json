@@ -1,0 +1,76 @@
+{
+  "video_id": "99b41b274db14f16",
+  "duration": 129.534,
+  "task": "Making a bottle cap magnet (gluing a magnet to a bottle cap)",
+  "domain": "Arts and Crafts",
+  "query": "How do I make a bottle cap magnet by gluing a magnet to a bottle cap?",
+  "goal": {
+    "title": "Assemble and test a bottle-cap spinner",
+    "description": "Use hot glue to attach small round metal pieces at the center of a plastic cap, press the pieces into place, and test rotating the cap between the fingers. The metal pieces are also removed and repositioned.",
+    "final_state": "The plastic cap is held up while a dark round metal piece remains separately on the table; a permanently secured finished spinner is not established.",
+    "procedure": [
+      "Inspect the plastic cap and round metal pieces.",
+      "Pick up and prepare the hot-glue gun, then apply glue at the cap center.",
+      "Press a small piece into the center and test-fit a larger round piece.",
+      "Apply more glue and press a metal piece onto the other face.",
+      "Flick and turn the cap between the fingers, adjust or remove the metal pieces, and inspect the cap."
+    ]
+  },
+  "object_inventory": [
+    "plastic cap",
+    "metal disc",
+    "glue gun",
+    "table"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 129.5,
+      "description": "The cap and metal pieces are inspected, hot glue is applied to both faces, metal pieces are pressed into position, and the cap is flicked and rotated. Pieces are repeatedly detached and refitted; the cap is displayed at the end."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 129.5,
+      "old_summary": "hand applies hot glue to the underside of the bottle cap using a glue gun",
+      "summary": "both hands glue metal discs onto a plastic cap",
+      "verb": "assemble",
+      "object": "plastic cap",
+      "tool": "glue gun",
+      "target": "metal disc",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "plastic cap"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "Single fine spans the entire multi-stage task: metal pieces handled t=1–14s; glue gun picked up t=16s; glue applied t=31–39s; small piece pressed t=41–50s; disc fitted t=57–60s; more glue t=67–72s; disc pressed t=74–79s; spin tests t=84–91s; repeated fitting and detaching t=94–118s; cap shown t=125–129s. Boundaries preserved.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "Endpoint left hand holds cap; right hand is empty. Metal pieces repeatedly separate, so final secure assembly is not assumed.",
+      "transition_in": null
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 129.5,
+      "fine_index_range": [
+        0,
+        0
+      ],
+      "instruction": "Assemble and test the cap mechanism",
+      "description": "The cap and metal pieces are inspected, hot glue is applied to both faces, metal pieces are pressed into position, and the cap is flicked and rotated. Pieces are repeatedly detached and refitted; the cap is displayed at the end.",
+      "goal_contribution": "Attempts to create a small rotating cap assembly; secure completion remains uncertain.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    }
+  ],
+  "notes": "Reviewed five overview sheets, all 389 dense frames and the native endpoint. There is only one inherited fine segment for the full video, so coarse cannot be divided into multiple valid fine-aligned subtasks without editing trusted boundaries. Exact metal-piece identity is uncertain; no coin denomination or bearing mechanism inferred."
+}

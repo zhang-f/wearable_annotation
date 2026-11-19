@@ -1,0 +1,1397 @@
+{
+  "video_id": "cfeb935f46cb7112",
+  "duration": 373.067,
+  "task": "Weaving a simple coaster",
+  "domain": "Arts and Crafts",
+  "query": "How do I weave a simple coaster?",
+  "goal": {
+    "title": "Weave a yarn coaster on a cardboard loom",
+    "description": "Cuts a square of cardboard into a notched loom frame with scissors, then threads orange yarn back and forth across the notches to form the warp. Switches to a ball of blue yarn and weaves it over-and-under through the orange warp in repeated rows, periodically cutting the yarn and pulling it taut to keep the weave tight. Once the square is fully woven, trims loose yarn ends and cardboard tabs, then cuts the finished woven coaster free from the loom.",
+    "final_state": "A small square woven coaster (orange warp, blue weft) has been cut free from the cardboard loom and set aside; the empty loom frame remains on the table.",
+    "procedure": [
+      "Cut the cardboard center and notch opposing edges to make a loom.",
+      "Wind orange yarn through the notches to form the warp.",
+      "Pass blue yarn over and under the orange strands and pull the rows together.",
+      "Trim loose yarn and projecting cardboard tabs.",
+      "Cut the woven square free of the frame and place it on the table."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 33.56,
+      "description": "Cut a square of cardboard into a notched weaving loom."
+    },
+    {
+      "start": 33.56,
+      "end": 69.48,
+      "description": "Thread orange yarn across the loom to form the warp."
+    },
+    {
+      "start": 69.48,
+      "end": 317.44,
+      "description": "Weave blue yarn over-and-under the warp to build the coaster."
+    },
+    {
+      "start": 317.44,
+      "end": 347.88,
+      "description": "Trim excess yarn and cardboard tabs from the finished weave."
+    },
+    {
+      "start": 347.88,
+      "end": 372.8,
+      "description": "Cut the finished coaster free from the loom."
+    }
+  ],
+  "object_inventory": [
+    "cardboard loom",
+    "scissors",
+    "orange yarn",
+    "blue yarn",
+    "woven coaster",
+    "table"
+  ],
+  "notes": "Only human fine boundaries trusted. Overview (0.5fps) and 1fps dense contact sheets covering the full 373s video were reviewed. Steps 15-21 use object 'cardboard loom' (warp still being established) before the fabric is called 'woven coaster' from step 22 onward, mirroring the visible transition from bare warp to weave. Step 46 differs from its old_summary ('weaves blue yarn through cardboard loom'): frames instead show the coaster already being cut free with scissors, consistent with steps 44-48; recorded as differs_from_expectation. Verb 'weave' is not in the suggested verb list but is used consistently for the plain over-under weft motion, per the prompt's allowance to use another common verb when none fits. Tail 372.8-373.067s (0.267s) shows the loom and finished coaster lying on the table with no further task interaction.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 4.22,
+      "summary": "cut the center opening out of the cardboard square",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts cardboard with scissors",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 4.22,
+      "end": 10.16,
+      "summary": "trim the cardboard loom frame edge",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts cardboard with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 10.16,
+      "end": 15.5,
+      "summary": "cut a notch in the cardboard loom edge",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts cardboard loom with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 15.5,
+      "end": 16.86,
+      "summary": "hold the cardboard loom steady for cutting",
+      "verb": "hold",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=16.86-18.22s brief steadying grip; scissors stay in the other hand.",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds cardboard loom steady while other hand operates scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.86,
+      "end": 17.9,
+      "summary": "cut another notch in the cardboard loom edge",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts cardboard loom with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 17.9,
+      "end": 18.98,
+      "summary": "hold the cardboard loom between cuts",
+      "verb": "hold",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds cardboard loom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 18.98,
+      "end": 20.34,
+      "summary": "cut a notch in the cardboard loom edge",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds cardboard loom steady while other hand cuts it with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.34,
+      "end": 23.41,
+      "summary": "position the scissors on the cardboard loom edge",
+      "verb": "adjust",
+      "object": "scissors",
+      "tool": null,
+      "target": "cardboard loom",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand holds cardboard loom steady while other hand positions scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.41,
+      "end": 27.25,
+      "summary": "cut a notch in the cardboard loom edge",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts cardboard loom with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 27.25,
+      "end": 29.56,
+      "summary": "cut another notch in the cardboard loom edge",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts cardboard loom with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.56,
+      "end": 29.76,
+      "summary": "hold the cardboard loom with the scissors",
+      "verb": "hold",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "0.2s micro-segment between two cuts.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand holds cardboard loom with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 29.76,
+      "end": 31.03,
+      "summary": "cut a notch in the cardboard loom edge",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts cardboard loom with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 31.03,
+      "end": 32.15,
+      "summary": "cut the final notch in the cardboard loom edge",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts cardboard loom with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 32.15,
+      "end": 33.56,
+      "summary": "place the finished cardboard loom on the table",
+      "verb": "place",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand places cardboard loom on table",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.56,
+      "end": 69.48,
+      "summary": "thread the orange warp yarn across the loom notches",
+      "verb": "insert",
+      "object": "orange yarn",
+      "tool": null,
+      "target": "cardboard loom",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "orange yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=34-69s repeatedly wraps a single orange strand around the comb notches; one continuous warp-threading action.",
+      "confidence": "medium",
+      "notes": "Long compound step merged in the source segmentation.",
+      "old_summary": "hand threads yarn through cardboard loom",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 69.48,
+      "end": 73.4,
+      "summary": "begin weaving the blue yarn through the warp",
+      "verb": "weave",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "Verb 'weave' is not in the suggested list; used consistently for the over-under weft motion per the prompt's allowance for unlisted verbs.",
+      "old_summary": "hand threads blue yarn through cardboard loom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.4,
+      "end": 75.2,
+      "summary": "continue weaving the blue yarn through the warp",
+      "verb": "weave",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads blue yarn through cardboard loom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.2,
+      "end": 78.98,
+      "summary": "weave another pass of blue yarn through the warp",
+      "verb": "weave",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads blue yarn through cardboard loom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.98,
+      "end": 86.91,
+      "summary": "weave the blue yarn across the loom warp",
+      "verb": "weave",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=79-87s continuous weaving pass.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads yarn through cardboard loom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.91,
+      "end": 92.65,
+      "summary": "cut the blue yarn with scissors",
+      "verb": "cut",
+      "object": "blue yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts blue yarn with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.65,
+      "end": 95.58,
+      "summary": "resume weaving yarn through the loom",
+      "verb": "weave",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads yarn through cardboard loom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.58,
+      "end": 102.38,
+      "summary": "continue weaving blue yarn through the loom",
+      "verb": "weave",
+      "object": "cardboard loom",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard loom"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=96-102s continuous weaving pass before the fabric is dense enough to call a coaster.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand threads blue yarn through cardboard loom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 102.38,
+      "end": 134.58,
+      "summary": "weave the blue yarn across the woven coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=102-135s long continuous back-and-forth weaving pass.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand weaves blue yarn through the woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 134.58,
+      "end": 151.85,
+      "summary": "cut the blue yarn with scissors",
+      "verb": "cut",
+      "object": "blue yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts blue yarn with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 151.85,
+      "end": 166.13,
+      "summary": "pull the blue yarn taut through the coaster",
+      "verb": "adjust",
+      "object": "blue yarn",
+      "tool": null,
+      "target": "woven coaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end through woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 166.13,
+      "end": 172.57,
+      "summary": "continue weaving blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end through woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 172.57,
+      "end": 186.08,
+      "summary": "weave another row of blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 186.08,
+      "end": 189.85,
+      "summary": "weave blue yarn through the coaster with both hands",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hands weave blue yarn through the coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 189.85,
+      "end": 202.05,
+      "summary": "cut the blue yarn with scissors",
+      "verb": "cut",
+      "object": "blue yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts blue yarn end with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 202.05,
+      "end": 213.06,
+      "summary": "pull the blue yarn taut through the coaster",
+      "verb": "adjust",
+      "object": "blue yarn",
+      "tool": null,
+      "target": "woven coaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 213.06,
+      "end": 223.52,
+      "summary": "weave another row of blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end on woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 223.52,
+      "end": 231.61,
+      "summary": "continue weaving blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 231.61,
+      "end": 241.44,
+      "summary": "weave the blue yarn across the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 241.44,
+      "end": 250.23,
+      "summary": "weave another pass of blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 250.23,
+      "end": 260.98,
+      "summary": "continue weaving blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 260.98,
+      "end": 270.55,
+      "summary": "weave another row of blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=261-270.5s merged pass; includes a brief yarn-end adjustment.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 270.55,
+      "end": 282.3,
+      "summary": "cut the blue yarn with scissors",
+      "verb": "cut",
+      "object": "blue yarn",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts blue yarn end with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 282.3,
+      "end": 290.51,
+      "summary": "pull the blue yarn taut through the coaster",
+      "verb": "adjust",
+      "object": "blue yarn",
+      "tool": null,
+      "target": "woven coaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 290.51,
+      "end": 303.96,
+      "summary": "continue weaving blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 303.96,
+      "end": 310.57,
+      "summary": "weave another row of blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 310.57,
+      "end": 317.44,
+      "summary": "weave the last rows of blue yarn through the coaster",
+      "verb": "weave",
+      "object": "woven coaster",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "blue yarn"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand pulls blue yarn end from woven coaster",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 317.44,
+      "end": 320.29,
+      "summary": "trim a loose yarn end from the coaster edge",
+      "verb": "cut",
+      "object": "blue yarn",
+      "tool": "scissors",
+      "target": "woven coaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts blue yarn with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 320.29,
+      "end": 324.94,
+      "summary": "trim another loose yarn end from the coaster",
+      "verb": "cut",
+      "object": "blue yarn",
+      "tool": "scissors",
+      "target": "woven coaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts blue yarn end with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 324.94,
+      "end": 333.99,
+      "summary": "trim the cardboard tabs around the coaster",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": "woven coaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=325-334s switches from trimming yarn ends to cutting the surrounding cardboard tabs.",
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand cuts blue yarn with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 333.99,
+      "end": 340.57,
+      "summary": "continue trimming the cardboard loom around the coaster",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": "woven coaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand cuts blue yarn with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 340.57,
+      "end": 347.88,
+      "summary": "trim the last cardboard tab from the coaster",
+      "verb": "cut",
+      "object": "cardboard loom",
+      "tool": "scissors",
+      "target": "woven coaster",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hand cuts yarn with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 347.88,
+      "end": 359.88,
+      "summary": "cut the coaster free from the loom frame",
+      "verb": "cut",
+      "object": "woven coaster",
+      "tool": "scissors",
+      "target": "cardboard loom",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "differs_from_expectation: old_summary says the hands weave blue yarn through the loom here, but the frames show scissors already cutting the coaster away from the loom edges, consistent with steps 44-48.",
+      "old_summary": "hands weave blue yarn through cardboard loom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 359.88,
+      "end": 367.59,
+      "summary": "continue cutting the coaster free from the loom",
+      "verb": "cut",
+      "object": "woven coaster",
+      "tool": "scissors",
+      "target": "cardboard loom",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand cuts yarn with scissors",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 367.59,
+      "end": 372.8,
+      "summary": "detach the finished coaster from the loom",
+      "verb": "remove",
+      "object": "woven coaster",
+      "tool": null,
+      "target": "cardboard loom",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "woven coaster"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand detaches woven coaster from loom",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 33.56,
+      "fine_index_range": [
+        0,
+        13
+      ],
+      "instruction": "Cut the cardboard into a weaving loom",
+      "description": "Cuts a square of cardboard with scissors, removing the center and notching the top and bottom edges to form a comb-style weaving loom.",
+      "transition_in": null,
+      "goal_contribution": "Creates a notched frame to support the yarn.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 33.56,
+      "end": 69.48,
+      "fine_index_range": [
+        14,
+        14
+      ],
+      "instruction": "Thread the warp yarn onto the loom",
+      "description": "Threads a long strand of orange yarn back and forth across the loom's notches, building the vertical warp threads the weft will cross.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Establishes the warp strands for weaving.",
+      "predictability_level": "strong",
+      "predictability_reason": "After cut the cardboard into a weaving loom, thread the warp yarn onto the loom is a natural next stage toward weave a yarn coaster on a cardboard loom."
+    },
+    {
+      "start": 69.48,
+      "end": 317.44,
+      "fine_index_range": [
+        15,
+        40
+      ],
+      "instruction": "Weave the blue weft across the warp",
+      "description": "Weaves a ball of blue yarn over and under the orange warp in repeated rows, periodically cutting and re-pulling the yarn taut to tighten the weave.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Interlaces the blue weft through the orange warp to form the woven square.",
+      "predictability_level": "strong",
+      "predictability_reason": "After thread the warp yarn onto the loom, weave the blue weft across the warp is a natural next stage toward weave a yarn coaster on a cardboard loom."
+    },
+    {
+      "start": 317.44,
+      "end": 347.88,
+      "fine_index_range": [
+        41,
+        45
+      ],
+      "instruction": "Trim excess yarn and cardboard tabs",
+      "description": "Snips loose yarn ends and the cardboard tabs sticking out around the finished weave, tidying the edges of the square.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Tidies the surrounding loose material before release.",
+      "predictability_level": "strong",
+      "predictability_reason": "After weave the blue weft across the warp, trim excess yarn and cardboard tabs is a natural next stage toward weave a yarn coaster on a cardboard loom."
+    },
+    {
+      "start": 347.88,
+      "end": 372.8,
+      "fine_index_range": [
+        46,
+        48
+      ],
+      "instruction": "Cut the coaster free from the loom",
+      "description": "Cuts around the loom's edges with scissors to free the finished woven coaster, lifting it away from the empty frame.",
+      "transition_in": "STRONG",
+      "goal_contribution": "Releases the woven square from the temporary loom.",
+      "predictability_level": "strong",
+      "predictability_reason": "After trim excess yarn and cardboard tabs, cut the coaster free from the loom is a natural next stage toward weave a yarn coaster on a cardboard loom."
+    }
+  ]
+}

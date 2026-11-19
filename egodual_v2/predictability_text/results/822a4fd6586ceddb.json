@@ -1,0 +1,46 @@
+{
+  "video_id": "822a4fd6586ceddb",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "While the bread heats, preparing the herb cheese spread is the natural next stage."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Portioned cream cheese needs herbs and seasoning for the stated spread."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The added herbs and seasonings need mixing into the cheese."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After mixing the spread, warmed bread and toppings are needed for assembly."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "The herb cheese and bread are ready to combine."
+    },
+    {
+      "index": 6,
+      "level": "strong",
+      "reason": "Cheese-covered bread is ready for salmon topping."
+    },
+    {
+      "index": 7,
+      "level": "weak",
+      "reason": "The finished toast may be cut and tasted, though serving could end without it."
+    }
+  ]
+}

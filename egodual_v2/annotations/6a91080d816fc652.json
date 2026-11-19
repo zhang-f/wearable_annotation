@@ -1,0 +1,2452 @@
+{
+  "video_id": "6a91080d816fc652",
+  "duration": 329.4,
+  "task": "Making herbed egg wraps",
+  "domain": "Chef",
+  "query": "How do I make herbed egg wraps?",
+  "goal": {
+    "title": "Cook and portion a herb and cheese omelet",
+    "description": "Turn on the cooktop and crack two eggs into a bowl. Cut sprigs from the countertop herb plants, snip them into the eggs and beat the mixture with a fork. Oil the heated frying pan and pour in the beaten eggs. Unwrap sliced cheese and sprinkle grated cheese over the cooking eggs. Loosen the omelet with a wooden spatula, add cheese strips on one side, fold it and slide it onto the cutting board. Shape the folded omelet, add grated cheese, divide it with the spatula edge and turn off the heat.",
+    "final_state": "The folded cheese omelet is on the cutting board in separate portions; the spatula rests in the empty pan and the heat is switched off.",
+    "procedure": [
+      "Heat the pan and crack two eggs into the bowl.",
+      "Harvest herbs, snip them into the eggs and beat the mixture.",
+      "Oil the pan and pour in the beaten eggs.",
+      "Prepare and add grated and sliced cheeses as the eggs cook.",
+      "Loosen, fold and transfer the omelet to the board.",
+      "Shape, garnish and portion the omelet and switch off the heat."
+    ]
+  },
+  "object_inventory": [
+    "cooktop controls",
+    "mixing bowl",
+    "egg carton",
+    "egg",
+    "eggshell",
+    "cutting board",
+    "scissors",
+    "paper towel",
+    "herb sprigs",
+    "fork",
+    "egg mixture",
+    "oil bottle",
+    "bottle cap",
+    "frying pan",
+    "counter",
+    "cheese package",
+    "cheese slice",
+    "cheese wrapper",
+    "cabinet door",
+    "grated cheese bag",
+    "grated cheese",
+    "spatula",
+    "omelet"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 35.9,
+      "description": "Adjust the cooktop, position the bowl, open the carton and crack two eggs into the bowl, leaving the shells on the board."
+    },
+    {
+      "start": 35.9,
+      "end": 76.1,
+      "description": "Take scissors, snip sprigs from the herb plants, cut them over the bowl and beat the egg mixture with a fork."
+    },
+    {
+      "start": 76.1,
+      "end": 115.14,
+      "description": "Pour oil into the pan, put away the bottle and shells, wipe the work area, check the pan and pour in the beaten eggs."
+    },
+    {
+      "start": 115.14,
+      "end": 193.0,
+      "description": "Watch the cooking eggs, move utensils, unwrap a cheese slice, sprinkle grated cheese and loosen the egg edges with the spatula."
+    },
+    {
+      "start": 193.0,
+      "end": 224.0,
+      "description": "Unwrap and tear another cheese slice, lay strips along one side of the cooking egg layer and pick up the spatula."
+    },
+    {
+      "start": 224.0,
+      "end": 284.6,
+      "description": "Work the spatula under the egg edges, lift the pan and fold and slide the omelet onto the cutting board before replacing the pan."
+    },
+    {
+      "start": 284.6,
+      "end": 327.9,
+      "description": "Use fingers and the spatula to shape the folded omelet, sprinkle grated cheese over it, divide and separate portions and turn off the cooktop."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.35,
+      "old_summary": "hand heats the pan on the stove",
+      "summary": "idle: look over the ingredients and frying pan",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 2.35,
+      "end": 5.29,
+      "old_summary": "n",
+      "summary": "tap the cooktop heat controls",
+      "verb": "adjust",
+      "object": "cooktop controls",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.29,
+      "end": 8.62,
+      "old_summary": "n",
+      "summary": "tap the cooktop heat controls",
+      "verb": "adjust",
+      "object": "cooktop controls",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.62,
+      "end": 10.71,
+      "old_summary": "n",
+      "summary": "tap the cooktop heat controls",
+      "verb": "adjust",
+      "object": "cooktop controls",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 10.71,
+      "end": 13.57,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "move the mixing bowl beside the egg carton",
+      "verb": "move",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 13.57,
+      "end": 14.77,
+      "old_summary": "n",
+      "summary": "pick up the egg carton",
+      "verb": "pick up",
+      "object": "egg carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "egg carton"
+        ],
+        "right": [
+          "egg carton"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.77,
+      "end": 16.91,
+      "old_summary": "n",
+      "summary": "put the egg carton back on the counter",
+      "verb": "put down",
+      "object": "egg carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.91,
+      "end": 18.7,
+      "old_summary": "n",
+      "summary": "open the carton and take an egg",
+      "verb": "pick up",
+      "object": "egg",
+      "tool": null,
+      "target": "egg carton",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.7,
+      "end": 20.39,
+      "old_summary": "hand cracks eggs into a bowl (hand switch)",
+      "summary": "tap the egg against the bowl rim",
+      "verb": "crack",
+      "object": "egg",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.39,
+      "end": 23.9,
+      "old_summary": "n",
+      "summary": "break the egg into the mixing bowl",
+      "verb": "crack",
+      "object": "egg",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.9,
+      "end": 24.7,
+      "old_summary": "n",
+      "summary": "put the eggshells on the cutting board",
+      "verb": "put down",
+      "object": "eggshell",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 24.7,
+      "end": 26.12,
+      "old_summary": "n",
+      "summary": "take another egg from the carton",
+      "verb": "pick up",
+      "object": "egg",
+      "tool": null,
+      "target": "egg carton",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.12,
+      "end": 28.27,
+      "old_summary": "n",
+      "summary": "tap the second egg against the bowl rim",
+      "verb": "crack",
+      "object": "egg",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "egg"
+        ],
+        "right": [
+          "egg"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 28.27,
+      "end": 34.33,
+      "old_summary": "n",
+      "summary": "break the second egg into the bowl",
+      "verb": "crack",
+      "object": "egg",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "eggshell"
+        ],
+        "right": [
+          "eggshell"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 34.33,
+      "end": 35.9,
+      "old_summary": "n",
+      "summary": "put the second eggshells on the board",
+      "verb": "put down",
+      "object": "eggshell",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.9,
+      "end": 36.98,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "pick up the kitchen scissors",
+      "verb": "pick up",
+      "object": "scissors",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 36.98,
+      "end": 40.36,
+      "old_summary": "n",
+      "summary": "tear a sheet from the paper towel roll",
+      "verb": "tear",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 40.36,
+      "end": 42.7,
+      "old_summary": "n",
+      "summary": "reach into the herb plants with the scissors",
+      "verb": "position",
+      "object": "herb sprigs",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "herb sprigs"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 42.7,
+      "end": 44.63,
+      "old_summary": "hand cuts herb stems with scissors then adds cut herbs to bowl",
+      "summary": "snip herb sprigs from the plant",
+      "verb": "cut",
+      "object": "herb sprigs",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "herb sprigs"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.63,
+      "end": 47.72,
+      "old_summary": "n",
+      "summary": "carry the cut herbs over the mixing bowl",
+      "verb": "move",
+      "object": "herb sprigs",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "herb sprigs"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.72,
+      "end": 48.83,
+      "old_summary": "n",
+      "summary": "snip the herbs into the eggs",
+      "verb": "cut",
+      "object": "herb sprigs",
+      "tool": "scissors",
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "herb sprigs"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.83,
+      "end": 51.41,
+      "old_summary": "n",
+      "summary": "snip the herbs into the eggs",
+      "verb": "cut",
+      "object": "herb sprigs",
+      "tool": "scissors",
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "herb sprigs"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.41,
+      "end": 55.43,
+      "old_summary": "n",
+      "summary": "snip the herbs into the eggs",
+      "verb": "cut",
+      "object": "herb sprigs",
+      "tool": "scissors",
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "herb sprigs"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.43,
+      "end": 61.1,
+      "old_summary": "n",
+      "summary": "snip the herbs into the eggs",
+      "verb": "cut",
+      "object": "herb sprigs",
+      "tool": "scissors",
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "herb sprigs"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 61.1,
+      "end": 62.67,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "put the scissors on the cutting board",
+      "verb": "put down",
+      "object": "scissors",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.67,
+      "end": 63.9,
+      "old_summary": "n",
+      "summary": "pick up the fork and lift the bowl",
+      "verb": "pick up",
+      "object": "fork",
+      "tool": null,
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 63.9,
+      "end": 76.1,
+      "old_summary": "whisks the egg and herb mixture in a bowl.",
+      "summary": "beat the eggs and herbs with the fork",
+      "verb": "beat",
+      "object": "egg mixture",
+      "tool": "fork",
+      "target": "mixing bowl",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "fork"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 76.1,
+      "end": 79.5,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "lower the mixing bowl and pick up the oil bottle",
+      "verb": "pick up",
+      "object": "oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 79.5,
+      "end": 84.9,
+      "old_summary": "hand pours oil into the pan",
+      "summary": "pour oil into the frying pan",
+      "verb": "pour",
+      "object": "oil bottle",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "oil bottle"
+        ],
+        "right": [
+          "bottle cap"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 84.9,
+      "end": 86.7,
+      "old_summary": "hand puts down the bottle of oil",
+      "summary": "close and put down the oil bottle",
+      "verb": "put down",
+      "object": "oil bottle",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 86.7,
+      "end": 88.7,
+      "old_summary": "hand picks up two eggs",
+      "summary": "gather the eggshells and close the egg carton",
+      "verb": "close",
+      "object": "egg carton",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 88.7,
+      "end": 88.8,
+      "old_summary": "hand puts down the eggs",
+      "summary": "release the egg carton lid",
+      "verb": "release",
+      "object": "egg carton",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "The 0.1s segment at 88.7–88.8s splits the continuous carton release and transition to paper towel.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 88.8,
+      "end": 90.9,
+      "old_summary": "hand pulls out paper towel",
+      "summary": "tear another paper towel sheet",
+      "verb": "tear",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 90.9,
+      "end": 93.0,
+      "old_summary": "hand tears off paper towel",
+      "summary": "wipe the countertop with the paper towel",
+      "verb": "wipe",
+      "object": "counter",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 93.0,
+      "end": 96.4,
+      "old_summary": "hand wipes cutting board with paper towel",
+      "summary": "wipe the cutting board with the paper towel",
+      "verb": "wipe",
+      "object": "cutting board",
+      "tool": "paper towel",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "paper towel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.4,
+      "end": 99.1,
+      "old_summary": "hand adjusts the pan on stove",
+      "summary": "wipe hands and return towards the pan",
+      "verb": "wipe",
+      "object": "paper towel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "paper towel"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.1,
+      "end": 99.5,
+      "old_summary": "hand spreads oil in pan",
+      "summary": "idle: hold a hand above the warming pan",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "The 99.1–99.5s segment splits the same hand-above-pan check.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 99.5,
+      "end": 102.7,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "tap the cooktop controls while checking the pan",
+      "verb": "adjust",
+      "object": "cooktop controls",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 102.7,
+      "end": 103.55,
+      "old_summary": "hand pours the egg mixture into the pan",
+      "summary": "pick up the bowl of beaten eggs",
+      "verb": "pick up",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "mixing bowl"
+        ],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "The short interval includes the end of the control adjustment and lifting the bowl.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 103.55,
+      "end": 113.5,
+      "old_summary": "n",
+      "summary": "pour the beaten eggs into the frying pan",
+      "verb": "pour",
+      "object": "egg mixture",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "mixing bowl"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 113.5,
+      "end": 115.14,
+      "old_summary": "stirs the eggs in the pan",
+      "summary": "put the empty bowl on the counter",
+      "verb": "put down",
+      "object": "mixing bowl",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.14,
+      "end": 121.9,
+      "old_summary": "n",
+      "summary": "idle: watch the eggs cooking in the pan",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 121.9,
+      "end": 123.65,
+      "old_summary": "stops stirring the eggs and reaches for the cheese",
+      "summary": "idle: gesture beside the cooking pan",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 123.65,
+      "end": 126.9,
+      "old_summary": "n",
+      "summary": "move the scissors and fork aside",
+      "verb": "move",
+      "object": "scissors",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 126.9,
+      "end": 127.75,
+      "old_summary": "opens cheese package, removes slice, tears wrapper, places cheese in pan",
+      "summary": "pick up the sliced cheese package",
+      "verb": "pick up",
+      "object": "cheese package",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese package"
+        ],
+        "right": [
+          "cheese package"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 127.75,
+      "end": 132.84,
+      "old_summary": "n",
+      "summary": "open the sliced cheese package",
+      "verb": "open",
+      "object": "cheese package",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese package"
+        ],
+        "right": [
+          "cheese package"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 132.84,
+      "end": 138.12,
+      "old_summary": "n",
+      "summary": "remove the wrapper from a cheese slice",
+      "verb": "unwrap",
+      "object": "cheese slice",
+      "tool": null,
+      "target": "cheese wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese slice"
+        ],
+        "right": [
+          "cheese wrapper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 138.12,
+      "end": 139.3,
+      "old_summary": "n",
+      "summary": "put the cheese slice and wrapper on the board",
+      "verb": "put down",
+      "object": "cheese slice",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 139.3,
+      "end": 140.9,
+      "old_summary": "discards cheese wrapper",
+      "summary": "idle: rub fingers together beside the counter",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 140.9,
+      "end": 142.53,
+      "old_summary": "reaches for cabinet and retrieves spice container",
+      "summary": "open the cabinet beside the microwave",
+      "verb": "open",
+      "object": "cabinet door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 142.53,
+      "end": 145.21,
+      "old_summary": "sprinkles salt onto eggs",
+      "summary": "close the cabinet and turn towards the cheese bag",
+      "verb": "close",
+      "object": "cabinet door",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 145.21,
+      "end": 146.31,
+      "old_summary": "n",
+      "summary": "pick up the grated cheese bag",
+      "verb": "pick up",
+      "object": "grated cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "grated cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 146.31,
+      "end": 152.9,
+      "old_summary": "n",
+      "summary": "sprinkle grated cheese over the cooking eggs",
+      "verb": "sprinkle",
+      "object": "grated cheese",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "grated cheese bag"
+        ],
+        "right": [
+          "grated cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 152.9,
+      "end": 153.9,
+      "old_summary": "returns salt shaker to counter",
+      "summary": "put the grated cheese bag back on the carton",
+      "verb": "put down",
+      "object": "grated cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 153.9,
+      "end": 168.02,
+      "old_summary": "picks up wooden spatula",
+      "summary": "idle: wait beside the cooking eggs",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 168.02,
+      "end": 170.0,
+      "old_summary": "n",
+      "summary": "pick up the wooden spatula",
+      "verb": "pick up",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 170.0,
+      "end": 185.4,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "loosen the egg edges with the spatula",
+      "verb": "loosen",
+      "object": "egg mixture",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 185.4,
+      "end": 190.74,
+      "old_summary": "n",
+      "summary": "idle: wait with the spatula beside the pan",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 190.74,
+      "end": 193.0,
+      "old_summary": "n",
+      "summary": "put the spatula on the cutting board",
+      "verb": "put down",
+      "object": "spatula",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 193.0,
+      "end": 198.3,
+      "old_summary": "n",
+      "summary": "fold and tear the unwrapped cheese slice",
+      "verb": "tear",
+      "object": "cheese slice",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese slice"
+        ],
+        "right": [
+          "cheese slice"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 198.3,
+      "end": 199.34,
+      "old_summary": "n",
+      "summary": "take another cheese slice from the package",
+      "verb": "pick up",
+      "object": "cheese slice",
+      "tool": null,
+      "target": "cheese package",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese package"
+        ],
+        "right": [
+          "cheese slice"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 199.34,
+      "end": 202.5,
+      "old_summary": "n",
+      "summary": "pull the cheese wrapper apart",
+      "verb": "unwrap",
+      "object": "cheese slice",
+      "tool": null,
+      "target": "cheese wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese slice"
+        ],
+        "right": [
+          "cheese wrapper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 202.5,
+      "end": 206.74,
+      "old_summary": "n",
+      "summary": "peel the wrapper off the cheese slice",
+      "verb": "unwrap",
+      "object": "cheese slice",
+      "tool": null,
+      "target": "cheese wrapper",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese slice"
+        ],
+        "right": [
+          "cheese wrapper"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 206.74,
+      "end": 212.78,
+      "old_summary": "n",
+      "summary": "tear the cheese slice into strips",
+      "verb": "tear",
+      "object": "cheese slice",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese slice"
+        ],
+        "right": [
+          "cheese slice"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 212.78,
+      "end": 215.43,
+      "old_summary": "n",
+      "summary": "pull the cheese strips apart above the pan",
+      "verb": "tear",
+      "object": "cheese slice",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese slice"
+        ],
+        "right": [
+          "cheese slice"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 215.43,
+      "end": 216.68,
+      "old_summary": "n",
+      "summary": "lay cheese strips on one side of the eggs",
+      "verb": "place",
+      "object": "cheese slice",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese slice"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 216.68,
+      "end": 218.6,
+      "old_summary": "n",
+      "summary": "pick up the remaining cheese strip",
+      "verb": "pick up",
+      "object": "cheese slice",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "cheese slice"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 218.6,
+      "end": 220.2,
+      "old_summary": "n",
+      "summary": "place another cheese strip on the eggs",
+      "verb": "place",
+      "object": "cheese slice",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese slice"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 220.2,
+      "end": 222.5,
+      "old_summary": "n",
+      "summary": "place the last cheese strip on the eggs",
+      "verb": "place",
+      "object": "cheese slice",
+      "tool": null,
+      "target": "egg mixture",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 222.5,
+      "end": 224.0,
+      "old_summary": "no interaction (hands not yet engaged)",
+      "summary": "pick up the wooden spatula again",
+      "verb": "pick up",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 224.0,
+      "end": 233.0,
+      "old_summary": "stirs the eggs with the spatula",
+      "summary": "loosen the omelet edges with the spatula",
+      "verb": "loosen",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 233.0,
+      "end": 244.13,
+      "old_summary": "n",
+      "summary": "check the omelet edge and wait",
+      "verb": "loosen",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 244.13,
+      "end": 264.31,
+      "old_summary": "n",
+      "summary": "slide the spatula around and under the omelet",
+      "verb": "loosen",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "frying pan",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 264.31,
+      "end": 271.0,
+      "old_summary": "n",
+      "summary": "lift the frying pan off the cooktop",
+      "verb": "lift",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 271.0,
+      "end": 271.74,
+      "old_summary": "right hand folds the egg mixture using the spatula, then switches to left hand to place the pan on the cutting board",
+      "summary": "carry the pan towards the cutting board",
+      "verb": "move",
+      "object": "frying pan",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 271.74,
+      "end": 283.0,
+      "old_summary": "n",
+      "summary": "fold the omelet and slide it onto the board",
+      "verb": "transfer",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "frying pan"
+        ],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 283.0,
+      "end": 284.6,
+      "old_summary": "hand places spatula on the pan",
+      "summary": "return the empty pan to the cooktop",
+      "verb": "put down",
+      "object": "frying pan",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 284.6,
+      "end": 288.37,
+      "old_summary": "hand presses down on the egg wrap with spatula",
+      "summary": "fold the omelet edge inward with the spatula",
+      "verb": "fold",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 288.37,
+      "end": 292.2,
+      "old_summary": "n",
+      "summary": "shape the folded omelet with fingers and spatula",
+      "verb": "shape",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 292.2,
+      "end": 293.0,
+      "old_summary": "hand adjusts the egg wrap on the cutting board",
+      "summary": "press the omelet seam with the spatula",
+      "verb": "press",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 293.0,
+      "end": 296.0,
+      "old_summary": "hand transfers spatula to left hand",
+      "summary": "put the spatula beside the omelet",
+      "verb": "put down",
+      "object": "spatula",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 296.0,
+      "end": 296.8,
+      "old_summary": "hand places spatula on the cutting board",
+      "summary": "release the spatula handle",
+      "verb": "release",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 296.8,
+      "end": 300.0,
+      "old_summary": "hand picks up cheese package",
+      "summary": "pick up the grated cheese bag again",
+      "verb": "pick up",
+      "object": "grated cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "grated cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 300.0,
+      "end": 302.0,
+      "old_summary": "hand opens cheese package",
+      "summary": "sprinkle grated cheese over the folded omelet",
+      "verb": "sprinkle",
+      "object": "grated cheese",
+      "tool": null,
+      "target": "omelet",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "grated cheese bag"
+        ],
+        "right": [
+          "grated cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 302.0,
+      "end": 302.9,
+      "old_summary": "hand removes cheese slice from package",
+      "summary": "return the grated cheese bag to the carton",
+      "verb": "put down",
+      "object": "grated cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 302.9,
+      "end": 303.0,
+      "old_summary": "hand puts cheese package back on counter",
+      "summary": "release the grated cheese bag",
+      "verb": "release",
+      "object": "grated cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "The 0.1s segment at 302.9–303.0s divides one continuous cheese-bag release.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 303.0,
+      "end": 303.47,
+      "old_summary": "hand picks up spatula",
+      "summary": "pick up the spatula beside the omelet",
+      "verb": "pick up",
+      "object": "spatula",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 303.47,
+      "end": 310.0,
+      "old_summary": "n",
+      "summary": "cut across the omelet with the spatula edge",
+      "verb": "cut",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "cutting board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 310.0,
+      "end": 312.1,
+      "old_summary": "hand separates the two pieces of egg wrap",
+      "summary": "separate the cut omelet portions",
+      "verb": "separate",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 312.1,
+      "end": 314.5,
+      "old_summary": "hand cuts the egg wrap with spatula, then places spatula down and picks up the fork",
+      "summary": "move an omelet portion with the spatula",
+      "verb": "move",
+      "object": "omelet",
+      "tool": "spatula",
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spatula"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 314.5,
+      "end": 316.27,
+      "old_summary": "hand picks up spatula, carries it to stove, places it in pan, then touches stovetop",
+      "summary": "put the spatula down on the board",
+      "verb": "put down",
+      "object": "spatula",
+      "tool": null,
+      "target": "cutting board",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 316.27,
+      "end": 319.2,
+      "old_summary": "n",
+      "summary": "move the spatula into the empty frying pan",
+      "verb": "put down",
+      "object": "spatula",
+      "tool": null,
+      "target": "frying pan",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 319.2,
+      "end": 322.84,
+      "old_summary": "Hand remains resting on the counter",
+      "summary": "turn off the cooktop heat",
+      "verb": "adjust",
+      "object": "cooktop controls",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 322.84,
+      "end": 327.9,
+      "old_summary": "n",
+      "summary": "idle: gesture above the finished omelet portions",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 35.9,
+      "fine_index_range": [
+        0,
+        14
+      ],
+      "instruction": "Heat the pan and crack two eggs.",
+      "description": "Adjust the cooktop, position the bowl, open the carton and crack two eggs into the bowl, leaving the shells on the board.",
+      "goal_contribution": "Prepare the eggs and start warming the pan.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 35.9,
+      "end": 76.1,
+      "fine_index_range": [
+        15,
+        26
+      ],
+      "instruction": "Add fresh herbs and beat the eggs.",
+      "description": "Take scissors, snip sprigs from the herb plants, cut them over the bowl and beat the egg mixture with a fork.",
+      "goal_contribution": "Combine the eggs with cut herbs before frying.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After heat the pan and crack two eggs, add fresh herbs and beat the eggs is plausible for cook and portion a herb and cheese omelet, but several next steps fit."
+    },
+    {
+      "start": 76.1,
+      "end": 115.14,
+      "fine_index_range": [
+        27,
+        40
+      ],
+      "instruction": "Oil the pan and pour in the egg mixture.",
+      "description": "Pour oil into the pan, put away the bottle and shells, wipe the work area, check the pan and pour in the beaten eggs.",
+      "goal_contribution": "Start cooking the herb egg mixture in the oiled pan.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After add fresh herbs and beat the eggs, oil the pan and pour in the egg mixture is a natural next stage toward cook and portion a herb and cheese omelet."
+    },
+    {
+      "start": 115.14,
+      "end": 193.0,
+      "fine_index_range": [
+        41,
+        58
+      ],
+      "instruction": "Prepare cheese while the egg layer sets.",
+      "description": "Watch the cooking eggs, move utensils, unwrap a cheese slice, sprinkle grated cheese and loosen the egg edges with the spatula.",
+      "goal_contribution": "Allow the egg layer to set and prepare cheese for the filling.",
+      "transition_in": "NONE",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After oil the pan and pour in the egg mixture, prepare cheese while the egg layer sets is plausible for cook and portion a herb and cheese omelet, but several next steps fit."
+    },
+    {
+      "start": 193.0,
+      "end": 224.0,
+      "fine_index_range": [
+        59,
+        69
+      ],
+      "instruction": "Place sliced cheese on the egg layer.",
+      "description": "Unwrap and tear another cheese slice, lay strips along one side of the cooking egg layer and pick up the spatula.",
+      "goal_contribution": "Add the sliced cheese filling to the omelet.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After prepare cheese while the egg layer sets, place sliced cheese on the egg layer is a natural next stage toward cook and portion a herb and cheese omelet."
+    },
+    {
+      "start": 224.0,
+      "end": 284.6,
+      "fine_index_range": [
+        70,
+        76
+      ],
+      "instruction": "Loosen, fold and transfer the omelet.",
+      "description": "Work the spatula under the egg edges, lift the pan and fold and slide the omelet onto the cutting board before replacing the pan.",
+      "goal_contribution": "Remove the cooked omelet from the pan in a folded shape.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After place sliced cheese on the egg layer, loosen, fold and transfer the omelet is a natural next stage toward cook and portion a herb and cheese omelet."
+    },
+    {
+      "start": 284.6,
+      "end": 327.9,
+      "fine_index_range": [
+        77,
+        93
+      ],
+      "instruction": "Shape, garnish and portion the omelet.",
+      "description": "Use fingers and the spatula to shape the folded omelet, sprinkle grated cheese over it, divide and separate portions and turn off the cooktop.",
+      "goal_contribution": "Finish the omelet and leave it portioned on the board.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After loosen, fold and transfer the omelet, shape, garnish and portion the omelet is a natural next stage toward cook and portion a herb and cheese omelet."
+    }
+  ],
+  "notes": "Viewed all 11 overview sheets, 24 compact dense sheets (1487 frames) and 6 native endpoint sheets. Visible anchors: two eggs cracked t=20–34s; herbs snipped t=42–61s; whisking t=64–76s; oil t=80–84s; eggs poured t=108–113s; grated cheese t=148–152s; sliced cheese placed t=214–222s; omelet folded and transferred t=276–283s; divided t=306–314s; heat off t=321s. Numerous source boundaries split continuous actions (notably 88.7–88.8s, 302.9–303.0s); boundaries retained. True duration 329.4s exceeds final source boundary 327.9s by 1.5s, consisting of the finished board view."
+}

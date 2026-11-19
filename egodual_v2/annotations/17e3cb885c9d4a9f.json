@@ -1,0 +1,441 @@
+{
+  "video_id": "17e3cb885c9d4a9f",
+  "duration": 86.4,
+  "task": "Replacing a nightlight bulb",
+  "domain": "Handyman",
+  "query": "How do I replace a nightlight bulb?",
+  "goal": {
+    "title": "Replace the bedside lamp bulb",
+    "description": "Unplug the bedside lamp, unscrew and remove its installed bulb, screw in another bulb, align the shade, reconnect the power plug and turn the lamp on.",
+    "final_state": "The replacement bulb is seated beneath the black shade and visibly illuminated; the removed bulb remains on the bedside table.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 5.2,
+        "description": "Approach the wall outlet, grasp the upper black power plug with the right hand and pull it free. Leave the separate lower plug inserted."
+      },
+      {
+        "start": 5.2,
+        "end": 16.06,
+        "description": "Walk to the bedside table and look down through the black lamp shade at the bulb. Briefly touch the shade and its inner support, withdraw the hand, then reach toward the bulb."
+      },
+      {
+        "start": 16.06,
+        "end": 32.6,
+        "description": "Grip the installed bulb with the right hand and repeatedly rotate and regrip it to unscrew it. Lift its threaded base clear of the socket, lower it beside the giraffe ornament on the bedside table and release it."
+      },
+      {
+        "start": 32.6,
+        "end": 57.6,
+        "description": "Pick up the other bulb from the table and turn it between both hands. Raise it above the shade, lower its screw base into the lamp socket and rotate it with the right hand. Briefly release and regrip, then continue turning it repeatedly until it stays seated."
+      },
+      {
+        "start": 57.6,
+        "end": 71.5,
+        "description": "Release the bulb, hold opposite sides of the black shade and straighten it. Let go, step toward the wall outlet and lift the loose plug. Turn and align its prongs with the upper receptacle and press it fully in."
+      },
+      {
+        "start": 71.5,
+        "end": 86.4,
+        "description": "Release the connected plug and return to the lamp. Reach around the lamp below the shade; the control itself is hidden. The installed bulb becomes visibly illuminated around82s. Withdraw and step back while the lamp remains on."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 5.2,
+      "description": "Approach the wall outlet, grasp the upper black power plug with the right hand and pull it free. Leave the separate lower plug inserted."
+    },
+    {
+      "start": 5.2,
+      "end": 16.06,
+      "description": "Walk to the bedside table and look down through the black lamp shade at the bulb. Briefly touch the shade and its inner support, withdraw the hand, then reach toward the bulb."
+    },
+    {
+      "start": 16.06,
+      "end": 32.6,
+      "description": "Grip the installed bulb with the right hand and repeatedly rotate and regrip it to unscrew it. Lift its threaded base clear of the socket, lower it beside the giraffe ornament on the bedside table and release it."
+    },
+    {
+      "start": 32.6,
+      "end": 57.6,
+      "description": "Pick up the other bulb from the table and turn it between both hands. Raise it above the shade, lower its screw base into the lamp socket and rotate it with the right hand. Briefly release and regrip, then continue turning it repeatedly until it stays seated."
+    },
+    {
+      "start": 57.6,
+      "end": 71.5,
+      "description": "Release the bulb, hold opposite sides of the black shade and straighten it. Let go, step toward the wall outlet and lift the loose plug. Turn and align its prongs with the upper receptacle and press it fully in."
+    },
+    {
+      "start": 71.5,
+      "end": 86.4,
+      "description": "Release the connected plug and return to the lamp. Reach around the lamp below the shade; the control itself is hidden. The installed bulb becomes visibly illuminated around82s. Withdraw and step back while the lamp remains on."
+    }
+  ],
+  "object_inventory": [
+    "light bulb",
+    "lamp",
+    "power plug",
+    "wall outlet",
+    "lamp shade",
+    "bedside table",
+    "bulb socket"
+  ],
+  "notes": "All13 humanfine intervals retained. Three overview sheets, every dense page, all13 native end states reviewed. Native PTS burned before fps. Bulb replacement is visibly distinguished by placing one bulb beside ornament and retrieving another; common canonical light bulb retained. No inference that original bulb was electrically faulty. Lamp becomes visibly lit at82s after right hand reaches around lamp; exact switch contact is occluded and marked ambiguous. The shade is held during adjustment, fixed wall outlet and socket are targets rather than held objects. Predictability pending blind stage.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 2.6,
+      "summary": "idle: approach the wall outlet",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves toward the wall outlet",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": null
+    },
+    {
+      "start": 2.6,
+      "end": 5.2,
+      "summary": "pull the lamp power plug from the wall outlet",
+      "verb": "unplug",
+      "object": "power plug",
+      "tool": null,
+      "target": "wall outlet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "power plug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=2.8s grip upper plug; t=3.1–5.1s pull it free. The second lower plug remains inserted.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand unplugs cord from wall outlet",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 5.2,
+      "end": 11.92,
+      "summary": "idle: approach and inspect the lamp",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=5.5–10.5s approach bedside table; t=10.5–11.92s look down inside shade, no hand manipulation.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes the bulb from the lamp base",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 11.92,
+      "end": 16.06,
+      "summary": "touch the lamp shade and reach toward the bulb",
+      "verb": "touch",
+      "object": "lamp shade",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=13.8–14.4s fingers briefly touch shade and inner support, withdraw, then t=16s reach toward bulb.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds the bulb in the lamp base",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 16.06,
+      "end": 27.8,
+      "summary": "unscrew the existing bulb from the lamp socket",
+      "verb": "unscrew",
+      "object": "light bulb",
+      "tool": null,
+      "target": "bulb socket",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "light bulb"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=16.3–27.8s repeatedly turn and regrip bulb; thread remains within socket until just after boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand rotates the bulb in the lamp base",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.8,
+      "end": 32.6,
+      "summary": "lift out the old bulb and set it down",
+      "verb": "put down",
+      "object": "light bulb",
+      "tool": null,
+      "target": "bedside table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=28.1s lift screw base clear of socket; t=29.7–31.5s lower bulb onto table beside giraffe ornament, then release.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places bulb on surface",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 32.6,
+      "end": 40.0,
+      "summary": "insert the replacement bulb and begin screwing it in",
+      "verb": "insert",
+      "object": "light bulb",
+      "tool": null,
+      "target": "bulb socket",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "light bulb"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=32.8s pick up another bulb from table; t=33.5–34.2s turn it between both hands; t=34.7s lower base into socket; t=35–40s rotate it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand inserts bulb into lamp",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 40.0,
+      "end": 57.6,
+      "summary": "tighten the replacement bulb in the lamp socket",
+      "verb": "screw",
+      "object": "light bulb",
+      "tool": null,
+      "target": "bulb socket",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "light bulb"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=40s briefly release bulb; t=41.2–43s regrip and turn; t=44–57.6s repeatedly rotate/regrip. Boundary40s divides same installation sequence.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand screws in bulb",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 57.6,
+      "end": 60.2,
+      "summary": "straighten the lamp shade with both hands",
+      "verb": "adjust",
+      "object": "lamp shade",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "lamp shade"
+        ],
+        "right": [
+          "lamp shade"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=57.8s release bulb; t=58.3–60.13s hold shade at both sides and reposition it.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds lamp shade",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 60.2,
+      "end": 66.3,
+      "summary": "pick up the loose lamp power plug",
+      "verb": "pick up",
+      "object": "power plug",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "power plug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=60.4s release shade; t=61–65.7s step away toward outlet; t=66.267s right hand holds loose plug.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand plugs in the lamp cord",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 66.3,
+      "end": 71.5,
+      "summary": "insert the lamp power plug into the wall outlet",
+      "verb": "plug in",
+      "object": "power plug",
+      "tool": null,
+      "target": "wall outlet",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "power plug"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=66.8s turn plug using both hands; t=67.6–71.4s align and press it into upper socket.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand plugs in lamp cord",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 71.5,
+      "end": 82.1,
+      "summary": "turn on the lamp after reconnecting its power",
+      "verb": "turn on",
+      "object": "lamp",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=71.8s release inserted plug; t=72–76.5s approach lamp; t=77.4s right reaches around lamp below shade, control occluded; t=82.0s bulb illuminates. Exact switch motion is obscured.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "hand turns off the lamp",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 82.1,
+      "end": 86.4,
+      "summary": "idle: inspect the illuminated lamp",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=82.1–86.4s lamp stays lit as wearer steps back. No further hand-object manipulation.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand turns lamp on",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 32.6,
+      "instruction": "Unplug the lamp and remove its bulb",
+      "description": "Approach the outlet and disconnect the upper plug. Walk to the lamp, look inside and briefly touch the shade, then repeatedly unscrew the existing bulb, lift it clear and set it on the bedside table.",
+      "fine_index_range": [
+        0,
+        5
+      ],
+      "transition_in": null,
+      "goal_contribution": "Disconnects lamp power and frees its socket for the replacement bulb.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 32.6,
+      "end": 60.2,
+      "instruction": "Install the replacement bulb and straighten the shade",
+      "description": "Pick up the other bulb, turn it in both hands, lower its threaded base into the socket and repeatedly rotate and regrip it until seated. Hold both sides of the shade and reposition it.",
+      "fine_index_range": [
+        6,
+        8
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Leaves the replacement bulb seated inside the lamp with its shade aligned.",
+      "predictability_level": "strong",
+      "predictability_reason": "After unplug the lamp and remove its bulb, install the replacement bulb and straighten the shade is a natural next stage toward replace the bedside lamp bulb."
+    },
+    {
+      "start": 60.2,
+      "end": 86.4,
+      "instruction": "Reconnect power and check the lamp",
+      "description": "Walk back toward the outlet, pick up and orient the loose power plug, insert it into the upper receptacle and release it. Return to the lamp, reach around its concealed control and observe it illuminate, then step back.",
+      "fine_index_range": [
+        9,
+        12
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Restores power and verifies the lamp visibly lights with the installed replacement.",
+      "predictability_level": "strong",
+      "predictability_reason": "After install the replacement bulb and straighten the shade, reconnect power and check the lamp is a natural next stage toward replace the bedside lamp bulb."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/17e3cb885c9d4a9f/20261106T083104091952Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

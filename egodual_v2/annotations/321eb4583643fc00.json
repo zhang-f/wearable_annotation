@@ -1,0 +1,891 @@
+{
+  "video_id": "321eb4583643fc00",
+  "duration": 157.6,
+  "task": "Cereal box mini easel – cut and fold cereal box cardboard into a small display stand",
+  "domain": "Arts and Crafts",
+  "query": "How do I cut and fold cereal box cardboard into a small display stand?",
+  "goal": {
+    "title": "Make a stand from a cracker box",
+    "description": "Empty a cracker box, cut out a broad panel with scissors and fold its panel and flaps into a small freestanding cardboard support. Adjust it on the counter and release it.",
+    "final_state": "A folded brown cardboard stand remains upright on the counter. It is not loaded with a phone, picture or other object in the video.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 4.9,
+        "description": "Lift the blue cracker box, remove its inner bag of crackers and leave the bag on the counter. Set the emptied box upright."
+      },
+      {
+        "start": 4.9,
+        "end": 21.2,
+        "description": "Retrieve and rub a tissue between the hands. Carry the box to the sink; hold it while adjusting the faucet and tilt its opening down over the basin. Return it to the counter; the image does not clearly show water entering the box."
+      },
+      {
+        "start": 21.2,
+        "end": 47.1,
+        "description": "Lay and turn the box flat, retrieve pink scissors and cut along one long edge, across the short edge and along the other long edge. Rotate and steady the box with the left hand, separating a broad printed panel with attached edge flaps."
+      },
+      {
+        "start": 47.1,
+        "end": 116.4,
+        "description": "Set the scissors down and lay the panel flat. Tap the smartphone, lift and open the small earbud case, retrieve a white earbud and put the case back. Spend an extended interval tapping phone lists, panels and a keyboard before returning to the cardboard."
+      },
+      {
+        "start": 116.4,
+        "end": 124.5,
+        "description": "Lift the printed panel, turn it brown side up, fold it across its width and press the crease flat against the counter with both palms."
+      },
+      {
+        "start": 124.5,
+        "end": 139.5,
+        "description": "Lift and bend the narrow lower strip, repeatedly pinch and reinforce its crease, and open and turn the panel to examine the fold."
+      },
+      {
+        "start": 139.5,
+        "end": 148.6,
+        "description": "Turn the printed side upward, fold and press its lower lip and opposite flap, then turn the folded structure upright with its plain brown face visible. Set the folded base against the counter."
+      },
+      {
+        "start": 148.6,
+        "end": 157.6,
+        "description": "Steady the base and tilt the upper panel to adjust the stand angle. Settle it, release both hands and step back, leaving the cardboard structure standing on the counter. No object is placed on it and no tape application is shown."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 4.9,
+      "description": "Lift the blue cracker box, remove its inner bag of crackers and leave the bag on the counter. Set the emptied box upright."
+    },
+    {
+      "start": 4.9,
+      "end": 21.2,
+      "description": "Retrieve and rub a tissue between the hands. Carry the box to the sink; hold it while adjusting the faucet and tilt its opening down over the basin. Return it to the counter; the image does not clearly show water entering the box."
+    },
+    {
+      "start": 21.2,
+      "end": 47.1,
+      "description": "Lay and turn the box flat, retrieve pink scissors and cut along one long edge, across the short edge and along the other long edge. Rotate and steady the box with the left hand, separating a broad printed panel with attached edge flaps."
+    },
+    {
+      "start": 47.1,
+      "end": 116.4,
+      "description": "Set the scissors down and lay the panel flat. Tap the smartphone, lift and open the small earbud case, retrieve a white earbud and put the case back. Spend an extended interval tapping phone lists, panels and a keyboard before returning to the cardboard."
+    },
+    {
+      "start": 116.4,
+      "end": 124.5,
+      "description": "Lift the printed panel, turn it brown side up, fold it across its width and press the crease flat against the counter with both palms."
+    },
+    {
+      "start": 124.5,
+      "end": 139.5,
+      "description": "Lift and bend the narrow lower strip, repeatedly pinch and reinforce its crease, and open and turn the panel to examine the fold."
+    },
+    {
+      "start": 139.5,
+      "end": 148.6,
+      "description": "Turn the printed side upward, fold and press its lower lip and opposite flap, then turn the folded structure upright with its plain brown face visible. Set the folded base against the counter."
+    },
+    {
+      "start": 148.6,
+      "end": 157.6,
+      "description": "Steady the base and tilt the upper panel to adjust the stand angle. Settle it, release both hands and step back, leaving the cardboard structure standing on the counter. No object is placed on it and no tape application is shown."
+    }
+  ],
+  "object_inventory": [
+    "cracker box",
+    "cardboard panel",
+    "scissors",
+    "faucet",
+    "earbud case",
+    "earbud",
+    "smartphone",
+    "tissue",
+    "cracker bag",
+    "sink",
+    "counter"
+  ],
+  "notes": "Every overview, all dense fine pages and both native endpoint sheets reviewed. Human fine boundaries preserved; new coarse divisions follow material preparation, panel separation and folding. The package is a Chicken in a Biskit cracker box, not a cereal box. A tape dispenser is visible but no tape is taken or applied. Smartphone use is unrelated visual activity, with exact application and purpose unclear. The earbud moves out of frame; wearing it is not asserted. Box tilting over sink does not establish rinsing. Repeated crease intervals are retained without merging human divisions. Final stand is released around153.4s and remains upright through157.533s.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.4,
+      "summary": "remove the cracker bag from the box",
+      "verb": "remove",
+      "object": "cracker bag",
+      "tool": null,
+      "target": "cracker box",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cracker bag"
+        ],
+        "right": [
+          "cracker box"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand pulls out and lifts a plastic bag of cereal from the box",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.4,
+      "end": 4.9,
+      "summary": "set the emptied cracker box on the counter",
+      "verb": "put down",
+      "object": "cracker box",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places cereal box on countertop",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 4.9,
+      "end": 9.2,
+      "summary": "idle: wipe hands with a tissue",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tissue"
+        ],
+        "right": [
+          "tissue"
+        ]
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=5.1s retrieve tissue; t=6.4–8.8s rub and fold it between hands. No craft-object manipulation.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes contents from cereal box",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 9.2,
+      "end": 14.4,
+      "summary": "carry the cracker box to the sink",
+      "verb": "move",
+      "object": "cracker box",
+      "tool": null,
+      "target": "sink",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cracker box"
+        ],
+        "right": [
+          "faucet"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand removes contents from cereal box and sets box aside",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 14.4,
+      "end": 19.0,
+      "summary": "tilt the cracker box over the sink",
+      "verb": "tilt",
+      "object": "cracker box",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cracker box"
+        ],
+        "right": [
+          "faucet"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=14.8–16.1s and17.8–19s right hand adjusts faucet; t=16.5–17.6s left tilts opening downward. No visible stream or falling contents establishes rinsing or emptying.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand tilts cereal box to empty its contents into sink",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.0,
+      "end": 21.2,
+      "summary": "carry the cracker box back to the counter",
+      "verb": "move",
+      "object": "cracker box",
+      "tool": null,
+      "target": "counter",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "cracker box"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places cereal box on countertop",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 21.2,
+      "end": 23.0,
+      "summary": "lay the cracker box flat and pick up scissors",
+      "verb": "move",
+      "object": "cracker box",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cracker box"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand points at cereal box",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.0,
+      "end": 30.1,
+      "summary": "cut along one long edge of the cracker box",
+      "verb": "cut",
+      "object": "cracker box",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cracker box"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts cereal box with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.1,
+      "end": 30.61,
+      "summary": "rotate the cracker box beside the scissors",
+      "verb": "turn",
+      "object": "cracker box",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cracker box"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds cereal box steady while other hand holds scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.61,
+      "end": 36.8,
+      "summary": "cut across the short edge of the cracker box",
+      "verb": "cut",
+      "object": "cracker box",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cracker box"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts cereal box with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.8,
+      "end": 47.1,
+      "summary": "cut the other long edge of the box panel",
+      "verb": "cut",
+      "object": "cracker box",
+      "tool": "scissors",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "scissors"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand cuts cereal box with scissors",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 47.1,
+      "end": 50.0,
+      "summary": "set the scissors and cut panel on the counter",
+      "verb": "put down",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=47.5s set scissors down; t=47.8–49.9s lay separated printed panel flat.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds cereal box",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 50.0,
+      "end": 51.6,
+      "summary": "idle: tap the smartphone screen",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand taps on the phone screen",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 51.6,
+      "end": 52.3,
+      "summary": "pick up the earbud case",
+      "verb": "pick up",
+      "object": "earbud case",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "earbud case"
+        ],
+        "right": [
+          "earbud case"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up a small object from the counter",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 52.3,
+      "end": 54.83,
+      "summary": "open the earbud case and remove an earbud",
+      "verb": "remove",
+      "object": "earbud",
+      "tool": null,
+      "target": "earbud case",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "earbud case"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=52.5s open lid; t=53.4s right hand removes white earbud and moves it out of view; t=54.1–54.8s lower case. Earbud insertion is outside the view.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand places earbuds case on countertop",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 54.83,
+      "end": 116.4,
+      "summary": "idle: operate the smartphone on the counter",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": "t=58–115.5s repeated taps open lists, control panels and a keyboard; no cardboard manipulation. t=115.8–116.3s withdraw and turn toward panel. Exact app or task purpose not inferred.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand taps on the phone screen",
+      "notes": " Type changed based on visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 116.4,
+      "end": 120.1,
+      "summary": "lift and turn over the cardboard panel",
+      "verb": "turn",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds cereal box",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 120.1,
+      "end": 121.65,
+      "summary": "fold the cardboard panel across its width",
+      "verb": "fold",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds the cardboard",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 121.65,
+      "end": 124.5,
+      "summary": "press the cardboard fold flat",
+      "verb": "press",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=122.1–124.4s palms flatten the crease; contact with flat panel is not a held grasp.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands press down on folded cardboard",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.5,
+      "end": 130.0,
+      "summary": "fold the narrow bottom strip of the panel",
+      "verb": "fold",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds cardboard",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 130.0,
+      "end": 135.0,
+      "summary": "pinch the narrow cardboard fold along its length",
+      "verb": "fold",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds cardboard",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 135.0,
+      "end": 137.5,
+      "summary": "crease the folded cardboard strip with both hands",
+      "verb": "crease",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands lift and turn the folded cardboard over",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 137.5,
+      "end": 139.5,
+      "summary": "turn the folded cardboard panel over",
+      "verb": "turn",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands fold cardboard into a rectangular shape",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 139.5,
+      "end": 142.7,
+      "summary": "fold the lower edge toward the printed panel",
+      "verb": "fold",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands press down on the folded cardboard",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 142.7,
+      "end": 145.8,
+      "summary": "fold and flatten the opposite cardboard flap",
+      "verb": "fold",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands press down on the folded cardboard",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 145.8,
+      "end": 147.0,
+      "summary": "turn the folded cardboard upright",
+      "verb": "turn",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds the cardboard",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 147.0,
+      "end": 148.6,
+      "summary": "set the cardboard stand on its folded base",
+      "verb": "put down",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": "counter",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds the cardboard",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 148.6,
+      "end": 152.9,
+      "summary": "adjust the cardboard stand angle on the counter",
+      "verb": "adjust",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cardboard panel"
+        ],
+        "right": [
+          "cardboard panel"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=149.1–152.1s right hand tilts the upper edge while left steadies the base; t=152.5–152.9s settle stand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand folds cardboard",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 152.9,
+      "end": 157.6,
+      "summary": "release the cardboard stand and step back",
+      "verb": "release",
+      "object": "cardboard panel",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=153.4s both hands withdraw, leaving stand upright; t=154–157.5s final inspection. Drawer below is already open; no definite new opening or closing is visible.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves away from the folded cardboard",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 23.0,
+      "instruction": "Empty and arrange the cracker box",
+      "description": "Remove and set aside the inner cracker bag, set down the emptied box, wipe hands, carry the box to the sink and tilt it while adjusting the faucet. Return the box to the counter, lay it flat and retrieve scissors.",
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "transition_in": null,
+      "goal_contribution": "Prepares the box material and cutting tool for making the stand.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 23.0,
+      "end": 116.4,
+      "instruction": "Cut out the cardboard panel",
+      "description": "Cut one long edge, turn the box, cut its short edge and cut the opposite long edge to separate a broad panel. Put scissors and panel down; an intervening earbud-case and phone interaction follows before folding resumes.",
+      "fine_index_range": [
+        7,
+        15
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Produces the single cardboard panel with attached flaps needed for the stand; phone use does not itself construct it.",
+      "predictability_level": "strong",
+      "predictability_reason": "The emptied box is ready to cut into a cardboard panel."
+    },
+    {
+      "start": 116.4,
+      "end": 157.6,
+      "instruction": "Fold and stand the cardboard panel",
+      "description": "Lift and turn the panel, make and flatten a broad crease, fold and reinforce the narrow strip, turn it and fold the remaining flaps. Place the folded structure upright, adjust its angle and release it on the counter.",
+      "fine_index_range": [
+        16,
+        28
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Forms the supporting base and upright face of the small cardboard stand.",
+      "predictability_level": "strong",
+      "predictability_reason": "The cut panel is ready to fold into the stand."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/321eb4583643fc00/20261106T085826305889Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

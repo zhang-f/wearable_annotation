@@ -1,0 +1,36 @@
+{
+  "video_id": "7343f3bdddacab20",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Bread cut for garlic bread naturally leads to preparing garlic."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "Minced garlic is ready to mix into butter."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "Garlic butter and sliced bread are ready to combine."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "Coated bread is ready to toast."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "Toasted garlic bread is ready to plate."
+    }
+  ]
+}

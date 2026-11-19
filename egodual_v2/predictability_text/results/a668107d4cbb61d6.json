@@ -1,0 +1,41 @@
+{
+  "video_id": "a668107d4cbb61d6",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "weak",
+      "reason": "After set out tortillas and cooked chicken, coat the bottom tortilla with barbecue sauce is plausible for cook a barbecue chicken and cheese quesadilla, but several next steps fit."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After coat the bottom tortilla with barbecue sauce, dice and add the chicken is a natural next stage toward cook a barbecue chicken and cheese quesadilla."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After dice and add the chicken, add cheese and assemble the quesadilla in the pan is a natural next stage toward cook a barbecue chicken and cheese quesadilla."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After add cheese and assemble the quesadilla in the pan, cook and turn the quesadilla is a natural next stage toward cook a barbecue chicken and cheese quesadilla."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After cook and turn the quesadilla, finish cooking and plate the quesadilla is a natural next stage toward cook a barbecue chicken and cheese quesadilla."
+    },
+    {
+      "index": 6,
+      "level": "weak",
+      "reason": "After finish cooking and plate the quesadilla, cut the quesadilla into portions is plausible for cook a barbecue chicken and cheese quesadilla, but several next steps fit."
+    }
+  ]
+}

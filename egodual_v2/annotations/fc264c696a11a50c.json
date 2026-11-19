@@ -1,0 +1,1001 @@
+{
+  "video_id": "fc264c696a11a50c",
+  "duration": 141.267,
+  "task": "Replacing batteries in thermostat",
+  "domain": "Handyman",
+  "query": "How do I replace batteries in thermostat?",
+  "goal": {
+    "title": "Replace the thermostat batteries and restore its display",
+    "description": "Detach the thermostat, open its battery cover with a screwdriver after trying a butter knife, and remove the two old cells. Handle and wipe the removed batteries, release them into a bin, then insert replacement cells from a pack. Inspect the blank display, remove and rotate one cell, reinstall it, close the cover, verify that digits appear, and reattach the thermostat to the wall.",
+    "final_state": "The thermostat is mounted on the wall with digits visible; the person has pressed its controls and withdrawn their hands.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 38.51,
+        "description": "Remove the thermostat from the wall and inspect its back. Try levering the battery cover with a butter knife, fetch a screwdriver, pry the cover free and put both cover and screwdriver on the stool."
+      },
+      {
+        "start": 38.51,
+        "end": 78.39,
+        "description": "Remove both batteries and put the thermostat down. Collect the cells in the left hand, rub their terminals with a cotton swab, pick the thermostat up again, carry the removed cells to the bin and return to the stool."
+      },
+      {
+        "start": 78.39,
+        "end": 105.18,
+        "description": "Take two cells from the battery pack and insert them sequentially. Pick up the cover, turn the thermostat between front and back, and inspect its display and battery placement."
+      },
+      {
+        "start": 105.18,
+        "end": 120.07,
+        "description": "Remove one of the inserted cells, rotate it while holding the cover, put it back and press the cover into place."
+      },
+      {
+        "start": 120.07,
+        "end": 136.4,
+        "description": "Inspect the display after digits appear, align the thermostat with its wall mount and release it. Press the lower and upper controls, then leave the mounted thermostat in view."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 38.51,
+      "description": "Remove the thermostat from the wall and inspect its back. Try levering the battery cover with a butter knife, fetch a screwdriver, pry the cover free and put both cover and screwdriver on the stool."
+    },
+    {
+      "start": 38.51,
+      "end": 78.39,
+      "description": "Remove both batteries and put the thermostat down. Collect the cells in the left hand, rub their terminals with a cotton swab, pick the thermostat up again, carry the removed cells to the bin and return to the stool."
+    },
+    {
+      "start": 78.39,
+      "end": 105.18,
+      "description": "Take two cells from the battery pack and insert them sequentially. Pick up the cover, turn the thermostat between front and back, and inspect its display and battery placement."
+    },
+    {
+      "start": 105.18,
+      "end": 120.07,
+      "description": "Remove one of the inserted cells, rotate it while holding the cover, put it back and press the cover into place."
+    },
+    {
+      "start": 120.07,
+      "end": 136.4,
+      "description": "Inspect the display after digits appear, align the thermostat with its wall mount and release it. Press the lower and upper controls, then leave the mounted thermostat in view."
+    }
+  ],
+  "object_inventory": [
+    "thermostat",
+    "battery",
+    "battery cover",
+    "butter knife",
+    "screwdriver",
+    "cotton swab",
+    "battery pack",
+    "stool",
+    "bin"
+  ],
+  "notes": "Only source fine boundaries are treated as trusted. All action descriptions and subtask groups were rewritten from timestamped video. Initial battery insertion is followed by inspection and one-cell rework; no battery polarity or hidden electrical fault is inferred. End-held lists describe grasped objects, not merely touched mounted surfaces. Unannotated tail136.4–141.267s (4.867s): no hand interaction, mounted thermostat remains visible. No steps added. Additional verbs carry and rub are expressed using move/wipe canonical verbs. Detailed goal includes all observed stages; next-subtask predictability is pending independent past-only evaluation.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 4.78,
+      "summary": "remove the thermostat from the wall",
+      "verb": "remove",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 4.78,
+      "end": 9.95,
+      "summary": "turn the thermostat over and inspect the battery cover",
+      "verb": "inspect",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=5–8s repeatedly turn thermostat; t=9.8s right hand reaches toward stool.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.95,
+      "end": 22.23,
+      "summary": "pry the battery cover with the butter knife",
+      "verb": "open",
+      "object": "battery cover",
+      "tool": "butter knife",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "butter knife"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=10.1s pick up knife, t=10.5–20.8s lever cover repeatedly; compound interval.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 22.23,
+      "end": 23.28,
+      "summary": "put down the butter knife on the stool",
+      "verb": "put down",
+      "object": "butter knife",
+      "tool": null,
+      "target": "stool",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 23.28,
+      "end": 27.28,
+      "summary": "pick up the screwdriver",
+      "verb": "pick up",
+      "object": "screwdriver",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=23.5–26.5s walk to table while holding thermostat; t=26.8s take screwdriver.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 27.28,
+      "end": 35.14,
+      "summary": "pry off the battery cover with the screwdriver",
+      "verb": "remove",
+      "object": "battery cover",
+      "tool": "screwdriver",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "screwdriver",
+          "battery cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=29.2–33.5s lever cover; t=34.1–35.0s lift cover away.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 35.14,
+      "end": 36.61,
+      "summary": "place the battery cover on the stool",
+      "verb": "place",
+      "object": "battery cover",
+      "tool": null,
+      "target": "stool",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "screwdriver"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.61,
+      "end": 38.51,
+      "summary": "put down the screwdriver on the stool",
+      "verb": "put down",
+      "object": "screwdriver",
+      "tool": null,
+      "target": "stool",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.51,
+      "end": 42.36,
+      "summary": "remove a battery from the thermostat",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "thermostat",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": "t=39.8–42.3s fingers work battery free; native end grip partly covers cell.",
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "old_summary": "n",
+      "notes": "Exact battery grip at42.333s is partly hidden by right fingers.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 42.36,
+      "end": 45.22,
+      "summary": "remove the remaining battery from the thermostat",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "thermostat",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 45.22,
+      "end": 46.85,
+      "summary": "place the thermostat on the stool",
+      "verb": "place",
+      "object": "thermostat",
+      "tool": null,
+      "target": "stool",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 46.85,
+      "end": 51.66,
+      "summary": "transfer the batteries into the left hand",
+      "verb": "move",
+      "object": "battery",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=47–49s pause; t=49.7–51.4s collect both batteries in left hand.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 51.66,
+      "end": 52.59,
+      "summary": "pick up the cotton swab",
+      "verb": "pick up",
+      "object": "cotton swab",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "cotton swab"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 52.59,
+      "end": 59.84,
+      "summary": "rub the battery terminals with the cotton swab",
+      "verb": "wipe",
+      "object": "battery",
+      "tool": "cotton swab",
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "cotton swab"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=53.1–59.0s wipe ends of batteries; t=59.4s right hand lowers swab toward stool.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 59.84,
+      "end": 60.48,
+      "summary": "pick up the thermostat from the stool",
+      "verb": "pick up",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "thermostat"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 60.48,
+      "end": 73.98,
+      "summary": "carry the thermostat and batteries toward the bin",
+      "verb": "move",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "battery"
+        ],
+        "right": [
+          "thermostat"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=60.5–70.8s hold thermostat and batteries while paused; t=72.8s turn toward bin.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 73.98,
+      "end": 74.65,
+      "summary": "open the bin and release the batteries",
+      "verb": "open",
+      "object": "bin",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "thermostat"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=74.5s lift lid, t=74.7s hand enters bin; boundary at74.65s crosses the opening/releasing event; retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 74.65,
+      "end": 75.15,
+      "summary": "withdraw the hand from the bin",
+      "verb": "move",
+      "object": "bin",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "thermostat"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=74.65–75.15s withdraw left hand, leaving lid open.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 75.15,
+      "end": 78.39,
+      "summary": "carry the thermostat back to the stool",
+      "verb": "move",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=75.4–76.8s transfer thermostat from right to left; t=77–78s right hand lowers toward stool.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 78.39,
+      "end": 82.48,
+      "summary": "pick up a battery from the battery pack",
+      "verb": "pick up",
+      "object": "battery",
+      "tool": null,
+      "target": "battery pack",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 82.48,
+      "end": 85.82,
+      "summary": "insert a battery into the thermostat",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "thermostat",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 85.82,
+      "end": 87.42,
+      "summary": "pick up another battery from the battery pack",
+      "verb": "pick up",
+      "object": "battery",
+      "tool": null,
+      "target": "battery pack",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 87.42,
+      "end": 89.84,
+      "summary": "insert the second battery into the thermostat",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "thermostat",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 89.84,
+      "end": 91.82,
+      "summary": "pick up the battery cover from the stool",
+      "verb": "pick up",
+      "object": "battery cover",
+      "tool": null,
+      "target": "stool",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 91.82,
+      "end": 96.88,
+      "summary": "turn the thermostat over and inspect the display",
+      "verb": "inspect",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=92–93.8s inspect front; t=94.1–96.2s turn back and inspect batteries.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 96.88,
+      "end": 105.18,
+      "summary": "inspect the thermostat display",
+      "verb": "inspect",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=97–103.5s hold front toward view; t=104.1s turn back. Display appears blank; no fault inferred.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.18,
+      "end": 107.01,
+      "summary": "remove a battery from the thermostat",
+      "verb": "remove",
+      "object": "battery",
+      "tool": null,
+      "target": "thermostat",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery",
+          "battery cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 107.01,
+      "end": 113.96,
+      "summary": "turn the battery over beside the thermostat",
+      "verb": "flip",
+      "object": "battery",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery",
+          "battery cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=107–111.8s rotate removed battery; t=113.8s begin insertion. Do not infer polarity from task expectation.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.96,
+      "end": 115.6,
+      "summary": "insert the battery back into the thermostat",
+      "verb": "insert",
+      "object": "battery",
+      "tool": null,
+      "target": "thermostat",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": [
+          "battery cover"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 115.6,
+      "end": 120.07,
+      "summary": "close the thermostat battery cover",
+      "verb": "close",
+      "object": "battery cover",
+      "tool": null,
+      "target": "thermostat",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=115.8s bring cover to opening; t=116.1–119.7s press cover into place.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 120.07,
+      "end": 124.98,
+      "summary": "inspect the powered thermostat display",
+      "verb": "inspect",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "thermostat"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=120.4s digits visible; t=124.3s rotate unit and raise toward wall.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 124.98,
+      "end": 129.06,
+      "summary": "attach the thermostat to the wall",
+      "verb": "attach",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=125–128.4s align and press to wall; t=128.7s release.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 129.06,
+      "end": 133.13,
+      "summary": "press the thermostat controls",
+      "verb": "press",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=129–131s no hand interaction; t=131.5–132.8s press lower control.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 133.13,
+      "end": 136.4,
+      "summary": "press the upper thermostat control",
+      "verb": "press",
+      "object": "thermostat",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=134.2–134.6s press upper control; then no interaction through end of segment.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "n",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 38.51,
+      "fine_index_range": [
+        0,
+        7
+      ],
+      "instruction": "Expose the thermostat battery compartment",
+      "description": "Remove the thermostat from the wall and inspect its back. Try levering the battery cover with a butter knife, fetch a screwdriver, pry the cover free and put both cover and screwdriver on the stool.",
+      "goal_contribution": "Expose the cells so they can be replaced.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 38.51,
+      "end": 78.39,
+      "fine_index_range": [
+        8,
+        18
+      ],
+      "instruction": "Remove and set aside the old batteries",
+      "description": "Remove both batteries and put the thermostat down. Collect the cells in the left hand, rub their terminals with a cotton swab, pick the thermostat up again, carry the removed cells to the bin and return to the stool.",
+      "goal_contribution": "Clear the battery compartment before fitting replacement cells; the observed handling includes terminal wiping and release into a bin.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_reason": "After expose the thermostat battery compartment, remove and set aside the old batteries is a natural next stage toward replace the thermostat batteries and restore its display."
+    },
+    {
+      "start": 78.39,
+      "end": 105.18,
+      "fine_index_range": [
+        19,
+        25
+      ],
+      "instruction": "Install replacement batteries and inspect the display",
+      "description": "Take two cells from the battery pack and insert them sequentially. Pick up the cover, turn the thermostat between front and back, and inspect its display and battery placement.",
+      "goal_contribution": "Attempt to restore power and check the visible result before reassembly.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_reason": "After remove and set aside the old batteries, install replacement batteries and inspect the display is a natural next stage toward replace the thermostat batteries and restore its display."
+    },
+    {
+      "start": 105.18,
+      "end": 120.07,
+      "fine_index_range": [
+        26,
+        29
+      ],
+      "instruction": "Reposition a battery and close the compartment",
+      "description": "Remove one of the inserted cells, rotate it while holding the cover, put it back and press the cover into place.",
+      "goal_contribution": "Complete the observed battery rework and enclose the compartment.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_reason": "After install replacement batteries and inspect the display, reposition a battery and close the compartment is plausible for replace the thermostat batteries and restore its display, but several next steps fit."
+    },
+    {
+      "start": 120.07,
+      "end": 136.4,
+      "fine_index_range": [
+        30,
+        33
+      ],
+      "instruction": "Remount the thermostat and check its controls",
+      "description": "Inspect the display after digits appear, align the thermostat with its wall mount and release it. Press the lower and upper controls, then leave the mounted thermostat in view.",
+      "goal_contribution": "Return the powered thermostat to the wall and check its controls.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_reason": "After reposition a battery and close the compartment, remount the thermostat and check its controls is a natural next stage toward replace the thermostat batteries and restore its display."
+    }
+  ]
+}

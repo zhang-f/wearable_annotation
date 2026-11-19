@@ -1,0 +1,1209 @@
+{
+  "video_id": "296444079e07d511",
+  "duration": 141.6,
+  "task": "How to iron a pair of pants",
+  "domain": "Tutorial",
+  "query": "How do I iron a pair of pants?",
+  "goal": {
+    "title": "Iron and hang a pair of jeans",
+    "description": "Align the jeans on an ironing board and adjust the iron. Repeatedly turn and straighten the garment to press its front and rear sections, switching hands for the lower legs. Clip the waistband onto a hanger with two wooden pegs and hang it from the wardrobe handle.",
+    "final_state": "The jeans hang from a black hanger attached to the wardrobe handle, secured at the waistband with two wooden clothespins. The iron rests upright beside the ironing board.",
+    "procedure": [
+      {
+        "start": 0,
+        "end": 11.2,
+        "description": "Lift the jeans from the board, manipulate and align the elastic waistband, then lay one leg lengthwise on the board. Pull its hem and seams straight and sweep both hands across the fabric to flatten it."
+      },
+      {
+        "start": 11.2,
+        "end": 26.5,
+        "description": "Retrieve the iron from beside the board and adjust its upper control with the left fingers. Pull and smooth the waist, hold the white drawstring aside, make initial pressing strokes over the upper front, then smooth the long leg by hand."
+      },
+      {
+        "start": 26.5,
+        "end": 42.19,
+        "description": "Run the iron back and forth along the first front-facing leg and over the pocket and thigh while the left hand steadies the waistband. Finish toward the lower leg, lift the iron and stand it upright beside the board."
+      },
+      {
+        "start": 42.19,
+        "end": 63.5,
+        "description": "Lift and turn the jeans so a rear pocket faces up. Smooth and align the fabric, retrieve the iron and make repeated strokes over the rear pocket and down the leg. Return the iron to its upright resting position."
+      },
+      {
+        "start": 63.5,
+        "end": 95,
+        "description": "Lift and reorient the garment to expose the other rear-facing section. Pull the hem and seams straight, smooth the leg, steady the waist and iron over the rear pocket and upper leg. Transfer the iron into the left hand for lower-leg strokes, transfer it back and stand it upright."
+      },
+      {
+        "start": 95,
+        "end": 118,
+        "description": "Turn the garment front side up again and realign the other leg on the board. Retrieve the iron, keep the drawstring clear and press the upper front and thigh. Switch to the left hand to press toward the hem, put the iron upright and lift and spread the jeans flat on the board."
+      },
+      {
+        "start": 118,
+        "end": 133.42,
+        "description": "Turn to the nearby chair, collect the black hanger and two wooden clothespins and return. Position the waistband against the hanger lower bar. Squeeze and release a wooden peg to secure one side, align the opposite side and secure it with the second peg."
+      },
+      {
+        "start": 133.42,
+        "end": 141.6,
+        "description": "Lift the hanger carrying the clipped jeans, move toward the wardrobe and shift a small storage box out of the way. Close the wardrobe door with the free left hand and lower the hanger hook onto its handle. Release the hanger, leaving the jeans suspended by the two clothespins."
+      }
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 11.2,
+      "description": "Lift the jeans from the board, manipulate and align the elastic waistband, then lay one leg lengthwise on the board. Pull its hem and seams straight and sweep both hands across the fabric to flatten it."
+    },
+    {
+      "start": 11.2,
+      "end": 26.5,
+      "description": "Retrieve the iron from beside the board and adjust its upper control with the left fingers. Pull and smooth the waist, hold the white drawstring aside, make initial pressing strokes over the upper front, then smooth the long leg by hand."
+    },
+    {
+      "start": 26.5,
+      "end": 42.19,
+      "description": "Run the iron back and forth along the first front-facing leg and over the pocket and thigh while the left hand steadies the waistband. Finish toward the lower leg, lift the iron and stand it upright beside the board."
+    },
+    {
+      "start": 42.19,
+      "end": 63.5,
+      "description": "Lift and turn the jeans so a rear pocket faces up. Smooth and align the fabric, retrieve the iron and make repeated strokes over the rear pocket and down the leg. Return the iron to its upright resting position."
+    },
+    {
+      "start": 63.5,
+      "end": 95,
+      "description": "Lift and reorient the garment to expose the other rear-facing section. Pull the hem and seams straight, smooth the leg, steady the waist and iron over the rear pocket and upper leg. Transfer the iron into the left hand for lower-leg strokes, transfer it back and stand it upright."
+    },
+    {
+      "start": 95,
+      "end": 118,
+      "description": "Turn the garment front side up again and realign the other leg on the board. Retrieve the iron, keep the drawstring clear and press the upper front and thigh. Switch to the left hand to press toward the hem, put the iron upright and lift and spread the jeans flat on the board."
+    },
+    {
+      "start": 118,
+      "end": 133.42,
+      "description": "Turn to the nearby chair, collect the black hanger and two wooden clothespins and return. Position the waistband against the hanger lower bar. Squeeze and release a wooden peg to secure one side, align the opposite side and secure it with the second peg."
+    },
+    {
+      "start": 133.42,
+      "end": 141.6,
+      "description": "Lift the hanger carrying the clipped jeans, move toward the wardrobe and shift a small storage box out of the way. Close the wardrobe door with the free left hand and lower the hanger hook onto its handle. Release the hanger, leaving the jeans suspended by the two clothespins."
+    }
+  ],
+  "object_inventory": [
+    "jeans",
+    "iron",
+    "ironing board",
+    "drawstring",
+    "hanger",
+    "clothespin",
+    "wardrobe door",
+    "storage box",
+    "wardrobe handle"
+  ],
+  "notes": "All five overview sheets, every dense fine page and all three native endpoint sheets visually reviewed. Fine bounds preserved. Fine ends at 141.0s, ffprobe141.6s: final 0.6s is unchanged presentation of hanging jeans and no new fine added. Front/rear labels follow visible front or rear pockets; exact anatomical left/right leg is not inferred. In-hand tracks actual grasp: palm smoothing does not count, and the iron switches to left hand at about87.5s and109.3s. No new water filling, plugging, steam selection or unplugging shown. The garment is clipped to the hanger bar with two separate wooden pegs, not threaded over its bar. New subtask partitions follow complete pressing arrangements and final storage.",
+  "fine": [
+    {
+      "start": 0,
+      "end": 7.2,
+      "summary": "align the jeans on the ironing board",
+      "verb": "align",
+      "object": "jeans",
+      "tool": null,
+      "target": "ironing board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=0.4–1.5s lift jeans; t=2–5s manipulate and align waistband; t=5.8–7.1s lay one leg along board. Exact small waistband fastening is obscured; no buttoning inferred.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands adjust and lay jeans flat on ironing board",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 7.2,
+      "end": 9.2,
+      "summary": "straighten the jeans leg along the board",
+      "verb": "straighten",
+      "object": "jeans",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the jeans on the ironing board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 9.2,
+      "end": 11.2,
+      "summary": "smooth the jeans leg by hand",
+      "verb": "smooth",
+      "object": "jeans",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand smooths out the jeans on the ironing board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.2,
+      "end": 12.3,
+      "summary": "pick up the iron beside the board",
+      "verb": "pick up",
+      "object": "iron",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand picks up the iron",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 12.3,
+      "end": 14.1,
+      "summary": "adjust the control on the iron",
+      "verb": "adjust",
+      "object": "iron",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "iron"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the iron's temperature setting",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.1,
+      "end": 17.2,
+      "summary": "pull the jeans waistband flat on the board",
+      "verb": "pull",
+      "object": "jeans",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the jeans on the ironing board",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 17.2,
+      "end": 18.4,
+      "summary": "smooth the jeans before ironing",
+      "verb": "smooth",
+      "object": "jeans",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the jeans on the ironing board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 18.4,
+      "end": 20.2,
+      "summary": "press the jeans near the waistband with the iron",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "drawstring"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=18.8–19.5s hold white drawstring away from fabric; t=19.8s lower iron onto upper front.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans with iron",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.2,
+      "end": 22.8,
+      "summary": "iron the upper front of the jeans",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=20.2–21.6s continue upper-front passes; t=22.1s iron moves away while left hand reaches fabric.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans with iron",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.8,
+      "end": 26.5,
+      "summary": "smooth the jeans leg with the left hand",
+      "verb": "smooth",
+      "object": "jeans",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand smooths out the jeans on the ironing board",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 26.5,
+      "end": 33.1,
+      "summary": "iron along the front of the jeans leg",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans with iron",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.1,
+      "end": 39.7,
+      "summary": "iron the jeans around the pocket and thigh",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "Continuous iron handling across the 33.1s boundary; t=34–39.5s overlapping passes over upper front and thigh.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans with iron",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 39.7,
+      "end": 42.19,
+      "summary": "set the iron upright beside the board",
+      "verb": "put down",
+      "object": "iron",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=39.7–40.8s finish passes down leg; t=41.1–42.1s place iron upright; hand still on handle at endpoint.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 42.19,
+      "end": 44.9,
+      "summary": "turn the jeans over on the ironing board",
+      "verb": "turn",
+      "object": "jeans",
+      "tool": null,
+      "target": "ironing board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=42.5–44.5s lift and turn jeans so rear pocket faces upward; t=44.9s right hand returns to iron.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the jeans on the ironing board",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 44.9,
+      "end": 48.1,
+      "summary": "smooth the back of the jeans leg",
+      "verb": "smooth",
+      "object": "jeans",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=45.1s retrieve iron; t=46–47.5s pull and smooth rear-facing fabric; t=47.9s begin pressing.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons the leg of the jeans",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 48.1,
+      "end": 55.6,
+      "summary": "iron the jeans around the rear pocket",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons the jeans",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.6,
+      "end": 62.0,
+      "summary": "iron down the back of the jeans leg",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=55.6–61.9s continuous rear-to-leg strokes, not a new object at 55.6s boundary.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans with iron",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 62.0,
+      "end": 63.5,
+      "summary": "set the iron upright beside the jeans",
+      "verb": "put down",
+      "object": "iron",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds iron over jeans",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 63.5,
+      "end": 71.0,
+      "summary": "reposition the jeans leg on the board",
+      "verb": "move",
+      "object": "jeans",
+      "tool": null,
+      "target": "ironing board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=64.4–66.8s lift and turn the garment while preserving rear-facing view; t=67.1–70.9s pull hem and seams straight.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the jeans on the ironing board",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 71.0,
+      "end": 75.1,
+      "summary": "smooth the repositioned jeans leg",
+      "verb": "smooth",
+      "object": "jeans",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hands adjust the jeans on the ironing board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 75.1,
+      "end": 76.83,
+      "summary": "steady the jeans at the waistband",
+      "verb": "hold",
+      "object": "jeans",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=75.2–76.5s left hand works up fabric to waistband; t=76.8s iron comes toward upper rear.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts position of jeans on ironing board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 76.83,
+      "end": 87.0,
+      "summary": "iron the other rear pocket and upper leg",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans with iron",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 87.0,
+      "end": 88.85,
+      "summary": "transfer the iron to the left hand",
+      "verb": "transfer",
+      "object": "iron",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "iron"
+        ],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=87.1–87.7s transfer iron right to left; t=88.4–88.8s right hand grips hem while left positions iron.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons the jeans",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 88.85,
+      "end": 92.6,
+      "summary": "iron the lower jeans leg with the left hand",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "iron"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 92.6,
+      "end": 95.0,
+      "summary": "set the iron upright after switching hands",
+      "verb": "put down",
+      "object": "iron",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=92.6–93.2s transfer iron back to right; t=93.5–94.4s set upright; t=94.8–95s grasp jeans to turn them.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans with iron",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 95.0,
+      "end": 97.0,
+      "summary": "turn the jeans front side upward",
+      "verb": "turn",
+      "object": "jeans",
+      "tool": null,
+      "target": "ironing board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand lays jeans on ironing board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 97.0,
+      "end": 99.5,
+      "summary": "straighten the front jeans leg on the board",
+      "verb": "straighten",
+      "object": "jeans",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=97.4–98s retrieve iron with right hand; left pulls hem and shifts to waistband by t=99.5s.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons the jeans with the iron",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 99.5,
+      "end": 101.2,
+      "summary": "press the upper front of the repositioned jeans",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand holds jeans in place while ironing",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 101.2,
+      "end": 104.0,
+      "summary": "hold the drawstring away from the iron",
+      "verb": "hold",
+      "object": "drawstring",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "iron"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=101.2–103.4s left holds waistband/drawstring clear while right iron makes short upper-front passes; t=103.9s left hand smooths thigh.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans with iron",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 104.0,
+      "end": 109.5,
+      "summary": "iron the front thigh of the jeans",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "iron"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=104–109s repeated front-thigh passes; t=109.1–109.5s transfer iron to left hand. Endpoint left holds iron.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons the jeans",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.5,
+      "end": 113.0,
+      "summary": "iron toward the hem with the left hand",
+      "verb": "iron",
+      "object": "jeans",
+      "tool": "iron",
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "iron"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand irons jeans with iron",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 113.0,
+      "end": 114.2,
+      "summary": "lift the iron away from the jeans",
+      "verb": "move",
+      "object": "iron",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=113.1–113.7s lift iron, switch it to right and move it to upright rest beside board; t=114.1s left reaches waistband.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves iron across jeans",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 114.2,
+      "end": 117.0,
+      "summary": "lift and spread the jeans front side upward",
+      "verb": "move",
+      "object": "jeans",
+      "tool": null,
+      "target": "ironing board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the jeans",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 117.0,
+      "end": 118.0,
+      "summary": "put the jeans flat on the ironing board",
+      "verb": "place",
+      "object": "jeans",
+      "tool": null,
+      "target": "ironing board",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=117.1–117.6s lower jeans and release; t=117.9s left briefly smooths front.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts the jeans on the ironing board",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 118.0,
+      "end": 122.59,
+      "summary": "retrieve the hanger and clothespins from the chair",
+      "verb": "pick up",
+      "object": "hanger",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "jeans"
+        ],
+        "right": [
+          "hanger"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=118.4–119.6s turn toward chair and reach two wooden pegs and black hanger; t=120.3–122.5s return and position hanger above jeans.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand hangs jeans on hanger",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 122.59,
+      "end": 127.9,
+      "summary": "clip the jeans waistband to the hanger",
+      "verb": "clip",
+      "object": "jeans",
+      "tool": "clothespin",
+      "target": "hanger",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "hanger"
+        ],
+        "right": [
+          "jeans"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=123.3–127.8s open a wooden clothespin and clamp one side of waistband onto hanger lower bar; hands partly cover exact closure.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts jeans on hanger",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.9,
+      "end": 133.42,
+      "summary": "clip the other side of the jeans to the hanger",
+      "verb": "clip",
+      "object": "jeans",
+      "tool": "clothespin",
+      "target": "hanger",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "hanger"
+        ],
+        "right": [
+          "hanger"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=127.9–131.3s align opposite waistband edge; t=131.8–133.1s clamp the second wooden peg. Two pegs visible before lifting.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand adjusts jeans on hanger",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.42,
+      "end": 136.8,
+      "summary": "carry the jeans on the hanger toward the wardrobe",
+      "verb": "move",
+      "object": "hanger",
+      "tool": null,
+      "target": null,
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hanger"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=133.6s lift hanger and clipped jeans; t=135.3–136.2s shift the nearby storage box out of the way with left hand; t=136.7s reach door.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand moves a box on a shelf",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 136.8,
+      "end": 138.2,
+      "summary": "close the wardrobe door while holding the hanger",
+      "verb": "close",
+      "object": "wardrobe door",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "hanger"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand opens closet door",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 138.2,
+      "end": 141.0,
+      "summary": "hang the clipped jeans on the wardrobe handle",
+      "verb": "hang",
+      "object": "hanger",
+      "tool": null,
+      "target": "wardrobe handle",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=138.3–139.5s lower hanger hook onto wardrobe handle; t=139.8s release. Final jeans hang by two wooden pegs on lower bar.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "old_summary": "hand hangs pants on a hanger",
+      "notes": "",
+      "transition_in": "STRONG"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 18.4,
+      "instruction": "Arrange the jeans and prepare the iron",
+      "description": "Lift and align the waistband, lay a leg along the ironing board, straighten the hem and smooth the fabric. Retrieve the iron, adjust its control and pull the upper jeans flat.",
+      "fine_index_range": [
+        0,
+        6
+      ],
+      "transition_in": null,
+      "goal_contribution": "Sets up the garment and tool for pressing.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 18.4,
+      "end": 42.19,
+      "instruction": "Iron the first front section",
+      "description": "Hold the drawstring aside, press the upper front, smooth the long leg and make repeated iron strokes along the leg and over the front pocket and thigh. Stand the iron upright after finishing.",
+      "fine_index_range": [
+        7,
+        12
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Presses the first exposed front-facing section of the jeans.",
+      "predictability_level": "strong",
+      "predictability_reason": "After arrange the jeans and prepare the iron, iron the first front section is a natural next stage toward iron and hang a pair of jeans."
+    },
+    {
+      "start": 42.19,
+      "end": 63.5,
+      "instruction": "Iron the first rear section",
+      "description": "Turn the jeans rear side up, retrieve the iron, pull and smooth the fabric and press around the rear pocket and down the leg. Return the iron to its rest.",
+      "fine_index_range": [
+        13,
+        17
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Presses the rear surface exposed by the first turn.",
+      "predictability_level": "strong",
+      "predictability_reason": "After iron the first front section, iron the first rear section is a natural next stage toward iron and hang a pair of jeans."
+    },
+    {
+      "start": 63.5,
+      "end": 95.0,
+      "instruction": "Iron the other rear section",
+      "description": "Lift and reorient the garment, straighten and smooth the other rear-facing leg, then press the pocket and upper leg. Switch the iron into the left hand for the lower leg, switch back and stand it upright.",
+      "fine_index_range": [
+        18,
+        24
+      ],
+      "transition_in": "WEAK",
+      "goal_contribution": "Extends pressing to the other rear-facing section and lower leg.",
+      "predictability_level": "strong",
+      "predictability_reason": "After iron the first rear section, iron the other rear section is a natural next stage toward iron and hang a pair of jeans."
+    },
+    {
+      "start": 95.0,
+      "end": 114.2,
+      "instruction": "Iron the remaining front section",
+      "description": "Turn the jeans front side up, straighten the leg, retrieve the iron and keep the drawstring clear. Press the upper front and thigh, switch to the left hand for the hem and put the iron aside.",
+      "fine_index_range": [
+        25,
+        31
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Finishes the front-facing section that was not pressed in the first arrangement.",
+      "predictability_level": "strong",
+      "predictability_reason": "After iron the other rear section, iron the remaining front section is a natural next stage toward iron and hang a pair of jeans."
+    },
+    {
+      "start": 114.2,
+      "end": 141.0,
+      "instruction": "Clip and hang the pressed jeans",
+      "description": "Lift and spread the jeans on the board, collect the hanger and two wooden pegs, and clip both sides of the waistband onto the hanger lower bar. Carry the jeans toward the wardrobe, move the storage box, close the door and hang the hanger on its handle.",
+      "fine_index_range": [
+        32,
+        39
+      ],
+      "transition_in": "STRONG",
+      "goal_contribution": "Stores the pressed garment suspended from its waistband.",
+      "predictability_level": "strong",
+      "predictability_reason": "After iron the remaining front section, clip and hang the pressed jeans is a natural next stage toward iron and hang a pair of jeans."
+    }
+  ],
+  "annotation_provenance": {
+    "method": "overview followed by every fine dense interval and native end-state review",
+    "evidence_directory": "frames_v2/296444079e07d511/20261106T085325829139Z",
+    "fine_boundaries": "preserved human divisions",
+    "description_source": "independent visual rewrite; old_summary kept for provenance only",
+    "predictability": "not assessed by annotator who viewed future"
+  }
+}

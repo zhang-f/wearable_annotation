@@ -1,0 +1,1122 @@
+{
+  "video_id": "7c471a0376c4005b",
+  "duration": 146.4,
+  "task": "Making Mini Tacos (pre-cooked meat)",
+  "domain": "Chef",
+  "query": "How do I make mini tacos using pre-cooked meat?",
+  "goal": {
+    "title": "Assemble and taste a filled tortilla wrap",
+    "description": "Fill a tortilla with spooned cooked crumbled filling, avocado, shredded cheese, yogurt and leafy garnish; fold it around the filling and take several bites.",
+    "final_state": "A partly eaten folded wrap remains on the plate beside the ingredients.",
+    "procedure": [
+      "Lay a tortilla on the plate and spoon cooked crumbled filling along its center.",
+      "Scoop avocado flesh from its peel onto the filling.",
+      "Sprinkle shredded cheese over the avocado and add a spoonful of yogurt.",
+      "Add leafy garnish and close the yogurt container.",
+      "Fold the tortilla around the filling, lift and taste it, then place the partly eaten wrap back on the plate."
+    ]
+  },
+  "object_inventory": [
+    "tortilla",
+    "plate",
+    "avocado",
+    "spoon",
+    "cooked filling",
+    "filling container",
+    "cheese bag",
+    "shredded cheese",
+    "yogurt tub",
+    "yogurt lid",
+    "yogurt",
+    "garnish bag",
+    "leafy garnish",
+    "table"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 22.86,
+      "description": "A tortilla is spread on a plate, and a spoon transfers several portions of browned crumbled filling from a plastic container into a central strip. The container is returned to the table."
+    },
+    {
+      "start": 22.86,
+      "end": 38.83,
+      "description": "An avocado half is held over the tortilla while a spoon repeatedly scrapes and places its flesh on the cooked filling; the peel and spoon are then put aside."
+    },
+    {
+      "start": 38.83,
+      "end": 73.03,
+      "description": "The cheese bag is opened and shredded cheese sprinkled over the filling. The yogurt tub is opened, a spoonful is deposited and spread, and leafy garnish is added from a bag."
+    },
+    {
+      "start": 73.03,
+      "end": 93.5,
+      "description": "The yogurt tub is closed and the garnish bag returned. Both hands fold and tuck the tortilla around the filling, then lift the assembled wrap to eat."
+    },
+    {
+      "start": 93.5,
+      "end": 146.4,
+      "description": "The wrap is lowered, adjusted and lifted for further bites, with pauses and hand gestures between handling. A partly eaten wrap remains on the plate."
+    }
+  ],
+  "fine": [
+    {
+      "start": 0,
+      "end": 3.55,
+      "old_summary": "hand places tortilla on plate",
+      "summary": "both hands lay the tortilla on the plate",
+      "verb": "place",
+      "object": "tortilla",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": null
+    },
+    {
+      "start": 3.55,
+      "end": 9.9,
+      "old_summary": "hand moves avocado half and then scoops food from container",
+      "summary": "right hand takes the spoon while left lifts the filling container",
+      "verb": "pick up",
+      "object": "spoon",
+      "tool": null,
+      "target": "filling container",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "filling container"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "3.55–9.9s includes brief avocado handling followed by collecting spoon and filling container; boundaries retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 9.9,
+      "end": 11.84,
+      "old_summary": "hand scoops pre-cooked meat from container with spoon",
+      "summary": "right hand spoons cooked filling onto the tortilla",
+      "verb": "spoon",
+      "object": "cooked filling",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filling container"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 11.84,
+      "end": 14.54,
+      "old_summary": "hand scoops pre-cooked meat from container with spoon",
+      "summary": "right hand adds another spoonful of filling",
+      "verb": "spoon",
+      "object": "cooked filling",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filling container"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 14.54,
+      "end": 16.86,
+      "old_summary": "hand scoops pre-cooked meat from container with spoon",
+      "summary": "right hand spreads filling along the tortilla center",
+      "verb": "spread",
+      "object": "cooked filling",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filling container"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 16.86,
+      "end": 19.02,
+      "old_summary": "hand scoops meat from container with spoon",
+      "summary": "right hand scoops more filling from the container",
+      "verb": "scoop",
+      "object": "cooked filling",
+      "tool": "spoon",
+      "target": "filling container",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filling container"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 19.02,
+      "end": 21.64,
+      "old_summary": "hand scoops meat from container with spoon",
+      "summary": "right hand deposits the remaining spoonful on the tortilla",
+      "verb": "spoon",
+      "object": "cooked filling",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "filling container"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 21.64,
+      "end": 22.86,
+      "old_summary": "hand spreads meat on tortilla",
+      "summary": "left hand returns the filling container to the table",
+      "verb": "place",
+      "object": "filling container",
+      "tool": null,
+      "target": "table",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 22.86,
+      "end": 24.0,
+      "old_summary": "hand holds avocado half over tortilla",
+      "summary": "left hand picks up an avocado half",
+      "verb": "pick up",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 24.0,
+      "end": 25.5,
+      "old_summary": "hand spreads pre-cooked meat on tortilla",
+      "summary": "right hand scoops avocado flesh onto the tortilla",
+      "verb": "scoop",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 25.5,
+      "end": 27.84,
+      "old_summary": "hand spreads avocado on tortilla",
+      "summary": "right hand removes another avocado piece with the spoon",
+      "verb": "scoop",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 27.84,
+      "end": 30.47,
+      "old_summary": "hand spreads avocado on tortilla",
+      "summary": "right hand places more avocado onto the filling",
+      "verb": "place",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 30.47,
+      "end": 33.02,
+      "old_summary": "hand spreads avocado on tortilla",
+      "summary": "right hand scrapes avocado flesh from the peel",
+      "verb": "scrape",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 33.02,
+      "end": 34.81,
+      "old_summary": "hand places avocado slice on tortilla",
+      "summary": "right hand arranges avocado pieces on the filling",
+      "verb": "arrange",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 34.81,
+      "end": 36.2,
+      "old_summary": "hand spreads avocado slices on tortilla",
+      "summary": "right hand scrapes the last avocado pieces onto the tortilla",
+      "verb": "scrape",
+      "object": "avocado",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "avocado"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 36.2,
+      "end": 38.83,
+      "old_summary": "hand picks up cheese packet",
+      "summary": "both hands set the avocado peel and spoon aside",
+      "verb": "place",
+      "object": "avocado",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 38.83,
+      "end": 41.51,
+      "old_summary": "hand tears open cheese packet",
+      "summary": "both hands pick up the shredded cheese bag",
+      "verb": "pick up",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese bag"
+        ],
+        "right": [
+          "cheese bag"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 41.51,
+      "end": 44.57,
+      "old_summary": "hand sprinkles cheese onto the tortilla",
+      "summary": "both hands pull open the cheese bag",
+      "verb": "open",
+      "object": "cheese bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "cheese bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 44.57,
+      "end": 48.63,
+      "old_summary": "hand sprinkles cheese onto tortilla",
+      "summary": "right hand sprinkles shredded cheese onto the tortilla",
+      "verb": "sprinkle",
+      "object": "shredded cheese",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "cheese bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 48.63,
+      "end": 52.97,
+      "old_summary": "hand sprinkles cheese onto the tortilla",
+      "summary": "right hand adds cheese and sets the bag aside",
+      "verb": "sprinkle",
+      "object": "shredded cheese",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 52.97,
+      "end": 54.4,
+      "old_summary": "hand sprinkles cheese from packet onto tortilla",
+      "summary": "right hand lifts the yogurt tub lid",
+      "verb": "open",
+      "object": "yogurt lid",
+      "tool": null,
+      "target": "yogurt tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "yogurt lid"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 54.4,
+      "end": 55.95,
+      "old_summary": "hand pours cheese from bag onto tortilla",
+      "summary": "right hand sets the yogurt lid aside",
+      "verb": "place",
+      "object": "yogurt lid",
+      "tool": null,
+      "target": "table",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 55.95,
+      "end": 58.9,
+      "old_summary": "hand spreads cheese on tortilla with spoon",
+      "summary": "right hand scoops yogurt while left hand holds the tub",
+      "verb": "scoop",
+      "object": "yogurt",
+      "tool": "spoon",
+      "target": "yogurt tub",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [
+          "yogurt tub"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 58.9,
+      "end": 63.21,
+      "old_summary": "hand spreads cheese on tortilla with spoon",
+      "summary": "right hand deposits yogurt onto the wrap filling",
+      "verb": "spoon",
+      "object": "yogurt",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 63.21,
+      "end": 65.9,
+      "old_summary": "hand spreads white substance on tortilla with spoon",
+      "summary": "right hand spreads the yogurt over the filling",
+      "verb": "spread",
+      "object": "yogurt",
+      "tool": "spoon",
+      "target": "tortilla",
+      "hands": "right",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 65.9,
+      "end": 73.03,
+      "old_summary": "hand spreads cheese on the tortilla",
+      "summary": "left hand takes leafy garnish and places it on the filling",
+      "verb": "sprinkle",
+      "object": "leafy garnish",
+      "tool": null,
+      "target": "tortilla",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": true,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "medium",
+      "notes": "66–72s leafy green pieces are pinched from a bag; exact herb variety cannot be established.",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 73.03,
+      "end": 74.29,
+      "old_summary": "hand sprinkles cheese onto the tortilla",
+      "summary": "left hand picks up the yogurt lid",
+      "verb": "pick up",
+      "object": "yogurt lid",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "yogurt lid"
+        ],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 74.29,
+      "end": 74.9,
+      "old_summary": "hand adjusts position of cheese container",
+      "summary": "left hand closes the yogurt tub",
+      "verb": "close",
+      "object": "yogurt lid",
+      "tool": null,
+      "target": "yogurt tub",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 74.9,
+      "end": 76.59,
+      "old_summary": "hand moves yogurt container",
+      "summary": "left hand returns the garnish bag beside the yogurt",
+      "verb": "place",
+      "object": "garnish bag",
+      "tool": null,
+      "target": "table",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "spoon"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 76.59,
+      "end": 82.21,
+      "old_summary": "hand adjusts taco on plate with spoon",
+      "summary": "both hands fold the tortilla around the filling",
+      "verb": "fold",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 82.21,
+      "end": 93.5,
+      "old_summary": "hand places spoon on plate",
+      "summary": "both hands tuck the wrap closed and lift it to eat",
+      "verb": "fold",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": [
+          "tortilla"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "82.21–93.5s includes tucking, lifting and eating the wrap; boundaries retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 93.5,
+      "end": 105.73,
+      "old_summary": "hand holds taco on plate",
+      "summary": "both hands lower and adjust the partly eaten wrap",
+      "verb": "place",
+      "object": "tortilla",
+      "tool": null,
+      "target": "plate",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "93.5–105.73s includes lowering, adjusting and lifting the wrap again; boundaries retained.",
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 105.73,
+      "end": 109.38,
+      "old_summary": "hand adjusts taco on plate",
+      "summary": "left hand lifts the wrap for another bite",
+      "verb": "lift",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 109.38,
+      "end": 121.44,
+      "old_summary": "hand claps",
+      "summary": "idle hands rub together and gesture above the plate",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 121.44,
+      "end": 122.26,
+      "old_summary": "hand places lime on table",
+      "summary": "left hand briefly touches the avocado peel",
+      "verb": "touch",
+      "object": "avocado",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 122.26,
+      "end": 125.2,
+      "old_summary": "hand eats taco",
+      "summary": "left hand lifts the folded wrap for another bite",
+      "verb": "lift",
+      "object": "tortilla",
+      "tool": null,
+      "target": null,
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 125.2,
+      "end": 127.0,
+      "old_summary": "hand holds taco",
+      "summary": "left hand lowers the partly eaten wrap onto the plate",
+      "verb": "place",
+      "object": "tortilla",
+      "tool": null,
+      "target": "plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 127.0,
+      "end": 133.42,
+      "old_summary": "hand holds taco",
+      "summary": "left hand holds the wrap against the plate",
+      "verb": "hold",
+      "object": "tortilla",
+      "tool": null,
+      "target": "plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 133.42,
+      "end": 137.29,
+      "old_summary": "hand picks up the taco",
+      "summary": "idle hands rub together above the plate",
+      "verb": null,
+      "object": null,
+      "tool": null,
+      "target": null,
+      "hands": "unclear",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "idle",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": " Type re-evaluated from visible interaction.",
+      "transition_in": "NONE"
+    },
+    {
+      "start": 137.29,
+      "end": 146.4,
+      "old_summary": "hand holds the taco",
+      "summary": "left hand rests on the folded wrap on the plate",
+      "verb": "hold",
+      "object": "tortilla",
+      "tool": null,
+      "target": "plate",
+      "hands": "left",
+      "in_hand_at_end": {
+        "left": [
+          "tortilla"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "beyond_video_end": false,
+      "confidence": "high",
+      "notes": "",
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0,
+      "end": 22.86,
+      "fine_index_range": [
+        0,
+        7
+      ],
+      "instruction": "Fill the tortilla with cooked filling",
+      "description": "A tortilla is spread on a plate, and a spoon transfers several portions of browned crumbled filling from a plastic container into a central strip. The container is returned to the table.",
+      "goal_contribution": "Establishes the main filling while leaving tortilla edges available for folding.",
+      "transition_in": null,
+      "predictability_level": "no",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 22.86,
+      "end": 38.83,
+      "fine_index_range": [
+        8,
+        15
+      ],
+      "instruction": "Add avocado pieces",
+      "description": "An avocado half is held over the tortilla while a spoon repeatedly scrapes and places its flesh on the cooked filling; the peel and spoon are then put aside.",
+      "goal_contribution": "Adds avocado across the filling strip.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After fill the tortilla with cooked filling, add avocado pieces is plausible for assemble and taste a filled tortilla wrap, but several next steps fit."
+    },
+    {
+      "start": 38.83,
+      "end": 73.03,
+      "fine_index_range": [
+        16,
+        25
+      ],
+      "instruction": "Add cheese, yogurt and leafy garnish",
+      "description": "The cheese bag is opened and shredded cheese sprinkled over the filling. The yogurt tub is opened, a spoonful is deposited and spread, and leafy garnish is added from a bag.",
+      "goal_contribution": "Completes the visible layers of the wrap filling.",
+      "transition_in": "WEAK",
+      "predictability_level": "weak",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After add avocado pieces, add cheese, yogurt and leafy garnish is plausible for assemble and taste a filled tortilla wrap, but several next steps fit."
+    },
+    {
+      "start": 73.03,
+      "end": 93.5,
+      "fine_index_range": [
+        26,
+        30
+      ],
+      "instruction": "Close containers and fold the wrap",
+      "description": "The yogurt tub is closed and the garnish bag returned. Both hands fold and tuck the tortilla around the filling, then lift the assembled wrap to eat.",
+      "goal_contribution": "Encloses the prepared filling in a handheld wrap.",
+      "transition_in": "WEAK",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After add cheese, yogurt and leafy garnish, close containers and fold the wrap is a natural next stage toward assemble and taste a filled tortilla wrap."
+    },
+    {
+      "start": 93.5,
+      "end": 146.4,
+      "fine_index_range": [
+        31,
+        39
+      ],
+      "instruction": "Taste and set down the wrap",
+      "description": "The wrap is lowered, adjusted and lifted for further bites, with pauses and hand gestures between handling. A partly eaten wrap remains on the plate.",
+      "goal_contribution": "Checks the prepared wrap by tasting it and leaves the remainder on the plate.",
+      "transition_in": "STRONG",
+      "predictability_level": "strong",
+      "predictability_status": "pending_independent_past_only_test",
+      "predictability_reason": "After close containers and fold the wrap, taste and set down the wrap is a natural next stage toward assemble and taste a filled tortilla wrap."
+    }
+  ],
+  "notes": "Reviewed all overview sheets, all 602 dense sampled frames and native boundary frames. Brown crumbled filling species is not identifiable; leafy garnish variety also remains unspecified. Late intervals include eating/gesturing rather than additional cooking. All original fine boundaries retained; semantic predictability pending."
+}

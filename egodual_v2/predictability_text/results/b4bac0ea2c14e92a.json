@@ -1,0 +1,31 @@
+{
+  "video_id": "b4bac0ea2c14e92a",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "Prepared yarn is ready to wrap into tassel loops near the pencil."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "The wrapped loops need gathering into a bundle."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "The gathered bundle needs its neck tied tight."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "A tied tassel needs its looped fringe cut and trimmed."
+    }
+  ]
+}

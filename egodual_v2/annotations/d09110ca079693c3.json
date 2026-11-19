@@ -1,0 +1,278 @@
+{
+  "video_id": "d09110ca079693c3",
+  "duration": 288.334,
+  "task": "Counting objects in groups",
+  "domain": "Tutorial",
+  "query": "How do I count objects in groups?",
+  "goal": {
+    "title": "Sort coins, thread spools, and pins into counted groups",
+    "description": "Opens a wallet and empties its coins onto the table, then empties a plastic bag of craft supplies (small thread spools and sewing pins) next to them. Separates the pins, spools, and coins into their own piles, then repeatedly regroups each pile into smaller clusters, counting each cluster and writing the tally on a notepad with a pencil. The process is repeated for every object category to demonstrate counting objects in groups.",
+    "final_state": "Coins, thread spools, and pins are organized into small counted clusters on the table and the counts are hand-written in tally form on the notepad; the pencil is still in hand when the fine-track annotation ends, about 19 seconds before the video itself ends.",
+    "procedure": [
+      "Open the wallet and empty coins onto the table.",
+      "Empty the bag of thread spools and sewing pins beside the coins.",
+      "Sort the mixed objects into piles by type.",
+      "Move the objects into counted groups and write counts on the notepad."
+    ]
+  },
+  "phases": [
+    {
+      "start": 0,
+      "end": 20.71,
+      "description": "Empty the wallet and plastic bag of materials onto the table."
+    },
+    {
+      "start": 20.71,
+      "end": 38.82,
+      "description": "Separate the coins, spools, and pins into piles."
+    },
+    {
+      "start": 38.82,
+      "end": 269.3,
+      "description": "Group the objects into small clusters, count each cluster, and tally the results on the notepad, repeating for every category."
+    }
+  ],
+  "object_inventory": [
+    "wallet",
+    "coin",
+    "plastic bag",
+    "thread spool",
+    "pin",
+    "notepad",
+    "pencil",
+    "table"
+  ],
+  "notes": "Only human fine boundaries trusted. Overview (0.5fps) covering the full 288.334s video reviewed. Fine step 7 (38.82-269.3s, ~230s) is a single human-cut segment but visually contains a long repeated cycle: group a cluster of pins/spools/coins, count it, and write the tally on a 'BMW GROUP' notepad, repeated many times for each object category; summarized holistically with confidence 'low' since 0.5fps overview sampling cannot resolve the exact number of repeat cycles. Step 7 differs sharply from its old_summary ('hand picks up a spool of thread'); recorded as differs_from_expectation. Verb 'sort' is not in the suggested verb list but is used consistently for the grouping/separating actions, per the prompt's allowance for unlisted verbs. The fine track ends at 269.3s but ffprobe duration is 288.334s; the uncovered ~19.03s tail shows the same hand continuing to write on the notepad with no new task action, so no additional step was added.",
+  "fine": [
+    {
+      "start": 0.0,
+      "end": 4.63,
+      "summary": "open the wallet and take out the coins",
+      "verb": "open",
+      "object": "wallet",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "wallet"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand opens wallet and extracts coins",
+      "beyond_video_end": false,
+      "transition_in": null
+    },
+    {
+      "start": 4.63,
+      "end": 8.92,
+      "summary": "shake the remaining coins out of the wallet",
+      "verb": "pour",
+      "object": "coin",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand empties coins from a wallet onto the table",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 8.92,
+      "end": 18.26,
+      "summary": "empty the plastic bag of craft supplies onto the table",
+      "verb": "pour",
+      "object": "plastic bag",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "plastic bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=9-18s continuous pouring of thread spools and pins out of the bag.",
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hands empty plastic bag of craft supplies onto table",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 18.26,
+      "end": 20.71,
+      "summary": "continue emptying the plastic bag onto the table",
+      "verb": "pour",
+      "object": "plastic bag",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "plastic bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "high",
+      "notes": "",
+      "old_summary": "hand empties plastic bag onto table",
+      "beyond_video_end": false,
+      "transition_in": "STRONG"
+    },
+    {
+      "start": 20.71,
+      "end": 25.11,
+      "summary": "separate the spools and pins on the table",
+      "verb": "sort",
+      "object": "thread spool",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "Verb 'sort' is not in the suggested list; used for the grouping/separating actions, per the prompt's allowance for unlisted verbs.",
+      "old_summary": "hands manipulate and separate small objects",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 25.11,
+      "end": 35.25,
+      "summary": "sort the pins into separate piles",
+      "verb": "sort",
+      "object": "pin",
+      "tool": null,
+      "target": "table",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hands sort through and organize pins on the table",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 35.25,
+      "end": 38.82,
+      "summary": "pick through the plastic bag for remaining pins",
+      "verb": "sort",
+      "object": "plastic bag",
+      "tool": null,
+      "target": null,
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [
+          "plastic bag"
+        ],
+        "right": []
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": null,
+      "confidence": "medium",
+      "notes": "",
+      "old_summary": "hands manipulate a plastic bag containing pins",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    },
+    {
+      "start": 38.82,
+      "end": 269.3,
+      "summary": "group objects into clusters and tally the counts",
+      "verb": "sort",
+      "object": "thread spool",
+      "tool": null,
+      "target": "notepad",
+      "hands": "both",
+      "in_hand_at_end": {
+        "left": [],
+        "right": [
+          "pencil"
+        ]
+      },
+      "type": "action",
+      "ambiguous": false,
+      "boundary_note": "t=39-269s is one long repeated cycle: gather a small cluster of pins, spools, or coins, count it, then write the tally on the notepad with the pencil; repeated many times across every object category.",
+      "confidence": "low",
+      "notes": "differs_from_expectation: old_summary ('hand picks up a spool of thread') describes only a tiny fraction of this step; the frames instead show a long repeated group-count-tally cycle covering all three object categories. Confidence is low because the exact number of repeat cycles and which category is active at every instant cannot be resolved from 0.5fps overview sampling alone.",
+      "old_summary": "hand picks up a spool of thread",
+      "beyond_video_end": false,
+      "transition_in": "WEAK"
+    }
+  ],
+  "coarse": [
+    {
+      "start": 0.0,
+      "end": 20.71,
+      "fine_index_range": [
+        0,
+        3
+      ],
+      "instruction": "Empty the wallet and bag of materials",
+      "description": "Opens the wallet and shakes its coins onto the table, then pours a plastic bag of thread spools and sewing pins out beside them.",
+      "transition_in": null,
+      "goal_contribution": "Makes the objects available for sorting and counting.",
+      "predictability_level": "no",
+      "predictability_reason": "No prior subtask."
+    },
+    {
+      "start": 20.71,
+      "end": 38.82,
+      "fine_index_range": [
+        4,
+        6
+      ],
+      "instruction": "Separate the objects into piles by type",
+      "description": "Separates the mixed pile into spools, pins, and coins, picking through the emptied bag for any pins left inside.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Separates the object categories before counting them.",
+      "predictability_level": "strong",
+      "predictability_reason": "Emptied mixed materials are ready to sort by type."
+    },
+    {
+      "start": 38.82,
+      "end": 269.3,
+      "fine_index_range": [
+        7,
+        7
+      ],
+      "instruction": "Group, count, and tally each object category",
+      "description": "Repeatedly gathers a small cluster of pins, spools, or coins, counts it, and writes the running tally on a notepad for every category.",
+      "transition_in": "WEAK",
+      "goal_contribution": "Records the quantities after grouping and counting each category.",
+      "predictability_level": "strong",
+      "predictability_reason": "Separated object categories are ready to count and tally."
+    }
+  ]
+}

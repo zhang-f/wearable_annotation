@@ -1,0 +1,36 @@
+{
+  "video_id": "1ed4fd49e8e19860",
+  "method": "adjacent_subtask_text",
+  "subtasks": [
+    {
+      "index": 0,
+      "level": "no",
+      "reason": "No prior subtask."
+    },
+    {
+      "index": 1,
+      "level": "strong",
+      "reason": "After prepare the cup and sticker designs, attach the orange outlined graphic is a natural next stage toward decorate a pen holder with stickers."
+    },
+    {
+      "index": 2,
+      "level": "strong",
+      "reason": "After attach the orange outlined graphic, attach the conservation figure sticker is a natural next stage toward decorate a pen holder with stickers."
+    },
+    {
+      "index": 3,
+      "level": "strong",
+      "reason": "After attach the conservation figure sticker, attach the colored text sticker is a natural next stage toward decorate a pen holder with stickers."
+    },
+    {
+      "index": 4,
+      "level": "strong",
+      "reason": "After attach the colored text sticker, attach the black and white text sticker is a natural next stage toward decorate a pen holder with stickers."
+    },
+    {
+      "index": 5,
+      "level": "strong",
+      "reason": "After attach the black and white text sticker, add accent stickers and fill the holder is a natural next stage toward decorate a pen holder with stickers."
+    }
+  ]
+}
